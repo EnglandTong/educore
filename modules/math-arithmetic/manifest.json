@@ -1,0 +1,64 @@
+{
+  "id": "math.arithmetic",
+  "name": "Math Arithmetic",
+  "version": "1.0.0",
+  "subject": "math",
+  "category": "arithmetic",
+  "description": "Build number confidence from counting to multiplication and division",
+  "icon": "plus-circle",
+  "color": "#f59e0b",
+  "targetAge": { "min": 5, "max": 12 },
+  "skills": [
+    {
+      "id": "counting",
+      "name": "Counting & Number Sense",
+      "description": "Count objects, recognize numbers, and understand place value",
+      "subSkills": ["count-objects", "number-recognition", "skip-counting", "place-value"],
+      "order": 1
+    },
+    {
+      "id": "addition",
+      "name": "Addition",
+      "description": "Add single-digit and multi-digit numbers with and without regrouping",
+      "subSkills": ["single-digit-addition", "double-digit-addition", "addition-with-carrying", "missing-addends"],
+      "order": 2
+    },
+    {
+      "id": "subtraction",
+      "name": "Subtraction",
+      "description": "Subtract numbers and understand the relationship with addition",
+      "subSkills": ["single-digit-subtraction", "double-digit-subtraction", "subtraction-with-borrowing", "fact-families"],
+      "order": 3
+    },
+    {
+      "id": "multiplication",
+      "name": "Multiplication",
+      "description": "Multiply numbers using arrays, repeated addition, and times tables",
+      "subSkills": ["multiply-by-2-5-10", "multiply-by-3-4-6", "multiply-by-7-8-9", "two-digit-multiplication"],
+      "order": 4
+    },
+    {
+      "id": "division",
+      "name": "Division",
+      "description": "Divide numbers and understand the relationship with multiplication",
+      "subSkills": ["simple-division", "division-with-remainders", "long-division", "fact-families"],
+      "order": 5
+    }
+  ],
+  "levels": [
+    { "id": "A1", "name": "Beginner", "gradeRange": "K-1", "order": 1 },
+    { "id": "A2", "name": "Elementary", "gradeRange": "2-3", "order": 2 },
+    { "id": "B1", "name": "Intermediate", "gradeRange": "4-5", "order": 3 }
+  ],
+  "questionTypes": ["multiple-choice", "gap-filling", "true-false"],
+  "diagnostic": {
+    "rounds": 5,
+    "questionsPerRound": 5,
+    "strategy": "adaptive"
+  },
+  "training": {
+    "sessionLength": 30,
+    "adaptiveWeights": { "weak": 60, "current": 25, "review": 15 },
+    "masteryThreshold": 85
+  }
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "ma-a2-001",
+    "moduleId": "math.arithmetic",
+    "skill": "addition",
+    "subSkill": "double-digit-addition",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "23 + 15 = ?",
+    "choices": [
+      { "key": "A", "text": "38" },
+      { "key": "B", "text": "37" },
+      { "key": "C", "text": "48" },
+      { "key": "D", "text": "28" }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Almost! Check the ones place: 3 + 5 = 8, not 7.",
+      "C": "Check the tens place: 2 tens + 1 ten = 3 tens (30), not 4 tens.",
+      "D": "That's 23 + 5. Don't forget to add the 1 ten (10) from 15."
+    },
+    "explanation": "23 + 15 = 38. Add the ones: 3 + 5 = 8. Add the tens: 20 + 10 = 30. Put them together: 30 + 8 = 38.",
+    "explanationSteps": [
+      "Break 23 into 20 + 3, and 15 into 10 + 5.",
+      "Add the ones: 3 + 5 = 8.",
+      "Add the tens: 20 + 10 = 30.",
+      "Combine: 30 + 8 = 38."
+    ],
+    "hints": [
+      "Add the ones column first.",
+      "20 + 10 = 30, and 3 + 5 = 8."
+    ],
+    "tags": ["addition", "double-digit", "place-value"],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "ma-a2-002",
+    "moduleId": "math.arithmetic",
+    "skill": "subtraction",
+    "subSkill": "single-digit-subtraction",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "Maya had 12 stickers. She gave 5 to her friend. How many stickers does Maya have left?",
+    "choices": [
+      { "key": "A", "text": "6" },
+      { "key": "B", "text": "8" },
+      { "key": "C", "text": "7" },
+      { "key": "D", "text": "5" }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "12 minus 5 is more than 6. Try counting backwards from 12 five times.",
+      "B": "That's 12 minus 4. We're subtracting 5.",
+      "D": "That's how many she gave away. We want to know what's left."
+    },
+    "explanation": "12 - 5 = 7. Start at 12 and count backwards 5 steps: 11, 10, 9, 8, 7.",
+    "explanationSteps": [
+      "Start with the total: 12.",
+      "Count backwards 5 times: 11 (1), 10 (2), 9 (3), 8 (4), 7 (5).",
+      "Maya has 7 stickers left."
+    ],
+    "hints": [
+      "Start at 12 and count backwards 5 times.",
+      "12, 11, 10, 9, 8, 7 — what's the last number?"
+    ],
+    "tags": ["subtraction", "word-problem"],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-a2-003",
+    "moduleId": "math.arithmetic",
+    "skill": "addition",
+    "subSkill": "addition-with-carrying",
+    "level": "A2",
+    "questionType": "gap-filling",
+    "difficulty": 0.5,
+    "prompt": "46 + 38 = _______",
+    "answerKey": "84",
+    "explanation": "46 + 38 = 84. Ones: 6 + 8 = 14 (write 4, carry 1 ten). Tens: 4 + 3 + 1(carried) = 8. Result: 84.",
+    "explanationSteps": [
+      "Add the ones: 6 + 8 = 14. Write down 4, carry the 1 ten.",
+      "Add the tens: 4 + 3 = 7, plus the carried 1 = 8.",
+      "The answer is 84."
+    ],
+    "hints": [
+      "6 + 8 = 14 — what happens to the extra ten?",
+      "Remember to add the carried 1 to the tens column."
+    ],
+    "tags": ["addition", "carrying", "double-digit"],
+    "estimatedTimeSec": 45
+  }
+]

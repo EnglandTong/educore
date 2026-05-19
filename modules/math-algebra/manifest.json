@@ -1,0 +1,79 @@
+{
+  "id": "math.algebra",
+  "name": "Math Algebra",
+  "version": "1.0.0",
+  "subject": "math",
+  "category": "algebra",
+  "description": "Explore patterns, variables, equations, and functions from basics to advanced algebra",
+  "icon": "sigma",
+  "color": "#8b5cf6",
+  "targetAge": { "min": 8, "max": 18 },
+  "skills": [
+    {
+      "id": "patterns-sequences",
+      "name": "Patterns & Sequences",
+      "description": "Recognize, describe, and extend number patterns and sequences",
+      "subSkills": ["number-patterns", "shape-patterns", "arithmetic-sequences", "geometric-sequences"],
+      "order": 1
+    },
+    {
+      "id": "variables-expressions",
+      "name": "Variables & Expressions",
+      "description": "Understand variables, write and evaluate algebraic expressions",
+      "subSkills": ["variable-concepts", "writing-expressions", "evaluating-expressions", "like-terms"],
+      "order": 2
+    },
+    {
+      "id": "equations-inequalities",
+      "name": "Equations & Inequalities",
+      "description": "Solve linear equations and inequalities with one variable",
+      "subSkills": ["one-step-equations", "two-step-equations", "multi-step-equations", "inequalities"],
+      "order": 3
+    },
+    {
+      "id": "functions-graphs",
+      "name": "Functions & Graphs",
+      "description": "Understand functions, graph linear equations, interpret slope and intercepts",
+      "subSkills": ["function-concepts", "graphing-lines", "slope", "intercepts", "function-tables"],
+      "order": 4
+    },
+    {
+      "id": "systems-equations",
+      "name": "Systems of Equations",
+      "description": "Solve systems of equations using graphing, substitution, and elimination",
+      "subSkills": ["graphing-solutions", "substitution-method", "elimination-method", "word-problems"],
+      "order": 5
+    },
+    {
+      "id": "polynomials-factoring",
+      "name": "Polynomials & Factoring",
+      "description": "Add, subtract, multiply polynomials and factor expressions",
+      "subSkills": ["polynomial-basics", "multiplying-polynomials", "gcf-factoring", "quadratic-factoring"],
+      "order": 6
+    },
+    {
+      "id": "quadratics",
+      "name": "Quadratics",
+      "description": "Solve quadratic equations and understand parabolas",
+      "subSkills": ["quadratic-formula", "completing-square", "parabola-graphs", "quadratic-word-problems"],
+      "order": 7
+    }
+  ],
+  "levels": [
+    { "id": "A1", "name": "Foundations", "gradeRange": "3-4", "order": 1 },
+    { "id": "A2", "name": "Pre-Algebra", "gradeRange": "5-6", "order": 2 },
+    { "id": "B1", "name": "Algebra I", "gradeRange": "7-8", "order": 3 },
+    { "id": "B2", "name": "Algebra II", "gradeRange": "9-10", "order": 4 }
+  ],
+  "questionTypes": ["multiple-choice", "gap-filling", "true-false", "matching"],
+  "diagnostic": {
+    "rounds": 5,
+    "questionsPerRound": 5,
+    "strategy": "adaptive"
+  },
+  "training": {
+    "sessionLength": 30,
+    "adaptiveWeights": { "weak": 60, "current": 25, "review": 15 },
+    "masteryThreshold": 85
+  }
+}

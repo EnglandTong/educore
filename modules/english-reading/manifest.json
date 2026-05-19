@@ -1,0 +1,66 @@
+{
+  "id": "english.reading",
+  "name": "English Reading",
+  "version": "1.0.0",
+  "subject": "english",
+  "category": "reading",
+  "description": "Build reading comprehension skills from phonics to critical analysis of texts",
+  "icon": "book-open-text",
+  "color": "#06b6d4",
+  "targetAge": { "min": 5, "max": 18 },
+  "skills": [
+    {
+      "id": "phonics-decoding",
+      "name": "Phonics & Decoding",
+      "description": "Connect letters to sounds and decode words for reading fluency",
+      "subSkills": ["letter-sounds", "blending", "digraphs", "vowel-patterns", "syllable-rules"],
+      "order": 1
+    },
+    {
+      "id": "vocabulary",
+      "name": "Vocabulary Building",
+      "description": "Understand word meanings, context clues, and word relationships",
+      "subSkills": ["context-clues", "synonyms-antonyms", "prefixes-suffixes", "root-words", "homophones"],
+      "order": 2
+    },
+    {
+      "id": "literal-comprehension",
+      "name": "Literal Comprehension",
+      "description": "Identify main ideas, supporting details, and sequence of events",
+      "subSkills": ["main-idea", "key-details", "sequencing", "fact-vs-opinion", "who-what-where"],
+      "order": 3
+    },
+    {
+      "id": "inferential-comprehension",
+      "name": "Inferential Comprehension",
+      "description": "Make predictions, draw conclusions, and infer meaning from text",
+      "subSkills": ["making-predictions", "drawing-conclusions", "cause-effect", "character-feelings", "author-purpose"],
+      "order": 4
+    },
+    {
+      "id": "critical-analysis",
+      "name": "Critical Analysis",
+      "description": "Analyze text structure, themes, and author's craft",
+      "subSkills": ["text-structure", "theme-identification", "compare-contrast", "point-of-view", "figurative-language"],
+      "order": 5
+    }
+  ],
+  "levels": [
+    { "id": "A1", "name": "Emergent Reader", "gradeRange": "K-1", "order": 1 },
+    { "id": "A2", "name": "Early Reader", "gradeRange": "2-3", "order": 2 },
+    { "id": "B1", "name": "Developing Reader", "gradeRange": "4-5", "order": 3 },
+    { "id": "B2", "name": "Proficient Reader", "gradeRange": "6-8", "order": 4 },
+    { "id": "C1", "name": "Advanced Reader", "gradeRange": "9-12", "order": 5 }
+  ],
+  "questionTypes": ["multiple-choice", "gap-filling", "true-false", "open-ended"],
+  "diagnostic": {
+    "rounds": 5,
+    "questionsPerRound": 5,
+    "strategy": "adaptive"
+  },
+  "training": {
+    "sessionLength": 25,
+    "adaptiveWeights": { "weak": 60, "current": 25, "review": 15 },
+    "masteryThreshold": 85
+  }
+}

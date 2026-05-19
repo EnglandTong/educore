@@ -1,0 +1,86 @@
+[
+  {
+    "studentId": "demo-emily-001",
+    "name": "Emily",
+    "age": 10,
+    "grade": "5",
+    "avatar": "🌸",
+    "registrationDate": "2026-04-28T10:00:00Z",
+    "activitySummary": {
+      "totalSessions": 18,
+      "totalQuestionsAnswered": 420,
+      "totalCorrect": 286,
+      "currentStreak": 4,
+      "longestStreak": 7,
+      "totalXP": 3420,
+      "lastActive": "2026-05-11T16:30:00Z"
+    },
+    "skillMastery": [
+      { "skillId": "tense-aspect", "score": 72, "level": "proficient", "streak": { "current": 3, "best": 5 }, "totalAttempts": 45, "correctAttempts": 34 },
+      { "skillId": "subject-verb-agreement", "score": 58, "level": "developing", "streak": { "current": 1, "best": 4 }, "totalAttempts": 38, "correctAttempts": 24 },
+      { "skillId": "articles-determiners", "score": 65, "level": "developing", "streak": { "current": 2, "best": 6 }, "totalAttempts": 42, "correctAttempts": 30 },
+      { "skillId": "prepositions", "score": 48, "level": "growing", "streak": { "current": 0, "best": 3 }, "totalAttempts": 35, "correctAttempts": 19 },
+      { "skillId": "conditionals", "score": 35, "level": "growing", "streak": { "current": 1, "best": 2 }, "totalAttempts": 28, "correctAttempts": 14 },
+      { "skillId": "passive-voice", "score": 28, "level": "seedling", "streak": { "current": 0, "best": 2 }, "totalAttempts": 25, "correctAttempts": 11 },
+      { "skillId": "modal-verbs", "score": 52, "level": "developing", "streak": { "current": 2, "best": 4 }, "totalAttempts": 40, "correctAttempts": 24 },
+      { "skillId": "relative-clauses", "score": 22, "level": "seedling", "streak": { "current": 0, "best": 1 }, "totalAttempts": 22, "correctAttempts": 9 },
+      { "skillId": "reported-speech", "score": 18, "level": "seedling", "streak": { "current": 0, "best": 1 }, "totalAttempts": 20, "correctAttempts": 7 },
+      { "skillId": "conjunctions-connectors", "score": 41, "level": "growing", "streak": { "current": 1, "best": 3 }, "totalAttempts": 32, "correctAttempts": 18 }
+    ],
+    "recentSessions": [
+      {
+        "sessionId": "sess-2026-05-11-001",
+        "type": "training",
+        "date": "2026-05-11T16:30:00Z",
+        "questions": 25,
+        "correct": 18,
+        "timeSpent": 420,
+        "skillsPracticed": ["tense-aspect", "modal-verbs", "articles-determiners"]
+      },
+      {
+        "sessionId": "sess-2026-05-10-001",
+        "type": "training",
+        "date": "2026-05-10T15:00:00Z",
+        "questions": 20,
+        "correct": 12,
+        "timeSpent": 380,
+        "skillsPracticed": ["subject-verb-agreement", "prepositions", "conditionals"]
+      },
+      {
+        "sessionId": "sess-2026-05-09-001",
+        "type": "review",
+        "date": "2026-05-09T14:15:00Z",
+        "questions": 15,
+        "correct": 13,
+        "timeSpent": 240,
+        "skillsPracticed": ["tense-aspect", "articles-determiners"]
+      }
+    ],
+    "wrongAnswers": [
+      {
+        "questionId": "eg-b1-034",
+        "skill": "passive-voice",
+        "studentAnswer": "was wrote",
+        "correctAnswer": "was written",
+        "reviewStatus": "pending",
+        "nextReviewAt": "2026-05-13T10:00:00Z"
+      },
+      {
+        "questionId": "eg-b2-017",
+        "skill": "relative-clauses",
+        "studentAnswer": "which",
+        "correctAnswer": "who",
+        "reviewStatus": "reviewing",
+        "nextReviewAt": "2026-05-12T10:00:00Z"
+      },
+      {
+        "questionId": "eg-a2-089",
+        "skill": "prepositions",
+        "studentAnswer": "at",
+        "correctAnswer": "on",
+        "reviewStatus": "mastered",
+        "nextReviewAt": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,2042 @@
+[
+  {
+    "id": "cr-a2-001",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "word-meanings",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "\"快乐\"的意思是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "生气"
+      },
+      {
+        "key": "B",
+        "text": "开心"
+      },
+      {
+        "key": "C",
+        "text": "难过"
+      },
+      {
+        "key": "D",
+        "text": "害怕"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "\"生气\"是 angry，不是快乐的意思。",
+      "B": "没错！\"快乐\"（kuài lè）就是 happy、开心的意思！",
+      "C": "\"难过\"是 sad，和快乐相反。",
+      "D": "\"害怕\"是 scared，和快乐不同。"
+    },
+    "explanation": "\"快乐\"由\"快\"和\"乐\"组成，都表示喜悦、高兴的情感。",
+    "explanationSteps": [
+      "\"快\"有迅速、畅快的意思。",
+      "\"乐\"有高兴、喜悦的意思。",
+      "合在一起表示开心快乐的情感。"
+    ],
+    "hints": [
+      "\"生日快乐\"里的\"快乐\"是什么意思？",
+      "和\"高兴\"意思相近。"
+    ],
+    "tags": [
+      "词语",
+      "情感",
+      "常用词"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "cr-a2-002",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "synonyms-antonyms-zh",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "\"大\"的反义词是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "长"
+      },
+      {
+        "key": "B",
+        "text": "高"
+      },
+      {
+        "key": "C",
+        "text": "小"
+      },
+      {
+        "key": "D",
+        "text": "多"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "\"长\"的反义词是\"短\"，和大小不是一回事。",
+      "B": "\"高\"的反义词是\"矮\"或\"低\"。",
+      "C": "对啦！\"大\"和\"小\"是一对反义词！",
+      "D": "\"多\"的反义词是\"少\"。"
+    },
+    "explanation": "\"大\"和\"小\"是一对反义词，表示相反的体积或程度。",
+    "explanationSteps": [
+      "反义词意思相反。",
+      "\"大\"表示体积大或程度深。",
+      "\"小\"表示体积小或程度浅。"
+    ],
+    "hints": [
+      "想想和大相反的是什么？",
+      "\"大象\"和\"老鼠\"中，大象很___，老鼠很___。"
+    ],
+    "tags": [
+      "词语",
+      "反义词",
+      "基础"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "cr-a2-003",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "measure-words",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "一___书，空格里应该填什么量词？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "本"
+      },
+      {
+        "key": "B",
+        "text": "条"
+      },
+      {
+        "key": "C",
+        "text": "只"
+      },
+      {
+        "key": "D",
+        "text": "个"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "A": "没错！书用\"本\"来作为量词。",
+      "B": "\"条\"常用于长条形的物体，如一条鱼、一条路。",
+      "C": "\"只\"用于动物或成对物品中的一只，如一只猫、一只鞋。",
+      "D": "\"个\"是通用量词但书通常用\"本\"更合适。"
+    },
+    "explanation": "在中文中，书通常用量词\"本\"来计数。一本、两本、三本书。",
+    "explanationSteps": [
+      "不同的名词有不同搭配的量词。",
+      "书是装订成册的物品，用量词\"本\"。",
+      "其他例子：一本杂志、一本笔记本。"
+    ],
+    "hints": [
+      "书籍、本子都用哪个量词？",
+      "\"本\"和\"书\"常常在一起出现。"
+    ],
+    "tags": [
+      "量词",
+      "语法",
+      "基础"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "cr-a2-004",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "measure-words",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "一___狗，空格里应该填什么量词？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "本"
+      },
+      {
+        "key": "B",
+        "text": "条"
+      },
+      {
+        "key": "C",
+        "text": "只"
+      },
+      {
+        "key": "D",
+        "text": "张"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "\"本\"用于书、本子这一类物品。",
+      "B": "\"条\"用于细长的物体。",
+      "C": "对！动物通常用量词\"只\"，一只狗、一只猫、一只鸟。",
+      "D": "\"张\"用于扁平的东西，如一张纸、一张桌子。"
+    },
+    "explanation": "动物通常用量词\"只\"。一只狗、两只猫、三只鸟。",
+    "explanationSteps": [
+      "量词\"只\"常用于动物。",
+      "也可以用于成对物品中的一只。",
+      "一只狗、一只猫、一只鸡。"
+    ],
+    "hints": [
+      "小狗小动物用哪个量词？",
+      "\"一___猫\"里用什么？和狗一样。"
+    ],
+    "tags": [
+      "量词",
+      "动物",
+      "基础"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "cr-a2-005",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "compound-words",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "\"花园\"这个词是怎么组成的？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "花 + 园"
+      },
+      {
+        "key": "B",
+        "text": "草 + 原"
+      },
+      {
+        "key": "C",
+        "text": "花 + 朵"
+      },
+      {
+        "key": "D",
+        "text": "园 + 子"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "A": "没错！\"花园\" = \"花\"（flower）+ \"园\"（garden）。",
+      "B": "\"草原\"是另一个词，由\"草\"和\"原\"组成。",
+      "C": "\"花朵\"由\"花\"和\"朵\"组成，是花的意思。",
+      "D": "\"园子\"由\"园\"和\"子\"组成。"
+    },
+    "explanation": "\"花园\"是一个合成词，由\"花\"和\"园\"组合而成，意思是种着花的园子。",
+    "explanationSteps": [
+      "\"花\"指花朵、花草。",
+      "\"园\"指园子、场地。",
+      "合起来就是种花的园子。"
+    ],
+    "hints": [
+      "先想想\"花\"是什么，\"园\"是什么。",
+      "公园里种了很多花的地方叫什么？"
+    ],
+    "tags": [
+      "词语",
+      "合成词",
+      "自然"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "cr-a2-006",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "synonyms-antonyms-zh",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "\"高兴\"的近义词是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "难过"
+      },
+      {
+        "key": "B",
+        "text": "生气"
+      },
+      {
+        "key": "C",
+        "text": "快乐"
+      },
+      {
+        "key": "D",
+        "text": "害怕"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "\"难过\"是 sad，和高兴相反。",
+      "B": "\"生气\"是 angry，不是高兴的意思。",
+      "C": "对！\"快乐\"和\"高兴\"意思相近，都是 happy！",
+      "D": "\"害怕\"是 scared，和高兴不同。"
+    },
+    "explanation": "\"高兴\"和\"快乐\"是近义词，都表示开心、喜悦的情感。",
+    "explanationSteps": [
+      "近义词是意思相近的词语。",
+      "\"高兴\"表示心情愉快。",
+      "\"快乐\"也表示开心的心情。"
+    ],
+    "hints": [
+      "想想和\"开心\"意思差不多的词。",
+      "生日的时候大家会对你说什么？"
+    ],
+    "tags": [
+      "词语",
+      "近义词",
+      "情感"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "cr-a2-007",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "chengyu",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "prompt": "\"雪中送炭\"是什么意思？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "下雪天送木炭"
+      },
+      {
+        "key": "B",
+        "text": "在别人困难时给予帮助"
+      },
+      {
+        "key": "C",
+        "text": "冬天很冷"
+      },
+      {
+        "key": "D",
+        "text": "送礼物"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "字面上是这个意思，但成语有引申义。",
+      "B": "没错！\"雪中送炭\"比喻在别人最需要的时候给予帮助。",
+      "C": "不只是说天气冷，而是关于帮助别人。",
+      "D": "不只是送礼物，而是在困难的时候提供帮助。"
+    },
+    "explanation": "\"雪中送炭\"字面意思是下雪天给人送炭取暖，比喻在别人急需时给予帮助。",
+    "explanationSteps": [
+      "\"雪中\"指下雪天，非常寒冷的时候。",
+      "\"送炭\"送来木炭取暖。",
+      "比喻在最需要的时候提供帮助。"
+    ],
+    "hints": [
+      "想一想什么时候你最需要帮助？",
+      "\"炭\"是取暖用的木炭。"
+    ],
+    "tags": [
+      "成语",
+      "比喻",
+      "品德"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "cr-a2-008",
+    "moduleId": "chinese.reading",
+    "skill": "sentence-structure",
+    "subSkill": "subject-predicate",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "在\"小猫在睡觉\"这个句子里，\"小猫\"是什么成分？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "主语"
+      },
+      {
+        "key": "B",
+        "text": "谓语"
+      },
+      {
+        "key": "C",
+        "text": "宾语"
+      },
+      {
+        "key": "D",
+        "text": "定语"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "A": "没错！\"小猫\"是句子的主语，是动作的发出者。",
+      "B": "\"在睡觉\"才是谓语，说明做什么。",
+      "C": "宾语是动作的对象，这个句子里没有宾语。",
+      "D": "定语是用来修饰名词的。"
+    },
+    "explanation": "在\"小猫在睡觉\"中，\"小猫\"是主语（谁），\"在睡觉\"是谓语（做什么）。",
+    "explanationSteps": [
+      "主语是句子要说明的人或事物。",
+      "\"小猫\"是我们要说的事物。",
+      "\"在睡觉\"说明小猫在做什么。"
+    ],
+    "hints": [
+      "问问自己：谁在睡觉？",
+      "句子里最前面的名词通常是主语。"
+    ],
+    "tags": [
+      "语法",
+      "句子成分",
+      "主语"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "cr-a2-009",
+    "moduleId": "chinese.reading",
+    "skill": "sentence-structure",
+    "subSkill": "subject-predicate",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "在\"妈妈做饭\"这个句子里，哪个是谓语？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "妈妈"
+      },
+      {
+        "key": "B",
+        "text": "做饭"
+      },
+      {
+        "key": "C",
+        "text": "饭"
+      },
+      {
+        "key": "D",
+        "text": "妈妈做饭"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "\"妈妈\"是主语，不是谓语。",
+      "B": "没错！\"做饭\"是谓语，说明主语做什么。",
+      "C": "\"饭\"是宾语，是做的对象。",
+      "D": "整个句子不是谓语，谓语是说明主语动作的部分。"
+    },
+    "explanation": "在\"妈妈做饭\"中，\"妈妈\"是主语，\"做\"是谓语动词，\"饭\"是宾语。\"做饭\"整体在这里充当谓语。",
+    "explanationSteps": [
+      "先找主语：谁？→ 妈妈。",
+      "再找谓语：做什么？→ 做饭。",
+      "谓语说明主语的动作或状态。"
+    ],
+    "hints": [
+      "问问自己：妈妈在做什么？",
+      "谓语就是回答\"做什么\"或\"怎么样\"的部分。"
+    ],
+    "tags": [
+      "语法",
+      "句子成分",
+      "谓语"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "cr-a2-010",
+    "moduleId": "chinese.reading",
+    "skill": "sentence-structure",
+    "subSkill": "question-sentences",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "下面哪个句子是疑问句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "今天天气真好。"
+      },
+      {
+        "key": "B",
+        "text": "你去学校吗？"
+      },
+      {
+        "key": "C",
+        "text": "我要吃饭了。"
+      },
+      {
+        "key": "D",
+        "text": "弟弟在睡觉。"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "这是陈述句，在陈述一个事实。",
+      "B": "正确！加\"吗\"和问号的就是疑问句，用来提问。",
+      "C": "这是陈述句，表示自己的意愿。",
+      "D": "这是陈述句，在描述情况。"
+    },
+    "explanation": "疑问句用来提问。\"你去学校吗？\"用了疑问词\"吗\"和问号，是疑问句。",
+    "explanationSteps": [
+      "疑问句用来问问题。",
+      "常用疑问词：吗、呢、什么、谁、哪里等。",
+      "句末用问号。"
+    ],
+    "hints": [
+      "看看哪个句子末尾有问号？",
+      "哪个句子是在问问题？"
+    ],
+    "tags": [
+      "语法",
+      "句型",
+      "疑问句"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "cr-a2-011",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "word-meanings",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "\"邻居\"指的是谁？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "住在附近的人"
+      },
+      {
+        "key": "B",
+        "text": "同班同学"
+      },
+      {
+        "key": "C",
+        "text": "家里的亲人"
+      },
+      {
+        "key": "D",
+        "text": "老师"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "A": "没错！\"邻居\"就是住在你家附近的人。",
+      "B": "同学是和你一起上学的人，不一定是邻居。",
+      "C": "亲人是和你有一家人的关系的。",
+      "D": "老师是学校里教你知识的人。"
+    },
+    "explanation": "\"邻居\"指居住在自己家附近的人，隔壁或附近的住户。",
+    "explanationSteps": [
+      "\"邻\"是邻近、附近的意思。",
+      "\"居\"是居住的意思。",
+      "合起来就是住在附近的人。"
+    ],
+    "hints": [
+      "你家隔壁住的人是谁？",
+      "住在同一个小区或街道的人。"
+    ],
+    "tags": [
+      "词语",
+      "人际关系",
+      "生活"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "cr-a2-012",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "compound-words",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "\"月亮\"中的\"亮\"在这里起什么作用？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "表示明亮"
+      },
+      {
+        "key": "B",
+        "text": "没有实际意义，补充音节"
+      },
+      {
+        "key": "C",
+        "text": "表示高兴"
+      },
+      {
+        "key": "D",
+        "text": "表示数量"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "A": "没错！\"亮\"表示月亮是明亮的。",
+      "B": "\"亮\"在这里有实际意义，说明月亮的特性。",
+      "C": "\"亮\"和高兴没有关系。",
+      "D": "\"亮\"不表示数量。"
+    },
+    "explanation": "\"月亮\"中\"月\"指月球，\"亮\"形容其明亮、发光的特点。",
+    "explanationSteps": [
+      "\"月\"是月球的意思。",
+      "\"亮\"是明亮的意思。",
+      "合起来指发光的月亮。"
+    ],
+    "hints": [
+      "夜晚天空中的月亮是什么样子的？",
+      "它是不是会发光？"
+    ],
+    "tags": [
+      "词语",
+      "合成词",
+      "自然"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "cr-a2-013",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "measure-words",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "教室里有一___桌子。应该填什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "张"
+      },
+      {
+        "key": "B",
+        "text": "条"
+      },
+      {
+        "key": "C",
+        "text": "只"
+      },
+      {
+        "key": "D",
+        "text": "本"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "A": "对！桌子用\"张\"作为量词。",
+      "B": "\"条\"用于长条形的东西，如一条河。",
+      "C": "\"只\"用于动物或成对的物品。",
+      "D": "\"本\"用于书、本子。"
+    },
+    "explanation": "桌子、椅子等家具通常用量词\"张\"。一张桌子、两张椅子。",
+    "explanationSteps": [
+      "量词\"张\"用于扁平或可展开的物品。",
+      "桌子有平坦的桌面，所以用\"张\"。",
+      "也用于：一张纸、一张床。"
+    ],
+    "hints": [
+      "桌子是平平的还是长条的？",
+      "\"一___纸\"里用什么量词？桌子也一样。"
+    ],
+    "tags": [
+      "量词",
+      "生活",
+      "基础"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "cr-a2-014",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "synonyms-antonyms-zh",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "prompt": "\"冷\"的反义词是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "凉"
+      },
+      {
+        "key": "B",
+        "text": "温"
+      },
+      {
+        "key": "C",
+        "text": "热"
+      },
+      {
+        "key": "D",
+        "text": "冰"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "\"凉\"也是凉快的意思，和\"冷\"比较接近。",
+      "B": "\"温\"是温和、温暖，但不是最直接的反义词。",
+      "C": "没错！\"冷\"和\"热\"是反义词！",
+      "D": "\"冰\"表示冰冷，和冷是近义词。"
+    },
+    "explanation": "\"冷\"和\"热\"是一对反义词，表示温度的两个极端。",
+    "explanationSteps": [
+      "反义词是意思相反的词。",
+      "\"冷\"表示温度低。",
+      "\"热\"表示温度高。"
+    ],
+    "hints": [
+      "冬天很___，夏天很___。",
+      "想想和\"冷\"完全相反的感觉。"
+    ],
+    "tags": [
+      "词语",
+      "反义词",
+      "温度"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "cr-a2-015",
+    "moduleId": "chinese.reading",
+    "skill": "sentence-structure",
+    "subSkill": "question-sentences",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "prompt": "\"这本书是谁的？\"这个问句应该怎么回答？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "是的，这是书。"
+      },
+      {
+        "key": "B",
+        "text": "这本书是我的。"
+      },
+      {
+        "key": "C",
+        "text": "书很好看。"
+      },
+      {
+        "key": "D",
+        "text": "三本书。"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "这是在回答\"是吗\"的问题，不是问\"谁的\"。",
+      "B": "对！问\"谁的\"就要回答属于谁，\"我的\"对了！",
+      "C": "这是在回答\"怎么样\"的问题。",
+      "D": "这是在回答数量的问题。"
+    },
+    "explanation": "当问题用\"谁的\"来问时，要回答物品属于谁，如\"我的\"\"他的\"\"老师的\"等。",
+    "explanationSteps": [
+      "\"谁的\"询问物品的归属。",
+      "回答时要说清楚属于谁。",
+      "例子：\"我的\"\"你的\"\"老师的\"。"
+    ],
+    "hints": [
+      "\"谁的\"是在问什么？",
+      "如果是你的，应该怎么回答？"
+    ],
+    "tags": [
+      "语法",
+      "问句",
+      "回答"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "cr-a2-016",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "chengyu",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "\"画蛇添足\"这个成语告诉我们什么道理？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "画画要画蛇和脚"
+      },
+      {
+        "key": "B",
+        "text": "多此一举，做不必要的事"
+      },
+      {
+        "key": "C",
+        "text": "蛇本来就有脚"
+      },
+      {
+        "key": "D",
+        "text": "画画要画完整"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "这是字面意思，成语有更深层的寓意。",
+      "B": "没错！\"画蛇添足\"比喻做了多余、不必要的事情。",
+      "C": "蛇本来没有脚，画蛇加脚是多此一举。",
+      "D": "这个成语不是说画画要完整。"
+    },
+    "explanation": "\"画蛇添足\"讲的是几个人比赛画蛇，先画好的人给蛇添上脚反而输了的故事，比喻多此一举。",
+    "explanationSteps": [
+      "古时候几个人比赛画蛇。",
+      "先画好的人觉得再加几只脚更好。",
+      "结果蛇本来没有脚，反而画错了。"
+    ],
+    "hints": [
+      "蛇有脚吗？",
+      "想想做事情有没有多余的动作。"
+    ],
+    "tags": [
+      "成语",
+      "寓言",
+      "道理"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "cr-a2-017",
+    "moduleId": "chinese.reading",
+    "skill": "sentence-structure",
+    "subSkill": "subject-predicate",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "prompt": "\"小鸟在树上唱歌。\"这个句子中\"在树上\"是什么成分？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "状语（说明在哪里）"
+      },
+      {
+        "key": "B",
+        "text": "主语"
+      },
+      {
+        "key": "C",
+        "text": "宾语"
+      },
+      {
+        "key": "D",
+        "text": "定语"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "A": "没错！\"在树上\"是状语，说明唱歌的地点。",
+      "B": "\"小鸟\"才是主语。",
+      "C": "\"歌\"是宾语。",
+      "D": "定语修饰名词，这里没有。"
+    },
+    "explanation": "在\"小鸟在树上唱歌\"中，\"小鸟\"是主语，\"在树上\"是地点状语，\"唱\"是谓语，\"歌\"是宾语。",
+    "explanationSteps": [
+      "先找主语：谁？→ 小鸟。",
+      "\"在树上\"说明在哪里唱歌。",
+      "说明地点的成分是状语。"
+    ],
+    "hints": [
+      "\"在树上\"回答了什么问题？",
+      "它是在说唱歌怎么样还是在说在哪里？"
+    ],
+    "tags": [
+      "语法",
+      "句子成分",
+      "状语"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "cr-a2-018",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "compound-words",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "prompt": "\"图书馆\"这个词由几个字组成？分别是什么意思？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "图=图片，书=书本，馆=地方 → 有图片和书的地方"
+      },
+      {
+        "key": "B",
+        "text": "图=图书，书=书籍，馆=馆所 → 收藏图书的地方"
+      },
+      {
+        "key": "C",
+        "text": "图=画画，书=写字，馆=房子"
+      },
+      {
+        "key": "D",
+        "text": "图=地图，书=书法，馆=餐厅"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "\"图\"在这里是\"图书\"的意思，不只是图片。",
+      "B": "没错！\"图\"指图书，\"书\"指书籍，\"馆\"指馆所，合起来就是收藏图书供人阅读的地方。",
+      "C": "\"图\"和\"书\"合起来是\"图书\"的意思。",
+      "D": "理解不太准确，\"图\"和\"书\"合在一起指书籍读物。"
+    },
+    "explanation": "\"图书馆\"由\"图书\"（书籍）+ \"馆\"（场所）组成，是收藏和借阅图书的地方。",
+    "explanationSteps": [
+      "\"图\"和\"书\"合在一起表示书籍读物。",
+      "\"馆\"表示公共建筑场所。",
+      "合起来就是收藏图书的公共建筑。"
+    ],
+    "hints": [
+      "什么地方可以借书？",
+      "\"馆\"是场所的意思。"
+    ],
+    "tags": [
+      "词语",
+      "合成词",
+      "学校"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "cr-a2-019",
+    "moduleId": "chinese.reading",
+    "skill": "sentence-structure",
+    "subSkill": "question-sentences",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "prompt": "下面哪个句子是\"吗\"字疑问句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "你在做什么？"
+      },
+      {
+        "key": "B",
+        "text": "你吃饭了吗？"
+      },
+      {
+        "key": "C",
+        "text": "这是谁的笔？"
+      },
+      {
+        "key": "D",
+        "text": "我们去哪里？"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "这是用\"什么\"提问的特殊疑问句。",
+      "B": "对！\"吗\"字句是在句末加\"吗\"来提问的疑问句。",
+      "C": "这是用\"谁\"提问的特殊疑问句。",
+      "D": "这是用\"哪里\"提问的特殊疑问句。"
+    },
+    "explanation": "\"吗\"字疑问句是在陈述句末尾加上\"吗\"，用来询问是或不是。\"你吃饭了吗？\"就是这样的句子。",
+    "explanationSteps": [
+      "\"吗\"是疑问语气词。",
+      "加在陈述句末尾构成疑问句。",
+      "回答通常用\"是/不是\"或\"有/没有\"。"
+    ],
+    "hints": [
+      "看看哪个句子末尾有\"吗\"字？",
+      "\"吗\"字句的回答通常是\"是\"或\"不是\"。"
+    ],
+    "tags": [
+      "语法",
+      "疑问句",
+      "基础"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "cr-a2-020",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "word-meanings",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "\"认真\"的意思是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "马虎、随便"
+      },
+      {
+        "key": "B",
+        "text": "专心、仔细"
+      },
+      {
+        "key": "C",
+        "text": "开心地玩"
+      },
+      {
+        "key": "D",
+        "text": "大声说话"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "\"马虎\"是\"认真\"的反义词哦。",
+      "B": "对！\"认真\"就是专心、仔细、不马虎。",
+      "C": "\"认真\"和开心玩耍没有直接关系。",
+      "D": "\"认真\"和声音大小没有关系。"
+    },
+    "explanation": "\"认真\"表示做事专心、仔细、不马虎的态度。老师常说\"要认真学习\"。",
+    "explanationSteps": [
+      "\"认\"是认识、对待的意思。",
+      "\"真\"是真切、实在的意思。",
+      "合起来表示用真心、仔细地做事情。"
+    ],
+    "hints": [
+      "老师希望你怎样做作业？",
+      "和\"马虎\"相反的态度是什么？"
+    ],
+    "tags": [
+      "词语",
+      "态度",
+      "常用词"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "cr-a2-001",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "word-meanings",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "\"快乐\"的意思是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "生气"
+      },
+      {
+        "key": "B",
+        "text": "开心"
+      },
+      {
+        "key": "C",
+        "text": "难过"
+      },
+      {
+        "key": "D",
+        "text": "害怕"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "\"生气\"是 angry，不是快乐的意思。",
+      "B": "没错！\"快乐\"（kuài lè）就是 happy、开心的意思！",
+      "C": "\"难过\"是 sad，和快乐相反。",
+      "D": "\"害怕\"是 scared，和快乐不同。"
+    },
+    "explanation": "\"快乐\"由\"快\"和\"乐\"组成，都表示喜悦、高兴的情感。",
+    "explanationSteps": [
+      "\"快\"有迅速、畅快的意思。",
+      "\"乐\"有高兴、喜悦的意思。",
+      "合在一起表示开心快乐的情感。"
+    ],
+    "hints": [
+      "\"生日快乐\"里的\"快乐\"是什么意思？",
+      "和\"高兴\"意思相近。"
+    ],
+    "tags": [
+      "词语",
+      "情感",
+      "常用词"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "cr-a2-002",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "synonyms-antonyms-zh",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "\"大\"的反义词是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "长"
+      },
+      {
+        "key": "B",
+        "text": "高"
+      },
+      {
+        "key": "C",
+        "text": "小"
+      },
+      {
+        "key": "D",
+        "text": "多"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "\"长\"的反义词是\"短\"，和大小不是一回事。",
+      "B": "\"高\"的反义词是\"矮\"或\"低\"。",
+      "C": "对啦！\"大\"和\"小\"是一对反义词！",
+      "D": "\"多\"的反义词是\"少\"。"
+    },
+    "explanation": "\"大\"和\"小\"是一对反义词，表示相反的体积或程度。",
+    "explanationSteps": [
+      "反义词意思相反。",
+      "\"大\"表示体积大或程度深。",
+      "\"小\"表示体积小或程度浅。"
+    ],
+    "hints": [
+      "想想和大相反的是什么？",
+      "\"大象\"和\"老鼠\"中，大象很___，老鼠很___。"
+    ],
+    "tags": [
+      "词语",
+      "反义词",
+      "基础"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "cr-a2-003",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "measure-words",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "一___书，空格里应该填什么量词？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "本"
+      },
+      {
+        "key": "B",
+        "text": "条"
+      },
+      {
+        "key": "C",
+        "text": "只"
+      },
+      {
+        "key": "D",
+        "text": "个"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "A": "没错！书用\"本\"来作为量词。",
+      "B": "\"条\"常用于长条形的物体，如一条鱼、一条路。",
+      "C": "\"只\"用于动物或成对物品中的一只，如一只猫、一只鞋。",
+      "D": "\"个\"是通用量词但书通常用\"本\"更合适。"
+    },
+    "explanation": "在中文中，书通常用量词\"本\"来计数。一本、两本、三本书。",
+    "explanationSteps": [
+      "不同的名词有不同搭配的量词。",
+      "书是装订成册的物品，用量词\"本\"。",
+      "其他例子：一本杂志、一本笔记本。"
+    ],
+    "hints": [
+      "书籍、本子都用哪个量词？",
+      "\"本\"和\"书\"常常在一起出现。"
+    ],
+    "tags": [
+      "量词",
+      "语法",
+      "基础"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "cr-a2-004",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "measure-words",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "一___狗，空格里应该填什么量词？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "本"
+      },
+      {
+        "key": "B",
+        "text": "条"
+      },
+      {
+        "key": "C",
+        "text": "只"
+      },
+      {
+        "key": "D",
+        "text": "张"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "\"本\"用于书、本子这一类物品。",
+      "B": "\"条\"用于细长的物体。",
+      "C": "对！动物通常用量词\"只\"，一只狗、一只猫、一只鸟。",
+      "D": "\"张\"用于扁平的东西，如一张纸、一张桌子。"
+    },
+    "explanation": "动物通常用量词\"只\"。一只狗、两只猫、三只鸟。",
+    "explanationSteps": [
+      "量词\"只\"常用于动物。",
+      "也可以用于成对物品中的一只。",
+      "一只狗、一只猫、一只鸡。"
+    ],
+    "hints": [
+      "小狗小动物用哪个量词？",
+      "\"一___猫\"里用什么？和狗一样。"
+    ],
+    "tags": [
+      "量词",
+      "动物",
+      "基础"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "cr-a2-005",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "compound-words",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "\"花园\"这个词是怎么组成的？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "花 + 园"
+      },
+      {
+        "key": "B",
+        "text": "草 + 原"
+      },
+      {
+        "key": "C",
+        "text": "花 + 朵"
+      },
+      {
+        "key": "D",
+        "text": "园 + 子"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "A": "没错！\"花园\" = \"花\"（flower）+ \"园\"（garden）。",
+      "B": "\"草原\"是另一个词，由\"草\"和\"原\"组成。",
+      "C": "\"花朵\"由\"花\"和\"朵\"组成，是花的意思。",
+      "D": "\"园子\"由\"园\"和\"子\"组成。"
+    },
+    "explanation": "\"花园\"是一个合成词，由\"花\"和\"园\"组合而成，意思是种着花的园子。",
+    "explanationSteps": [
+      "\"花\"指花朵、花草。",
+      "\"园\"指园子、场地。",
+      "合起来就是种花的园子。"
+    ],
+    "hints": [
+      "先想想\"花\"是什么，\"园\"是什么。",
+      "公园里种了很多花的地方叫什么？"
+    ],
+    "tags": [
+      "词语",
+      "合成词",
+      "自然"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "cr-a2-006",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "synonyms-antonyms-zh",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "\"高兴\"的近义词是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "难过"
+      },
+      {
+        "key": "B",
+        "text": "生气"
+      },
+      {
+        "key": "C",
+        "text": "快乐"
+      },
+      {
+        "key": "D",
+        "text": "害怕"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "\"难过\"是 sad，和高兴相反。",
+      "B": "\"生气\"是 angry，不是高兴的意思。",
+      "C": "对！\"快乐\"和\"高兴\"意思相近，都是 happy！",
+      "D": "\"害怕\"是 scared，和高兴不同。"
+    },
+    "explanation": "\"高兴\"和\"快乐\"是近义词，都表示开心、喜悦的情感。",
+    "explanationSteps": [
+      "近义词是意思相近的词语。",
+      "\"高兴\"表示心情愉快。",
+      "\"快乐\"也表示开心的心情。"
+    ],
+    "hints": [
+      "想想和\"开心\"意思差不多的词。",
+      "生日的时候大家会对你说什么？"
+    ],
+    "tags": [
+      "词语",
+      "近义词",
+      "情感"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "cr-a2-007",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "chengyu",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "prompt": "\"雪中送炭\"是什么意思？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "下雪天送木炭"
+      },
+      {
+        "key": "B",
+        "text": "在别人困难时给予帮助"
+      },
+      {
+        "key": "C",
+        "text": "冬天很冷"
+      },
+      {
+        "key": "D",
+        "text": "送礼物"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "字面上是这个意思，但成语有引申义。",
+      "B": "没错！\"雪中送炭\"比喻在别人最需要的时候给予帮助。",
+      "C": "不只是说天气冷，而是关于帮助别人。",
+      "D": "不只是送礼物，而是在困难的时候提供帮助。"
+    },
+    "explanation": "\"雪中送炭\"字面意思是下雪天给人送炭取暖，比喻在别人急需时给予帮助。",
+    "explanationSteps": [
+      "\"雪中\"指下雪天，非常寒冷的时候。",
+      "\"送炭\"送来木炭取暖。",
+      "比喻在最需要的时候提供帮助。"
+    ],
+    "hints": [
+      "想一想什么时候你最需要帮助？",
+      "\"炭\"是取暖用的木炭。"
+    ],
+    "tags": [
+      "成语",
+      "比喻",
+      "品德"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "cr-a2-008",
+    "moduleId": "chinese.reading",
+    "skill": "sentence-structure",
+    "subSkill": "subject-predicate",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "在\"小猫在睡觉\"这个句子里，\"小猫\"是什么成分？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "主语"
+      },
+      {
+        "key": "B",
+        "text": "谓语"
+      },
+      {
+        "key": "C",
+        "text": "宾语"
+      },
+      {
+        "key": "D",
+        "text": "定语"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "A": "没错！\"小猫\"是句子的主语，是动作的发出者。",
+      "B": "\"在睡觉\"才是谓语，说明做什么。",
+      "C": "宾语是动作的对象，这个句子里没有宾语。",
+      "D": "定语是用来修饰名词的。"
+    },
+    "explanation": "在\"小猫在睡觉\"中，\"小猫\"是主语（谁），\"在睡觉\"是谓语（做什么）。",
+    "explanationSteps": [
+      "主语是句子要说明的人或事物。",
+      "\"小猫\"是我们要说的事物。",
+      "\"在睡觉\"说明小猫在做什么。"
+    ],
+    "hints": [
+      "问问自己：谁在睡觉？",
+      "句子里最前面的名词通常是主语。"
+    ],
+    "tags": [
+      "语法",
+      "句子成分",
+      "主语"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "cr-a2-009",
+    "moduleId": "chinese.reading",
+    "skill": "sentence-structure",
+    "subSkill": "subject-predicate",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "在\"妈妈做饭\"这个句子里，哪个是谓语？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "妈妈"
+      },
+      {
+        "key": "B",
+        "text": "做饭"
+      },
+      {
+        "key": "C",
+        "text": "饭"
+      },
+      {
+        "key": "D",
+        "text": "妈妈做饭"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "\"妈妈\"是主语，不是谓语。",
+      "B": "没错！\"做饭\"是谓语，说明主语做什么。",
+      "C": "\"饭\"是宾语，是做的对象。",
+      "D": "整个句子不是谓语，谓语是说明主语动作的部分。"
+    },
+    "explanation": "在\"妈妈做饭\"中，\"妈妈\"是主语，\"做\"是谓语动词，\"饭\"是宾语。\"做饭\"整体在这里充当谓语。",
+    "explanationSteps": [
+      "先找主语：谁？→ 妈妈。",
+      "再找谓语：做什么？→ 做饭。",
+      "谓语说明主语的动作或状态。"
+    ],
+    "hints": [
+      "问问自己：妈妈在做什么？",
+      "谓语就是回答\"做什么\"或\"怎么样\"的部分。"
+    ],
+    "tags": [
+      "语法",
+      "句子成分",
+      "谓语"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "cr-a2-010",
+    "moduleId": "chinese.reading",
+    "skill": "sentence-structure",
+    "subSkill": "question-sentences",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "下面哪个句子是疑问句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "今天天气真好。"
+      },
+      {
+        "key": "B",
+        "text": "你去学校吗？"
+      },
+      {
+        "key": "C",
+        "text": "我要吃饭了。"
+      },
+      {
+        "key": "D",
+        "text": "弟弟在睡觉。"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "这是陈述句，在陈述一个事实。",
+      "B": "正确！加\"吗\"和问号的就是疑问句，用来提问。",
+      "C": "这是陈述句，表示自己的意愿。",
+      "D": "这是陈述句，在描述情况。"
+    },
+    "explanation": "疑问句用来提问。\"你去学校吗？\"用了疑问词\"吗\"和问号，是疑问句。",
+    "explanationSteps": [
+      "疑问句用来问问题。",
+      "常用疑问词：吗、呢、什么、谁、哪里等。",
+      "句末用问号。"
+    ],
+    "hints": [
+      "看看哪个句子末尾有问号？",
+      "哪个句子是在问问题？"
+    ],
+    "tags": [
+      "语法",
+      "句型",
+      "疑问句"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "cr-a2-011",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "word-meanings",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "\"邻居\"指的是谁？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "住在附近的人"
+      },
+      {
+        "key": "B",
+        "text": "同班同学"
+      },
+      {
+        "key": "C",
+        "text": "家里的亲人"
+      },
+      {
+        "key": "D",
+        "text": "老师"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "A": "没错！\"邻居\"就是住在你家附近的人。",
+      "B": "同学是和你一起上学的人，不一定是邻居。",
+      "C": "亲人是和你有一家人的关系的。",
+      "D": "老师是学校里教你知识的人。"
+    },
+    "explanation": "\"邻居\"指居住在自己家附近的人，隔壁或附近的住户。",
+    "explanationSteps": [
+      "\"邻\"是邻近、附近的意思。",
+      "\"居\"是居住的意思。",
+      "合起来就是住在附近的人。"
+    ],
+    "hints": [
+      "你家隔壁住的人是谁？",
+      "住在同一个小区或街道的人。"
+    ],
+    "tags": [
+      "词语",
+      "人际关系",
+      "生活"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "cr-a2-012",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "compound-words",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "\"月亮\"中的\"亮\"在这里起什么作用？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "表示明亮"
+      },
+      {
+        "key": "B",
+        "text": "没有实际意义，补充音节"
+      },
+      {
+        "key": "C",
+        "text": "表示高兴"
+      },
+      {
+        "key": "D",
+        "text": "表示数量"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "A": "没错！\"亮\"表示月亮是明亮的。",
+      "B": "\"亮\"在这里有实际意义，说明月亮的特性。",
+      "C": "\"亮\"和高兴没有关系。",
+      "D": "\"亮\"不表示数量。"
+    },
+    "explanation": "\"月亮\"中\"月\"指月球，\"亮\"形容其明亮、发光的特点。",
+    "explanationSteps": [
+      "\"月\"是月球的意思。",
+      "\"亮\"是明亮的意思。",
+      "合起来指发光的月亮。"
+    ],
+    "hints": [
+      "夜晚天空中的月亮是什么样子的？",
+      "它是不是会发光？"
+    ],
+    "tags": [
+      "词语",
+      "合成词",
+      "自然"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "cr-a2-013",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "measure-words",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "教室里有一___桌子。应该填什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "张"
+      },
+      {
+        "key": "B",
+        "text": "条"
+      },
+      {
+        "key": "C",
+        "text": "只"
+      },
+      {
+        "key": "D",
+        "text": "本"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "A": "对！桌子用\"张\"作为量词。",
+      "B": "\"条\"用于长条形的东西，如一条河。",
+      "C": "\"只\"用于动物或成对的物品。",
+      "D": "\"本\"用于书、本子。"
+    },
+    "explanation": "桌子、椅子等家具通常用量词\"张\"。一张桌子、两张椅子。",
+    "explanationSteps": [
+      "量词\"张\"用于扁平或可展开的物品。",
+      "桌子有平坦的桌面，所以用\"张\"。",
+      "也用于：一张纸、一张床。"
+    ],
+    "hints": [
+      "桌子是平平的还是长条的？",
+      "\"一___纸\"里用什么量词？桌子也一样。"
+    ],
+    "tags": [
+      "量词",
+      "生活",
+      "基础"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "cr-a2-014",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "synonyms-antonyms-zh",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "prompt": "\"冷\"的反义词是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "凉"
+      },
+      {
+        "key": "B",
+        "text": "温"
+      },
+      {
+        "key": "C",
+        "text": "热"
+      },
+      {
+        "key": "D",
+        "text": "冰"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "\"凉\"也是凉快的意思，和\"冷\"比较接近。",
+      "B": "\"温\"是温和、温暖，但不是最直接的反义词。",
+      "C": "没错！\"冷\"和\"热\"是反义词！",
+      "D": "\"冰\"表示冰冷，和冷是近义词。"
+    },
+    "explanation": "\"冷\"和\"热\"是一对反义词，表示温度的两个极端。",
+    "explanationSteps": [
+      "反义词是意思相反的词。",
+      "\"冷\"表示温度低。",
+      "\"热\"表示温度高。"
+    ],
+    "hints": [
+      "冬天很___，夏天很___。",
+      "想想和\"冷\"完全相反的感觉。"
+    ],
+    "tags": [
+      "词语",
+      "反义词",
+      "温度"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "cr-a2-015",
+    "moduleId": "chinese.reading",
+    "skill": "sentence-structure",
+    "subSkill": "question-sentences",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "prompt": "\"这本书是谁的？\"这个问句应该怎么回答？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "是的，这是书。"
+      },
+      {
+        "key": "B",
+        "text": "这本书是我的。"
+      },
+      {
+        "key": "C",
+        "text": "书很好看。"
+      },
+      {
+        "key": "D",
+        "text": "三本书。"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "这是在回答\"是吗\"的问题，不是问\"谁的\"。",
+      "B": "对！问\"谁的\"就要回答属于谁，\"我的\"对了！",
+      "C": "这是在回答\"怎么样\"的问题。",
+      "D": "这是在回答数量的问题。"
+    },
+    "explanation": "当问题用\"谁的\"来问时，要回答物品属于谁，如\"我的\"\"他的\"\"老师的\"等。",
+    "explanationSteps": [
+      "\"谁的\"询问物品的归属。",
+      "回答时要说清楚属于谁。",
+      "例子：\"我的\"\"你的\"\"老师的\"。"
+    ],
+    "hints": [
+      "\"谁的\"是在问什么？",
+      "如果是你的，应该怎么回答？"
+    ],
+    "tags": [
+      "语法",
+      "问句",
+      "回答"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "cr-a2-016",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "chengyu",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "\"画蛇添足\"这个成语告诉我们什么道理？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "画画要画蛇和脚"
+      },
+      {
+        "key": "B",
+        "text": "多此一举，做不必要的事"
+      },
+      {
+        "key": "C",
+        "text": "蛇本来就有脚"
+      },
+      {
+        "key": "D",
+        "text": "画画要画完整"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "这是字面意思，成语有更深层的寓意。",
+      "B": "没错！\"画蛇添足\"比喻做了多余、不必要的事情。",
+      "C": "蛇本来没有脚，画蛇加脚是多此一举。",
+      "D": "这个成语不是说画画要完整。"
+    },
+    "explanation": "\"画蛇添足\"讲的是几个人比赛画蛇，先画好的人给蛇添上脚反而输了的故事，比喻多此一举。",
+    "explanationSteps": [
+      "古时候几个人比赛画蛇。",
+      "先画好的人觉得再加几只脚更好。",
+      "结果蛇本来没有脚，反而画错了。"
+    ],
+    "hints": [
+      "蛇有脚吗？",
+      "想想做事情有没有多余的动作。"
+    ],
+    "tags": [
+      "成语",
+      "寓言",
+      "道理"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "cr-a2-017",
+    "moduleId": "chinese.reading",
+    "skill": "sentence-structure",
+    "subSkill": "subject-predicate",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "prompt": "\"小鸟在树上唱歌。\"这个句子中\"在树上\"是什么成分？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "状语（说明在哪里）"
+      },
+      {
+        "key": "B",
+        "text": "主语"
+      },
+      {
+        "key": "C",
+        "text": "宾语"
+      },
+      {
+        "key": "D",
+        "text": "定语"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "A": "没错！\"在树上\"是状语，说明唱歌的地点。",
+      "B": "\"小鸟\"才是主语。",
+      "C": "\"歌\"是宾语。",
+      "D": "定语修饰名词，这里没有。"
+    },
+    "explanation": "在\"小鸟在树上唱歌\"中，\"小鸟\"是主语，\"在树上\"是地点状语，\"唱\"是谓语，\"歌\"是宾语。",
+    "explanationSteps": [
+      "先找主语：谁？→ 小鸟。",
+      "\"在树上\"说明在哪里唱歌。",
+      "说明地点的成分是状语。"
+    ],
+    "hints": [
+      "\"在树上\"回答了什么问题？",
+      "它是在说唱歌怎么样还是在说在哪里？"
+    ],
+    "tags": [
+      "语法",
+      "句子成分",
+      "状语"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "cr-a2-018",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "compound-words",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "prompt": "\"图书馆\"这个词由几个字组成？分别是什么意思？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "图=图片，书=书本，馆=地方 → 有图片和书的地方"
+      },
+      {
+        "key": "B",
+        "text": "图=图书，书=书籍，馆=馆所 → 收藏图书的地方"
+      },
+      {
+        "key": "C",
+        "text": "图=画画，书=写字，馆=房子"
+      },
+      {
+        "key": "D",
+        "text": "图=地图，书=书法，馆=餐厅"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "\"图\"在这里是\"图书\"的意思，不只是图片。",
+      "B": "没错！\"图\"指图书，\"书\"指书籍，\"馆\"指馆所，合起来就是收藏图书供人阅读的地方。",
+      "C": "\"图\"和\"书\"合起来是\"图书\"的意思。",
+      "D": "理解不太准确，\"图\"和\"书\"合在一起指书籍读物。"
+    },
+    "explanation": "\"图书馆\"由\"图书\"（书籍）+ \"馆\"（场所）组成，是收藏和借阅图书的地方。",
+    "explanationSteps": [
+      "\"图\"和\"书\"合在一起表示书籍读物。",
+      "\"馆\"表示公共建筑场所。",
+      "合起来就是收藏图书的公共建筑。"
+    ],
+    "hints": [
+      "什么地方可以借书？",
+      "\"馆\"是场所的意思。"
+    ],
+    "tags": [
+      "词语",
+      "合成词",
+      "学校"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "cr-a2-019",
+    "moduleId": "chinese.reading",
+    "skill": "sentence-structure",
+    "subSkill": "question-sentences",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "prompt": "下面哪个句子是\"吗\"字疑问句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "你在做什么？"
+      },
+      {
+        "key": "B",
+        "text": "你吃饭了吗？"
+      },
+      {
+        "key": "C",
+        "text": "这是谁的笔？"
+      },
+      {
+        "key": "D",
+        "text": "我们去哪里？"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "这是用\"什么\"提问的特殊疑问句。",
+      "B": "对！\"吗\"字句是在句末加\"吗\"来提问的疑问句。",
+      "C": "这是用\"谁\"提问的特殊疑问句。",
+      "D": "这是用\"哪里\"提问的特殊疑问句。"
+    },
+    "explanation": "\"吗\"字疑问句是在陈述句末尾加上\"吗\"，用来询问是或不是。\"你吃饭了吗？\"就是这样的句子。",
+    "explanationSteps": [
+      "\"吗\"是疑问语气词。",
+      "加在陈述句末尾构成疑问句。",
+      "回答通常用\"是/不是\"或\"有/没有\"。"
+    ],
+    "hints": [
+      "看看哪个句子末尾有\"吗\"字？",
+      "\"吗\"字句的回答通常是\"是\"或\"不是\"。"
+    ],
+    "tags": [
+      "语法",
+      "疑问句",
+      "基础"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "cr-a2-020",
+    "moduleId": "chinese.reading",
+    "skill": "vocabulary-chinese",
+    "subSkill": "word-meanings",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "\"认真\"的意思是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "马虎、随便"
+      },
+      {
+        "key": "B",
+        "text": "专心、仔细"
+      },
+      {
+        "key": "C",
+        "text": "开心地玩"
+      },
+      {
+        "key": "D",
+        "text": "大声说话"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "\"马虎\"是\"认真\"的反义词哦。",
+      "B": "对！\"认真\"就是专心、仔细、不马虎。",
+      "C": "\"认真\"和开心玩耍没有直接关系。",
+      "D": "\"认真\"和声音大小没有关系。"
+    },
+    "explanation": "\"认真\"表示做事专心、仔细、不马虎的态度。老师常说\"要认真学习\"。",
+    "explanationSteps": [
+      "\"认\"是认识、对待的意思。",
+      "\"真\"是真切、实在的意思。",
+      "合起来表示用真心、仔细地做事情。"
+    ],
+    "hints": [
+      "老师希望你怎样做作业？",
+      "和\"马虎\"相反的态度是什么？"
+    ],
+    "tags": [
+      "词语",
+      "态度",
+      "常用词"
+    ],
+    "estimatedTimeSec": 20
+  }
+]

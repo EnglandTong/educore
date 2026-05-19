@@ -1,0 +1,2003 @@
+[
+  {
+    "id": "se-b1-001",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "forces-motion",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "A student rolls a toy car down a ramp. She tries ramps of different heights and measures how far the car travels each time. What is the independent variable in this experiment?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The distance the car travels"
+      },
+      {
+        "key": "B",
+        "text": "The height of the ramp"
+      },
+      {
+        "key": "C",
+        "text": "The type of toy car"
+      },
+      {
+        "key": "D",
+        "text": "The surface of the floor"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The distance is what you measure (the dependent variable), not what you change.",
+      "C": "The type of car is kept the same (a controlled variable).",
+      "D": "The floor surface is kept the same (a controlled variable), not changed."
+    },
+    "explanation": "The independent variable is what the scientist changes on purpose. Here, the student changes the ramp height to see how it affects how far the car rolls.",
+    "explanationSteps": [
+      "The independent variable is what you change in an experiment.",
+      "The dependent variable is what you measure as a result.",
+      "Controlled variables are kept the same to ensure a fair test."
+    ],
+    "hints": [
+      "What is the student deliberately changing between each test?",
+      "The answer is what the student 'manipulates' or changes."
+    ],
+    "tags": [
+      "experiment-design",
+      "variables",
+      "scientific-method",
+      "forces"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-b1-002",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "electricity-magnetism",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.38,
+    "prompt": "In a simple circuit with a battery, a wire, and a light bulb, what happens if you add a second battery in series?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The bulb gets dimmer"
+      },
+      {
+        "key": "B",
+        "text": "The bulb gets brighter"
+      },
+      {
+        "key": "C",
+        "text": "The bulb stays the same brightness"
+      },
+      {
+        "key": "D",
+        "text": "The bulb stops working"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Adding a battery in series increases voltage, which makes the bulb brighter, not dimmer.",
+      "C": "Adding another battery changes the circuit — the brightness will not stay the same.",
+      "D": "The bulb still works and will actually be brighter with more voltage."
+    },
+    "explanation": "Adding batteries in series increases the voltage in the circuit. More voltage means more current flows through the bulb, making it shine brighter.",
+    "explanationSteps": [
+      "Voltage is like electrical pressure that pushes current through the circuit.",
+      "Two batteries in series double the total voltage.",
+      "Higher voltage pushes more current through the bulb, making it brighter."
+    ],
+    "hints": [
+      "Think about what happens when you put fresh batteries in a flashlight.",
+      "What does adding more 'push' to electricity do?"
+    ],
+    "tags": [
+      "electricity",
+      "circuits",
+      "voltage",
+      "batteries"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b1-003",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "states-of-matter",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "A student observes that an ice cube melts faster on a metal tray than on a wooden board at the same room temperature. What is the best explanation?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The metal tray is warmer than the wooden board"
+      },
+      {
+        "key": "B",
+        "text": "Metal conducts heat better than wood"
+      },
+      {
+        "key": "C",
+        "text": "Wood creates more friction, keeping the ice colder"
+      },
+      {
+        "key": "D",
+        "text": "The metal reacts chemically with the ice"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Both are at room temperature. The difference is how well they transfer heat.",
+      "C": "Friction is not a factor here — the ice is sitting still, not rubbing.",
+      "D": "Metal does not chemically react with water or ice in this way."
+    },
+    "explanation": "Metals are good thermal conductors — they transfer heat from the surroundings to the ice quickly. Wood is an insulator and transfers heat much more slowly.",
+    "explanationSteps": [
+      "Thermal conductors transfer heat easily from one material to another.",
+      "Metal has free electrons that help move heat energy efficiently.",
+      "Wood traps air pockets, making it a poor conductor (an insulator)."
+    ],
+    "hints": [
+      "Why do metal handles on pots get hot while plastic ones stay cool?",
+      "Think about what 'conduct' means — to pass something along."
+    ],
+    "tags": [
+      "heat-transfer",
+      "conductors",
+      "insulators",
+      "states-of-matter"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-b1-004",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "solar-system",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "What causes a solar eclipse?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The Moon passes between Earth and the Sun, blocking sunlight"
+      },
+      {
+        "key": "B",
+        "text": "Earth passes between the Sun and the Moon"
+      },
+      {
+        "key": "C",
+        "text": "The Sun temporarily stops shining"
+      },
+      {
+        "key": "D",
+        "text": "A cloud covers the Sun completely"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "That describes a lunar eclipse, not a solar eclipse.",
+      "C": "The Sun always shines. The eclipse is caused by something blocking our view of it.",
+      "D": "Clouds can obscure the Sun, but that's regular weather, not an eclipse."
+    },
+    "explanation": "During a solar eclipse, the Moon moves directly between Earth and the Sun, casting a shadow on Earth. This only happens during a new moon when the Moon is aligned with the Sun.",
+    "explanationSteps": [
+      "The Moon orbits Earth about once a month.",
+      "When the Moon lines up exactly between Earth and Sun, it blocks sunlight.",
+      "The Moon's shadow falls on Earth, creating a solar eclipse."
+    ],
+    "hints": [
+      "Think about what object is between the Sun and Earth during the day during an eclipse.",
+      "It's safe to look at — what do you see covering the Sun?"
+    ],
+    "tags": [
+      "solar-eclipse",
+      "moon",
+      "sun",
+      "astronomy"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b1-005",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "earth-structure",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "What causes most earthquakes?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Volcanic eruptions only"
+      },
+      {
+        "key": "B",
+        "text": "The movement of tectonic plates along faults"
+      },
+      {
+        "key": "C",
+        "text": "Wind and weather erosion"
+      },
+      {
+        "key": "D",
+        "text": "The gravitational pull of the Moon"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Volcanic eruptions can cause quakes, but they are not the cause of most earthquakes.",
+      "C": "Wind and erosion act on Earth's surface slowly over time and do not cause earthquakes.",
+      "D": "The Moon's gravity causes tides, not earthquakes."
+    },
+    "explanation": "Earth's lithosphere is divided into tectonic plates that float on the mantle. When these plates push together, pull apart, or slide past each other, stress builds up and is released as an earthquake.",
+    "explanationSteps": [
+      "Tectonic plates move very slowly, about as fast as fingernails grow.",
+      "The edges of plates get stuck while the rest keeps moving, building stress.",
+      "When the stress releases, the ground shakes — that's an earthquake."
+    ],
+    "hints": [
+      "Think about what happens when you push two puzzle pieces together until they suddenly slide.",
+      "Earth's outer shell is broken into large pieces — what are they called?"
+    ],
+    "tags": [
+      "earthquakes",
+      "tectonic-plates",
+      "geology",
+      "faults"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b1-006",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "atoms-molecules",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.38,
+    "prompt": "What is the smallest particle of an element that still has the properties of that element?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A molecule"
+      },
+      {
+        "key": "B",
+        "text": "An atom"
+      },
+      {
+        "key": "C",
+        "text": "A cell"
+      },
+      {
+        "key": "D",
+        "text": "A proton"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "A molecule is made of two or more atoms bonded together, not the smallest particle of an element.",
+      "C": "A cell is a living unit of life, made of molecules. It's much larger than an atom.",
+      "D": "A proton is a subatomic particle inside the atom, but it doesn't have element properties on its own."
+    },
+    "explanation": "Atoms are the basic building blocks of matter. Each element has its own unique type of atom. Atoms combine to form molecules and compounds.",
+    "explanationSteps": [
+      "Everything around you is made of atoms.",
+      "An atom has a nucleus (protons + neutrons) surrounded by electrons.",
+      "Different elements have different numbers of protons."
+    ],
+    "hints": [
+      "The word comes from Greek meaning 'indivisible' or 'cannot be cut.'",
+      "Think of it as the basic LEGO brick of chemistry."
+    ],
+    "tags": [
+      "atoms",
+      "elements",
+      "matter",
+      "chemistry"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-b1-007",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "compounds-mixtures",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.42,
+    "prompt": "Which of the following is a mixture rather than a pure compound?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Table salt (NaCl)"
+      },
+      {
+        "key": "B",
+        "text": "Water (H₂O)"
+      },
+      {
+        "key": "C",
+        "text": "Sand mixed with iron filings"
+      },
+      {
+        "key": "D",
+        "text": "Carbon dioxide (CO₂)"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Table salt is a compound with a fixed ratio of sodium and chlorine atoms.",
+      "B": "Water is a compound — two hydrogen atoms bonded to one oxygen atom.",
+      "D": "Carbon dioxide is a compound — one carbon atom bonded to two oxygen atoms."
+    },
+    "explanation": "A mixture is a combination of substances that are not chemically bonded. Sand and iron filings can be separated by physical means (like using a magnet). Compounds have fixed chemical formulas.",
+    "explanationSteps": [
+      "In a mixture, substances keep their individual properties.",
+      "Mixtures can be separated by physical methods (filtering, magnetism, etc.).",
+      "In a compound, atoms are chemically bonded and have new properties."
+    ],
+    "hints": [
+      "Could you separate the ingredients using a magnet or a sieve?",
+      "If you can see the individual parts, it's probably a mixture."
+    ],
+    "tags": [
+      "mixtures",
+      "compounds",
+      "chemistry",
+      "separation"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b1-008",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "energy-types",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "A pendulum swings back and forth. At which point does it have the most kinetic energy?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "At the highest point of its swing"
+      },
+      {
+        "key": "B",
+        "text": "At the lowest point of its swing"
+      },
+      {
+        "key": "C",
+        "text": "Midway between high and low"
+      },
+      {
+        "key": "D",
+        "text": "Kinetic energy is the same at all points"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "At the highest point, the pendulum has maximum potential energy and minimum kinetic energy.",
+      "C": "Kinetic energy peaks at the lowest point, not midway.",
+      "D": "Energy converts between potential and kinetic, so it varies throughout the swing."
+    },
+    "explanation": "At the lowest point, the pendulum is moving fastest because gravitational potential energy has been converted to kinetic energy. At the highest points, it has maximum potential energy and minimum kinetic energy.",
+    "explanationSteps": [
+      "At the highest point, the pendulum has stored gravitational potential energy.",
+      "As it falls, potential energy converts to kinetic energy (energy of motion).",
+      "At the bottom, all the energy is kinetic, so it moves fastest here."
+    ],
+    "hints": [
+      "Think about where a swing moves the fastest.",
+      "What happens to stored energy as something falls downward?"
+    ],
+    "tags": [
+      "energy",
+      "kinetic-energy",
+      "potential-energy",
+      "pendulum"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-b1-009",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "weather-climate",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.38,
+    "prompt": "What is the primary difference between weather and climate?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Weather is hot, climate is cold"
+      },
+      {
+        "key": "B",
+        "text": "Weather is short-term conditions; climate is long-term patterns"
+      },
+      {
+        "key": "C",
+        "text": "Weather happens on land; climate happens in the atmosphere"
+      },
+      {
+        "key": "D",
+        "text": "There is no real difference — the words mean the same thing"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Both weather and climate can describe hot or cold conditions. That's not the difference.",
+      "C": "Both weather and climate involve the atmosphere and can happen anywhere.",
+      "D": "They are related but have different meanings based on time scale."
+    },
+    "explanation": "Weather describes the atmospheric conditions at a specific time and place (today's rain). Climate describes the average weather patterns over 30+ years in a region.",
+    "explanationSteps": [
+      "Weather changes day to day and even hour to hour.",
+      "Climate is what you expect based on long-term averages.",
+      "For example: 'Today's weather is rainy' vs. 'The Pacific Northwest has a rainy climate.'"
+    ],
+    "hints": [
+      "Think about the difference between your mood today and your personality in general.",
+      "One changes quickly, the other is an average over a long time."
+    ],
+    "tags": [
+      "weather",
+      "climate",
+      "atmosphere",
+      "meteorology"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-b1-010",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "sound-light",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.42,
+    "prompt": "Why does sound travel faster through a metal rail than through air?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Metal is heavier than air"
+      },
+      {
+        "key": "B",
+        "text": "Metal particles are closer together, so vibrations transfer faster"
+      },
+      {
+        "key": "C",
+        "text": "Sound doesn't travel through metal at all"
+      },
+      {
+        "key": "D",
+        "text": "Air is a better conductor of sound than metal"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Density affects speed, but the reason is about how closely particles are packed and how they interact.",
+      "C": "Sound travels very well through solids like metal — better than through air!",
+      "D": "Metal is actually a much better conductor of sound than air."
+    },
+    "explanation": "Sound travels as vibrations passing between particles. Solids have particles packed much closer together than gases, so vibrations transfer much more quickly.",
+    "explanationSteps": [
+      "Sound is a mechanical wave that needs a medium to travel through.",
+      "In solids, molecules are tightly packed and transfer vibrations quickly.",
+      "In gases, molecules are far apart, so sound travels slower."
+    ],
+    "hints": [
+      "Think about putting your ear to a train track — what do you hear before the train is visible?",
+      "Which transmits a vibration faster: a row of dominoes touching each other or dominoes spaced apart?"
+    ],
+    "tags": [
+      "sound",
+      "waves",
+      "solids",
+      "medium"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b1-011",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "chemical-reactions",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "prompt": "When vinegar (an acid) is mixed with baking soda (a base), bubbles form. What gas is being produced?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Oxygen (O₂)"
+      },
+      {
+        "key": "B",
+        "text": "Hydrogen (H₂)"
+      },
+      {
+        "key": "C",
+        "text": "Carbon dioxide (CO₂)"
+      },
+      {
+        "key": "D",
+        "text": "Nitrogen (N₂)"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Oxygen is not produced in this reaction. The fizzing is carbon dioxide.",
+      "B": "Hydrogen is produced in some reactions (like acid + metal), but not this one.",
+      "D": "Nitrogen is the most abundant gas in air, but it's not produced by this reaction."
+    },
+    "explanation": "The reaction between acetic acid (vinegar) and sodium bicarbonate (baking soda) produces carbon dioxide gas, water, and sodium acetate. The CO₂ bubbles are what cause the fizzing.",
+    "explanationSteps": [
+      "Vinegar (CH₃COOH) reacts with baking soda (NaHCO₃).",
+      "The products are CO₂ gas, water, and sodium acetate.",
+      "The CO₂ gas forms bubbles that you see as fizz."
+    ],
+    "hints": [
+      "What gas do we breathe out? This is the same gas!",
+      "This gas is also what makes soda drinks fizzy."
+    ],
+    "tags": [
+      "chemical-reactions",
+      "acid-base",
+      "carbon-dioxide",
+      "vinegar",
+      "baking-soda"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b1-012",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "water-cycle",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.35,
+    "prompt": "The process by which water moves from the ground into the atmosphere as water vapor, then falls back to Earth as rain or snow, is called the __________.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "carbon cycle"
+      },
+      {
+        "key": "B",
+        "text": "water cycle"
+      },
+      {
+        "key": "C",
+        "text": "nitrogen cycle"
+      },
+      {
+        "key": "D",
+        "text": "rock cycle"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The carbon cycle involves carbon moving through living things, the atmosphere, and Earth.",
+      "C": "The nitrogen cycle involves nitrogen compounds moving through ecosystems.",
+      "D": "The rock cycle describes how rocks change between igneous, sedimentary, and metamorphic forms."
+    },
+    "explanation": "The water cycle (or hydrologic cycle) describes the continuous movement of water on, above, and below Earth's surface through evaporation, condensation, and precipitation.",
+    "explanationSteps": [
+      "Heat from the Sun causes evaporation of surface water.",
+      "Water vapor rises, cools, and condenses into clouds.",
+      "Water falls as precipitation and eventually returns to oceans/lakes."
+    ],
+    "hints": [
+      "This cycle involves rain, evaporation, and clouds.",
+      "It's the most important cycle for Earth's fresh water supply."
+    ],
+    "tags": [
+      "water-cycle",
+      "evaporation",
+      "precipitation",
+      "condensation"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-b1-013",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "simple-machines",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.38,
+    "prompt": "A ramp that helps move heavy objects to a higher level is an example of what simple machine?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A lever"
+      },
+      {
+        "key": "B",
+        "text": "An inclined plane"
+      },
+      {
+        "key": "C",
+        "text": "A pulley"
+      },
+      {
+        "key": "D",
+        "text": "A wheel and axle"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "A lever uses a pivot point (fulcrum) to lift things. A ramp does not pivot.",
+      "C": "A pulley uses a wheel with a rope to lift things vertically, not a slanted surface.",
+      "D": "A wheel and axle helps things roll. A ramp is a flat, slanted surface."
+    },
+    "explanation": "An inclined plane (ramp) makes it easier to move objects upward by spreading the work over a longer distance. The trade-off is you push a longer distance but with less force.",
+    "explanationSteps": [
+      "An inclined plane reduces the force needed to lift an object.",
+      "The longer the ramp, the less force needed (but the longer the distance).",
+      "This is why wheelchair ramps are long and gentle rather than steep."
+    ],
+    "hints": [
+      "Think about a playground slide — it works on the same principle.",
+      "What makes it easier to roll a heavy box into a truck: a long ramp or a short one?"
+    ],
+    "tags": [
+      "simple-machines",
+      "inclined-plane",
+      "ramp",
+      "mechanics"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b1-014",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "elements-periodic-table",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "prompt": "On the periodic table, elements in the same column (group) have similar properties. What do elements in Group 18 (like helium and neon) have in common?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "They are highly reactive metals"
+      },
+      {
+        "key": "B",
+        "text": "They are very reactive non-metals"
+      },
+      {
+        "key": "C",
+        "text": "They are noble gases that rarely react with other elements"
+      },
+      {
+        "key": "D",
+        "text": "They are liquids at room temperature"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Group 18 elements are gases, not metals, and they are not reactive at all.",
+      "B": "Very reactive non-metals are in Group 17 (halogens), not Group 18.",
+      "D": "Most noble gases are gases at room temperature, not liquids."
+    },
+    "explanation": "Group 18 elements are called noble gases. They have full outer electron shells, making them very stable and unreactive. They don't easily form compounds with other elements.",
+    "explanationSteps": [
+      "Atoms are most stable when their outer electron shell is full.",
+      "Noble gases already have full outer shells, so they don't need to react.",
+      "This makes them 'noble' — they don't bond with other elements easily."
+    ],
+    "hints": [
+      "Think of these elements as 'too cool to react' — they're called 'noble' for a reason.",
+      "They include gases used in neon signs and party balloons."
+    ],
+    "tags": [
+      "periodic-table",
+      "noble-gases",
+      "group-18",
+      "chemistry"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-b1-015",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "solar-system",
+    "level": "B1",
+    "questionType": "true-false",
+    "difficulty": 0.35,
+    "prompt": "True or False: The Sun is the largest star in the universe.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The Sun is just an average-sized star. There are stars that are hundreds of times larger than the Sun."
+    },
+    "explanation": "The Sun is a medium-sized yellow dwarf star. Many stars are much larger, like Betelgeuse (a red supergiant that is about 700 times wider than the Sun) and UY Scuti (the largest known star, over 1,700 times wider than the Sun).",
+    "explanationSteps": [
+      "The Sun is about 1.4 million km in diameter.",
+      "Betelgeuse is about 1 billion km in diameter.",
+      "UY Scuti could fit about 5 billion Suns inside it."
+    ],
+    "hints": [
+      "Think about how small Earth looks next to the Sun. Now imagine an even bigger star!",
+      "The biggest stars are called 'supergiants.'"
+    ],
+    "tags": [
+      "sun",
+      "stars",
+      "universe",
+      "astronomy"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "se-b1-016",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "forces-motion",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "prompt": "If an astronaut drops a feather and a hammer on the Moon at the same time from the same height, what happens?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The hammer hits the ground first because it's heavier"
+      },
+      {
+        "key": "B",
+        "text": "The feather hits the ground first because it's lighter"
+      },
+      {
+        "key": "C",
+        "text": "They hit the ground at the same time"
+      },
+      {
+        "key": "D",
+        "text": "The feather floats away and doesn't fall"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Without air resistance, weight does not affect how fast objects fall. Even on Earth, objects of different masses fall at the same rate if air drag is removed.",
+      "B": "A feather would fall slower on Earth due to air resistance, but the Moon has no atmosphere.",
+      "D": "The Moon still has gravity (1/6 of Earth's). The feather will fall, just slower than on Earth."
+    },
+    "explanation": "On the Moon, there is no atmosphere, so there is no air resistance. Both objects accelerate at the same rate due to gravity (1.62 m/s² on the Moon) and hit the ground simultaneously.",
+    "explanationSteps": [
+      "Gravity accelerates all objects at the same rate regardless of mass.",
+      "On Earth, air resistance slows light objects like feathers.",
+      "On the Moon, with no air, both fall at the same rate."
+    ],
+    "hints": [
+      "Think about what slows a feather down when it falls on Earth.",
+      "Does the Moon have air? What does that mean for falling objects?"
+    ],
+    "tags": [
+      "gravity",
+      "moon",
+      "free-fall",
+      "air-resistance",
+      "physics"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-b1-017",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "electricity-magnetism",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "An electromagnet can be made by wrapping a wire around an iron nail and connecting it to a battery. How could you make the electromagnet stronger?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Use a shorter wire with fewer coils"
+      },
+      {
+        "key": "B",
+        "text": "Increase the number of wire coils around the nail"
+      },
+      {
+        "key": "C",
+        "text": "Use a plastic nail instead of iron"
+      },
+      {
+        "key": "D",
+        "text": "Remove the battery"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Fewer coils actually make the electromagnet weaker, not stronger.",
+      "C": "Plastic is not magnetic and would not work as a core for an electromagnet.",
+      "D": "Without a battery, there is no current and no magnetic field at all."
+    },
+    "explanation": "More coils of wire create a stronger magnetic field because each coil adds to the total magnetic field. Increasing current (more batteries) or using an iron core also strengthens an electromagnet.",
+    "explanationSteps": [
+      "Each coil of wire creates its own small magnetic field when current flows.",
+      "More coils = more magnetic fields combining = stronger overall magnet.",
+      "The iron core also helps concentrate and amplify the magnetic field."
+    ],
+    "hints": [
+      "Think of each coil as adding a little bit of magnetic strength.",
+      "What has more pulling power: a nail with 10 wraps of wire or 100 wraps?"
+    ],
+    "tags": [
+      "electromagnet",
+      "magnetism",
+      "electricity",
+      "circuits"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b1-018",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "acids-bases",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.4,
+    "prompt": "A substance with a pH of 3 is a strong __________, while a substance with a pH of 10 is a __________.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "base, acid"
+      },
+      {
+        "key": "B",
+        "text": "acid, base"
+      },
+      {
+        "key": "C",
+        "text": "neutral, salt"
+      },
+      {
+        "key": "D",
+        "text": "salt, neutral"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "It's the opposite! pH below 7 is an acid, above 7 is a base.",
+      "C": "A pH of 7 is neutral. pH 3 is far below 7 and pH 10 is far above 7.",
+      "D": "Salt is a product of acid-base reactions, not a pH range."
+    },
+    "explanation": "The pH scale ranges from 0 to 14. pH below 7 is acidic, pH above 7 is basic (alkaline), and pH 7 is neutral. Lower pH means stronger acid; higher pH means stronger base.",
+    "explanationSteps": [
+      "pH 0-6: acidic (lemon juice is ~pH 2, vinegar is ~pH 3).",
+      "pH 7: neutral (pure water).",
+      "pH 8-14: basic or alkaline (soap is ~pH 10, bleach is ~pH 12)."
+    ],
+    "hints": [
+      "Think about which is sour (acid) and which is slippery (base).",
+      "The lower the number, the stronger the 'sourness.'"
+    ],
+    "tags": [
+      "pH",
+      "acids",
+      "bases",
+      "chemistry"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-b1-019",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "moon-phases",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "A student observes that the Moon appears to change shape over several nights. Which statement best explains this observation?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The Moon is changing its actual shape"
+      },
+      {
+        "key": "B",
+        "text": "Clouds are covering different parts of the Moon"
+      },
+      {
+        "key": "C",
+        "text": "We see different amounts of the Moon's sunlit side as it orbits Earth"
+      },
+      {
+        "key": "D",
+        "text": "The Earth's shadow falls on the Moon every night"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "The Moon is always round like a ball. Its actual shape doesn't change.",
+      "B": "Clouds can temporarily block our view, but they don't explain the regular pattern of phases.",
+      "D": "Earth's shadow only falls on the Moon during a lunar eclipse, which is rare."
+    },
+    "explanation": "Moon phases occur because we see different portions of the Moon's half that faces the Sun. As the Moon orbits Earth every ~29.5 days, the angle between the Sun, Moon, and Earth changes.",
+    "explanationSteps": [
+      "The Sun always lights up half of the Moon.",
+      "As the Moon orbits Earth, we see different portions of the lit half.",
+      "New moon = lit side faces away. Full moon = lit side faces toward us."
+    ],
+    "hints": [
+      "Hold up a ball in sunlight and slowly turn around — what happens to the lit part you see?",
+      "The Moon doesn't create its own light — it reflects sunlight."
+    ],
+    "tags": [
+      "moon-phases",
+      "orbit",
+      "reflection",
+      "astronomy"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-b1-020",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "atoms-molecules",
+    "level": "B1",
+    "questionType": "true-false",
+    "difficulty": 0.35,
+    "prompt": "True or False: A water molecule (H₂O) contains two atoms of hydrogen and one atom of oxygen bonded together.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Water IS made of two hydrogen atoms and one oxygen atom. H₂O means exactly this!"
+    },
+    "explanation": "The chemical formula H₂O shows that each water molecule has two hydrogen atoms (H₂) bonded to one oxygen atom (O). This is a classic example of a molecular compound.",
+    "explanationSteps": [
+      "The chemical formula shows the number of each type of atom.",
+      "H₂ means two hydrogen atoms; O means one oxygen atom.",
+      "The atoms are held together by covalent bonds."
+    ],
+    "hints": [
+      "Look at the formula H₂O — what does the little '2' tell you?",
+      "Think about how many atoms are in the chemical formula."
+    ],
+    "tags": [
+      "water",
+      "molecules",
+      "chemical-formula",
+      "atoms"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "se-b1-001",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "forces-motion",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "A student rolls a toy car down ramps of different heights and measures how far it goes. What is the independent variable?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Distance the car travels"
+      },
+      {
+        "key": "B",
+        "text": "Height of the ramp"
+      },
+      {
+        "key": "C",
+        "text": "Type of toy car"
+      },
+      {
+        "key": "D",
+        "text": "Surface of the floor"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Distance is what you measure (dependent).",
+      "C": "The car type is kept the same.",
+      "D": "The floor is kept the same."
+    },
+    "explanation": "The independent variable is what the scientist changes - here, the ramp height.",
+    "explanationSteps": [
+      "Independent variable: what you change.",
+      "Dependent variable: what you measure.",
+      "Controlled variables: kept the same."
+    ],
+    "hints": [
+      "What is the student deliberately changing?",
+      "The answer is what the student manipulates."
+    ],
+    "tags": [
+      "experiment-design",
+      "variables",
+      "scientific-method",
+      "forces"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-b1-002",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "electricity-magnetism",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.38,
+    "prompt": "In a simple circuit with a battery, wire, and bulb, what happens if you add a second battery in series?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The bulb gets dimmer"
+      },
+      {
+        "key": "B",
+        "text": "The bulb gets brighter"
+      },
+      {
+        "key": "C",
+        "text": "The bulb stays the same"
+      },
+      {
+        "key": "D",
+        "text": "The bulb stops working"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "More voltage makes it brighter.",
+      "C": "More voltage changes brightness.",
+      "D": "The bulb still works."
+    },
+    "explanation": "Adding batteries in series increases voltage, which pushes more current, making the bulb brighter.",
+    "explanationSteps": [
+      "Voltage is electrical pressure.",
+      "Two batteries in series double voltage.",
+      "Higher voltage pushes more current."
+    ],
+    "hints": [
+      "What happens with fresh batteries in a flashlight?",
+      "What does more push do?"
+    ],
+    "tags": [
+      "electricity",
+      "circuits",
+      "voltage",
+      "batteries"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b1-003",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "states-of-matter",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "An ice cube melts faster on a metal tray than a wooden board at room temperature. Why?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The metal is warmer"
+      },
+      {
+        "key": "B",
+        "text": "Metal conducts heat better than wood"
+      },
+      {
+        "key": "C",
+        "text": "Wood creates friction, keeping ice cold"
+      },
+      {
+        "key": "D",
+        "text": "The metal reacts with ice"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Both are at room temperature.",
+      "C": "Friction is not a factor here.",
+      "D": "Metal does not react with water."
+    },
+    "explanation": "Metals are good thermal conductors. Wood is an insulator.",
+    "explanationSteps": [
+      "Thermal conductors transfer heat easily.",
+      "Metal has free electrons that move heat.",
+      "Wood traps air, making it an insulator."
+    ],
+    "hints": [
+      "Why do metal pot handles get hot?",
+      "What does conduct mean?"
+    ],
+    "tags": [
+      "heat-transfer",
+      "conductors",
+      "insulators",
+      "states-of-matter"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-b1-004",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "solar-system",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "What causes a solar eclipse?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Moon passes between Earth and Sun, blocking sunlight"
+      },
+      {
+        "key": "B",
+        "text": "Earth passes between Sun and Moon"
+      },
+      {
+        "key": "C",
+        "text": "The Sun stops shining"
+      },
+      {
+        "key": "D",
+        "text": "A cloud covers the Sun"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "That describes a lunar eclipse.",
+      "C": "The Sun always shines.",
+      "D": "That is just weather."
+    },
+    "explanation": "A solar eclipse occurs when the Moon moves between Earth and the Sun, casting a shadow on Earth.",
+    "explanationSteps": [
+      "The Moon orbits Earth.",
+      "When it aligns between Earth and Sun, it blocks sunlight.",
+      "The Moons shadow falls on Earth."
+    ],
+    "hints": [
+      "What object is between the Sun and Earth?",
+      "What covers the Sun during the day?"
+    ],
+    "tags": [
+      "solar-eclipse",
+      "moon",
+      "sun",
+      "astronomy"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b1-005",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "earth-structure",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "What causes most earthquakes?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Volcanic eruptions only"
+      },
+      {
+        "key": "B",
+        "text": "Movement of tectonic plates along faults"
+      },
+      {
+        "key": "C",
+        "text": "Wind and weather erosion"
+      },
+      {
+        "key": "D",
+        "text": "Gravitational pull of the Moon"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Volcanoes can cause quakes, but rarely.",
+      "C": "Erosion works slowly on the surface.",
+      "D": "Moon gravity causes tides."
+    },
+    "explanation": "Tectonic plates move slowly. When they get stuck and release stress, the ground shakes.",
+    "explanationSteps": [
+      "Tectonic plates move slowly.",
+      "Edges get stuck while rest keeps moving.",
+      "Stress releases as an earthquake."
+    ],
+    "hints": [
+      "Think of pushing puzzle pieces until they slide.",
+      "Earths outer shell has large moving pieces."
+    ],
+    "tags": [
+      "earthquakes",
+      "tectonic-plates",
+      "geology",
+      "faults"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b1-006",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "atoms-molecules",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.38,
+    "prompt": "What is the smallest particle of an element that still has its properties?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A molecule"
+      },
+      {
+        "key": "B",
+        "text": "An atom"
+      },
+      {
+        "key": "C",
+        "text": "A cell"
+      },
+      {
+        "key": "D",
+        "text": "A proton"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Molecules are made of multiple atoms.",
+      "C": "Cells are made of molecules.",
+      "D": "A proton is part of an atom."
+    },
+    "explanation": "Atoms are the basic building blocks of matter. Each element has its unique atom.",
+    "explanationSteps": [
+      "Everything is made of atoms.",
+      "An atom has a nucleus and electrons.",
+      "Different elements have different proton counts."
+    ],
+    "hints": [
+      "The word means indivisible.",
+      "Think of it as the basic LEGO brick of chemistry."
+    ],
+    "tags": [
+      "atoms",
+      "elements",
+      "matter",
+      "chemistry"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-b1-007",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "compounds-mixtures",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.42,
+    "prompt": "Which is a mixture rather than a pure compound?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Table salt (NaCl)"
+      },
+      {
+        "key": "B",
+        "text": "Water (H2O)"
+      },
+      {
+        "key": "C",
+        "text": "Sand mixed with iron filings"
+      },
+      {
+        "key": "D",
+        "text": "Carbon dioxide (CO2)"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Salt is a compound with fixed ratio.",
+      "B": "Water is a compound.",
+      "D": "CO2 is a compound."
+    },
+    "explanation": "A mixture can be separated by physical means. Sand and iron can be separated with a magnet.",
+    "explanationSteps": [
+      "In mixtures, substances keep their properties.",
+      "Mixtures separate by physical methods.",
+      "Compounds have atoms chemically bonded."
+    ],
+    "hints": [
+      "Could you separate them with a magnet?",
+      "Can you see the individual parts?"
+    ],
+    "tags": [
+      "mixtures",
+      "compounds",
+      "chemistry",
+      "separation"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b1-008",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "energy-types",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "A pendulum swings back and forth. At which point does it have the most kinetic energy?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Highest point of the swing"
+      },
+      {
+        "key": "B",
+        "text": "Lowest point of the swing"
+      },
+      {
+        "key": "C",
+        "text": "Midway between high and low"
+      },
+      {
+        "key": "D",
+        "text": "Same at all points"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Highest point has max potential energy.",
+      "C": "Kinetic peaks at lowest point.",
+      "D": "Energy converts between types."
+    },
+    "explanation": "At the lowest point, the pendulum moves fastest because potential energy converted to kinetic.",
+    "explanationSteps": [
+      "At highest point: max potential energy.",
+      "As it falls, potential becomes kinetic.",
+      "At bottom: all energy is kinetic, fastest speed."
+    ],
+    "hints": [
+      "Where does a swing move fastest?",
+      "What happens to stored energy when falling?"
+    ],
+    "tags": [
+      "energy",
+      "kinetic-energy",
+      "potential-energy",
+      "pendulum"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-b1-009",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "weather-climate",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.38,
+    "prompt": "What is the primary difference between weather and climate?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Weather is hot, climate is cold"
+      },
+      {
+        "key": "B",
+        "text": "Weather is short-term, climate is long-term patterns"
+      },
+      {
+        "key": "C",
+        "text": "Weather is on land, climate is in the atmosphere"
+      },
+      {
+        "key": "D",
+        "text": "They mean the same thing"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Both can describe hot or cold.",
+      "C": "Both involve the atmosphere.",
+      "D": "They are related but different."
+    },
+    "explanation": "Weather is daily conditions. Climate is average weather over 30+ years.",
+    "explanationSteps": [
+      "Weather changes day to day.",
+      "Climate is what you expect long-term.",
+      "Climate is average of weather over time."
+    ],
+    "hints": [
+      "Difference between your mood today and your personality.",
+      "One changes quickly, one is average."
+    ],
+    "tags": [
+      "weather",
+      "climate",
+      "atmosphere",
+      "meteorology"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-b1-010",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "sound-light",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.42,
+    "prompt": "Why does sound travel faster through a metal rail than through air?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Metal is heavier than air"
+      },
+      {
+        "key": "B",
+        "text": "Metal particles are closer together, so vibrations transfer faster"
+      },
+      {
+        "key": "C",
+        "text": "Sound does not travel through metal"
+      },
+      {
+        "key": "D",
+        "text": "Air is a better conductor of sound"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Density is not the main reason.",
+      "C": "Sound travels very well through metal!",
+      "D": "Metal is better than air for sound."
+    },
+    "explanation": "Sound is vibrations between particles. Solids have particles much closer than gases.",
+    "explanationSteps": [
+      "Sound needs a medium to travel.",
+      "In solids, molecules are tightly packed.",
+      "Vibrations transfer quickly in solids."
+    ],
+    "hints": [
+      "Put your ear to a train track.",
+      "Which transfers vibration faster: touching dominoes or spaced ones?"
+    ],
+    "tags": [
+      "sound",
+      "waves",
+      "solids",
+      "medium"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b1-011",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "chemical-reactions",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "prompt": "When vinegar (acid) mixes with baking soda (base), bubbles form. What gas is produced?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Oxygen (O2)"
+      },
+      {
+        "key": "B",
+        "text": "Hydrogen (H2)"
+      },
+      {
+        "key": "C",
+        "text": "Carbon dioxide (CO2)"
+      },
+      {
+        "key": "D",
+        "text": "Nitrogen (N2)"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Oxygen is not produced here.",
+      "B": "Hydrogen comes from acid+metal.",
+      "D": "Nitrogen is in air, not produced here."
+    },
+    "explanation": "The reaction produces CO2 gas, water, and sodium acetate.",
+    "explanationSteps": [
+      "Vinegar reacts with baking soda.",
+      "CO2 gas is produced.",
+      "The bubbles are CO2 gas."
+    ],
+    "hints": [
+      "What gas do we breathe out?",
+      "What makes soda fizzy?"
+    ],
+    "tags": [
+      "chemical-reactions",
+      "acid-base",
+      "carbon-dioxide"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b1-012",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "water-cycle",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.35,
+    "prompt": "The process by which water moves from the ground to the atmosphere as vapor, then falls back as rain, is the __________.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "carbon cycle"
+      },
+      {
+        "key": "B",
+        "text": "water cycle"
+      },
+      {
+        "key": "C",
+        "text": "nitrogen cycle"
+      },
+      {
+        "key": "D",
+        "text": "rock cycle"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Carbon cycle involves carbon.",
+      "C": "Nitrogen cycle involves nitrogen.",
+      "D": "Rock cycle describes rock changes."
+    },
+    "explanation": "The water cycle continuously moves water through evaporation, condensation, and precipitation.",
+    "explanationSteps": [
+      "Sun causes evaporation.",
+      "Vapor rises, cools, condenses into clouds.",
+      "Water falls as precipitation."
+    ],
+    "hints": [
+      "This cycle involves rain, evaporation, clouds.",
+      "The most important cycle for fresh water."
+    ],
+    "tags": [
+      "water-cycle",
+      "evaporation",
+      "precipitation",
+      "condensation"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-b1-013",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "simple-machines",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.38,
+    "prompt": "A ramp that helps move heavy objects to a higher level is what simple machine?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A lever"
+      },
+      {
+        "key": "B",
+        "text": "An inclined plane"
+      },
+      {
+        "key": "C",
+        "text": "A pulley"
+      },
+      {
+        "key": "D",
+        "text": "A wheel and axle"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "A lever uses a pivot (fulcrum).",
+      "C": "A pulley uses a rope and wheel.",
+      "D": "A wheel helps things roll."
+    },
+    "explanation": "An inclined plane (ramp) makes lifting easier by spreading work over a longer distance.",
+    "explanationSteps": [
+      "Inclined plane reduces force needed.",
+      "Longer ramp needs less force.",
+      "This is why wheelchair ramps are long."
+    ],
+    "hints": [
+      "Think of a playground slide.",
+      "Which makes it easier: long ramp or short?"
+    ],
+    "tags": [
+      "simple-machines",
+      "inclined-plane",
+      "ramp",
+      "mechanics"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b1-014",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "elements-periodic-table",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "prompt": "Elements in Group 18 (helium, neon) have what in common?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Highly reactive metals"
+      },
+      {
+        "key": "B",
+        "text": "Very reactive non-metals"
+      },
+      {
+        "key": "C",
+        "text": "Noble gases that rarely react"
+      },
+      {
+        "key": "D",
+        "text": "Liquids at room temperature"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Group 18 are gases, not metals.",
+      "B": "Very reactive non-metals are Group 17.",
+      "D": "Noble gases are gases at room temp."
+    },
+    "explanation": "Noble gases have full outer electron shells, making them very stable and unreactive.",
+    "explanationSteps": [
+      "Atoms are stable with full outer shells.",
+      "Noble gases already have full shells.",
+      "They rarely form compounds."
+    ],
+    "hints": [
+      "These elements are too cool to react.",
+      "Used in neon signs and balloons."
+    ],
+    "tags": [
+      "periodic-table",
+      "noble-gases",
+      "chemistry"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-b1-015",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "solar-system",
+    "level": "B1",
+    "questionType": "true-false",
+    "difficulty": 0.35,
+    "prompt": "True or False: The Sun is the largest star in the universe.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The Sun is average-sized. Stars like Betelgeuse are much larger."
+    },
+    "explanation": "The Sun is a medium yellow dwarf. Stars like UY Scuti are 1700 times wider.",
+    "explanationSteps": [
+      "Sun is 1.4 million km across.",
+      "Betelgeuse is 1 billion km across.",
+      "UY Scuti is the largest known star."
+    ],
+    "hints": [
+      "How small is Earth next to the Sun? Now imagine even bigger!",
+      "Biggest stars are called supergiants."
+    ],
+    "tags": [
+      "sun",
+      "stars",
+      "universe",
+      "astronomy"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "se-b1-016",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "forces-motion",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "prompt": "If an astronaut drops a feather and a hammer on the Moon at the same time, what happens?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Hammer hits first, it is heavier"
+      },
+      {
+        "key": "B",
+        "text": "Feather hits first, it is lighter"
+      },
+      {
+        "key": "C",
+        "text": "They hit at the same time"
+      },
+      {
+        "key": "D",
+        "text": "The feather floats away"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Without air, mass does not affect fall speed.",
+      "B": "Feather falls slower on Earth due to air.",
+      "D": "The Moon still has gravity."
+    },
+    "explanation": "On the Moon there is no atmosphere, so no air resistance. Both fall at the same rate.",
+    "explanationSteps": [
+      "Gravity accelerates all objects equally.",
+      "On Earth, air slows light objects.",
+      "On the Moon, no air means same rate."
+    ],
+    "hints": [
+      "What slows a feather on Earth?",
+      "Does the Moon have air?"
+    ],
+    "tags": [
+      "gravity",
+      "moon",
+      "free-fall",
+      "air-resistance",
+      "physics"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-b1-017",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "electricity-magnetism",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "How could you make an electromagnet stronger?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Use shorter wire with fewer coils"
+      },
+      {
+        "key": "B",
+        "text": "Increase the number of wire coils"
+      },
+      {
+        "key": "C",
+        "text": "Use a plastic nail instead of iron"
+      },
+      {
+        "key": "D",
+        "text": "Remove the battery"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Fewer coils make it weaker.",
+      "C": "Plastic is not magnetic.",
+      "D": "No battery means no current."
+    },
+    "explanation": "More coils create a stronger magnetic field because each coil adds to the total.",
+    "explanationSteps": [
+      "Each coil makes its own magnetic field.",
+      "More coils = stronger combined field.",
+      "Iron core concentrates the field."
+    ],
+    "hints": [
+      "Each coil adds a little magnetic strength.",
+      "10 wraps vs 100 wraps?"
+    ],
+    "tags": [
+      "electromagnet",
+      "magnetism",
+      "electricity",
+      "circuits"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b1-018",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "acids-bases",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.4,
+    "prompt": "A substance with pH 3 is a strong __________, while pH 10 is a __________.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "base, acid"
+      },
+      {
+        "key": "B",
+        "text": "acid, base"
+      },
+      {
+        "key": "C",
+        "text": "neutral, salt"
+      },
+      {
+        "key": "D",
+        "text": "salt, neutral"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Its the opposite!",
+      "C": "pH 3 and 10 are far from 7.",
+      "D": "Salt is not measured by pH."
+    },
+    "explanation": "pH below 7 is acidic, above 7 is basic. Lower pH = stronger acid.",
+    "explanationSteps": [
+      "pH 0-6: acidic.",
+      "pH 7: neutral.",
+      "pH 8-14: basic (alkaline)."
+    ],
+    "hints": [
+      "Which is sour (acid) and which is slippery (base)?",
+      "Lower number = sour."
+    ],
+    "tags": [
+      "pH",
+      "acids",
+      "bases",
+      "chemistry"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-b1-019",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "moon-phases",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "A student sees the Moon appear to change shape over several nights. Why?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The Moon is changing its actual shape"
+      },
+      {
+        "key": "B",
+        "text": "Clouds cover different parts"
+      },
+      {
+        "key": "C",
+        "text": "We see different amounts of the sunlit side as the Moon orbits"
+      },
+      {
+        "key": "D",
+        "text": "Earth shadow falls on the Moon nightly"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "The Moon is always round.",
+      "B": "Clouds do not explain the pattern.",
+      "D": "Earth shadow only during lunar eclipses."
+    },
+    "explanation": "Moon phases occur because we see different portions of the Moon lit by the Sun as it orbits.",
+    "explanationSteps": [
+      "The Sun lights half the Moon.",
+      "As it orbits, we see different parts.",
+      "New moon = lit side away. Full moon = lit side toward us."
+    ],
+    "hints": [
+      "Hold a ball in sunlight and turn around.",
+      "The Moon reflects sunlight."
+    ],
+    "tags": [
+      "moon-phases",
+      "orbit",
+      "reflection",
+      "astronomy"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-b1-020",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "atoms-molecules",
+    "level": "B1",
+    "questionType": "true-false",
+    "difficulty": 0.35,
+    "prompt": "True or False: A water molecule (H2O) contains two hydrogen atoms and one oxygen atom.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "H2O means two H and one O!"
+    },
+    "explanation": "The formula H2O shows two hydrogen atoms bonded to one oxygen atom.",
+    "explanationSteps": [
+      "Chemical formulas show atom counts.",
+      "H2 means two hydrogen atoms.",
+      "O means one oxygen atom."
+    ],
+    "hints": [
+      "What does the little 2 in H2O tell you?",
+      "Count the atoms in the formula."
+    ],
+    "tags": [
+      "water",
+      "molecules",
+      "chemical-formula",
+      "atoms"
+    ],
+    "estimatedTimeSec": 20
+  }
+]

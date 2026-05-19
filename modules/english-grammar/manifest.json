@@ -1,0 +1,137 @@
+{
+  "id": "english.grammar",
+  "name": "English Grammar",
+  "version": "1.0.0",
+  "subject": "english",
+  "category": "grammar",
+  "description": "Master English grammar from basic to advanced with adaptive practice",
+  "icon": "book-open",
+  "color": "#6366f1",
+  "targetAge": { "min": 6, "max": 18 },
+  "skills": [
+    {
+      "id": "tense-aspect",
+      "name": "Tense & Aspect",
+      "description": "Past, present, future tenses and their continuous/perfect aspects",
+      "subSkills": [
+        "simple-present", "present-continuous", "simple-past",
+        "past-continuous", "present-perfect", "past-perfect",
+        "simple-future", "future-continuous", "future-perfect"
+      ],
+      "order": 1
+    },
+    {
+      "id": "subject-verb-agreement",
+      "name": "Subject-Verb Agreement",
+      "description": "Making subjects and verbs agree in number and person",
+      "subSkills": [
+        "singular-plural", "collective-nouns", "compound-subjects",
+        "indefinite-pronouns", "intervening-phrases"
+      ],
+      "order": 2
+    },
+    {
+      "id": "articles-determiners",
+      "name": "Articles & Determiners",
+      "description": "Using a, an, the, and other determiners correctly",
+      "subSkills": [
+        "definite-article", "indefinite-article", "zero-article",
+        "demonstratives", "quantifiers"
+      ],
+      "order": 3
+    },
+    {
+      "id": "prepositions",
+      "name": "Prepositions",
+      "description": "Choosing correct prepositions of time, place, and movement",
+      "subSkills": [
+        "prepositions-of-time", "prepositions-of-place",
+        "prepositions-of-movement", "phrasal-prepositions",
+        "dependent-prepositions"
+      ],
+      "order": 4
+    },
+    {
+      "id": "conditionals",
+      "name": "Conditionals",
+      "description": "Zero, first, second, third conditional and mixed conditionals",
+      "subSkills": [
+        "zero-conditional", "first-conditional", "second-conditional",
+        "third-conditional", "mixed-conditionals"
+      ],
+      "order": 5
+    },
+    {
+      "id": "passive-voice",
+      "name": "Passive Voice",
+      "description": "Forming and using passive constructions across tenses",
+      "subSkills": [
+        "present-passive", "past-passive", "future-passive",
+        "perfect-passive", "modal-passive", "passive-reporting"
+      ],
+      "order": 6
+    },
+    {
+      "id": "modal-verbs",
+      "name": "Modal Verbs",
+      "description": "Using modals for ability, permission, obligation, and deduction",
+      "subSkills": [
+        "ability", "permission", "obligation",
+        "possibility", "deduction", "advice"
+      ],
+      "order": 7
+    },
+    {
+      "id": "relative-clauses",
+      "name": "Relative Clauses",
+      "description": "Defining and non-defining relative clauses with who, which, that, where",
+      "subSkills": [
+        "defining-clauses", "non-defining-clauses",
+        "reduced-relatives", "relative-pronouns"
+      ],
+      "order": 8
+    },
+    {
+      "id": "reported-speech",
+      "name": "Reported Speech",
+      "description": "Converting direct speech to reported speech with tense changes",
+      "subSkills": [
+        "statements", "questions", "commands",
+        "tense-backshift", "reporting-verbs"
+      ],
+      "order": 9
+    },
+    {
+      "id": "conjunctions-connectors",
+      "name": "Conjunctions & Connectors",
+      "description": "Linking ideas with coordinating, subordinating, and correlative conjunctions",
+      "subSkills": [
+        "coordinating", "subordinating", "correlative",
+        "conjunctive-adverbs", "discourse-markers"
+      ],
+      "order": 10
+    }
+  ],
+  "levels": [
+    { "id": "A1", "name": "Beginner", "gradeRange": "1-2", "order": 1 },
+    { "id": "A2", "name": "Elementary", "gradeRange": "3-4", "order": 2 },
+    { "id": "B1", "name": "Intermediate", "gradeRange": "5-6", "order": 3 },
+    { "id": "B2", "name": "Upper Intermediate", "gradeRange": "7-9", "order": 4 },
+    { "id": "C1", "name": "Advanced", "gradeRange": "10-12", "order": 5 },
+    { "id": "C2", "name": "Mastery", "gradeRange": "12+", "order": 6 }
+  ],
+  "questionTypes": [
+    "multiple-choice", "gap-filling", "transformation",
+    "matching", "cloze", "true-false", "error-correction", "open"
+  ],
+  "diagnostic": {
+    "rounds": 5,
+    "questionsPerRound": 5,
+    "strategy": "adaptive"
+  },
+  "training": {
+    "sessionLength": 30,
+    "adaptiveWeights": { "weak": 60, "current": 25, "review": 15 },
+    "masteryThreshold": 85
+  }
+}

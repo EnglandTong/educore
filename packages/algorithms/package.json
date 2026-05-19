@@ -1,0 +1,49 @@
+{
+  "name": "@educore/algorithms",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./bkt": {
+      "types": "./dist/bkt.d.ts",
+      "import": "./dist/bkt.js"
+    },
+    "./irt": {
+      "types": "./dist/irt.d.ts",
+      "import": "./dist/irt.js"
+    },
+    "./spaced-repetition": {
+      "types": "./dist/spacedRepetition.d.ts",
+      "import": "./dist/spacedRepetition.js"
+    },
+    "./scoring": {
+      "types": "./dist/scoring.d.ts",
+      "import": "./dist/scoring.js"
+    },
+    "./question-selection": {
+      "types": "./dist/questionSelection.d.ts",
+      "import": "./dist/questionSelection.js"
+    },
+    "./diagnostic-strategy": {
+      "types": "./dist/diagnosticStrategy.d.ts",
+      "import": "./dist/diagnosticStrategy.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@educore/types": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vitest": "^2.0.0"
+  }
+}

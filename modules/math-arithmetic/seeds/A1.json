@@ -1,0 +1,127 @@
+[
+  {
+    "id": "ma-a1-001",
+    "moduleId": "math.arithmetic",
+    "skill": "counting",
+    "subSkill": "count-objects",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.1,
+    "prompt": "Count the apples: 🍎🍎🍎🍎🍎 How many apples are there?",
+    "choices": [
+      { "key": "A", "text": "4" },
+      { "key": "B", "text": "5" },
+      { "key": "C", "text": "6" },
+      { "key": "D", "text": "3" }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Almost! Count them one by one — point to each apple as you go.",
+      "C": "That's one too many. Try counting again slowly.",
+      "D": "A bit too few. Let's count together: 1, 2, 3, 4, 5!"
+    },
+    "explanation": "There are 5 apples. When we count objects one by one, we match each object to a number: 1, 2, 3, 4, 5.",
+    "explanationSteps": [
+      "Look at each apple one at a time.",
+      "Touch or point to each apple as you say a number.",
+      "The last number you say is how many apples there are."
+    ],
+    "hints": [
+      "Try pointing to each apple while counting.",
+      "Start with 1 and go up one number per apple."
+    ],
+    "tags": ["counting", "visual", "objects"],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-a1-002",
+    "moduleId": "math.arithmetic",
+    "skill": "counting",
+    "subSkill": "number-recognition",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "Which number comes right after 7?",
+    "choices": [
+      { "key": "A", "text": "6" },
+      { "key": "B", "text": "9" },
+      { "key": "C", "text": "8" },
+      { "key": "D", "text": "10" }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "6 comes before 7, not after. Think about what's next in line.",
+      "B": "9 comes after 8. Let's count: 7, 8, 9 — which is right after 7?",
+      "D": "10 is much later! Let's count step by step: 7, 8, 9, 10."
+    },
+    "explanation": "8 comes right after 7. The counting order is: 6, 7, 8, 9, 10.",
+    "explanationSteps": [
+      "Start counting from 1: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.",
+      "Find where 7 is in the list.",
+      "The number immediately to the right of 7 is 8."
+    ],
+    "hints": [
+      "Count out loud from 1 to 10.",
+      "The number after 7 has a shape that looks like two circles stacked."
+    ],
+    "tags": ["counting", "number-order"],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "ma-a1-003",
+    "moduleId": "math.arithmetic",
+    "skill": "addition",
+    "subSkill": "single-digit-addition",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "You have 3 balloons. Your friend gives you 2 more. How many balloons do you have now?",
+    "choices": [
+      { "key": "A", "text": "4" },
+      { "key": "B", "text": "6" },
+      { "key": "C", "text": "5" },
+      { "key": "D", "text": "7" }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Close! 3 plus 2 makes more than 4. Try using your fingers.",
+      "B": "That's 3 plus 3. We're adding 2, not 3.",
+      "D": "That's too many! 3 plus 2 equals 5."
+    },
+    "explanation": "3 + 2 = 5. When we add, we put groups together and count the total.",
+    "explanationSteps": [
+      "Start with 3 (hold up 3 fingers).",
+      "Add 2 more (hold up 2 more fingers).",
+      "Count all your fingers: 1, 2, 3, 4, 5."
+    ],
+    "hints": [
+      "Use your fingers! Hold up 3 fingers, then 2 more.",
+      "Count all the fingers you're holding up."
+    ],
+    "tags": ["addition", "word-problem", "single-digit"],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-a1-004",
+    "moduleId": "math.arithmetic",
+    "skill": "addition",
+    "subSkill": "single-digit-addition",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.4,
+    "prompt": "4 + 3 = _______",
+    "answerKey": "7",
+    "explanation": "4 plus 3 equals 7. Starting at 4, count up three more: 5, 6, 7.",
+    "explanationSteps": [
+      "Start at the bigger number: 4.",
+      "Count up 3 times: 5 (1), 6 (2), 7 (3).",
+      "The answer is 7."
+    ],
+    "hints": [
+      "Start at 4 and count up three times.",
+      "4... then 5, 6, 7."
+    ],
+    "tags": ["addition", "single-digit", "gap-fill"],
+    "estimatedTimeSec": 25
+  }
+]

@@ -1,0 +1,157 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  NODE_VERSION: "20"
+  PNPM_VERSION: "9.15.0"
+  TURBO_TELEMETRY_DISABLED: "1"
+
+jobs:
+  check:
+    name: Typecheck → Build → Test → Lint
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    services:
+      mongodb:
+        image: mongo:7
+        options: >-
+          --health-cmd "mongosh --quiet --eval 'db.adminCommand(\"ping\").ok'"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 27017:27017
+      redis:
+        image: redis:7-alpine
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 6379:6379
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: ${{ env.PNPM_VERSION }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: pnpm
+
+      - name: Get pnpm store directory
+        id: pnpm-store
+        shell: bash
+        run: |
+          echo "store=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      - name: Cache pnpm store
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.pnpm-store.outputs.store }}
+          key: pnpm-store-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}
+          restore-keys: |
+            pnpm-store-${{ runner.os }}-
+
+      - name: Cache Turbo
+        uses: actions/cache@v4
+        with:
+          path: node_modules/.cache/turbo
+          key: turbo-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}
+          restore-keys: |
+            turbo-${{ runner.os }}-
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Typecheck
+        run: pnpm typecheck
+        env:
+          NODE_ENV: test
+          # Provide defaults for env vars that Zod validates at import time
+          MONGODB_URI: mongodb://localhost:27017/educore
+          REDIS_URL: redis://localhost:6379
+          JWT_SECRET: ci-test-secret-key-min-16-chars!!
+          VITE_API_URL: http://localhost:4000/api/v1
+
+      - name: Build
+        run: pnpm build
+        env:
+          NODE_ENV: production
+          VITE_API_URL: http://localhost:4000/api/v1
+
+      - name: Test
+        run: pnpm test
+        env:
+          NODE_ENV: test
+          MONGODB_URI: mongodb://localhost:27017/educore
+          REDIS_URL: redis://localhost:6379
+          JWT_SECRET: ci-test-secret-key-min-16-chars!!
+          VITE_API_URL: http://localhost:4000/api/v1
+
+      - name: Lint
+        run: pnpm lint
+        env:
+          NODE_ENV: test
+          MONGODB_URI: mongodb://localhost:27017/educore
+          REDIS_URL: redis://localhost:6379
+          JWT_SECRET: ci-test-secret-key-min-16-chars!!
+          VITE_API_URL: http://localhost:4000/api/v1
+
+  docker:
+    name: Docker build smoke test
+    needs: check
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build API image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: docker/Dockerfile
+          push: false
+          load: true
+          tags: educore-api:ci
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: Build Web image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: apps/web/Dockerfile
+          push: false
+          load: true
+          tags: educore-web:ci
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: Verify images exist
+        run: |
+          docker image inspect educore-api:ci > /dev/null 2>&1
+          docker image inspect educore-web:ci > /dev/null 2>&1
+          echo "✅ Both Docker images built successfully"

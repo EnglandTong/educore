@@ -1,0 +1,2042 @@
+[
+  {
+    "id": "er-b2-001",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "drawing-conclusions",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "passage": "Dr. Amara studied the data from her telescope for the fifth time. The light pattern from the distant star flickered at regular intervals. She compared her notes with observations from three other astronomers. Their data matched perfectly. Dr. Amara smiled and picked up her phone to call her colleague.",
+    "prompt": "What can you conclude about Dr. Amara's discovery?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "She found a new constellation in the night sky."
+      },
+      {
+        "key": "B",
+        "text": "She confirmed a significant astronomical finding."
+      },
+      {
+        "key": "C",
+        "text": "Her telescope is broken and needs repairs."
+      },
+      {
+        "key": "D",
+        "text": "She is calling to cancel her research project."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The passage mentions a star's light pattern, not a new constellation.",
+      "C": "She is carefully studying data, which indicates the telescope is working.",
+      "D": "She is calling a colleague to share news, not cancel a project."
+    },
+    "explanation": "Dr. Amara verified her data multiple times, cross-checked with other astronomers, and smiled before calling a colleague. This suggests she confirmed an important discovery.",
+    "explanationSteps": [
+      "Notice she checked the data five times — this is thorough work.",
+      "Her data matched three other astronomers — this confirms accuracy.",
+      "Her smile and phone call suggest she has good news about a confirmed finding."
+    ],
+    "hints": [
+      "Why would she check the data five times?",
+      "What does it mean when different astronomers' data match?"
+    ],
+    "tags": [
+      "inference",
+      "drawing-conclusions",
+      "science"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "er-b2-002",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "cause-effect",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "passage": "The invention of the printing press in the 15th century changed Europe dramatically. Before it, books were copied by hand and were extremely expensive. Only the wealthy and religious institutions could own books. After the printing press, books became cheaper and more available, leading to higher literacy rates and the spread of new ideas.",
+    "prompt": "What was one direct effect of cheaper, more available books?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Books became more expensive."
+      },
+      {
+        "key": "B",
+        "text": "Literacy rates increased."
+      },
+      {
+        "key": "C",
+        "text": "Only wealthy people could read."
+      },
+      {
+        "key": "D",
+        "text": "Books were copied by hand again."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The passage says books became cheaper, not more expensive.",
+      "C": "Before the printing press, only the wealthy had books. Afterward, books were more available to everyone.",
+      "D": "The printing press replaced hand-copying, so books were not copied by hand again."
+    },
+    "explanation": "The passage directly states that cheaper, more available books led to 'higher literacy rates and the spread of new ideas.'",
+    "explanationSteps": [
+      "Identify the cause: cheaper and more available books.",
+      "Look for the connecting word 'leading to'.",
+      "The effect is directly stated: higher literacy rates."
+    ],
+    "hints": [
+      "What happened AFTER books became cheaper and more available?",
+      "Look for the phrase 'leading to' in the passage."
+    ],
+    "tags": [
+      "inference",
+      "cause-effect",
+      "history"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "er-b2-003",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "character-feelings",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "passage": "Marcus stared at the blank page in front of him. The cursor blinked steadily, mockingly. He typed a sentence, then deleted it. He typed another and deleted that too. He pushed his chair back and walked to the window, watching the rain streak down the glass.",
+    "prompt": "Which of the following best describes Marcus's emotional state?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "excited and inspired"
+      },
+      {
+        "key": "B",
+        "text": "frustrated and blocked"
+      },
+      {
+        "key": "C",
+        "text": "peaceful and content"
+      },
+      {
+        "key": "D",
+        "text": "angry and furious"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Marcus is struggling to write — he deletes everything he types. This is not excitement.",
+      "C": "His actions (staring at a blank page, deleting, walking away) show dissatisfaction.",
+      "D": "While frustrated, there is no evidence of fury or extreme anger."
+    },
+    "explanation": "Marcus cannot seem to write anything he likes (he deletes everything), and the cursor feels 'mocking' to him. His frustration leads him to walk away from his work.",
+    "explanationSteps": [
+      "Notice his actions: stares at blank page, types and deletes.",
+      "Notice personification: 'cursor blinked mockingly'.",
+      "He eventually walks away — a sign of frustration, not inspiration."
+    ],
+    "hints": [
+      "Why would someone type and immediately delete?",
+      "What does it mean when the cursor feels 'mocking'?"
+    ],
+    "tags": [
+      "inference",
+      "character-feelings",
+      "writer's-block"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "er-b2-004",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "making-predictions",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "passage": "The hikers noticed the sky turning a strange greenish color. The wind picked up suddenly, and the temperature dropped. Their guide looked at the sky with concern and checked her weather radio. The radio crackled with an urgent weather alert.",
+    "prompt": "What will the guide most likely do next?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Continue the hike as planned."
+      },
+      {
+        "key": "B",
+        "text": "Lead the group to find shelter."
+      },
+      {
+        "key": "C",
+        "text": "Take a photo of the strange sky."
+      },
+      {
+        "key": "D",
+        "text": "Set up camp for the night."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The guide is concerned and got an urgent alert — continuing is unsafe.",
+      "C": "Taking a photo would not address the danger of the approaching weather.",
+      "D": "Setting up camp is for nighttime, not for immediate weather threats."
+    },
+    "explanation": "The guide is concerned about the changing weather signs and receives an urgent alert. A responsible guide would seek shelter to protect the group.",
+    "explanationSteps": [
+      "Identify the warning signs: green sky, strong wind, temperature drop.",
+      "Notice the guide's reaction: concerned, checks weather radio.",
+      "Predict the logical action: find shelter from the coming storm."
+    ],
+    "hints": [
+      "What is the guide's job in an emergency?",
+      "What would be the safest action with an urgent weather alert?"
+    ],
+    "tags": [
+      "inference",
+      "making-predictions",
+      "weather-safety"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "er-b2-005",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "text-structure",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "passage": "Solar energy has many advantages. First, it is renewable and will never run out. Second, it produces no pollution. Third, it can save homeowners money on electricity bills. However, solar panels are expensive to install initially, and they do not work as well on cloudy days or at night.",
+    "prompt": "How is this passage organized?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "chronological order by date"
+      },
+      {
+        "key": "B",
+        "text": "compare and contrast"
+      },
+      {
+        "key": "C",
+        "text": "problem and solution"
+      },
+      {
+        "key": "D",
+        "text": "advantages followed by disadvantages"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "A": "The passage does not use dates or time order.",
+      "B": "While there is a contrast, the structure is not a direct comparison of two things.",
+      "C": "The passage presents pros and cons of solar energy, not a problem with a single solution."
+    },
+    "explanation": "The passage lists advantages of solar energy using 'First, Second, Third', then shifts to disadvantages with 'However'. This is a pros-and-cons structure.",
+    "explanationSteps": [
+      "Notice the listing words: 'First, Second, Third'.",
+      "Notice the shift word: 'However'.",
+      "The structure moves from positive aspects to limitations."
+    ],
+    "hints": [
+      "Look at how the passage transitions from one part to another.",
+      "What does the word 'However' signal in the structure?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "text-structure",
+      "energy"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "er-b2-006",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "compare-contrast",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "passage": "Cats and dogs are both popular pets, but they have very different needs. Cats are independent and can entertain themselves for hours. They use a litter box, so they do not need to be walked. Dogs, on the other hand, require daily walks and constant attention. They need more training and companionship than cats do.",
+    "prompt": "According to the passage, how are cats and dogs similar?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Both need to be walked daily."
+      },
+      {
+        "key": "B",
+        "text": "Both are popular pets."
+      },
+      {
+        "key": "C",
+        "text": "Both are independent."
+      },
+      {
+        "key": "D",
+        "text": "Both use a litter box."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Only dogs need daily walks. Cats use a litter box.",
+      "C": "The passage says cats are independent but implies dogs need constant attention.",
+      "D": "Only cats use a litter box."
+    },
+    "explanation": "The first sentence states that 'cats and dogs are both popular pets.' This is the only similarity mentioned. The rest of the passage focuses on their differences.",
+    "explanationSteps": [
+      "Read the first sentence carefully.",
+      "It presents the similarity: both are popular pets.",
+      "The rest uses comparison words like 'but' and 'on the other hand' to discuss differences."
+    ],
+    "hints": [
+      "Look for the word 'both' in the passage.",
+      "Does the passage state any way they are alike?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "compare-contrast",
+      "animals"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "er-b2-007",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "point-of-view",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "passage": "I will never forget the day our town got its first library. I was eight years old when my grandmother took me by the hand and led me through the wooden doors. The smell of old books and the quiet hum of readers felt like magic. From that day on, I knew I would always be a reader.",
+    "prompt": "From which point of view is this passage written?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "First person"
+      },
+      {
+        "key": "B",
+        "text": "Second person"
+      },
+      {
+        "key": "C",
+        "text": "Third person limited"
+      },
+      {
+        "key": "D",
+        "text": "Third person omniscient"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Second person uses 'you'. The passage uses 'I' and 'my'.",
+      "C": "Third person uses 'he', 'she', or 'they'. The passage uses 'I'.",
+      "D": "Third person omniscient knows all characters' thoughts. The passage uses first-person narrator."
+    },
+    "explanation": "The passage uses 'I', 'my', and 'me' — the narrator is telling their own story. This is first-person point of view.",
+    "explanationSteps": [
+      "Identify the pronouns used: 'I', 'my', 'me'.",
+      "The narrator is a character in the story telling their own experience.",
+      "This is the defining feature of first-person point of view."
+    ],
+    "hints": [
+      "Who is telling the story — someone inside it or outside it?",
+      "Look at the pronouns used in the passage."
+    ],
+    "tags": [
+      "critical-analysis",
+      "point-of-view",
+      "narrative"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b2-008",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "theme-identification",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.65,
+    "passage": "Elena trained for months for the regional swimming competition. On the day of the race, she came in second place. At first, she was disappointed. But then she saw how proud her parents were and realized how much stronger she had become since last year. She smiled and congratulated the winner.",
+    "prompt": "Which theme is best supported by this passage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Winning is the only thing that matters."
+      },
+      {
+        "key": "B",
+        "text": "Growth and effort matter more than winning."
+      },
+      {
+        "key": "C",
+        "text": "Competition brings out the worst in people."
+      },
+      {
+        "key": "D",
+        "text": "Parents should not watch their children compete."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Elena was initially disappointed but then realized her growth mattered more than first place.",
+      "C": "Elena congratulated the winner — the competition did not bring out the worst in her.",
+      "D": "Her parents being proud was a positive moment, not a negative one."
+    },
+    "explanation": "Elena learned that even though she did not win first place, she grew stronger and improved. The theme is that personal growth and effort are valuable beyond just winning.",
+    "explanationSteps": [
+      "Notice Elena's journey: trained hard, got second place.",
+      "Her feelings change from disappointment to pride.",
+      "The lesson she learns: improvement and effort matter, not just winning."
+    ],
+    "hints": [
+      "What lesson does Elena learn by the end?",
+      "Does winning first place seem to be the most important thing to her at the end?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "theme",
+      "perseverance"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "er-b2-009",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "figurative-language",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "passage": "The morning sun was a golden coin dropping into the sky. The trees whispered secrets to each other as a breeze passed through. The old house stood silently at the end of the lane, its windows like sleepy eyes watching the street.",
+    "prompt": "What literary device is used in 'the trees whispered secrets'?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Simile"
+      },
+      {
+        "key": "B",
+        "text": "Personification"
+      },
+      {
+        "key": "C",
+        "text": "Hyperbole"
+      },
+      {
+        "key": "D",
+        "text": "Alliteration"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Simile uses 'like' or 'as' to compare. 'Whispered secrets' does not use 'like' or 'as'.",
+      "C": "Hyperbole is extreme exaggeration. Trees whispering is not exaggeration but giving human qualities to nature.",
+      "D": "Alliteration is repetition of beginning sounds. 'Whispered secrets' is about giving human actions to trees."
+    },
+    "explanation": "Personification gives human qualities to non-human things. Trees cannot literally whisper, but the author gives them the human action of whispering to create an image.",
+    "explanationSteps": [
+      "Identify what is being described: trees.",
+      "Identify the action: whispering — a human action.",
+      "Giving human qualities to non-human things is personification."
+    ],
+    "hints": [
+      "Can trees really whisper?",
+      "What is it called when we give human traits to non-human things?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "figurative-language",
+      "personification"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "er-b2-010",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "figurative-language",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "passage": "The morning sun was a golden coin dropping into the sky. The trees whispered secrets to each other as a breeze passed through. The old house stood silently at the end of the lane, its windows like sleepy eyes watching the street.",
+    "prompt": "What literary device is used in 'the morning sun was a golden coin'?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Metaphor"
+      },
+      {
+        "key": "B",
+        "text": "Simile"
+      },
+      {
+        "key": "C",
+        "text": "Onomatopoeia"
+      },
+      {
+        "key": "D",
+        "text": "Alliteration"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "A simile uses 'like' or 'as'. This sentence says the sun 'was' a golden coin — a direct comparison without 'like' or 'as'.",
+      "C": "Onomatopoeia is a word that sounds like its meaning (buzz, bang). This is a comparison.",
+      "D": "Alliteration is repetition of beginning consonant sounds."
+    },
+    "explanation": "A metaphor compares two unlike things without using 'like' or 'as'. The sun is directly called 'a golden coin'.",
+    "explanationSteps": [
+      "Find the comparison: sun and golden coin.",
+      "Notice the linking word: 'was' (not 'like' or 'as').",
+      "A direct comparison without 'like' or 'as' is a metaphor."
+    ],
+    "hints": [
+      "Does this comparison use 'like' or 'as'?",
+      "What is it called when you say one thing IS another?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "figurative-language",
+      "metaphor"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b2-011",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "author-purpose",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "passage": "Every year, millions of tons of plastic end up in our oceans. Sea turtles mistake plastic bags for jellyfish and eat them. Fish consume microplastics, which then enter our food chain. The time to act is now. We must reduce our use of single-use plastics and demand better recycling programs.",
+    "prompt": "What is the author's primary purpose in this passage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "to entertain readers with ocean stories"
+      },
+      {
+        "key": "B",
+        "text": "to inform readers about different sea creatures"
+      },
+      {
+        "key": "C",
+        "text": "to persuade readers to reduce plastic use"
+      },
+      {
+        "key": "D",
+        "text": "to explain how plastic is manufactured"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "The passage is serious and informational, not entertaining.",
+      "B": "While it mentions sea creatures, the focus is on the problem of plastic.",
+      "D": "The passage does not explain how plastic is made."
+    },
+    "explanation": "The author describes the problem (plastic pollution), then uses 'We must' to call readers to action. This is persuasive writing.",
+    "explanationSteps": [
+      "Identify the problem: plastic pollution in oceans.",
+      "Identify the call to action: 'We must reduce...'.",
+      "The goal is to move readers to act — that is persuasion."
+    ],
+    "hints": [
+      "Does the author want you to do something?",
+      "Look for words like 'must' that urge action."
+    ],
+    "tags": [
+      "inference",
+      "author-purpose",
+      "environment"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "er-b2-012",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "drawing-conclusions",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.65,
+    "passage": "The ancient city had an advanced water system for its time. Engineers built aqueducts to bring fresh water from mountains miles away. Public baths, fountains, and even some private homes had running water. The system used gravity alone — no pumps were needed. This technology would not be matched for over a thousand years.",
+    "prompt": "What can you conclude about the civilization that built this water system?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "They had no access to fresh water."
+      },
+      {
+        "key": "B",
+        "text": "They were highly advanced in engineering."
+      },
+      {
+        "key": "C",
+        "text": "They invented the first pumps."
+      },
+      {
+        "key": "D",
+        "text": "They only built baths for the wealthy."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The system brought fresh water, so they did have access to it.",
+      "C": "The passage says the system used gravity alone with no pumps.",
+      "D": "The passage says even some private homes had running water, not just baths."
+    },
+    "explanation": "Building aqueducts over miles using only gravity, with technology 'not matched for over a thousand years', shows this was an extremely advanced civilization.",
+    "explanationSteps": [
+      "Note what they built: miles-long aqueducts using only gravity.",
+      "Consider the result: running water for public and private use.",
+      "The passage states this technology was unmatched for 1,000+ years — a sign of advanced engineering."
+    ],
+    "hints": [
+      "What does it take to build aqueducts over miles?",
+      "Why would this technology be unmatched for 1,000 years?"
+    ],
+    "tags": [
+      "inference",
+      "drawing-conclusions",
+      "ancient-civilizations"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "er-b2-013",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "cause-effect",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "passage": "When the factory opened in our town, many people were excited about new jobs. Within a year, the population grew by 30 percent. New schools, shops, and restaurants were built. However, traffic increased, and the quiet town became much noisier. Some long-time residents missed the way things used to be.",
+    "prompt": "What was one negative effect of the factory opening?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The population decreased."
+      },
+      {
+        "key": "B",
+        "text": "New schools were built."
+      },
+      {
+        "key": "C",
+        "text": "Traffic and noise increased."
+      },
+      {
+        "key": "D",
+        "text": "People stopped visiting the town."
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "The population grew by 30%, not decreased.",
+      "B": "New schools were a positive effect, not a negative one.",
+      "D": "The passage does not say people stopped visiting."
+    },
+    "explanation": "The passage states 'traffic increased, and the quiet town became much noisier' as downsides of the factory opening, with some residents missing the old quiet atmosphere.",
+    "explanationSteps": [
+      "Identify the cause: the factory opened.",
+      "Look for negative results signaled by 'However'.",
+      "The passage mentions increased traffic and noise as negative effects."
+    ],
+    "hints": [
+      "Look for the word 'However' — it signals a shift to negative aspects.",
+      "What downsides did the factory bring to the town?"
+    ],
+    "tags": [
+      "inference",
+      "cause-effect",
+      "community"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "er-b2-014",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "compare-contrast",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "passage": "Public transportation and private cars each have their benefits. Buses and trains can carry many people at once, reducing traffic congestion. They are also more environmentally friendly per passenger. Cars, on the other hand, offer flexibility and privacy. You can leave whenever you want and go exactly where you need without transfers.",
+    "prompt": "How does the passage present the relationship between public transportation and cars?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Public transportation is always better than cars."
+      },
+      {
+        "key": "B",
+        "text": "Each has different advantages."
+      },
+      {
+        "key": "C",
+        "text": "Cars are more environmentally friendly."
+      },
+      {
+        "key": "D",
+        "text": "They are exactly the same."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The passage presents benefits of both without declaring one universally better.",
+      "C": "The passage says public transportation is 'more environmentally friendly'.",
+      "D": "The passage uses 'on the other hand' to show they have different strengths."
+    },
+    "explanation": "The passage lists benefits of public transportation (reduces traffic, eco-friendly) and then benefits of cars (flexibility, privacy) using 'on the other hand', showing each has distinct advantages.",
+    "explanationSteps": [
+      "Find the benefits listed for public transportation.",
+      "Find the benefits listed for cars.",
+      "Notice the transition 'on the other hand' — this shows a balanced comparison."
+    ],
+    "hints": [
+      "Does the passage say one is better than the other?",
+      "What signal phrase separates the discussion of cars from public transit?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "compare-contrast",
+      "transportation"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "er-b2-015",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "point-of-view",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.65,
+    "passage": "You walk into the old mansion and feel a chill run down your spine. The floorboards creak beneath your feet. You know you should leave, but something pulls you deeper into the darkness. Your hand trembles as you reach for the door handle.",
+    "prompt": "How does the point of view affect the reader's experience?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It creates distance between the reader and the story."
+      },
+      {
+        "key": "B",
+        "text": "It puts the reader directly into the character's experience."
+      },
+      {
+        "key": "C",
+        "text": "It lets the reader know what all characters are thinking."
+      },
+      {
+        "key": "D",
+        "text": "It makes the story feel like a history lesson."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Second-person point of view actually reduces distance by involving the reader directly.",
+      "C": "Second-person only follows 'you', not all characters.",
+      "D": "A history lesson would use third person or first person, not direct address to 'you'."
+    },
+    "explanation": "Second-person point of view ('you') places the reader directly into the story, making them feel as if they are experiencing the events themselves.",
+    "explanationSteps": [
+      "Identify the pronoun: 'you'.",
+      "This is second-person point of view.",
+      "Second-person immerses the reader by making them the protagonist."
+    ],
+    "hints": [
+      "Who is 'you' in this passage?",
+      "How does it feel different from a story told with 'I' or 'he'?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "point-of-view",
+      "narrative-technique"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "er-b2-016",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "text-structure",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "passage": "The Amazon rainforest is often called the 'lungs of the Earth.' It produces about 20% of the world's oxygen. The rainforest is home to millions of species of plants and animals. However, deforestation is destroying this vital ecosystem at an alarming rate. If we do not act, we could lose this natural treasure forever.",
+    "prompt": "How does the author use text structure to develop the argument?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "By describing the rainforest in chronological order"
+      },
+      {
+        "key": "B",
+        "text": "By establishing value, then presenting a threat"
+      },
+      {
+        "key": "C",
+        "text": "By comparing two different rainforests"
+      },
+      {
+        "key": "D",
+        "text": "By listing steps to save the rainforest"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The passage does not use time order.",
+      "C": "Only one rainforest (the Amazon) is discussed.",
+      "D": "The passage identifies the problem but does not list specific solution steps."
+    },
+    "explanation": "First, the author establishes the rainforest's importance (lungs of Earth, produces oxygen, hosts species). Then 'However' introduces the threat of deforestation. This structure builds the argument: valuable thing is in danger.",
+    "explanationSteps": [
+      "First section describes why the Amazon is valuable.",
+      "Transition word 'However' signals a shift.",
+      "Second section introduces the threat to that value."
+    ],
+    "hints": [
+      "What comes before and after the word 'However'?",
+      "Why does the author first explain why the rainforest is important?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "text-structure",
+      "environment"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "er-b2-017",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "theme-identification",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.65,
+    "passage": "Two friends were hiking when they encountered a bear. One friend immediately climbed a tree. The other, knowing he could not outrun the bear, lay still on the ground. The bear sniffed him and then wandered away. The friend in the tree climbed down and said, 'I'm sorry I left you.' The other replied, 'Now I know who my real friends are.'",
+    "prompt": "Which theme does this passage best illustrate?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Bears are dangerous animals."
+      },
+      {
+        "key": "B",
+        "text": "True friendship is revealed in difficult times."
+      },
+      {
+        "key": "C",
+        "text": "Hiking is a dangerous activity."
+      },
+      {
+        "key": "D",
+        "text": "It is smart to climb trees when scared."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The bear is part of the story, but the theme is about friendship, not bears.",
+      "C": "The story uses hiking as a setting but focuses on the friends' actions.",
+      "D": "The story is about loyalty, not about survival strategies."
+    },
+    "explanation": "When danger came, one friend abandoned the other. The friend who stayed learned who was truly loyal. The theme is that real friendship is tested in hard times.",
+    "explanationSteps": [
+      "Identify the conflict: one friend abandoned the other.",
+      "Look at the lesson learned: 'Now I know who my real friends are.'",
+      "The theme is about the nature of true friendship."
+    ],
+    "hints": [
+      "What lesson does the friend on the ground learn?",
+      "The theme is the bigger message — what is it saying about life?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "theme",
+      "friendship"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "er-b2-018",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "making-predictions",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.65,
+    "passage": "Kai has been practicing the violin for three years. He dreams of being the concertmaster of the youth orchestra. Recently, a new student named Lin joined the orchestra. Lin has been playing for six years and plays at a much higher level. The conductor announced that the concertmaster position will be decided by a vote next month.",
+    "prompt": "How will Kai most likely respond to this situation?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "He will quit the orchestra immediately."
+      },
+      {
+        "key": "B",
+        "text": "He will practice harder to improve his chances."
+      },
+      {
+        "key": "C",
+        "text": "He will ask Lin to drop out of the competition."
+      },
+      {
+        "key": "D",
+        "text": "He will pretend he does not care about the position."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Kai has been playing for three years and dreams of this — quitting seems unlikely.",
+      "C": "There is no evidence Kai would act unfairly toward Lin.",
+      "D": "Kai clearly cares deeply since he has been working toward this for years."
+    },
+    "explanation": "Kai has been dedicated (three years of practice) and has a strong goal. When faced with competition, he will likely increase his effort rather than give up.",
+    "explanationSteps": [
+      "Note Kai's dedication: three years of practice.",
+      "Note his dream: being concertmaster.",
+      "The challenge: Lin is more experienced. A determined person would practice more."
+    ],
+    "hints": [
+      "How has Kai behaved so far in pursuing his goal?",
+      "What would a dedicated person do when facing competition?"
+    ],
+    "tags": [
+      "inference",
+      "making-predictions",
+      "determination"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "er-b2-019",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "figurative-language",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.65,
+    "passage": "Her laughter was a river of pure joy, flowing through the room and lifting everyone's spirits. When she told a joke, even the grumpiest person could not help but smile. Her happiness spread like wildfire through the crowded cafeteria.",
+    "prompt": "What does the simile 'her happiness spread like wildfire' suggest?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Her happiness was dangerous."
+      },
+      {
+        "key": "B",
+        "text": "Her happiness spread quickly to others."
+      },
+      {
+        "key": "C",
+        "text": "Her happiness was hot and uncomfortable."
+      },
+      {
+        "key": "D",
+        "text": "Her happiness was small and contained."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Wildfire suggests speed and spread, not danger in this positive context.",
+      "C": "The passage describes her happiness as 'pure joy' that lifts spirits, not as uncomfortable.",
+      "D": "Her happiness spread through the whole cafeteria — it was not small or contained."
+    },
+    "explanation": "A wildfire spreads rapidly and uncontrollably. The simile compares her happiness to wildfire to show how quickly and widely her positive mood affected others.",
+    "explanationSteps": [
+      "Identify the simile: 'like wildfire'.",
+      "Consider what wildfire does: spreads fast and far.",
+      "Apply to happiness: her happiness spread quickly to many people."
+    ],
+    "hints": [
+      "How fast does a wildfire spread?",
+      "What does the simile say about how quickly happiness moved through the room?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "figurative-language",
+      "simile"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "er-b2-020",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "author-purpose",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "passage": "The Great Wall of China stretches over 13,000 miles. It was built over many centuries by different Chinese dynasties. The wall was not just a single wall but a series of walls and fortifications. Its original purpose was to protect China from invasions from the north. Today, it is a UNESCO World Heritage site and a major tourist attraction.",
+    "prompt": "What is the author's primary purpose in writing this passage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "to persuade readers to visit the Great Wall"
+      },
+      {
+        "key": "B",
+        "text": "to inform readers about the Great Wall"
+      },
+      {
+        "key": "C",
+        "text": "to entertain readers with a legend about the wall"
+      },
+      {
+        "key": "D",
+        "text": "to criticize the building of the wall"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The passage states facts but does not urge readers to visit.",
+      "C": "The passage presents factual information, not an entertaining legend.",
+      "D": "The passage is neutral and factual, not critical."
+    },
+    "explanation": "The passage presents factual information about the Great Wall: its length, construction, purpose, and current status. This is an informative or expository text.",
+    "explanationSteps": [
+      "Check the content: facts about length, dynasties, purpose.",
+      "Check the tone: neutral, presenting information.",
+      "No call to action, no entertainment, no criticism. This is informative."
+    ],
+    "hints": [
+      "Does the author want you to do, feel, or learn something?",
+      "What kind of text gives facts without trying to change your opinion?"
+    ],
+    "tags": [
+      "inference",
+      "author-purpose",
+      "history"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b2-001",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "drawing-conclusions",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "passage": "Dr. Amara studied the data from her telescope for the fifth time. The light pattern from the distant star flickered at regular intervals. She compared her notes with observations from three other astronomers. Their data matched perfectly. Dr. Amara smiled and picked up her phone to call her colleague.",
+    "prompt": "What can you conclude about Dr. Amaras discovery?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "She found a new constellation."
+      },
+      {
+        "key": "B",
+        "text": "She confirmed a significant finding."
+      },
+      {
+        "key": "C",
+        "text": "Her telescope needs repairs."
+      },
+      {
+        "key": "D",
+        "text": "She is calling to cancel a project."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Not about a constellation.",
+      "C": "Telescope is working fine.",
+      "D": "She is sharing good news."
+    },
+    "explanation": "She verified data multiple times, cross-checked with others, and smiled. This suggests a confirmed discovery.",
+    "explanationSteps": [
+      "Checked data five times = thorough.",
+      "Data matched others = confirmed.",
+      "Smile and call = good news."
+    ],
+    "hints": [
+      "Why check data five times?",
+      "What does matched data mean?"
+    ],
+    "tags": [
+      "inference",
+      "drawing-conclusions",
+      "science"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "er-b2-002",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "cause-effect",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "passage": "The invention of the printing press in the 15th century changed Europe. Before it, books were copied by hand and were extremely expensive. Only the wealthy could own books. After the printing press, books became cheaper. This led to higher literacy rates and the spread of new ideas.",
+    "prompt": "What was one direct effect of cheaper books?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Books became more expensive."
+      },
+      {
+        "key": "B",
+        "text": "Literacy rates increased."
+      },
+      {
+        "key": "C",
+        "text": "Only wealthy people could read."
+      },
+      {
+        "key": "D",
+        "text": "Books were copied by hand."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Books became cheaper.",
+      "C": "Before, only wealthy had books.",
+      "D": "Printing press replaced hand-copying."
+    },
+    "explanation": "The passage directly states cheaper books led to higher literacy rates.",
+    "explanationSteps": [
+      "Cause: cheaper books.",
+      "Look for led to.",
+      "Effect: higher literacy rates."
+    ],
+    "hints": [
+      "What happened after books became cheaper?",
+      "Look for the phrase led to."
+    ],
+    "tags": [
+      "inference",
+      "cause-effect",
+      "history"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "er-b2-003",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "character-feelings",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "passage": "Marcus stared at the blank page in front of him. The cursor blinked steadily, mockingly. He typed a sentence, then deleted it. He typed another and deleted that too. He pushed his chair back and walked to the window, watching the rain streak down the glass.",
+    "prompt": "Which best describes Marcuss emotional state?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "excited and inspired"
+      },
+      {
+        "key": "B",
+        "text": "frustrated and blocked"
+      },
+      {
+        "key": "C",
+        "text": "peaceful and content"
+      },
+      {
+        "key": "D",
+        "text": "angry and furious"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "He keeps deleting everything.",
+      "C": "Walking away shows dissatisfaction.",
+      "D": "Frustrated but not furious."
+    },
+    "explanation": "Marcus cannot write anything he likes, the cursor feels mocking, and he walks away in frustration.",
+    "explanationSteps": [
+      "He stares at a blank page.",
+      "Types and deletes everything.",
+      "Walks away = frustration."
+    ],
+    "hints": [
+      "Why type and immediately delete?",
+      "What does a mocking cursor mean?"
+    ],
+    "tags": [
+      "inference",
+      "character-feelings",
+      "writers-block"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "er-b2-004",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "making-predictions",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "passage": "The hikers noticed the sky turning a strange greenish color. The wind picked up suddenly, and the temperature dropped. Their guide looked at the sky with concern and checked her weather radio. The radio crackled with an urgent weather alert.",
+    "prompt": "What will the guide most likely do next?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Continue the hike."
+      },
+      {
+        "key": "B",
+        "text": "Lead the group to find shelter."
+      },
+      {
+        "key": "C",
+        "text": "Take a photo of the sky."
+      },
+      {
+        "key": "D",
+        "text": "Set up camp for the night."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Unsafe with urgent alert.",
+      "C": "Photo will not help with danger.",
+      "D": "Camp is for night, not storms."
+    },
+    "explanation": "The guide is concerned and receives an urgent alert. A responsible guide would seek shelter.",
+    "explanationSteps": [
+      "Warning signs: green sky, strong wind.",
+      "Guide: concerned, checks radio.",
+      "Logical action: find shelter."
+    ],
+    "hints": [
+      "What is the guides job in emergency?",
+      "What is the safest action?"
+    ],
+    "tags": [
+      "inference",
+      "making-predictions",
+      "weather-safety"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "er-b2-005",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "text-structure",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "passage": "Solar energy has many advantages. First, it is renewable. Second, it produces no pollution. Third, it can save money. However, solar panels are expensive to install, and they do not work as well on cloudy days or at night.",
+    "prompt": "How is this passage organized?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "chronological order"
+      },
+      {
+        "key": "B",
+        "text": "compare and contrast"
+      },
+      {
+        "key": "C",
+        "text": "problem and solution"
+      },
+      {
+        "key": "D",
+        "text": "advantages followed by disadvantages"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "A": "No dates or time order.",
+      "B": "No direct comparison of two things.",
+      "C": "Not a single problem with solution."
+    },
+    "explanation": "The passage lists advantages (First, Second, Third) then shifts with However to disadvantages.",
+    "explanationSteps": [
+      "Notice listing words: First, Second, Third.",
+      "Notice shift word: However.",
+      "Structure: pros then cons."
+    ],
+    "hints": [
+      "Look at how the passage transitions.",
+      "What does However signal?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "text-structure",
+      "energy"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "er-b2-006",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "compare-contrast",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "passage": "Cats and dogs are both popular pets, but they have different needs. Cats are independent and entertain themselves. They use a litter box. Dogs require daily walks and constant attention. They need more training and companionship.",
+    "prompt": "How are cats and dogs similar according to the passage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Both need daily walks."
+      },
+      {
+        "key": "B",
+        "text": "Both are popular pets."
+      },
+      {
+        "key": "C",
+        "text": "Both are independent."
+      },
+      {
+        "key": "D",
+        "text": "Both use a litter box."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Only dogs need walks.",
+      "C": "Only cats are independent.",
+      "D": "Only cats use litter box."
+    },
+    "explanation": "The first sentence says both are popular pets. That is the only similarity mentioned.",
+    "explanationSteps": [
+      "Read the first sentence.",
+      "It presents the similarity.",
+      "Rest: differences."
+    ],
+    "hints": [
+      "Look for the word both.",
+      "Does the passage say any other similarity?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "compare-contrast",
+      "animals"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "er-b2-007",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "point-of-view",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "passage": "I will never forget the day our town got its first library. I was eight years old when my grandmother took me by the hand and led me through the wooden doors. The smell of old books felt like magic. From that day on, I knew I would always be a reader.",
+    "prompt": "From which point of view is this written?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "First person"
+      },
+      {
+        "key": "B",
+        "text": "Second person"
+      },
+      {
+        "key": "C",
+        "text": "Third person limited"
+      },
+      {
+        "key": "D",
+        "text": "Third person omniscient"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Second person uses you.",
+      "C": "Third person uses he/she/they.",
+      "D": "Narrator knows all thoughts."
+    },
+    "explanation": "The passage uses I, my, and me. The narrator tells their own story. This is first-person.",
+    "explanationSteps": [
+      "Identify pronouns: I, my, me.",
+      "Narrator is in the story.",
+      "This is first-person."
+    ],
+    "hints": [
+      "Who is telling the story?",
+      "Look at the pronouns."
+    ],
+    "tags": [
+      "critical-analysis",
+      "point-of-view",
+      "narrative"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b2-008",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "theme-identification",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.65,
+    "passage": "Elena trained for months for the swimming competition. On race day, she came in second place. At first, she was disappointed. But then she saw how proud her parents were and realized how much stronger she had become since last year. She smiled and congratulated the winner.",
+    "prompt": "Which theme is best supported?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Winning is the only thing."
+      },
+      {
+        "key": "B",
+        "text": "Growth and effort matter more than winning."
+      },
+      {
+        "key": "C",
+        "text": "Competition brings out the worst."
+      },
+      {
+        "key": "D",
+        "text": "Parents should not watch."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "She learned growth matters.",
+      "C": "She congratulated the winner.",
+      "D": "Parents being proud was positive."
+    },
+    "explanation": "Elena learned that even without first place, she grew stronger and improved. The theme is that personal growth matters.",
+    "explanationSteps": [
+      "Elenas journey: trained, got second.",
+      "Feelings: disappointment to pride.",
+      "Lesson: improvement matters."
+    ],
+    "hints": [
+      "What lesson does Elena learn?",
+      "Does winning seem most important at the end?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "theme",
+      "perseverance"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "er-b2-009",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "figurative-language",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "passage": "The morning sun was a golden coin dropping into the sky. The trees whispered secrets to each other as a breeze passed through. The old house stood silently at the end of the lane, its windows like sleepy eyes watching the street.",
+    "prompt": "What literary device is used in the trees whispered secrets?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Simile"
+      },
+      {
+        "key": "B",
+        "text": "Personification"
+      },
+      {
+        "key": "C",
+        "text": "Hyperbole"
+      },
+      {
+        "key": "D",
+        "text": "Alliteration"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Does not use like or as.",
+      "C": "Not extreme exaggeration.",
+      "D": "Repetition of beginning sounds."
+    },
+    "explanation": "Giving human qualities (whispering) to non-human things (trees) is personification.",
+    "explanationSteps": [
+      "What is described: trees.",
+      "Action: whispering = human action.",
+      "Giving human traits to non-human = personification."
+    ],
+    "hints": [
+      "Can trees really whisper?",
+      "What is it called when we give human traits to things?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "figurative-language",
+      "personification"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "er-b2-010",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "figurative-language",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "passage": "The morning sun was a golden coin dropping into the sky. The trees whispered secrets to each other as a breeze passed through. The old house stood silently at the end of the lane, its windows like sleepy eyes watching the street.",
+    "prompt": "The morning sun was a golden coin is an example of what?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Metaphor"
+      },
+      {
+        "key": "B",
+        "text": "Simile"
+      },
+      {
+        "key": "C",
+        "text": "Onomatopoeia"
+      },
+      {
+        "key": "D",
+        "text": "Alliteration"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Does not use like or as.",
+      "C": "Not a sound word.",
+      "D": "Not repeated consonant sounds."
+    },
+    "explanation": "A metaphor compares two things without using like or as. The sun is directly called a golden coin.",
+    "explanationSteps": [
+      "Comparison: sun and golden coin.",
+      "Linking word: was (not like/as).",
+      "Direct comparison = metaphor."
+    ],
+    "hints": [
+      "Does this use like or as?",
+      "What is it called when you say one thing IS another?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "figurative-language",
+      "metaphor"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b2-011",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "author-purpose",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "passage": "Every year, millions of tons of plastic end up in our oceans. Sea turtles mistake plastic bags for jellyfish. Fish consume microplastics, which enter our food chain. The time to act is now. We must reduce our use of single-use plastics and demand better recycling programs.",
+    "prompt": "What is the authors primary purpose?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "to entertain with ocean stories"
+      },
+      {
+        "key": "B",
+        "text": "to inform about sea creatures"
+      },
+      {
+        "key": "C",
+        "text": "to persuade readers to reduce plastic use"
+      },
+      {
+        "key": "D",
+        "text": "to explain plastic manufacturing"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Serious and informational.",
+      "B": "Focus is on plastic problem.",
+      "D": "Does not explain manufacturing."
+    },
+    "explanation": "The author describes plastic pollution, then uses We must to call readers to action.",
+    "explanationSteps": [
+      "Problem: plastic pollution.",
+      "Call to action: We must reduce.",
+      "Goal: persuade readers."
+    ],
+    "hints": [
+      "Does the author want you to do something?",
+      "Look for words like must."
+    ],
+    "tags": [
+      "inference",
+      "author-purpose",
+      "environment"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "er-b2-012",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "drawing-conclusions",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.65,
+    "passage": "The ancient city had an advanced water system. Engineers built aqueducts to bring fresh water from mountains miles away. Public baths, fountains, and even some private homes had running water. The system used gravity alone with no pumps. This technology would not be matched for over a thousand years.",
+    "prompt": "What can you conclude about this civilization?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "They had no fresh water."
+      },
+      {
+        "key": "B",
+        "text": "They were highly advanced in engineering."
+      },
+      {
+        "key": "C",
+        "text": "They invented the first pumps."
+      },
+      {
+        "key": "D",
+        "text": "They only built baths for the wealthy."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "System brought fresh water.",
+      "C": "System used gravity, no pumps.",
+      "D": "Even private homes had water."
+    },
+    "explanation": "Building aqueducts over miles using only gravity, with technology unmatched for 1,000+ years, shows advanced engineering.",
+    "explanationSteps": [
+      "They built miles-long aqueducts.",
+      "Used only gravity.",
+      "Unmatched for 1,000 years = advanced."
+    ],
+    "hints": [
+      "What does it take to build aqueducts over miles?",
+      "Why was this unmatched for so long?"
+    ],
+    "tags": [
+      "inference",
+      "drawing-conclusions",
+      "ancient-civilizations"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "er-b2-013",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "cause-effect",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "passage": "When the factory opened, many were excited about new jobs. The population grew by 30 percent. New schools and shops were built. However, traffic increased and the quiet town became much noisier. Long-time residents missed how things used to be.",
+    "prompt": "What was one negative effect of the factory?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The population decreased."
+      },
+      {
+        "key": "B",
+        "text": "New schools were built."
+      },
+      {
+        "key": "C",
+        "text": "Traffic and noise increased."
+      },
+      {
+        "key": "D",
+        "text": "People stopped visiting."
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Population grew 30%.",
+      "B": "New schools were positive.",
+      "D": "Not mentioned."
+    },
+    "explanation": "The passage says traffic increased and the town became noisier as negative effects.",
+    "explanationSteps": [
+      "Cause: factory opened.",
+      "Look for negatives after However.",
+      "Increased traffic and noise."
+    ],
+    "hints": [
+      "Look for the word However.",
+      "What downsides did the factory bring?"
+    ],
+    "tags": [
+      "inference",
+      "cause-effect",
+      "community"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "er-b2-014",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "compare-contrast",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "passage": "Public transportation and cars each have benefits. Buses and trains carry many people and reduce traffic. They are more environmentally friendly. Cars offer flexibility and privacy. You can leave whenever you want and go exactly where you need.",
+    "prompt": "How does the passage present the two?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Public transit is always better."
+      },
+      {
+        "key": "B",
+        "text": "Each has different advantages."
+      },
+      {
+        "key": "C",
+        "text": "Cars are more eco-friendly."
+      },
+      {
+        "key": "D",
+        "text": "They are exactly the same."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Passage shows both benefits.",
+      "C": "Public transit is more eco-friendly.",
+      "D": "They have different strengths."
+    },
+    "explanation": "The passage lists benefits of both, showing each has distinct advantages.",
+    "explanationSteps": [
+      "Benefits of public transit.",
+      "Benefits of cars: on the other hand.",
+      "Balanced comparison."
+    ],
+    "hints": [
+      "Does the passage say one is better?",
+      "What signal phrase separates them?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "compare-contrast",
+      "transportation"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "er-b2-015",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "point-of-view",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.65,
+    "passage": "You walk into the old mansion and feel a chill run down your spine. The floorboards creak beneath your feet. You know you should leave, but something pulls you deeper into the darkness. Your hand trembles as you reach for the door handle.",
+    "prompt": "How does the point of view affect the readers experience?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Creates distance from the story."
+      },
+      {
+        "key": "B",
+        "text": "Puts the reader directly into the experience."
+      },
+      {
+        "key": "C",
+        "text": "Lets reader know all thoughts."
+      },
+      {
+        "key": "D",
+        "text": "Feels like a history lesson."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Second person reduces distance.",
+      "C": "Only follows you.",
+      "D": "Not a history lesson."
+    },
+    "explanation": "Second person (you) places the reader directly into the story, making them feel like the protagonist.",
+    "explanationSteps": [
+      "Identify pronoun: you.",
+      "This is second-person POV.",
+      "Second-person immerses the reader."
+    ],
+    "hints": [
+      "Who is you in this passage?",
+      "How does it feel different from I or he?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "point-of-view",
+      "narrative-technique"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "er-b2-016",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "text-structure",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "passage": "The Amazon rainforest is called the lungs of the Earth. It produces about 20% of the worlds oxygen. It is home to millions of species. However, deforestation is destroying this ecosystem. If we do not act, we could lose this treasure.",
+    "prompt": "How does the author use text structure to develop the argument?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "By chronological order"
+      },
+      {
+        "key": "B",
+        "text": "By establishing value, then presenting a threat"
+      },
+      {
+        "key": "C",
+        "text": "By comparing two rainforests"
+      },
+      {
+        "key": "D",
+        "text": "By listing solution steps"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "No time order.",
+      "C": "Only one rainforest discussed.",
+      "D": "No specific solution steps."
+    },
+    "explanation": "First, the author shows the rainforest is valuable. Then However introduces the threat.",
+    "explanationSteps": [
+      "First: why Amazon is valuable.",
+      "However: signals shift.",
+      "Then: threat."
+    ],
+    "hints": [
+      "What comes before and after However?",
+      "Why show value then threat?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "text-structure",
+      "environment"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "er-b2-017",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "theme-identification",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.65,
+    "passage": "Two friends were hiking when they encountered a bear. One friend immediately climbed a tree. The other lay still on the ground. The bear sniffed him and wandered away. The friend in the tree climbed down and said, I am sorry I left you. The other replied, Now I know who my real friends are.",
+    "prompt": "Which theme does this best illustrate?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Bears are dangerous."
+      },
+      {
+        "key": "B",
+        "text": "True friendship is revealed in difficult times."
+      },
+      {
+        "key": "C",
+        "text": "Hiking is dangerous."
+      },
+      {
+        "key": "D",
+        "text": "It is smart to climb trees when scared."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The bear is part of the plot.",
+      "C": "Setting, not the theme.",
+      "D": "Not the main message."
+    },
+    "explanation": "When danger came, one friend abandoned the other. The theme is that real friendship is tested in hard times.",
+    "explanationSteps": [
+      "Conflict: one abandoned the other.",
+      "Lesson: Now I know who my real friends are.",
+      "Theme: true friendship is revealed in hard times."
+    ],
+    "hints": [
+      "What lesson does the friend on the ground learn?",
+      "What is the passage saying about life?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "theme",
+      "friendship"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "er-b2-018",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "making-predictions",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.65,
+    "passage": "Kai has been practicing violin for three years. He dreams of being concertmaster. Recently, a new student named Lin joined. Lin has played for six years at a much higher level. The conductor announced the concertmaster position will be decided by a vote next month.",
+    "prompt": "How will Kai most likely respond?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Quit the orchestra."
+      },
+      {
+        "key": "B",
+        "text": "Practice harder to improve."
+      },
+      {
+        "key": "C",
+        "text": "Ask Lin to drop out."
+      },
+      {
+        "key": "D",
+        "text": "Pretend he does not care."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "He has been dedicated for years.",
+      "C": "No evidence he would act unfairly.",
+      "D": "He clearly cares deeply."
+    },
+    "explanation": "Kai has been dedicated for three years. Faced with competition, a determined person would practice more.",
+    "explanationSteps": [
+      "Kais dedication: three years.",
+      "His dream: concertmaster.",
+      "Challenge: Lin is more experienced."
+    ],
+    "hints": [
+      "How has Kai behaved so far?",
+      "What would a dedicated person do?"
+    ],
+    "tags": [
+      "inference",
+      "making-predictions",
+      "determination"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "er-b2-019",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "figurative-language",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.65,
+    "passage": "Her laughter was a river of pure joy, flowing through the room and lifting everyones spirits. When she told a joke, even the grumpiest person could not help but smile. Her happiness spread like wildfire through the crowded cafeteria.",
+    "prompt": "The simile her happiness spread like wildfire suggests what?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Her happiness was dangerous."
+      },
+      {
+        "key": "B",
+        "text": "Her happiness spread quickly."
+      },
+      {
+        "key": "C",
+        "text": "Her happiness was uncomfortable."
+      },
+      {
+        "key": "D",
+        "text": "Her happiness was small."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Not dangerous in this context.",
+      "C": "Described as pure joy.",
+      "D": "Spread through whole cafeteria."
+    },
+    "explanation": "Wildfire spreads rapidly. The simile shows how quickly and widely her happiness affected others.",
+    "explanationSteps": [
+      "Simile: like wildfire.",
+      "Wildfire spreads fast and far.",
+      "Her happiness spread quickly to many."
+    ],
+    "hints": [
+      "How fast does wildfire spread?",
+      "What does that say about her happiness?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "figurative-language",
+      "simile"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "er-b2-020",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "author-purpose",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "passage": "The Great Wall of China stretches over 13,000 miles. It was built over many centuries by different dynasties. It was a series of walls and fortifications. Its original purpose was to protect China from northern invasions. Today, it is a UNESCO World Heritage site and a major tourist attraction.",
+    "prompt": "What is the authors primary purpose?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "to persuade readers to visit"
+      },
+      {
+        "key": "B",
+        "text": "to inform readers about the Great Wall"
+      },
+      {
+        "key": "C",
+        "text": "to entertain with a legend"
+      },
+      {
+        "key": "D",
+        "text": "to criticize the building"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "No call to action.",
+      "C": "Not a legend.",
+      "D": "Neutral tone, not critical."
+    },
+    "explanation": "The passage presents facts about the Great Wall. This is informative writing.",
+    "explanationSteps": [
+      "Check content: facts about length, purpose.",
+      "Check tone: neutral.",
+      "Purpose: to inform."
+    ],
+    "hints": [
+      "Does the author want you to do, feel, or learn?",
+      "What kind of text gives facts?"
+    ],
+    "tags": [
+      "inference",
+      "author-purpose",
+      "history"
+    ],
+    "estimatedTimeSec": 40
+  }
+]

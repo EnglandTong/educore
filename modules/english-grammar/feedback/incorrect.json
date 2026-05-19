@@ -1,0 +1,182 @@
+[
+  {
+    "id": "incorrect-01",
+    "text": "Not quite — but I can see your thinking! Let me explain...",
+    "context": "general",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "incorrect-02",
+    "text": "That's a really common mix-up! Here's how to remember...",
+    "context": "common-error",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "incorrect-03",
+    "text": "This is one of the trickiest parts of English. You're brave for trying!",
+    "context": "high-difficulty",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "incorrect-04",
+    "text": "Almost! You were on the right track — let's look at the details together.",
+    "context": "general",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "incorrect-05",
+    "text": "That's what many people guess! The tricky part is...",
+    "context": "common-error",
+    "minLevel": "growing"
+  },
+  {
+    "id": "incorrect-06",
+    "text": "Good effort! Every mistake is a step toward understanding.",
+    "context": "general",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "incorrect-07",
+    "text": "So close! You noticed something important — now let's fine-tune it.",
+    "context": "general",
+    "minLevel": "growing"
+  },
+  {
+    "id": "incorrect-08",
+    "text": "Don't worry — this grammar point takes time to feel natural. Keep going!",
+    "context": "general",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "incorrect-09",
+    "text": "I can see you were thinking carefully. Let's break this down step by step.",
+    "context": "general",
+    "minLevel": "growing"
+  },
+  {
+    "id": "incorrect-10",
+    "text": "That was a challenging one. The key insight is...",
+    "context": "high-difficulty",
+    "minLevel": "developing"
+  },
+  {
+    "id": "incorrect-11",
+    "text": "You're learning! This mistake actually shows you're paying attention to grammar.",
+    "context": "general",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "incorrect-12",
+    "text": "Not this time, but you're building the right instincts. Let's see why...",
+    "context": "general",
+    "minLevel": "growing"
+  },
+  {
+    "id": "incorrect-13",
+    "text": "That's a very natural error — even fluent speakers make this mistake sometimes!",
+    "context": "common-error",
+    "minLevel": "developing"
+  },
+  {
+    "id": "incorrect-14",
+    "text": "You tried something — that's what learners do! Now let's figure it out together.",
+    "context": "general",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "incorrect-15",
+    "text": "This question was designed to be tricky. You gave it your best shot!",
+    "context": "high-difficulty",
+    "minLevel": "proficient"
+  },
+  {
+    "id": "incorrect-16",
+    "text": "Hey, even experts get this wrong sometimes. Let's look at the pattern...",
+    "context": "common-error",
+    "minLevel": "proficient"
+  },
+  {
+    "id": "incorrect-17",
+    "text": "I love that you're challenging yourself with hard questions. Keep it up!",
+    "context": "high-difficulty",
+    "minLevel": "developing"
+  },
+  {
+    "id": "incorrect-18",
+    "text": "You're growing every time you try — even when the answer isn't quite right.",
+    "context": "general",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "incorrect-19",
+    "text": "That was a thoughtful attempt. The explanation will make it clearer!",
+    "context": "general",
+    "minLevel": "growing"
+  },
+  {
+    "id": "incorrect-20",
+    "text": "Mistakes are just proof that you're learning something new. Well done for trying!",
+    "context": "general",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "incorrect-21",
+    "text": "That was a really thoughtful attempt — and the explanation will make it click!",
+    "context": "general",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "incorrect-22",
+    "text": "Don't worry — this grammar point trips up almost everyone at first. You're in good company!",
+    "context": "common-error",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "incorrect-23",
+    "text": "You're exploring the edges of your knowledge, and that's exactly where growth happens!",
+    "context": "general",
+    "minLevel": "growing"
+  },
+  {
+    "id": "incorrect-24",
+    "text": "So close! You noticed something important — let's fine-tune the details together.",
+    "context": "general",
+    "minLevel": "growing"
+  },
+  {
+    "id": "incorrect-25",
+    "text": "That's a very natural guess! The tricky part is... let me walk you through it.",
+    "context": "common-error",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "incorrect-26",
+    "text": "This question was designed to stretch you. Give yourself credit for trying something hard!",
+    "context": "high-difficulty",
+    "minLevel": "developing"
+  },
+  {
+    "id": "incorrect-27",
+    "text": "I can see the logic in your answer — now let's see why the grammar works a little differently here.",
+    "context": "general",
+    "minLevel": "growing"
+  },
+  {
+    "id": "incorrect-28",
+    "text": "You're building resilience every time you tackle a tough question. That matters more than being right!",
+    "context": "general",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "incorrect-29",
+    "text": "That was a brave choice on a tricky question. The explanation will make it all clear!",
+    "context": "high-difficulty",
+    "minLevel": "developing"
+  },
+  {
+    "id": "incorrect-30",
+    "text": "Not this time, but your effort is turning into real understanding. Keep going!",
+    "context": "general",
+    "minLevel": "seedling"
+  }
+]

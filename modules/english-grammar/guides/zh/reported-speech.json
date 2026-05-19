@@ -1,0 +1,35 @@
+{
+  "skillId": "reported-speech",
+  "skillName": "间接引语",
+  "title": "间接引语：讲述别人说的话",
+  "whatIsIt": "间接引语（也叫转述语）是指我们不使用别人原话的方式来重复他们说的话。不是直接引用——'She said, \"I am tired\"'——而是转述：'She said that she was tired.'这项技能涉及把代词、时态和时间表达向后推移。它是语法中最实用的技能之一，因为我们在日常对话中不断使用间接引语——每次我们告诉别人另一个人说了什么时！",
+  "howToHelp": [
+    "玩'电话记者'游戏——对孩子耳语一句话，然后让他们向另一位家庭成员报告你说了什么。'Mom said that she wanted pizza for dinner.'这让间接引语感觉像真实的沟通游戏。",
+    "用漫画或对话气泡：盖住气泡，让孩子报告角色说了什么。视觉语境让时态转换变得具体。",
+    "温和地练习'退一步'规则：现在时变过去时，过去时变过去完成时。不要一次性引入所有转换——先从一般现在时→一般过去时开始。",
+    "创建家庭新闻报道：'Dad said he was tired. My sister said she had finished her homework.'把家庭对话变成间接引语，培养自然的流利度。",
+    "指出'said'是最常见的转述动词，但其他动词增添色彩：'complained'、'announced'、'whispered'、'admitted.'丰富的转述动词让故事更生动。",
+    "用角色扮演：一个人是接受采访的名人，另一个人是分享他们所说内容的记者。'The singer announced that she would go on tour.'"
+  ],
+  "commonMistakes": [
+    "忘记转换时态：'She said she is tired'而不是'She said she WAS tired.'动词通常要往时间上推一步。",
+    "保留第一人称代词：'He said that I was late'而不是'He said that HE was late.'代词要转换以匹配转述者的视角。",
+    "在间接引语中使用引号：'She said that she was tired.'——不需要引号！这就是它被称为'间接'而不是'直接'的原因。",
+    "过度使用'that'：虽然'that'很常见，但在非正式口语中通常可以省略：'She said she was tired'没有'that'也完全没问题。"
+  ],
+  "signsOfProgress": [
+    "能把简单的直接引语转换成间接引语，并正确转换代词和时态。",
+    "理解时间词也会转换：'today'变成'that day'、'now'变成'then'、'tomorrow'变成'the next day.'",
+    "自然地使用各种转述动词：said、told、explained、asked、suggested。",
+    "能处理间接引语中的问题：'She asked if I was coming.'这是高阶技能！",
+    "在新闻文章中识别间接引语，并能把它转回直接引语。"
+  ],
+  "ifStruggling": [
+    "先从只转换代词开始：'I am happy' → 'She said SHE was happy.'时态转换以后再说。",
+    "用图表展示'退一步'模式：现在时→过去时，过去时→过去完成时，will→would。视觉参考减少认知负担。",
+    "用不需要时态转换的永恒陈述练习：'She said that the Earth is round.'普遍真理保持现在时！",
+    "接受词序上的小错误：'She asked me where was the station'接近正确。温和地示范'She asked me where the station WAS.'",
+    "关注意义而不是追求完美：目标是传达某人说了什么，而不是进行机械转换。",
+    "表扬讲故事能力：'我喜欢你告诉我你朋友说了什么——这正是现实生活中间接引语的工作方式！'"
+  ]
+}

@@ -1,0 +1,1555 @@
+[
+  {
+    "id": "er-c1-001",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "theme-identification",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.75,
+    "passage": "The old lighthouse keeper tended his light with the same careful ritual he had followed for forty years. Every evening at sunset, he climbed the winding stairs, checked the mechanism, and polished the great lens until it gleamed like a star. He had never missed a single night. Ships came and went, technologies changed, and automated systems replaced every other lighthouse on the coast. But his light remained, a silent sentinel against the darkness. When asked why he continued his work long after the shipping companies had stopped relying on him, he simply said, 'A light is not only for those who need it. A light is for those who might need it.'",
+    "prompt": "Which theme is most central to this passage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Technology always improves human life."
+      },
+      {
+        "key": "B",
+        "text": "Purpose and dedication transcend practical necessity."
+      },
+      {
+        "key": "C",
+        "text": "Old ways must make way for progress."
+      },
+      {
+        "key": "D",
+        "text": "Lighthouses are beautiful structures."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Technology replaced other lighthouses, but the keeper continues by choice — the passage does not celebrate technology.",
+      "C": "The keeper refuses to make way for progress, continuing his work despite automation.",
+      "D": "The passage uses the lighthouse as a symbol for a deeper message about purpose."
+    },
+    "explanation": "The keeper continues his work not because it is needed, but because he believes in being ready for those who might need it. This shows that purpose and dedication matter even when there is no practical requirement.",
+    "explanationSteps": [
+      "Notice the contrast: the keeper works even though he is not needed.",
+      "His ritual is described as 'careful' and faithful for 40 years.",
+      "His final quote reveals his philosophy: being ready matters more than being needed."
+    ],
+    "hints": [
+      "Why does the keeper continue when ships no longer rely on him?",
+      "What does his final statement reveal about his values?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "theme",
+      "purpose",
+      "dedication"
+    ],
+    "estimatedTimeSec": 70
+  },
+  {
+    "id": "er-c1-002",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "figurative-language",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.75,
+    "passage": "The old lighthouse keeper tended his light with the same careful ritual he had followed for forty years. Every evening at sunset, he climbed the winding stairs, checked the mechanism, and polished the great lens until it gleamed like a star. He had never missed a single night. Ships came and went, technologies changed, and automated systems replaced every other lighthouse on the coast. But his light remained, a silent sentinel against the darkness.",
+    "prompt": "What does the metaphor 'a silent sentinel against the darkness' suggest about the lighthouse?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It is a military outpost guarding against enemies."
+      },
+      {
+        "key": "B",
+        "text": "It stands watch, providing protection and hope."
+      },
+      {
+        "key": "C",
+        "text": "It is silent because it has no sound."
+      },
+      {
+        "key": "D",
+        "text": "It is old and outdated compared to modern technology."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "A sentinel is a guard, but the 'darkness' here symbolizes danger and uncertainty, not literal enemies.",
+      "C": "This is a literal interpretation that misses the deeper symbolic meaning.",
+      "D": "The passage acknowledges technology changed, but the metaphor focuses on the lighthouse's role, not its age."
+    },
+    "explanation": "A sentinel is a guard who keeps watch. Calling the lighthouse a 'silent sentinel against the darkness' compares it to a protector that stands firm against danger (darkness symbolizes uncertainty and peril at sea).",
+    "explanationSteps": [
+      "Define 'sentinel': a guard or watchperson.",
+      "Define 'darkness' in context: danger, uncertainty at sea.",
+      "Combine: the lighthouse stands guard, silently protecting against danger."
+    ],
+    "hints": [
+      "What does a sentinel do?",
+      "What does 'darkness' represent in the context of the sea?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "figurative-language",
+      "metaphor",
+      "symbolism"
+    ],
+    "estimatedTimeSec": 60
+  },
+  {
+    "id": "er-c1-003",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "author-purpose",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.8,
+    "passage": "We tell ourselves that we are too busy to read. We scroll through headlines, skim articles, and call it learning. But reading a book is different. A book demands sustained attention — it asks you to sit still, to follow an argument from beginning to end, to sit with ideas long enough to truly understand them. When was the last time you gave a single idea your undivided attention for an hour? This is not nostalgia for a simpler time. It is a warning. We are trading depth for speed, and the loss is greater than we realize.",
+    "prompt": "What is the author's primary argument?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "People should stop reading headlines entirely."
+      },
+      {
+        "key": "B",
+        "text": "Deep reading is being lost in favor of shallow consumption."
+      },
+      {
+        "key": "C",
+        "text": "Books were better in the past than they are today."
+      },
+      {
+        "key": "D",
+        "text": "Technology has made reading completely obsolete."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The author criticizes skimming but does not say to stop reading headlines entirely.",
+      "C": "The author says 'This is not nostalgia for a simpler time' — explicitly rejecting this idea.",
+      "D": "The author values reading and is arguing against the very idea that it is obsolete."
+    },
+    "explanation": "The author contrasts the fast, shallow way we consume information (scrolling, skimming) with the deep, sustained attention that books require. The argument is that we are losing the ability to read deeply.",
+    "explanationSteps": [
+      "Identify the problem described: scrolling, skimming, not deep reading.",
+      "Find the contrast: 'But reading a book is different'.",
+      "Understand the warning: 'trading depth for speed'."
+    ],
+    "hints": [
+      "What is the author worried we are losing?",
+      "What does the author say is different about reading books versus skimming articles?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "author-purpose",
+      "reading",
+      "argument"
+    ],
+    "estimatedTimeSec": 65
+  },
+  {
+    "id": "er-c1-004",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "text-structure",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.75,
+    "passage": "Democracy is not a machine that runs on its own. It is more like a garden that requires constant tending. Citizens must water it with participation, feed it with informed debate, and weed out corruption and apathy. When citizens neglect their duties — when they stop voting, stop listening to different perspectives, and stop holding leaders accountable — the garden becomes overgrown. The weeds of misinformation take root. The soil of trust erodes. A neglected garden does not die in a day; it fades slowly, season by season, until one day you look out and see nothing but weeds where flowers once grew.",
+    "prompt": "How does the extended metaphor (democracy as a garden) function in this passage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It compares gardening techniques to political strategies."
+      },
+      {
+        "key": "B",
+        "text": "It makes the abstract concept of democracy more concrete and accessible."
+      },
+      {
+        "key": "C",
+        "text": "It argues that democracy requires professional gardeners."
+      },
+      {
+        "key": "D",
+        "text": "It suggests that democracy grows naturally without effort."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The comparison is about the need for care, not specific techniques.",
+      "C": "The metaphor says citizens must tend the garden, not professionals.",
+      "D": "The metaphor explicitly says a garden needs 'constant tending' — it does not grow on its own."
+    },
+    "explanation": "The metaphor translates abstract ideas like participation, debate, and corruption into concrete gardening actions (watering, feeding, weeding), making the concept of democracy more understandable.",
+    "explanationSteps": [
+      "Identify the abstract concept: democracy.",
+      "Identify the concrete comparison: gardening.",
+      "Analyze the effect: difficult ideas (political participation, misinformation) become easy to visualize."
+    ],
+    "hints": [
+      "What is the author comparing democracy to?",
+      "Why might a garden be easier to understand than an abstract political system?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "text-structure",
+      "extended-metaphor",
+      "civics"
+    ],
+    "estimatedTimeSec": 65
+  },
+  {
+    "id": "er-c1-005",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "point-of-view",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.8,
+    "passage": "They called him the Ice Man, though he had never been cold a day in his life. The nickname came from his stillness at the negotiation table. While others fidgeted, checked their phones, and showed their hands through nervous chatter, Ricardo sat motionless — a glacier in a room of rivers. His silence was not emptiness; it was strategy. Every pause was calculated, every word weighed before it was released. His opponents always left wondering what he knew that they did not.",
+    "prompt": "How does the author's choice of point of view affect the reader's understanding of Ricardo?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "First-person allows the reader to know Ricardo's private thoughts."
+      },
+      {
+        "key": "B",
+        "text": "Third-person limited gives insight into Ricardo's strategic thinking."
+      },
+      {
+        "key": "C",
+        "text": "Third-person omniscient reveals all characters' reactions to Ricardo."
+      },
+      {
+        "key": "D",
+        "text": "The point of view makes Ricardo seem mysterious by observing him from the outside."
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "A": "The passage is in third person, not first person ('they called him').",
+      "B": "The narrator observes Ricardo's behavior but does not directly reveal his inner thoughts.",
+      "C": "The narrator shows opponents' reactions but does not claim to know all thoughts."
+    },
+    "explanation": "The passage describes Ricardo from an external perspective — we see how he appears to others (still, silent, glacial) and how opponents react, but we never access his inner thoughts directly. This creates a sense of mystery and power.",
+    "explanationSteps": [
+      "Identify the pronouns: 'they', 'him', 'his', 'their'.",
+      "Notice what we know: external behavior and how others perceive him.",
+      "Notice what we don't know: his actual private thoughts. This creates mystery."
+    ],
+    "hints": [
+      "Do we ever see inside Ricardo's mind, or only observe him from the outside?",
+      "What effect does it have that we only see how others react to him?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "point-of-view",
+      "characterization"
+    ],
+    "estimatedTimeSec": 60
+  },
+  {
+    "id": "er-c1-006",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "theme-identification",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.85,
+    "passage": "The painting hung in the gallery for three weeks before anyone noticed it was upside down. When a visitor finally pointed it out, the gallery staff checked the records and found that it had been displayed incorrectly from the very first day. The artist, when informed, simply laughed. 'I do not paint for walls,' she said. 'I paint for eyes that truly see. A painting that can be reversed and still move people is a painting that has succeeded.' The gallery offered to rehang it correctly, but she refused. 'Leave it,' she said. 'Perhaps this is the version the world needs.'",
+    "prompt": "Which statement best expresses the theme of this passage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Art must be displayed correctly to be appreciated."
+      },
+      {
+        "key": "B",
+        "text": "The meaning of art is not fixed by the artist's intention alone."
+      },
+      {
+        "key": "C",
+        "text": "Gallery staff are careless and unreliable."
+      },
+      {
+        "key": "D",
+        "text": "Upside-down paintings are more valuable."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The artist explicitly rejects this idea by refusing to rehang the painting.",
+      "C": "The staff's mistake is a plot point, not the theme.",
+      "D": "The passage is about interpretation, not monetary value or orientation."
+    },
+    "explanation": "The artist says the painting succeeded because it moved people even when upside down, and she refuses to rehang it. This suggests art's meaning is created in the interaction between work and viewer, not solely by the artist's original intent.",
+    "explanationSteps": [
+      "The artist's reaction: laughter, not anger at the mistake.",
+      "Her philosophy: art is for 'eyes that truly see'.",
+      "Her decision: keep it upside down because 'this is the version the world needs'."
+    ],
+    "hints": [
+      "Why does the artist laugh instead of getting upset?",
+      "What does her refusal to correct the display tell you about her view of art?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "theme",
+      "art",
+      "interpretation"
+    ],
+    "estimatedTimeSec": 70
+  },
+  {
+    "id": "er-c1-007",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "figurative-language",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.8,
+    "passage": "The fog crept in on little cat feet that evening, muffling the city into a hush. Streetlamps became blurred halos of amber light. Skyscrapers faded into ghosts of themselves, their sharp edges softened into suggestion. The world had become a watercolor painting — all bleeding edges and muted tones.",
+    "prompt": "Analyze the author's use of imagery in this passage. What is the overall effect?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The imagery creates a sense of danger and threat."
+      },
+      {
+        "key": "B",
+        "text": "The imagery transforms a familiar urban scene into something soft and dreamlike."
+      },
+      {
+        "key": "C",
+        "text": "The imagery emphasizes the cold and uncomfortable nature of fog."
+      },
+      {
+        "key": "D",
+        "text": "The imagery makes the city seem more modern and technological."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The fog is described as cat-like, quiet, and beautiful — not threatening.",
+      "C": "Words like 'softened', 'gentle', and 'hush' suggest comfort, not discomfort.",
+      "D": "Skyscrapers are mentioned but the fog transforms them into something softer and less technological."
+    },
+    "explanation": "The imagery ('cat feet', 'blurred halos', 'watercolor painting', 'bleeding edges') works together to transform the hard, sharp city into something soft, artistic, and dreamlike.",
+    "explanationSteps": [
+      "Identify the images: fog on cat feet, blurred halos, ghosts, watercolor.",
+      "Notice the transformation: skyscrapers soften, edges bleed.",
+      "Overall effect: the familiar city becomes gentle and artistic."
+    ],
+    "hints": [
+      "What words describe the fog — is it harsh or gentle?",
+      "How does the city change when the fog rolls in?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "figurative-language",
+      "imagery",
+      "mood"
+    ],
+    "estimatedTimeSec": 65
+  },
+  {
+    "id": "er-c1-008",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "compare-contrast",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.8,
+    "passage": "Two students read the same poem about a tree. The first student searched the poem for a single, definite meaning. 'The tree represents life,' she declared. The second student read the poem and found many possible meanings. 'Maybe the tree represents life,' she said, 'but it could also represent growth, stability, or the passing of time. Perhaps it represents all of these at once.' The first student grew frustrated. 'If it can mean anything, then it means nothing!' she protested. The second student smiled. 'Or perhaps,' she said, 'it can mean everything.'",
+    "prompt": "What does the contrast between the two students reveal about approaches to reading literature?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Both students are equally correct in their interpretations."
+      },
+      {
+        "key": "B",
+        "text": "Literature can be read for a single message or for multiple layers of meaning."
+      },
+      {
+        "key": "C",
+        "text": "Poems should always have only one clear meaning."
+      },
+      {
+        "key": "D",
+        "text": "The first student is a better reader because she finds definite answers."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The passage does not claim both are equally correct — it presents two different approaches.",
+      "C": "The second student offers a convincing counterpoint about multiple meanings.",
+      "D": "The passage does not judge one method as better; it presents both approaches."
+    },
+    "explanation": "The first student seeks a single definitive meaning, while the second embraces multiple interpretations. Their contrast illustrates two valid approaches to literature: looking for a clear message versus appreciating complexity and ambiguity.",
+    "explanationSteps": [
+      "First student: wants one meaning, 'it means nothing' if ambiguous.",
+      "Second student: embraces multiple meanings, 'it can mean everything'.",
+      "The contrast shows different philosophies of interpretation."
+    ],
+    "hints": [
+      "How are the two students' approaches different?",
+      "What does each student believe about meaning in literature?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "compare-contrast",
+      "literary-analysis",
+      "interpretation"
+    ],
+    "estimatedTimeSec": 65
+  },
+  {
+    "id": "er-c1-009",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "text-structure",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.85,
+    "passage": "Some argue that social media connects us, and they are not entirely wrong. A grandmother in New York can see her grandson's first steps in Tokyo within seconds. Activists can organize movements across continents. However, this is only half the story. The same algorithms that bring us closer to distant loved ones also trap us in echo chambers, where we hear only opinions that mirror our own. The same platforms that connect us also harvest our attention, selling it to advertisers who pay for our divided focus. The question, then, is not whether social media connects us, but whether the connections it builds are the ones we truly need.",
+    "prompt": "How does the author develop the argument through the passage's structure?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "By listing only positive examples of social media"
+      },
+      {
+        "key": "B",
+        "text": "By presenting a counterargument, then complicating it with contrasting evidence"
+      },
+      {
+        "key": "C",
+        "text": "By telling a personal story about social media use"
+      },
+      {
+        "key": "D",
+        "text": "By comparing social media to television"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The passage presents positives ('not entirely wrong') but also negatives.",
+      "C": "The passage uses general examples, not a personal story.",
+      "D": "No comparison to television is made."
+    },
+    "explanation": "The author starts by acknowledging the counterargument (social media connects us) with examples. Then 'However' introduces contrasting evidence (echo chambers, attention harvesting), complicating the initial claim. The conclusion reframes the question entirely.",
+    "explanationSteps": [
+      "Identify the opening: concedes that social media has benefits.",
+      "Find the pivot: 'However, this is only half the story'.",
+      "See the contrasting evidence: echo chambers, attention harvesting.",
+      "Conclusion: reframes the debate."
+    ],
+    "hints": [
+      "What does 'However' signal about the structure?",
+      "How does the author move from the first paragraph to the second?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "text-structure",
+      "argumentation"
+    ],
+    "estimatedTimeSec": 65
+  },
+  {
+    "id": "er-c1-010",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "point-of-view",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.8,
+    "passage": "Dr. Rivera reviewed the proposal one last time. It was brilliant — a new water filtration system that could provide clean drinking water to millions. She had spent five years developing it. The committee, however, had other priorities. They funded a project for luxury condos instead. Dr. Rivera closed the folder and placed it in the bottom drawer of her desk. She did not slam the drawer. She did not need to. The quiet click of the lock said everything.",
+    "prompt": "What does the point of view reveal about Dr. Rivera's feelings that her actions alone might not show?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "She is relieved the project is over."
+      },
+      {
+        "key": "B",
+        "text": "The proposal was not very important to her."
+      },
+      {
+        "key": "C",
+        "text": "She is deeply disappointed but controls her emotions."
+      },
+      {
+        "key": "D",
+        "text": "She plans to submit the proposal elsewhere immediately."
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Her careful, deliberate actions suggest sadness, not relief.",
+      "B": "We know from the narrative that she spent five years on this — it is very important to her.",
+      "D": "She places the folder in the bottom drawer and locks it, suggesting she is setting it aside, not resubmitting."
+    },
+    "explanation": "The third-person narrator reveals that Dr. Rivera spent five years on the brilliant proposal. Her action of quietly locking it away, combined with the narrator's insight into the proposal's quality and her effort, shows she is deeply disappointed but maintaining composure.",
+    "explanationSteps": [
+      "The narrator tells us the proposal was 'brilliant' and took five years.",
+      "Her action: quietly places it in the bottom drawer and locks it.",
+      "The contrast between her effort (five years) and outcome (rejected) reveals deep disappointment that her controlled actions hide."
+    ],
+    "hints": [
+      "What does the narrator tell us about the proposal that Dr. Rivera's actions alone would not communicate?",
+      "Why does the author include the line 'She did not slam the drawer. She did not need to'?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "point-of-view",
+      "characterization",
+      "emotion"
+    ],
+    "estimatedTimeSec": 65
+  },
+  {
+    "id": "er-c1-011",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "figurative-language",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.85,
+    "passage": "Time is a river that carries us all, whether we swim or sink. Some people build boats of routine and habit, navigating the currents with practiced ease. Others thrash against the flow, exhausting themselves fighting the inevitable. And a few — the rarest among us — learn to read the river itself. They see the eddies and undertows, the deep channels and hidden shallows. They understand that the river does not stop for anyone, so they learn to move with it, to use its power rather than resist it. Wisdom, it seems, is not about stopping the river. It is about learning to sail.",
+    "prompt": "What is the central extended metaphor in this passage, and how does it shape the meaning?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Time is a boat; it carries people in different directions."
+      },
+      {
+        "key": "B",
+        "text": "Life is a river; our response to the passage of time defines our experience."
+      },
+      {
+        "key": "C",
+        "text": "Rivers are dangerous; we must avoid them to live well."
+      },
+      {
+        "key": "D",
+        "text": "Swimming is a skill; everyone should learn how to swim."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The boat is part of the metaphor but it is a sub-element (people build boats). The central metaphor is time as a river.",
+      "C": "The passage presents the river as something to understand and navigate, not avoid.",
+      "D": "Swimming is mentioned but is part of the larger river metaphor."
+    },
+    "explanation": "The extended metaphor compares time (or life) to a river. People respond differently — some build boats (routine), some fight the current (resist change), and a few learn to navigate wisely. The metaphor teaches that wisdom is working with time, not against it.",
+    "explanationSteps": [
+      "Identify the core comparison: time/life = river.",
+      "Track the sub-elements: boats = routine, swimming = struggle, sailing = wisdom.",
+      "Understand the message: learn to work with the natural flow of time rather than fight it."
+    ],
+    "hints": [
+      "What is the passage comparing time to?",
+      "What does each way of interacting with the river represent?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "figurative-language",
+      "extended-metaphor"
+    ],
+    "estimatedTimeSec": 70
+  },
+  {
+    "id": "er-c1-012",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "author-purpose",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.85,
+    "passage": "To the casual observer, the hummingbird appears to be in constant motion, its wings a blur of frantic activity. But slow-motion film reveals something remarkable: between each beat, the hummingbird's wings pause, allowing the bird to read the air, to adjust its angle, to calculate its next move. It is in these tiny moments of stillness that the bird's true mastery emerges. We would do well to remember this. In a world that celebrates busyness, we have forgotten the power of the pause. We rush from task to task, filling every moment with noise and motion, believing that constant activity equals productivity. But like the hummingbird, our finest work may depend not on how fast we move, but on what we do in the moments between.",
+    "prompt": "What is the author's deeper purpose in describing the hummingbird?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "To teach readers about hummingbird biology"
+      },
+      {
+        "key": "B",
+        "text": "To use the hummingbird as an analogy for human productivity"
+      },
+      {
+        "key": "C",
+        "text": "To argue that hummingbirds are better than other birds"
+      },
+      {
+        "key": "D",
+        "text": "To entertain readers with interesting animal facts"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The biological details serve a larger point about human behavior.",
+      "C": "The passage does not compare hummingbirds to other birds.",
+      "D": "While interesting, the facts are used to make a persuasive point about human life."
+    },
+    "explanation": "The author uses the hummingbird's 'pause between beats' as an analogy for why humans should embrace stillness and reflection. The biological observation is a vehicle for a larger message about productivity and mindfulness.",
+    "explanationSteps": [
+      "Identify the observation: hummingbird pauses between wingbeats.",
+      "Track the connection to humans: 'we would do well to remember this'.",
+      "Understand the purpose: persuade readers to value pauses and reflection."
+    ],
+    "hints": [
+      "Does the passage stay focused on the hummingbird or move to a human lesson?",
+      "What is the author really trying to tell us about our own lives?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "author-purpose",
+      "analogy",
+      "productivity"
+    ],
+    "estimatedTimeSec": 70
+  },
+  {
+    "id": "er-c1-013",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "theme-identification",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.9,
+    "passage": "The archaeologist brushed away centuries of dust to reveal a clay tablet. The inscription was a simple list: barley, 50 measures; oil, 20 jars; wine, 10 jars. A receipt. A mundane record of an ancient transaction. Yet she held it as if it were gold. 'This is what I love most,' she said. 'Not the palaces or the treasures, but the ordinary moments. Because a king's tomb tells us how one person died. A receipt tells us how people lived.'",
+    "prompt": "What does the archaeologist's reaction to the tablet reveal about what she values in history?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "She prefers valuable artifacts over ordinary objects."
+      },
+      {
+        "key": "B",
+        "text": "She values understanding everyday life over studying great monuments."
+      },
+      {
+        "key": "C",
+        "text": "She believes receipts are more historically accurate than other records."
+      },
+      {
+        "key": "D",
+        "text": "She thinks clay tablets are the most important archaeological finds."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "She treasures a simple receipt more than 'palaces or treasures'.",
+      "C": "She values the receipt for what it reveals about daily life, not for its accuracy.",
+      "D": "She values the receipt for its content (everyday life), not the material."
+    },
+    "explanation": "The archaeologist explicitly says she loves 'the ordinary moments' because they tell how people lived, unlike a king's tomb which only tells how one person died. This reveals she values understanding daily life over grand monuments.",
+    "explanationSteps": [
+      "Contrast the objects: receipt (ordinary) vs king's tomb (grand).",
+      "Quote: 'This is what I love most' — the ordinary moments.",
+      "Quote: 'A receipt tells us how people lived.' — this reveals her value."
+    ],
+    "hints": [
+      "Why does she hold a receipt 'as if it were gold'?",
+      "What does she say about the difference between a king's tomb and a receipt?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "theme",
+      "history",
+      "perspective"
+    ],
+    "estimatedTimeSec": 65
+  },
+  {
+    "id": "er-c1-014",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "compare-contrast",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.85,
+    "passage": "The poet and the scientist both look at the night sky. The poet sees a tapestry of diamonds scattered across black velvet, a reminder of how small we are and how vast the universe. The scientist sees a map of fusion reactions, a collection of data points that reveal the composition and distance of each star. The poet writes about wonder. The scientist writes about elements. But both are trying to do the same thing: to make sense of what lies beyond us, to find patterns in the chaos, to articulate something true about our place in the cosmos. Different languages, perhaps. But the same conversation.",
+    "prompt": "How does the author use comparison to shape the reader's understanding of poetry and science?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "By arguing that science is more important than poetry"
+      },
+      {
+        "key": "B",
+        "text": "By showing that poetry and science are fundamentally the same pursuit expressed differently"
+      },
+      {
+        "key": "C",
+        "text": "By suggesting that poets and scientists should not study the same subject"
+      },
+      {
+        "key": "D",
+        "text": "By claiming that the night sky belongs to scientists, not poets"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The passage presents both as equally valuable, describing them as 'the same conversation'.",
+      "C": "The passage shows both studying the same subject (the night sky).",
+      "D": "The passage gives equal space to both perspectives."
+    },
+    "explanation": "The author first contrasts how poets and scientists see the sky, then unites them by showing both seek truth and understanding. The conclusion 'same conversation' reframes them as complementary approaches, not opposing ones.",
+    "explanationSteps": [
+      "Identify the contrast: poet's imagery vs scientist's data.",
+      "Find the pivot: 'But both are trying to do the same thing'.",
+      "Understand the conclusion: they speak 'different languages' but have 'the same conversation'."
+    ],
+    "hints": [
+      "How does the author initially present poets and scientists?",
+      "What does 'the same conversation' suggest about their relationship?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "compare-contrast",
+      "science-vs-art"
+    ],
+    "estimatedTimeSec": 70
+  },
+  {
+    "id": "er-c1-015",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "text-structure",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.9,
+    "passage": "We fear the wrong things. We worry about plane crashes, yet drive cars every day without a second thought. We panic about shark attacks while ignoring the far greater dangers of poor diet and inactivity. Our fears are not calibrated to reality; they are calibrated to vividness. A plane crash is a dramatic, memorable image. A heart attack is quiet, gradual, and easy to ignore. The media feeds this imbalance, broadcasting spectacular dangers while the mundane killers work in silence. Understanding this mismatch between perceived and actual risk is the first step toward making better decisions — not just about safety, but about how we spend our attention, our energy, and our worry.",
+    "prompt": "How does the author use rhetorical structure to challenge the reader's assumptions?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "By presenting statistics without any explanation"
+      },
+      {
+        "key": "B",
+        "text": "By contrasting vivid rare dangers with quiet common ones"
+      },
+      {
+        "key": "C",
+        "text": "By defending media coverage of dramatic events"
+      },
+      {
+        "key": "D",
+        "text": "By arguing that all fears are equally reasonable"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The author does use contrast and examples, not just bare statistics.",
+      "C": "The author criticizes the media for 'feeding this imbalance'.",
+      "D": "The author argues the opposite: our fears are not reasonable."
+    },
+    "explanation": "The author opens with a provocative claim ('We fear the wrong things'), then immediately contrasts vivid rare dangers (plane crashes, shark attacks) with common but quiet ones (car accidents, poor diet). This structure challenges the reader to reconsider their own fears.",
+    "explanationSteps": [
+      "Opening statement: 'We fear the wrong things' — challenges the reader.",
+      "Contrast pairs: plane crash (vivid, rare) vs car (common, ignored); shark (vivid, rare) vs poor diet (common, quiet).",
+      "Explanation: fear is 'calibrated to vividness', not reality."
+    ],
+    "hints": [
+      "What pairs of examples does the author use?",
+      "How does each pair make the reader reconsider their fears?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "text-structure",
+      "rhetoric",
+      "risk-perception"
+    ],
+    "estimatedTimeSec": 70
+  },
+  {
+    "id": "er-c1-001",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "theme-identification",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.75,
+    "passage": "The old lighthouse keeper tended his light with the same careful ritual he had followed for forty years. Every evening at sunset, he climbed the winding stairs, checked the mechanism, and polished the great lens until it gleamed like a star. Ships came and went, technologies changed, and automated systems replaced every other lighthouse on the coast. But his light remained. When asked why he continued, he said: A light is not only for those who need it. A light is for those who might need it.",
+    "prompt": "Which theme is most central to this passage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Technology always improves life."
+      },
+      {
+        "key": "B",
+        "text": "Purpose and dedication transcend practical necessity."
+      },
+      {
+        "key": "C",
+        "text": "Old ways must make way for progress."
+      },
+      {
+        "key": "D",
+        "text": "Lighthouses are beautiful structures."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Keeper continues despite technology.",
+      "C": "Keeper refuses to make way.",
+      "D": "Lighthouse is a symbol, not the point."
+    },
+    "explanation": "The keeper continues his work not because it is needed, but because he believes in being ready for those who might need it. This shows that purpose and dedication matter beyond practical necessity.",
+    "explanationSteps": [
+      "Contrast: keeper works though not needed.",
+      "His ritual: careful, faithful for 40 years.",
+      "His quote reveals philosophy."
+    ],
+    "hints": [
+      "Why does the keeper continue?",
+      "What does his final quote reveal?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "theme",
+      "purpose",
+      "dedication"
+    ],
+    "estimatedTimeSec": 70
+  },
+  {
+    "id": "er-c1-002",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "figurative-language",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.75,
+    "passage": "The old lighthouse keeper tended his light with the same careful ritual he had followed for forty years. Every evening at sunset, he climbed the winding stairs, checked the mechanism, and polished the great lens until it gleamed like a star. Ships came and went, technologies changed. But his light remained, a silent sentinel against the darkness.",
+    "prompt": "What does the metaphor a silent sentinel against the darkness suggest?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It is a military outpost."
+      },
+      {
+        "key": "B",
+        "text": "It stands watch, providing protection and hope."
+      },
+      {
+        "key": "C",
+        "text": "It is silent because it has no sound."
+      },
+      {
+        "key": "D",
+        "text": "It is outdated compared to modern tech."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Darkness symbolizes danger, not enemies.",
+      "C": "Literal reading misses symbolism.",
+      "D": "Metaphor focuses on its role."
+    },
+    "explanation": "A sentinel is a guard who keeps watch. The lighthouse is a silent protector against danger (darkness symbolizes peril at sea).",
+    "explanationSteps": [
+      "Sentinel = guard/watchperson.",
+      "Darkness = danger/uncertainty.",
+      "Lighthouse = protector against danger."
+    ],
+    "hints": [
+      "What does a sentinel do?",
+      "What does darkness represent at sea?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "figurative-language",
+      "metaphor",
+      "symbolism"
+    ],
+    "estimatedTimeSec": 60
+  },
+  {
+    "id": "er-c1-003",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "author-purpose",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.8,
+    "passage": "We tell ourselves we are too busy to read. We scroll through headlines, skim articles, and call it learning. But reading a book is different. A book demands sustained attention to follow an argument from beginning to end. When was the last time you gave a single idea your undivided attention for an hour? This is not nostalgia. It is a warning. We are trading depth for speed, and the loss is greater than we realize.",
+    "prompt": "What is the authors primary argument?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Stop reading headlines entirely."
+      },
+      {
+        "key": "B",
+        "text": "Deep reading is being lost to shallow consumption."
+      },
+      {
+        "key": "C",
+        "text": "Books were better in the past."
+      },
+      {
+        "key": "D",
+        "text": "Technology made reading obsolete."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Author does not say stop entirely.",
+      "C": "Author says this is not nostalgia.",
+      "D": "Author values reading."
+    },
+    "explanation": "The author contrasts skimming with deep reading, arguing we are losing the ability to read deeply.",
+    "explanationSteps": [
+      "Problem: scrolling, skimming.",
+      "Contrast: But reading a book is different.",
+      "Warning: trading depth for speed."
+    ],
+    "hints": [
+      "What is the author worried we are losing?",
+      "What is different about reading books?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "author-purpose",
+      "reading",
+      "argument"
+    ],
+    "estimatedTimeSec": 65
+  },
+  {
+    "id": "er-c1-004",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "text-structure",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.75,
+    "passage": "Democracy is not a machine that runs on its own. It is more like a garden that requires constant tending. Citizens must water it with participation, feed it with informed debate, and weed out corruption. When citizens neglect their duties, the garden becomes overgrown. The weeds of misinformation take root. A neglected garden does not die in a day. It fades slowly until one day you see nothing but weeds.",
+    "prompt": "How does the extended metaphor (democracy as a garden) function?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Compares gardening to politics."
+      },
+      {
+        "key": "B",
+        "text": "Makes an abstract concept more concrete."
+      },
+      {
+        "key": "C",
+        "text": "Argues democracy needs professionals."
+      },
+      {
+        "key": "D",
+        "text": "Suggests democracy grows naturally."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Not about specific techniques.",
+      "C": "Metaphor says citizens must tend it.",
+      "D": "Garden needs constant tending."
+    },
+    "explanation": "The metaphor translates abstract ideas into concrete gardening actions, making democracy more understandable.",
+    "explanationSteps": [
+      "Abstract: democracy.",
+      "Concrete: gardening.",
+      "Effect: difficult ideas become easy to visualize."
+    ],
+    "hints": [
+      "What is democracy compared to?",
+      "Why might a garden be easier to understand?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "text-structure",
+      "extended-metaphor",
+      "civics"
+    ],
+    "estimatedTimeSec": 65
+  },
+  {
+    "id": "er-c1-005",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "point-of-view",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.8,
+    "passage": "They called him the Ice Man, though he had never been cold a day in his life. The nickname came from his stillness at the negotiation table. While others fidgeted, checked their phones, and showed their hands through nervous chatter, Ricardo sat motionless. His silence was not emptiness; it was strategy. Every pause was calculated. His opponents always left wondering what he knew.",
+    "prompt": "How does the point of view affect understanding of Ricardo?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "First-person reveals thoughts."
+      },
+      {
+        "key": "B",
+        "text": "Third-person limited shows strategy."
+      },
+      {
+        "key": "C",
+        "text": "Third-person omniscient reveals all."
+      },
+      {
+        "key": "D",
+        "text": "External observation makes him seem mysterious."
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "A": "Passage is third person.",
+      "B": "Narrator does not reveal inner thoughts.",
+      "C": "Narrator shows but does not claim omniscience."
+    },
+    "explanation": "The passage describes Ricardo from an external perspective, creating mystery. We see his behavior but never access his thoughts.",
+    "explanationSteps": [
+      "Pronouns: they, him, his.",
+      "What we know: external behavior.",
+      "What we dont know: his private thoughts."
+    ],
+    "hints": [
+      "Do we see inside Ricardos mind?",
+      "What effect from only seeing outside?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "point-of-view",
+      "characterization"
+    ],
+    "estimatedTimeSec": 60
+  },
+  {
+    "id": "er-c1-006",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "theme-identification",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.85,
+    "passage": "The painting hung in the gallery for three weeks before anyone noticed it was upside down. When a visitor finally pointed it out, the gallery staff found it had been displayed incorrectly from day one. The artist, when informed, simply laughed. I do not paint for walls, she said. I paint for eyes that truly see. A painting that can be reversed and still move people has succeeded. She refused to rehang it. Leave it, she said. Perhaps this is the version the world needs.",
+    "prompt": "Which best expresses the theme?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Art must be displayed correctly."
+      },
+      {
+        "key": "B",
+        "text": "Art meaning is not fixed by intention alone."
+      },
+      {
+        "key": "C",
+        "text": "Gallery staff are careless."
+      },
+      {
+        "key": "D",
+        "text": "Upside-down paintings are more valuable."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Artist rejects this idea.",
+      "C": "Staff mistake is plot, not theme.",
+      "D": "About interpretation, not value."
+    },
+    "explanation": "The artist says the painting succeeded because it moved people even upside down. Art meaning is created between work and viewer.",
+    "explanationSteps": [
+      "Artists reaction: laughter, not anger.",
+      "Her philosophy: art for eyes that truly see.",
+      "Decision: keep it upside down."
+    ],
+    "hints": [
+      "Why does the artist laugh?",
+      "What does refusing to fix it tell you?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "theme",
+      "art",
+      "interpretation"
+    ],
+    "estimatedTimeSec": 70
+  },
+  {
+    "id": "er-c1-007",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "figurative-language",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.8,
+    "passage": "The fog crept in on little cat feet that evening, muffling the city into a hush. Streetlamps became blurred halos of amber light. Skyscrapers faded into ghosts of themselves, their sharp edges softened into suggestion. The world had become a watercolor painting with bleeding edges and muted tones.",
+    "prompt": "Analyze the authors use of imagery. What is the overall effect?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Creates a sense of danger."
+      },
+      {
+        "key": "B",
+        "text": "Transforms the urban scene into something soft and dreamlike."
+      },
+      {
+        "key": "C",
+        "text": "Emphasizes cold and discomfort."
+      },
+      {
+        "key": "D",
+        "text": "Makes the city seem more modern."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Fog is cat-like, quiet, beautiful.",
+      "C": "Words like softened suggest comfort.",
+      "D": "Fog transforms, not modernizes."
+    },
+    "explanation": "Imagery like cat feet, blurred halos, and watercolor painting transforms the hard city into something soft, artistic, and dreamlike.",
+    "explanationSteps": [
+      "Images: fog on cat feet, blurred halos.",
+      "Transformation: skyscrapers soften.",
+      "Effect: city becomes gentle and artistic."
+    ],
+    "hints": [
+      "What words describe the fog?",
+      "How does the city change?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "figurative-language",
+      "imagery",
+      "mood"
+    ],
+    "estimatedTimeSec": 65
+  },
+  {
+    "id": "er-c1-008",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "compare-contrast",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.8,
+    "passage": "Two students read the same poem about a tree. The first searched for a single definite meaning. The tree represents life, she declared. The second found many possible meanings. Maybe it represents life, growth, stability, or the passing of time. Perhaps all of these. The first grew frustrated. If it can mean anything, it means nothing! The second smiled. Or perhaps it can mean everything.",
+    "prompt": "What does the contrast reveal about approaches to literature?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Both are equally correct."
+      },
+      {
+        "key": "B",
+        "text": "Literature can be read for one message or many layers."
+      },
+      {
+        "key": "C",
+        "text": "Poems should have one meaning."
+      },
+      {
+        "key": "D",
+        "text": "The first student is a better reader."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Passage presents two approaches.",
+      "C": "Second student offers compelling counterpoint.",
+      "D": "Passage does not judge."
+    },
+    "explanation": "First student seeks single meaning, second embraces multiple interpretations. Their contrast shows two valid approaches.",
+    "explanationSteps": [
+      "First: wants one meaning.",
+      "Second: embraces multiple meanings.",
+      "Contrast: different philosophies of interpretation."
+    ],
+    "hints": [
+      "How are the two approaches different?",
+      "What does each believe about meaning?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "compare-contrast",
+      "literary-analysis",
+      "interpretation"
+    ],
+    "estimatedTimeSec": 65
+  },
+  {
+    "id": "er-c1-009",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "text-structure",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.85,
+    "passage": "Some argue that social media connects us, and they are not entirely wrong. A grandmother can see her grandsons first steps in seconds. Activists can organize across continents. However, this is only half the story. The same algorithms that bring us closer also trap us in echo chambers. The same platforms that connect us also harvest our attention. The question is not whether social media connects us, but whether the connections are the ones we truly need.",
+    "prompt": "How does the author develop the argument through structure?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Listing only positives."
+      },
+      {
+        "key": "B",
+        "text": "Presenting a counterargument, then complicating it."
+      },
+      {
+        "key": "C",
+        "text": "Telling a personal story."
+      },
+      {
+        "key": "D",
+        "text": "Comparing to television."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Also presents negatives.",
+      "C": "Uses general examples.",
+      "D": "No comparison to TV."
+    },
+    "explanation": "The author starts by conceding benefits, then uses However to introduce contrasting evidence, complicating the initial claim.",
+    "explanationSteps": [
+      "Opening: concedes benefits.",
+      "Pivot: However.",
+      "Contrasting evidence: echo chambers."
+    ],
+    "hints": [
+      "What does However signal?",
+      "How does the author move from first paragraph?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "text-structure",
+      "argumentation"
+    ],
+    "estimatedTimeSec": 65
+  },
+  {
+    "id": "er-c1-010",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "point-of-view",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.8,
+    "passage": "Dr. Rivera reviewed the proposal one last time. It was brilliant. She had spent five years developing a water filtration system that could help millions. The committee, however, funded luxury condos instead. Dr. Rivera closed the folder and placed it in the bottom drawer of her desk. She did not slam the drawer. The quiet click of the lock said everything.",
+    "prompt": "What does the point of view reveal about Dr. Riveras feelings?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "She is relieved."
+      },
+      {
+        "key": "B",
+        "text": "The proposal was not important."
+      },
+      {
+        "key": "C",
+        "text": "She is deeply disappointed but controls emotions."
+      },
+      {
+        "key": "D",
+        "text": "She will submit elsewhere."
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Her actions suggest sadness, not relief.",
+      "B": "Five years of work = important.",
+      "D": "She locks it away."
+    },
+    "explanation": "The narrator reveals the brilliant proposal and five years of effort. Her quiet action of locking it away shows deep disappointment controlled.",
+    "explanationSteps": [
+      "Narrator tells: brilliant, five years.",
+      "Her action: quietly locks it away.",
+      "Contrast: effort vs outcome = disappointment."
+    ],
+    "hints": [
+      "What does the narrator tell us about the proposal?",
+      "Why include She did not slam the drawer?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "point-of-view",
+      "characterization",
+      "emotion"
+    ],
+    "estimatedTimeSec": 65
+  },
+  {
+    "id": "er-c1-011",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "figurative-language",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.85,
+    "passage": "Time is a river that carries us all. Some people build boats of routine. Others thrash against the flow. A few learn to read the river itself. They understand the river does not stop for anyone, so they learn to move with it. Wisdom is not about stopping the river. It is about learning to sail.",
+    "prompt": "What is the central extended metaphor?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Time is a boat."
+      },
+      {
+        "key": "B",
+        "text": "Life is a river; our response to time defines experience."
+      },
+      {
+        "key": "C",
+        "text": "Rivers are dangerous."
+      },
+      {
+        "key": "D",
+        "text": "Swimming is a skill."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Boat is a sub-element.",
+      "C": "River is to navigate, not avoid.",
+      "D": "Swimming is part of the metaphor."
+    },
+    "explanation": "The metaphor compares time/life to a river. Different responses represent different life approaches.",
+    "explanationSteps": [
+      "Core: time/life = river.",
+      "Sub-elements: boats = routine, sailing = wisdom.",
+      "Message: work with time."
+    ],
+    "hints": [
+      "What is time compared to?",
+      "What does each way represent?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "figurative-language",
+      "extended-metaphor"
+    ],
+    "estimatedTimeSec": 70
+  },
+  {
+    "id": "er-c1-012",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "author-purpose",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.85,
+    "passage": "The hummingbird appears in constant motion. But slow-motion film reveals that between each wing beat, the bird pauses. In these tiny moments of stillness, its true mastery emerges. In a world that celebrates busyness, we have forgotten the power of the pause. Like the hummingbird, our finest work may depend on what we do in the moments between.",
+    "prompt": "What is the authors deeper purpose?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Teach biology."
+      },
+      {
+        "key": "B",
+        "text": "Use the bird as an analogy for productivity."
+      },
+      {
+        "key": "C",
+        "text": "Argue hummingbirds are best."
+      },
+      {
+        "key": "D",
+        "text": "Entertain with facts."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Details serve larger point.",
+      "C": "No comparison to other birds.",
+      "D": "Facts used to persuade."
+    },
+    "explanation": "The hummingbirds pause is an analogy for why humans should value stillness.",
+    "explanationSteps": [
+      "Observation: bird pauses.",
+      "Connection: to human productivity.",
+      "Purpose: persuade readers to reflect."
+    ],
+    "hints": [
+      "Does the passage move to a human lesson?",
+      "What is the author telling us?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "author-purpose",
+      "analogy",
+      "productivity"
+    ],
+    "estimatedTimeSec": 70
+  },
+  {
+    "id": "er-c1-013",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "theme-identification",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.9,
+    "passage": "The archaeologist brushed away centuries of dust to reveal a clay tablet. The inscription was a simple list: barley, 50 measures; oil, 20 jars; wine, 10 jars. A receipt. Yet she held it as if it were gold. This is what I love most, she said. Not the palaces or treasures, but the ordinary moments. A kings tomb tells us how one person died. A receipt tells us how people lived.",
+    "prompt": "What does the archaeologists reaction reveal about what she values?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "She prefers valuable artifacts."
+      },
+      {
+        "key": "B",
+        "text": "She values understanding everyday life over grand monuments."
+      },
+      {
+        "key": "C",
+        "text": "She thinks receipts are more accurate."
+      },
+      {
+        "key": "D",
+        "text": "She thinks clay tablets are most important."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "She treasures a simple receipt more.",
+      "C": "She values what it reveals about daily life.",
+      "D": "She values content, not material."
+    },
+    "explanation": "The archaeologist says she loves the ordinary moments because they tell how people lived, unlike tombs which tell how one died.",
+    "explanationSteps": [
+      "Contrast: receipt (ordinary) vs tomb (grand).",
+      "Quote: the ordinary moments.",
+      "Quote: receipt tells how people lived."
+    ],
+    "hints": [
+      "Why hold a receipt like gold?",
+      "What does she say about tombs vs receipts?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "theme",
+      "history",
+      "perspective"
+    ],
+    "estimatedTimeSec": 65
+  },
+  {
+    "id": "er-c1-014",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "compare-contrast",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.85,
+    "passage": "The poet and the scientist both look at the night sky. The poet sees a tapestry of diamonds. The scientist sees fusion reactions and data points. The poet writes about wonder. The scientist writes about elements. But both are trying to do the same thing: to find patterns and articulate something true about our place in the cosmos. Different languages, but the same conversation.",
+    "prompt": "How does the author use comparison?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Arguing science is more important."
+      },
+      {
+        "key": "B",
+        "text": "Showing poetry and science are the same pursuit differently expressed."
+      },
+      {
+        "key": "C",
+        "text": "Suggesting they should not study the same subject."
+      },
+      {
+        "key": "D",
+        "text": "Claiming the sky belongs to scientists."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Both presented as equally valuable.",
+      "C": "Both study the night sky.",
+      "D": "Equal space for both."
+    },
+    "explanation": "The author contrasts then unites them, showing both seek truth. Different languages, same conversation.",
+    "explanationSteps": [
+      "Contrast: poets imagery vs scientists data.",
+      "Pivot: But both are trying to do the same thing.",
+      "Conclusion: same conversation."
+    ],
+    "hints": [
+      "How are they presented initially?",
+      "What does same conversation suggest?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "compare-contrast",
+      "science-vs-art"
+    ],
+    "estimatedTimeSec": 70
+  },
+  {
+    "id": "er-c1-015",
+    "moduleId": "english.reading",
+    "skill": "critical-analysis",
+    "subSkill": "text-structure",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.9,
+    "passage": "We fear the wrong things. We worry about plane crashes, yet drive cars every day. We panic about shark attacks while ignoring poor diet. Our fears are calibrated to vividness, not reality. A plane crash is a dramatic image. A heart attack is quiet and gradual. Understanding this mismatch is the first step toward making better decisions about our attention and worry.",
+    "prompt": "How does the author use rhetorical structure to challenge assumptions?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Presenting statistics without explanation."
+      },
+      {
+        "key": "B",
+        "text": "Contrasting vivid rare dangers with quiet common ones."
+      },
+      {
+        "key": "C",
+        "text": "Defending media coverage."
+      },
+      {
+        "key": "D",
+        "text": "Arguing all fears are reasonable."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Author uses contrast and examples.",
+      "C": "Author criticizes media.",
+      "D": "Author argues the opposite."
+    },
+    "explanation": "The author opens provocatively, then contrasts vivid rare dangers with common quiet ones.",
+    "explanationSteps": [
+      "Opening: We fear the wrong things.",
+      "Contrast pairs: plane crash vs car, shark vs diet.",
+      "Explanation: fear is calibrated to vividness."
+    ],
+    "hints": [
+      "What pairs of examples are used?",
+      "How do the pairs make you reconsider?"
+    ],
+    "tags": [
+      "critical-analysis",
+      "text-structure",
+      "rhetoric",
+      "risk-perception"
+    ],
+    "estimatedTimeSec": 70
+  }
+]

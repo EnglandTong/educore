@@ -1,0 +1,31 @@
+/**
+ * Re-export shared contracts from @educore/types (Agent 1). App-only types live under @/api/*.
+ */
+export type {
+  ApiErrorBody,
+  ApiErrorDetail,
+  ApiFailure,
+  ApiMeta,
+  ApiResponse,
+  ApiSuccess,
+  Choice,
+  DiagnosticReport,
+  LearningSession,
+  ModuleProgress,
+  MasteryLevel,
+  ProgressOverview,
+  Question,
+  QuestionType,
+  SessionQuestion,
+  SessionReport,
+  SkillMastery,
+  SkillScore,
+  UserPreferences,
+  UserProfile,
+  UserRole,
+  WrongAnswerRecord,
+  Announcement,
+  Conversation,
+  Message,
+  SubjectGuide,
+} from '@educore/types'

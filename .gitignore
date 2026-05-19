@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+.next/
+.turbo/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Secrets
+*.pem
+*.key
+*.p12
+
+# Audit reports (Agent 4 produces these)
+# audit/*.md  ← committed, so NOT ignored
+
+# Adjacent projects (not part of EduCore)
+光合.启途.公益线上学习平台/
+
+# E2E test artifacts
+apps/web/e2e-report/
+apps/web/test-results/
+.codex-tmp-anysearch/

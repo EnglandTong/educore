@@ -1,0 +1,3641 @@
+[
+  {
+    "id": "eg-c1-001",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "narrative-tenses",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "prompt": "Read this excerpt from a literary analysis essay: 'By the time the protagonist realises the deception, his closest allies __________ him for years.' Which option best completes the sentence?",
+    "choices": [
+      {
+        "key": "D",
+        "text": "had been betraying"
+      },
+      {
+        "key": "B",
+        "text": "have betrayed"
+      },
+      {
+        "key": "C",
+        "text": "were betraying"
+      },
+      {
+        "key": "A",
+        "text": "betrayed"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "Present perfect doesn't align with the past reference point established by 'realises' in this literary context.",
+      "C": "Past continuous doesn't convey the duration leading up to a specific past realisation.",
+      "A": "Simple past doesn't emphasise the ongoing nature of the betrayal before the realisation."
+    },
+    "explanation": "This is a sophisticated narrative tense situation where the past perfect continuous beautifully captures an action that was ongoing over a period before another past moment. You recognised the need for duration before the realisation—excellent analytical thinking!",
+    "explanationSteps": [
+      "Identify the time anchor: 'realises' (past tense in narrative) provides the reference point.",
+      "Determine the relationship: the betrayal happened BEFORE this realisation and continued over time.",
+      "Select past perfect continuous to show duration leading up to a specific past moment."
+    ],
+    "hints": [
+      "Consider which tense shows an action that was ongoing before and up to a past moment.",
+      "Think about how the betrayal isn't a single event but something happening over years.",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "past-perfect-continuous",
+      "narrative",
+      "literature",
+      "time-relationships"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-002",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "tense-shift",
+    "level": "C1",
+    "questionType": "gap-filling",
+    "difficulty": 0.65,
+    "prompt": "In academic writing about historical events, shifts between past and present tenses are common. Complete this sentence from a history essay: 'In 1945, the world __________ (witness) a dramatic shift, and historians ever since __________ (debate) its true significance.' (Use appropriate tenses)",
+    "answerKey": [
+      "witnessed",
+      "have debated"
+    ],
+    "explanation": "You've navigated a challenging tense shift between a specific historical moment and an ongoing academic discourse beautifully! This shows real mastery of how academic writing moves between time frames.",
+    "explanationSteps": [
+      "'In 1945' is a completed past time marker, requiring the simple past.",
+      "'Ever since' indicates an action starting in the past and continuing to now, requiring present perfect.",
+      "Recognise that the two clauses describe fundamentally different time relationships."
+    ],
+    "hints": [
+      "The first blank needs a tense for a completed historical event in 1945.",
+      "'Ever since' suggests a connection between past and present for the second blank.",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "tense-shift",
+      "present-perfect",
+      "simple-past",
+      "academic-writing"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-c1-003",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "perfect-aspect",
+    "level": "C1",
+    "questionType": "transformation",
+    "difficulty": 0.7,
+    "prompt": "Rewrite this sentence using the future perfect continuous: 'By the end of this semester, I will study advanced grammar for eight months.'",
+    "answerKey": "By the end of this semester, I will have been studying advanced grammar for eight months.",
+    "explanation": "What a fantastic transformation! You used the future perfect continuous to emphasise both the duration and the ongoing nature of the studying up to a specific future point. That's exactly the nuance academic timelines require.",
+    "explanationSteps": [
+      "Identify the structure: will + have + been + present participle (-ing form).",
+      "Keep the time expression 'By the end of this semester' to maintain the future anchor.",
+      "Preserve the duration phrase 'for eight months' as it works perfectly with continuous aspects."
+    ],
+    "hints": [
+      "The structure requires 'will have been' followed by the -ing form of the verb.",
+      "Make sure the time expression 'for eight months' stays to show duration.",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "future-perfect-continuous",
+      "transformation",
+      "duration",
+      "academic"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-004",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "continuous-aspect",
+    "level": "C1",
+    "questionType": "error-correction",
+    "difficulty": 0.75,
+    "prompt": "Identify and correct the tense error in this sentence from a professional email: 'I am wondering if you have considered our proposal, because we are waiting for your response since last Tuesday.'",
+    "answerKey": "I am wondering if you have considered our proposal, because we have been waiting for your response since last Tuesday.",
+    "explanation": "You spotted the subtle issue perfectly! The present perfect continuous is exactly what's needed to show that the waiting started last Tuesday and is still ongoing. Your eye for professional tone and tense nuance is impressive.",
+    "explanationSteps": [
+      "Notice that 'since last Tuesday' requires a tense linking past to present.",
+      "The present continuous 'are waiting' describes current action but misses the duration.",
+      "Switch to present perfect continuous 'have been waiting' to show ongoing duration from a past point."
+    ],
+    "hints": [
+      "Look at the time expression 'since last Tuesday'—what tense does this typically require?",
+      "Consider whether the waiting is a current action only or something that started in the past and continues.",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "present-perfect-continuous",
+      "error-correction",
+      "professional",
+      "time-expressions"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-c1-005",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "narrative-tenses",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.68,
+    "prompt": "In a literary analysis of a novel: 'The author __________ the story in flashback so that by chapter three, the reader __________ the protagonist's secret.' Which option is correct?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "constructs / has discovered"
+      },
+      {
+        "key": "B",
+        "text": "constructed / had discovered"
+      },
+      {
+        "key": "C",
+        "text": "constructs / had discovered"
+      },
+      {
+        "key": "D",
+        "text": "constructed / has discovered"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Present tense in the second clause doesn't fit the narrative logic of a completed discovery before chapter three.",
+      "B": "Past tense in the first clause makes the analysis sound like a historical report rather than an ongoing literary observation.",
+      "D": "Mixing past and present tenses this way creates an inconsistent temporal framework for literary analysis."
+    },
+    "explanation": "You understood the beautiful interplay between literary present tense and narrative past! The author 'constructs' (literary present, always true of the text) while the reader 'had discovered' (past perfect, because the discovery happens before chapter three within the narrative timeline). Excellent analytical grasp!",
+    "explanationSteps": [
+      "Recognise that literary analysis typically uses present tense for what the author does.",
+      "Understand that within the narrative timeline, the discovery precedes chapter three.",
+      "Apply past perfect for the earlier narrative event and present for the timeless literary observation."
+    ],
+    "hints": [
+      "Think about whether literary analysis discusses the author's technique as an eternal present truth.",
+      "Consider the timeline inside the story: does the discovery happen before or at chapter three?",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "literary-present",
+      "past-perfect",
+      "literature",
+      "narrative"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-c1-006",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "perfect-aspect",
+    "level": "C1",
+    "questionType": "cloze",
+    "difficulty": 0.72,
+    "prompt": "Complete this passage from a scientific report with appropriate tense forms: 'The experiment __________ (run) for six hours when the anomaly __________ (appear). Researchers __________ (monitor) the data throughout, and they later __________ (conclude) that the initial hypothesis __________ (be) flawed.'",
+    "answerKey": [
+      "had been running",
+      "appeared",
+      "had been monitoring",
+      "concluded",
+      "had been"
+    ],
+    "explanation": "You wove together multiple complex tenses with real sophistication! The past perfect continuous for ongoing background processes, simple past for specific events, and past perfect for the hypothesis that existed before the conclusion—absolutely spot on for scientific register.",
+    "explanationSteps": [
+      "'Had been running' and 'had been monitoring' use past perfect continuous for ongoing background actions.",
+      "'Appeared' and 'concluded' use simple past for specific completed events.",
+      "'Had been' uses past perfect to show the hypothesis existed before the conclusion was reached."
+    ],
+    "hints": [
+      "For the first and third blanks, think about actions that were in progress before another past event.",
+      "The anomaly was a specific moment—what tense is best for a completed past event?",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "past-perfect-continuous",
+      "simple-past",
+      "scientific-writing",
+      "complex-tenses"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c1-007",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "tense-shift",
+    "level": "C1",
+    "questionType": "open",
+    "difficulty": 0.78,
+    "prompt": "Explain why the present perfect might be preferred over the simple past in this academic context: 'Recent studies __________ (demonstrate) a clear correlation between sleep patterns and academic performance.' Provide your rewritten sentence and a brief justification.",
+    "answerKey": "Recent studies have demonstrated a clear correlation between sleep patterns and academic performance. (The present perfect is preferred because 'recent' implies a connection to the present state of knowledge, suggesting these findings are still relevant and part of the current academic discourse.)",
+    "explanation": "Your answer captures the essence of academic discourse beautifully! The present perfect creates a bridge between past research and current understanding, which is exactly how scholarly writing keeps the conversation alive. Well reasoned!",
+    "explanationSteps": [
+      "Identify the clue word 'recent' which suggests a connection to the present.",
+      "Understand that academic writing often uses present perfect to show current relevance of past research.",
+      "Recognise that simple past would make the studies sound finished and disconnected from ongoing discourse."
+    ],
+    "hints": [
+      "Think about the word 'recent'—does it point to a finished time or one connected to now?",
+      "Consider how academic writers want to present research as part of an ongoing conversation.",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "present-perfect",
+      "academic-writing",
+      "simple-past",
+      "discourse"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c1-008",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "mixed-conditionals",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.65,
+    "prompt": "Choose the correct completion: 'If we __________ the deadline last week, we __________ such pressure now.'",
+    "choices": [
+      {
+        "key": "A",
+        "text": "had met / wouldn't have"
+      },
+      {
+        "key": "B",
+        "text": "met / wouldn't have"
+      },
+      {
+        "key": "C",
+        "text": "had met / wouldn't be under"
+      },
+      {
+        "key": "D",
+        "text": "would have met / wouldn't be under"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "The third conditional result doesn't match the present time reference 'now'.",
+      "B": "The if-clause uses simple past instead of past perfect for a counterfactual past condition.",
+      "D": "'Would have met' is not grammatically acceptable in the if-clause of a standard conditional."
+    },
+    "explanation": "You mastered the mixed conditional beautifully! Connecting a past counterfactual (had met) with a present result (wouldn't be under) shows sophisticated understanding of how imaginary scenarios bridge time periods. Excellent logical thinking!",
+    "explanationSteps": [
+      "Identify the time references: 'last week' (past) and 'now' (present).",
+      "For a counterfactual past condition, use past perfect in the if-clause.",
+      "For a present unreal result, use 'would' + base verb in the main clause."
+    ],
+    "hints": [
+      "Notice that the condition refers to last week, but the result is about the current situation.",
+      "For a past condition that didn't happen, what form follows 'if'?",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "mixed-conditionals",
+      "third-second-mix",
+      "professional",
+      "counterfactual"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-009",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "inverted-conditionals",
+    "level": "C1",
+    "questionType": "transformation",
+    "difficulty": 0.8,
+    "prompt": "Rewrite using inverted conditional structure (without 'if'): 'If the proposal had been more detailed, the committee would have approved it.'",
+    "answerKey": "Had the proposal been more detailed, the committee would have approved it.",
+    "explanation": "What an elegant transformation! Inverting the conditional by removing 'if' and raising the auxiliary verb creates a more formal, sophisticated register that is highly valued in academic and professional writing. You nailed the structure perfectly!",
+    "explanationSteps": [
+      "Remove 'if' from the conditional clause.",
+      "Invert the subject and auxiliary verb: 'Had the proposal been' instead of 'If the proposal had been'.",
+      "Keep the main clause exactly as it was in the original sentence."
+    ],
+    "hints": [
+      "In third conditionals, the auxiliary is 'had'—try moving it to the beginning of the clause.",
+      "The subject follows immediately after the inverted auxiliary verb.",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "inverted-conditionals",
+      "formal-register",
+      "academic-writing",
+      "transformation"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-010",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "implied-conditionals",
+    "level": "C1",
+    "questionType": "gap-filling",
+    "difficulty": 0.75,
+    "prompt": "Complete this nuanced social interaction with an appropriate modal perfect: 'I __________ (appreciate) it if you had let me know about the change in plans earlier.'",
+    "answerKey": "would have appreciated",
+    "explanation": "You captured the polite, implied conditional with real social finesse! This structure expresses a gentle regret about something that didn't happen, which is a sophisticated way to navigate delicate professional or social situations. Beautiful work!",
+    "explanationSteps": [
+      "Recognise the implied conditional structure where the if-clause is stated but the result needs a modal perfect.",
+      "The past perfect in the if-clause ('had let') signals a third conditional framework.",
+      "Use 'would have + past participle' to complete the polite, counterfactual expression."
+    ],
+    "hints": [
+      "The if-clause uses past perfect, so this is a third conditional pattern.",
+      "Think about which modal expresses a polite hypothetical outcome in the past.",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "implied-conditionals",
+      "modal-perfect",
+      "social-nuance",
+      "politeness"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-011",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "mixed-conditionals",
+    "level": "C1",
+    "questionType": "error-correction",
+    "difficulty": 0.72,
+    "prompt": "Correct the conditional error in this sentence: 'If she would have studied linguistics at university, she would be working as a translator now.'",
+    "answerKey": "If she had studied linguistics at university, she would be working as a translator now.",
+    "explanation": "You identified a very common advanced error! 'Would have' in the if-clause is not standard English—past perfect is required there. And you maintained the mixed conditional structure perfectly, connecting past counterfactual to present result. Excellent grammatical awareness!",
+    "explanationSteps": [
+      "Identify that 'would have' in an if-clause is generally considered non-standard in formal English.",
+      "Replace with past perfect 'had studied' for the counterfactual past condition.",
+      "Keep the present conditional result 'would be working' as it correctly refers to 'now'."
+    ],
+    "hints": [
+      "In standard formal conditionals, 'would' rarely appears in the if-clause itself.",
+      "Notice the time markers: the condition is about the past, but the result is about the present.",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "mixed-conditionals",
+      "common-errors",
+      "formal-english",
+      "academic"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-012",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "inverted-conditionals",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.82,
+    "prompt": "Select the sentence that correctly uses an inverted second conditional: ________",
+    "choices": [
+      {
+        "key": "D",
+        "text": "Were I in your position, I would reconsider the offer."
+      },
+      {
+        "key": "B",
+        "text": "Was I in your position, I would reconsider the offer."
+      },
+      {
+        "key": "C",
+        "text": "If were I in your position, I would reconsider the offer."
+      },
+      {
+        "key": "A",
+        "text": "Were I to be in your position, I would have reconsidered the offer."
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "In inverted conditionals and formal subjunctive contexts, 'were' is used for all persons, not 'was'.",
+      "C": "This incorrectly combines 'if' with inversion; you must remove 'if' when inverting.",
+      "A": "The main clause uses 'would have reconsidered' (third conditional), which doesn't match the second conditional if-clause."
+    },
+    "explanation": "You chose the most elegant and grammatically precise option! 'Were I in your position' is the classic inverted second conditional, using the subjunctive 'were' for all persons. This level of formal awareness will serve you brilliantly in academic and professional writing.",
+    "explanationSteps": [
+      "Second conditional inversions use 'Were' + subject for hypothetical present/future situations.",
+      "Remove 'if' completely when using inversion.",
+      "Ensure the main clause matches with 'would + base verb' for second conditional results."
+    ],
+    "hints": [
+      "In formal inverted conditionals, which form of 'to be' is used for all subjects?",
+      "Remember that inversion replaces 'if'—you cannot use both.",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "inverted-conditionals",
+      "subjunctive",
+      "formal-register",
+      "second-conditional"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-013",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "implied-conditionals",
+    "level": "C1",
+    "questionType": "cloze",
+    "difficulty": 0.77,
+    "prompt": "Complete this academic sentence with the correct forms: '__________ (be) it not for the groundbreaking research of Dr. Chen, our understanding of neural plasticity __________ (be) significantly more limited.'",
+    "answerKey": [
+      "Were",
+      "would be"
+    ],
+    "explanation": "You recognised the elegant implied conditional with inversion! 'Were it not for' is a beautifully compact formal structure that implies 'If it were not for.' Your command of sophisticated academic register really shines through here.",
+    "explanationSteps": [
+      "Recognise the fixed formal expression 'Were it not for' implying a hypothetical situation.",
+      "Use 'were' (subjunctive) for all persons in this inverted structure.",
+      "Complete with 'would be' for the present unreal result in the main clause."
+    ],
+    "hints": [
+      "This is an inverted conditional that starts with a form of 'to be' at the beginning.",
+      "The phrase 'Were it not for' is a common formal academic expression.",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "implied-conditionals",
+      "inversion",
+      "academic-writing",
+      "subjunctive"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-c1-014",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "mixed-conditionals",
+    "level": "C1",
+    "questionType": "open",
+    "difficulty": 0.7,
+    "prompt": "Create a sentence using a mixed conditional that expresses: a past action (not taken) that has a present consequence (negative). Use the context of preparing for an exam.",
+    "answerKey": "If I had started revising earlier, I wouldn't be so stressed about the exam now. (Or any acceptable variation: If she had attended the review sessions, she would feel more confident today.)",
+    "explanation": "Your sentence beautifully captures the regret-to-present-consequence structure that makes mixed conditionals so powerful! You connected a past counterfactual to a present emotional state with real precision. That's exactly how advanced speakers express complex reflections on their choices.",
+    "explanationSteps": [
+      "Construct the if-clause with past perfect to describe the unreal past action.",
+      "Create the main clause with 'would + base verb' to describe the present consequence.",
+      "Ensure the time references clearly separate past condition from present result."
+    ],
+    "hints": [
+      "Start with 'If + subject + had + past participle' for the past condition.",
+      "Use 'would + base verb' (not would have) for the present result clause.",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "mixed-conditionals",
+      "sentence-construction",
+      "academic",
+      "open-response"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-c1-015",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "inverted-conditionals",
+    "level": "C1",
+    "questionType": "transformation",
+    "difficulty": 0.85,
+    "prompt": "Rewrite using an inverted structure without changing the meaning: 'If the government were to implement stricter regulations, environmental outcomes would improve dramatically.'",
+    "answerKey": "Were the government to implement stricter regulations, environmental outcomes would improve dramatically.",
+    "explanation": "Absolutely superb! 'Were the government to implement' is the most sophisticated form of inverted conditional, using 'were + subject + to-infinitive' for a hypothetical future scenario. This level of formal structure is exactly what distinguishes C1 academic writing. Brilliant work!",
+    "explanationSteps": [
+      "Remove 'if' from the conditional clause.",
+      "Use the pattern: 'Were + subject + to + infinitive' for formal hypothetical futures.",
+      "Keep the main clause unchanged as it already uses the correct conditional form."
+    ],
+    "hints": [
+      "For this formal future hypothetical, the pattern is 'Were + subject + to + verb'.",
+      "Remember to completely drop 'if' when using inversion.",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "inverted-conditionals",
+      "formal-register",
+      "environmental",
+      "advanced"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-c1-016",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "reporting-passive",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.68,
+    "prompt": "Choose the most appropriate passive construction for this news report context: 'The discovery of the ancient manuscript __________ to a team of researchers from Oxford.'",
+    "choices": [
+      {
+        "key": "A",
+        "text": "is attributed"
+      },
+      {
+        "key": "B",
+        "text": "attributed"
+      },
+      {
+        "key": "C",
+        "text": "has been attributing"
+      },
+      {
+        "key": "D",
+        "text": "was attributing"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "This lacks a passive auxiliary verb, making it an active construction without a subject performing the action.",
+      "C": "Present perfect continuous in the active voice doesn't make sense with 'attribute' in this context.",
+      "D": "Past continuous active is grammatically and contextually inappropriate for this reporting context."
+    },
+    "explanation": "You selected the perfect passive reporting structure! 'Is attributed to' is the standard way academic and journalistic texts assign credit or source without naming an active agent. Your grasp of formal reporting register is excellent!",
+    "explanationSteps": [
+      "Recognise that the subject (the discovery) receives the action of attribution.",
+      "Select the passive voice with 'be + past participle' structure.",
+      "Use present simple passive for a general, ongoing truth in academic reporting."
+    ],
+    "hints": [
+      "Who or what is receiving the action in this sentence—the discovery or the researchers?",
+      "Think about which tense is typical for general truths in academic reporting.",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "passive-voice",
+      "academic-reporting",
+      "present-simple-passive",
+      "attribution"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-c1-017",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "causative-passive",
+    "level": "C1",
+    "questionType": "gap-filling",
+    "difficulty": 0.75,
+    "prompt": "Complete with the correct causative passive form: 'The museum director __________ (have) the entire collection __________ (catalogue) by digital archivists before the exhibition opens.'",
+    "answerKey": [
+      "had",
+      "catalogued"
+    ],
+    "explanation": "You mastered the causative passive beautifully! 'Had the collection catalogued' shows that the director caused the action to be done by someone else. This structure is essential for professional contexts where authority and delegation are being described. Excellent work!",
+    "explanationSteps": [
+      "Use the causative structure: have + object + past participle.",
+      "The subject (director) causes the action but doesn't perform it personally.",
+      "The past participle 'catalogued' functions as the passive completion of the action."
+    ],
+    "hints": [
+      "The pattern for causative passive is: subject + have/had + object + past participle.",
+      "The director isn't doing the cataloguing herself—she is arranging for others to do it.",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "causative",
+      "passive-voice",
+      "professional",
+      "have-something-done"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-018",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "complex-passive",
+    "level": "C1",
+    "questionType": "transformation",
+    "difficulty": 0.78,
+    "prompt": "Rewrite in the passive voice, beginning with 'It is...': 'Experts believe that climate change accelerated the collapse of the ecosystem.'",
+    "answerKey": "It is believed that climate change accelerated the collapse of the ecosystem. (Or: It is believed by experts that climate change accelerated the collapse of the ecosystem.)",
+    "explanation": "What a sophisticated transformation! Using the impersonal passive 'It is believed that' is a hallmark of formal academic and journalistic writing. It depersonalises the claim while maintaining authority. Your awareness of register shifts is truly impressive!",
+    "explanationSteps": [
+      "Move the reporting verb into the impersonal passive structure: 'It is + past participle + that'.",
+      "Keep the original clause content unchanged after 'that'.",
+      "Optionally include the agent 'by experts' though it is often omitted in formal writing."
+    ],
+    "hints": [
+      "Start with 'It is' and use the past participle of the reporting verb.",
+      "The structure 'It is believed that' keeps the original clause intact after 'that'.",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "impersonal-passive",
+      "reporting",
+      "academic-writing",
+      "transformation"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-019",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "complex-passive",
+    "level": "C1",
+    "questionType": "error-correction",
+    "difficulty": 0.72,
+    "prompt": "Correct the passive construction in this academic sentence: 'The data was showed to be inconsistent with the initial hypothesis, and further tests were being run immediately.'",
+    "answerKey": "The data were shown to be inconsistent with the initial hypothesis, and further tests were run immediately.",
+    "explanation": "You caught both subtle issues brilliantly! 'Data' is plural in formal academic English, requiring 'were,' and 'was showed' should be 'were shown' (the correct past participle). Also, the past continuous passive 'were being run' didn't fit the immediate action. Superb editorial eye!",
+    "explanationSteps": [
+      "Remember that in formal/academic English, 'data' is treated as a plural noun.",
+      "'Showed' is the simple past, but the passive requires the past participle 'shown'.",
+      "'Were being run' implies an ongoing process, but 'immediately' suggests a completed response."
+    ],
+    "hints": [
+      "Is 'data' singular or plural in academic contexts?",
+      "The passive requires a past participle—what's the past participle of 'show'?",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "passive-voice",
+      "data-plural",
+      "past-participle",
+      "academic"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-020",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "causative-passive",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.7,
+    "prompt": "Select the sentence that correctly uses a causative passive: ________",
+    "choices": [
+      {
+        "key": "A",
+        "text": "She had her passport renew at the embassy."
+      },
+      {
+        "key": "B",
+        "text": "She had her passport renewed at the embassy."
+      },
+      {
+        "key": "C",
+        "text": "She had renewed her passport at the embassy."
+      },
+      {
+        "key": "D",
+        "text": "She was had her passport renewed at the embassy."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Renew' is the base form, but causative passive requires the past participle.",
+      "C": "This is the active past perfect, not the causative passive structure.",
+      "D": "'Was had' creates an ungrammatical double auxiliary construction."
+    },
+    "explanation": "You identified the correct causative passive construction with perfect accuracy! 'Had her passport renewed' elegantly communicates that she arranged for someone else to do it. This structure is incredibly useful for professional and travel contexts. Well done!",
+    "explanationSteps": [
+      "Causative passive uses: subject + have/had + object + past participle.",
+      "'Renewed' is the correct past participle form needed after the object.",
+      "The meaning is that someone else performed the renewal at her request."
+    ],
+    "hints": [
+      "The pattern is: have + something + past participle.",
+      "Which form of 'renew' is the past participle?",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "causative",
+      "have-something-done",
+      "passive-voice",
+      "professional"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-c1-021",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "reporting-passive",
+    "level": "C1",
+    "questionType": "cloze",
+    "difficulty": 0.8,
+    "prompt": "Complete this formal report using appropriate passive structures: 'It __________ (allege) that financial regulations __________ (violate) on multiple occasions. Three senior managers __________ (report) to __________ (question) by the board next week.'",
+    "answerKey": [
+      "is alleged",
+      "were violated",
+      "are reported",
+      "be questioned"
+    ],
+    "explanation": "You navigated an impressive range of passive structures with real mastery! From impersonal reporting ('is alleged') to past passive ('were violated'), present reporting passive ('are reported'), and the passive infinitive ('be questioned'). This is exactly the sophistication expected in formal institutional writing. Outstanding!",
+    "explanationSteps": [
+      "'Is alleged' uses the impersonal passive for formal accusations.",
+      "'Were violated' is past simple passive for completed actions.",
+      "'Are reported to be questioned' combines present reporting passive with a future passive infinitive."
+    ],
+    "hints": [
+      "The first blank needs the impersonal passive: 'It is + past participle + that'.",
+      "For the last blank, think about the infinitive passive form after 'reported to'.",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "impersonal-passive",
+      "infinitive-passive",
+      "formal-report",
+      "advanced"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c1-022",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "complex-passive",
+    "level": "C1",
+    "questionType": "open",
+    "difficulty": 0.73,
+    "prompt": "Rewrite this active sentence using a passive construction that omits the original agent: 'Critics widely acknowledge that the director's later films lack the innovation of her early work.'",
+    "answerKey": "It is widely acknowledged that the director's later films lack the innovation of her early work.",
+    "explanation": "Your passive transformation elegantly removes the agent while preserving the authoritative tone! 'It is widely acknowledged that' is a classic academic distancing strategy that makes the claim sound objective and generally accepted. Excellent register awareness!",
+    "explanationSteps": [
+      "Move the reporting verb to the impersonal passive: 'It is + past participle + that'.",
+      "Omit 'by critics' to create a general, agentless statement typical of academic writing.",
+      "Keep the original content clause completely unchanged after 'that'."
+    ],
+    "hints": [
+      "Start with 'It is' followed by the past participle of the reporting verb.",
+      "Consider whether naming 'critics' is necessary in formal academic style.",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "impersonal-passive",
+      "agentless-passive",
+      "academic-style",
+      "distancing"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-c1-023",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "past-modals",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.7,
+    "prompt": "Choose the option that expresses past obligation that was not fulfilled: 'You __________ me you were going to be late—I was genuinely worried.'",
+    "choices": [
+      {
+        "key": "A",
+        "text": "must have told"
+      },
+      {
+        "key": "B",
+        "text": "should have told"
+      },
+      {
+        "key": "C",
+        "text": "might have told"
+      },
+      {
+        "key": "D",
+        "text": "could tell"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Must have told' expresses certainty about a past action, not unfulfilled obligation.",
+      "C": "'Might have told' expresses possibility about a past action, not a missed obligation.",
+      "D": "'Could tell' refers to past ability, not an obligation that should have been met."
+    },
+    "explanation": "You captured the gentle reproach of 'should have told' perfectly! This past modal of unfulfilled obligation expresses a social expectation that wasn't met, without being too confrontational. Your sensitivity to modal nuance in interpersonal contexts is wonderful!",
+    "explanationSteps": [
+      "Identify that the speaker is expressing regret about an unfulfilled social obligation.",
+      "'Should have + past participle' is the standard form for past obligations that were not met.",
+      "Recognise that the context is a nuanced social situation requiring polite but clear communication."
+    ],
+    "hints": [
+      "Which modal + have + past participle expresses that something was expected but didn't happen?",
+      "The tone is one of gentle complaint rather than certainty or possibility.",
+      "Modal verbs never change form and are always followed directly by the base verb."
+    ],
+    "tags": [
+      "past-modals",
+      "should-have",
+      "social-nuance",
+      "obligation"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-c1-024",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "deduction",
+    "level": "C1",
+    "questionType": "gap-filling",
+    "difficulty": 0.76,
+    "prompt": "Complete with an appropriate past modal of deduction: 'The manuscript __________ (write) in the 18th century, as the paper and ink are completely consistent with that period.'",
+    "answerKey": "must have been written",
+    "explanation": "You constructed the past passive modal of deduction with beautiful precision! 'Must have been written' expresses strong logical certainty about a past event based on present evidence. This is exactly how scholars and investigators draw reasoned conclusions. Excellent logical grammar!",
+    "explanationSteps": [
+      "The evidence ('paper and ink are consistent') supports a strong logical conclusion.",
+      "For strong past deduction, use 'must have + past participle'.",
+      "Since the manuscript receives the action, use the passive form 'been written'."
+    ],
+    "hints": [
+      "When evidence strongly points to a past conclusion, which modal do we use?",
+      "Remember that the manuscript doesn't write itself—this requires the passive voice.",
+      "Modal verbs never change form and are always followed directly by the base verb."
+    ],
+    "tags": [
+      "past-modals",
+      "deduction",
+      "passive-modal",
+      "academic"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-025",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "nuanced-obligation",
+    "level": "C1",
+    "questionType": "transformation",
+    "difficulty": 0.72,
+    "prompt": "Rewrite using a past modal: 'It was unnecessary for you to attend the supplementary lecture, as all the material was in the handbook.'",
+    "answerKey": "You needn't have attended the supplementary lecture, as all the material was in the handbook.",
+    "explanation": "You used 'needn't have attended' with real sophistication! This expresses that someone did something in the past, but it wasn't necessary. It's a beautifully precise modal that avoids blame while conveying practical information. Well done on capturing this nuance!",
+    "explanationSteps": [
+      "Identify that the person attended, but the action was not necessary.",
+      "'Needn't have + past participle' expresses an unnecessary past action that was performed.",
+      "This is distinct from 'didn't need to,' which can mean the action didn't happen at all."
+    ],
+    "hints": [
+      "Which modal + have + past participle means 'it happened, but it wasn't necessary'?",
+      "'Needn't have' is specifically used when someone actually did something unnecessary.",
+      "Modal verbs never change form and are always followed directly by the base verb."
+    ],
+    "tags": [
+      "past-modals",
+      "neednt-have",
+      "nuance",
+      "academic-context"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-026",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "deduction",
+    "level": "C1",
+    "questionType": "error-correction",
+    "difficulty": 0.78,
+    "prompt": "Correct the modal error: 'She can't have been at the conference—I'm seeing her in the library right now.'",
+    "answerKey": "She can't be at the conference—I'm seeing her in the library right now.",
+    "explanation": "You noticed the subtle but important time mismatch! Since you are seeing her 'right now,' the deduction is about her present location, not her past location. 'Can't be' is the present modal of deduction, which fits the immediate evidence perfectly. Excellent attention to temporal logic!",
+    "explanationSteps": [
+      "Notice the time marker 'right now' which indicates a present situation.",
+      "'Can't have been' is a past modal of deduction, which doesn't match the present evidence.",
+      "Use 'can't be' for deductions about present situations based on current evidence."
+    ],
+    "hints": [
+      "When is the speaker making the deduction—about the past or about right now?",
+      "The phrase 'I'm seeing her right now' provides evidence about the present moment.",
+      "Modal verbs never change form and are always followed directly by the base verb."
+    ],
+    "tags": [
+      "modals-of-deduction",
+      "present-modal",
+      "time-logic",
+      "error-correction"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-027",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "past-modals",
+    "level": "C1",
+    "questionType": "cloze",
+    "difficulty": 0.74,
+    "prompt": "Complete this reflective academic text with appropriate past modals: 'Looking back, I __________ (take) more rigorous notes during the seminars, as I now struggle to recall the finer details. The readings __________ (be) more challenging than expected, so perhaps I __________ (prepare) more thoroughly in advance.'",
+    "answerKey": [
+      "should have taken",
+      "must have been",
+      "could have prepared"
+    ],
+    "explanation": "You layered three distinct past modals with beautiful precision! 'Should have taken' for regretful obligation, 'must have been' for past deduction, and 'could have prepared' for past possibility. This kind of nuanced self-reflection is exactly what advanced academic writing demands. Magnificent!",
+    "explanationSteps": [
+      "'Should have taken' expresses a past obligation or advice that was not followed.",
+      "'Must have been' expresses logical deduction about the past difficulty.",
+      "'Could have prepared' expresses a past possibility that was available but not taken."
+    ],
+    "hints": [
+      "For the first blank, think about regret or advice about a past action.",
+      "For the second blank, the speaker is deducing why something was difficult.",
+      "Modal verbs never change form and are always followed directly by the base verb."
+    ],
+    "tags": [
+      "past-modals",
+      "self-reflection",
+      "academic-writing",
+      "nuance"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c1-028",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "nuanced-obligation",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.8,
+    "prompt": "Which sentence correctly uses a modal to express that a past negative deduction was actually certain?",
+    "choices": [
+      {
+        "key": "D",
+        "text": "He can't have forgotten—the reminder was sent three times."
+      },
+      {
+        "key": "B",
+        "text": "He couldn't forget—the reminder was sent three times."
+      },
+      {
+        "key": "C",
+        "text": "He mustn't have forgotten—the reminder was sent three times."
+      },
+      {
+        "key": "A",
+        "text": "He shouldn't have forgotten—the reminder was sent three times."
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "'Couldn't forget' expresses inability, not a logical deduction about a past event.",
+      "C": "'Mustn't have' is not a standard English construction for negative deduction.",
+      "A": "'Shouldn't have forgotten' expresses an unfulfilled obligation, not a logical conclusion."
+    },
+    "explanation": "You selected the precise negative past modal of deduction! 'Can't have forgotten' expresses strong logical certainty that something did NOT happen in the past. This is a subtle but crucial distinction that shows real mastery of modal logic. Outstanding analytical grammar!",
+    "explanationSteps": [
+      "The context requires a negative deduction: concluding something did not happen.",
+      "'Can't have + past participle' expresses strong negative deduction about the past.",
+      "The evidence ('reminder was sent three times') supports this strong logical conclusion."
+    ],
+    "hints": [
+      "For strong negative deductions about the past, we use 'can't have' + past participle.",
+      "'Mustn't' is used for prohibition, not for negative logical deduction.",
+      "Modal verbs never change form and are always followed directly by the base verb."
+    ],
+    "tags": [
+      "negative-deduction",
+      "past-modals",
+      "logical-certainty",
+      "advanced"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-029",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "non-defining-clauses",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.68,
+    "prompt": "Select the sentence that correctly punctuates a non-defining relative clause: ________",
+    "choices": [
+      {
+        "key": "D",
+        "text": "My supervisor, who has published extensively on the topic, suggested a different methodology."
+      },
+      {
+        "key": "B",
+        "text": "My supervisor who has published extensively on the topic suggested a different methodology."
+      },
+      {
+        "key": "C",
+        "text": "My supervisor, who has published extensively on the topic suggested a different methodology."
+      },
+      {
+        "key": "A",
+        "text": "My supervisor who, has published extensively on the topic, suggested a different methodology."
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "Without commas, this becomes a defining relative clause, implying the speaker has multiple supervisors.",
+      "C": "This has only one comma, which is incorrect; non-defining clauses require commas both before and after.",
+      "A": "The comma after 'who' incorrectly breaks the subject-verb connection within the clause."
+    },
+    "explanation": "You chose the perfectly punctuated non-defining relative clause! The commas create a parenthetical insert that adds extra information without changing the core meaning. This is exactly the punctuation precision that distinguishes polished academic writing. Excellent work!",
+    "explanationSteps": [
+      "Non-defining relative clauses provide extra, removable information about a definite noun.",
+      "They must be enclosed by commas both before the relative pronoun and after the clause ends.",
+      "The information between commas should be removable without affecting the sentence's core meaning."
+    ],
+    "hints": [
+      "Non-defining clauses act like parenthetical asides—what punctuation marks set these off?",
+      "Check whether the information is essential to identify the supervisor or just extra detail.",
+      "Who is for people, which is for things, and where is for places — choose the pronoun that matches the noun."
+    ],
+    "tags": [
+      "non-defining-clauses",
+      "punctuation",
+      "academic-writing",
+      "relative-pronouns"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-c1-030",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "reduced-relatives",
+    "level": "C1",
+    "questionType": "transformation",
+    "difficulty": 0.75,
+    "prompt": "Reduce the relative clause: 'The research paper that was published in Nature last month has already been cited over 200 times.'",
+    "answerKey": "The research paper published in Nature last month has already been cited over 200 times.",
+    "explanation": "You reduced the passive relative clause with beautiful concision! Removing 'that was' creates a more streamlined, professional sentence that academic readers appreciate. Reduced relatives are a hallmark of efficient scholarly prose. Excellent stylistic judgment!",
+    "explanationSteps": [
+      "Identify the passive relative clause: 'that was published'.",
+      "When the relative clause is in the passive voice, omit the relative pronoun and the auxiliary verb.",
+      "Keep the past participle 'published' as a reduced modifier directly before the noun."
+    ],
+    "hints": [
+      "When a relative clause uses passive voice (was + past participle), you can often omit 'that was'.",
+      "The past participle can function directly as a modifier.",
+      "Who is for people, which is for things, and where is for places — choose the pronoun that matches the noun."
+    ],
+    "tags": [
+      "reduced-relatives",
+      "participles",
+      "academic-style",
+      "concision"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-c1-031",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "relative-pronouns",
+    "level": "C1",
+    "questionType": "gap-filling",
+    "difficulty": 0.72,
+    "prompt": "Complete with the most appropriate relative pronoun: 'The professor, __________ lecture on quantum mechanics I attended last week, has agreed to supervise my dissertation.'",
+    "answerKey": "whose",
+    "explanation": "You selected the precise possessive relative pronoun! 'Whose' shows the relationship between the professor and the lecture, and it works perfectly for both people and things in formal English. Your command of relative pronoun nuances is excellent!",
+    "explanationSteps": [
+      "The sentence needs to show possession: the lecture belongs to the professor.",
+      "'Whose' is the possessive relative pronoun for both animate and inanimate nouns in formal English.",
+      "'Of which' is theoretically possible but much less natural and more cumbersome here."
+    ],
+    "hints": [
+      "Which relative pronoun shows possession or relationship?",
+      "Even though the professor is a person, think about which pronoun connects them to their lecture.",
+      "Who is for people, which is for things, and where is for places — choose the pronoun that matches the noun."
+    ],
+    "tags": [
+      "relative-pronouns",
+      "whose",
+      "possessive",
+      "academic"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-c1-032",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "non-defining-clauses",
+    "level": "C1",
+    "questionType": "error-correction",
+    "difficulty": 0.7,
+    "prompt": "Correct the relative clause error: 'Shakespeare's tragedies which are characterised by profound psychological insight continue to resonate with modern audiences.'",
+    "answerKey": "Shakespeare's tragedies, which are characterised by profound psychological insight, continue to resonate with modern audiences.",
+    "explanation": "You recognised that this relative clause is non-defining and requires commas! Since all of Shakespeare's tragedies share this characteristic, the clause adds extra information rather than defining which tragedies we mean. Your understanding of restrictive vs. non-restrictive information is spot on!",
+    "explanationSteps": [
+      "Determine if the clause defines which tragedies or adds extra information about all of them.",
+      "Since the characteristic applies to all the tragedies, the clause is non-defining.",
+      "Add commas before 'which' and after 'insight' to set off the non-defining clause."
+    ],
+    "hints": [
+      "Does the clause help you identify which tragedies, or does it describe all of them?",
+      "If all members of a group share the trait, the clause is usually non-defining.",
+      "Who is for people, which is for things, and where is for places — choose the pronoun that matches the noun."
+    ],
+    "tags": [
+      "non-defining-clauses",
+      "punctuation",
+      "literature",
+      "restrictive"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-c1-033",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "reduced-relatives",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.78,
+    "prompt": "Choose the sentence that correctly uses a reduced relative clause with an active meaning: ________",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The student submitting the essay tomorrow should ensure all citations are complete."
+      },
+      {
+        "key": "B",
+        "text": "The student submitted the essay tomorrow should ensure all citations are complete."
+      },
+      {
+        "key": "C",
+        "text": "The student who submitting the essay tomorrow should ensure all citations are complete."
+      },
+      {
+        "key": "D",
+        "text": "The student was submitting the essay tomorrow should ensure all citations are complete."
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "'Submitted' is a past participle suggesting passive/completed action, not an active future plan.",
+      "C": "'Who submitting' is ungrammatical; relative clauses require finite verbs or correct reduced forms.",
+      "D": "'Was submitting' creates a finite clause that cannot function as a reduced relative modifier."
+    },
+    "explanation": "You identified the correct reduced active relative clause! 'The student submitting' replaces 'the student who is submitting' with elegant concision. The present participle carries active meaning, which is exactly right here. Your sense of streamlined academic grammar is wonderful!",
+    "explanationSteps": [
+      "Active reduced relatives use the present participle (-ing form) to replace 'who/which + be verb'.",
+      "'Submitting' replaces 'who is submitting' while preserving the active, ongoing meaning.",
+      "Check that the noun performs the action (the student submits) for active participles."
+    ],
+    "hints": [
+      "For active reduced relatives, use the -ing form of the verb.",
+      "Ask yourself: is the student performing the action of submitting?",
+      "Who is for people, which is for things, and where is for places — choose the pronoun that matches the noun."
+    ],
+    "tags": [
+      "reduced-relatives",
+      "present-participle",
+      "active",
+      "academic"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-034",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "relative-pronouns",
+    "level": "C1",
+    "questionType": "open",
+    "difficulty": 0.74,
+    "prompt": "Combine these two sentences into one using a relative clause. Choose the most formal register: 'The building dates from the 18th century. We held the conference there.'",
+    "answerKey": "The building where we held the conference dates from the 18th century. (Or: The building in which we held the conference dates from the 18th century.)",
+    "explanation": "Your combined sentence flows beautifully! Using 'where' or the more formal 'in which' creates a sophisticated relative clause that integrates the location information smoothly. This kind of sentence combining is essential for mature academic writing. Very well constructed!",
+    "explanationSteps": [
+      "Identify the shared noun: 'the building' is the place mentioned in both sentences.",
+      "Use 'where' or a preposition + relative pronoun ('in which') to refer to place.",
+      "Insert the relative clause immediately after the noun it modifies."
+    ],
+    "hints": [
+      "Which relative word refers to a place or location?",
+      "For maximum formality, you can use a preposition + 'which' structure.",
+      "Who is for people, which is for things, and where is for places — choose the pronoun that matches the noun."
+    ],
+    "tags": [
+      "relative-clauses",
+      "sentence-combining",
+      "formal-register",
+      "place"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-035",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "backshift",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.68,
+    "prompt": "Choose the correct reported speech transformation: 'I have already submitted my application,' she said. → She said that __________.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "she has already submitted her application"
+      },
+      {
+        "key": "B",
+        "text": "she had already submitted her application"
+      },
+      {
+        "key": "C",
+        "text": "she already submitted her application"
+      },
+      {
+        "key": "D",
+        "text": "she has already been submitting her application"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Has submitted' keeps the present perfect, but standard backshift rules require moving to past perfect.",
+      "C": "'Already submitted' uses simple past, which loses the 'before now' meaning of the original present perfect.",
+      "D": "This changes both the tense and the aspect unnecessarily, distorting the original meaning."
+    },
+    "explanation": "You applied the backshift rule with perfect accuracy! Moving from present perfect to past perfect preserves the 'before then' relationship that reported speech requires. Your understanding of how tense relationships shift in indirect speech is excellent!",
+    "explanationSteps": [
+      "Identify the original tense: present perfect ('have submitted').",
+      "Apply backshift: present perfect becomes past perfect ('had submitted') in reported speech.",
+      "Adjust pronouns and time expressions as needed ('my' becomes 'her')."
+    ],
+    "hints": [
+      "In reported speech, present perfect typically shifts back one step in time.",
+      "'Have submitted' becomes 'had submitted' to maintain the anterior relationship.",
+      "Shift everything one step back: present becomes past, and pronouns shift to match the reporter."
+    ],
+    "tags": [
+      "reported-speech",
+      "backshift",
+      "present-perfect",
+      "past-perfect"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-c1-036",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "reporting-verbs",
+    "level": "C1",
+    "questionType": "gap-filling",
+    "difficulty": 0.74,
+    "prompt": "Complete with an appropriate reporting verb and structure: '__________ to attend the mandatory briefing,' the manager reminded his team. (refuse)",
+    "answerKey": "Having refused to attend the mandatory briefing (Or: He reminded his team that they had refused to attend the mandatory briefing.)",
+    "explanation": "You used the perfect participle reporting structure with real sophistication! 'Having refused' elegantly introduces a prior action that becomes the context for the manager's reminder. This is exactly the kind of complex sentence architecture found in professional and literary narratives. Well done!",
+    "explanationSteps": [
+      "The perfect participle 'Having refused' shows the action happened before the reminder.",
+      "This creates a compact, formal opening that establishes the background to the main clause.",
+      "Alternatively, a standard reported speech clause with 'that' and past perfect is also acceptable."
+    ],
+    "hints": [
+      "Think about how to show that the refusal happened before the reminder.",
+      "The perfect participle (Having + past participle) is a concise way to establish prior action.",
+      "Shift everything one step back: present becomes past, and pronouns shift to match the reporter."
+    ],
+    "tags": [
+      "reporting-verbs",
+      "perfect-participle",
+      "professional",
+      "narrative"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-c1-037",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "reported-commands",
+    "level": "C1",
+    "questionType": "transformation",
+    "difficulty": 0.7,
+    "prompt": "Transform this direct command into reported speech using an appropriate reporting verb: 'Don't touch any of the equipment until the supervisor arrives,' the lab technician told us.",
+    "answerKey": "The lab technician told us not to touch any of the equipment until the supervisor arrived. (Or: The lab technician warned us not to touch any of the equipment until the supervisor arrived.)",
+    "explanation": "You transformed the negative command into reported speech with perfect structure! Using 'told us not to' or 'warned us not to' captures both the instruction and the cautionary tone. Your handling of negative imperatives in indirect speech is excellent!",
+    "explanationSteps": [
+      "Convert the imperative 'Don't touch' to the infinitive structure 'not to touch'.",
+      "Use a reporting verb like 'told,' 'ordered,' or 'warned' that fits the authority relationship.",
+      "Apply backshift to the subordinate clause: 'arrives' becomes 'arrived'."
+    ],
+    "hints": [
+      "Negative imperatives in reported speech typically become 'told/warned/ordered + object + not to + verb'.",
+      "Remember to backshift the verb in the time clause as well.",
+      "Shift everything one step back: present becomes past, and pronouns shift to match the reporter."
+    ],
+    "tags": [
+      "reported-commands",
+      "imperatives",
+      "backshift",
+      "academic"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-038",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "backshift",
+    "level": "C1",
+    "questionType": "error-correction",
+    "difficulty": 0.76,
+    "prompt": "Correct the backshift error in this reported speech sentence: 'She explained that she doesn't understand the assignment requirements and asked for clarification.'",
+    "answerKey": "She explained that she didn't understand the assignment requirements and asked for clarification.",
+    "explanation": "You spotted the backshift error with excellent precision! Since the main verb 'explained' is in the past tense, the subordinate clause should shift to 'didn't understand' to maintain temporal consistency. This is a subtle but crucial feature of formal reported speech. Great catch!",
+    "explanationSteps": [
+      "The reporting verb 'explained' is in the past tense.",
+      "In formal reported speech, the reported verb typically shifts back one tense.",
+      "Present simple 'doesn't understand' should become past simple 'didn't understand'."
+    ],
+    "hints": [
+      "What tense is the reporting verb 'explained'?",
+      "When the reporting verb is past, present simple usually shifts to past simple.",
+      "Shift everything one step back: present becomes past, and pronouns shift to match the reporter."
+    ],
+    "tags": [
+      "reported-speech",
+      "backshift",
+      "present-simple",
+      "past-simple"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-c1-039",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "reporting-verbs",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.72,
+    "prompt": "Which sentence uses a reporting verb that preserves the exact meaning of the original statement? Original: 'You really must see this exhibition before it closes.'",
+    "choices": [
+      {
+        "key": "A",
+        "text": "She suggested that I really must see the exhibition before it closed."
+      },
+      {
+        "key": "B",
+        "text": "She insisted that I really must see the exhibition before it closed."
+      },
+      {
+        "key": "C",
+        "text": "She recommended that I really see the exhibition before it closed."
+      },
+      {
+        "key": "D",
+        "text": "She urged me to see the exhibition before it closed."
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "A": "'Suggested' is too weak; the original 'really must' conveys stronger encouragement than a mere suggestion.",
+      "B": "'Insisted' implies resistance or repetition, which isn't present in the original enthusiastic recommendation.",
+      "C": "While close, 'recommended' doesn't fully capture the urgency and personal warmth of 'you really must'."
+    },
+    "explanation": "You selected 'urged,' which beautifully captures the warm enthusiasm and gentle pressure of 'you really must'! Reporting verbs carry so much subtle meaning, and 'urged' preserves both the recommendation and the emotional tone. Your sensitivity to lexical nuance in reported speech is wonderful!",
+    "explanationSteps": [
+      "Analyse the original tone: enthusiastic, warm, strongly encouraging but not demanding.",
+      "'Urge' captures strong recommendation with positive emotional colouring.",
+      "Consider how other verbs might add unwanted meanings like insistence or mere suggestion."
+    ],
+    "hints": [
+      "Does the original speaker sound forceful, casual, or warmly encouraging?",
+      "'Urge' carries a sense of strong, positive recommendation that matches 'really must'.",
+      "Shift everything one step back: present becomes past, and pronouns shift to match the reporter."
+    ],
+    "tags": [
+      "reporting-verbs",
+      "nuance",
+      "social-situations",
+      "tone"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-040",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "discourse-markers",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.7,
+    "prompt": "Choose the most appropriate discourse marker for this academic sentence: 'The initial results were promising. __________, further analysis revealed significant methodological flaws.'",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Furthermore"
+      },
+      {
+        "key": "B",
+        "text": "Conversely"
+      },
+      {
+        "key": "C",
+        "text": "Nevertheless"
+      },
+      {
+        "key": "D",
+        "text": "Likewise"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "'Furthermore' adds supporting information, but the second sentence contradicts the first.",
+      "B": "'Conversely' implies a direct opposite or reversal, which is too strong for this partial contrast.",
+      "D": "'Likewise' indicates similarity, but the sentences show contrast rather than similarity."
+    },
+    "explanation": "You selected the perfect contrastive discourse marker! 'Nevertheless' gracefully acknowledges the positive initial results while introducing the contradictory finding. This kind of nuanced transitional signalling is exactly what sophisticated academic writing requires. Excellent rhetorical judgment!",
+    "explanationSteps": [
+      "Identify the relationship: the second sentence introduces a contrast to the first.",
+      "'Nevertheless' is ideal for conceding a point while introducing an opposing fact.",
+      "Place the discourse marker at the beginning of the contrasting clause with appropriate punctuation."
+    ],
+    "hints": [
+      "Does the second sentence support or contrast with the first?",
+      "Which marker is used to introduce a surprising or contradictory finding after a positive point?",
+      "Look at the relationship between the two ideas — do they add, contrast, explain, or show a result?"
+    ],
+    "tags": [
+      "discourse-markers",
+      "contrast",
+      "academic-writing",
+      "transitions"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-c1-041",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "concessive-connectors",
+    "level": "C1",
+    "questionType": "gap-filling",
+    "difficulty": 0.74,
+    "prompt": "Complete with an appropriate concessive connector: '__________ the overwhelming evidence supporting the theory, several prominent scholars remain unconvinced.'",
+    "answerKey": "Notwithstanding",
+    "explanation": "You chose a beautifully formal concessive connector! 'Notwithstanding' elevates the register significantly and is exactly the kind of sophisticated transitional language expected in high-level academic writing. Your vocabulary range is truly impressive!",
+    "explanationSteps": [
+      "The sentence requires a concessive meaning: despite the evidence, scholars remain unconvinced.",
+      "'Notwithstanding' is a formal preposition/conjunction that introduces a conceding point.",
+      "It is typically followed directly by a noun phrase, as seen here with 'the overwhelming evidence'."
+    ],
+    "hints": [
+      "You need a formal word meaning 'in spite of' or 'despite'.",
+      "This word can function as a preposition directly before a noun phrase.",
+      "Look at the relationship between the two ideas — do they add, contrast, explain, or show a result?"
+    ],
+    "tags": [
+      "concessive-connectors",
+      "formal-register",
+      "academic-writing",
+      "vocabulary"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-042",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "result-connectors",
+    "level": "C1",
+    "questionType": "transformation",
+    "difficulty": 0.76,
+    "prompt": "Rewrite using a formal result connector beginning with 'Such...': 'The lecture was so tedious that half the audience left before the intermission.'",
+    "answerKey": "Such was the tedium of the lecture that half the audience left before the intermission. (Or: Such was the tediousness of the lecture that half the audience left before the intermission.)",
+    "explanation": "Your transformation using 'Such was... that' is absolutely superb! This inverted result structure is a hallmark of sophisticated formal prose, creating emphasis and elegance that 'so... that' simply cannot match. This is C1-level stylistic mastery at its finest!",
+    "explanationSteps": [
+      "Convert the adjective 'tedious' into an abstract noun ('tedium' or 'tediousness').",
+      "Use the pattern: 'Such + was/were + noun phrase + that + result clause'.",
+      "Maintain the original result clause unchanged after 'that'."
+    ],
+    "hints": [
+      "The pattern is: 'Such + be verb + noun form + that'.",
+      "You'll need to change the adjective 'tedious' into a noun like 'tedium'.",
+      "Look at the relationship between the two ideas — do they add, contrast, explain, or show a result?"
+    ],
+    "tags": [
+      "result-connectors",
+      "inversion",
+      "formal-register",
+      "advanced"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-c1-043",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "discourse-markers",
+    "level": "C1",
+    "questionType": "error-correction",
+    "difficulty": 0.72,
+    "prompt": "Correct the connector error in this formal essay: 'The policy was widely criticised. Moreover, it was never actually implemented, rendering the debate largely academic.'",
+    "answerKey": "The policy was widely criticised. However, it was never actually implemented, rendering the debate largely academic. (Or: In fact, it was never actually implemented...)",
+    "explanation": "You identified the logical mismatch perfectly! 'Moreover' adds supporting information, but the second sentence actually provides a surprising or contrasting fact. 'However' or 'In fact' correctly signal this unexpected development. Your logical coherence skills are excellent!",
+    "explanationSteps": [
+      "Analyse the logical relationship: the second sentence doesn't add support but offers a surprising fact.",
+      "'Moreover' is additive, while the context requires a contrastive or clarifying marker.",
+      "Replace with 'However' for contrast, or 'In fact' for emphasis on the surprising reality."
+    ],
+    "hints": [
+      "Does the second sentence add more criticism, or does it introduce a different angle?",
+      "If a policy was criticised but never implemented, is that additional criticism or a surprising fact?",
+      "Look at the relationship between the two ideas — do they add, contrast, explain, or show a result?"
+    ],
+    "tags": [
+      "discourse-markers",
+      "logical-coherence",
+      "error-correction",
+      "essay-writing"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-044",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "concessive-connectors",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.78,
+    "prompt": "Select the sentence that uses a concessive connector most appropriately in a professional context: ________",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The project was completed on time. Notwithstanding, the budget was exceeded significantly."
+      },
+      {
+        "key": "B",
+        "text": "Notwithstanding the tight deadline, the project was delivered successfully."
+      },
+      {
+        "key": "C",
+        "text": "The project was completed on time, notwithstanding the budget was exceeded significantly."
+      },
+      {
+        "key": "D",
+        "text": "Notwithstanding the project was completed on time, the budget was exceeded significantly."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Notwithstanding' at the beginning of a new sentence with a comma is awkward and non-standard usage.",
+      "C": "'Notwithstanding' before a clause usually requires a noun phrase immediately following it, or it should be used as a conjunction with different punctuation.",
+      "D": "When used clause-initially, 'notwithstanding' typically requires a noun phrase, not a full clause immediately after it."
+    },
+    "explanation": "You chose the most grammatically elegant and professionally appropriate option! 'Notwithstanding the tight deadline' places the concessive preposition directly before the noun phrase, creating a polished, formal opening. This is exactly how senior professionals and academics structure their arguments. Excellent register control!",
+    "explanationSteps": [
+      "'Notwithstanding' works most smoothly as a preposition before a noun phrase.",
+      "Place the concession before the main clause to create a formal, balanced sentence.",
+      "Ensure the main clause provides the contrasting positive outcome."
+    ],
+    "hints": [
+      "'Notwithstanding' is most commonly followed immediately by a noun phrase, not a clause.",
+      "Look for the option where 'notwithstanding' comes right before a noun phrase like 'the tight deadline'.",
+      "Look at the relationship between the two ideas — do they add, contrast, explain, or show a result?"
+    ],
+    "tags": [
+      "concessive-connectors",
+      "professional",
+      "formal-register",
+      "prepositional-connectors"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-c1-045",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "result-connectors",
+    "level": "C1",
+    "questionType": "cloze",
+    "difficulty": 0.75,
+    "prompt": "Complete this academic abstract with appropriate connectors: 'The findings challenge conventional assumptions __________ previous research has largely endorsed. __________, they suggest a need for substantial revision of current theoretical frameworks.'",
+    "answerKey": [
+      "which",
+      "Consequently"
+    ],
+    "explanation": "You selected connectors that create perfect logical flow! 'Which' introduces a relative clause linking back to the assumptions, and 'Consequently' signals the logical result with academic precision. This is exactly the kind of tight argumentative structure that top-tier scholarly writing demands. Excellent work!",
+    "explanationSteps": [
+      "'Which' functions as a relative pronoun connecting the second clause to 'assumptions'.",
+      "'Consequently' is a formal result marker showing that the second sentence follows logically from the first.",
+      "Together they create a chain: challenge → what was endorsed → therefore, need for revision."
+    ],
+    "hints": [
+      "The first blank needs a word that connects the endorsement to the assumptions mentioned.",
+      "The second blank needs a formal word showing that the second sentence is a result of the first.",
+      "Look at the relationship between the two ideas — do they add, contrast, explain, or show a result?"
+    ],
+    "tags": [
+      "result-connectors",
+      "relative-clauses",
+      "academic-abstract",
+      "cohesion"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-c1-046",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "dependent-prepositions",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.72,
+    "prompt": "Choose the correct preposition: 'The committee's decision was predicated __________ the assumption that funding would be renewed annually.'",
+    "choices": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "in"
+      },
+      {
+        "key": "C",
+        "text": "with"
+      },
+      {
+        "key": "D",
+        "text": "by"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "'Predicated in' is not a standard collocation in English; the fixed preposition is 'on'.",
+      "C": "'Predicated with' does not exist as an accepted collocation in formal English.",
+      "D": "'Predicated by' suggests agency, but 'predicated' takes 'on' to show the basis of something."
+    },
+    "explanation": "You identified the correct dependent preposition with confidence! 'Predicated on' is a fixed collocation in formal academic and professional English, showing the logical basis for a decision. Your knowledge of advanced lexical patterns is excellent!",
+    "explanationSteps": [
+      "'Predicated' is an adjective derived from the verb 'predicate,' which requires the preposition 'on'.",
+      "It means 'based on' or 'founded on' a particular assumption or condition.",
+      "Dependent prepositions like this must be learned as fixed collocations."
+    ],
+    "hints": [
+      "Which preposition typically follows 'predicated' in formal contexts?",
+      "Think of the synonymous phrase 'based on'—'predicated' takes the same preposition.",
+      "Think about the physical picture — where is the object in relation to the other one?"
+    ],
+    "tags": [
+      "dependent-prepositions",
+      "collocations",
+      "academic",
+      "fixed-expressions"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-c1-047",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "phrasal-prepositions",
+    "level": "C1",
+    "questionType": "gap-filling",
+    "difficulty": 0.76,
+    "prompt": "Complete with the correct phrasal preposition: '__________ the complexity of the issue, the negotiators managed to reach a consensus remarkably quickly.'",
+    "answerKey": "In view of",
+    "explanation": "You chose a phrasal preposition that conveys exactly the right nuanced meaning! 'In view of' elegantly signals that the consensus was achieved while taking the complexity into account. This is precisely the kind of sophisticated prepositional phrase that distinguishes advanced professional writing. Wonderful choice!",
+    "explanationSteps": [
+      "The context requires a meaning similar to 'considering' or 'given'.",
+      "'In view of' is a formal phrasal preposition introducing a fact that contextualises the main clause.",
+      "It is typically placed at the beginning of the sentence, followed by a noun phrase."
+    ],
+    "hints": [
+      "You need a phrase meaning 'considering' or 'given' that is appropriate for formal contexts.",
+      "This three-word phrase starts with 'In' and is commonly used in professional reports.",
+      "Think about the physical picture — where is the object in relation to the other one?"
+    ],
+    "tags": [
+      "phrasal-prepositions",
+      "formal-register",
+      "professional",
+      "contextualising"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-048",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "dependent-prepositions",
+    "level": "C1",
+    "questionType": "transformation",
+    "difficulty": 0.74,
+    "prompt": "Rewrite using the correct dependent preposition with 'insist': 'The reviewer demanded that the authors should provide more empirical evidence.' (Use: insist)",
+    "answerKey": "The reviewer insisted on more empirical evidence being provided by the authors. (Or: The reviewer insisted that the authors provide more empirical evidence.)",
+    "explanation": "You transformed the sentence using 'insisted on' with real accuracy! Whether you used the noun phrase structure with the gerund or the standard 'insist that' clause, you captured the formal authority of the reviewer's demand. Your flexibility with dependent prepositions is excellent!",
+    "explanationSteps": [
+      "'Insist' can take 'on' followed by a noun or gerund phrase.",
+      "Alternatively, 'insist' can be followed by 'that' + subjunctive clause without 'should'.",
+      "Both structures maintain the formal, authoritative tone of the original sentence."
+    ],
+    "hints": [
+      "When followed by a noun phrase, 'insist' takes which preposition?",
+      "If using a clause, 'insist' is typically followed directly by 'that'.",
+      "Think about the physical picture — where is the object in relation to the other one?"
+    ],
+    "tags": [
+      "dependent-prepositions",
+      "insist",
+      "academic",
+      "transformation"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-049",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "complex-prepositions",
+    "level": "C1",
+    "questionType": "error-correction",
+    "difficulty": 0.78,
+    "prompt": "Correct the prepositional errors in this sentence: 'The study is based off preliminary data, and its conclusions are at odds to the established consensus.'",
+    "answerKey": "The study is based on preliminary data, and its conclusions are at odds with the established consensus.",
+    "explanation": "You corrected both prepositional errors with expert precision! 'Based on' is the standard form in formal English (not 'based off'), and 'at odds with' is the fixed collocation (not 'at odds to'). Your knowledge of these subtle but important distinctions is truly impressive!",
+    "explanationSteps": [
+      "'Based on' is the established formal preposition; 'based off' is informal and generally avoided in academic writing.",
+      "'At odds with' is the fixed collocation meaning 'in conflict with'.",
+      "Both corrections elevate the sentence to appropriate academic register."
+    ],
+    "hints": [
+      "Which preposition does 'based' take in formal academic English?",
+      "When two things conflict, we say they are 'at odds ___' which preposition?",
+      "Think about the physical picture — where is the object in relation to the other one?"
+    ],
+    "tags": [
+      "dependent-prepositions",
+      "collocations",
+      "error-correction",
+      "academic"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-050",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "phrasal-prepositions",
+    "level": "C1",
+    "questionType": "open",
+    "difficulty": 0.75,
+    "prompt": "Create a sentence using the phrasal preposition 'by virtue of' in a professional or academic context about achieving a qualification or position.",
+    "answerKey": "By virtue of her extensive publications in peer-reviewed journals, she was promoted to full professor. (Or any acceptable sentence using 'by virtue of' to indicate the reason or qualification for an achievement.)",
+    "explanation": "Your sentence demonstrates 'by virtue of' with beautiful contextual appropriateness! This phrasal preposition indicates that someone achieved something through a particular quality or qualification, which is exactly how it's used in professional and academic discourse. You've rounded off this C1 set with real style!",
+    "explanationSteps": [
+      "'By virtue of' means 'because of' or 'by means of' a particular quality, skill, or circumstance.",
+      "It is typically used in formal contexts to explain the basis for an achievement or status.",
+      "Place the prepositional phrase at the beginning or middle of the sentence for emphasis."
+    ],
+    "hints": [
+      "Think about what quality or achievement might explain someone's promotion or success.",
+      "'By virtue of' is more formal than 'because of'—use it in a professional achievement context.",
+      "Think about the physical picture — where is the object in relation to the other one?"
+    ],
+    "tags": [
+      "phrasal-prepositions",
+      "formal-register",
+      "professional",
+      "sentence-construction"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-c1-051",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "future-in-the-past",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.62,
+    "prompt": "In a reflective essay about career planning: 'By the time I turned sixteen, I __________ that I would study medicine at university.' Which option best completes the sentence?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "had already decided"
+      },
+      {
+        "key": "B",
+        "text": "have already decided"
+      },
+      {
+        "key": "C",
+        "text": "already decided"
+      },
+      {
+        "key": "D",
+        "text": "was already deciding"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Present perfect doesn't align with the past reference point established by 'turned sixteen' in this reflective context.",
+      "C": "Simple past doesn't convey that the decision preceded and was completed before turning sixteen.",
+      "D": "Past continuous doesn't capture the completed decision before a specific past moment."
+    },
+    "explanation": "You identified the perfect past perfect construction! 'Had already decided' shows a completed action before another past event, which is exactly how reflective writing establishes personal timelines. Excellent analytical thinking!",
+    "explanationSteps": [
+      "Identify the time anchor: 'turned sixteen' is a specific past moment.",
+      "Determine the relationship: the decision happened BEFORE this moment and was completed.",
+      "Select past perfect to show a completed action before another past event."
+    ],
+    "hints": [
+      "Which tense shows an action completed before another specific past moment?",
+      "Think about whether the decision was finished before or at the same time as turning sixteen.",
+      "The phrase 'by the time' often signals the need for a perfect tense before a past anchor."
+    ],
+    "tags": [
+      "past-perfect",
+      "future-in-the-past",
+      "reflective-writing",
+      "time-relationships"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-052",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "perfect-aspect",
+    "level": "C1",
+    "questionType": "gap-filling",
+    "difficulty": 0.65,
+    "prompt": "Complete this sentence from a university personal statement: 'By the end of my placement, I __________ (gain) sufficient clinical experience to apply for the scholarship.'",
+    "answerKey": "will have gained",
+    "explanation": "You used the future perfect with excellent precision! 'Will have gained' captures an achievement completed before a specific future deadline, which is exactly the forward-looking tone personal statements require. Well done!",
+    "explanationSteps": [
+      "'By the end of my placement' sets a specific future deadline.",
+      "The gaining of experience will be completed before this future point.",
+      "Use future perfect 'will have + past participle' for completion before a future time."
+    ],
+    "hints": [
+      "Which tense looks forward from now to a future point and describes completion by then?",
+      "The structure needs 'will have' followed by the past participle of 'gain'.",
+      "Consider whether the experience is ongoing or will be finished by the placement's end."
+    ],
+    "tags": [
+      "future-perfect",
+      "personal-statement",
+      "completion",
+      "prospective"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-053",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "continuous-aspect",
+    "level": "C1",
+    "questionType": "transformation",
+    "difficulty": 0.7,
+    "prompt": "Rewrite this sentence using the past perfect continuous: 'The orchestra performed for three hours when the fire alarm rang.'",
+    "answerKey": "The orchestra had been performing for three hours when the fire alarm rang.",
+    "explanation": "What an elegant transformation! The past perfect continuous beautifully conveys the ongoing duration of the performance before the alarm interrupted it. You captured the narrative flow perfectly!",
+    "explanationSteps": [
+      "Identify the structure: had + been + present participle (-ing form).",
+      "Keep the duration phrase 'for three hours' which pairs naturally with continuous aspects.",
+      "Use 'when the fire alarm rang' as the interrupting past event."
+    ],
+    "hints": [
+      "The structure requires 'had been' followed by the -ing form of the verb.",
+      "Make sure to keep the duration phrase 'for three hours' to show ongoing action.",
+      "Ask yourself: was the performance ongoing when it was interrupted by the alarm?"
+    ],
+    "tags": [
+      "past-perfect-continuous",
+      "transformation",
+      "duration",
+      "narrative"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-054",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "tense-shift",
+    "level": "C1",
+    "questionType": "error-correction",
+    "difficulty": 0.75,
+    "prompt": "Correct the tense inconsistency in this academic paragraph: 'Historians argue that the Industrial Revolution transforms British society, and its effects are still visible today. However, critics pointed out that it also creates severe environmental damage.'",
+    "answerKey": "Historians argue that the Industrial Revolution transformed British society, and its effects are still visible today. However, critics point out that it also created severe environmental damage.",
+    "explanation": "You corrected the tense shifts with brilliant precision! Historical events take the past tense, while present-day observations and ongoing arguments stay in the present. Your understanding of academic tense conventions is excellent!",
+    "explanationSteps": [
+      "The Industrial Revolution is a completed historical event, so use simple past 'transformed'.",
+      "Current effects use present simple 'are still visible'.",
+      "Critics' ongoing arguments use present simple 'point out', while the completed damage uses past 'created'."
+    ],
+    "hints": [
+      "Are historians discussing a completed historical event or a current process?",
+      "Do critics currently make this argument, or is it only a past observation?",
+      "Check each clause: is it describing a past fact, a present argument, or an ongoing effect?"
+    ],
+    "tags": [
+      "tense-shift",
+      "academic-writing",
+      "historical-present",
+      "consistency"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c1-055",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "narrative-tenses",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.68,
+    "prompt": "In a film review: 'The director __________ the final scene in slow motion so that the audience __________ the significance of the gesture.' Which option is correct?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "films / had appreciated"
+      },
+      {
+        "key": "B",
+        "text": "filmed / would appreciate"
+      },
+      {
+        "key": "C",
+        "text": "films / would appreciate"
+      },
+      {
+        "key": "D",
+        "text": "was filming / appreciated"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Past perfect doesn't fit the timeless analytical context of a film review.",
+      "B": "Past tense in the first clause treats the director's choice as historical rather than an artistic constant.",
+      "D": "Past continuous suggests a background action rather than the director's deliberate stylistic choice."
+    },
+    "explanation": "You grasped the literary present perfectly! In film and literary analysis, the director 'films' (timeless artistic choice) while 'would appreciate' captures the intended audience reaction within the narrative logic. Superb analytical thinking!",
+    "explanationSteps": [
+      "Film reviews use present tense for directorial choices as timeless artistic facts.",
+      "'So that' introduces purpose; 'would appreciate' expresses the intended hypothetical result.",
+      "The combination creates a sophisticated analytical observation about directorial intention."
+    ],
+    "hints": [
+      "Does film analysis treat directorial decisions as past events or ongoing artistic facts?",
+      "What modal helps express the intended purpose or hypothetical result for the audience?",
+      "Think about whether the appreciation is a guaranteed fact or an intended effect."
+    ],
+    "tags": [
+      "literary-present",
+      "narrative-tenses",
+      "film-review",
+      "purpose-clauses"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-c1-056",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "perfect-aspect",
+    "level": "C1",
+    "questionType": "cloze",
+    "difficulty": 0.72,
+    "prompt": "Complete this internship report with correct tenses: 'By the time the supervisor __________ (arrive), the team __________ (complete) the preliminary analysis and __________ (begin) drafting the recommendations.'",
+    "answerKey": [
+      "arrived",
+      "had completed",
+      "had begun"
+    ],
+    "explanation": "You wove together complex narrative tenses with real sophistication! Simple past for the arrival, past perfect for the completed analysis, and past perfect for the begun drafting—all before the supervisor's arrival. Outstanding formal report writing!",
+    "explanationSteps": [
+      "'Arrived' uses simple past for the specific completed moment.",
+      "'Had completed' uses past perfect for an action finished before the arrival.",
+      "'Had begun' uses past perfect for another action started before the arrival."
+    ],
+    "hints": [
+      "The supervisor's arrival is a specific past event—what tense marks a completed past moment?",
+      "Were the analysis and drafting finished before or after the supervisor arrived?",
+      "When two actions happen before a third past event, what tense do they typically take?"
+    ],
+    "tags": [
+      "past-perfect",
+      "simple-past",
+      "report-writing",
+      "sequence-of-tenses"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c1-057",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "tense-shift",
+    "level": "C1",
+    "questionType": "open",
+    "difficulty": 0.78,
+    "prompt": "Explain why the present continuous might be preferred over the simple present in this scientific context: 'Researchers currently __________ (investigate) the link between sleep deprivation and cognitive decline.' Provide your rewritten sentence and a brief justification.",
+    "answerKey": "Researchers are currently investigating the link between sleep deprivation and cognitive decline. (The present continuous is preferred because 'currently' signals an ongoing, temporary research focus that is active at the moment of writing but may not be permanent, emphasising the dynamic nature of scientific inquiry.)",
+    "explanation": "Your answer demonstrates excellent awareness of how the present continuous frames ongoing research! It signals active, current investigation without claiming permanence, which is exactly how scientists describe work-in-progress. Brilliant academic register awareness!",
+    "explanationSteps": [
+      "Identify the clue word 'currently' which signals a temporary ongoing action.",
+      "The present continuous emphasises that the research is active and evolving right now.",
+      "Simple present would suggest a permanent, settled fact, which is inappropriate for ongoing studies."
+    ],
+    "hints": [
+      "What does 'currently' tell you about the timeframe of the research?",
+      "Does the present continuous or simple present better suggest an ongoing, unfinished project?",
+      "Consider how scientists want to present their work: as a finished fact or an active inquiry?"
+    ],
+    "tags": [
+      "present-continuous",
+      "scientific-writing",
+      "temporary-actions",
+      "register"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c1-058",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "mixed-conditionals",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.65,
+    "prompt": "Choose the correct completion: 'If I __________ more confident at the interview last month, I __________ in this department now.'",
+    "choices": [
+      {
+        "key": "A",
+        "text": "were / would work"
+      },
+      {
+        "key": "B",
+        "text": "had been / would be working"
+      },
+      {
+        "key": "C",
+        "text": "had been / would work"
+      },
+      {
+        "key": "D",
+        "text": "was / would have worked"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Second conditional in the if-clause doesn't match the past time reference 'last month'.",
+      "B": "While grammatically possible, 'would be working' is less concise; 'would work' is the standard mixed form here.",
+      "D": "'Was' is non-standard in formal conditionals, and 'would have worked' is a third conditional result mismatched with 'now'."
+    },
+    "explanation": "You mastered the mixed conditional with precision! Past perfect 'had been' for the counterfactual interview, and 'would work' for the present result—exactly how advanced speakers connect past regrets to present consequences. Excellent logical grammar!",
+    "explanationSteps": [
+      "Identify the time references: 'last month' (past) and 'now' (present).",
+      "For a counterfactual past condition, use past perfect in the if-clause.",
+      "For a present unreal result, use 'would + base verb' in the main clause."
+    ],
+    "hints": [
+      "Notice that the condition is about the past interview, but the result concerns the present situation.",
+      "For a past condition that didn't happen, what form follows 'if'?",
+      "The result is about where you work now, not where you worked in the past."
+    ],
+    "tags": [
+      "mixed-conditionals",
+      "third-second-mix",
+      "professional",
+      "counterfactual"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-059",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "inverted-conditionals",
+    "level": "C1",
+    "questionType": "transformation",
+    "difficulty": 0.8,
+    "prompt": "Rewrite using inverted conditional structure (without 'if'): 'If the university were to offer a scholarship, I would apply immediately.'",
+    "answerKey": "Were the university to offer a scholarship, I would apply immediately.",
+    "explanation": "Absolutely superb! 'Were the university to offer' is the most sophisticated inverted conditional, using 'were + subject + to-infinitive' for a hypothetical future. This level of formal structure distinguishes C1 academic writing. Brilliant transformation!",
+    "explanationSteps": [
+      "Remove 'if' from the conditional clause.",
+      "Invert using 'Were + subject + to + infinitive' for formal hypothetical futures.",
+      "Keep the main clause 'I would apply immediately' unchanged."
+    ],
+    "hints": [
+      "For this formal future hypothetical, the pattern is 'Were + subject + to + verb'.",
+      "Remember to completely drop 'if' when using inversion.",
+      "The auxiliary 'were' moves to the very beginning of the clause."
+    ],
+    "tags": [
+      "inverted-conditionals",
+      "formal-register",
+      "academic-writing",
+      "transformation"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-060",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "implied-conditionals",
+    "level": "C1",
+    "questionType": "gap-filling",
+    "difficulty": 0.75,
+    "prompt": "Complete with an appropriate modal perfect: 'I __________ (never forgive) myself if I had missed your performance—it was extraordinary.'",
+    "answerKey": "would never have forgiven",
+    "explanation": "You captured the implied conditional with beautiful emotional nuance! 'Would never have forgiven' expresses a strong hypothetical reaction to a past counterfactual. This is exactly how advanced speakers convey deep feeling through grammar. Wonderful!",
+    "explanationSteps": [
+      "The if-clause 'if I had missed' establishes a third conditional framework.",
+      "Use 'would have + past participle' for the hypothetical past result.",
+      "'Never' intensifies the emotional weight of the counterfactual regret."
+    ],
+    "hints": [
+      "The if-clause uses past perfect, signalling a third conditional pattern.",
+      "Which modal + have + past participle expresses a hypothetical outcome in the past?",
+      "Think about the emotional intensity: 'never' strengthens the regret."
+    ],
+    "tags": [
+      "implied-conditionals",
+      "modal-perfect",
+      "emotional-nuance",
+      "third-conditional"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-061",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "mixed-conditionals",
+    "level": "C1",
+    "questionType": "error-correction",
+    "difficulty": 0.72,
+    "prompt": "Correct the conditional error: 'If the train wouldn't have been delayed, I would be at the conference now.'",
+    "answerKey": "If the train hadn't been delayed, I would be at the conference now.",
+    "explanation": "You identified a classic advanced error! 'Wouldn't have been' in the if-clause is non-standard; past perfect 'hadn't been' is required. You maintained the mixed conditional perfectly, linking past counterfactual to present result. Excellent grammatical awareness!",
+    "explanationSteps": [
+      "'Wouldn't have been' in an if-clause is generally non-standard in formal English.",
+      "Replace with past perfect 'hadn't been delayed' for the counterfactual past condition.",
+      "Keep the present conditional result 'would be' as it correctly refers to 'now'."
+    ],
+    "hints": [
+      "In standard formal conditionals, 'would' rarely appears in the if-clause itself.",
+      "Notice the time markers: the delay is in the past, but the result is about the present.",
+      "What is the correct past perfect passive form of 'be delayed'?"
+    ],
+    "tags": [
+      "mixed-conditionals",
+      "common-errors",
+      "formal-english",
+      "transport"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-062",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "inverted-conditionals",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.82,
+    "prompt": "Select the sentence that correctly uses an inverted third conditional: ________",
+    "choices": [
+      {
+        "key": "D",
+        "text": "Had I known about the deadline, I would have submitted earlier."
+      },
+      {
+        "key": "B",
+        "text": "If had I known about the deadline, I would have submitted earlier."
+      },
+      {
+        "key": "C",
+        "text": "Had I known about the deadline, I would submit earlier."
+      },
+      {
+        "key": "A",
+        "text": "I had known about the deadline, I would have submitted earlier."
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "This incorrectly combines 'if' with inversion; you must remove 'if' when inverting.",
+      "C": "The main clause uses 'would submit' (second conditional), which doesn't match the third conditional if-clause.",
+      "A": "Without inversion at the beginning, this is a run-on sentence lacking proper conditional structure."
+    },
+    "explanation": "You chose the grammatically precise inverted third conditional! 'Had I known' removes 'if' and raises the auxiliary with elegant formality. This is exactly the sophisticated structure that elevates academic and professional prose. Excellent!",
+    "explanationSteps": [
+      "Third conditional inversions use 'Had' + subject for hypothetical past situations.",
+      "Remove 'if' completely when using inversion.",
+      "Ensure the main clause matches with 'would have + past participle' for third conditional results."
+    ],
+    "hints": [
+      "In third conditional inversions, which auxiliary verb moves to the beginning?",
+      "Remember that inversion replaces 'if'—you cannot use both.",
+      "Does the main clause refer to a past hypothetical result or a present one?"
+    ],
+    "tags": [
+      "inverted-conditionals",
+      "third-conditional",
+      "formal-register",
+      "academic-writing"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-063",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "implied-conditionals",
+    "level": "C1",
+    "questionType": "cloze",
+    "difficulty": 0.77,
+    "prompt": "Complete this formal letter: '__________ it not been for your generous support, our research project __________ (fail) to meet its objectives.'",
+    "answerKey": [
+      "Had",
+      "would have failed"
+    ],
+    "explanation": "You recognised the elegant inverted conditional! 'Had it not been for' is the classic formal expression implying a counterfactual past. Combined with 'would have failed', it creates a beautifully polite and grammatically sophisticated acknowledgment. Wonderful!",
+    "explanationSteps": [
+      "Recognise the fixed formal expression 'Had it not been for' implying a counterfactual past situation.",
+      "Use 'had' (past perfect auxiliary) in this inverted structure.",
+      "Complete with 'would have failed' for the past unreal result in the main clause."
+    ],
+    "hints": [
+      "This is an inverted conditional that starts with the auxiliary verb at the beginning.",
+      "The phrase 'Had it not been for' is a common formal expression for past counterfactuals.",
+      "What modal perfect structure completes a third conditional result?"
+    ],
+    "tags": [
+      "implied-conditionals",
+      "inversion",
+      "formal-letters",
+      "academic-writing"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-c1-064",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "third-conditional",
+    "level": "C1",
+    "questionType": "open",
+    "difficulty": 0.7,
+    "prompt": "Create a sentence using a third conditional that expresses regret about a missed opportunity in a school context. Include a reason why the opportunity was missed.",
+    "answerKey": "If I had entered the science fair, I would have won first prize, but I was too nervous to participate. (Or any acceptable variation with past perfect in the if-clause and would have + past participle in the main clause.)",
+    "explanation": "Your sentence powerfully captures the regret structure of the third conditional! You connected a missed past action to its hypothetical result with clear logic and authentic school context. That's exactly how advanced speakers reflect on past choices.",
+    "explanationSteps": [
+      "Construct the if-clause with past perfect to describe the unreal past action.",
+      "Create the main clause with 'would have + past participle' for the hypothetical past result.",
+      "Add a genuine reason to ground the counterfactual in realistic experience."
+    ],
+    "hints": [
+      "Start with 'If + subject + had + past participle' for the past condition that didn't happen.",
+      "Use 'would have + past participle' for the imagined result in the past.",
+      "Think about a real school opportunity you or someone might have missed and why."
+    ],
+    "tags": [
+      "third-conditional",
+      "sentence-construction",
+      "regret",
+      "school-context"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-c1-065",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "inverted-conditionals",
+    "level": "C1",
+    "questionType": "transformation",
+    "difficulty": 0.85,
+    "prompt": "Rewrite using an inverted structure without changing the meaning: 'If they had listened to the safety briefing, the accident would never have happened.'",
+    "answerKey": "Had they listened to the safety briefing, the accident would never have happened.",
+    "explanation": "What an elegant transformation! 'Had they listened' removes 'if' and raises the auxiliary to create a more formal, sophisticated register. This inverted structure is highly valued in professional incident reports and academic analysis. Perfect!",
+    "explanationSteps": [
+      "Remove 'if' from the conditional clause.",
+      "Invert the subject and auxiliary verb: 'Had they listened' instead of 'If they had listened'.",
+      "Keep the main clause exactly as it was in the original sentence."
+    ],
+    "hints": [
+      "In third conditionals, the auxiliary is 'had'—move it to the beginning of the clause.",
+      "The subject follows immediately after the inverted auxiliary verb.",
+      "Ensure no 'if' remains in the rewritten conditional clause."
+    ],
+    "tags": [
+      "inverted-conditionals",
+      "formal-register",
+      "safety",
+      "transformation"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-066",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "complex-passive",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.68,
+    "prompt": "Choose the most appropriate passive construction for this academic context: 'The new evidence __________ to challenge the existing theory significantly.'",
+    "choices": [
+      {
+        "key": "D",
+        "text": "is considered"
+      },
+      {
+        "key": "B",
+        "text": "considers"
+      },
+      {
+        "key": "C",
+        "text": "is being considered"
+      },
+      {
+        "key": "A",
+        "text": "has been considering"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "Active voice without a subject performing the action is grammatically incomplete here.",
+      "C": "Present continuous passive implies a temporary ongoing process, but the context suggests a general academic assessment.",
+      "A": "Present perfect continuous active is grammatically inappropriate as 'evidence' cannot perform the considering."
+    },
+    "explanation": "You selected the perfect passive reporting structure! 'Is considered' is the standard present simple passive for general academic truths, depersonalising the assessment while maintaining authority. Excellent formal register awareness!",
+    "explanationSteps": [
+      "The subject 'evidence' receives the action of consideration.",
+      "Select present simple passive for a general, ongoing academic assessment.",
+      "Use 'be + past participle' to create the passive voice."
+    ],
+    "hints": [
+      "Is the evidence doing the considering, or is it being considered by researchers?",
+      "Which tense is typical for general truths and assessments in academic writing?",
+      "Does the context describe a temporary ongoing process or a settled evaluation?"
+    ],
+    "tags": [
+      "passive-voice",
+      "academic-assessment",
+      "present-simple-passive",
+      "general-truths"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-c1-067",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "causative-passive",
+    "level": "C1",
+    "questionType": "gap-filling",
+    "difficulty": 0.75,
+    "prompt": "Complete with the correct causative form: 'Before the audit, the manager __________ (get) all the financial records __________ (review) by an independent accountant.'",
+    "answerKey": [
+      "got",
+      "reviewed"
+    ],
+    "explanation": "You mastered the causative with 'get' beautifully! 'Got the records reviewed' shows that the manager arranged for someone else to do the review. While 'have' is more formal, 'get' is also acceptable and common in professional contexts. Well done!",
+    "explanationSteps": [
+      "Use the causative structure: get + object + past participle.",
+      "The subject (manager) causes the action but doesn't perform it personally.",
+      "The past participle 'reviewed' functions as the passive completion of the action."
+    ],
+    "hints": [
+      "The pattern for causative with 'get' is: subject + get/got + object + past participle.",
+      "The manager isn't reviewing the records herself—she is arranging for others to do it.",
+      "Which form of 'review' is the past participle?"
+    ],
+    "tags": [
+      "causative",
+      "get-something-done",
+      "passive-voice",
+      "professional"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-068",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "reporting-passive",
+    "level": "C1",
+    "questionType": "transformation",
+    "difficulty": 0.78,
+    "prompt": "Rewrite in the passive voice, beginning with 'It was...': 'Critics claimed that the government's policy ignored environmental concerns.'",
+    "answerKey": "It was claimed that the government's policy ignored environmental concerns. (Or: It was claimed by critics that the government's policy ignored environmental concerns.)",
+    "explanation": "Your transformation into the impersonal passive is excellent! 'It was claimed that' creates a distanced, objective tone typical of formal reporting and academic synthesis. You preserved the original clause perfectly while elevating the register. Well done!",
+    "explanationSteps": [
+      "Move the reporting verb into the impersonal passive structure: 'It was + past participle + that'.",
+      "Keep the original clause content unchanged after 'that'.",
+      "Optionally include the agent 'by critics' though it is often omitted in formal writing."
+    ],
+    "hints": [
+      "Start with 'It was' and use the past participle of the reporting verb.",
+      "The structure 'It was claimed that' keeps the original clause intact after 'that'.",
+      "Consider whether naming 'critics' is necessary in formal academic style."
+    ],
+    "tags": [
+      "impersonal-passive",
+      "reporting",
+      "formal-register",
+      "transformation"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-069",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "complex-passive",
+    "level": "C1",
+    "questionType": "error-correction",
+    "difficulty": 0.72,
+    "prompt": "Correct the passive errors in this academic sentence: 'The participants was informed about the procedure, and their consent were obtained before the experiment was began.'",
+    "answerKey": "The participants were informed about the procedure, and their consent was obtained before the experiment began.",
+    "explanation": "You caught all three errors with brilliant editorial precision! 'Participants' is plural requiring 'were,' 'consent' is singular requiring 'was,' and 'was began' is a double passive error—'began' should be simple past active. Superb grammatical awareness!",
+    "explanationSteps": [
+      "'Participants' is plural, so use 'were informed'.",
+      "'Consent' is singular, so use 'was obtained'.",
+      "'Was began' is incorrect; use simple past 'began' or correct passive 'was begun'."
+    ],
+    "hints": [
+      "Is 'participants' singular or plural?",
+      "Is 'consent' singular or plural?",
+      "Can you use 'was' + simple past 'began', or do you need the past participle?"
+    ],
+    "tags": [
+      "passive-voice",
+      "subject-verb-agreement",
+      "past-participle",
+      "academic"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-c1-070",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "stative-passive",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.7,
+    "prompt": "Select the sentence that correctly uses a stative passive to describe a state rather than an action: ________",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The door was closed by the janitor every evening."
+      },
+      {
+        "key": "B",
+        "text": "The door was closed when I arrived."
+      },
+      {
+        "key": "C",
+        "text": "The door was being closed when I arrived."
+      },
+      {
+        "key": "D",
+        "text": "The janitor closed the door every evening."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "This describes a repeated action (performed by the janitor), not a state.",
+      "C": "This describes an action in progress, not a resultant state.",
+      "D": "This is active voice describing an action, not a passive state at all."
+    },
+    "explanation": "You identified the stative passive perfectly! 'The door was closed' describes the resultant state of the door, not the action of closing it. This distinction between actional and stative passives is subtle but crucial for advanced grammar. Excellent!",
+    "explanationSteps": [
+      "Stative passives describe the state resulting from an action, not the action itself.",
+      "There is no agent ('by someone') mentioned, and no continuous aspect.",
+      "The meaning is equivalent to 'The door was in a closed state'."
+    ],
+    "hints": [
+      "Does the sentence describe someone performing an action, or the condition of the door?",
+      "Is there an agent mentioned with 'by'?",
+      "Stative passives describe a result state, not a process."
+    ],
+    "tags": [
+      "stative-passive",
+      "state-vs-action",
+      "advanced",
+      "passive-voice"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-071",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "complex-passive",
+    "level": "C1",
+    "questionType": "cloze",
+    "difficulty": 0.8,
+    "prompt": "Complete this formal report using appropriate passive structures: 'It __________ (report) that safety protocols __________ (violate) during the trial. Three staff members __________ (say) to __________ (dismiss) following the investigation.'",
+    "answerKey": [
+      "is reported",
+      "were violated",
+      "are said",
+      "have been dismissed"
+    ],
+    "explanation": "You navigated an impressive range of passive structures! Impersonal reporting ('is reported'), past passive ('were violated'), present reporting passive ('are said'), and present perfect passive infinitive ('have been dismissed'). This is exactly the sophistication expected in formal institutional writing. Outstanding!",
+    "explanationSteps": [
+      "'Is reported' uses the impersonal passive for formal allegations.",
+      "'Were violated' is past simple passive for completed actions.",
+      "'Are said to have been dismissed' combines present reporting passive with present perfect passive infinitive."
+    ],
+    "hints": [
+      "The first blank needs the impersonal passive: 'It is + past participle + that'.",
+      "For the third blank, think about the present reporting passive structure.",
+      "For the last blank, consider the perfect passive infinitive after 'to'."
+    ],
+    "tags": [
+      "impersonal-passive",
+      "infinitive-passive",
+      "formal-report",
+      "advanced"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c1-072",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "agentless-passive",
+    "level": "C1",
+    "questionType": "open",
+    "difficulty": 0.73,
+    "prompt": "Rewrite this active sentence using a passive construction that omits the original agent: 'Researchers have recently discovered a new species of amphibian in the wetlands.'",
+    "answerKey": "A new species of amphibian has recently been discovered in the wetlands.",
+    "explanation": "Your passive transformation is elegant and concise! By omitting the agent and fronting the discovery, you created an objective, news-style statement that focuses on the finding rather than the finders. This is exactly how scientific announcements are written. Excellent!",
+    "explanationSteps": [
+      "Move the object 'a new species of amphibian' to the subject position.",
+      "Use present perfect passive 'has recently been discovered' to maintain the recent relevance.",
+      "Omit 'by researchers' to create an agentless, objective statement."
+    ],
+    "hints": [
+      "What is the object of the active sentence that should become the new subject?",
+      "Which passive form of 'discover' matches the present perfect timeframe?",
+      "Consider whether naming the researchers is necessary in a formal scientific announcement."
+    ],
+    "tags": [
+      "agentless-passive",
+      "scientific-writing",
+      "present-perfect-passive",
+      "objectivity"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-c1-073",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "deduction",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.7,
+    "prompt": "Which sentence correctly uses a modal to express a strong past deduction about a negative situation?",
+    "choices": [
+      {
+        "key": "D",
+        "text": "She can't have passed—the exam was far too difficult for her level."
+      },
+      {
+        "key": "B",
+        "text": "She couldn't pass—the exam was far too difficult for her level."
+      },
+      {
+        "key": "C",
+        "text": "She mustn't have passed—the exam was far too difficult for her level."
+      },
+      {
+        "key": "A",
+        "text": "She shouldn't have passed—the exam was far too difficult for her level."
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "'Couldn't pass' expresses inability, not a logical deduction about a past event.",
+      "C": "'Mustn't have' is not a standard English construction for negative deduction.",
+      "A": "'Shouldn't have passed' expresses an unfulfilled obligation or surprise, not a logical conclusion."
+    },
+    "explanation": "You selected the precise negative past modal of deduction! 'Can't have passed' expresses strong logical certainty that something did not happen in the past. This subtle distinction shows real mastery of modal logic. Outstanding analytical grammar!",
+    "explanationSteps": [
+      "The context requires a negative deduction: concluding something did not happen.",
+      "'Can't have + past participle' expresses strong negative deduction about the past.",
+      "The evidence ('far too difficult') supports this strong logical conclusion."
+    ],
+    "hints": [
+      "For strong negative deductions about the past, we use 'can't have' + past participle.",
+      "'Mustn't' is used for prohibition, not for negative logical deduction.",
+      "Does the speaker know for certain she didn't pass, or are they commenting on her ability?"
+    ],
+    "tags": [
+      "negative-deduction",
+      "past-modals",
+      "logical-certainty",
+      "exams"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-074",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "past-modals",
+    "level": "C1",
+    "questionType": "gap-filling",
+    "difficulty": 0.76,
+    "prompt": "Complete with an appropriate past modal of deduction: 'The missing document __________ (leave) in the library, as that was the last place anyone remembers seeing it.'",
+    "answerKey": "must have been left",
+    "explanation": "You constructed the past passive modal of deduction with precision! 'Must have been left' expresses strong logical certainty about a past event based on present evidence. This is exactly how investigators and scholars draw reasoned conclusions. Excellent logical grammar!",
+    "explanationSteps": [
+      "The evidence ('last place anyone remembers seeing it') supports a strong logical conclusion.",
+      "For strong past deduction, use 'must have + past participle'.",
+      "Since the document receives the action, use the passive form 'been left'."
+    ],
+    "hints": [
+      "When evidence strongly points to a past conclusion, which modal do we use?",
+      "Remember that the document doesn't leave itself—this requires the passive voice.",
+      "The structure is: modal + have + been + past participle."
+    ],
+    "tags": [
+      "past-modals",
+      "deduction",
+      "passive-modal",
+      "academic"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-075",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "nuanced-obligation",
+    "level": "C1",
+    "questionType": "transformation",
+    "difficulty": 0.72,
+    "prompt": "Rewrite using a past modal: 'It was a mistake for him to resign so abruptly.'",
+    "answerKey": "He shouldn't have resigned so abruptly.",
+    "explanation": "You used 'shouldn't have resigned' with real sophistication! This expresses that someone did something in the past, but it was unwise. It's a beautifully precise modal that conveys criticism gently but clearly. Well done on capturing this nuance!",
+    "explanationSteps": [
+      "Identify that the person resigned, but the action was a mistake.",
+      "'Shouldn't have + past participle' expresses that a past action was unwise or wrong.",
+      "This is distinct from 'didn't need to,' which can mean the action didn't happen at all."
+    ],
+    "hints": [
+      "Which modal + have + past participle means 'it happened, but it was a mistake'?",
+      "'Shouldn't have' is specifically used when someone actually did something unwise.",
+      "Think about the difference between unwise action and unnecessary action."
+    ],
+    "tags": [
+      "past-modals",
+      "shouldnt-have",
+      "regret",
+      "professional"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-076",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "deduction",
+    "level": "C1",
+    "questionType": "error-correction",
+    "difficulty": 0.78,
+    "prompt": "Correct the modal error: 'She must be at home last night—I called her landline three times and she answered.'",
+    "answerKey": "She must have been at home last night—I called her landline three times and she answered.",
+    "explanation": "You noticed the subtle time mismatch perfectly! Since the evidence is about 'last night,' the deduction must be in the past. 'Must have been' is the past modal of deduction, fitting the historical evidence precisely. Excellent temporal logic!",
+    "explanationSteps": [
+      "Notice the time marker 'last night' which indicates a past situation.",
+      "'Must be' is a present modal of deduction, which doesn't match the past evidence.",
+      "Use 'must have been' for deductions about past situations based on past evidence."
+    ],
+    "hints": [
+      "When is the speaker making the deduction—about the present or about last night?",
+      "The phrase 'last night' provides evidence about a past moment.",
+      "For past deductions based on past evidence, use 'must have + past participle'."
+    ],
+    "tags": [
+      "modals-of-deduction",
+      "past-modal",
+      "time-logic",
+      "error-correction"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-077",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "past-modals",
+    "level": "C1",
+    "questionType": "cloze",
+    "difficulty": 0.74,
+    "prompt": "Complete this reflective journal entry with appropriate past modals: 'Looking back, the experiment __________ (design) more carefully, as several variables __________ (control) more effectively. We __________ (obtain) more reliable data with better planning.'",
+    "answerKey": [
+      "should have been designed",
+      "could have been controlled",
+      "might have obtained"
+    ],
+    "explanation": "You layered three distinct past modals with beautiful precision! 'Should have been designed' for past obligation, 'could have been controlled' for past possibility, and 'might have obtained' for past hypothetical result. This nuanced self-reflection is exactly what advanced academic writing demands. Magnificent!",
+    "explanationSteps": [
+      "'Should have been designed' expresses a past obligation that was not met.",
+      "'Could have been controlled' expresses a past possibility that was available.",
+      "'Might have obtained' expresses a hypothetical past result under different conditions."
+    ],
+    "hints": [
+      "For the first blank, think about regret or advice about a past action.",
+      "For the second blank, consider whether controlling the variables was possible but not done.",
+      "For the third blank, what modal expresses a hypothetical past outcome?"
+    ],
+    "tags": [
+      "past-modals",
+      "self-reflection",
+      "academic-writing",
+      "nuance"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c1-078",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "deduction",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.8,
+    "prompt": "Which sentence correctly uses a modal to express certainty about a past event?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "He must have forgotten the meeting—his diary shows no record of it."
+      },
+      {
+        "key": "B",
+        "text": "He had to forget the meeting—his diary shows no record of it."
+      },
+      {
+        "key": "C",
+        "text": "He should have forgotten the meeting—his diary shows no record of it."
+      },
+      {
+        "key": "D",
+        "text": "He could have forgotten the meeting—his diary shows no record of it."
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "'Had to forget' expresses obligation, not a logical deduction about the past.",
+      "C": "'Should have forgotten' suggests the forgetting was advisable, which contradicts the evidence.",
+      "D": "'Could have forgotten' expresses possibility, not the strong certainty the evidence supports."
+    },
+    "explanation": "You selected the precise past modal of deduction! 'Must have forgotten' expresses strong logical certainty based on evidence. This is exactly how advanced speakers and writers draw confident conclusions about past events. Excellent modal logic!",
+    "explanationSteps": [
+      "The context requires a strong deduction: the diary evidence points to a definite conclusion.",
+      "'Must have + past participle' expresses strong positive deduction about the past.",
+      "The evidence ('no record') supports this strong logical conclusion."
+    ],
+    "hints": [
+      "For strong positive deductions about the past, we use 'must have' + past participle.",
+      "Does the evidence suggest possibility, obligation, or strong logical certainty?",
+      "Think about the difference between 'could have' (possible) and 'must have' (certain)."
+    ],
+    "tags": [
+      "positive-deduction",
+      "past-modals",
+      "logical-certainty",
+      "professional"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-079",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "defining-clauses",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.68,
+    "prompt": "Select the sentence that correctly uses a defining relative clause without commas: ________",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Students who cheat on exams face severe academic penalties."
+      },
+      {
+        "key": "B",
+        "text": "Students, who cheat on exams, face severe academic penalties."
+      },
+      {
+        "key": "C",
+        "text": "Students who cheat on exams, face severe academic penalties."
+      },
+      {
+        "key": "D",
+        "text": "Students, who cheat on exams face severe academic penalties."
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Commas make this a non-defining clause, implying ALL students cheat on exams.",
+      "C": "A comma before the main verb 'face' is grammatically incorrect and breaks the sentence.",
+      "D": "The comma after 'Students' incorrectly sets off a defining clause, and the sentence lacks a closing comma."
+    },
+    "explanation": "You chose the perfectly punctuated defining relative clause! Without commas, 'who cheat on exams' restricts the meaning to only those students who cheat, not all students. This distinction between restrictive and non-restrictive meaning is essential for precise academic writing. Excellent!",
+    "explanationSteps": [
+      "Defining relative clauses identify which noun we mean and are not set off by commas.",
+      "Without commas, 'who cheat on exams' restricts 'students' to a specific subgroup.",
+      "With commas, the clause would incorrectly imply that all students cheat."
+    ],
+    "hints": [
+      "Does the clause help you identify which students, or does it add extra information about all students?",
+      "Defining clauses don't use commas; non-defining clauses do.",
+      "If you remove the clause, does the sentence still make sense with the same meaning?"
+    ],
+    "tags": [
+      "defining-clauses",
+      "punctuation",
+      "academic-writing",
+      "restrictive"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-c1-080",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "relative-pronouns",
+    "level": "C1",
+    "questionType": "gap-filling",
+    "difficulty": 0.72,
+    "prompt": "Complete with the most appropriate relative pronoun: 'The candidate, __________ application impressed the panel most, has been invited for a second interview.'",
+    "answerKey": "whose",
+    "explanation": "You selected the precise possessive relative pronoun! 'Whose' shows the relationship between the candidate and the application, and it works perfectly for people in formal English. Your command of relative pronoun nuances is excellent!",
+    "explanationSteps": [
+      "The sentence needs to show possession: the application belongs to the candidate.",
+      "'Whose' is the possessive relative pronoun for animate nouns in formal English.",
+      "'Of whom' is theoretically possible but much less natural and more cumbersome here."
+    ],
+    "hints": [
+      "Which relative pronoun shows possession or relationship?",
+      "Even though the candidate is a person, think about which pronoun connects them to their application.",
+      "The application belongs to the candidate—what word indicates possession in relative clauses?"
+    ],
+    "tags": [
+      "relative-pronouns",
+      "whose",
+      "possessive",
+      "professional"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-c1-081",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "reduced-relatives",
+    "level": "C1",
+    "questionType": "transformation",
+    "difficulty": 0.75,
+    "prompt": "Reduce the relative clause: 'The experiments that were conducted last semester yielded surprising results.'",
+    "answerKey": "The experiments conducted last semester yielded surprising results.",
+    "explanation": "You reduced the passive relative clause with beautiful concision! Removing 'that were' creates a more streamlined, professional sentence that academic readers appreciate. Reduced relatives are a hallmark of efficient scholarly prose. Excellent stylistic judgment!",
+    "explanationSteps": [
+      "Identify the passive relative clause: 'that were conducted'.",
+      "When the relative clause is in the passive voice, omit the relative pronoun and the auxiliary verb.",
+      "Keep the past participle 'conducted' as a reduced modifier directly before the noun."
+    ],
+    "hints": [
+      "When a relative clause uses passive voice (were + past participle), you can often omit 'that were'.",
+      "The past participle can function directly as a modifier.",
+      "Does the reduced form still clearly modify 'the experiments'?"
+    ],
+    "tags": [
+      "reduced-relatives",
+      "participles",
+      "academic-style",
+      "concision"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-c1-082",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "non-defining-clauses",
+    "level": "C1",
+    "questionType": "error-correction",
+    "difficulty": 0.7,
+    "prompt": "Correct the relative clause error: 'My chemistry teacher who has a PhD from Cambridge always encourages us to question assumptions.'",
+    "answerKey": "My chemistry teacher, who has a PhD from Cambridge, always encourages us to question assumptions.",
+    "explanation": "You recognised that this relative clause is non-defining and requires commas! Since the speaker has only one chemistry teacher, the clause adds extra information rather than defining which teacher. Your understanding of restrictive vs. non-restrictive information is spot on!",
+    "explanationSteps": [
+      "Determine if the clause defines which teacher or adds extra information about the only one.",
+      "Since there is presumably only one chemistry teacher, the clause is non-defining.",
+      "Add commas before 'who' and after 'Cambridge' to set off the non-defining clause."
+    ],
+    "hints": [
+      "Does the clause help you identify which teacher, or does it describe your only chemistry teacher?",
+      "If there is only one possible noun, the clause is usually non-defining.",
+      "Non-defining clauses need commas both before and after."
+    ],
+    "tags": [
+      "non-defining-clauses",
+      "punctuation",
+      "education",
+      "restrictive"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-c1-083",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "preposition-fronting",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.78,
+    "prompt": "Choose the sentence that correctly uses preposition fronting in a formal relative clause: ________",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The conference which I applied for was cancelled."
+      },
+      {
+        "key": "B",
+        "text": "The conference for which I applied was cancelled."
+      },
+      {
+        "key": "C",
+        "text": "The conference for which I applied for was cancelled."
+      },
+      {
+        "key": "D",
+        "text": "The conference which for I applied was cancelled."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "While acceptable in informal English, it lacks the formal preposition fronting expected at C1.",
+      "C": "This incorrectly repeats the preposition 'for'—it should appear only once before 'which'.",
+      "D": "This places the preposition in the wrong position, creating an ungrammatical structure."
+    },
+    "explanation": "You chose the most formally elegant option! 'For which I applied' fronts the preposition before the relative pronoun, which is the gold standard of formal academic and professional writing. This is exactly the register awareness that distinguishes advanced English. Excellent!",
+    "explanationSteps": [
+      "Formal English often places the preposition before the relative pronoun.",
+      "Use the pattern: noun + preposition + which/whom + clause.",
+      "Ensure the preposition does not reappear at the end of the clause."
+    ],
+    "hints": [
+      "In very formal writing, where does the preposition usually go relative to 'which'?",
+      "Should 'for' appear before 'which', after 'applied', or both?",
+      "Think about the most elegant structure for an academic application letter."
+    ],
+    "tags": [
+      "preposition-fronting",
+      "formal-register",
+      "relative-clauses",
+      "advanced"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-084",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "sentence-combining",
+    "level": "C1",
+    "questionType": "open",
+    "difficulty": 0.74,
+    "prompt": "Combine these two sentences into one using a relative clause. Choose the most formal register: 'The article was published last week. I referred to it in my essay.'",
+    "answerKey": "The article to which I referred in my essay was published last week. (Or: The article which I referred to in my essay was published last week.)",
+    "explanation": "Your combined sentence flows beautifully! Using 'to which I referred' or the slightly less formal 'which I referred to' creates a sophisticated relative clause that integrates the reference smoothly. This kind of sentence combining is essential for mature academic writing. Very well constructed!",
+    "explanationSteps": [
+      "Identify the shared noun: 'the article' is mentioned in both sentences.",
+      "Use 'which' with the preposition 'to' to refer to the object of 'referred to'.",
+      "Insert the relative clause immediately after the noun it modifies."
+    ],
+    "hints": [
+      "Which relative pronoun refers to things (like an article)?",
+      "The verb 'referred' needs a preposition—which one?",
+      "For maximum formality, you can place the preposition before 'which'."
+    ],
+    "tags": [
+      "relative-clauses",
+      "sentence-combining",
+      "formal-register",
+      "academic"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-085",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "backshift",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.68,
+    "prompt": "Choose the correct reported speech transformation: 'I will finish the report tomorrow,' he promised. → He promised that __________.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "he will finish the report the next day"
+      },
+      {
+        "key": "B",
+        "text": "he would finish the report tomorrow"
+      },
+      {
+        "key": "C",
+        "text": "he would finish the report the next day"
+      },
+      {
+        "key": "D",
+        "text": "he will finish the report the next day"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "'Will finish' keeps the future tense, but standard backshift rules require moving to conditional.",
+      "B": "'Tomorrow' should shift to 'the next day' in reported speech.",
+      "D": "This fails to backshift both the tense and the time expression."
+    },
+    "explanation": "You applied the backshift rule with perfect accuracy! Moving from future 'will' to conditional 'would' and 'tomorrow' to 'the next day' preserves the temporal relationship that reported speech requires. Your understanding of indirect speech mechanics is excellent!",
+    "explanationSteps": [
+      "Identify the original tense: future ('will finish').",
+      "Apply backshift: future becomes conditional ('would finish') in reported speech.",
+      "Adjust time expressions: 'tomorrow' becomes 'the next day'."
+    ],
+    "hints": [
+      "In reported speech, 'will' typically shifts to which modal?",
+      "What happens to time expressions like 'tomorrow' in indirect speech?",
+      "Remember to change both the tense and the time reference."
+    ],
+    "tags": [
+      "reported-speech",
+      "backshift",
+      "future",
+      "conditional"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-c1-086",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "reporting-verbs",
+    "level": "C1",
+    "questionType": "gap-filling",
+    "difficulty": 0.74,
+    "prompt": "Complete with an appropriate reporting verb and structure: '__________ to complete the assignment on time,' the student apologised to her tutor. (fail)",
+    "answerKey": "Having failed to complete the assignment on time (Or: She apologised to her tutor for failing to complete the assignment on time.)",
+    "explanation": "You used the perfect participle reporting structure with real sophistication! 'Having failed' elegantly introduces a prior action that becomes the context for the apology. This is exactly the kind of complex sentence architecture found in professional and academic narratives. Well done!",
+    "explanationSteps": [
+      "The perfect participle 'Having failed' shows the action happened before the apology.",
+      "This creates a compact, formal opening that establishes the background to the main clause.",
+      "Alternatively, a standard 'apologised for failing' structure is also acceptable."
+    ],
+    "hints": [
+      "Think about how to show that the failure happened before the apology.",
+      "The perfect participle (Having + past participle) is a concise way to establish prior action.",
+      "Consider whether 'apologised for failing' might be a simpler alternative."
+    ],
+    "tags": [
+      "reporting-verbs",
+      "perfect-participle",
+      "academic",
+      "narrative"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-c1-087",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "reported-questions",
+    "level": "C1",
+    "questionType": "transformation",
+    "difficulty": 0.7,
+    "prompt": "Transform this direct question into reported speech: 'When will the examination results be published?' the students asked.",
+    "answerKey": "The students asked when the examination results would be published.",
+    "explanation": "You transformed the direct question into reported speech with perfect structure! Changing the word order to statement form, backshifting 'will' to 'would', and removing the question mark creates flawless indirect speech. Your command of reported questions is excellent!",
+    "explanationSteps": [
+      "Remove the question mark and quotation marks.",
+      "Change the word order to statement form: subject before verb.",
+      "Backshift 'will' to 'would' and remove the auxiliary from its question position."
+    ],
+    "hints": [
+      "In reported questions, does the word order stay question form or become statement form?",
+      "What happens to the auxiliary 'will' in reported speech?",
+      "Remember to remove the question mark in indirect speech."
+    ],
+    "tags": [
+      "reported-questions",
+      "backshift",
+      "word-order",
+      "academic"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-088",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "backshift",
+    "level": "C1",
+    "questionType": "error-correction",
+    "difficulty": 0.76,
+    "prompt": "Correct the backshift error in this reported speech sentence: 'She said that she doesn't know the answer and will look it up later.'",
+    "answerKey": "She said that she didn't know the answer and would look it up later.",
+    "explanation": "You spotted the backshift error with excellent precision! Since the main verb 'said' is in the past tense, the subordinate clauses should shift to 'didn't know' and 'would look' to maintain temporal consistency. This is a subtle but crucial feature of formal reported speech. Great catch!",
+    "explanationSteps": [
+      "The reporting verb 'said' is in the past tense.",
+      "In formal reported speech, the reported verbs typically shift back one tense.",
+      "Present simple 'doesn't know' becomes past simple 'didn't know', and 'will' becomes 'would'."
+    ],
+    "hints": [
+      "What tense is the reporting verb 'said'?",
+      "When the reporting verb is past, present simple usually shifts to past simple.",
+      "What happens to 'will' when reported in the past?"
+    ],
+    "tags": [
+      "reported-speech",
+      "backshift",
+      "tense-consistency",
+      "formal"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-c1-089",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "reporting-verbs",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.72,
+    "prompt": "Which sentence uses a reporting verb that preserves the exact meaning of the original statement? Original: 'I absolutely refuse to compromise on this issue.'",
+    "choices": [
+      {
+        "key": "A",
+        "text": "He said that he absolutely refused to compromise on that issue."
+      },
+      {
+        "key": "B",
+        "text": "He complained that he absolutely refused to compromise on that issue."
+      },
+      {
+        "key": "C",
+        "text": "He stated that he absolutely refused to compromise on that issue."
+      },
+      {
+        "key": "D",
+        "text": "He insisted that he absolutely refused to compromise on that issue."
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "A": "'Said' is too neutral and loses the forceful determination of 'absolutely refuse'.",
+      "B": "'Complained' adds a tone of dissatisfaction that isn't present in the original declaration.",
+      "C": "'Stated' is formal but too neutral; it doesn't capture the firmness and resolve of 'refuse'."
+    },
+    "explanation": "You selected 'insisted,' which beautifully captures the firm determination and unyielding stance of 'absolutely refuse'! Reporting verbs carry so much subtle meaning, and 'insisted' preserves both the statement and the emotional force. Your sensitivity to lexical nuance in reported speech is wonderful!",
+    "explanationSteps": [
+      "Analyse the original tone: firm, unyielding, emphatic refusal.",
+      "'Insist' captures strong, determined assertion that matches 'absolutely refuse'.",
+      "Consider how other verbs might add unwanted meanings like neutrality or complaint."
+    ],
+    "hints": [
+      "Does the original speaker sound tentative, neutral, or absolutely determined?",
+      "'Insist' carries a sense of strong, unyielding assertion that matches 'absolutely refuse'.",
+      "Think about whether 'stated' or 'said' conveys enough force."
+    ],
+    "tags": [
+      "reporting-verbs",
+      "nuance",
+      "professional",
+      "tone"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-090",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "discourse-markers",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.7,
+    "prompt": "Choose the most appropriate discourse marker for this academic sentence: 'The methodology was rigorous. __________, the sample size was too small to generalise the findings.'",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Furthermore"
+      },
+      {
+        "key": "B",
+        "text": "Conversely"
+      },
+      {
+        "key": "C",
+        "text": "Nevertheless"
+      },
+      {
+        "key": "D",
+        "text": "Therefore"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "'Furthermore' adds supporting information, but the second sentence introduces a limitation.",
+      "B": "'Conversely' implies a direct opposite or reversal, which is too strong for this partial contrast.",
+      "D": "'Therefore' indicates a result, but the second sentence is a limitation, not a conclusion."
+    },
+    "explanation": "You selected the perfect contrastive discourse marker! 'Nevertheless' gracefully acknowledges the rigorous methodology while introducing the contradictory limitation. This nuanced transitional signalling is exactly what sophisticated academic writing requires. Excellent rhetorical judgment!",
+    "explanationSteps": [
+      "Identify the relationship: the second sentence introduces a contrast or limitation to the first.",
+      "'Nevertheless' is ideal for conceding a point while introducing an opposing fact.",
+      "Place the discourse marker at the beginning of the contrasting clause with appropriate punctuation."
+    ],
+    "hints": [
+      "Does the second sentence support or contrast with the first?",
+      "Which marker is used to introduce a limitation after a positive point?",
+      "Think about whether the small sample size supports or undermines the rigour."
+    ],
+    "tags": [
+      "discourse-markers",
+      "contrast",
+      "academic-writing",
+      "transitions"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-c1-091",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "result-connectors",
+    "level": "C1",
+    "questionType": "gap-filling",
+    "difficulty": 0.74,
+    "prompt": "Complete with an appropriate formal result connector: 'The experiment yielded no conclusive results; __________, the researchers decided to repeat it with modified parameters.'",
+    "answerKey": "consequently",
+    "explanation": "You chose a beautifully formal result connector! 'Consequently' signals a logical conclusion drawn from experimental failure, which is exactly the kind of sophisticated transitional language expected in high-level scientific writing. Your vocabulary range is truly impressive!",
+    "explanationSteps": [
+      "The sentence requires a result meaning: because there were no results, the researchers repeated the experiment.",
+      "'Consequently' is a formal adverb that introduces a logical result or conclusion.",
+      "It is typically followed by a comma and a complete sentence."
+    ],
+    "hints": [
+      "You need a formal word meaning 'as a result' or 'therefore'.",
+      "This word is commonly used in academic reports to show logical consequences.",
+      "It starts with 'c' and is often used after a semicolon."
+    ],
+    "tags": [
+      "result-connectors",
+      "formal-register",
+      "scientific-writing",
+      "vocabulary"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-092",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "concessive-connectors",
+    "level": "C1",
+    "questionType": "transformation",
+    "difficulty": 0.76,
+    "prompt": "Rewrite using a formal concessive connector beginning with 'Much as...': 'Although I respect his opinion, I cannot agree with his conclusion.'",
+    "answerKey": "Much as I respect his opinion, I cannot agree with his conclusion.",
+    "explanation": "Your transformation using 'Much as' is absolutely superb! This inverted concessive structure is a hallmark of sophisticated formal prose, creating emphasis and elegance that 'although' simply cannot match. This is C1-level stylistic mastery at its finest!",
+    "explanationSteps": [
+      "Use the pattern: 'Much as + subject + verb, + main clause'.",
+      "Keep the subject and verb immediately after 'Much as'.",
+      "Maintain the main clause unchanged to preserve the contrast."
+    ],
+    "hints": [
+      "The pattern is: 'Much as + subject + verb, + contrasting clause'.",
+      "You do not need to change the verb form after 'Much as'.",
+      "This structure is more formal than 'Although' but means the same thing."
+    ],
+    "tags": [
+      "concessive-connectors",
+      "inversion",
+      "formal-register",
+      "advanced"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-c1-093",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "logical-coherence",
+    "level": "C1",
+    "questionType": "error-correction",
+    "difficulty": 0.72,
+    "prompt": "Correct the connector error in this formal essay: 'The team worked diligently. On the contrary, they missed the deadline due to unforeseen technical issues.'",
+    "answerKey": "The team worked diligently. However, they missed the deadline due to unforeseen technical issues. (Or: Nevertheless, they missed the deadline...)",
+    "explanation": "You identified the logical mismatch perfectly! 'On the contrary' is used to contradict a negative expectation, not to introduce a surprising result. 'However' or 'Nevertheless' correctly signal the unexpected failure despite the diligence. Your logical coherence skills are excellent!",
+    "explanationSteps": [
+      "'On the contrary' contradicts a previous negative statement, which isn't present here.",
+      "The context requires a contrastive marker showing unexpected failure despite effort.",
+      "Replace with 'However' or 'Nevertheless' for contrast, or 'In fact' for emphasis on the surprising reality."
+    ],
+    "hints": [
+      "Does the second sentence contradict a negative expectation, or does it introduce a surprising failure?",
+      "'On the contrary' means 'actually, the opposite is true'—is that what the context needs?",
+      "If someone works diligently but still fails, which connector is more appropriate?"
+    ],
+    "tags": [
+      "discourse-markers",
+      "logical-coherence",
+      "error-correction",
+      "essay-writing"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-094",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "additive-vs-contrast",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.78,
+    "prompt": "Select the sentence that uses a connector most appropriately in an academic context: ________",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The study was well-designed. Moreover, it had a large sample size. Conversely, the response rate was low."
+      },
+      {
+        "key": "B",
+        "text": "The study was well-designed. Furthermore, it had a large sample size. However, the response rate was low."
+      },
+      {
+        "key": "C",
+        "text": "The study was well-designed. However, it had a large sample size. Furthermore, the response rate was low."
+      },
+      {
+        "key": "D",
+        "text": "The study was well-designed. Conversely, it had a large sample size. Moreover, the response rate was low."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Conversely' is too strong for a partial limitation; 'However' is more appropriate here.",
+      "C": "'However' incorrectly introduces a supporting point, and 'Furthermore' incorrectly introduces a limitation.",
+      "D": "'Conversely' and 'Moreover' are both misused—the relationships are additive then contrastive, not reversed."
+    },
+    "explanation": "You chose the most logically coherent option! 'Furthermore' adds the supporting point about sample size, while 'However' gracefully introduces the contrasting limitation. This kind of precise logical signalling is exactly what top-tier academic writing demands. Excellent!",
+    "explanationSteps": [
+      "The first two sentences have an additive relationship: both are positive points.",
+      "The third sentence introduces a contrasting limitation.",
+      "'Furthermore' adds supporting information; 'However' introduces contrast."
+    ],
+    "hints": [
+      "Is the large sample size a positive supporting point or a contrast?",
+      "Is the low response rate a positive point or a limitation?",
+      "Match additive connectors with supporting points and contrastive connectors with limitations."
+    ],
+    "tags": [
+      "discourse-markers",
+      "logical-coherence",
+      "academic-writing",
+      "advanced"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-c1-095",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "cohesive-devices",
+    "level": "C1",
+    "questionType": "cloze",
+    "difficulty": 0.75,
+    "prompt": "Complete this academic abstract with appropriate connectors: 'The study challenges previous assumptions __________ earlier studies have not addressed. __________, it calls for a fundamental reassessment of the theoretical framework.'",
+    "answerKey": [
+      "which",
+      "Accordingly"
+    ],
+    "explanation": "You selected connectors that create perfect logical flow! 'Which' introduces a relative clause linking back to the assumptions, and 'Accordingly' signals the logical consequence with academic precision. This is exactly the kind of tight argumentative structure that top-tier scholarly writing demands. Excellent work!",
+    "explanationSteps": [
+      "'Which' functions as a relative pronoun connecting the second clause to 'assumptions'.",
+      "'Accordingly' is a formal result marker showing that the reassessment follows logically.",
+      "Together they create a chain: challenge → unaddressed issue → therefore, reassessment."
+    ],
+    "hints": [
+      "The first blank needs a word that connects the unaddressed issue to the assumptions mentioned.",
+      "The second blank needs a formal word showing that the reassessment is a logical consequence.",
+      "'Accordingly' is similar to 'consequently' but slightly more formal."
+    ],
+    "tags": [
+      "result-connectors",
+      "relative-clauses",
+      "academic-abstract",
+      "cohesion"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-c1-096",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "dependent-prepositions",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.72,
+    "prompt": "Choose the correct preposition: 'The success of the project depends __________ effective communication between team members.'",
+    "choices": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "in"
+      },
+      {
+        "key": "C",
+        "text": "with"
+      },
+      {
+        "key": "D",
+        "text": "of"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "'Depends in' is not a standard collocation in English; the fixed preposition is 'on'.",
+      "C": "'Depends with' does not exist as an accepted collocation in formal English.",
+      "D": "'Depends of' is a common learner error; the correct preposition is 'on'."
+    },
+    "explanation": "You identified the correct dependent preposition with confidence! 'Depends on' is a fixed collocation in formal academic and professional English, showing the necessary condition for success. Your knowledge of advanced lexical patterns is excellent!",
+    "explanationSteps": [
+      "'Depend' requires the preposition 'on' to show the condition or basis for something.",
+      "It means 'is determined by' or 'relies on' a particular factor.",
+      "Dependent prepositions like this must be learned as fixed collocations."
+    ],
+    "hints": [
+      "Which preposition typically follows 'depends' in formal contexts?",
+      "Think of the synonymous phrase 'relies on'—'depends' takes the same preposition.",
+      "Is the communication the condition or the result?"
+    ],
+    "tags": [
+      "dependent-prepositions",
+      "collocations",
+      "professional",
+      "fixed-expressions"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-c1-097",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "phrasal-prepositions",
+    "level": "C1",
+    "questionType": "gap-filling",
+    "difficulty": 0.76,
+    "prompt": "Complete with the correct phrasal preposition: '__________ his lack of formal qualifications, he secured the position through sheer determination.'",
+    "answerKey": "Despite",
+    "explanation": "You chose a phrasal preposition that conveys exactly the right nuanced meaning! 'Despite' elegantly signals that the position was secured in spite of the lack of qualifications. This is precisely the kind of sophisticated prepositional phrase that distinguishes advanced professional writing. Wonderful choice!",
+    "explanationSteps": [
+      "The context requires a meaning similar to 'in spite of'.",
+      "'Despite' is a preposition introducing a contrasting or conceding fact.",
+      "It is typically placed at the beginning of the sentence, followed by a noun phrase."
+    ],
+    "hints": [
+      "You need a word meaning 'in spite of' that is appropriate for formal contexts.",
+      "This word is commonly used at the beginning of sentences to introduce a concession.",
+      "It is followed directly by a noun phrase without 'of'."
+    ],
+    "tags": [
+      "phrasal-prepositions",
+      "formal-register",
+      "professional",
+      "contrast"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-098",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "dependent-prepositions",
+    "level": "C1",
+    "questionType": "transformation",
+    "difficulty": 0.74,
+    "prompt": "Rewrite using the correct dependent preposition with 'apologise': 'He said sorry to his teacher for being late.' (Use: apologise)",
+    "answerKey": "He apologised to his teacher for being late.",
+    "explanation": "You transformed the sentence using 'apologised to... for' with real accuracy! Whether you used 'apologised to his teacher for being late', you captured the formal structure perfectly. Your flexibility with dependent prepositions is excellent!",
+    "explanationSteps": [
+      "'Apologise' takes 'to' before the person and 'for' before the reason.",
+      "The structure is: apologise + to + person + for + reason.",
+      "Both prepositions are required to maintain the formal, polite tone."
+    ],
+    "hints": [
+      "Which preposition follows 'apologise' when mentioning the person?",
+      "Which preposition follows when mentioning the reason?",
+      "Think about the pattern: apologise ___ someone ___ something."
+    ],
+    "tags": [
+      "dependent-prepositions",
+      "apologise",
+      "academic",
+      "transformation"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-099",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "collocations",
+    "level": "C1",
+    "questionType": "error-correction",
+    "difficulty": 0.78,
+    "prompt": "Correct the prepositional errors in this sentence: 'The dissertation is consisted of five chapters, and each chapter focuses in a different aspect of the topic.'",
+    "answerKey": "The dissertation consists of five chapters, and each chapter focuses on a different aspect of the topic.",
+    "explanation": "You corrected both prepositional errors with expert precision! 'Consists of' is the standard form in formal English (not 'is consisted of'), and 'focuses on' is the fixed collocation (not 'focuses in'). Your knowledge of these subtle but important distinctions is truly impressive!",
+    "explanationSteps": [
+      "'Consist of' is an intransitive verb and cannot be used in the passive voice.",
+      "'Focus on' is the fixed collocation meaning 'concentrates on'.",
+      "Both corrections elevate the sentence to appropriate academic register."
+    ],
+    "hints": [
+      "Can you use 'consist' in the passive voice?",
+      "Which preposition does 'focus' take in formal academic English?",
+      "Think about whether the chapters are parts of the dissertation or directions of focus."
+    ],
+    "tags": [
+      "dependent-prepositions",
+      "collocations",
+      "error-correction",
+      "academic"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-c1-100",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "phrasal-prepositions",
+    "level": "C1",
+    "questionType": "open",
+    "difficulty": 0.75,
+    "prompt": "Create a sentence using the phrasal preposition 'in accordance with' in a professional or academic context about following guidelines.",
+    "answerKey": "In accordance with the university's ethical guidelines, all participants provided informed consent before the study began. (Or any acceptable sentence using 'in accordance with' to indicate conformity to rules or guidelines.)",
+    "explanation": "Your sentence demonstrates 'in accordance with' with beautiful contextual appropriateness! This phrasal preposition indicates conformity to rules or standards, which is exactly how it's used in professional and academic discourse. You've rounded off this C1 set with real style!",
+    "explanationSteps": [
+      "'In accordance with' means 'in conformity with' or 'following' a particular rule or guideline.",
+      "It is typically used in formal contexts to show compliance or agreement with standards.",
+      "Place the prepositional phrase at the beginning or middle of the sentence for emphasis."
+    ],
+    "hints": [
+      "Think about what rules or guidelines someone might follow in an academic study.",
+      "'In accordance with' is more formal than 'according to'—use it in a compliance context.",
+      "Does your sentence show someone following a rule or standard?"
+    ],
+    "tags": [
+      "phrasal-prepositions",
+      "formal-register",
+      "professional",
+      "sentence-construction"
+    ],
+    "estimatedTimeSec": 35
+  }
+]

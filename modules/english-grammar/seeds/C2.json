@@ -1,0 +1,3803 @@
+[
+  {
+    "id": "eg-c2-001",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "future-perfect-continuous",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.85,
+    "prompt": "By the time the negotiations conclude next month, the delegation __________ for nearly a fortnight, and fatigue will inevitably colour their final judgments.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "will be sitting"
+      },
+      {
+        "key": "B",
+        "text": "will have been sitting"
+      },
+      {
+        "key": "C",
+        "text": "will sit"
+      },
+      {
+        "key": "D",
+        "text": "would have sat"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The future continuous lacks the retrospective duration required by 'for nearly a fortnight'.",
+      "C": "The simple future cannot express an action stretching up to a future point.",
+      "D": "The conditional perfect wrongly signals an unreal past rather than a projected completion."
+    },
+    "explanation": "The future perfect continuous is used here to emphasise the duration of an action up to a specific future point, adding a layer of narrative sophistication to the projection.",
+    "explanationSteps": [
+      "Identify the future time anchor: 'By the time the negotiations conclude next month'.",
+      "Note the duration phrase 'for nearly a fortnight', which demands a continuous, completed perspective.",
+      "Select the future perfect continuous to merge completion with ongoing duration."
+    ],
+    "hints": [
+      "Which tense looks backwards from a future moment to measure accumulated action?",
+      "The phrase 'for nearly a fortnight' is a strong clue for duration combined with completion.",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "future-perfect-continuous",
+      "duration",
+      "formal-writing",
+      "projected-completion"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-002",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "subjunctive-equivalents",
+    "level": "C2",
+    "questionType": "transformation",
+    "difficulty": 0.9,
+    "prompt": "Rewrite the sentence using an inverted conditional form without 'if': 'If the committee had been informed earlier, it would have approved the amendment.'",
+    "answerKey": "Had the committee been informed earlier, it would have approved the amendment.",
+    "explanation": "Inverting the auxiliary 'had' and removing 'if' produces a more formal, literary register often favoured in sophisticated legal or academic prose.",
+    "explanationSteps": [
+      "Remove 'If' from the subordinate clause.",
+      "Invert the subject and the auxiliary 'had'.",
+      "Preserve the main clause unchanged to maintain the conditional relationship."
+    ],
+    "hints": [
+      "Try beginning the clause with the auxiliary verb rather than the conjunction.",
+      "This inversion is only possible when the auxiliary is 'had', 'were', or 'should'.",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "inverted-conditionals",
+      "subjunctive",
+      "formal-register",
+      "academic-writing"
+    ],
+    "estimatedTimeSec": 55
+  },
+  {
+    "id": "eg-c2-003",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "modal-passive",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.88,
+    "prompt": "The report suggests that the data __________ (ought to / analyse) before any policy is enacted.",
+    "answerKey": "ought to be analysed",
+    "explanation": "The modal passive 'ought to be analysed' conveys obligation in the passive voice, a structure frequently encountered in formal recommendations and policy documents.",
+    "explanationSteps": [
+      "Recognise the modal 'ought to', which expresses strong recommendation or duty.",
+      "Convert the verb 'analyse' into its past participle form.",
+      "Insert 'be' between the modal and the past participle to form the passive."
+    ],
+    "hints": [
+      "Remember that 'ought to' behaves like a semi-modal and retains 'to' before the passive infinitive.",
+      "The subject 'data' receives the action, so the passive voice is required.",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "modal-passive",
+      "ought-to",
+      "policy-language",
+      "obligation"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-004",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "past-modals",
+    "level": "C2",
+    "questionType": "error-correction",
+    "difficulty": 0.82,
+    "prompt": "Identify and correct the error: 'She must have went to the library before the lecture began.'",
+    "answerKey": "She must have gone to the library before the lecture began.",
+    "explanation": "After the perfect infinitive 'have', the past participle 'gone' is required; 'went' is the simple past form and cannot follow the modal perfect structure.",
+    "explanationSteps": [
+      "Locate the modal perfect construction: 'must have'.",
+      "Check the form following 'have': it must be a past participle.",
+      "Replace 'went' with 'gone' to restore grammatical accuracy."
+    ],
+    "hints": [
+      "Modal perfect constructions always use have + past participle.",
+      "'Went' and 'gone' belong to the same verb but serve different grammatical functions.",
+      "Modal verbs never change form and are always followed directly by the base verb."
+    ],
+    "tags": [
+      "modal-perfect",
+      "past-participle",
+      "error-correction",
+      "deduction"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c2-005",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "prepositional-relatives",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.87,
+    "prompt": "The diplomat, __________ the treaty had been entrusted, proved less than reliable.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "to whom"
+      },
+      {
+        "key": "B",
+        "text": "who"
+      },
+      {
+        "key": "C",
+        "text": "to who"
+      },
+      {
+        "key": "A",
+        "text": "which"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "Missing the preposition 'to' breaks the idiomatic phrase 'entrust to someone'.",
+      "C": "'Who' cannot follow a preposition in formal English; 'whom' is required.",
+      "A": "'Which' refers to things, not people, and also omits the necessary preposition."
+    },
+    "explanation": "Prepositional relative clauses with 'to whom' preserve formal register and correctly strand the preposition with the relative pronoun, a hallmark of sophisticated prose.",
+    "explanationSteps": [
+      "Identify the verb-preposition collocation: 'entrust to'.",
+      "Select the human relative pronoun: 'whom' for object position after a preposition.",
+      "Combine into 'to whom' to maintain formal grammatical structure."
+    ],
+    "hints": [
+      "Consider which preposition naturally accompanies 'entrusted'.",
+      "After a preposition, the object form 'whom' is expected in formal contexts.",
+      "Who is for people, which is for things, and where is for places — choose the pronoun that matches the noun."
+    ],
+    "tags": [
+      "prepositional-relative",
+      "formal-register",
+      "whom",
+      "diplomatic-language"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-006",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "complex-reporting-verbs",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.86,
+    "prompt": "He __________ (deny) that he had ever been privy to the confidential memorandum.",
+    "answerKey": "denied",
+    "explanation": "The reporting verb 'denied' naturally introduces a negative proposition and is frequently used in formal contexts to distance the speaker from an assertion without explicit negation in the subordinate clause.",
+    "explanationSteps": [
+      "Recognise that 'deny' is a negative-implicative reporting verb.",
+      "Use the past tense to maintain backshift in reported speech.",
+      "Note that no additional negation is needed within the 'that'-clause."
+    ],
+    "hints": [
+      "Which verb means to state that something is not true?",
+      "Ensure the tense shifts back to match the past-time context.",
+      "Shift everything one step back: present becomes past, and pronouns shift to match the reporter."
+    ],
+    "tags": [
+      "reporting-verbs",
+      "deny",
+      "formal-register",
+      "negation"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c2-007",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "discourse-markers",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.84,
+    "prompt": "The preliminary findings are encouraging; __________, one must remain cautious until the full dataset has been scrutinised.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "hence"
+      },
+      {
+        "key": "B",
+        "text": "notwithstanding"
+      },
+      {
+        "key": "C",
+        "text": "accordingly"
+      },
+      {
+        "key": "D",
+        "text": "nevertheless"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "A": "'Hence' signals a result, but the second clause is a concession, not a consequence.",
+      "B": "'Notwithstanding' is typically prepositional and does not fit this clausal position.",
+      "C": "'Accordingly' suggests logical consequence, which contradicts the cautionary tone of the second clause."
+    },
+    "explanation": "'Nevertheless' introduces a concessive contrast, a sophisticated discourse marker that signals the writer's balanced, critical stance in academic argumentation.",
+    "explanationSteps": [
+      "Analyse the semantic relationship: encouragement versus caution.",
+      "Identify the need for a concessive connector rather than a causal one.",
+      "Select 'nevertheless' to mark the rhetorical shift elegantly."
+    ],
+    "hints": [
+      "Look for a word that signals 'despite that' or 'all the same'.",
+      "The semicolon suggests a close but contrasting link between the clauses.",
+      "Look at the relationship between the two ideas — do they add, contrast, explain, or show a result?"
+    ],
+    "tags": [
+      "concessive-connectors",
+      "discourse-markers",
+      "academic-writing",
+      "contrast"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-008",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "stylistic-omission",
+    "level": "C2",
+    "questionType": "error-correction",
+    "difficulty": 0.83,
+    "prompt": "Correct the sentence if necessary: 'The society at large cannot afford to ignore the climate change any longer.'",
+    "answerKey": "Society at large cannot afford to ignore climate change any longer.",
+    "explanation": "Abstract uncountable nouns such as 'society' and 'climate change' often appear without articles when used in a broad, generic sense, a stylistic choice that signals editorial confidence.",
+    "explanationSteps": [
+      "Determine whether 'society' refers to a specific group or humanity in general.",
+      "Assess whether 'climate change' is used generically or as a specific instance.",
+      "Remove the definite articles to achieve the generic, stylistically refined reading."
+    ],
+    "hints": [
+      "Consider whether these nouns are being discussed in a universal or specific sense.",
+      "Editorial English often drops articles with broad abstract concepts.",
+      "Try saying the sentence out loud with each option — your ear often knows the right article."
+    ],
+    "tags": [
+      "zero-article",
+      "generic-reference",
+      "editorial-style",
+      "uncountable-nouns"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-009",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "narrative-sophistication",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.89,
+    "prompt": "No sooner __________ the verdict been announced than the gallery erupted in applause.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "has"
+      },
+      {
+        "key": "B",
+        "text": "had"
+      },
+      {
+        "key": "C",
+        "text": "was"
+      },
+      {
+        "key": "D",
+        "text": "did"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The present perfect disrupts the clear past-time sequence signalled by 'erupted'.",
+      "C": "'Was' cannot support the past participle 'been' in this inversion structure.",
+      "D": "'Did' would require a bare infinitive, not the past participle 'been'."
+    },
+    "explanation": "The inverted correlative 'No sooner ... than' demands the past perfect with inversion of the auxiliary, a device that lends dramatic narrative momentum to formal prose.",
+    "explanationSteps": [
+      "Recognise the correlative pair 'No sooner ... than'.",
+      "Recall that this structure triggers inversion and the past perfect.",
+      "Place 'had' before the subject to create the inverted form."
+    ],
+    "hints": [
+      "This construction always pairs with the past perfect.",
+      "Inversion means the auxiliary verb moves to the front of the clause.",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "inversion",
+      "past-perfect",
+      "narrative",
+      "correlatives"
+    ],
+    "estimatedTimeSec": 55
+  },
+  {
+    "id": "eg-c2-010",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "implied-conditions",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.91,
+    "prompt": "I __________ (be) more inclined to support the proposal were the budgetary constraints less severe.",
+    "answerKey": "would be",
+    "explanation": "The inverted 'were' in the subordinate clause implies the conditional 'if' without stating it, a subjunctive strategy that compresses meaning and elevates register.",
+    "explanationSteps": [
+      "Spot the inverted 'were', signalling a subjunctive conditional without 'if'.",
+      "Identify the main clause as the result of this implied condition.",
+      "Use 'would be' to match the present unreal conditional frame."
+    ],
+    "hints": [
+      "The clause beginning with 'were' is doing the work of an 'if'-clause.",
+      "This is a present hypothetical, so the main clause needs a present conditional form.",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "implied-conditionals",
+      "subjunctive",
+      "inversion",
+      "budgetary-context"
+    ],
+    "estimatedTimeSec": 55
+  },
+  {
+    "id": "eg-c2-011",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "get-passive",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.8,
+    "prompt": "In informal reports, the manager tends to avoid stating who __________ fired during the restructuring.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "was"
+      },
+      {
+        "key": "B",
+        "text": "got"
+      },
+      {
+        "key": "C",
+        "text": "became"
+      },
+      {
+        "key": "D",
+        "text": "had"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Was fired' is grammatically possible but stylistically neutral rather than informal.",
+      "C": "'Became fired' is not an idiomatic English passive construction.",
+      "D": "'Had fired' is active and misattributes agency to the subject."
+    },
+    "explanation": "The 'get'-passive ('got fired') carries an informal, dynamic nuance, often chosen in spoken or semi-formal contexts to imply an event with consequences for the subject.",
+    "explanationSteps": [
+      "Notice the context: 'informal reports' and avoidance of explicit agency.",
+      "Recall that 'get' + past participle forms an informal passive.",
+      "Select 'got' to match the semi-formal, conversational register."
+    ],
+    "hints": [
+      "Which auxiliary is commonly used in spoken, informal passives?",
+      "'Get' passives often suggest an event happening to someone rather than a state.",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "get-passive",
+      "informal-register",
+      "agency",
+      "spoken-English"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c2-012",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "continuous-modals",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.86,
+    "prompt": "They __________ (must / work) on the draft all night, for the document on my desk is flawless and comprehensive.",
+    "answerKey": "must have been working",
+    "explanation": "The modal perfect continuous 'must have been working' combines deduction about the past with emphasis on duration, a nuanced choice for inferring prolonged effort.",
+    "explanationSteps": [
+      "Identify the deductive context: the flawless document implies sustained effort.",
+      "Choose the modal perfect continuous to express duration in the past.",
+      "Assemble 'must have been working' to convey strong inference plus continuity."
+    ],
+    "hints": [
+      "The evidence suggests not just past action, but sustained past action.",
+      "Modal + have + been + -ing is the structure for past deduction with duration.",
+      "Modal verbs never change form and are always followed directly by the base verb."
+    ],
+    "tags": [
+      "modal-perfect-continuous",
+      "deduction",
+      "duration",
+      "inference"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-013",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "sentential-relatives",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.88,
+    "prompt": "The minister refused to answer any further questions, __________ surprised no one present.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "which"
+      },
+      {
+        "key": "B",
+        "text": "that"
+      },
+      {
+        "key": "C",
+        "text": "what"
+      },
+      {
+        "key": "D",
+        "text": "who"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "'That' cannot function as a sentential relative pronoun referring to an entire clause.",
+      "C": "'What' is a nominal relative pronoun and cannot link back to a prior clause.",
+      "D": "'Who' refers to people, not to propositions or events."
+    },
+    "explanation": "A sentential relative clause introduced by 'which' refers to the entire preceding proposition rather than a single noun, allowing commentary on the situation as a whole.",
+    "explanationSteps": [
+      "Determine that the antecedent is the whole clause, not just the minister.",
+      "Recognise that 'which' is the only standard relative pronoun that can refer to a sentence.",
+      "Reject 'that' and 'who' because they cannot carry sentential reference."
+    ],
+    "hints": [
+      "Ask yourself: does the relative pronoun refer to the minister or to the whole refusal?",
+      "Sentential relatives comment on an entire situation, not a single noun.",
+      "Who is for people, which is for things, and where is for places — choose the pronoun that matches the noun."
+    ],
+    "tags": [
+      "sentential-relative",
+      "which",
+      "propositional-reference",
+      "comment-clause"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-014",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "free-indirect-speech",
+    "level": "C2",
+    "questionType": "transformation",
+    "difficulty": 0.92,
+    "prompt": "Convert the following into free indirect speech: 'She thought, \"I must not reveal my sources.\"'",
+    "answerKey": "She must not reveal her sources.",
+    "explanation": "Free indirect speech removes the reporting clause and backshifts the tense while retaining the character's subjective modality, creating a seamless blend of narrator and character voice.",
+    "explanationSteps": [
+      "Remove the reporting clause 'She thought'.",
+      "Backshift 'must' where appropriate, or retain it if the obligation remains present.",
+      "Adjust the pronoun from first person to third person to blend voices."
+    ],
+    "hints": [
+      "Free indirect speech hovers between direct and reported speech.",
+      "The character's own words should still echo, but without quotation marks or 'she thought'.",
+      "Shift everything one step back: present becomes past, and pronouns shift to match the reporter."
+    ],
+    "tags": [
+      "free-indirect-speech",
+      "narrative-technique",
+      "literary-analysis",
+      "backshift"
+    ],
+    "estimatedTimeSec": 60
+  },
+  {
+    "id": "eg-c2-015",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "formal-connectors",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.85,
+    "prompt": "The evidence is largely circumstantial; __________, it warrants further investigation rather than immediate dismissal.",
+    "answerKey": "nevertheless",
+    "explanation": "'Nevertheless' operates as a formal adversative connector, guiding the reader through a subtle argumentative pivot without resorting to colloquial alternatives.",
+    "explanationSteps": [
+      "Assess the semantic pivot: from weakness of evidence to merit of inquiry.",
+      "Choose a formal connector signalling concessive contrast.",
+      "Place 'nevertheless' after the semicolon to maintain sentence flow."
+    ],
+    "hints": [
+      "The tone is formal, so avoid casual transitions like 'but still'.",
+      "The connector should introduce a claim that stands despite the preceding limitation.",
+      "Look at the relationship between the two ideas — do they add, contrast, explain, or show a result?"
+    ],
+    "tags": [
+      "formal-connectors",
+      "contrast",
+      "academic-register",
+      "adversative"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-016",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "nuanced-article-usage",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.84,
+    "prompt": "As __________ head of the delegation, she carried __________ considerable authority in the negotiations.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "the; a"
+      },
+      {
+        "key": "B",
+        "text": "a; the"
+      },
+      {
+        "key": "C",
+        "text": "the; /"
+      },
+      {
+        "key": "D",
+        "text": "/; /"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "'A' before 'considerable authority' turns an abstract quality into a countable instance, which is not the intended meaning.",
+      "B": "'As a head' suggests she is one of many possible heads, diluting the unique role.",
+      "D": "Omitting 'the' before 'head of the delegation' leaves the specific role undefined."
+    },
+    "explanation": "Unique institutional roles take 'the', while abstract uncountable nouns like 'authority' frequently appear with the zero article in formal contexts, yielding elegant concision.",
+    "explanationSteps": [
+      "Recognise that 'head of the delegation' is a unique, identifiable role.",
+      "Note that 'authority' is used abstractly and uncountably here.",
+      "Apply 'the' to the role and zero article to the abstract noun."
+    ],
+    "hints": [
+      "Unique posts and titles often take a definite article when the referent is clear.",
+      "Abstract qualities in a general sense frequently drop the article in formal prose.",
+      "Try saying the sentence out loud with each option — your ear often knows the right article."
+    ],
+    "tags": [
+      "articles",
+      "abstract-nouns",
+      "institutional-roles",
+      "zero-article"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-017",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "subtle-aspect-distinctions",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.87,
+    "prompt": "By the time the architect arrived, the builders __________ the framework, so the inspection could proceed.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "have completed"
+      },
+      {
+        "key": "B",
+        "text": "had completed"
+      },
+      {
+        "key": "C",
+        "text": "completed"
+      },
+      {
+        "key": "D",
+        "text": "were completing"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The present perfect clashes with the past-time anchor 'arrived'.",
+      "C": "The simple past does not clearly establish that completion preceded the arrival.",
+      "D": "The past continuous suggests ongoing, not completed, action at the time of arrival."
+    },
+    "explanation": "The past perfect 'had completed' establishes a clear anteriority, showing that the builders' work was finished before the architect's arrival, a subtle but essential temporal distinction.",
+    "explanationSteps": [
+      "Identify the two past events: completion and arrival.",
+      "Determine which event occurred first.",
+      "Use the past perfect for the earlier event to signal anteriority."
+    ],
+    "hints": [
+      "When one past action clearly precedes another, the earlier one often needs the past perfect.",
+      "'By the time' is a classic trigger for the past perfect.",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "past-perfect",
+      "anteriority",
+      "sequence-of-tenses",
+      "inspection-context"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-018",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "complex-mixed",
+    "level": "C2",
+    "questionType": "error-correction",
+    "difficulty": 0.9,
+    "prompt": "Correct the sentence: 'If she would have listened to the advice, she would be in a better position now.'",
+    "answerKey": "If she had listened to the advice, she would be in a better position now.",
+    "explanation": "In standard English, the third conditional if-clause uses the past perfect, not 'would have'; mixing it with a present conditional result creates a complex but grammatically precise mixed conditional.",
+    "explanationSteps": [
+      "Identify the mixed conditional structure: past condition, present result.",
+      "Replace the non-standard 'would have' in the if-clause with the past perfect 'had listened'.",
+      "Keep the present conditional result 'would be' unchanged."
+    ],
+    "hints": [
+      "'Would have' in the if-clause is a common colloquial error; standard English uses the past perfect.",
+      "The result clause refers to the present, so it remains a present conditional.",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "mixed-conditionals",
+      "past-perfect",
+      "standard-grammar",
+      "advice-context"
+    ],
+    "estimatedTimeSec": 55
+  },
+  {
+    "id": "eg-c2-019",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "stylistic-passive",
+    "level": "C2",
+    "questionType": "transformation",
+    "difficulty": 0.85,
+    "prompt": "Recast the sentence in the passive voice to foreground the object: 'The editorial board unanimously approved the revised manuscript.'",
+    "answerKey": "The revised manuscript was unanimously approved by the editorial board.",
+    "explanation": "Shifting to the passive raises the object to subject position, a stylistic choice that emphasises the manuscript rather than the board, common in formal academic and editorial prose.",
+    "explanationSteps": [
+      "Identify the direct object: 'the revised manuscript'.",
+      "Promote the object to subject position.",
+      "Add the agent with 'by' only if it contributes necessary information."
+    ],
+    "hints": [
+      "Ask what the sentence is really about: the board or the manuscript?",
+      "Keep the adverb 'unanimously' close to the verb for natural prosody.",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "stylistic-passive",
+      "foregrounding",
+      "academic-prose",
+      "agent"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-020",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "marginal-modals",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.86,
+    "prompt": "You __________ disclose your sources; the ethics committee deems it obligatory.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "must"
+      },
+      {
+        "key": "B",
+        "text": "need"
+      },
+      {
+        "key": "C",
+        "text": "have to"
+      },
+      {
+        "key": "D",
+        "text": "ought to"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Must' is acceptable but less idiomatic when the obligation comes from an external body in formal English.",
+      "C": "'Have to' is possible but stylistically less elevated than 'need' in this semi-modal construction.",
+      "D": "'Ought to' expresses recommendation rather than the strong external obligation intended."
+    },
+    "explanation": "'Need' as a marginal modal—without 'to'—conveys external obligation with concision and formality, a usage preserved in legal and regulatory registers.",
+    "explanationSteps": [
+      "Recognise that 'need' can function as a modal verb in negative and affirmative formal contexts.",
+      "Confirm the absence of 'to' after 'need' in this semi-modal use.",
+      "Select 'need' for its compact, regulatory tone."
+    ],
+    "hints": [
+      "Which word can act as a modal without 'to' in formal, regulatory language?",
+      "'Need' plus a bare infinitive is a classic marginal modal pattern.",
+      "Modal verbs never change form and are always followed directly by the base verb."
+    ],
+    "tags": [
+      "marginal-modals",
+      "need",
+      "obligation",
+      "legal-register"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-021",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "prepositional-relatives",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.88,
+    "prompt": "The attorney, __________ the documents had been forwarded, raised several objections during the hearing.",
+    "answerKey": "to whom",
+    "explanation": "'To whom' elegantly combines the preposition with the object relative pronoun, maintaining the formal register expected in legal discourse.",
+    "explanationSteps": [
+      "Identify the verb-preposition collocation: 'forward to'.",
+      "Select the object form 'whom' because it follows a preposition.",
+      "Combine them into 'to whom' for formal correctness."
+    ],
+    "hints": [
+      "The verb 'forward' requires a specific preposition before its object.",
+      "In formal English, 'whom' follows prepositions, not 'who'.",
+      "Who is for people, which is for things, and where is for places — choose the pronoun that matches the noun."
+    ],
+    "tags": [
+      "prepositional-relative",
+      "legal-register",
+      "whom",
+      "formal-english"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-022",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "complex-reporting-verbs",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.87,
+    "prompt": "The witness __________ having seen the defendant near the scene, though she later recanted.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "refused"
+      },
+      {
+        "key": "B",
+        "text": "denied"
+      },
+      {
+        "key": "C",
+        "text": "admitted"
+      },
+      {
+        "key": "D",
+        "text": "insisted"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "'Refused' is not grammatically compatible with the gerund phrase 'having seen'.",
+      "B": "'Denied' would reverse the meaning, contradicting the later recantation.",
+      "D": "'Insisted' normally takes a 'that'-clause or prepositional phrase, not a gerund."
+    },
+    "explanation": "'Admitted' is a reporting verb that naturally collocates with the perfect gerund, precisely capturing the act of acknowledging a prior action before later withdrawing it.",
+    "explanationSteps": [
+      "Evaluate which verb accepts the perfect gerund 'having seen'.",
+      "Ensure the meaning aligns with acknowledging an action.",
+      "Select 'admitted' for both grammatical compatibility and semantic fit."
+    ],
+    "hints": [
+      "Which verb means to concede that something is true?",
+      "Consider the grammar: the verb must be able to take a gerund phrase.",
+      "Shift everything one step back: present becomes past, and pronouns shift to match the reporter."
+    ],
+    "tags": [
+      "reporting-verbs",
+      "gerund",
+      "admit",
+      "legal-context"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-023",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "sophisticated-discourse-markers",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.86,
+    "prompt": "The proposal is theoretically sound. __________, its practical implementation remains fraught with difficulties.",
+    "answerKey": "However",
+    "explanation": "'However' serves as a sophisticated adversative discourse marker at the beginning of a sentence, signalling a measured contrast without the casualness of 'but'.",
+    "explanationSteps": [
+      "Observe the contrast between theoretical soundness and practical difficulty.",
+      "Select a formal sentence-initial connector.",
+      "Use 'However' followed by a comma for polished academic style."
+    ],
+    "hints": [
+      "The connector must stand alone at the start of the sentence, followed by a comma.",
+      "Look for a word that signals strong contrast in a formal register.",
+      "Look at the relationship between the two ideas — do they add, contrast, explain, or show a result?"
+    ],
+    "tags": [
+      "discourse-markers",
+      "adversative",
+      "academic-style",
+      "contrast"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c2-024",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "nuanced-article-usage",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.85,
+    "prompt": "She was appointed __________ Chair of the committee in recognition of __________ unique expertise she brought to the role.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "the; the"
+      },
+      {
+        "key": "B",
+        "text": "/; the"
+      },
+      {
+        "key": "C",
+        "text": "a; /"
+      },
+      {
+        "key": "D",
+        "text": "/; a"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Using 'the' before a unique title is unnecessary in British institutional English.",
+      "C": "'A Chair' suggests there are multiple chairs, which contradicts the unique appointment.",
+      "D": "'A unique expertise' incorrectly turns an uncountable quality into a countable instance."
+    },
+    "explanation": "Unique institutional titles often drop the article, while the subsequent specific expertise is made definite by the relative clause, requiring 'the'.",
+    "explanationSteps": [
+      "Note that unique titles in British English frequently take zero article.",
+      "Identify that the expertise is particularised by the relative clause 'she brought to the role'.",
+      "Apply zero article to the title and 'the' to the specified expertise."
+    ],
+    "hints": [
+      "Think about British English conventions for unique appointments.",
+      "When a noun is followed by a defining relative clause, it usually needs a definite article.",
+      "Try saying the sentence out loud with each option — your ear often knows the right article."
+    ],
+    "tags": [
+      "titles",
+      "definite-article",
+      "british-english",
+      "institutional-language"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-025",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "subtle-aspect-distinctions",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.88,
+    "prompt": "All morning, the researchers __________ (work) on the calibration, and by noon the instrument was running smoothly.",
+    "answerKey": "had been working",
+    "explanation": "The past perfect continuous 'had been working' emphasises the duration of an activity leading up to a later past point, a nuanced choice that enriches narrative sequence.",
+    "explanationSteps": [
+      "Identify the time frame: 'All morning' leading up to 'by noon'.",
+      "Recognise the need for duration plus anteriority.",
+      "Select the past perfect continuous to express prolonged action before a past moment."
+    ],
+    "hints": [
+      "The phrase 'All morning' signals duration.",
+      "'By noon' places the completion in the past, requiring a retrospective view.",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "past-perfect-continuous",
+      "duration",
+      "narrative",
+      "anteriority"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-026",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "subjunctive-equivalents",
+    "level": "C2",
+    "questionType": "transformation",
+    "difficulty": 0.89,
+    "prompt": "Rewrite using an inverted conditional: 'If the data were to be corrupted, the entire model would collapse.'",
+    "answerKey": "Were the data to be corrupted, the entire model would collapse.",
+    "explanation": "Inverting 'were' and removing 'if' yields a highly formal subjunctive conditional, a structure that conveys remote possibility with stylistic distinction.",
+    "explanationSteps": [
+      "Remove 'If' from the conditional clause.",
+      "Invert the subject and 'were'.",
+      "Preserve the infinitive phrase 'to be corrupted' and the result clause."
+    ],
+    "hints": [
+      "The auxiliary 'were' moves to the front of the clause.",
+      "This inversion is only possible with 'were', 'had', or 'should' in formal English.",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "inversion",
+      "subjunctive",
+      "remote-conditional",
+      "formal-style"
+    ],
+    "estimatedTimeSec": 55
+  },
+  {
+    "id": "eg-c2-027",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "advanced-modal-passive",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.87,
+    "prompt": "The artefacts __________ (must not / remove) from the premises without explicit written authorisation.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "must not be removed"
+      },
+      {
+        "key": "B",
+        "text": "must not remove"
+      },
+      {
+        "key": "C",
+        "text": "must not to be removed"
+      },
+      {
+        "key": "A",
+        "text": "must be not removed"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "This is active and misattributes the action to the artefacts themselves.",
+      "C": "'To' is never inserted between a modal and the passive infinitive.",
+      "A": "'Be not removed' inverts the negation and auxiliary in a non-standard way."
+    },
+    "explanation": "The negative modal passive 'must not be removed' expresses a strong prohibition in formal regulatory language, placing the emphasis on the object and the restriction.",
+    "explanationSteps": [
+      "Identify the prohibition: 'must not'.",
+      "Form the passive infinitive: 'be removed'.",
+      "Combine them into the standard negative modal passive."
+    ],
+    "hints": [
+      "The negation attaches to the modal, not the passive auxiliary.",
+      "The artefacts receive the action, so the passive is obligatory.",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "modal-passive",
+      "prohibition",
+      "regulatory-language",
+      "negation"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-028",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "past-modals",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.85,
+    "prompt": "Given the evidence, the defendant __________ (may / be) at the scene earlier than originally stated.",
+    "answerKey": "may have been",
+    "explanation": "The modal perfect 'may have been' expresses a tentative past possibility, a nuanced epistemic choice that acknowledges uncertainty while engaging with the evidence.",
+    "explanationSteps": [
+      "Identify the epistemic context: possibility based on evidence.",
+      "Select the modal 'may' for tentative deduction.",
+      "Use the perfect infinitive 'have been' to locate the possibility in the past."
+    ],
+    "hints": [
+      "The phrase 'Given the evidence' signals a deductive, not deontic, modal.",
+      "Past possibility requires the perfect infinitive after the modal.",
+      "Modal verbs never change form and are always followed directly by the base verb."
+    ],
+    "tags": [
+      "modal-perfect",
+      "epistemic",
+      "possibility",
+      "legal-context"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-029",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "prepositional-relatives",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.86,
+    "prompt": "The thesis, __________ I had devoted two years, was finally approved by the examining board.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "to which"
+      },
+      {
+        "key": "B",
+        "text": "which"
+      },
+      {
+        "key": "C",
+        "text": "for which"
+      },
+      {
+        "key": "A",
+        "text": "that"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "Omitting the preposition breaks the collocation 'devote to'.",
+      "C": "'For' does not collocate with 'devote' in this context.",
+      "A": "'That' cannot follow a preposition in non-defining relative clauses."
+    },
+    "explanation": "'To which' preserves both the formal preposition placement and the non-defining relative structure, a combination expected in academic and professional registers.",
+    "explanationSteps": [
+      "Recall the collocation: 'devote something to'.",
+      "Select the relative pronoun 'which' for the non-defining clause.",
+      "Combine into 'to which' for formal prepositional fronting."
+    ],
+    "hints": [
+      "Which preposition naturally accompanies the verb 'devote'?",
+      "Non-defining clauses use 'which', not 'that'.",
+      "Who is for people, which is for things, and where is for places — choose the pronoun that matches the noun."
+    ],
+    "tags": [
+      "prepositional-relative",
+      "academic-register",
+      "devote-to",
+      "non-defining"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-030",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "free-indirect-speech",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.91,
+    "prompt": "Which sentence best exemplifies free indirect speech?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "She said that she would never agree to such terms."
+      },
+      {
+        "key": "B",
+        "text": "She thought, \"I will never agree to such terms.\""
+      },
+      {
+        "key": "C",
+        "text": "She would never agree to such terms."
+      },
+      {
+        "key": "D",
+        "text": "She says that she will never agree to such terms."
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "This is conventional reported speech with explicit backshift and reporting clause.",
+      "B": "This is direct speech, retaining quotation marks and first-person pronouns.",
+      "D": "This is present-time reported speech without the blending of voices."
+    },
+    "explanation": "Free indirect speech dissolves the reporting clause and fuses the narrator's third-person perspective with the character's original tense and modality, producing the seamless sentence in option C.",
+    "explanationSteps": [
+      "Recall that free indirect speech omits the reporting clause.",
+      "Notice the third-person subject blended with the character's modal intention.",
+      "Identify option C as the only sentence that fuses both voices without explicit attribution."
+    ],
+    "hints": [
+      "Free indirect speech often feels like direct speech filtered through a narrator.",
+      "Look for the absence of 'she said' or 'she thought'.",
+      "Shift everything one step back: present becomes past, and pronouns shift to match the reporter."
+    ],
+    "tags": [
+      "free-indirect-speech",
+      "narrative-technique",
+      "literary-analysis",
+      "voice-blending"
+    ],
+    "estimatedTimeSec": 55
+  },
+  {
+    "id": "eg-c2-031",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "formal-connectors",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.84,
+    "prompt": "The study lacks empirical backing; __________, its conclusions should be treated as provisional at best.",
+    "answerKey": "therefore",
+    "explanation": "'Therefore' functions as a formal causal connector, drawing a logical consequence from the stated limitation and guiding the reader to a measured evaluative conclusion.",
+    "explanationSteps": [
+      "Analyse the logical relationship: lack of backing leads to provisional status.",
+      "Select a formal causal connector suitable for academic prose.",
+      "Place 'therefore' after the semicolon to signal deductive reasoning."
+    ],
+    "hints": [
+      "The second clause is a consequence of the first.",
+      "'Therefore' is more formal than 'so' and fits after a semicolon.",
+      "Look at the relationship between the two ideas — do they add, contrast, explain, or show a result?"
+    ],
+    "tags": [
+      "causal-connectors",
+      "therefore",
+      "academic-prose",
+      "deduction"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c2-032",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "stylistic-omission",
+    "level": "C2",
+    "questionType": "error-correction",
+    "difficulty": 0.82,
+    "prompt": "Improve the sentence for formal register: 'The creativity is essential for success in the modern business.'",
+    "answerKey": "Creativity is essential for success in modern business.",
+    "explanation": "Abstract nouns used in a generic sense, such as 'creativity' and 'business', frequently appear without articles in formal editorial style, creating a more universal and elegant statement.",
+    "explanationSteps": [
+      "Determine whether 'creativity' refers to a specific instance or the general quality.",
+      "Assess whether 'modern business' is used generically or as a specific sector.",
+      "Remove both definite articles to achieve generic, refined reference."
+    ],
+    "hints": [
+      "Consider whether these nouns are being discussed in a universal or specific sense.",
+      "Editorial English often drops articles with broad abstract concepts.",
+      "Try saying the sentence out loud with each option — your ear often knows the right article."
+    ],
+    "tags": [
+      "zero-article",
+      "abstract-nouns",
+      "editorial-style",
+      "generic-reference"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-033",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "narrative-sophistication",
+    "level": "C2",
+    "questionType": "transformation",
+    "difficulty": 0.88,
+    "prompt": "Transform the sentence to emphasise ongoing duration up to a past moment: 'The team worked on the prototype for six months before the launch.'",
+    "answerKey": "The team had been working on the prototype for six months before the launch.",
+    "explanation": "The past perfect continuous transforms a simple factual statement into a narrative that emphasises sustained effort leading to a pivotal moment, adding temporal depth.",
+    "explanationSteps": [
+      "Identify the need to highlight duration before a past event.",
+      "Convert the simple past into the past perfect continuous.",
+      "Preserve the duration phrase and the temporal anchor."
+    ],
+    "hints": [
+      "The perfect continuous is the tool for looking back at prolonged action.",
+      "'For six months' is a strong signal for a continuous aspect.",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "past-perfect-continuous",
+      "narrative-depth",
+      "duration",
+      "transformation"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-034",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "complex-mixed",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.9,
+    "prompt": "If the merger __________ through last year, the firm __________ in a far stronger position today.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "had gone; would be"
+      },
+      {
+        "key": "B",
+        "text": "went; would have been"
+      },
+      {
+        "key": "C",
+        "text": "had gone; would have been"
+      },
+      {
+        "key": "D",
+        "text": "goes; will be"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "The simple past in the if-clause does not match the past-time reference 'last year'.",
+      "C": "Both clauses in the third conditional would place the result in the past, conflicting with 'today'.",
+      "D": "The present tense is incompatible with the past-time anchor and present result."
+    },
+    "explanation": "This mixed conditional pairs a past counterfactual condition with a present counterfactual result, a complex structure that evaluates historical decisions against current outcomes.",
+    "explanationSteps": [
+      "Identify the past-time condition: 'last year'.",
+      "Identify the present-time result: 'today'.",
+      "Combine the third conditional if-clause with the second conditional main clause."
+    ],
+    "hints": [
+      "The word 'today' in the result clause tells you the consequence is present, not past.",
+      "'Last year' tells you the condition is in the past.",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "mixed-conditionals",
+      "past-present",
+      "counterfactual",
+      "business-context"
+    ],
+    "estimatedTimeSec": 55
+  },
+  {
+    "id": "eg-c2-035",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "stylistic-passive",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.84,
+    "prompt": "It is widely __________ (acknowledge) that the new regulations will reshape the industry.",
+    "answerKey": "acknowledged",
+    "explanation": "The impersonal passive 'It is widely acknowledged' foregrounds consensus rather than individual speakers, a stylistic hallmark of formal, objective prose.",
+    "explanationSteps": [
+      "Recognise the impersonal structure: 'It is + past participle'.",
+      "Convert 'acknowledge' into its past participle form.",
+      "Use the adverb 'widely' to indicate broad agreement."
+    ],
+    "hints": [
+      "This is an impersonal passive construction starting with 'It is'.",
+      "The verb needs to be in its past participle form.",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "impersonal-passive",
+      "it-is-acknowledged",
+      "consensus",
+      "formal-prose"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c2-036",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "marginal-modals",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.85,
+    "prompt": "You __________ worry about the deadline; the extension has already been granted.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "mustn't"
+      },
+      {
+        "key": "B",
+        "text": "don't have to"
+      },
+      {
+        "key": "C",
+        "text": "needn't"
+      },
+      {
+        "key": "D",
+        "text": "shouldn't"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "'Mustn't' expresses prohibition, not the absence of necessity intended here.",
+      "B": "'Don't have to' is correct in meaning but less stylistically refined in formal contexts.",
+      "D": "'Shouldn't' implies advice against worrying, rather than stating that worry is unnecessary."
+    },
+    "explanation": "'Needn't' elegantly states that there is no necessity, a concise marginal modal usage preferred in polished, formal English for its economy and precision.",
+    "explanationSteps": [
+      "Determine the intended meaning: absence of necessity, not prohibition.",
+      "Select the modal that conveys 'no need' in a single word.",
+      "Confirm that 'needn't' fits the formal, reassuring tone of the sentence."
+    ],
+    "hints": [
+      "The extension removes the necessity, not the permission.",
+      "'Needn't' is the most compact and formal way to express lack of necessity.",
+      "Modal verbs never change form and are always followed directly by the base verb."
+    ],
+    "tags": [
+      "marginal-modals",
+      "neednt",
+      "lack-of-necessity",
+      "formal-register"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-037",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "sentential-relatives",
+    "level": "C2",
+    "questionType": "transformation",
+    "difficulty": 0.87,
+    "prompt": "Combine the sentences using a sentential relative clause: 'The deadline was moved forward. This caused considerable inconvenience.'",
+    "answerKey": "The deadline was moved forward, which caused considerable inconvenience.",
+    "explanation": "The sentential relative 'which' refers to the entire preceding proposition, elegantly subordinating the consequence to the event and achieving the compactness expected in formal writing.",
+    "explanationSteps": [
+      "Identify that the pronoun 'This' refers to the whole previous clause, not just the deadline.",
+      "Replace 'This' with the sentential relative pronoun 'which'.",
+      "Join the clauses with a comma to form a non-defining sentential relative."
+    ],
+    "hints": [
+      "Ask whether 'which' can refer to an entire situation, not just a noun.",
+      "Sentential relatives allow commentary on a whole proposition.",
+      "Who is for people, which is for things, and where is for places — choose the pronoun that matches the noun."
+    ],
+    "tags": [
+      "sentential-relative",
+      "which",
+      "proposition-reference",
+      "formal-writing"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-038",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "complex-reporting-verbs",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.86,
+    "prompt": "The chairperson __________ (concede) that the procedure had not been followed to the letter.",
+    "answerKey": "conceded",
+    "explanation": "'Conceded' is a sophisticated reporting verb that admits a point reluctantly, adding nuance to the reported statement by implying strategic rhetorical concession.",
+    "explanationSteps": [
+      "Select a reporting verb that implies reluctant admission.",
+      "Use the past tense to maintain backshift in reported speech.",
+      "Ensure the verb collocates naturally with a 'that'-clause."
+    ],
+    "hints": [
+      "Which verb means to admit something is true, often reluctantly?",
+      "The context suggests a formal, possibly defensive admission.",
+      "Shift everything one step back: present becomes past, and pronouns shift to match the reporter."
+    ],
+    "tags": [
+      "reporting-verbs",
+      "concede",
+      "backshift",
+      "formal-register"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c2-039",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "sophisticated-discourse-markers",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.85,
+    "prompt": "The hypothesis is compelling; __________, it has yet to withstand rigorous peer review.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "furthermore"
+      },
+      {
+        "key": "B",
+        "text": "hence"
+      },
+      {
+        "key": "C",
+        "text": "nonetheless"
+      },
+      {
+        "key": "D",
+        "text": "likewise"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "'Furthermore' adds information of the same polarity, but the second clause limits the first.",
+      "B": "'Hence' signals a result, which contradicts the cautious reservation in the second clause.",
+      "D": "'Likewise' draws a parallel, whereas the clauses are in tension."
+    },
+    "explanation": "'Nonetheless' introduces a concessive contrast, a sophisticated discourse marker that signals balanced critical evaluation in academic argumentation.",
+    "explanationSteps": [
+      "Analyse the relationship: strength versus remaining doubt.",
+      "Choose a concessive connector that preserves formal tone.",
+      "Place 'nonetheless' after the semicolon for elegant rhetorical balance."
+    ],
+    "hints": [
+      "The second clause introduces a reservation, not an addition.",
+      "Look for a connector meaning 'in spite of that' in a formal register.",
+      "Look at the relationship between the two ideas — do they add, contrast, explain, or show a result?"
+    ],
+    "tags": [
+      "concessive-connectors",
+      "nonetheless",
+      "academic-argument",
+      "peer-review"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-040",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "nuanced-article-usage",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.83,
+    "prompt": "She was elected __________ President in 2020, becoming __________ first woman to hold the office.",
+    "answerKey": "/; the",
+    "explanation": "Unique titles of office typically drop the article, while ordinal superlatives like 'first' require 'the' to specify the unique position, yielding a precise formal distinction.",
+    "explanationSteps": [
+      "Note that 'President' is a unique office and takes zero article.",
+      "Recognise that ordinals like 'first' require the definite article.",
+      "Apply zero article to the title and 'the' to the ordinal phrase."
+    ],
+    "hints": [
+      "Unique posts such as President, Chair, or Head often drop the article.",
+      "Ordinal numbers almost always take 'the'.",
+      "Try saying the sentence out loud with each option — your ear often knows the right article."
+    ],
+    "tags": [
+      "titles",
+      "ordinals",
+      "zero-article",
+      "definite-article"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c2-041",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "future-perfect-continuous",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.86,
+    "prompt": "By 2030, researchers __________ (work) on this project for over a decade, and their findings will redefine the field.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "will work"
+      },
+      {
+        "key": "B",
+        "text": "will have worked"
+      },
+      {
+        "key": "C",
+        "text": "will have been working"
+      },
+      {
+        "key": "D",
+        "text": "will be working"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "The simple future cannot express duration up to a future point.",
+      "B": "The future perfect expresses completion but not the sustained effort implied by 'for over a decade'.",
+      "D": "The future continuous looks forward from now, not back from 2030."
+    },
+    "explanation": "The future perfect continuous 'will have been working' stresses both the projected completion and the prolonged duration, a nuanced choice for long-term research narratives.",
+    "explanationSteps": [
+      "Identify the future anchor: 'By 2030'.",
+      "Note the duration phrase 'for over a decade'.",
+      "Select the future perfect continuous to merge completion with ongoing duration."
+    ],
+    "hints": [
+      "The phrase 'for over a decade' strongly favours a continuous aspect.",
+      "'By 2030' looks back from a future point, requiring a perfect form.",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "future-perfect-continuous",
+      "research-context",
+      "duration",
+      "projection"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-042",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "implied-conditions",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.88,
+    "prompt": "But for her intervention, the project __________ (collapse) within the first month.",
+    "answerKey": "would have collapsed",
+    "explanation": "'But for' implies a negative condition equivalent to 'If it had not been for', triggering the third conditional in the main clause and producing a concise, formal hypothetical.",
+    "explanationSteps": [
+      "Recognise 'But for' as an implicit third conditional trigger.",
+      "Translate it mentally into 'If it had not been for her intervention'.",
+      "Select the conditional perfect 'would have collapsed' for the result."
+    ],
+    "hints": [
+      "'But for' is a sophisticated way of saying 'without' or 'if not for'.",
+      "It always implies a counterfactual past condition.",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "implied-conditionals",
+      "but-for",
+      "third-conditional",
+      "counterfactual"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-043",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "get-passive",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.81,
+    "prompt": "During the scandal, the CEO __________ (get / sack) after only six months in post.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "got sacked"
+      },
+      {
+        "key": "B",
+        "text": "was sacked"
+      },
+      {
+        "key": "C",
+        "text": "became sacked"
+      },
+      {
+        "key": "D",
+        "text": "had sacked"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "'Was sacked' is grammatically correct but does not match the informal, dynamic nuance implied by 'get'.",
+      "C": "'Became sacked' is not an idiomatic passive construction in English.",
+      "D": "'Had sacked' is active and reverses the agency."
+    },
+    "explanation": "The 'get'-passive 'got sacked' conveys an informal, eventive quality, suggesting a sudden happening to the subject rather than a neutral state, which suits the dramatic context.",
+    "explanationSteps": [
+      "Identify the informal, eventive context of the scandal.",
+      "Select 'get' as the passive auxiliary for dynamic, spoken-style passives.",
+      "Form the past participle 'sacked' to complete the construction."
+    ],
+    "hints": [
+      "The 'get' passive often implies something happens to someone, with consequences.",
+      "This construction is more informal than the 'be' passive.",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "get-passive",
+      "informal-register",
+      "eventive",
+      "scandal-context"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c2-044",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "continuous-modals",
+    "level": "C2",
+    "questionType": "transformation",
+    "difficulty": 0.87,
+    "prompt": "Rewrite using a modal continuous form to emphasise ongoing speculation: 'They may have discussed the proposal before the vote.'",
+    "answerKey": "They may have been discussing the proposal before the vote.",
+    "explanation": "The modal perfect continuous 'may have been discussing' shifts the focus from a completed discussion to an ongoing one, refining the speculative nuance.",
+    "explanationSteps": [
+      "Identify the modal 'may' and the perfect infinitive 'have discussed'.",
+      "Convert the simple infinitive into the continuous infinitive 'been discussing'.",
+      "Preserve the modal and perfect components to maintain past speculation."
+    ],
+    "hints": [
+      "To emphasise ongoing action, switch from the perfect infinitive to the perfect continuous infinitive.",
+      "The structure is modal + have + been + -ing.",
+      "Modal verbs never change form and are always followed directly by the base verb."
+    ],
+    "tags": [
+      "modal-perfect-continuous",
+      "speculation",
+      "ongoing-action",
+      "transformation"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-045",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "prepositional-relatives",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.85,
+    "prompt": "The novel, __________ the author had drawn heavily on his own experiences, received widespread critical acclaim.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "from which"
+      },
+      {
+        "key": "B",
+        "text": "which"
+      },
+      {
+        "key": "C",
+        "text": "of which"
+      },
+      {
+        "key": "A",
+        "text": "in which"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "Omitting the preposition breaks the idiomatic phrase 'draw from'.",
+      "C": "'Of' does not collocate with 'draw' in this context.",
+      "A": "'In' suggests the experiences are contained within the novel, not the source of inspiration."
+    },
+    "explanation": "'From which' correctly preserves the collocation 'draw from', maintaining both grammatical integrity and the formal register expected in literary commentary.",
+    "explanationSteps": [
+      "Recall the verb-preposition collocation: 'draw on/from'.",
+      "Select 'from' to indicate the source of the experiences.",
+      "Combine with 'which' for the non-defining prepositional relative."
+    ],
+    "hints": [
+      "Which preposition naturally accompanies 'draw' when indicating a source?",
+      "Non-defining clauses require 'which' rather than 'that'.",
+      "Who is for people, which is for things, and where is for places — choose the pronoun that matches the noun."
+    ],
+    "tags": [
+      "prepositional-relative",
+      "draw-from",
+      "literary-analysis",
+      "non-defining"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-046",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "free-indirect-speech",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.91,
+    "prompt": "She would never betray their trust. How could she? They had been so kind. (Identify the narrative technique demonstrated.)",
+    "answerKey": "free indirect speech",
+    "explanation": "These sentences blend the narrator's third-person reporting with the character's own evaluative questions and emotions, a classic instance of free indirect discourse.",
+    "explanationSteps": [
+      "Notice the absence of explicit reporting clauses such as 'she thought'.",
+      "Observe the fusion of third-person narration with first-person subjective emotion.",
+      "Identify the technique as free indirect speech."
+    ],
+    "hints": [
+      "Free indirect speech removes the boundary between narrator and character.",
+      "Look for subjective thoughts rendered without quotation marks or reporting verbs.",
+      "Shift everything one step back: present becomes past, and pronouns shift to match the reporter."
+    ],
+    "tags": [
+      "free-indirect-speech",
+      "narrative-technique",
+      "literary-analysis",
+      "voice"
+    ],
+    "estimatedTimeSec": 55
+  },
+  {
+    "id": "eg-c2-047",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "formal-connectors",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.84,
+    "prompt": "The amendment was defeated; __________, the opposition had marshalled far greater numbers than anticipated.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "because"
+      },
+      {
+        "key": "C",
+        "text": "since"
+      },
+      {
+        "key": "D",
+        "text": "as"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "'Because' is grammatically possible but stylistically too plain for a semicolon link in formal prose.",
+      "C": "'Since' is more common in temporal or causal subordinate clauses, not as a formal coordinating conjunction after a semicolon.",
+      "D": "'As' functions similarly to 'since' and lacks the archaic formality of the correct choice."
+    },
+    "explanation": "'For' as a coordinating conjunction after a semicolon introduces a reason in highly formal, literary, or legal prose, lending the sentence an elevated, deliberate tone.",
+    "explanationSteps": [
+      "Recognise that the clause after the semicolon gives the reason for the defeat.",
+      "Select 'for' as a formal, literary coordinator rather than a subordinator.",
+      "Place a comma after 'for' to match the elevated register."
+    ],
+    "hints": [
+      "'For' as a conjunction is rare in everyday English but prized in formal writing.",
+      "It always follows a semicolon or full stop, never begins a sentence.",
+      "Look at the relationship between the two ideas — do they add, contrast, explain, or show a result?"
+    ],
+    "tags": [
+      "coordinating-conjunctions",
+      "for",
+      "formal-register",
+      "legal-prose"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-048",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "stylistic-omission",
+    "level": "C2",
+    "questionType": "error-correction",
+    "difficulty": 0.83,
+    "prompt": "Improve for formal editorial style: 'The progress has been made, but the more work remains to be done.'",
+    "answerKey": "Progress has been made, but more work remains to be done.",
+    "explanation": "Uncountable abstract nouns such as 'progress' and 'work' often drop the definite article in formal editorial English when used in a broad, generic sense, producing cleaner, more authoritative prose.",
+    "explanationSteps": [
+      "Assess 'progress' as an uncountable abstract noun used generically.",
+      "Assess 'more work' as an uncountable quantity in a general sense.",
+      "Remove both definite articles to achieve editorial concision."
+    ],
+    "hints": [
+      "Consider whether these nouns refer to specific instances or general states.",
+      "Editorial style frequently drops articles with generic uncountables.",
+      "Try saying the sentence out loud with each option — your ear often knows the right article."
+    ],
+    "tags": [
+      "zero-article",
+      "editorial-style",
+      "uncountable-nouns",
+      "concision"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-049",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "subtle-aspect-distinctions",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.87,
+    "prompt": "When I arrived, the lecture __________ and the audience was already asking questions.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "had finished"
+      },
+      {
+        "key": "B",
+        "text": "finished"
+      },
+      {
+        "key": "C",
+        "text": "was finishing"
+      },
+      {
+        "key": "D",
+        "text": "had been finishing"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "The simple past does not clearly show that the lecture ended before the arrival.",
+      "C": "The past continuous suggests the lecture was still in progress, conflicting with the audience asking questions.",
+      "D": "The past perfect continuous is rarely used with punctual verbs like 'finish'."
+    },
+    "explanation": "The past perfect 'had finished' establishes that the lecture was complete before the arrival, a subtle aspectual choice that clarifies temporal sequence.",
+    "explanationSteps": [
+      "Identify the two past events: finishing and arriving.",
+      "Determine that the lecture finished first.",
+      "Use the past perfect for the earlier, completed action."
+    ],
+    "hints": [
+      "The audience asking questions implies the lecture is already over.",
+      "The past perfect is the standard way to express one past action before another.",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "past-perfect",
+      "sequence",
+      "punctual-verbs",
+      "lecture-context"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-050",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "subjunctive-equivalents",
+    "level": "C2",
+    "questionType": "transformation",
+    "difficulty": 0.9,
+    "prompt": "Rewrite using an inverted conditional without 'if': 'If the appeal should be rejected, the defendant will have no further recourse.'",
+    "answerKey": "Should the appeal be rejected, the defendant will have no further recourse.",
+    "explanation": "Inverting 'should' and removing 'if' produces a formal conditional inversion often found in legal documents, conveying a remote possibility with institutional precision.",
+    "explanationSteps": [
+      "Remove 'If' from the conditional clause.",
+      "Invert the subject and 'should'.",
+      "Retain the passive infinitive 'be rejected' and the result clause."
+    ],
+    "hints": [
+      "'Should' inversion is especially common in legal and formal registers.",
+      "The auxiliary moves to the front, and 'if' disappears.",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "inversion",
+      "should-conditional",
+      "legal-register",
+      "remote-condition"
+    ],
+    "estimatedTimeSec": 55
+  },
+  {
+    "id": "eg-c2-051",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "past-perfect-continuous",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.86,
+    "prompt": "The orchestra __________ for nearly an hour when the conductor finally raised his baton, and the hush that fell over the hall was palpable.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "had been tuning"
+      },
+      {
+        "key": "B",
+        "text": "had tuned"
+      },
+      {
+        "key": "C",
+        "text": "was tuning"
+      },
+      {
+        "key": "A",
+        "text": "has been tuning"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "The past perfect simple would suggest the tuning was complete before the moment, diminishing the sense of ongoing anticipation.",
+      "C": "The past continuous lacks the retrospective viewpoint needed to anchor the action before the conductor's gesture.",
+      "A": "The present perfect cannot operate within a past narrative sequence."
+    },
+    "explanation": "The past perfect continuous beautifully captures the sustained, anticipatory activity that paved the way for the performance, enriching the narrative with temporal depth.",
+    "explanationSteps": [
+      "Identify the two past events: tuning and raising the baton.",
+      "Recognise that the tuning was an ongoing process leading up to the moment.",
+      "Select the past perfect continuous to convey duration before a past moment."
+    ],
+    "hints": [
+      "Which tense looks back from a past moment to emphasise prolonged activity?",
+      "The phrase 'for nearly an hour' strongly signals duration combined with completion.",
+      "The simple past perfect would suggest completion, not the ongoing preparation."
+    ],
+    "tags": [
+      "past-perfect-continuous",
+      "duration",
+      "narrative",
+      "musical-context"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-052",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "future-perfect",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.84,
+    "prompt": "By next autumn, she __________ (complete) her doctorate, having devoted six years to the research.",
+    "answerKey": "will have completed",
+    "explanation": "The future perfect acknowledges the culmination of a long academic journey, celebrating the dedication that brings her to this milestone.",
+    "explanationSteps": [
+      "Identify the future time anchor: 'By next autumn'.",
+      "Recognise that the doctorate will be finished before that point.",
+      "Select the future perfect to express completion before a future moment."
+    ],
+    "hints": [
+      "Which tense looks back from a future point to signal completion?",
+      "The phrase 'having devoted six years' provides the context of duration behind the achievement.",
+      "The simple future would not capture the projected completion."
+    ],
+    "tags": [
+      "future-perfect",
+      "academic-context",
+      "completion",
+      "projection"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-053",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "present-perfect-vs-simple-past",
+    "level": "C2",
+    "questionType": "error-correction",
+    "difficulty": 0.82,
+    "prompt": "Correct the sentence: 'I have visited the gallery yesterday, and the collection was even more impressive than I had expected.'",
+    "answerKey": "I visited the gallery yesterday, and the collection was even more impressive than I had expected.",
+    "explanation": "With a definite past time marker like 'yesterday', the simple past is the natural choice; this refinement keeps your narrative crisp and chronologically clear.",
+    "explanationSteps": [
+      "Locate the definite past-time adverb 'yesterday'.",
+      "Note that the present perfect cannot coexist with specific past-time references.",
+      "Replace 'have visited' with the simple past 'visited'."
+    ],
+    "hints": [
+      "Which adverb in the sentence anchors the action to a specific finished time?",
+      "The present perfect avoids definite past time markers.",
+      "Consider the simplest past tense form for a completed yesterday event."
+    ],
+    "tags": [
+      "present-perfect",
+      "simple-past",
+      "time-markers",
+      "error-correction"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c2-054",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "past-perfect-continuous",
+    "level": "C2",
+    "questionType": "transformation",
+    "difficulty": 0.87,
+    "prompt": "Transform to emphasise ongoing duration up to a past point: 'The diplomats negotiated throughout the night before reaching a consensus.'",
+    "answerKey": "The diplomats had been negotiating throughout the night before reaching a consensus.",
+    "explanation": "By shifting to the past perfect continuous, you highlight the relentless, sustained effort that preceded the breakthrough, adding gravitas to the diplomatic narrative.",
+    "explanationSteps": [
+      "Identify the need to emphasise duration before a later past event.",
+      "Convert 'negotiated' into the past perfect continuous 'had been negotiating'.",
+      "Preserve the temporal anchor 'before reaching a consensus'."
+    ],
+    "hints": [
+      "Which aspect combines completion with ongoing duration in the past?",
+      "The phrase 'throughout the night' is a strong signal for continuous action.",
+      "The perfect continuous looks back from a later past moment."
+    ],
+    "tags": [
+      "past-perfect-continuous",
+      "transformation",
+      "duration",
+      "diplomatic-context"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-055",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "future-in-the-past",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.89,
+    "prompt": "She told me last week that she __________ the manuscript by the following Friday, but I have heard nothing since.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "will finish"
+      },
+      {
+        "key": "B",
+        "text": "would finish"
+      },
+      {
+        "key": "C",
+        "text": "would have finished"
+      },
+      {
+        "key": "D",
+        "text": "will have finished"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "The simple future fails to shift back into the past perspective introduced by 'told'.",
+      "B": "The conditional simple does not capture the projected completion 'by the following Friday'.",
+      "D": "The future perfect ignores the past reporting verb and remains anchored in the present speaker's perspective."
+    },
+    "explanation": "The future-in-the-past perfect elegantly captures a projected completion that was anticipated from a past vantage point, a subtle temporal shift that enriches reported intention.",
+    "explanationSteps": [
+      "Recognise the reported speech context with a past reporting verb 'told'.",
+      "Note the future time anchor 'by the following Friday' viewed from the past.",
+      "Select the conditional perfect 'would have finished' for the future-in-the-past perfect."
+    ],
+    "hints": [
+      "From whose perspective in time is the deadline 'the following Friday' viewed?",
+      "The reporting verb is in the past, so the original future needs to shift back.",
+      "Which form combines 'future in the past' with completion by a deadline?"
+    ],
+    "tags": [
+      "future-in-the-past",
+      "reported-intention",
+      "conditional-perfect",
+      "deadline"
+    ],
+    "estimatedTimeSec": 55
+  },
+  {
+    "id": "eg-c2-056",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "narrative-sequence",
+    "level": "C2",
+    "questionType": "cloze",
+    "difficulty": 0.91,
+    "prompt": "By the time the sun __________ (rise) that morning, the crew __________ (work) for twelve hours straight, and fatigue __________ (begin) to cloud their judgment.",
+    "answerKey": [
+      "had risen",
+      "had been working",
+      "had begun"
+    ],
+    "explanation": "This intricate sequence of tenses weaves together completion, sustained effort, and emerging consequence, demonstrating the narrative power of aspectual layering at an advanced level.",
+    "explanationSteps": [
+      "Identify the earliest event: the sunrise, completed before the rest.",
+      "Recognise the ongoing activity 'for twelve hours straight' requiring the perfect continuous.",
+      "Note the subsequent state 'fatigue' emerging as a completed change."
+    ],
+    "hints": [
+      "The first event is a completed past action before the others; which tense signals anteriority?",
+      "The second gap requires both duration and retrospection from a past point.",
+      "The third gap describes a state that had already started; the past perfect simple suffices."
+    ],
+    "tags": [
+      "cloze",
+      "past-perfect",
+      "past-perfect-continuous",
+      "narrative-sequence"
+    ],
+    "estimatedTimeSec": 60
+  },
+  {
+    "id": "eg-c2-057",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "inverted-conditionals",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.88,
+    "prompt": "__________ the committee approved the funding, the project would never have seen the light of day.",
+    "answerKey": "Had",
+    "explanation": "Inverting 'had' to the front of the clause creates a formal, literary conditional that compresses meaning with elegance, a technique prized in sophisticated prose.",
+    "explanationSteps": [
+      "Recognise the third conditional structure in the main clause 'would never have seen'.",
+      "Identify that the if-clause requires the past perfect.",
+      "Invert 'had' and remove 'if' for the formal variant."
+    ],
+    "hints": [
+      "Which auxiliary verb in the past perfect can move to the front of the clause?",
+      "The main clause uses 'would have', signalling a third conditional.",
+      "Remove 'if' and place the auxiliary before the subject."
+    ],
+    "tags": [
+      "inverted-conditionals",
+      "third-conditional",
+      "formal-register",
+      "funding-context"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-058",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "mixed-conditionals",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.9,
+    "prompt": "If the treaty __________ ratified last year, trade relations __________ far more stable today.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "had been; would be"
+      },
+      {
+        "key": "B",
+        "text": "was; would be"
+      },
+      {
+        "key": "C",
+        "text": "had been; would have been"
+      },
+      {
+        "key": "D",
+        "text": "were; will be"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "The simple past passive does not establish the counterfactual past condition required by standard mixed conditional grammar.",
+      "C": "A third conditional result would place the consequence in the past, conflicting with the present-time adverb 'today'.",
+      "D": "The present subjunctive and future simple are incompatible with both the past anchor and the present result."
+    },
+    "explanation": "This mixed conditional bridges a past counterfactual condition with a present counterfactual result, a sophisticated structure that evaluates historical causation against current reality.",
+    "explanationSteps": [
+      "Identify the past-time condition 'last year'.",
+      "Identify the present-time result 'today'.",
+      "Combine the third conditional if-clause with the second conditional main clause."
+    ],
+    "hints": [
+      "'Last year' tells you the condition is in the past; which if-clause form is needed?",
+      "'Today' tells you the result is in the present, not the past.",
+      "Match a past perfect passive if-clause with a present conditional result."
+    ],
+    "tags": [
+      "mixed-conditionals",
+      "past-present",
+      "counterfactual",
+      "trade-context"
+    ],
+    "estimatedTimeSec": 55
+  },
+  {
+    "id": "eg-c2-059",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "third-conditional",
+    "level": "C2",
+    "questionType": "error-correction",
+    "difficulty": 0.87,
+    "prompt": "Correct the sentence: 'If the director would have arrived on time, the rehearsal would have proceeded without interruption.'",
+    "answerKey": "If the director had arrived on time, the rehearsal would have proceeded without interruption.",
+    "explanation": "Standard English reserves 'would have' for the result clause; using the past perfect 'had arrived' in the if-clause restores the grammatical precision that distinguishes polished prose.",
+    "explanationSteps": [
+      "Identify the third conditional structure.",
+      "Replace the colloquial 'would have arrived' with the standard past perfect 'had arrived'.",
+      "Keep the result clause 'would have proceeded' unchanged."
+    ],
+    "hints": [
+      "In standard conditionals, which clause uses 'would have' and which uses 'had'?",
+      "'Would have' in the if-clause is a common non-standard variant.",
+      "The past perfect of 'arrive' is needed in the condition."
+    ],
+    "tags": [
+      "third-conditional",
+      "standard-grammar",
+      "error-correction",
+      "rehearsal-context"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-060",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "subjunctive-inversion",
+    "level": "C2",
+    "questionType": "transformation",
+    "difficulty": 0.89,
+    "prompt": "Rewrite using an inverted conditional without 'if': 'If the evidence were to emerge, the case would collapse immediately.'",
+    "answerKey": "Were the evidence to emerge, the case would collapse immediately.",
+    "explanation": "The inverted 'were' conditional elevates the register, lending the sentence the measured authority of legal drafting while preserving the remote hypothetical meaning.",
+    "explanationSteps": [
+      "Remove 'If' from the conditional clause.",
+      "Invert the subject and 'were'.",
+      "Preserve the infinitive phrase 'to emerge' and the result clause."
+    ],
+    "hints": [
+      "Which form of 'be' is used for hypothetical conditionals regardless of subject?",
+      "Move this auxiliary to the front of the clause.",
+      "Keep the infinitive 'to emerge' immediately after the subject."
+    ],
+    "tags": [
+      "inversion",
+      "subjunctive",
+      "were-conditional",
+      "legal-register"
+    ],
+    "estimatedTimeSec": 55
+  },
+  {
+    "id": "eg-c2-061",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "conditional-connectors",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.85,
+    "prompt": "The grant will be renewed __________ the advisory board submits a satisfactory progress report by the deadline.",
+    "answerKey": "provided that",
+    "explanation": "'Provided that' introduces a conditional with a sense of formal stipulation, a connector frequently encountered in contractual and institutional language.",
+    "explanationSteps": [
+      "Identify the conditional relationship: renewal depends on submission.",
+      "Select a formal conditional connector that implies contractual condition.",
+      "Place 'provided that' to introduce the stipulation."
+    ],
+    "hints": [
+      "Which two-word connector signals a formal condition, often found in contracts?",
+      "The meaning is close to 'on the condition that'.",
+      "It begins with a past participle used as a conditional marker."
+    ],
+    "tags": [
+      "conditional-connectors",
+      "provided-that",
+      "formal-register",
+      "contractual"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-062",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "implied-conditions",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.88,
+    "prompt": "__________ your immediate assistance, we would not have met the deadline, and the launch would have been postponed.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Without"
+      },
+      {
+        "key": "B",
+        "text": "Unless"
+      },
+      {
+        "key": "C",
+        "text": "But for"
+      },
+      {
+        "key": "D",
+        "text": "If not"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "While 'without' conveys the negative condition, it is less formally idiomatic in this precise counterfactual construction than the traditional alternative.",
+      "B": "'Unless' introduces a conditional clause and cannot directly precede a noun phrase in this structure.",
+      "D": "'If not' requires a clause or more awkward phrasing; it does not fit the elegant prepositional slot here."
+    },
+    "explanation": "'But for' compresses a negative third conditional into a concise, formal prepositional phrase, a sophisticated alternative to longer clausal constructions.",
+    "explanationSteps": [
+      "Recognise the third conditional meaning in the main clause.",
+      "Identify that the sentence needs a negative condition.",
+      "Select 'but for' as the formal prepositional equivalent of 'if it had not been for'."
+    ],
+    "hints": [
+      "Which prepositional phrase means 'if it had not been for'?",
+      "It consists of two words: a conjunction plus a preposition.",
+      "The phrase always triggers a counterfactual conditional."
+    ],
+    "tags": [
+      "but-for",
+      "implied-conditionals",
+      "third-conditional",
+      "formal-register"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-063",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "should-inversion",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.86,
+    "prompt": "__________ you change your mind, we will, of course, honour your revised preferences without penalty.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Should"
+      },
+      {
+        "key": "B",
+        "text": "If"
+      },
+      {
+        "key": "C",
+        "text": "Were you to"
+      },
+      {
+        "key": "D",
+        "text": "Unless"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "'If' is grammatically correct but lacks the formal, remote nuance that the sentence's courteous tone demands.",
+      "C": "'Were you to' introduces a more remote hypothetical, but the main clause's 'will' suggests a genuine first conditional rather than a subjunctive.",
+      "D": "'Unless' reverses the meaning, implying we will not honour preferences if you change your mind."
+    },
+    "explanation": "'Should' inversion at the beginning of a conditional clause conveys a remote possibility with diplomatic courtesy, a formality particularly valued in customer-oriented and legal prose.",
+    "explanationSteps": [
+      "Recognise the first conditional structure with a remote, formal nuance.",
+      "Identify that 'should' inversion is possible here.",
+      "Select 'Should' as the inverted auxiliary without 'if'."
+    ],
+    "hints": [
+      "Which auxiliary can be inverted at the start of a first conditional to add formality?",
+      "It suggests a remote but genuine possibility.",
+      "This construction is especially common in formal correspondence."
+    ],
+    "tags": [
+      "should-conditional",
+      "inversion",
+      "first-conditional",
+      "formal-correspondence"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-064",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "modal-passive",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.85,
+    "prompt": "The amendments __________ (should / sign) into law before the recess, or the entire legislative agenda will stall.",
+    "answerKey": "should be signed",
+    "explanation": "The modal passive 'should be signed' conveys obligatory action in the passive voice, a structure that foregrounds the legislative process rather than the individual signatory.",
+    "explanationSteps": [
+      "Identify the modal 'should' expressing recommendation or obligation.",
+      "Convert the verb 'sign' into its past participle form.",
+      "Insert 'be' between the modal and the past participle to form the passive."
+    ],
+    "hints": [
+      "The subject 'amendments' receives the action, so the passive is required.",
+      "Modal passives always follow the pattern modal + be + past participle.",
+      "Which participle of 'sign' is needed?"
+    ],
+    "tags": [
+      "modal-passive",
+      "obligation",
+      "legislative-context",
+      "should"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-065",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "causative-passive",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.87,
+    "prompt": "The curator decided to __________ the portrait restored by a leading conservator before the exhibition opened.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "have"
+      },
+      {
+        "key": "B",
+        "text": "get"
+      },
+      {
+        "key": "C",
+        "text": "make"
+      },
+      {
+        "key": "A",
+        "text": "cause"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "'Get' is possible in informal causative passives but is less formally idiomatic in museum and curatorial contexts.",
+      "C": "'Make' would require the bare infinitive 'restore' and shifts the causative structure away from the passive intention.",
+      "A": "'Cause' implies an unwanted consequence and does not fit the standard causative passive pattern."
+    },
+    "explanation": "'Have something done' is the classic causative passive, indicating that the curator arranged for the restoration to be carried out by someone else, a nuance essential in professional discourse.",
+    "explanationSteps": [
+      "Recognise the causative passive structure: subject + have + object + past participle.",
+      "Select 'have' as the causative verb in formal registers.",
+      "Confirm that 'restored' is the past participle completing the construction."
+    ],
+    "hints": [
+      "Which verb introduces the structure 'something done' when arranging for others to act?",
+      "This is a standard causative passive pattern.",
+      "The curator did not restore the portrait herself."
+    ],
+    "tags": [
+      "causative-passive",
+      "have-something-done",
+      "curatorial-context",
+      "formal-register"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-066",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "stylistic-passive",
+    "level": "C2",
+    "questionType": "transformation",
+    "difficulty": 0.84,
+    "prompt": "Recast the sentence in the passive voice, omitting the agent: 'The review panel will publish the guidelines next quarter.'",
+    "answerKey": "The guidelines will be published next quarter.",
+    "explanation": "Removing the agent entirely places full emphasis on the guidelines and the temporal frame, a stylistic choice common in institutional announcements.",
+    "explanationSteps": [
+      "Identify the direct object: 'the guidelines'.",
+      "Promote the object to subject position.",
+      "Form the passive with 'will be published' and omit the agent as instructed."
+    ],
+    "hints": [
+      "What is the direct object of the original sentence?",
+      "The agent 'by the review panel' should be omitted entirely.",
+      "The future passive follows the pattern will + be + past participle."
+    ],
+    "tags": [
+      "stylistic-passive",
+      "agent-omission",
+      "institutional-prose",
+      "future-passive"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-067",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "past-participle",
+    "level": "C2",
+    "questionType": "error-correction",
+    "difficulty": 0.8,
+    "prompt": "Correct the sentence: 'The manuscript was wrote by an anonymous scholar in the twelfth century.'",
+    "answerKey": "The manuscript was written by an anonymous scholar in the twelfth century.",
+    "explanation": "Using the correct past participle 'written' restores the grammatical integrity of the passive voice, ensuring your historical statement reads with scholarly authority.",
+    "explanationSteps": [
+      "Identify the passive construction 'was ... by'.",
+      "Recognise that 'wrote' is the simple past, not the past participle.",
+      "Replace 'wrote' with 'written' to complete the passive."
+    ],
+    "hints": [
+      "Which form of the verb is needed after 'was' in a passive sentence?",
+      "'Wrote' and 'written' are forms of the same irregular verb.",
+      "Check the three principal parts: write, wrote, written."
+    ],
+    "tags": [
+      "passive-voice",
+      "irregular-verbs",
+      "past-participle",
+      "error-correction"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c2-068",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "impersonal-passive",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.86,
+    "prompt": "The ancient settlement __________ (believe) to have been abandoned following a prolonged drought.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "is believed"
+      },
+      {
+        "key": "B",
+        "text": "believes"
+      },
+      {
+        "key": "C",
+        "text": "is believing"
+      },
+      {
+        "key": "A",
+        "text": "has believed"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "The active form wrongly attributes the belief to the settlement itself.",
+      "C": "The present continuous is incompatible with the stative nature of 'believe'.",
+      "A": "The present perfect active misattributes agency and conflicts with the impersonal consensus meaning."
+    },
+    "explanation": "The impersonal passive 'is believed' distances the claim from any individual believer, presenting the hypothesis as established scholarly consensus, a mark of cautious academic tone.",
+    "explanationSteps": [
+      "Recognise the impersonal passive pattern used for general belief or assumption.",
+      "Select the present simple passive to convey timeless scholarly opinion.",
+      "Combine 'is' with the past participle 'believed' and the infinitive 'to have been'."
+    ],
+    "hints": [
+      "Which passive pattern is used when 'people believe that...' is turned around?",
+      "The subject is the settlement, but it does not do the believing.",
+      "This is an impersonal passive with a following infinitive phrase."
+    ],
+    "tags": [
+      "impersonal-passive",
+      "is-believed-to",
+      "academic-tone",
+      "stative-passive"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-069",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "modal-passive",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.85,
+    "prompt": "The artefacts __________ (must / display) under controlled climatic conditions to prevent deterioration.",
+    "answerKey": "must be displayed",
+    "explanation": "The modal passive 'must be displayed' expresses an absolute requirement in the passive voice, foregrounding the preservation protocol rather than the curators.",
+    "explanationSteps": [
+      "Identify the modal 'must' expressing mandatory requirement.",
+      "Convert 'display' into its past participle.",
+      "Insert 'be' between the modal and the participle to complete the passive."
+    ],
+    "hints": [
+      "The artefacts receive the action, so the passive voice is obligatory.",
+      "The structure is modal + be + past participle.",
+      "Which form of 'display' functions as a past participle?"
+    ],
+    "tags": [
+      "modal-passive",
+      "obligation",
+      "preservation",
+      "museum-context"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-070",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "get-passive",
+    "level": "C2",
+    "questionType": "transformation",
+    "difficulty": 0.82,
+    "prompt": "Recast using a passive construction with 'get' to convey an informal, dynamic event: 'Someone leaked the confidential memo to the press.'",
+    "answerKey": "The confidential memo got leaked to the press.",
+    "explanation": "The 'get'-passive introduces an informal, eventive quality, suggesting an unfortunate happening to the memo rather than a neutral description, which suits the dramatic context of a leak.",
+    "explanationSteps": [
+      "Identify the object to be foregrounded: 'the confidential memo'.",
+      "Select 'get' as the passive auxiliary for informal, dynamic passives.",
+      "Form the past participle 'leaked' to complete the construction."
+    ],
+    "hints": [
+      "Which passive auxiliary carries an informal, happening-to-someone nuance?",
+      "The 'get' passive often suggests an event with consequences for the subject.",
+      "Keep the prepositional phrase 'to the press' unchanged."
+    ],
+    "tags": [
+      "get-passive",
+      "informal-register",
+      "eventive",
+      "leak-context"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c2-071",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "modal-perfect",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.87,
+    "prompt": "Given the lack of fingerprints, the intruder __________ gloves during the break-in.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "must have worn"
+      },
+      {
+        "key": "B",
+        "text": "had to wear"
+      },
+      {
+        "key": "C",
+        "text": "should have worn"
+      },
+      {
+        "key": "D",
+        "text": "needn't have worn"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "'Had to wear' states a past obligation rather than the logical deduction the evidence demands.",
+      "C": "'Should have worn' implies a recommendation, not the strong inference supported by the lack of evidence.",
+      "D": "'Needn't have worn' suggests an unnecessary action, which contradicts the logical conclusion."
+    },
+    "explanation": "'Must have worn' expresses a confident past deduction based on compelling evidence, an epistemic modal perfect that demonstrates how grammar supports forensic reasoning.",
+    "explanationSteps": [
+      "Identify the deductive context: absence of fingerprints implies glove use.",
+      "Select the epistemic modal 'must' for strong logical conclusion.",
+      "Use the perfect infinitive 'have worn' to place the deduction in the past."
+    ],
+    "hints": [
+      "Which modal is used for strong logical deduction in the past?",
+      "The evidence points to a necessary conclusion about what happened.",
+      "Modal + have + past participle is the structure for past deduction."
+    ],
+    "tags": [
+      "modal-perfect",
+      "epistemic",
+      "deduction",
+      "forensic-context"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-072",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "marginal-modals",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.84,
+    "prompt": "You __________ (need / worry) about the discrepancy; the audit has already accounted for it.",
+    "answerKey": "needn't worry",
+    "explanation": "'Needn't worry' states that anxiety is unnecessary with elegant brevity, a marginal modal usage that conveys reassurance in a single, refined word.",
+    "explanationSteps": [
+      "Determine the intended meaning: absence of necessity, not prohibition.",
+      "Select 'need' as a marginal modal followed by the bare infinitive.",
+      "Add 'n't' to form the negative, expressing that worry is unnecessary."
+    ],
+    "hints": [
+      "Which marginal modal means 'do not need to' without adding 'to'?",
+      "The audit result removes the necessity for concern.",
+      "This is a negative form of a semi-modal verb."
+    ],
+    "tags": [
+      "marginal-modals",
+      "neednt",
+      "reassurance",
+      "audit-context"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c2-073",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "bare-infinitive",
+    "level": "C2",
+    "questionType": "error-correction",
+    "difficulty": 0.81,
+    "prompt": "Correct the sentence: 'They must to submit the revised chapter by Friday, or the publisher will withdraw the contract.'",
+    "answerKey": "They must submit the revised chapter by Friday, or the publisher will withdraw the contract.",
+    "explanation": "The modal verb 'must' is followed directly by the bare infinitive without 'to'; this correction restores the streamlined authority that makes modals so powerful in regulatory language.",
+    "explanationSteps": [
+      "Locate the modal verb 'must'.",
+      "Recall that modals are always followed by the bare infinitive.",
+      "Remove 'to' so that 'submit' follows 'must' directly."
+    ],
+    "hints": [
+      "Which modal is incorrectly followed by 'to' in the sentence?",
+      "All central modal verbs take the bare infinitive.",
+      "The correction makes the sentence more forceful and idiomatic."
+    ],
+    "tags": [
+      "modal-verbs",
+      "must",
+      "bare-infinitive",
+      "error-correction"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-c2-074",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "marginal-modals",
+    "level": "C2",
+    "questionType": "transformation",
+    "difficulty": 0.85,
+    "prompt": "Rewrite using 'need' as a marginal modal to express lack of necessity: 'You don't have to attend the supplementary session.'",
+    "answerKey": "You needn't attend the supplementary session.",
+    "explanation": "Using 'need' as a marginal modal compresses the sentence with formal elegance, demonstrating the concision that distinguishes advanced prose from everyday speech.",
+    "explanationSteps": [
+      "Identify the meaning: lack of necessity.",
+      "Select 'need' as a modal verb followed by the bare infinitive.",
+      "Form the negative 'needn't' and remove 'don't have to'."
+    ],
+    "hints": [
+      "Which single word can replace 'don't have to' in formal English?",
+      "As a modal, 'need' takes the bare infinitive without 'to'.",
+      "The negative contraction is 'needn't'."
+    ],
+    "tags": [
+      "marginal-modals",
+      "neednt",
+      "transformation",
+      "concision"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c2-075",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "epistemic-modals",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.88,
+    "prompt": "The ambassador's tone was ambiguous; he __________ have been expressing dissatisfaction, or he may simply have been tired.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "might"
+      },
+      {
+        "key": "B",
+        "text": "must"
+      },
+      {
+        "key": "C",
+        "text": "should"
+      },
+      {
+        "key": "A",
+        "text": "would"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "'Must have been' expresses certainty, which clashes with the ambiguity signalled by 'or he may simply have been tired'.",
+      "C": "'Should have been' implies an unfulfilled obligation or expectation, not the tentative possibility the context requires.",
+      "A": "'Would have been' introduces a hypothetical condition that is not present in the sentence."
+    },
+    "explanation": "'Might have been' conveys a tentative past possibility, a nuanced epistemic choice that respects the ambassador's ambiguity without forcing a single interpretation.",
+    "explanationSteps": [
+      "Recognise the context of ambiguity and dual possibility.",
+      "Select the epistemic modal 'might' for tentative speculation.",
+      "Use the perfect infinitive 'have been' to locate the possibility in the past."
+    ],
+    "hints": [
+      "Which modal expresses the weakest, most tentative possibility in the past?",
+      "The phrase 'or he may' signals that certainty is impossible.",
+      "Modal + have + been + -ing or adjective is the structure for past speculation."
+    ],
+    "tags": [
+      "modal-perfect",
+      "epistemic",
+      "tentative",
+      "diplomatic-context"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-076",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "preference-modals",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.86,
+    "prompt": "She __________ (would rather / not / discuss) the matter in open court, given its sensitive nature.",
+    "answerKey": "would rather not discuss",
+    "explanation": "'Would rather not discuss' expresses a firm but polite preference against an action, a modal construction that preserves dignity while stating a clear position.",
+    "explanationSteps": [
+      "Identify the modal expression of preference: 'would rather'.",
+      "Place 'not' between 'rather' and the bare infinitive.",
+      "Use the bare infinitive 'discuss' without 'to'."
+    ],
+    "hints": [
+      "Where does 'not' go in a 'would rather' negative construction?",
+      "The verb after 'would rather' is always a bare infinitive.",
+      "This construction expresses preference, not obligation."
+    ],
+    "tags": [
+      "would-rather",
+      "preference",
+      "negative",
+      "legal-context"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-077",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "sentential-relatives",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.88,
+    "prompt": "The expedition encountered numerous obstacles, all of __________ had been predicted by the meteorological team.",
+    "answerKey": "which",
+    "explanation": "'All of which' elegantly continues the non-defining relative clause, allowing the pronoun to refer to the entire preceding situation rather than a single noun, a hallmark of sophisticated syntax.",
+    "explanationSteps": [
+      "Identify that the antecedent is the whole preceding clause or plural obstacles.",
+      "Select 'which' as the relative pronoun after a preposition in non-defining clauses.",
+      "Combine with 'all of' to create a quantitative sentential relative."
+    ],
+    "hints": [
+      "Which relative pronoun follows prepositions in formal non-defining clauses?",
+      "'All of' requires an object pronoun, not a subject pronoun.",
+      "The antecedent here is the obstacles or the entire situation."
+    ],
+    "tags": [
+      "sentential-relative",
+      "all-of-which",
+      "non-defining",
+      "formal-syntax"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-078",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "defining-relatives",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.85,
+    "prompt": "The candidates __________ passed the preliminary interview will proceed to the assessment centre next week.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "who"
+      },
+      {
+        "key": "B",
+        "text": "whom"
+      },
+      {
+        "key": "C",
+        "text": "which"
+      },
+      {
+        "key": "A",
+        "text": "whose"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "'Whom' is the object form, but the relative pronoun here is the subject of 'passed'.",
+      "C": "'Which' refers to things, not people, and cannot replace 'candidates'.",
+      "A": "'Whose' indicates possession, which is not the relationship required in this clause."
+    },
+    "explanation": "'Who' functions as the subject relative pronoun in a defining clause, a precise grammatical choice that maintains the formal register of recruitment discourse.",
+    "explanationSteps": [
+      "Determine that the relative pronoun is the subject of the clause 'passed the interview'.",
+      "Select the subject form 'who' for human antecedents.",
+      "Reject 'whom' because it functions as an object, not a subject."
+    ],
+    "hints": [
+      "Does the relative pronoun perform the action of 'passing' or receive it?",
+      "The subject form is needed when the pronoun is the doer of the verb.",
+      "This is a defining relative clause specifying which candidates."
+    ],
+    "tags": [
+      "defining-relative",
+      "who-vs-whom",
+      "subject-pronoun",
+      "recruitment-context"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-079",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "relative-pronouns",
+    "level": "C2",
+    "questionType": "error-correction",
+    "difficulty": 0.83,
+    "prompt": "Correct the sentence: 'The professor, which has published extensively on medieval law, will deliver the keynote address.'",
+    "answerKey": "The professor, who has published extensively on medieval law, will deliver the keynote address.",
+    "explanation": "Replacing 'which' with 'who' respects the human antecedent and the formal conventions of academic prose, ensuring your sentence reflects the precision expected at this level.",
+    "explanationSteps": [
+      "Identify the antecedent 'professor' as a human noun.",
+      "Recognise that 'which' cannot refer to people in standard relative clauses.",
+      "Replace 'which' with 'who' for the non-defining clause."
+    ],
+    "hints": [
+      "Which relative pronoun is used for people in non-defining clauses?",
+      "'Which' refers to things or propositions, not individuals.",
+      "The comma signals a non-defining clause, which requires 'who' for people."
+    ],
+    "tags": [
+      "relative-pronouns",
+      "who-vs-which",
+      "non-defining",
+      "academic-prose"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c2-080",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "reduced-relatives",
+    "level": "C2",
+    "questionType": "transformation",
+    "difficulty": 0.86,
+    "prompt": "Combine the sentences using a reduced relative clause: 'The report was submitted last week. It contains several recommendations.'",
+    "answerKey": "The report submitted last week contains several recommendations.",
+    "explanation": "Reducing the passive relative clause by omitting 'which was' produces a concise, elegant construction typical of formal reports and editorial writing.",
+    "explanationSteps": [
+      "Identify the passive relative clause: 'which was submitted last week'.",
+      "Omit the relative pronoun and the passive auxiliary 'was'.",
+      "Retain the past participle 'submitted' as a reduced modifier."
+    ],
+    "hints": [
+      "Which words can be omitted when a passive relative clause is reduced?",
+      "The past participle alone can modify the noun.",
+      "Remove both the pronoun and the form of 'be'."
+    ],
+    "tags": [
+      "reduced-relative",
+      "participle-clause",
+      "concision",
+      "formal-writing"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-081",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "possessive-relatives",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.87,
+    "prompt": "The institution, __________ reputation rests on rigorous peer review, has never retracted a published article.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "whose"
+      },
+      {
+        "key": "B",
+        "text": "of which"
+      },
+      {
+        "key": "C",
+        "text": "which"
+      },
+      {
+        "key": "A",
+        "text": "its"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "'Of which the reputation' is possible but archaic and less idiomatic than the modern possessive relative.",
+      "C": "'Which reputation' is not grammatical; 'which' cannot function as a possessive determiner.",
+      "A": "'Its' would create a comma splice or fused sentence without a conjunction or relative pronoun."
+    },
+    "explanation": "'Whose' functions as a possessive relative pronoun referring to an institution, a usage that has replaced older 'of which' constructions in modern formal English.",
+    "explanationSteps": [
+      "Identify the possessive relationship: the institution's reputation.",
+      "Select 'whose' as the possessive relative pronoun.",
+      "Confirm that 'whose' can refer to non-human antecedents in contemporary usage."
+    ],
+    "hints": [
+      "Which relative pronoun expresses possession?",
+      "'Whose' is no longer restricted to people; it can refer to institutions and things.",
+      "The comma signals a non-defining clause."
+    ],
+    "tags": [
+      "possessive-relative",
+      "whose",
+      "institutional-context",
+      "non-defining"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-082",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "prepositional-relatives",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.88,
+    "prompt": "She finally read the letter for __________ she had been searching for months.",
+    "answerKey": "which",
+    "explanation": "'For which' places the preposition formally at the front of the relative clause, a stylistic choice that signals meticulous attention to register in written English.",
+    "explanationSteps": [
+      "Identify the verb-preposition collocation: 'search for'.",
+      "Select the relative pronoun 'which' for the formal prepositional fronting.",
+      "Combine into 'for which' to maintain elevated register."
+    ],
+    "hints": [
+      "Which preposition collocates with 'search'?",
+      "In formal English, the preposition can precede the relative pronoun.",
+      "The object form 'which' is required after a preposition."
+    ],
+    "tags": [
+      "prepositional-relative",
+      "search-for",
+      "formal-fronting",
+      "literary-context"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-083",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "backshift-exceptions",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.85,
+    "prompt": "The physicist stated that water __________ at 100 degrees Celsius at standard pressure.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "boils"
+      },
+      {
+        "key": "B",
+        "text": "boiled"
+      },
+      {
+        "key": "C",
+        "text": "would boil"
+      },
+      {
+        "key": "A",
+        "text": "had boiled"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "Backshifting to 'boiled' would wrongly suggest that the boiling point has changed or was a past fact.",
+      "C": "The conditional 'would boil' introduces an unwanted hypothetical nuance to a universal truth.",
+      "A": "The past perfect 'had boiled' would distort the timeless, general nature of the scientific fact."
+    },
+    "explanation": "When reporting universal truths or scientific facts, the present tense is retained rather than backshifted, a convention that preserves the eternal validity of the statement.",
+    "explanationSteps": [
+      "Identify the reported statement as a universal scientific truth.",
+      "Recall that universal truths resist backshift in reported speech.",
+      "Retain the present simple 'boils' to maintain scientific accuracy."
+    ],
+    "hints": [
+      "Which category of statements typically avoids backshift in reported speech?",
+      "The boiling point of water is a timeless fact, not a time-bound event.",
+      "Scientific truths usually stay in the present tense even when reported."
+    ],
+    "tags": [
+      "reported-speech",
+      "universal-truths",
+      "backshift",
+      "scientific-context"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-084",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "reporting-verbs",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.84,
+    "prompt": "The journalist __________ (wonder) whether the committee would reconsider its stance before the deadline.",
+    "answerKey": "wondered",
+    "explanation": "'Wondered' introduces a reported question with the appropriate tentativeness, a sophisticated reporting verb that conveys curiosity without demanding an answer.",
+    "explanationSteps": [
+      "Select a reporting verb that naturally introduces indirect questions.",
+      "Use the past tense to maintain backshift from the original present 'wonder'.",
+      "Ensure the verb collocates with 'whether' in indirect speech."
+    ],
+    "hints": [
+      "Which verb expresses curiosity about a possibility rather than a direct statement?",
+      "The original thought was in the present, so backshift to the past.",
+      "This verb is commonly followed by 'if' or 'whether'."
+    ],
+    "tags": [
+      "reporting-verbs",
+      "wonder",
+      "indirect-questions",
+      "journalism-context"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c2-085",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "say-vs-tell",
+    "level": "C2",
+    "questionType": "error-correction",
+    "difficulty": 0.82,
+    "prompt": "Correct the sentence: 'She said me that she would consider the proposal carefully.'",
+    "answerKey": "She told me that she would consider the proposal carefully.",
+    "explanation": "The verb 'say' does not take an indirect object without 'to'; switching to 'told' restores the standard ditransitive pattern and keeps your reported speech idiomatic.",
+    "explanationSteps": [
+      "Identify that 'said me' is not grammatical in standard English.",
+      "Replace 'said' with 'told', which takes an indirect object directly.",
+      "Alternatively, insert 'to' after 'said', though 'told' is more concise."
+    ],
+    "hints": [
+      "Which reporting verb takes an indirect object without a preposition?",
+      "'Say to someone' is possible, but 'tell someone' is more direct.",
+      "The correction makes the sentence immediately more natural."
+    ],
+    "tags": [
+      "reported-speech",
+      "say-vs-tell",
+      "ditransitive",
+      "error-correction"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-c2-086",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "complex-reporting-verbs",
+    "level": "C2",
+    "questionType": "transformation",
+    "difficulty": 0.86,
+    "prompt": "Convert into reported speech using a complex reporting verb: 'I will not tolerate any further delays,' the manager declared.",
+    "answerKey": "The manager declared that he would not tolerate any further delays.",
+    "explanation": "Shifting from direct to reported speech with 'declared' preserves the authoritative tone while applying the standard rules of backshift and pronoun adjustment.",
+    "explanationSteps": [
+      "Select 'declared' as a formal reporting verb conveying authority.",
+      "Backshift 'will' to 'would' and adjust 'I' to 'he'.",
+      "Remove the quotation marks and integrate the clause with 'that'."
+    ],
+    "hints": [
+      "Which reporting verb carries a sense of official authority?",
+      "Remember to shift the future modal back into the past.",
+      "The first-person pronoun must change to third person."
+    ],
+    "tags": [
+      "reported-speech",
+      "declare",
+      "backshift",
+      "authority"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c2-087",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "modal-backshift",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.85,
+    "prompt": "Which sentence best exemplifies the backshift of a modal in reported speech?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "She said she can speak Mandarin."
+      },
+      {
+        "key": "B",
+        "text": "She said she could speak Mandarin."
+      },
+      {
+        "key": "C",
+        "text": "She says she could speak Mandarin."
+      },
+      {
+        "key": "D",
+        "text": "She said she speaks Mandarin."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The modal 'can' remains in the present, failing to backshift after the past reporting verb 'said'.",
+      "C": "The reporting verb is in the present, so backshift is unnecessary and 'could' creates a misleading hypothetical nuance.",
+      "D": "The present simple 'speaks' ignores the need for backshift and implies a general truth rather than a reported ability."
+    },
+    "explanation": "'Could' is the standard backshifted form of 'can' in reported speech, demonstrating how modality adjusts to the temporal frame of the reporting verb.",
+    "explanationSteps": [
+      "Recall that 'can' typically backshifts to 'could' in past reported speech.",
+      "Identify the past reporting verb 'said'.",
+      "Select the sentence where the modal shifts appropriately."
+    ],
+    "hints": [
+      "Which modal of ability changes form in past reported speech?",
+      "The reporting verb 'said' is in the past tense.",
+      "Look for the backshifted counterpart of 'can'."
+    ],
+    "tags": [
+      "reported-speech",
+      "backshift",
+      "modal",
+      "ability"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c2-088",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "complex-reporting-verbs",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.85,
+    "prompt": "The analyst __________ (acknowledge) that the forecast had underestimated consumer demand.",
+    "answerKey": "acknowledged",
+    "explanation": "'Acknowledged' is a nuanced reporting verb that implies reluctant or formal admission of a fact, adding professional gravity to the reported statement.",
+    "explanationSteps": [
+      "Select a reporting verb that conveys formal admission of a prior fact.",
+      "Use the past tense to maintain backshift.",
+      "Ensure the verb collocates naturally with a 'that'-clause."
+    ],
+    "hints": [
+      "Which verb means to admit something as true, especially in a professional context?",
+      "The original statement was in the past, so backshift is appropriate.",
+      "This verb carries more weight than simply 'said'."
+    ],
+    "tags": [
+      "reporting-verbs",
+      "acknowledge",
+      "backshift",
+      "professional-context"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c2-089",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "contrastive-connectors",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.86,
+    "prompt": "The northern regions experienced abundant rainfall, __________ the south suffered a prolonged drought.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "whereas"
+      },
+      {
+        "key": "B",
+        "text": "although"
+      },
+      {
+        "key": "C",
+        "text": "however"
+      },
+      {
+        "key": "D",
+        "text": "therefore"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "'Although' introduces a subordinate clause of concession, but the sentence requires a direct contrast between two independent facts.",
+      "C": "'However' is typically followed by a comma and cannot link two clauses of equal weight in this structural position without heavier punctuation.",
+      "D": "'Therefore' signals a result, which is the opposite of the contrastive relationship intended."
+    },
+    "explanation": "'Whereas' introduces a sharp, formal contrast between two parallel situations, a connector prized in comparative analysis and academic register.",
+    "explanationSteps": [
+      "Analyse the relationship: two regions with opposite weather patterns.",
+      "Identify the need for a contrastive conjunction linking parallel clauses.",
+      "Select 'whereas' for its formal, direct comparative force."
+    ],
+    "hints": [
+      "Which connector is used to draw a direct comparison between two contrasting facts?",
+      "The clauses are of equal grammatical weight and describe opposite conditions.",
+      "This word is common in formal comparative writing."
+    ],
+    "tags": [
+      "contrastive-connectors",
+      "whereas",
+      "comparative",
+      "academic-register"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-090",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "qualified-concession",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.88,
+    "prompt": "The hypothesis is plausible __________ it has not yet been subjected to empirical validation.",
+    "answerKey": "insofar as",
+    "explanation": "'Insofar as' introduces a qualified concession, acknowledging a limited degree of truth while reserving final judgment, a measured connector suited to cautious academic prose.",
+    "explanationSteps": [
+      "Recognise the need for a concessive connector that limits the scope of plausibility.",
+      "Select 'insofar as' to introduce the condition or limitation.",
+      "Place it to link the positive assessment with the reservation."
+    ],
+    "hints": [
+      "Which two-word phrase means 'to the extent that' and introduces a qualified agreement?",
+      "It signals that the acceptance is partial, not absolute.",
+      "This connector is common in philosophical and academic argumentation."
+    ],
+    "tags": [
+      "concessive-connectors",
+      "insofar-as",
+      "qualification",
+      "academic-prose"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-091",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "discourse-markers",
+    "level": "C2",
+    "questionType": "error-correction",
+    "difficulty": 0.83,
+    "prompt": "Correct the sentence: 'The results were promising, moreover the sample size was too small to generalise.'",
+    "answerKey": "The results were promising; however, the sample size was too small to generalise.",
+    "explanation": "Replacing the additive 'moreover' with the adversative 'however' restores the logical contrast intended between promise and limitation, keeping your argument coherent.",
+    "explanationSteps": [
+      "Analyse the semantic relationship: promise versus limitation.",
+      "Recognise that 'moreover' adds information, but contrast is needed.",
+      "Replace with 'however' and adjust punctuation to a semicolon or full stop."
+    ],
+    "hints": [
+      "Does the second clause add to the first or contrast with it?",
+      "'Moreover' is additive; you need an adversative connector.",
+      "A semicolon before 'however' is the most formal punctuation choice."
+    ],
+    "tags": [
+      "discourse-markers",
+      "however",
+      "contrast",
+      "error-correction"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c2-092",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "conjunctive-adverbs",
+    "level": "C2",
+    "questionType": "transformation",
+    "difficulty": 0.85,
+    "prompt": "Rewrite using a conjunctive adverb and appropriate punctuation: 'The legislation was enacted, but many critics argued that it did not go far enough.'",
+    "answerKey": "The legislation was enacted; however, many critics argued that it did not go far enough.",
+    "explanation": "Using 'however' as a conjunctive adverb after a semicolon elevates the register and clarifies the adversative relationship, a punctuation strategy that signals sophisticated control.",
+    "explanationSteps": [
+      "Identify the contrast between enactment and criticism.",
+      "Select 'however' as the formal conjunctive adverb.",
+      "Replace the comma and 'but' with a semicolon and comma around 'however'."
+    ],
+    "hints": [
+      "Which conjunctive adverb signals formal contrast?",
+      "It should follow a semicolon and be set off by a comma.",
+      "This transformation removes the coordinating conjunction entirely."
+    ],
+    "tags": [
+      "conjunctive-adverbs",
+      "however",
+      "semicolon",
+      "transformation"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-093",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "conditional-connectors",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.85,
+    "prompt": "The contract is binding, __________ the signatures of both parties appear on the final page.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "provided that"
+      },
+      {
+        "key": "B",
+        "text": "although"
+      },
+      {
+        "key": "C",
+        "text": "unless"
+      },
+      {
+        "key": "D",
+        "text": "whereas"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "'Although' introduces a concession, but the second clause states a necessary condition rather than an opposing fact.",
+      "C": "'Unless' introduces a negative condition, which contradicts the positive requirement stated in the sentence.",
+      "D": "'Whereas' draws a contrast between two situations, not a condition for validity."
+    },
+    "explanation": "'Provided that' introduces a formal stipulation, specifying the exact condition under which the contract remains binding, a connector essential in legal and regulatory language.",
+    "explanationSteps": [
+      "Identify the conditional relationship: binding status depends on signatures.",
+      "Select a formal conditional connector.",
+      "Confirm that 'provided that' signals a positive stipulation."
+    ],
+    "hints": [
+      "Which connector means 'on the condition that' in formal legal language?",
+      "The sentence states what must happen for the contract to be valid.",
+      "It begins with a past participle used as a conditional marker."
+    ],
+    "tags": [
+      "conditional-connectors",
+      "provided-that",
+      "legal-language",
+      "stipulation"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-094",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "concessive-connectors",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.84,
+    "prompt": "The expedition was arduous; __________, every member returned safely, and the data gathered proved invaluable.",
+    "answerKey": "nevertheless",
+    "explanation": "'Nevertheless' introduces a concessive contrast after a semicolon, acknowledging difficulty while celebrating success, a rhetorical move that lends balance and maturity to the prose.",
+    "explanationSteps": [
+      "Analyse the relationship: arduous journey versus successful outcome.",
+      "Select a formal concessive connector suitable after a semicolon.",
+      "Place 'nevertheless' to signal the rhetorical shift."
+    ],
+    "hints": [
+      "Which connector means 'in spite of that' and fits after a semicolon?",
+      "The second clause counters the expectation set up by the first.",
+      "This word signals a triumph over adversity."
+    ],
+    "tags": [
+      "concessive-connectors",
+      "nevertheless",
+      "semicolon",
+      "expedition-context"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-095",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "quantification",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.86,
+    "prompt": "__________ number of applicants has risen sharply, while __________ number who qualify remains unchanged.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "The; the"
+      },
+      {
+        "key": "B",
+        "text": "A; the"
+      },
+      {
+        "key": "C",
+        "text": "The; a"
+      },
+      {
+        "key": "A",
+        "text": "A; a"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "'A number' refers to an indefinite quantity, but the first clause requires the definite phrase 'the number' to mean the total count.",
+      "C": "While 'the number' is correct for the first gap, 'a number who qualify' is unidiomatic; the relative clause makes the group definite.",
+      "A": "Both gaps require the definite article because both refer to specific, quantifiable totals."
+    },
+    "explanation": "'The number of' refers to a specific, countable total, while the second 'the number' is similarly particularised by the defining relative clause, demonstrating how articles track definiteness in quantitative expressions.",
+    "explanationSteps": [
+      "Recognise 'the number of' as the fixed phrase meaning a specific total.",
+      "Note that the second 'number' is defined by 'who qualify'.",
+      "Apply 'the' to both gaps for precise quantification."
+    ],
+    "hints": [
+      "Which article accompanies 'number of' when referring to a specific total?",
+      "'A number of' means 'several', while 'the number of' means 'the total'.",
+      "The relative clause 'who qualify' makes the second group specific."
+    ],
+    "tags": [
+      "articles",
+      "the-number-of",
+      "quantification",
+      "determiners"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-096",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "zero-article",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.84,
+    "prompt": "There is __________ little evidence to support the claim that __________ technology alone can solve the crisis.",
+    "answerKey": "--; /",
+    "explanation": "With abstract nouns such as 'evidence' and 'technology' used in a broad, generic sense, the zero article creates a universal, editorial tone that signals confidence and concision.",
+    "explanationSteps": [
+      "Assess 'evidence' as an uncountable abstract noun used generally.",
+      "Assess 'technology' as a generic, uncountable concept.",
+      "Omit articles to achieve the editorial, universal reading."
+    ],
+    "hints": [
+      "Are these nouns referring to specific instances or general concepts?",
+      "Uncountable abstract nouns often drop the article in formal editorial style.",
+      "The sentence makes a universal claim, not a specific one."
+    ],
+    "tags": [
+      "zero-article",
+      "abstract-nouns",
+      "editorial-style",
+      "universal-claims"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-097",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "award-categories",
+    "level": "C2",
+    "questionType": "error-correction",
+    "difficulty": 0.83,
+    "prompt": "Correct the sentence: 'She was awarded the Nobel Prize for the Literature in 2023.'",
+    "answerKey": "She was awarded the Nobel Prize for Literature in 2023.",
+    "explanation": "Abstract fields of study and artistic categories such as 'Literature' drop the definite article when used as a proper award category, a convention that reflects institutional naming practice.",
+    "explanationSteps": [
+      "Identify 'Literature' as an award category rather than a specific body of work.",
+      "Recognise that names of academic subjects and prize categories often take zero article.",
+      "Remove 'the' before 'Literature'."
+    ],
+    "hints": [
+      "Is 'Literature' here a specific book or an award category?",
+      "Names of subjects and arts typically appear without an article in this context.",
+      "The Nobel Prize categories follow this pattern."
+    ],
+    "tags": [
+      "zero-article",
+      "award-categories",
+      "proper-names",
+      "error-correction"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "eg-c2-098",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "headline-style",
+    "level": "C2",
+    "questionType": "transformation",
+    "difficulty": 0.85,
+    "prompt": "Rewrite in headline style by omitting unnecessary articles: 'The government has announced a major reform of the education system.'",
+    "answerKey": "Government announces major reform of education system.",
+    "explanation": "Headline style drops articles and auxiliaries to achieve maximum impact and brevity, a register that demands every word carry significant weight.",
+    "explanationSteps": [
+      "Remove the definite article 'The' before 'government'.",
+      "Omit the auxiliary 'has' and change 'announced' to present simple for immediacy.",
+      "Drop 'a' before 'major reform' and 'the' before 'education system'."
+    ],
+    "hints": [
+      "Headlines often omit articles to save space and increase impact.",
+      "Which verb form is standard in headlines for recent events?",
+      "The present simple replaces present perfect for immediacy."
+    ],
+    "tags": [
+      "headline-style",
+      "zero-article",
+      "transformation",
+      "journalism"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "eg-c2-099",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "nuanced-article-usage",
+    "level": "C2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.87,
+    "prompt": "She held __________ unique position among her peers, commanding __________ respect that transcended departmental boundaries.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a; a"
+      },
+      {
+        "key": "B",
+        "text": "the; /"
+      },
+      {
+        "key": "C",
+        "text": "/; the"
+      },
+      {
+        "key": "D",
+        "text": "a; /"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "A": "'A respect' incorrectly turns the uncountable abstract noun into a countable instance.",
+      "B": "'The unique position' over-defines it; the position is being introduced as one of a kind rather than previously known.",
+      "C": "Omitting 'a' before 'unique position' leaves the noun phrase grammatically incomplete in this context."
+    },
+    "explanation": "'A unique position' introduces a singular, countable role, while zero article before the uncountable 'respect' maintains the abstract, universal tone, a pairing that demonstrates sophisticated article control.",
+    "explanationSteps": [
+      "Identify 'position' as a singular countable noun requiring an article.",
+      "Note that 'respect' is used abstractly and uncountably here.",
+      "Apply 'a' to the countable role and zero article to the abstract quality."
+    ],
+    "hints": [
+      "Which article is needed before a singular countable noun being introduced?",
+      "Abstract nouns in a general sense frequently drop the article in formal prose.",
+      "The adjective 'unique' begins with a consonant sound, so the article is 'a'."
+    ],
+    "tags": [
+      "articles",
+      "uncountable-nouns",
+      "unique",
+      "abstract-respect"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "eg-c2-100",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "titles-and-roles",
+    "level": "C2",
+    "questionType": "gap-filling",
+    "difficulty": 0.84,
+    "prompt": "As __________ managing director of __________ merged entity, she wielded considerable influence over both divisions.",
+    "answerKey": "--; the",
+    "explanation": "Unique institutional titles drop the article for concision, while 'the merged entity' is particularised by context and requires definiteness, a distinction that signals editorial precision.",
+    "explanationSteps": [
+      "Recognise 'managing director' as a unique title in this context.",
+      "Note that 'merged entity' is specific and definite in the sentence.",
+      "Apply zero article to the title and 'the' to the specific entity."
+    ],
+    "hints": [
+      "Unique posts and titles often drop the article when the referent is clear.",
+      "Which article is needed when the noun is clearly defined by the context?",
+      "The first gap is a title; the second gap is a specific, known organisation."
+    ],
+    "tags": [
+      "titles",
+      "definite-article",
+      "zero-article",
+      "corporate-context"
+    ],
+    "estimatedTimeSec": 45
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "hint-01",
+    "text": "Think about WHO is doing the action — one person or many?",
+    "context": "subject-verb-agreement",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "hint-02",
+    "text": "Look for time words like 'yesterday', 'now', or 'tomorrow' — they give big clues!",
+    "context": "tense-aspect",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "hint-03",
+    "text": "When the subject is he/she/it, the verb changes in present tense.",
+    "context": "subject-verb-agreement",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "hint-04",
+    "text": "Say the first word out loud — does it start with a vowel sound or a consonant sound?",
+    "context": "articles-determiners",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "hint-05",
+    "text": "Imagine the scene in your mind — where are the things in relation to each other?",
+    "context": "prepositions",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "hint-06",
+    "text": "Is this action happening right now, or is it a habit or routine?",
+    "context": "tense-aspect",
+    "minLevel": "growing"
+  },
+  {
+    "id": "hint-07",
+    "text": "Modal verbs like 'can', 'must', and 'may' don't change form for different subjects.",
+    "context": "modal-verbs",
+    "minLevel": "growing"
+  },
+  {
+    "id": "hint-08",
+    "text": "For unique things everyone knows — like the sun or the moon — we use a special article.",
+    "context": "articles-determiners",
+    "minLevel": "growing"
+  },
+  {
+    "id": "hint-09",
+    "text": "If the sentence gives a condition ('if...'), think about whether it's real or imaginary.",
+    "context": "conditionals",
+    "minLevel": "developing"
+  },
+  {
+    "id": "hint-10",
+    "text": "In reported speech, tenses usually shift one step back into the past.",
+    "context": "reported-speech",
+    "minLevel": "developing"
+  },
+  {
+    "id": "hint-11",
+    "text": "Passive voice focuses on what happens to something, not who does it. Look for 'by' phrases.",
+    "context": "passive-voice",
+    "minLevel": "developing"
+  },
+  {
+    "id": "hint-12",
+    "text": "Relative clauses describe nouns. Ask yourself: do we need this information to identify which one?",
+    "context": "relative-clauses",
+    "minLevel": "proficient"
+  },
+  {
+    "id": "hint-13",
+    "text": "Check if the subject is singular or plural — this is one of the most common grammar checks!",
+    "context": "subject-verb-agreement",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "hint-14",
+    "text": "'At' = exact time, 'on' = days, 'in' = months/years. This pattern helps a lot!",
+    "context": "prepositions",
+    "minLevel": "growing"
+  },
+  {
+    "id": "hint-15",
+    "text": "Words like 'everyone', 'someone', and 'anybody' are always singular, even if they feel plural.",
+    "context": "subject-verb-agreement",
+    "minLevel": "developing"
+  },
+  {
+    "id": "hint-16",
+    "text": "Look for signal words: 'since' and 'for' often point to present perfect tense.",
+    "context": "tense-aspect",
+    "minLevel": "growing"
+  },
+  {
+    "id": "hint-17",
+    "text": "When transforming sentences, identify the tense first, then change the verb form accordingly.",
+    "context": "tense-aspect",
+    "minLevel": "developing"
+  },
+  {
+    "id": "hint-18",
+    "text": "Conjunctions connect ideas. Ask: do the ideas agree, contrast, or show a result?",
+    "context": "conjunctions-connectors",
+    "minLevel": "growing"
+  },
+  {
+    "id": "hint-19",
+    "text": "For movement prepositions, visualize the path: into (in), out of (out), through (across).",
+    "context": "prepositions",
+    "minLevel": "growing"
+  },
+  {
+    "id": "hint-20",
+    "text": "If you're stuck, try reading the sentence aloud — sometimes your ear knows the answer!",
+    "context": "general",
+    "minLevel": "seedling"
+  }
+]

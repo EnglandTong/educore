@@ -1,0 +1,35 @@
+{
+  "skillId": "passive-voice",
+  "skillName": "Passive Voice",
+  "title": "Understanding Passive Voice: Helping Your Child See Both Sides",
+  "whatIsIt": "Passive voice is when the object of an action becomes the subject of the sentence. In active voice, we say 'The chef cooked the meal' (focus on the chef). In passive voice, we say 'The meal was cooked by the chef' (focus on the meal). Passive voice is incredibly useful when we don't know who did something, when the doer isn't important, or when we want to sound more formal and objective. It's a tool that gives writers flexibility in where they place emphasis.",
+  "howToHelp": [
+    "Play 'Detective Mystery' — describe events without naming the culprit: 'The window was broken. The cookies were eaten.' Let your child guess who did it! This makes passive voice feel like a puzzle, not a grammar rule.",
+    "Point out passive voice in news headlines: 'Bank Robbed Overnight' or 'New Park Opened by Mayor.' News often uses passive to focus on what happened rather than who did it.",
+    "Practice transforming sentences together: start with active ('The dog chased the cat') and flip to passive ('The cat was chased by the dog'). This builds the structural understanding.",
+    "Use science experiments to teach passive: 'The water was heated to 100 degrees.' Science writing loves passive voice because the process matters more than the person performing it.",
+    "Create a 'passive voice scavenger hunt' in instruction manuals or recipes: 'The mixture should be stirred gently.' Instructions often use passive to sound neutral and authoritative.",
+    "Help your child understand WHEN to use passive: when the doer is unknown ('My bike was stolen'), unimportant ('The bridge was built in 1900'), or when we want to be tactful ('A mistake was made')."
+  ],
+  "commonMistakes": [
+    "Forgetting the verb 'be': 'The cake made by Mom' instead of 'The cake WAS made by Mom.' The 'be' verb is essential for passive construction.",
+    "Using active verb form instead of past participle: 'The letter was wrote by her' instead of 'The letter was WRITTEN by her.' Passive always needs the past participle.",
+    "Adding unnecessary 'by' phrases: 'The sun was risen by itself' — some passive sentences don't need or want a 'by' phrase at all.",
+    "Overusing passive in casual conversation: while passive is useful, using it for every sentence sounds stiff and unnatural. Active voice is usually friendlier for everyday chat."
+  ],
+  "signsOfProgress": [
+    "Can convert simple active sentences to passive and back again with confidence.",
+    "Understands that passive shifts the focus from 'who did it' to 'what happened.'",
+    "Starts using passive naturally when the doer is unknown or unimportant: 'My toy was broken.'",
+    "Recognizes passive voice in reading and can explain why the author chose it.",
+    "Uses 'by' phrases appropriately — adding them when the doer matters and omitting them when they don't."
+  ],
+  "ifStruggling": [
+    "Start with present simple passive only ('is/are + past participle') before moving to past or future tenses.",
+    "Use color-coding: highlight the 'be' verb in one color and the past participle in another. Seeing the pattern makes it stick.",
+    "Focus on meaning first, form second. Ask: 'Do we care WHO did it, or WHAT happened?' This helps children choose active versus passive intentionally.",
+    "Practice with physical actions: you perform an action, your child describes it in passive. 'The book was opened by Mom.'",
+    "Don't worry about omitting the 'by' phrase at first. Including it every time is fine — nuance comes later.",
+    "Celebrate when they spot passive voice 'in the wild' — in books, signs, or news. Real-world recognition is a huge step."
+  ]
+}

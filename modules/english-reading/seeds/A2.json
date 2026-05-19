@@ -1,0 +1,1986 @@
+[
+  {
+    "id": "er-a2-001",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "context-clues",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "Read the sentence: 'The puppy was very tiny, small enough to fit in my hand.' What does 'tiny' mean?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "very big"
+      },
+      {
+        "key": "B",
+        "text": "very small"
+      },
+      {
+        "key": "C",
+        "text": "very fast"
+      },
+      {
+        "key": "D",
+        "text": "very loud"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The sentence says the puppy fits in a hand, so 'tiny' cannot mean big.",
+      "C": "The sentence talks about size, not speed.",
+      "D": "The sentence talks about size, not sound."
+    },
+    "explanation": "The sentence tells us the puppy can fit in a hand. That means it is very small, just like the word 'tiny' suggests.",
+    "explanationSteps": [
+      "Find the word 'tiny' in the sentence.",
+      "Look at the clue after it: 'small enough to fit in my hand'.",
+      "That clue tells you 'tiny' means very small."
+    ],
+    "hints": [
+      "What would fit in your hand — something big or small?",
+      "Look for other words in the sentence that give you clues."
+    ],
+    "tags": [
+      "vocabulary",
+      "context-clues",
+      "size-words"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a2-002",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "context-clues",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "Read the sentence: 'Mom told me to be gentle with the baby bird, so I held it very softly.' What does 'gentle' mean?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "rough and hard"
+      },
+      {
+        "key": "B",
+        "text": "careful and soft"
+      },
+      {
+        "key": "C",
+        "text": "fast and quick"
+      },
+      {
+        "key": "D",
+        "text": "loud and noisy"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The sentence says 'held it very softly', so gentle is the opposite of rough.",
+      "C": "The sentence is about how to touch something, not how fast.",
+      "D": "The sentence is about touch, not sound."
+    },
+    "explanation": "Being gentle means being careful and soft. The clue 'held it very softly' helps us understand what gentle means.",
+    "explanationSteps": [
+      "Find the word 'gentle' in the sentence.",
+      "Look at the action after it: 'held it very softly'.",
+      "That action tells you gentle means careful and soft."
+    ],
+    "hints": [
+      "How would you hold something very delicate?",
+      "Think about how you might touch a baby."
+    ],
+    "tags": [
+      "vocabulary",
+      "context-clues",
+      "character-traits"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a2-003",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "synonyms-antonyms",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "Which word is a synonym (means the same) as 'happy'?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "sad"
+      },
+      {
+        "key": "B",
+        "text": "glad"
+      },
+      {
+        "key": "C",
+        "text": "mad"
+      },
+      {
+        "key": "D",
+        "text": "bad"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Sad' is the opposite of 'happy', not the same.",
+      "C": "'Mad' means angry, which is different from happy.",
+      "D": "'Bad' means not good. It is not the same as happy."
+    },
+    "explanation": "'Happy' and 'glad' both describe a good, joyful feeling. They are synonyms.",
+    "explanationSteps": [
+      "Think about what 'happy' means — a good feeling.",
+      "'Glad' also describes a good feeling.",
+      "Words that mean the same thing are called synonyms."
+    ],
+    "hints": [
+      "What is another word for feeling good?",
+      "All these words rhyme. Which one means the same as 'happy'?"
+    ],
+    "tags": [
+      "vocabulary",
+      "synonyms",
+      "emotions"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "er-a2-004",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "synonyms-antonyms",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "Which word is an antonym (means the opposite) of 'begin'?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "start"
+      },
+      {
+        "key": "B",
+        "text": "end"
+      },
+      {
+        "key": "C",
+        "text": "open"
+      },
+      {
+        "key": "D",
+        "text": "go"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Start' is a synonym of 'begin', not an antonym. They mean the same thing.",
+      "C": "'Open' is not the opposite of 'begin'. Think about finishing something.",
+      "D": "'Go' does not mean the opposite of 'begin'. The opposite is to stop or finish."
+    },
+    "explanation": "'Begin' means to start something. 'End' means to finish something. They are opposites.",
+    "explanationSteps": [
+      "'Begin' means to start doing something.",
+      "When something is over, it has ended.",
+      "So 'end' is the opposite of 'begin'."
+    ],
+    "hints": [
+      "When a race starts, it begins. What happens at the finish line?",
+      "Think about the beginning and the ___ of a story."
+    ],
+    "tags": [
+      "vocabulary",
+      "antonyms",
+      "action-words"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "er-a2-005",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "prefixes-suffixes",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "If 'play' means to have fun, what does 'replay' mean?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "stop playing"
+      },
+      {
+        "key": "B",
+        "text": "play again"
+      },
+      {
+        "key": "C",
+        "text": "play badly"
+      },
+      {
+        "key": "D",
+        "text": "not play"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The prefix 're-' does not mean stop. Think about what 're' adds to a word.",
+      "C": "'Re-' does not mean 'badly'. It means 'again'.",
+      "D": "'Re-' does not mean 'not'. The prefix 'un-' means 'not'."
+    },
+    "explanation": "The prefix 're-' means 'again'. So 'replay' means to 'play again'.",
+    "explanationSteps": [
+      "The word 'replay' has two parts: 're' + 'play'.",
+      "'Re' is a prefix that means 'again'.",
+      "So 'replay' means 'play again'."
+    ],
+    "hints": [
+      "What does the prefix 're' mean in words like 'redo' or 'reread'?",
+      "If you watch a video a second time, you ___ it."
+    ],
+    "tags": [
+      "vocabulary",
+      "prefixes",
+      "prefix-re"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a2-006",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "prefixes-suffixes",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "If 'help' means to assist, what does 'helpful' mean?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "without help"
+      },
+      {
+        "key": "B",
+        "text": "able to help"
+      },
+      {
+        "key": "C",
+        "text": "helping badly"
+      },
+      {
+        "key": "D",
+        "text": "not helpful"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The suffix '-ful' means 'full of', not 'without'. 'Without help' would be 'helpless'.",
+      "C": "The suffix '-ful' does not mean 'badly'.",
+      "D": "The suffix '-ful' adds a positive meaning, not a negative one."
+    },
+    "explanation": "The suffix '-ful' means 'full of'. So 'helpful' means 'full of help' or 'able to help'.",
+    "explanationSteps": [
+      "'Helpful' has two parts: 'help' + 'ful'.",
+      "The suffix '-ful' means 'full of'.",
+      "So 'helpful' means 'full of help' or 'able to help'."
+    ],
+    "hints": [
+      "What does '-ful' mean in words like 'beautiful' (full of beauty)?",
+      "If someone helps you a lot, they are very ___."
+    ],
+    "tags": [
+      "vocabulary",
+      "suffixes",
+      "suffix-ful"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a2-007",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "homophones",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "Which word correctly completes this sentence? 'I ________ my bike to school every day.'",
+    "choices": [
+      {
+        "key": "A",
+        "text": "rode"
+      },
+      {
+        "key": "B",
+        "text": "road"
+      },
+      {
+        "key": "C",
+        "text": "row"
+      },
+      {
+        "key": "D",
+        "text": "rod"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "'Road' is a noun that means a street. The sentence needs a verb about riding.",
+      "C": "'Row' means to paddle a boat, not to ride a bike.",
+      "D": "'Rod' is a noun that means a thin stick. It is not an action word."
+    },
+    "explanation": "'Rode' means traveled by bike (past tense of 'ride'). 'Road' sounds the same but means a street.",
+    "explanationSteps": [
+      "The sentence is about going to school on a bike.",
+      "The past tense of 'ride' is 'rode'.",
+      "'Road' (the street) sounds the same but is a different word."
+    ],
+    "hints": [
+      "Which word is an action — riding a bike?",
+      "Think about yesterday's trip to school. You ___ your bike."
+    ],
+    "tags": [
+      "vocabulary",
+      "homophones",
+      "rode-road"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a2-008",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "root-words",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "The word 'unhappy' is made from 'un' + 'happy'. What does 'unhappy' mean?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "very happy"
+      },
+      {
+        "key": "B",
+        "text": "not happy"
+      },
+      {
+        "key": "C",
+        "text": "happy again"
+      },
+      {
+        "key": "D",
+        "text": "happy now"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The prefix 'un-' does not mean 'very'. It means 'not'.",
+      "C": "The prefix 're-' means 'again', not 'un-'. 'Un-' means 'not'.",
+      "D": "The prefix 'un-' does not mean 'now'. It means 'not' or 'opposite of'."
+    },
+    "explanation": "The prefix 'un-' means 'not'. So 'unhappy' means 'not happy' — the opposite of happy.",
+    "explanationSteps": [
+      "Look at the word parts: 'un' + 'happy'.",
+      "'Un' is a prefix that means 'not'.",
+      "So 'unhappy' = 'not happy'."
+    ],
+    "hints": [
+      "What does 'un-' mean in words like 'unfair' or 'unkind'?",
+      "If you are not happy, you are ___."
+    ],
+    "tags": [
+      "vocabulary",
+      "root-words",
+      "prefix-un"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "er-a2-009",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "who-what-where",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "Sam and his dad went to the park. They played catch with a red ball. Who went to the park?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Sam and his mom"
+      },
+      {
+        "key": "B",
+        "text": "Sam and his dad"
+      },
+      {
+        "key": "C",
+        "text": "Sam and his dog"
+      },
+      {
+        "key": "D",
+        "text": "Sam and his friend"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The passage says 'Sam and his dad', not mom.",
+      "C": "No dog is mentioned in the passage.",
+      "D": "The passage says his dad, not his friend."
+    },
+    "explanation": "The first sentence says clearly: 'Sam and his dad went to the park.' So Sam went with his dad.",
+    "explanationSteps": [
+      "Read the first sentence carefully.",
+      "It says: 'Sam and his dad went to the park.'",
+      "That tells us exactly who went to the park."
+    ],
+    "hints": [
+      "Reread the first sentence of the passage.",
+      "Look for the names of the people."
+    ],
+    "tags": [
+      "comprehension",
+      "who-what-where",
+      "details"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a2-010",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "who-what-where",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "Lily put on her blue rain boots. She opened her umbrella. Then she went outside. What was the weather like?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "sunny"
+      },
+      {
+        "key": "B",
+        "text": "rainy"
+      },
+      {
+        "key": "C",
+        "text": "snowy"
+      },
+      {
+        "key": "D",
+        "text": "windy"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "People do not usually wear rain boots and use umbrellas on sunny days.",
+      "C": "Snow boots are different from rain boots, and people use different gear for snow.",
+      "D": "While it could be windy, the clues about rain boots and an umbrella point to rain."
+    },
+    "explanation": "Lily put on rain boots and opened an umbrella. Those are things you do when it is rainy.",
+    "explanationSteps": [
+      "Look at what Lily is wearing: rain boots.",
+      "Look at what she is holding: an umbrella.",
+      "Both of these tell us it is rainy outside."
+    ],
+    "hints": [
+      "When do people wear rain boots?",
+      "What is an umbrella used for?"
+    ],
+    "tags": [
+      "comprehension",
+      "who-what-where",
+      "inference"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a2-011",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "main-idea",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "Tom has a pet fish. The fish is orange and white. Tom feeds it every morning. What is the main idea?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Tom has a pet fish."
+      },
+      {
+        "key": "B",
+        "text": "Fish are orange."
+      },
+      {
+        "key": "C",
+        "text": "Tom eats breakfast."
+      },
+      {
+        "key": "D",
+        "text": "Pets need water."
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "The passage talks about one fish that is orange, but that is a detail, not the main idea.",
+      "C": "The passage does not talk about Tom eating breakfast at all.",
+      "D": "The passage is about Tom's fish specifically, not pets in general."
+    },
+    "explanation": "All the sentences are about Tom's pet fish. That is the main idea of the passage.",
+    "explanationSteps": [
+      "Read all three sentences.",
+      "They all talk about Tom and his fish.",
+      "The main idea is what the whole passage is about: Tom has a pet fish."
+    ],
+    "hints": [
+      "What is the passage mostly about?",
+      "Try to summarize the passage in just a few words."
+    ],
+    "tags": [
+      "comprehension",
+      "main-idea"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "er-a2-012",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "main-idea",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "Bees make honey. They fly from flower to flower. The honey is sweet and sticky. What is the main idea?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Flowers are pretty."
+      },
+      {
+        "key": "B",
+        "text": "Bees make honey."
+      },
+      {
+        "key": "C",
+        "text": "Honey is yellow."
+      },
+      {
+        "key": "D",
+        "text": "Bees have wings."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The passage is about bees, not about flowers being pretty.",
+      "C": "The passage does not say what color honey is.",
+      "D": "The passage does not mention bee wings."
+    },
+    "explanation": "Every sentence connects to bees and honey. The main idea is that bees make honey.",
+    "explanationSteps": [
+      "Sentence 1: Bees make honey.",
+      "Sentence 2: Bees fly to flowers.",
+      "Sentence 3: Honey is sweet.",
+      "All sentences connect to bees and honey — that is the main idea."
+    ],
+    "hints": [
+      "What is the one topic that all sentences are about?",
+      "If you had to give this passage a title, what would it be?"
+    ],
+    "tags": [
+      "comprehension",
+      "main-idea"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "er-a2-013",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "key-details",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "Mia planted a seed in a small pot. She put the pot by the window. She gave it water every day. What did Mia plant the seed in?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a garden"
+      },
+      {
+        "key": "B",
+        "text": "a small pot"
+      },
+      {
+        "key": "C",
+        "text": "a big box"
+      },
+      {
+        "key": "D",
+        "text": "a cup"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The passage says 'small pot', not garden.",
+      "C": "The passage does not mention a big box.",
+      "D": "The passage says pot, not cup."
+    },
+    "explanation": "The first sentence says clearly: 'Mia planted a seed in a small pot.'",
+    "explanationSteps": [
+      "Find the part of the passage that tells where Mia planted the seed.",
+      "Read carefully: 'Mia planted a seed in a small pot.'",
+      "That gives you the exact detail you need."
+    ],
+    "hints": [
+      "Look at the first sentence for the specific detail.",
+      "Where did Mia put the seed?"
+    ],
+    "tags": [
+      "comprehension",
+      "key-details"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a2-014",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "key-details",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "Dad baked cookies. He used flour, sugar, and chocolate chips. The cookies baked for ten minutes. What ingredients did Dad use?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "flour, sugar, and raisins"
+      },
+      {
+        "key": "B",
+        "text": "flour, sugar, and chocolate chips"
+      },
+      {
+        "key": "C",
+        "text": "flour, eggs, and chocolate chips"
+      },
+      {
+        "key": "D",
+        "text": "sugar, butter, and chocolate chips"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The passage says chocolate chips, not raisins.",
+      "C": "Eggs are not mentioned in the passage.",
+      "D": "Butter is not mentioned in the passage."
+    },
+    "explanation": "The passage says: 'He used flour, sugar, and chocolate chips.' Those are the exact ingredients.",
+    "explanationSteps": [
+      "Find the sentence about ingredients.",
+      "Read it carefully: 'He used flour, sugar, and chocolate chips.'",
+      "That tells you the three ingredients."
+    ],
+    "hints": [
+      "Look for the sentence that lists what Dad used.",
+      "Read each ingredient listed in that sentence."
+    ],
+    "tags": [
+      "comprehension",
+      "key-details"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a2-015",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "sequencing",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "First, Emma put on her shoes. Then she got her backpack. Finally, she walked to the bus stop. What did Emma do after putting on her shoes?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "ate breakfast"
+      },
+      {
+        "key": "B",
+        "text": "got her backpack"
+      },
+      {
+        "key": "C",
+        "text": "walked to the bus stop"
+      },
+      {
+        "key": "D",
+        "text": "brushed her teeth"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Eating breakfast is not mentioned in the passage.",
+      "C": "Walking to the bus stop was the last thing she did, not the second.",
+      "D": "Brushing teeth is not mentioned in the passage."
+    },
+    "explanation": "The passage uses sequence words: 'First', 'Then', 'Finally'. After 'First, Emma put on her shoes', the next step ('Then') is getting her backpack.",
+    "explanationSteps": [
+      "Look at the sequence words: First, Then, Finally.",
+      "'First' = put on shoes. 'Then' = got backpack. 'Finally' = walked to bus stop.",
+      "So after shoes, she got her backpack."
+    ],
+    "hints": [
+      "Pay attention to the words 'First', 'Then', and 'Finally'.",
+      "What comes right after 'Then' in the passage?"
+    ],
+    "tags": [
+      "comprehension",
+      "sequencing"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a2-016",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "sequencing",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "Jake woke up. He brushed his teeth. He ate cereal for breakfast. He put on his school uniform. What did Jake do right after brushing his teeth?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "woke up"
+      },
+      {
+        "key": "B",
+        "text": "ate cereal"
+      },
+      {
+        "key": "C",
+        "text": "put on his uniform"
+      },
+      {
+        "key": "D",
+        "text": "went to school"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Waking up happened before brushing teeth, not after.",
+      "C": "Putting on his uniform was the last step, after eating.",
+      "D": "Going to school is not mentioned in the passage."
+    },
+    "explanation": "The order is: woke up → brushed teeth → ate cereal → put on uniform. So after brushing teeth, Jake ate cereal.",
+    "explanationSteps": [
+      "List the events in order.",
+      "1. Woke up. 2. Brushed teeth. 3. Ate cereal. 4. Put on uniform.",
+      "Step 3 follows step 2, so he ate cereal after brushing."
+    ],
+    "hints": [
+      "Read the sentences in order.",
+      "What happens right after 'He brushed his teeth'?"
+    ],
+    "tags": [
+      "comprehension",
+      "sequencing"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a2-017",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "fact-vs-opinion",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "Which sentence is a fact (something that is always true)?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Dogs are the best pets."
+      },
+      {
+        "key": "B",
+        "text": "Water freezes at 0 degrees Celsius."
+      },
+      {
+        "key": "C",
+        "text": "Chocolate tastes better than vanilla."
+      },
+      {
+        "key": "D",
+        "text": "Reading is more fun than playing outside."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "This is an opinion. Not everyone thinks dogs are the best pets.",
+      "C": "This is an opinion about taste. Different people like different flavors.",
+      "D": "This is an opinion. Some people prefer playing outside to reading."
+    },
+    "explanation": "'Water freezes at 0 degrees Celsius' is a fact because it can be proven true. The others are opinions — they depend on personal feelings.",
+    "explanationSteps": [
+      "A fact can be proven true or false.",
+      "'Water freezes at 0°C' can be tested and proven.",
+      "The other sentences are about personal preferences — those are opinions."
+    ],
+    "hints": [
+      "Can this statement be proven with a thermometer?",
+      "Is this something everyone would agree on, or just one person's feeling?"
+    ],
+    "tags": [
+      "comprehension",
+      "fact-vs-opinion"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "er-a2-018",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "fact-vs-opinion",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "Which sentence is an opinion (what someone thinks or feels)?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The sun rises in the east."
+      },
+      {
+        "key": "B",
+        "text": "Earth has one moon."
+      },
+      {
+        "key": "C",
+        "text": "Math is the most interesting subject."
+      },
+      {
+        "key": "D",
+        "text": "There are seven days in a week."
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "This is a fact. The sun always rises in the east.",
+      "B": "This is a fact that can be proven.",
+      "D": "This is a fact. Everyone agrees there are seven days in a week."
+    },
+    "explanation": "'Math is the most interesting subject' is an opinion because different people find different subjects interesting.",
+    "explanationSteps": [
+      "An opinion is what someone thinks or believes.",
+      "'Math is the most interesting' is someone's personal feeling.",
+      "The other options are facts that can be proven true."
+    ],
+    "hints": [
+      "Does this statement depend on personal taste?",
+      "Would everyone in the world agree with this statement?"
+    ],
+    "tags": [
+      "comprehension",
+      "fact-vs-opinion"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "er-a2-019",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "context-clues",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "Read the sentence: 'The old house felt gloomy because no sunlight came through the dusty windows.' What does 'gloomy' mean?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "bright and cheerful"
+      },
+      {
+        "key": "B",
+        "text": "dark and sad"
+      },
+      {
+        "key": "C",
+        "text": "warm and cozy"
+      },
+      {
+        "key": "D",
+        "text": "loud and busy"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The clue says 'no sunlight came through', so it cannot be bright.",
+      "C": "The house has dusty windows and no sunlight, which is not cozy.",
+      "D": "The sentence is about light and feeling, not sound."
+    },
+    "explanation": "The clue 'no sunlight' tells us it is dark. 'Gloomy' means dark, sad, or depressing.",
+    "explanationSteps": [
+      "Find the clue that describes the house: 'no sunlight came through'.",
+      "That tells you it is dark inside.",
+      "The word 'gloomy' describes a dark and sad feeling."
+    ],
+    "hints": [
+      "Would a room with no sunlight feel bright or dark?",
+      "Think about how you would feel in a room with no light."
+    ],
+    "tags": [
+      "vocabulary",
+      "context-clues",
+      "mood-words"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "er-a2-020",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "root-words",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "You know that 'pre' means 'before'. What does 'preheat' mean?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "heat after cooking"
+      },
+      {
+        "key": "B",
+        "text": "heat before using"
+      },
+      {
+        "key": "C",
+        "text": "cool down"
+      },
+      {
+        "key": "D",
+        "text": "reheat"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The prefix 'pre-' means 'before', not 'after'.",
+      "C": "'Preheat' is about heating, not cooling.",
+      "D": "'Reheat' means to heat again. 'Preheat' means to heat before."
+    },
+    "explanation": "'Pre' means 'before' and 'heat' means to make hot. So 'preheat' means to heat something before using it.",
+    "explanationSteps": [
+      "'Preheat' = 'pre' + 'heat'.",
+      "'Pre' means 'before'.",
+      "So 'preheat' means to heat before you use it, like preheating an oven."
+    ],
+    "hints": [
+      "What does your mom do to the oven before baking cookies?",
+      "The prefix 'pre-' means 'before'."
+    ],
+    "tags": [
+      "vocabulary",
+      "root-words",
+      "prefix-pre"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a2-001",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "context-clues",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "The puppy was very tiny, small enough to fit in my hand. What does tiny mean?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "very big"
+      },
+      {
+        "key": "B",
+        "text": "very small"
+      },
+      {
+        "key": "C",
+        "text": "very fast"
+      },
+      {
+        "key": "D",
+        "text": "very loud"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Fitting in hand means small.",
+      "C": "Sentence is about size.",
+      "D": "Sentence is about size."
+    },
+    "explanation": "Tiny means very small. The clue helps us understand.",
+    "explanationSteps": [
+      "Find the word tiny.",
+      "Look at the clue after it.",
+      "Tiny = very small."
+    ],
+    "hints": [
+      "What fits in your hand?",
+      "Look for context clues."
+    ],
+    "tags": [
+      "vocabulary",
+      "context-clues",
+      "size-words"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a2-002",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "context-clues",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "Mom told me to be gentle with the baby bird. What does gentle mean?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "rough and hard"
+      },
+      {
+        "key": "B",
+        "text": "careful and soft"
+      },
+      {
+        "key": "C",
+        "text": "fast and quick"
+      },
+      {
+        "key": "D",
+        "text": "loud and noisy"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Gentle is opposite of rough.",
+      "C": "Gentle is about touch.",
+      "D": "Not about sound."
+    },
+    "explanation": "Gentle means careful and soft, especially with delicate things.",
+    "explanationSteps": [
+      "Think about baby birds.",
+      "How should you hold them?",
+      "Careful and soft."
+    ],
+    "hints": [
+      "How would you hold something delicate?",
+      "Think about a baby."
+    ],
+    "tags": [
+      "vocabulary",
+      "context-clues",
+      "character-traits"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a2-003",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "synonyms-antonyms",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "Which word is a synonym (means the same) as happy?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "sad"
+      },
+      {
+        "key": "B",
+        "text": "glad"
+      },
+      {
+        "key": "C",
+        "text": "mad"
+      },
+      {
+        "key": "D",
+        "text": "bad"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Sad is opposite.",
+      "C": "Mad means angry.",
+      "D": "Bad means not good."
+    },
+    "explanation": "Happy and glad are synonyms.",
+    "explanationSteps": [
+      "What does happy mean?",
+      "Glad means the same.",
+      "These are synonyms."
+    ],
+    "hints": [
+      "What is another word for feeling good?"
+    ],
+    "tags": [
+      "vocabulary",
+      "synonyms",
+      "emotions"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "er-a2-004",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "synonyms-antonyms",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "Which word is an antonym (opposite) of begin?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "start"
+      },
+      {
+        "key": "B",
+        "text": "end"
+      },
+      {
+        "key": "C",
+        "text": "open"
+      },
+      {
+        "key": "D",
+        "text": "go"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Start is a synonym.",
+      "C": "Open is not opposite.",
+      "D": "Go is not opposite."
+    },
+    "explanation": "Begin means start. Its opposite is end.",
+    "explanationSteps": [
+      "Begin means to start.",
+      "When something is over, it ends.",
+      "End is the opposite."
+    ],
+    "hints": [
+      "A race begins. What happens at the finish?"
+    ],
+    "tags": [
+      "vocabulary",
+      "antonyms",
+      "action-words"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "er-a2-005",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "prefixes-suffixes",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "If play means to have fun, what does replay mean?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "stop playing"
+      },
+      {
+        "key": "B",
+        "text": "play again"
+      },
+      {
+        "key": "C",
+        "text": "play badly"
+      },
+      {
+        "key": "D",
+        "text": "not play"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Re- does not mean stop.",
+      "C": "Re- does not mean badly.",
+      "D": "Un- means not."
+    },
+    "explanation": "The prefix re- means again. Replay = play again.",
+    "explanationSteps": [
+      "Replay = re + play.",
+      "Re means again.",
+      "So replay = play again."
+    ],
+    "hints": [
+      "What does re mean in redo?",
+      "If you watch a video twice, you replay it."
+    ],
+    "tags": [
+      "vocabulary",
+      "prefixes",
+      "prefix-re"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a2-006",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "prefixes-suffixes",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "If help means to assist, what does helpful mean?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "without help"
+      },
+      {
+        "key": "B",
+        "text": "able to help"
+      },
+      {
+        "key": "C",
+        "text": "helping badly"
+      },
+      {
+        "key": "D",
+        "text": "not helpful"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "-ful means full of.",
+      "C": "-ful adds positive meaning.",
+      "D": "-ful is not negative."
+    },
+    "explanation": "The suffix -ful means full of. Helpful = full of help.",
+    "explanationSteps": [
+      "Helpful = help + ful.",
+      "-ful means full of.",
+      "Helpful = full of help."
+    ],
+    "hints": [
+      "What does -ful mean in beautiful?",
+      "A helpful person gives lots of help."
+    ],
+    "tags": [
+      "vocabulary",
+      "suffixes",
+      "suffix-ful"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a2-007",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "homophones",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "Which word fits? I rode my bike to school. But which is the correct spelling for the action?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "rode"
+      },
+      {
+        "key": "B",
+        "text": "road"
+      },
+      {
+        "key": "C",
+        "text": "row"
+      },
+      {
+        "key": "D",
+        "text": "rod"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Road is a street.",
+      "C": "Row means paddle.",
+      "D": "Rod is a stick."
+    },
+    "explanation": "Rode is past tense of ride. Road sounds the same but means a street.",
+    "explanationSteps": [
+      "The sentence needs an action.",
+      "Rode means traveled on a bike.",
+      "Road (street) sounds the same."
+    ],
+    "hints": [
+      "Which is an action word?",
+      "Rode vs road: what is the difference?"
+    ],
+    "tags": [
+      "vocabulary",
+      "homophones",
+      "rode-road"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a2-008",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "root-words",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "The word unhappy is made from un + happy. What does unhappy mean?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "very happy"
+      },
+      {
+        "key": "B",
+        "text": "not happy"
+      },
+      {
+        "key": "C",
+        "text": "happy again"
+      },
+      {
+        "key": "D",
+        "text": "happy now"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Un- does not mean very.",
+      "C": "Re- means again.",
+      "D": "Un- does not mean now."
+    },
+    "explanation": "The prefix un- means not. Unhappy = not happy.",
+    "explanationSteps": [
+      "Unhappy = un + happy.",
+      "Un means not.",
+      "So unhappy = not happy."
+    ],
+    "hints": [
+      "What does un mean in unfair?",
+      "If you are not happy, you are unhappy."
+    ],
+    "tags": [
+      "vocabulary",
+      "root-words",
+      "prefix-un"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "er-a2-009",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "who-what-where",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "Sam and his dad went to the park. They played catch. Who went to the park?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Sam and his mom"
+      },
+      {
+        "key": "B",
+        "text": "Sam and his dad"
+      },
+      {
+        "key": "C",
+        "text": "Sam and his dog"
+      },
+      {
+        "key": "D",
+        "text": "Sam and his friend"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Not mom.",
+      "C": "No dog mentioned.",
+      "D": "Not his friend."
+    },
+    "explanation": "The first sentence says Sam and his dad went to the park.",
+    "explanationSteps": [
+      "Read the first sentence.",
+      "It tells us who went.",
+      "Sam and his dad."
+    ],
+    "hints": [
+      "Reread the first sentence.",
+      "Look for names."
+    ],
+    "tags": [
+      "comprehension",
+      "who-what-where",
+      "details"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a2-010",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "who-what-where",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "Lily put on rain boots and opened an umbrella. What was the weather?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "sunny"
+      },
+      {
+        "key": "B",
+        "text": "rainy"
+      },
+      {
+        "key": "C",
+        "text": "snowy"
+      },
+      {
+        "key": "D",
+        "text": "windy"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "No umbrella needed in sun.",
+      "C": "Rain boots not snow boots.",
+      "D": "Umbrella is for rain."
+    },
+    "explanation": "Rain boots and umbrellas are used in rainy weather.",
+    "explanationSteps": [
+      "When do you wear rain boots?",
+      "When do you use an umbrella?",
+      "When it is rainy."
+    ],
+    "hints": [
+      "Think about rain gear.",
+      "What is an umbrella for?"
+    ],
+    "tags": [
+      "comprehension",
+      "who-what-where",
+      "inference"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a2-011",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "main-idea",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "Tom has a pet fish. The fish is orange and white. Tom feeds it every morning. What is the main idea?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Tom has a pet fish."
+      },
+      {
+        "key": "B",
+        "text": "Fish are orange."
+      },
+      {
+        "key": "C",
+        "text": "Tom eats breakfast."
+      },
+      {
+        "key": "D",
+        "text": "Pets need water."
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Fish color is a detail.",
+      "C": "Passage does not say that.",
+      "D": "Not about pets in general."
+    },
+    "explanation": "All sentences are about Tom and his fish.",
+    "explanationSteps": [
+      "Read all sentences.",
+      "They all talk about Tom and his fish.",
+      "Main idea: Tom has a pet fish."
+    ],
+    "hints": [
+      "What is the passage mostly about?",
+      "Summarize in a few words."
+    ],
+    "tags": [
+      "comprehension",
+      "main-idea"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "er-a2-012",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "main-idea",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "Bees make honey. They fly from flower to flower. The honey is sweet and sticky. What is the main idea?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Flowers are pretty."
+      },
+      {
+        "key": "B",
+        "text": "Bees make honey."
+      },
+      {
+        "key": "C",
+        "text": "Honey is yellow."
+      },
+      {
+        "key": "D",
+        "text": "Bees have wings."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Passage is about bees.",
+      "C": "Passage does not say color.",
+      "D": "Bees wings not mentioned."
+    },
+    "explanation": "All sentences relate to bees and honey.",
+    "explanationSteps": [
+      "Sentence 1: Bees make honey.",
+      "Sentence 2: Bees fly to flowers.",
+      "Sentence 3: Honey is sweet."
+    ],
+    "hints": [
+      "What is the one topic of all sentences?",
+      "If you gave it a title, what would it be?"
+    ],
+    "tags": [
+      "comprehension",
+      "main-idea"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "er-a2-013",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "key-details",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "Mia planted a seed in a small pot. She put it by the window. What did Mia plant the seed in?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a garden"
+      },
+      {
+        "key": "B",
+        "text": "a small pot"
+      },
+      {
+        "key": "C",
+        "text": "a big box"
+      },
+      {
+        "key": "D",
+        "text": "a cup"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Passage says small pot.",
+      "C": "Not mentioned.",
+      "D": "Not a cup."
+    },
+    "explanation": "The first sentence says Mia planted a seed in a small pot.",
+    "explanationSteps": [
+      "Find the sentence about planting.",
+      "It says in a small pot.",
+      "That is the detail."
+    ],
+    "hints": [
+      "Look at the first sentence.",
+      "Where did Mia put the seed?"
+    ],
+    "tags": [
+      "comprehension",
+      "key-details"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a2-014",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "key-details",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "Dad baked cookies. He used flour, sugar, and chocolate chips. What ingredients did Dad use?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "flour, sugar, raisins"
+      },
+      {
+        "key": "B",
+        "text": "flour, sugar, chocolate chips"
+      },
+      {
+        "key": "C",
+        "text": "flour, eggs, chocolate chips"
+      },
+      {
+        "key": "D",
+        "text": "sugar, butter, chocolate chips"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Raisins not mentioned.",
+      "C": "Eggs not mentioned.",
+      "D": "Butter not mentioned."
+    },
+    "explanation": "The passage says he used flour, sugar, and chocolate chips.",
+    "explanationSteps": [
+      "Find the ingredient sentence.",
+      "It lists three items.",
+      "Those are the ingredients."
+    ],
+    "hints": [
+      "Look for the list of what Dad used.",
+      "Read each item listed."
+    ],
+    "tags": [
+      "comprehension",
+      "key-details"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a2-015",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "sequencing",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "First, Emma put on her shoes. Then she got her backpack. Finally, she walked to the bus stop. What did Emma do after putting on her shoes?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "ate breakfast"
+      },
+      {
+        "key": "B",
+        "text": "got her backpack"
+      },
+      {
+        "key": "C",
+        "text": "walked to the bus stop"
+      },
+      {
+        "key": "D",
+        "text": "brushed her teeth"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Not mentioned.",
+      "C": "That was the last step.",
+      "D": "Not mentioned."
+    },
+    "explanation": "The sequence words show: First shoes, Then backpack, Finally bus stop.",
+    "explanationSteps": [
+      "First = put on shoes.",
+      "Then = got backpack.",
+      "Finally = walked to bus stop."
+    ],
+    "hints": [
+      "Pay attention to First, Then, Finally.",
+      "What comes right after Then?"
+    ],
+    "tags": [
+      "comprehension",
+      "sequencing"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a2-016",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "sequencing",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "Jake woke up. He brushed his teeth. He ate cereal. He put on his uniform. What did Jake do right after brushing?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "woke up"
+      },
+      {
+        "key": "B",
+        "text": "ate cereal"
+      },
+      {
+        "key": "C",
+        "text": "put on uniform"
+      },
+      {
+        "key": "D",
+        "text": "went to school"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Waking up was first.",
+      "C": "Uniform was last.",
+      "D": "Not mentioned."
+    },
+    "explanation": "The order is: woke up, brushed teeth, ate cereal, put on uniform.",
+    "explanationSteps": [
+      "1. Woke up.",
+      "2. Brushed teeth.",
+      "3. Ate cereal.",
+      "4. Put on uniform."
+    ],
+    "hints": [
+      "Read the sentences in order.",
+      "What happens right after brushing?"
+    ],
+    "tags": [
+      "comprehension",
+      "sequencing"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a2-017",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "fact-vs-opinion",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "Which sentence is a fact (something always true)?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Dogs are the best pets."
+      },
+      {
+        "key": "B",
+        "text": "Water freezes at 0 degrees Celsius."
+      },
+      {
+        "key": "C",
+        "text": "Chocolate tastes better than vanilla."
+      },
+      {
+        "key": "D",
+        "text": "Reading is more fun than playing."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "This is an opinion.",
+      "C": "Taste is personal.",
+      "D": "This is an opinion."
+    },
+    "explanation": "Water freezing at 0C can be proven. The others are opinions.",
+    "explanationSteps": [
+      "A fact can be proven.",
+      "Water freezing is proven.",
+      "The others are opinions."
+    ],
+    "hints": [
+      "Can this be tested?",
+      "Would everyone agree?"
+    ],
+    "tags": [
+      "comprehension",
+      "fact-vs-opinion"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "er-a2-018",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "fact-vs-opinion",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "Which sentence is an opinion (what someone thinks)?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The sun rises in the east."
+      },
+      {
+        "key": "B",
+        "text": "Earth has one moon."
+      },
+      {
+        "key": "C",
+        "text": "Math is the most interesting subject."
+      },
+      {
+        "key": "D",
+        "text": "There are seven days in a week."
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "This is a fact.",
+      "B": "This is a fact.",
+      "D": "This is a fact."
+    },
+    "explanation": "Math being most interesting is a personal feeling.",
+    "explanationSteps": [
+      "An opinion is personal.",
+      "Math being interesting is personal.",
+      "The others are facts."
+    ],
+    "hints": [
+      "Does this depend on personal taste?",
+      "Would everyone agree?"
+    ],
+    "tags": [
+      "comprehension",
+      "fact-vs-opinion"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "er-a2-019",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "context-clues",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "The old house felt gloomy because no sunlight came through the dusty windows. What does gloomy mean?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "bright and cheerful"
+      },
+      {
+        "key": "B",
+        "text": "dark and sad"
+      },
+      {
+        "key": "C",
+        "text": "warm and cozy"
+      },
+      {
+        "key": "D",
+        "text": "loud and busy"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "No sunlight = not bright.",
+      "C": "No sunlight = not cozy.",
+      "D": "Not about sound."
+    },
+    "explanation": "No sunlight makes a place dark. Gloomy means dark and sad.",
+    "explanationSteps": [
+      "Find the clue: no sunlight.",
+      "That tells you it is dark.",
+      "Gloomy = dark and sad."
+    ],
+    "hints": [
+      "Would no sunlight feel bright?",
+      "How would a dark room feel?"
+    ],
+    "tags": [
+      "vocabulary",
+      "context-clues",
+      "mood-words"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "er-a2-020",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "root-words",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "You know that pre means before. What does preheat mean?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "heat after cooking"
+      },
+      {
+        "key": "B",
+        "text": "heat before using"
+      },
+      {
+        "key": "C",
+        "text": "cool down"
+      },
+      {
+        "key": "D",
+        "text": "reheat"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Pre means before, not after.",
+      "C": "Preheat is about heating.",
+      "D": "Reheat means heat again."
+    },
+    "explanation": "Pre means before. Preheat means to heat before using.",
+    "explanationSteps": [
+      "Preheat = pre + heat.",
+      "Pre means before.",
+      "So preheat means heat before using."
+    ],
+    "hints": [
+      "What does your mom do to the oven before baking?",
+      "The prefix pre- means before."
+    ],
+    "tags": [
+      "vocabulary",
+      "root-words",
+      "prefix-pre"
+    ],
+    "estimatedTimeSec": 25
+  }
+]

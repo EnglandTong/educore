@@ -1,0 +1,3927 @@
+[
+  {
+    "id": "eg-b1-001",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "choices": [
+      {
+        "key": "A",
+        "text": "went"
+      },
+      {
+        "key": "B",
+        "text": "have been"
+      },
+      {
+        "key": "C",
+        "text": "have gone"
+      },
+      {
+        "key": "D",
+        "text": "was"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Past simple usually needs a specific finished time like 'last year', but 'three times' is about life experience up to now.",
+      "C": "'Have gone to' means the person is still there now, but you are talking about past trips that are completed.",
+      "D": "'Was' doesn't work with 'to Spain' — we would need 'was in Spain' instead."
+    },
+    "explanation": "Fantastic! 'Have been' is used here because we're talking about life experiences at unspecified times in the past.",
+    "explanationSteps": [
+      "The phrase 'three times' tells us we're talking about experiences up to now, not one specific past moment.",
+      "We use 'have/has been to' for places we visited and returned from.",
+      "Since these trips are finished and you're not in Spain now, 'have been' fits perfectly!"
+    ],
+    "hints": [
+      "Which tense do we use for life experiences without a specific time?",
+      "Remember: 'been to' means visited and came back. 'Gone to' means still there!",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "present-perfect",
+      "travel",
+      "life-experiences"
+    ],
+    "estimatedTimeSec": 24,
+    "prompt": "I ______ to Spain three times with my class. The food there is amazing!",
+    "subSkill": "simple-present"
+  },
+  {
+    "id": "eg-b1-002",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.4,
+    "answerKey": "had started",
+    "acceptableAnswers": [
+      "had already started"
+    ],
+    "explanation": "Excellent! The past perfect helps us show which past action happened first.",
+    "explanationSteps": [
+      "Two things happened in the past: arriving at school, and the competition starting.",
+      "The competition started BEFORE the arrival. For the earlier past action, we use past perfect: 'had + past participle'.",
+      "'Had started' clearly shows the competition was already in progress when you got there."
+    ],
+    "hints": [
+      "Which action happened first: arriving at school or the competition starting?",
+      "For the earlier of two past actions, use 'had + past participle'.",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "past-perfect",
+      "school",
+      "sequence-of-events"
+    ],
+    "estimatedTimeSec": 28,
+    "prompt": "When we arrived at school, the project competition ______ already ______. (start)",
+    "subSkill": "present-continuous"
+  },
+  {
+    "id": "eg-b1-003",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "choices": [
+      {
+        "key": "A",
+        "text": "will rain"
+      },
+      {
+        "key": "B",
+        "text": "is going to rain"
+      },
+      {
+        "key": "C",
+        "text": "rains"
+      },
+      {
+        "key": "D",
+        "text": "is raining"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Will' is great for spontaneous decisions, but here we have clear evidence in the sky right now!",
+      "C": "We use present simple for schedules and routines, not for predictions based on what we see.",
+      "D": "Present continuous describes what is happening at this exact moment, but it isn't raining yet."
+    },
+    "explanation": "Super observation! When we have visible evidence right now, 'going to' is the perfect choice.",
+    "explanationSteps": [
+      "Dark clouds are clear evidence we can see in the present moment.",
+      "Use 'be going to' when there is present evidence that something will happen.",
+      "'Will rain' is more for general predictions or decisions made at the moment of speaking."
+    ],
+    "hints": [
+      "Do we have evidence we can see right now?",
+      "When we notice signs in the present, 'going to' is usually the best friend!",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "future-forms",
+      "environment",
+      "weather"
+    ],
+    "estimatedTimeSec": 25,
+    "prompt": "Look at those dark clouds! I think it ______ soon.",
+    "subSkill": "simple-past"
+  },
+  {
+    "id": "eg-b1-004",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "level": "B1",
+    "questionType": "error-correction",
+    "difficulty": 0.42,
+    "errorSegment": "has been played",
+    "answerKey": "has been playing",
+    "acceptableAnswers": [
+      "has been playing"
+    ],
+    "explanation": "Good eye! We need the present perfect continuous to show an activity that started in the past and is still happening.",
+    "explanationSteps": [
+      "'For two hours' tells us the action started in the past and continues up to now.",
+      "The present perfect continuous uses 'have/has been + verb-ing'.",
+      "'Has been played' is passive voice, but your brother is the one doing the action!"
+    ],
+    "hints": [
+      "Which tense shows an action that started in the past and is still continuing?",
+      "Look at the structure: 'has been + ...-ing' or 'has been + past participle'?",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "present-perfect-continuous",
+      "sports",
+      "duration"
+    ],
+    "estimatedTimeSec": 26,
+    "prompt": "My brother has been played basketball for two hours. He must be tired!",
+    "subSkill": "past-continuous"
+  },
+  {
+    "id": "eg-b1-005",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.38,
+    "choices": [
+      {
+        "key": "A",
+        "text": "Did ... ride"
+      },
+      {
+        "key": "B",
+        "text": "Have ... ridden"
+      },
+      {
+        "key": "C",
+        "text": "Are ... riding"
+      },
+      {
+        "key": "D",
+        "text": "Do ... ride"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Past simple needs a specific time reference like 'last summer', but 'ever' asks about your whole life.",
+      "C": "Present continuous is for actions happening right now, not life experiences.",
+      "D": "Present simple is for habits, but riding a camel is an experience, not a daily routine."
+    },
+    "explanation": "Perfect! 'Ever' is a wonderful signal that we need the present perfect to ask about life experiences.",
+    "explanationSteps": [
+      "'Ever' is a time word that pairs beautifully with the present perfect.",
+      "Questions about life experiences use 'Have/Has + subject + ever + past participle?'",
+      "'Ridden' is the past participle of 'ride' — it might look unusual, but it's correct!"
+    ],
+    "hints": [
+      "Which word in the sentence is a clue for life experiences?",
+      "Present perfect questions often start with 'Have you ever...'",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "present-perfect",
+      "travel",
+      "ever-never"
+    ],
+    "estimatedTimeSec": 22,
+    "prompt": "______ you ever ______ a camel in the desert?",
+    "subSkill": "present-perfect"
+  },
+  {
+    "id": "eg-b1-006",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.43,
+    "answerKey": "had finished",
+    "acceptableAnswers": [
+      "had already finished"
+    ],
+    "explanation": "Great work! 'By the time' often introduces a later past action, so the main verb needs past perfect.",
+    "explanationSteps": [
+      "The teacher collecting homework is a past action. Finishing the essay happened BEFORE that.",
+      "For the earlier past action, use 'had + past participle'.",
+      "'By the time' is a helpful phrase that often signals the past perfect is coming!"
+    ],
+    "hints": [
+      "Which happened first: finishing the essay or the teacher collecting it?",
+      "Use 'had + past participle' for the action that was completed before another past action.",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "past-perfect",
+      "school",
+      "by-the-time"
+    ],
+    "estimatedTimeSec": 27,
+    "prompt": "By the time the teacher collected the homework, I ______ ______ my essay. (finish)",
+    "subSkill": "past-perfect"
+  },
+  {
+    "id": "eg-b1-007",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "choices": [
+      {
+        "key": "A",
+        "text": "will attend"
+      },
+      {
+        "key": "B",
+        "text": "am going to attend"
+      },
+      {
+        "key": "C",
+        "text": "attend"
+      },
+      {
+        "key": "D",
+        "text": "am attending"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "A": "'Will attend' sounds like a decision made right now, but a meeting is usually a fixed plan.",
+      "B": "'Going to' works for intentions, but present continuous is the go-to choice for diary arrangements.",
+      "C": "Present simple is for regular habits, not a specific meeting tomorrow."
+    },
+    "explanation": "Exactly! When we have a definite future plan or arrangement, the present continuous works beautifully.",
+    "explanationSteps": [
+      "The sentence includes a specific future time: 'tomorrow'.",
+      "When we talk about fixed arrangements or plans in our diary, we can use the present continuous.",
+      "This is different from 'will' (decisions) and 'going to' (intentions with evidence)."
+    ],
+    "hints": [
+      "Is a school meeting usually a fixed plan or a sudden decision?",
+      "For definite future arrangements already scheduled, present continuous is your best choice!",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "future-forms",
+      "school-projects",
+      "arrangements"
+    ],
+    "estimatedTimeSec": 25,
+    "prompt": "I can't come to the beach cleanup tomorrow because I ______ a school project meeting.",
+    "subSkill": "simple-future"
+  },
+  {
+    "id": "eg-b1-008",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "level": "B1",
+    "questionType": "transformation",
+    "difficulty": 0.48,
+    "originalSentence": "I last played tennis two weeks ago.",
+    "targetPattern": "present perfect with 'for'",
+    "answerKey": "I haven't played tennis for two weeks.",
+    "acceptableAnswers": [
+      "I have not played tennis for two weeks."
+    ],
+    "explanation": "Excellent transformation! You connected the past action to the present moment perfectly.",
+    "explanationSteps": [
+      "'I last played... ago' tells us the action stopped in the past and continues up to now.",
+      "The present perfect negative 'haven't played' shows no tennis during this period.",
+      "We use 'for + period of time' to say how long the situation has continued."
+    ],
+    "hints": [
+      "How can you make 'played' into a present perfect form?",
+      "Use 'for' with the time period 'two weeks'.",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "present-perfect",
+      "sports",
+      "for-since"
+    ],
+    "estimatedTimeSec": 30,
+    "prompt": "Rewrite the sentence using the present perfect. Start with 'I haven't...'",
+    "subSkill": "future-continuous"
+  },
+  {
+    "id": "eg-b1-009",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.36,
+    "choices": [
+      {
+        "key": "D",
+        "text": "was ... has been"
+      },
+      {
+        "key": "B",
+        "text": "has been ... was"
+      },
+      {
+        "key": "C",
+        "text": "is ... had been"
+      },
+      {
+        "key": "A",
+        "text": "had been ... was"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "This reverses the tenses! 'Last summer' needs past simple, and 'before that' needs present perfect.",
+      "C": "Present simple 'is' doesn't work with 'last summer', which is finished past time.",
+      "A": "Past perfect 'had been' is too early here — 'last summer' is a specific past time that needs past simple."
+    },
+    "explanation": "Beautiful! You matched each time expression with its perfect tense partner.",
+    "explanationSteps": [
+      "'Last summer' is a specific, finished time in the past, so we use past simple: 'was'.",
+      "'Many times before that' tells us about experiences up to now (including last summer), so present perfect 'has been' is ideal.",
+      "Keeping these two tenses separate is a great skill to have!"
+    ],
+    "hints": [
+      "Which tense do we use with 'last summer' — a finished time?",
+      "Which tense do we use for experiences before now without a specific time?",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "present-perfect",
+      "past-simple",
+      "travel"
+    ],
+    "estimatedTimeSec": 26,
+    "prompt": "She ______ in London last summer, but she ______ there many times before that too.",
+    "subSkill": "future-perfect"
+  },
+  {
+    "id": "eg-b1-010",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "level": "B1",
+    "questionType": "true-false",
+    "difficulty": 0.33,
+    "answerKey": "false",
+    "explanation": "Not quite! While they are similar, 'will' and 'going to' have slightly different jobs.",
+    "explanationSteps": [
+      "'Will' can express a spontaneous decision or a general prediction.",
+      "'Going to' is used when there is present evidence or a prior plan.",
+      "In many cases they are interchangeable, but they don't ALWAYS mean exactly the same thing — good catch!"
+    ],
+    "hints": [
+      "Think about a decision made at the moment of speaking. Which form fits better?",
+      "Does 'going to' suggest a plan or evidence?",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "future-forms",
+      "travel",
+      "will-vs-going-to"
+    ],
+    "estimatedTimeSec": 20,
+    "prompt": "'We will fly to Paris next month' and 'We are going to fly to Paris next month' always mean exactly the same thing.",
+    "subSkill": "simple-present"
+  },
+  {
+    "id": "eg-b1-011",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "choices": [
+      {
+        "key": "D",
+        "text": "will hold"
+      },
+      {
+        "key": "B",
+        "text": "would hold"
+      },
+      {
+        "key": "C",
+        "text": "hold"
+      },
+      {
+        "key": "A",
+        "text": "held"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "'Would hold' is for second conditional (imaginary situations), but this is a real possibility.",
+      "C": "Present simple in the main clause doesn't work for future results of if-clauses.",
+      "A": "Past simple is used in the if-clause of second conditionals, not the main clause."
+    },
+    "explanation": "Perfect! This is a first conditional — a real possibility in the future with a likely result.",
+    "explanationSteps": [
+      "The if-clause uses present simple: 'it rains'.",
+      "For first conditional main clauses, use 'will + infinitive' for the likely result.",
+      "First conditional is all about real, possible futures — like a backup plan for your sports day!"
+    ],
+    "hints": [
+      "Is this a real possibility or an imaginary situation?",
+      "First conditional: if + present simple, ... will + infinitive.",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "first-conditional",
+      "school",
+      "sports",
+      "real-possibility"
+    ],
+    "estimatedTimeSec": 24,
+    "prompt": "If it rains this weekend, we ______ our school sports day indoors.",
+    "subSkill": "zero-conditional"
+  },
+  {
+    "id": "eg-b1-012",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.45,
+    "answerKey": "were ... would",
+    "acceptableAnswers": [
+      "was ... would"
+    ],
+    "explanation": "Wonderful! You've entered the world of imagination with the second conditional.",
+    "explanationSteps": [
+      "'If I were a professional athlete' describes an imaginary situation, not reality.",
+      "In second conditional, we use past simple in the if-clause and 'would + infinitive' in the main clause.",
+      "Even for 'I', we often use 'were' instead of 'was' in formal conditional sentences — both are acceptable!"
+    ],
+    "hints": [
+      "Is becoming a professional athlete a certain plan or an imaginary dream?",
+      "Second conditional structure: if + past simple, ... would + infinitive.",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "second-conditional",
+      "sports",
+      "imaginary"
+    ],
+    "estimatedTimeSec": 28,
+    "prompt": "If I ______ a professional athlete, I ______ travel around the world for competitions. (be)",
+    "subSkill": "first-conditional"
+  },
+  {
+    "id": "eg-b1-013",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.38,
+    "choices": [
+      {
+        "key": "A",
+        "text": "would win"
+      },
+      {
+        "key": "B",
+        "text": "will win"
+      },
+      {
+        "key": "C",
+        "text": "would have won"
+      },
+      {
+        "key": "D",
+        "text": "will have won"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Would win' is for imaginary situations, but winning a competition you're in is a real possibility.",
+      "C": "'Would have won' is third conditional — for past situations that didn't happen. Too complex for this real future possibility!",
+      "D": "Future perfect 'will have won' talks about completion before a future time, but here we need a simple result."
+    },
+    "explanation": "Exactly right! This first conditional describes a real future possibility and its happy result.",
+    "explanationSteps": [
+      "Your team entering a competition is a real situation with a possible future outcome.",
+      "First conditional structure: if + present simple, ... will + base verb.",
+      "The prize — a trip to the nature reserve — is the likely result of winning!"
+    ],
+    "hints": [
+      "Is this about a real future event or an imaginary one?",
+      "First conditional result clause uses 'will + base verb'.",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "first-conditional",
+      "school-projects",
+      "science",
+      "real-possibility"
+    ],
+    "estimatedTimeSec": 23,
+    "prompt": "If my team wins the science competition, we ______ a trip to the nature reserve.",
+    "subSkill": "second-conditional"
+  },
+  {
+    "id": "eg-b1-014",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "level": "B1",
+    "questionType": "error-correction",
+    "difficulty": 0.42,
+    "errorSegment": "will study",
+    "answerKey": "studied",
+    "acceptableAnswers": [
+      "studied"
+    ],
+    "explanation": "Great catch! In conditional sentences, the if-clause and main clause need to match in type.",
+    "explanationSteps": [
+      "The main clause uses 'would pass', which tells us this is a second conditional (imaginary situation).",
+      "Second conditional if-clauses use past simple, not 'will'.",
+      "So 'studied' matches perfectly with 'would pass' to create an imaginary scenario."
+    ],
+    "hints": [
+      "Does 'would pass' suggest a real possibility or an imaginary situation?",
+      "In second conditionals, the if-clause uses past simple, not 'will'.",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "second-conditional",
+      "school",
+      "error-correction"
+    ],
+    "estimatedTimeSec": 27,
+    "prompt": "If I will study harder, I would pass my exams with better grades.",
+    "subSkill": "third-conditional"
+  },
+  {
+    "id": "eg-b1-015",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "level": "B1",
+    "questionType": "transformation",
+    "difficulty": 0.48,
+    "originalSentence": "I don't know how to ski, so I can't join the winter trip.",
+    "targetPattern": "second conditional",
+    "answerKey": "If I knew how to ski, I could join the winter trip.",
+    "acceptableAnswers": [
+      "If I knew how to ski, I would be able to join the winter trip."
+    ],
+    "explanation": "Brilliant transformation! You turned a real limitation into an imaginary possibility.",
+    "explanationSteps": [
+      "The original sentence describes a real situation: not knowing how to ski.",
+      "Second conditional imagines a different reality: 'If I knew...'",
+      "The result uses 'could' (or 'would be able to') to show the imaginary ability."
+    ],
+    "hints": [
+      "Change the negative real situation into an imaginary positive one.",
+      "Use past simple in the if-clause and 'could' for ability in the main clause.",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "second-conditional",
+      "travel",
+      "winter-sports",
+      "transformation"
+    ],
+    "estimatedTimeSec": 32,
+    "prompt": "Rewrite this sentence as a second conditional. Begin with 'If...'",
+    "subSkill": "mixed-conditionals"
+  },
+  {
+    "id": "eg-b1-016",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "choices": [
+      {
+        "key": "A",
+        "text": "would lose"
+      },
+      {
+        "key": "B",
+        "text": "will lose"
+      },
+      {
+        "key": "C",
+        "text": "lost"
+      },
+      {
+        "key": "D",
+        "text": "would have lost"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Would lose' is for imaginary or unlikely situations, but environmental damage is a real future possibility.",
+      "C": "Past simple 'lost' doesn't fit a future consequence of a present action.",
+      "D": "Third conditional 'would have lost' refers to the past, but this is about our future choices."
+    },
+    "explanation": "Well done! This first conditional reminds us that real actions have real future consequences.",
+    "explanationSteps": [
+      "The sentence talks about a real future consequence of our current choices.",
+      "First conditional uses 'if + present simple, ... will + infinitive'.",
+      "It shows that protecting the oceans matters for the future!"
+    ],
+    "hints": [
+      "Is this about an imaginary world or a real future we can still change?",
+      "First conditional result: 'will + infinitive'.",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "first-conditional",
+      "environment",
+      "real-possibility"
+    ],
+    "estimatedTimeSec": 24,
+    "prompt": "If we don't protect the oceans, many sea animals ______ their homes.",
+    "subSkill": "zero-conditional"
+  },
+  {
+    "id": "eg-b1-017",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "level": "B1",
+    "questionType": "true-false",
+    "difficulty": 0.35,
+    "answerKey": "false",
+    "explanation": "Almost, but not quite! 'When' and 'if' are close friends, but they have different meanings.",
+    "explanationSteps": [
+      "'If' means the situation is possible but not certain.",
+      "'When' means the situation is certain to happen at some point.",
+      "So 'When I see him...' (certain) and 'If I see him...' (possible) have slightly different meanings!"
+    ],
+    "hints": [
+      "Does 'if' mean something will definitely happen?",
+      "Think about certainty vs. possibility.",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "first-conditional",
+      "school",
+      "if-vs-when"
+    ],
+    "estimatedTimeSec": 20,
+    "prompt": "In a first conditional sentence, we can use 'when' instead of 'if' without changing the meaning at all.",
+    "subSkill": "first-conditional"
+  },
+  {
+    "id": "eg-b1-018",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.46,
+    "answerKey": "started ... would",
+    "acceptableAnswers": [
+      "started ... could"
+    ],
+    "explanation": "Excellent! You've used the second conditional to imagine a positive change at your school.",
+    "explanationSteps": [
+      "A new recycling program is an idea, not yet a reality — so we use the imaginary second conditional.",
+      "If-clause: past simple 'started'.",
+      "Main clause: 'would + infinitive' for the imagined result."
+    ],
+    "hints": [
+      "Is the recycling program already happening, or is it just an idea?",
+      "Second conditional: if + past simple, ... would + infinitive.",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "second-conditional",
+      "environment",
+      "school"
+    ],
+    "estimatedTimeSec": 28,
+    "prompt": "If my school ______ a recycling program, we ______ reduce a lot of waste. (start)",
+    "subSkill": "second-conditional"
+  },
+  {
+    "id": "eg-b1-019",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "choices": [
+      {
+        "key": "A",
+        "text": "are collecting"
+      },
+      {
+        "key": "B",
+        "text": "are collected"
+      },
+      {
+        "key": "C",
+        "text": "collect"
+      },
+      {
+        "key": "D",
+        "text": "were collected"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Are collecting' is active voice, but bottles don't collect themselves — people collect them!",
+      "C": "Active voice 'collect' doesn't work because the subject (bottles) receives the action.",
+      "D": "Past passive 'were collected' doesn't match 'every day', which is a present time expression."
+    },
+    "explanation": "Spot on! The bottles receive the action, so we need the present passive voice.",
+    "explanationSteps": [
+      "The subject 'plastic bottles' receives the action — they are collected by someone.",
+      "Present passive uses 'am/is/are + past participle'.",
+      "'Every day' tells us this is a regular present activity, so 'are collected' is perfect."
+    ],
+    "hints": [
+      "Do the bottles do the collecting, or are they collected by someone?",
+      "Present passive structure: am/is/are + past participle.",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "present-passive",
+      "environment",
+      "recycling"
+    ],
+    "estimatedTimeSec": 24,
+    "prompt": "Plastic bottles ______ at the new recycling center every day.",
+    "subSkill": "present-passive"
+  },
+  {
+    "id": "eg-b1-020",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.42,
+    "answerKey": "were evaluated",
+    "acceptableAnswers": [
+      "were all evaluated"
+    ],
+    "explanation": "Perfect! The projects received the action, and 'yesterday' places us in the past.",
+    "explanationSteps": [
+      "The projects didn't evaluate themselves — the judges did it, so we need passive voice.",
+      "'Yesterday' tells us to use past passive: 'was/were + past participle'.",
+      "Since 'projects' is plural, we use 'were evaluated'."
+    ],
+    "hints": [
+      "Did the projects do the evaluating?",
+      "Past passive for plural subjects: 'were + past participle'.",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "past-passive",
+      "school-projects",
+      "science-fair"
+    ],
+    "estimatedTimeSec": 26,
+    "prompt": "The science fair projects ______ ______ by the judges yesterday. (evaluate)",
+    "subSkill": "past-passive"
+  },
+  {
+    "id": "eg-b1-021",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "level": "B1",
+    "questionType": "transformation",
+    "difficulty": 0.5,
+    "originalSentence": "Tourists discovered the ancient temple in 1987.",
+    "targetPattern": "past passive",
+    "answerKey": "The ancient temple was discovered by tourists in 1987.",
+    "acceptableAnswers": [
+      "The ancient temple was discovered in 1987 by tourists."
+    ],
+    "explanation": "Wonderful! You shifted the focus from the tourists to the temple — that's the magic of passive voice.",
+    "explanationSteps": [
+      "The object of the active sentence ('the ancient temple') becomes the subject of the passive sentence.",
+      "Past passive structure: 'was/were + past participle'. 'Was discovered' fits perfectly.",
+      "We can include 'by tourists' if we want to mention who did it, or we can leave it out!"
+    ],
+    "hints": [
+      "Make 'the ancient temple' the new subject.",
+      "Use 'was + past participle' because the temple is singular and the discovery is in the past.",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "past-passive",
+      "travel",
+      "transformation"
+    ],
+    "estimatedTimeSec": 30,
+    "prompt": "Change this sentence to the passive voice. Begin with 'The ancient temple...'",
+    "subSkill": "future-passive"
+  },
+  {
+    "id": "eg-b1-022",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.38,
+    "choices": [
+      {
+        "key": "A",
+        "text": "is presented"
+      },
+      {
+        "key": "B",
+        "text": "was presented"
+      },
+      {
+        "key": "C",
+        "text": "presents"
+      },
+      {
+        "key": "D",
+        "text": "has presented"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Present passive doesn't fit because 'after the match' refers to a specific finished past event.",
+      "C": "Active voice 'presents' would mean the trophy gives itself, which doesn't make sense!",
+      "D": "Active voice 'has presented' also suggests the trophy did the presenting — the trophy receives the action."
+    },
+    "explanation": "Excellent! The trophy receives the action, and the match is over, so past passive is the winner.",
+    "explanationSteps": [
+      "The trophy is given to the team, so it receives the action (passive voice needed).",
+      "'After the match' tells us this happened at a specific time in the past.",
+      "Past passive: 'was/were + past participle'. 'Was presented' fits perfectly!"
+    ],
+    "hints": [
+      "Does the trophy do the presenting, or is it presented?",
+      "Is the match happening now or is it finished?",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "past-passive",
+      "sports",
+      "trophy"
+    ],
+    "estimatedTimeSec": 25,
+    "prompt": "The championship trophy ______ to the winning team by the coach after the match.",
+    "subSkill": "perfect-passive"
+  },
+  {
+    "id": "eg-b1-023",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "level": "B1",
+    "questionType": "error-correction",
+    "difficulty": 0.44,
+    "errorSegment": "is clean",
+    "answerKey": "is cleaned",
+    "acceptableAnswers": [
+      "gets cleaned"
+    ],
+    "explanation": "Great catch! We need the passive form to show that volunteers do the cleaning.",
+    "explanationSteps": [
+      "The park doesn't clean itself — volunteers clean it, so we need passive voice.",
+      "'Is clean' is an adjective describing the park.",
+      "To show the action, we need 'is cleaned' (passive verb) or 'gets cleaned'."
+    ],
+    "hints": [
+      "Is 'clean' here describing a state or an action?",
+      "Passive voice needs a past participle: 'is + cleaned'.",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "present-passive",
+      "environment",
+      "volunteers"
+    ],
+    "estimatedTimeSec": 26,
+    "prompt": "The local park is clean every Saturday by volunteers.",
+    "subSkill": "modal-passive"
+  },
+  {
+    "id": "eg-b1-024",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "level": "B1",
+    "questionType": "true-false",
+    "difficulty": 0.35,
+    "answerKey": "false",
+    "explanation": "Not necessarily! The agent is often left out, especially when it's obvious or unimportant.",
+    "explanationSteps": [
+      "Passive voice focuses on the action or the receiver, not the doer.",
+      "We use 'by + agent' only when the doer is important or surprising.",
+      "For example: 'The homework was finished' — we don't need to say 'by me' if everyone already knows!"
+    ],
+    "hints": [
+      "Think about sentences like 'The window was broken.' Do we always need to say by whom?",
+      "Passive voice is useful when the doer is unknown, obvious, or unimportant.",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "passive-voice",
+      "school",
+      "agent"
+    ],
+    "estimatedTimeSec": 20,
+    "prompt": "In passive sentences, we must always include the agent (the person or thing doing the action).",
+    "subSkill": "passive-reporting"
+  },
+  {
+    "id": "eg-b1-025",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "choices": [
+      {
+        "key": "A",
+        "text": "is turning"
+      },
+      {
+        "key": "B",
+        "text": "will be turned"
+      },
+      {
+        "key": "C",
+        "text": "turns"
+      },
+      {
+        "key": "D",
+        "text": "would turn"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Active voice suggests the station turns itself, but people will transform it.",
+      "C": "Present simple 'turns' is for habits and facts, not future plans for transformation.",
+      "D": "Conditional 'would turn' needs an if-clause, and this is a real future plan."
+    },
+    "explanation": "Perfect! The station will receive the transformation, so future passive is exactly what we need.",
+    "explanationSteps": [
+      "The train station is the receiver of the action, not the doer.",
+      "'Next year' tells us we're looking at the future.",
+      "Future passive uses 'will be + past participle': 'will be turned'."
+    ],
+    "hints": [
+      "Will the station transform itself, or will someone transform it?",
+      "Future passive structure: 'will be + past participle'.",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "future-passive",
+      "travel",
+      "museum"
+    ],
+    "estimatedTimeSec": 26,
+    "prompt": "The old train station ______ ______ into a museum next year.",
+    "subSkill": "present-passive"
+  },
+  {
+    "id": "eg-b1-026",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.41,
+    "answerKey": "was cancelled",
+    "acceptableAnswers": [
+      "was canceled",
+      "got cancelled"
+    ],
+    "explanation": "Excellent! The match received the action of canceling due to the weather.",
+    "explanationSteps": [
+      "The match didn't cancel itself — the organizers did, so passive voice is needed.",
+      "The cancellation happened in the past, so we use past passive.",
+      "In British English: 'cancelled'. In American English: 'canceled'. Both are welcome here!"
+    ],
+    "hints": [
+      "Did the match cancel itself?",
+      "Past passive: 'was/were + past participle' for a singular subject.",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "past-passive",
+      "sports",
+      "weather"
+    ],
+    "estimatedTimeSec": 25,
+    "prompt": "The football match ______ ______ because of the heavy rain. (cancel)",
+    "subSkill": "past-passive"
+  },
+  {
+    "id": "eg-b1-027",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "choices": [
+      {
+        "key": "A",
+        "text": "is"
+      },
+      {
+        "key": "B",
+        "text": "are"
+      },
+      {
+        "key": "C",
+        "text": "were"
+      },
+      {
+        "key": "D",
+        "text": "have been"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "While 'choir' contains many people, it acts as one unit in this sentence.",
+      "C": "'Were' is past tense, but 'tomorrow night' is in the future.",
+      "D": "Present perfect 'have been' doesn't work with a specific future time."
+    },
+    "explanation": "Perfect! When a collective noun acts as a single unit, a singular verb is the natural choice.",
+    "explanationSteps": [
+      "'The school choir' can be seen as one unit performing together.",
+      "When emphasizing the group acting together, use a singular verb: 'is singing'.",
+      "'Tomorrow night' tells us this is a future arrangement, so present continuous with 'is' fits perfectly."
+    ],
+    "hints": [
+      "Is the choir acting as one unit or as separate individuals here?",
+      "Collective nouns often take singular verbs when the group acts together.",
+      "Count the subject — if it is one person or thing, the verb usually needs -s or -es."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "collective-nouns",
+      "school"
+    ],
+    "estimatedTimeSec": 26,
+    "prompt": "The school choir ______ singing at the concert tomorrow night.",
+    "subSkill": "singular-plural"
+  },
+  {
+    "id": "eg-b1-028",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "level": "B1",
+    "questionType": "error-correction",
+    "difficulty": 0.43,
+    "errorSegment": "need",
+    "answerKey": "needs",
+    "acceptableAnswers": [
+      "needs"
+    ],
+    "explanation": "Excellent! The real subject is 'the book' (singular), even though other words come between it and the verb.",
+    "explanationSteps": [
+      "Find the main subject by removing the prepositional phrases: 'about endangered animals' and 'on these shelves'.",
+      "The real subject is 'the book', which is singular.",
+      "So the verb needs the '-s' ending: 'needs'."
+    ],
+    "hints": [
+      "Cross out the prepositional phrases to find the true subject.",
+      "Is the true subject singular or plural?",
+      "Count the subject — if it is one person or thing, the verb usually needs -s or -es."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "intervening-phrases",
+      "environment",
+      "library"
+    ],
+    "estimatedTimeSec": 27,
+    "prompt": "The book about endangered animals on these shelves need to be returned to the library.",
+    "subSkill": "collective-nouns"
+  },
+  {
+    "id": "eg-b1-029",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.38,
+    "choices": [
+      {
+        "key": "A",
+        "text": "have visited"
+      },
+      {
+        "key": "B",
+        "text": "has visited"
+      },
+      {
+        "key": "C",
+        "text": "visit"
+      },
+      {
+        "key": "D",
+        "text": "are visiting"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "In American English, 'group' as a single unit takes a singular verb. Even in British English, when emphasizing the unit, 'has' is preferred.",
+      "C": "Present simple 'visit' doesn't work with 'so far this summer', which needs present perfect.",
+      "D": "Present continuous 'are visiting' doesn't fit with 'so far', which covers a period up to now."
+    },
+    "explanation": "Perfect! When we think of a group as a single unit, a singular verb is the way to go.",
+    "explanationSteps": [
+      "'Our travel group' can be seen as one single unit moving together.",
+      "When emphasizing the group as a unit, use a singular verb: 'has visited'.",
+      "'So far this summer' is a present perfect time expression, which matches perfectly."
+    ],
+    "hints": [
+      "Is the group traveling as one unit, or are we focusing on each person separately?",
+      "Present perfect with 'so far': has/have + past participle.",
+      "Count the subject — if it is one person or thing, the verb usually needs -s or -es."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "collective-nouns",
+      "travel"
+    ],
+    "estimatedTimeSec": 24,
+    "prompt": "Our travel group ______ ten different countries so far this summer.",
+    "subSkill": "compound-subjects"
+  },
+  {
+    "id": "eg-b1-030",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.45,
+    "answerKey": "are",
+    "acceptableAnswers": [
+      "were"
+    ],
+    "explanation": "Great job! With 'neither...nor', the verb agrees with the noun closest to it.",
+    "explanationSteps": [
+      "In 'neither...nor' constructions, look at the noun nearest to the verb.",
+      "Here, 'the students' is plural and closest to the verb gap.",
+      "So we use the plural verb 'are'. If it were 'neither the students nor the teacher', we'd use 'is'!"
+    ],
+    "hints": [
+      "With 'neither...nor', which noun is closer to the verb?",
+      "The verb agrees with the nearest subject.",
+      "Count the subject — if it is one person or thing, the verb usually needs -s or -es."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "neither-nor",
+      "school"
+    ],
+    "estimatedTimeSec": 28,
+    "prompt": "Neither the teacher nor the students ______ worried about the upcoming exam.",
+    "subSkill": "indefinite-pronouns"
+  },
+  {
+    "id": "eg-b1-031",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "level": "B1",
+    "questionType": "true-false",
+    "difficulty": 0.36,
+    "answerKey": "false",
+    "explanation": "Not quite! 'A number of' actually means 'many', and it takes a plural verb.",
+    "explanationSteps": [
+      "'A number of students' means 'many students'.",
+      "Because it refers to many individual people, we use a plural verb: 'A number of students are...'",
+      "This is different from 'the number of students', which IS singular: 'The number of students is growing.'"
+    ],
+    "hints": [
+      "Does 'a number of' mean one thing or many things?",
+      "Think about whether we're talking about many individuals or a single figure.",
+      "Count the subject — if it is one person or thing, the verb usually needs -s or -es."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "school",
+      "a-number-of"
+    ],
+    "estimatedTimeSec": 22,
+    "prompt": "The phrase 'a number of students' always takes a singular verb because 'number' is singular.",
+    "subSkill": "intervening-phrases"
+  },
+  {
+    "id": "eg-b1-032",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.42,
+    "choices": [
+      {
+        "key": "A",
+        "text": "are"
+      },
+      {
+        "key": "B",
+        "text": "is"
+      },
+      {
+        "key": "C",
+        "text": "were"
+      },
+      {
+        "key": "D",
+        "text": "have been"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "It might seem plural because of 'trails', but the real subject is 'map', which is singular.",
+      "C": "Past tense 'were' doesn't fit if we're describing a current fact about the visitor center.",
+      "D": "Present perfect 'have been' suggests a connection to now, but this is a simple current fact."
+    },
+    "explanation": "Excellent! You looked past the extra words to find the true subject.",
+    "explanationSteps": [
+      "Remove the prepositional phrase 'of the hiking trails' to find the real subject.",
+      "The subject is 'the map', which is singular.",
+      "So we need the singular verb 'is'."
+    ],
+    "hints": [
+      "Cross out 'of the hiking trails' to find the real subject.",
+      "Is the true subject singular or plural?",
+      "Count the subject — if it is one person or thing, the verb usually needs -s or -es."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "intervening-phrases",
+      "travel"
+    ],
+    "estimatedTimeSec": 24,
+    "prompt": "The map of the hiking trails ______ available at the visitor center.",
+    "subSkill": "singular-plural"
+  },
+  {
+    "id": "eg-b1-033",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "choices": [
+      {
+        "key": "A",
+        "text": "to"
+      },
+      {
+        "key": "B",
+        "text": "at"
+      },
+      {
+        "key": "C",
+        "text": "in"
+      },
+      {
+        "key": "D",
+        "text": "on"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "We say 'arrive at' for specific points or smaller places, not 'arrive to'.",
+      "C": "'Arrive in' is used for large cities or countries, not specific buildings like airports.",
+      "D": "'Arrive on' is used for surfaces like islands or platforms, not airports."
+    },
+    "explanation": "Perfect! 'Arrive at' is the standard partner for specific places like airports, stations, and schools.",
+    "explanationSteps": [
+      "We use 'arrive at' for specific points and smaller locations (airport, station, hotel).",
+      "We use 'arrive in' for larger areas (cities, countries, continents).",
+      "Since an airport is a specific point, 'at' is the perfect preposition!"
+    ],
+    "hints": [
+      "Is an airport a large city or a specific point?",
+      "We 'arrive at' specific places and 'arrive in' large areas.",
+      "Think about the physical picture — where is the object in relation to the other one?"
+    ],
+    "tags": [
+      "prepositions",
+      "dependent-prepositions",
+      "travel",
+      "arrive"
+    ],
+    "estimatedTimeSec": 22,
+    "prompt": "We arrived ______ the airport just in time for our flight to Tokyo.",
+    "subSkill": "prepositions-of-time"
+  },
+  {
+    "id": "eg-b1-034",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.43,
+    "answerKey": "of ... on",
+    "acceptableAnswers": [
+      "of ... for"
+    ],
+    "explanation": "Excellent! You've matched the adjective and noun with their preposition partners.",
+    "explanationSteps": [
+      "'Proud' pairs with 'of' to show the reason for pride.",
+      "For the second gap, 'on' or 'for' can introduce the topic of a project.",
+      "'Proud of' is a fixed collocation — they always go together!"
+    ],
+    "hints": [
+      "Which preposition follows 'proud'?",
+      "Which preposition introduces the topic of a project?",
+      "Think about the physical picture — where is the object in relation to the other one?"
+    ],
+    "tags": [
+      "prepositions",
+      "dependent-prepositions",
+      "school",
+      "environment"
+    ],
+    "estimatedTimeSec": 28,
+    "prompt": "The teacher is very proud ______ the students' work ______ the recycling project.",
+    "subSkill": "prepositions-of-place"
+  },
+  {
+    "id": "eg-b1-035",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.38,
+    "choices": [
+      {
+        "key": "A",
+        "text": "at"
+      },
+      {
+        "key": "B",
+        "text": "on"
+      },
+      {
+        "key": "C",
+        "text": "in"
+      },
+      {
+        "key": "D",
+        "text": "by"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "'At' is used for specific times like 'at 5 o'clock' or 'at night', not months.",
+      "B": "'On' is for specific days and dates like 'on Monday' or 'on July 4th', not whole months.",
+      "D": "'By July' means before or no later than July, which doesn't fit the meaning of camping during July."
+    },
+    "explanation": "Great! Months always pair with the preposition 'in'.",
+    "explanationSteps": [
+      "We use 'in' for months, seasons, years, and longer periods.",
+      "July is a month, so 'in July' is the natural choice.",
+      "Remember: in July, on Monday, at 5 o'clock!"
+    ],
+    "hints": [
+      "Which preposition do we use with months?",
+      "Think: in months, on days, at times.",
+      "Think about the physical picture — where is the object in relation to the other one?"
+    ],
+    "tags": [
+      "prepositions",
+      "time-prepositions",
+      "environment",
+      "camping"
+    ],
+    "estimatedTimeSec": 20,
+    "prompt": "We always go camping ______ July because the weather is perfect.",
+    "subSkill": "prepositions-of-movement"
+  },
+  {
+    "id": "eg-b1-036",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "level": "B1",
+    "questionType": "error-correction",
+    "difficulty": 0.41,
+    "errorSegment": "keen in",
+    "answerKey": "keen on",
+    "acceptableAnswers": [
+      "keen to join"
+    ],
+    "explanation": "Great catch! 'Keen' has a special preposition partner when we talk about liking something.",
+    "explanationSteps": [
+      "The adjective 'keen' pairs with 'on' when we want to say we really like or want to do something.",
+      "'Keen in' is not a standard English collocation.",
+      "'Keen on joining' or 'keen to join' are both excellent options!"
+    ],
+    "hints": [
+      "Which preposition usually follows 'keen' when talking about interests?",
+      "'Keen on' is a standard collocation in English.",
+      "Think about the physical picture — where is the object in relation to the other one?"
+    ],
+    "tags": [
+      "prepositions",
+      "dependent-prepositions",
+      "sports",
+      "keen-on"
+    ],
+    "estimatedTimeSec": 24,
+    "prompt": "My little brother is really keen in joining the school basketball team.",
+    "subSkill": "phrasal-prepositions"
+  },
+  {
+    "id": "eg-b1-037",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "level": "B1",
+    "questionType": "true-false",
+    "difficulty": 0.35,
+    "answerKey": "false",
+    "explanation": "Not quite! 'Depend' always pairs with 'on' — they are inseparable friends.",
+    "explanationSteps": [
+      "'Depend on' is the correct collocation in standard English.",
+      "'Depend of' is a common influence from some other languages, but it's not standard English.",
+      "Other correct options: 'depend upon' (more formal) or 'it depends' (standalone)."
+    ],
+    "hints": [
+      "Think about the phrase 'It depends ___ the weather.' Which preposition fits?",
+      "'Depend' and 'on' are a fixed pair in English.",
+      "Think about the physical picture — where is the object in relation to the other one?"
+    ],
+    "tags": [
+      "prepositions",
+      "dependent-prepositions",
+      "travel"
+    ],
+    "estimatedTimeSec": 18,
+    "prompt": "We can say 'depend of' in English when we want to say that something relies on something else.",
+    "subSkill": "dependent-prepositions"
+  },
+  {
+    "id": "eg-b1-038",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.44,
+    "choices": [
+      {
+        "key": "A",
+        "text": "off"
+      },
+      {
+        "key": "B",
+        "text": "out"
+      },
+      {
+        "key": "C",
+        "text": "down"
+      },
+      {
+        "key": "D",
+        "text": "away"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "'Turn out' can work with lights in some contexts, but 'turn off' is the most common and natural phrasal verb.",
+      "C": "'Turn down' means to reduce volume or heat, not to stop lights completely.",
+      "D": "'Turn away' means to refuse entry or look in another direction, not to operate a switch."
+    },
+    "explanation": "Perfect! 'Turn off' is the everyday phrasal verb we use for lights, TVs, and electronic devices.",
+    "explanationSteps": [
+      "'Turn off' means to stop a machine, light, or device from working.",
+      "It's the standard phrasal verb for light switches.",
+      "Other options: 'turn on' (start), 'turn up' (increase), 'turn down' (decrease)."
+    ],
+    "hints": [
+      "Which phrasal verb means to stop a light from shining?",
+      "Think about the opposite of 'turn on'.",
+      "Think about the physical picture — where is the object in relation to the other one?"
+    ],
+    "tags": [
+      "prepositions",
+      "phrasal-verbs",
+      "school",
+      "environment"
+    ],
+    "estimatedTimeSec": 22,
+    "prompt": "Please turn ______ the lights when you leave the classroom to save energy.",
+    "subSkill": "prepositions-of-time"
+  },
+  {
+    "id": "eg-b1-039",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "choices": [
+      {
+        "key": "A",
+        "text": "must"
+      },
+      {
+        "key": "B",
+        "text": "might"
+      },
+      {
+        "key": "C",
+        "text": "should"
+      },
+      {
+        "key": "D",
+        "text": "can"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Must' means we are very certain — almost 100%. But 'I'm not sure' tells us the opposite!",
+      "C": "'Should' gives advice or expectation, but here we're talking about possibility, not what ought to happen.",
+      "D": "'Can' refers to ability or general possibility, but for a specific future possibility with uncertainty, 'might' is better."
+    },
+    "explanation": "Excellent! 'Might' shows that rain is possible but not certain — exactly what we need here.",
+    "explanationSteps": [
+      "'I'm not sure' tells us we need a modal that shows uncertainty.",
+      "'Might' is perfect for a possibility that could happen but probably won't.",
+      "It's a gentle, careful way to talk about the future weather!"
+    ],
+    "hints": [
+      "Are we certain it will rain, or is it just a possibility?",
+      "For uncertain possibilities, 'might' or 'may' are your best choices.",
+      "Modal verbs never change form and are always followed directly by the base verb."
+    ],
+    "tags": [
+      "modal-verbs",
+      "possibility",
+      "travel",
+      "weather"
+    ],
+    "estimatedTimeSec": 24,
+    "prompt": "I'm not sure, but it ______ rain later, so take an umbrella just in case.",
+    "subSkill": "ability"
+  },
+  {
+    "id": "eg-b1-040",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.42,
+    "answerKey": "should drink",
+    "acceptableAnswers": [
+      "ought to drink"
+    ],
+    "explanation": "Perfect! 'Should' is the friendly modal we use to give helpful advice.",
+    "explanationSteps": [
+      "The sentence gives good advice about staying healthy during sports.",
+      "'Should' and 'ought to' both give advice or recommendations.",
+      "'Should drink' is the most natural choice for this friendly piece of advice."
+    ],
+    "hints": [
+      "Which modal do we use to give helpful advice?",
+      "'Should' + base verb is a great way to recommend something.",
+      "Modal verbs never change form and are always followed directly by the base verb."
+    ],
+    "tags": [
+      "modal-verbs",
+      "advice",
+      "sports",
+      "health"
+    ],
+    "estimatedTimeSec": 22,
+    "prompt": "You ______ ______ more water during sports practice to stay healthy.",
+    "subSkill": "permission"
+  },
+  {
+    "id": "eg-b1-041",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "choices": [
+      {
+        "key": "A",
+        "text": "must"
+      },
+      {
+        "key": "B",
+        "text": "can"
+      },
+      {
+        "key": "C",
+        "text": "should"
+      },
+      {
+        "key": "D",
+        "text": "may"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "'Can have rained' is not used for deductions about the past in standard English; we use 'could have' or 'must have'.",
+      "C": "'Should have rained' means we expected rain but it didn't necessarily happen — not a deduction from evidence.",
+      "D": "'May have rained' is possible, but 'must have' is stronger and better for logical deductions from clear evidence."
+    },
+    "explanation": "Brilliant deduction! When we have strong evidence and we're almost sure, 'must have' is the perfect modal.",
+    "explanationSteps": [
+      "Wet ground is strong evidence that rain happened.",
+      "'Must have + past participle' is how we make logical deductions about the past.",
+      "It means we are very confident — almost certain — based on what we see now."
+    ],
+    "hints": [
+      "How certain are we, based on the wet ground?",
+      "For strong logical deductions about the past, use 'must have + past participle'.",
+      "Modal verbs never change form and are always followed directly by the base verb."
+    ],
+    "tags": [
+      "modal-verbs",
+      "deduction",
+      "environment",
+      "past-modals"
+    ],
+    "estimatedTimeSec": 26,
+    "prompt": "The ground is wet outside. It ______ have rained during the night.",
+    "subSkill": "obligation"
+  },
+  {
+    "id": "eg-b1-042",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "level": "B1",
+    "questionType": "error-correction",
+    "difficulty": 0.38,
+    "errorSegment": "must to finish",
+    "answerKey": "must finish",
+    "acceptableAnswers": [
+      "have to finish"
+    ],
+    "explanation": "Great catch! After 'must', we always use the base form of the verb without 'to'.",
+    "explanationSteps": [
+      "'Must' is a modal verb, and modal verbs are followed directly by the base verb.",
+      "So we say 'must finish', not 'must to finish'.",
+      "'Have to' is different — it DOES use 'to': 'have to finish'."
+    ],
+    "hints": [
+      "Modal verbs are special — do they need 'to' before the next verb?",
+      "After 'must', use the base form directly: 'must + finish'.",
+      "Modal verbs never change form and are always followed directly by the base verb."
+    ],
+    "tags": [
+      "modal-verbs",
+      "school",
+      "sports",
+      "base-form"
+    ],
+    "estimatedTimeSec": 22,
+    "prompt": "You must to finish your homework before the sports match starts.",
+    "subSkill": "possibility"
+  },
+  {
+    "id": "eg-b1-043",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "level": "B1",
+    "questionType": "transformation",
+    "difficulty": 0.48,
+    "originalSentence": "It is possible that the train will not arrive on time.",
+    "targetPattern": "might not + base verb",
+    "answerKey": "The train might not arrive on time.",
+    "acceptableAnswers": [
+      "The train may not arrive on time."
+    ],
+    "explanation": "Excellent transformation! You've turned a longer possibility phrase into a smooth modal sentence.",
+    "explanationSteps": [
+      "'It is possible that... will not' can be replaced by 'might not' for a cleaner sentence.",
+      "'Might not' shows that something is possibly not going to happen.",
+      "The subject 'the train' moves to the front, making the sentence more direct and natural."
+    ],
+    "hints": [
+      "Which subject should start the new sentence?",
+      "Replace 'It is possible that... will not' with 'might not' before the main verb.",
+      "Modal verbs never change form and are always followed directly by the base verb."
+    ],
+    "tags": [
+      "modal-verbs",
+      "possibility",
+      "travel",
+      "transformation"
+    ],
+    "estimatedTimeSec": 28,
+    "prompt": "Rewrite this sentence using 'might not'. Keep the same meaning about possibility.",
+    "subSkill": "deduction"
+  },
+  {
+    "id": "eg-b1-044",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "choices": [
+      {
+        "key": "A",
+        "text": "who"
+      },
+      {
+        "key": "B",
+        "text": "which"
+      },
+      {
+        "key": "C",
+        "text": "where"
+      },
+      {
+        "key": "D",
+        "text": "whose"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "'Who' is for people, not places like hotels.",
+      "B": "'Which' could work if there were a preposition ('in which'), but alone it doesn't fit after 'the hotel'.",
+      "D": "'Whose' shows possession, but we need a place word here."
+    },
+    "explanation": "Perfect! 'Where' is the relative adverb that replaces 'in which' for places.",
+    "explanationSteps": [
+      "The hotel is a place, so we need a relative word for places.",
+      "'Where' means 'in/at which' and is used for places.",
+      "You can also say 'in which we stayed', but 'where' is much more natural!"
+    ],
+    "hints": [
+      "Is the hotel a person, a thing, or a place?",
+      "For places, 'where' is often the most natural relative word.",
+      "Who is for people, which is for things, and where is for places — choose the pronoun that matches the noun."
+    ],
+    "tags": [
+      "relative-clauses",
+      "defining-clauses",
+      "travel",
+      "where"
+    ],
+    "estimatedTimeSec": 25,
+    "prompt": "This is the hotel ______ we stayed during our school trip to London.",
+    "subSkill": "defining-clauses"
+  },
+  {
+    "id": "eg-b1-045",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.48,
+    "answerKey": "who",
+    "acceptableAnswers": [
+      "that"
+    ],
+    "explanation": "Excellent! For people in defining relative clauses, 'who' is the natural choice.",
+    "explanationSteps": [
+      "The antecedent is 'the athlete', which is a person.",
+      "In defining relative clauses for people, we use 'who' (or 'that').",
+      "The clause 'who won the gold medal' defines WHICH athlete we mean."
+    ],
+    "hints": [
+      "Are we talking about a person or a thing?",
+      "For people in defining relative clauses, 'who' works perfectly.",
+      "Who is for people, which is for things, and where is for places — choose the pronoun that matches the noun."
+    ],
+    "tags": [
+      "relative-clauses",
+      "defining-clauses",
+      "sports",
+      "who"
+    ],
+    "estimatedTimeSec": 26,
+    "prompt": "The athlete ______ won the gold medal trains at our local sports center.",
+    "subSkill": "non-defining-clauses"
+  },
+  {
+    "id": "eg-b1-046",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "level": "B1",
+    "questionType": "error-correction",
+    "difficulty": 0.42,
+    "errorSegment": "who",
+    "answerKey": "that",
+    "acceptableAnswers": [
+      "which"
+    ],
+    "explanation": "Great catch! 'Who' is reserved for people, not objects like bikes.",
+    "explanationSteps": [
+      "The antecedent is 'the bike', which is a thing, not a person.",
+      "For things in defining relative clauses, we use 'that' or 'which'.",
+      "'Who' is only for people and sometimes pets with names!"
+    ],
+    "hints": [
+      "Is a bike a person?",
+      "For things, 'that' or 'which' are the right choices.",
+      "Who is for people, which is for things, and where is for places — choose the pronoun that matches the noun."
+    ],
+    "tags": [
+      "relative-clauses",
+      "defining-clauses",
+      "travel",
+      "who-vs-that"
+    ],
+    "estimatedTimeSec": 24,
+    "prompt": "The bike who I bought last week has a flat tire.",
+    "subSkill": "reduced-relatives"
+  },
+  {
+    "id": "eg-b1-047",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.46,
+    "choices": [
+      {
+        "key": "A",
+        "text": "who"
+      },
+      {
+        "key": "B",
+        "text": "which"
+      },
+      {
+        "key": "C",
+        "text": "whose"
+      },
+      {
+        "key": "D",
+        "text": "whom"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "'Who' would be the subject of the clause, but here we need to show possession of the team.",
+      "B": "'Which' is for things, not people, and it doesn't show possession.",
+      "D": "'Whom' is the object form of 'who', used for people, but it doesn't show possession either."
+    },
+    "explanation": "Perfect! 'Whose' shows that the team belongs to the coach — it's the possessive relative pronoun.",
+    "explanationSteps": [
+      "We need to show that the team belongs to the coach.",
+      "'Whose' is the possessive form for both people and things in relative clauses.",
+      "It works like 'his', 'her', or 'its' but in a relative clause."
+    ],
+    "hints": [
+      "Does the clause need to show who the team belongs to?",
+      "For possession in relative clauses, 'whose' is the key.",
+      "Who is for people, which is for things, and where is for places — choose the pronoun that matches the noun."
+    ],
+    "tags": [
+      "relative-clauses",
+      "defining-clauses",
+      "sports",
+      "whose"
+    ],
+    "estimatedTimeSec": 26,
+    "prompt": "The coach ______ team won the championship was interviewed on TV.",
+    "subSkill": "relative-pronouns"
+  },
+  {
+    "id": "eg-b1-048",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "choices": [
+      {
+        "key": "A",
+        "text": "many"
+      },
+      {
+        "key": "B",
+        "text": "much"
+      },
+      {
+        "key": "C",
+        "text": "few"
+      },
+      {
+        "key": "D",
+        "text": "a few"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Many' is for countable nouns like 'bottles', but 'milk' is uncountable.",
+      "C": "'Few' is for countable nouns and means almost none. It doesn't work with uncountable 'milk'.",
+      "D": "'A few' means some, and it's also for countable nouns. Plus, the sentence says there isn't any left!"
+    },
+    "explanation": "Excellent! 'Much' is the quantifier we use with uncountable nouns in negative sentences.",
+    "explanationSteps": [
+      "'Milk' is an uncountable noun — you can't count it as one milk, two milk.",
+      "In negative sentences with uncountable nouns, 'much' is the standard quantifier.",
+      "'Many', 'few', and 'a few' are all for countable nouns like bottles or cartons."
+    ],
+    "hints": [
+      "Is 'milk' countable or uncountable?",
+      "For uncountable nouns in negative sentences, which quantifier do we use?",
+      "Try saying the sentence out loud with each option — your ear often knows the right article."
+    ],
+    "tags": [
+      "articles-determiners",
+      "quantifiers",
+      "environment",
+      "uncountable"
+    ],
+    "estimatedTimeSec": 23,
+    "prompt": "There isn't ______ milk left in the fridge. Could you buy some on your way home?",
+    "subSkill": "definite-article"
+  },
+  {
+    "id": "eg-b1-049",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.38,
+    "answerKey": "an",
+    "acceptableAnswers": [
+      "an"
+    ],
+    "explanation": "Perfect! 'Astronaut' starts with a vowel sound, so it needs 'an'.",
+    "explanationSteps": [
+      "We use 'an' before words that start with a vowel sound (a, e, i, o, u).",
+      "'Astronaut' begins with the vowel sound 'a'.",
+      "It's the sound that matters, not just the letter — for example, 'a university' (yoo sound) but 'an hour' (silent h)."
+    ],
+    "hints": [
+      "What sound does 'astronaut' start with — a vowel or a consonant?",
+      "Before vowel sounds, we use 'an' instead of 'a'.",
+      "Try saying the sentence out loud with each option — your ear often knows the right article."
+    ],
+    "tags": [
+      "articles-determiners",
+      "articles",
+      "school",
+      "astronaut"
+    ],
+    "estimatedTimeSec": 20,
+    "prompt": "My brother wants to be ______ astronaut when he grows up because he loves space.",
+    "subSkill": "indefinite-article"
+  },
+  {
+    "id": "eg-b1-050",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "level": "B1",
+    "questionType": "true-false",
+    "difficulty": 0.35,
+    "answerKey": "true",
+    "explanation": "Exactly right! 'Some' isn't just for positive sentences — it's friendly in offers and requests too.",
+    "explanationSteps": [
+      "'Some' is commonly used in offers: 'Would you like some water?'",
+      "It's also used in requests when we expect a positive answer: 'Could I have some water, please?'",
+      "This is a lovely exception to the 'some for positive, any for questions' rule!"
+    ],
+    "hints": [
+      "Think about offering a friend a snack. Would you say 'Would you like any cookies?' or 'Would you like some cookies?'",
+      "Offers and requests with positive expectations often use 'some'.",
+      "Try saying the sentence out loud with each option — your ear often knows the right article."
+    ],
+    "tags": [
+      "articles-determiners",
+      "quantifiers",
+      "travel",
+      "some-any"
+    ],
+    "estimatedTimeSec": 22,
+    "prompt": "We can use 'some' in questions when we expect the answer to be yes or when we are offering something.",
+    "subSkill": "zero-article"
+  },
+  {
+    "id": "eg-b1-051",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "present-perfect-continuous",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.48,
+    "answerKey": "have been waiting",
+    "acceptableAnswers": [
+      "have been waiting",
+      "'ve been waiting"
+    ],
+    "explanation": "Excellent! You spotted that the action started in the past and is still happening now.",
+    "explanationSteps": [
+      "'For twenty minutes' tells us the waiting started in the past and continues up to now.",
+      "The present perfect continuous uses 'have/has been + verb-ing'.",
+      "Since 'we' is plural, we use 'have been waiting'."
+    ],
+    "hints": [
+      "Which tense do we use for an action that started in the past and is still going on?",
+      "Remember: 'have been + ...-ing' for actions continuing up to now.",
+      "The subject is plural, so use 'have' not 'has'."
+    ],
+    "tags": [
+      "present-perfect-continuous",
+      "travel",
+      "waiting"
+    ],
+    "estimatedTimeSec": 28,
+    "prompt": "We ______ ______ ______ for the school bus for twenty minutes. I hope it comes soon!"
+  },
+  {
+    "id": "eg-b1-052",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "past-simple",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.37,
+    "choices": [
+      {
+        "key": "A",
+        "text": "breaks"
+      },
+      {
+        "key": "B",
+        "text": "broke"
+      },
+      {
+        "key": "C",
+        "text": "has broken"
+      },
+      {
+        "key": "D",
+        "text": "was breaking"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Present simple 'breaks' is for habits and routines, but yesterday is a finished past time.",
+      "C": "Present perfect needs a connection to now, but 'yesterday' is a specific finished time.",
+      "D": "Past continuous 'was breaking' suggests an ongoing action, but breaking a leg is usually a single event."
+    },
+    "explanation": "Great work! 'Yesterday' is a clear signal that we need the past simple tense.",
+    "explanationSteps": [
+      "'Yesterday' tells us the action happened at a specific, finished time in the past.",
+      "For specific past times, we use the past simple tense.",
+      "'Broke' is the past simple form of 'break'."
+    ],
+    "hints": [
+      "Which time expression tells us the action is finished?",
+      "For finished past actions, use the past simple.",
+      "'Break' is an irregular verb. What is its past simple form?"
+    ],
+    "tags": [
+      "past-simple",
+      "sports",
+      "injury"
+    ],
+    "estimatedTimeSec": 22,
+    "prompt": "My cousin ______ his leg during the football match yesterday."
+  },
+  {
+    "id": "eg-b1-053",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "present-continuous",
+    "level": "B1",
+    "questionType": "error-correction",
+    "difficulty": 0.44,
+    "errorSegment": "is watch",
+    "answerKey": "is watching",
+    "acceptableAnswers": [
+      "is watching"
+    ],
+    "explanation": "Good catch! The present continuous needs the '-ing' form of the verb.",
+    "explanationSteps": [
+      "'Right now' tells us the action is happening at this moment.",
+      "The present continuous uses 'am/is/are + verb-ing'.",
+      "So we need 'is watching', not 'is watch'."
+    ],
+    "hints": [
+      "Which time expression tells us the action is happening now?",
+      "Present continuous structure: 'is + verb-ing'.",
+      "What is the '-ing' form of 'watch'?"
+    ],
+    "tags": [
+      "present-continuous",
+      "school",
+      "documentary"
+    ],
+    "estimatedTimeSec": 24,
+    "prompt": "My class is watch a documentary about marine life right now."
+  },
+  {
+    "id": "eg-b1-054",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "future-arrangements",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.42,
+    "choices": [
+      {
+        "key": "A",
+        "text": "will fly"
+      },
+      {
+        "key": "B",
+        "text": "is going to fly"
+      },
+      {
+        "key": "C",
+        "text": "flies"
+      },
+      {
+        "key": "D",
+        "text": "is flying"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "A": "'Will fly' sounds like a spontaneous decision, but visiting grandma is usually a fixed plan.",
+      "B": "'Going to fly' shows intention, but present continuous is better for diary arrangements.",
+      "C": "Present simple 'flies' is for habits and schedules, not a specific trip next month."
+    },
+    "explanation": "Perfect! When we have a definite future arrangement, the present continuous is the best choice.",
+    "explanationSteps": [
+      "'Next month' is a specific future time.",
+      "The present continuous can be used for fixed future plans and arrangements.",
+      "'Is flying' shows that the trip is already planned and arranged."
+    ],
+    "hints": [
+      "Is visiting grandma a fixed plan or a sudden decision?",
+      "For definite future arrangements, which tense do we often use?",
+      "The family is plural, but here it acts as a unit with 'is'."
+    ],
+    "tags": [
+      "future-forms",
+      "travel",
+      "family"
+    ],
+    "estimatedTimeSec": 26,
+    "prompt": "My family ______ to visit my grandma in Italy next month."
+  },
+  {
+    "id": "eg-b1-055",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "past-continuous",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.46,
+    "answerKey": "was cooking",
+    "acceptableAnswers": [
+      "was cooking",
+      "were cooking"
+    ],
+    "explanation": "Excellent! The past continuous describes a background action that was interrupted.",
+    "explanationSteps": [
+      "'When the phone rang' is the interrupting action in the past.",
+      "The longer background action uses past continuous: 'was/were + verb-ing'.",
+      "Since 'my mum' is singular, we use 'was cooking'."
+    ],
+    "hints": [
+      "Which action was the longer background activity?",
+      "Past continuous for background actions: 'was + verb-ing'.",
+      "'Mum' is singular, so use 'was' not 'were'."
+    ],
+    "tags": [
+      "past-continuous",
+      "home",
+      "interrupted-action"
+    ],
+    "estimatedTimeSec": 27,
+    "prompt": "My mum ______ ______ dinner when the phone rang. (cook)"
+  },
+  {
+    "id": "eg-b1-056",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "present-perfect",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.39,
+    "choices": [
+      {
+        "key": "A",
+        "text": "did you buy"
+      },
+      {
+        "key": "B",
+        "text": "have you had"
+      },
+      {
+        "key": "C",
+        "text": "do you have"
+      },
+      {
+        "key": "D",
+        "text": "have you bought"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Past simple 'did you buy' needs a specific past time, but 'since' needs present perfect.",
+      "C": "Present simple 'do you have' doesn't work with 'since', which refers to a period starting in the past.",
+      "D": "'Have you bought' focuses on the buying action, but the sentence is about possession over time."
+    },
+    "explanation": "Great job! 'Since' is a perfect partner for the present perfect tense.",
+    "explanationSteps": [
+      "'Since last summer' tells us the possession started in the past and continues to now.",
+      "The present perfect 'have you had' shows possession over a period of time.",
+      "'Have had' uses 'have' as a main verb meaning possession."
+    ],
+    "hints": [
+      "Which time word pairs with present perfect to show duration?",
+      "'Since' needs the present perfect tense.",
+      "'Have' can mean possession, not just auxiliary."
+    ],
+    "tags": [
+      "present-perfect",
+      "travel",
+      "since"
+    ],
+    "estimatedTimeSec": 25,
+    "prompt": "How long ______ ______ this bicycle? I have had mine since last summer."
+  },
+  {
+    "id": "eg-b1-057",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "future-perfect",
+    "level": "B1",
+    "questionType": "true-false",
+    "difficulty": 0.52,
+    "answerKey": "false",
+    "explanation": "Not quite! The future perfect talks about completion before a future time, not just any future action.",
+    "explanationSteps": [
+      "'Will have finished' means completion before a specific future moment.",
+      "'By 6 PM' is the future time, and the homework must be done before then.",
+      "Simple future 'will finish' doesn't emphasize completion before another future event."
+    ],
+    "hints": [
+      "Does 'will have finished' mean the same as 'will finish'?",
+      "Future perfect emphasizes completion before another future moment.",
+      "Think about the difference in meaning between the two sentences."
+    ],
+    "tags": [
+      "future-perfect",
+      "school",
+      "completion"
+    ],
+    "estimatedTimeSec": 28,
+    "prompt": "'I will have finished my homework by 6 PM' means the same as 'I will finish my homework by 6 PM'."
+  },
+  {
+    "id": "eg-b1-058",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "past-perfect-continuous",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.5,
+    "answerKey": "had been running",
+    "acceptableAnswers": [
+      "had been running"
+    ],
+    "explanation": "Excellent! The past perfect continuous shows a longer action that happened before another past action.",
+    "explanationSteps": [
+      "'For an hour' tells us the running was a continuous past activity.",
+      "The past perfect continuous uses 'had been + verb-ing'.",
+      "It shows the running happened before and up to the moment of stopping."
+    ],
+    "hints": [
+      "Which action happened first: the running or the stopping?",
+      "For longer actions before another past action, use 'had been + verb-ing'.",
+      "Double-check the past participle of 'run'."
+    ],
+    "tags": [
+      "past-perfect-continuous",
+      "sports",
+      "duration"
+    ],
+    "estimatedTimeSec": 30,
+    "prompt": "She was exhausted because she ______ ______ ______ for an hour before she stopped. (run)"
+  },
+  {
+    "id": "eg-b1-059",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "present-simple-vs-continuous",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.41,
+    "choices": [
+      {
+        "key": "A",
+        "text": "am not liking"
+      },
+      {
+        "key": "B",
+        "text": "don't like"
+      },
+      {
+        "key": "C",
+        "text": "doesn't like"
+      },
+      {
+        "key": "D",
+        "text": "am not like"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Like' is a stative verb and is not normally used in continuous forms.",
+      "C": "'Doesn't like' is for third person singular, but the subject here is 'I'.",
+      "D": "'Am not like' means 'I am not similar to', which changes the meaning completely."
+    },
+    "explanation": "Perfect! 'Like' is a state verb, so we use the present simple, not the continuous.",
+    "explanationSteps": [
+      "'Like' describes a feeling or state, not an action in progress.",
+      "State verbs are usually used in simple tenses, not continuous forms.",
+      "For 'I', the negative present simple is 'don't like'."
+    ],
+    "hints": [
+      "Is 'like' an action you can see happening, or a feeling?",
+      "For feelings and states, we usually use the present simple.",
+      "The subject is 'I', so use 'don't' not 'doesn't'."
+    ],
+    "tags": [
+      "present-simple",
+      "stative-verbs",
+      "food"
+    ],
+    "estimatedTimeSec": 24,
+    "prompt": "I ______ ______ spicy food because it makes my stomach hurt."
+  },
+  {
+    "id": "eg-b1-060",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "future-continuous",
+    "level": "B1",
+    "questionType": "transformation",
+    "difficulty": 0.53,
+    "originalSentence": "At 8 PM tomorrow, I will watch the match.",
+    "targetPattern": "future continuous",
+    "answerKey": "At 8 PM tomorrow, I will be watching the match.",
+    "acceptableAnswers": [
+      "At 8 PM tomorrow, I will be watching the match."
+    ],
+    "explanation": "Excellent transformation! The future continuous shows an action in progress at a specific future time.",
+    "explanationSteps": [
+      "'At 8 PM tomorrow' is a specific future moment.",
+      "The future continuous uses 'will be + verb-ing'.",
+      "It shows the match will be in progress at that exact time."
+    ],
+    "hints": [
+      "Which structure shows an action in progress at a future moment?",
+      "Future continuous: 'will be + verb-ing'.",
+      "Keep the time expression at the beginning of the sentence."
+    ],
+    "tags": [
+      "future-continuous",
+      "sports",
+      "specific-time"
+    ],
+    "estimatedTimeSec": 32,
+    "prompt": "Rewrite the sentence using the future continuous. Start with 'At 8 PM tomorrow...'"
+  },
+  {
+    "id": "eg-b1-061",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "zero-conditional",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.36,
+    "choices": [
+      {
+        "key": "D",
+        "text": "turns"
+      },
+      {
+        "key": "B",
+        "text": "will turn"
+      },
+      {
+        "key": "C",
+        "text": "would turn"
+      },
+      {
+        "key": "A",
+        "text": "turned"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "'Will turn' is for first conditional future results, but this is a general scientific truth.",
+      "C": "'Would turn' is for imaginary second conditional situations.",
+      "A": "'Turned' is past simple, but freezing water is a general fact, not a past event."
+    },
+    "explanation": "Great! The zero conditional is perfect for general truths and scientific facts.",
+    "explanationSteps": [
+      "The zero conditional uses 'if + present simple, ... present simple' for general truths.",
+      "Water freezing at 0 degrees is a scientific fact.",
+      "Both clauses use the present simple tense."
+    ],
+    "hints": [
+      "Is this a general scientific fact or a specific future possibility?",
+      "Zero conditional structure: if + present simple, ... present simple.",
+      "Think about what always happens when water freezes."
+    ],
+    "tags": [
+      "zero-conditional",
+      "science",
+      "general-truths"
+    ],
+    "estimatedTimeSec": 22,
+    "prompt": "If you freeze water to 0 degrees Celsius, it ______ into ice."
+  },
+  {
+    "id": "eg-b1-062",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "first-conditional",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.43,
+    "answerKey": "finish ... will",
+    "acceptableAnswers": [
+      "finish ... will",
+      "finish ... can",
+      "finish ... may"
+    ],
+    "explanation": "Excellent! This first conditional shows a real possibility and its future result.",
+    "explanationSteps": [
+      "'If you finish your homework' is a real possibility.",
+      "First conditional uses 'if + present simple, ... will + base verb'.",
+      "The result is a real future consequence of completing the homework."
+    ],
+    "hints": [
+      "Is finishing homework a real possibility?",
+      "First conditional: if + present simple, ... will + infinitive.",
+      "Use the base form of the verb in the if-clause."
+    ],
+    "tags": [
+      "first-conditional",
+      "school",
+      "real-possibility"
+    ],
+    "estimatedTimeSec": 25,
+    "prompt": "If you ______ your homework early, we ______ go to the cinema tonight. (finish)"
+  },
+  {
+    "id": "eg-b1-063",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "second-conditional",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.47,
+    "choices": [
+      {
+        "key": "A",
+        "text": "would buy"
+      },
+      {
+        "key": "B",
+        "text": "will buy"
+      },
+      {
+        "key": "C",
+        "text": "bought"
+      },
+      {
+        "key": "D",
+        "text": "would have bought"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "'Will buy' is first conditional, but having a million pounds is imaginary, not real.",
+      "C": "'Bought' is past simple, but we need 'would + infinitive' in the main clause of second conditional.",
+      "D": "'Would have bought' is third conditional for past regrets, not imaginary present situations."
+    },
+    "explanation": "Wonderful! You've used the second conditional to imagine an unreal present situation.",
+    "explanationSteps": [
+      "Having a million pounds is an imaginary situation.",
+      "Second conditional uses 'if + past simple, ... would + infinitive'.",
+      "'Would buy' shows the imaginary result of having all that money."
+    ],
+    "hints": [
+      "Is having a million pounds a real situation or imaginary?",
+      "Second conditional result: 'would + infinitive'.",
+      "The if-clause uses past simple 'had'."
+    ],
+    "tags": [
+      "second-conditional",
+      "imaginary",
+      "money"
+    ],
+    "estimatedTimeSec": 26,
+    "prompt": "If I had a million pounds, I ______ a house by the sea."
+  },
+  {
+    "id": "eg-b1-064",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "third-conditional",
+    "level": "B1",
+    "questionType": "error-correction",
+    "difficulty": 0.51,
+    "errorSegment": "would pass",
+    "answerKey": "would have passed",
+    "acceptableAnswers": [
+      "would have passed"
+    ],
+    "explanation": "Great catch! The if-clause uses past perfect, so the main clause needs 'would have + past participle'.",
+    "explanationSteps": [
+      "'If I had studied' is the past perfect if-clause of a third conditional.",
+      "Third conditional main clause uses 'would have + past participle'.",
+      "So we need 'would have passed' to match the past unreal situation."
+    ],
+    "hints": [
+      "Does the if-clause refer to the past or the present?",
+      "Third conditional: if + past perfect, ... would have + past participle.",
+      "Look at the verb form in the if-clause for clues."
+    ],
+    "tags": [
+      "third-conditional",
+      "school",
+      "past-regret"
+    ],
+    "estimatedTimeSec": 29,
+    "prompt": "If I had studied harder, I would pass the exam with top marks."
+  },
+  {
+    "id": "eg-b1-065",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "first-conditional",
+    "level": "B1",
+    "questionType": "transformation",
+    "difficulty": 0.44,
+    "originalSentence": "You might miss the bus if you don't leave now.",
+    "targetPattern": "unless",
+    "answerKey": "You will miss the bus unless you leave now.",
+    "acceptableAnswers": [
+      "You will miss the bus unless you leave now.",
+      "You might miss the bus unless you leave now."
+    ],
+    "explanation": "Excellent transformation! 'Unless' means 'if not' and makes the sentence more concise.",
+    "explanationSteps": [
+      "'Unless' replaces 'if not' in conditional sentences.",
+      "'Unless you leave now' means 'if you don't leave now'.",
+      "The main clause keeps the future result."
+    ],
+    "hints": [
+      "Which word means 'if not'?",
+      "Replace 'if you don't' with 'unless you'.",
+      "Keep the main clause result the same."
+    ],
+    "tags": [
+      "first-conditional",
+      "unless",
+      "travel"
+    ],
+    "estimatedTimeSec": 27,
+    "prompt": "Rewrite this sentence using 'unless'. Keep the same meaning."
+  },
+  {
+    "id": "eg-b1-066",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "second-conditional",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.49,
+    "answerKey": "lived ... would visit",
+    "acceptableAnswers": [
+      "lived ... would visit",
+      "lived ... could visit"
+    ],
+    "explanation": "Perfect! You've created a beautiful second conditional sentence about an imaginary situation.",
+    "explanationSteps": [
+      "Living in Paris is imaginary — it's not the current reality.",
+      "Second conditional: 'if + past simple, ... would + infinitive'.",
+      "'Would visit' shows the imaginary result of living there."
+    ],
+    "hints": [
+      "Is living in Paris your current reality?",
+      "Use past simple in the if-clause and 'would + infinitive' in the main clause.",
+      "'Live' becomes 'lived' in the if-clause."
+    ],
+    "tags": [
+      "second-conditional",
+      "travel",
+      "imaginary"
+    ],
+    "estimatedTimeSec": 28,
+    "prompt": "If I ______ in Paris, I ______ the Eiffel Tower every weekend. (live / visit)"
+  },
+  {
+    "id": "eg-b1-067",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "zero-conditional",
+    "level": "B1",
+    "questionType": "true-false",
+    "difficulty": 0.38,
+    "answerKey": "true",
+    "explanation": "Exactly right! The zero conditional is all about general truths and facts.",
+    "explanationSteps": [
+      "Zero conditional uses 'if + present simple, ... present simple'.",
+      "It describes things that are always true, like scientific facts.",
+      "'If you heat ice, it melts' is a perfect example of a general truth."
+    ],
+    "hints": [
+      "Does the zero conditional talk about specific future events?",
+      "Zero conditional is for general truths and scientific facts.",
+      "Both clauses use the same tense."
+    ],
+    "tags": [
+      "zero-conditional",
+      "science",
+      "general-truths"
+    ],
+    "estimatedTimeSec": 21,
+    "prompt": "In zero conditional sentences, we use the present simple in both the if-clause and the main clause."
+  },
+  {
+    "id": "eg-b1-068",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "first-conditional",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.41,
+    "choices": [
+      {
+        "key": "D",
+        "text": "will get"
+      },
+      {
+        "key": "B",
+        "text": "would get"
+      },
+      {
+        "key": "C",
+        "text": "gets"
+      },
+      {
+        "key": "A",
+        "text": "would have got"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "'Would get' is for imaginary second conditional situations, but eating vegetables is a real health choice.",
+      "C": "'Gets' is present simple, but the main clause of first conditional needs 'will + infinitive'.",
+      "A": "'Would have got' is third conditional for past unreal situations, not future health results."
+    },
+    "explanation": "Well done! This first conditional connects a real health choice to its likely future result.",
+    "explanationSteps": [
+      "Eating more vegetables is a real possibility.",
+      "First conditional: 'if + present simple, ... will + infinitive'.",
+      "'Will get' shows the likely future health benefit."
+    ],
+    "hints": [
+      "Is eating more vegetables a real possibility?",
+      "First conditional result uses 'will + infinitive'.",
+      "Think about the structure: if + present simple, will + base verb."
+    ],
+    "tags": [
+      "first-conditional",
+      "health",
+      "real-possibility"
+    ],
+    "estimatedTimeSec": 23,
+    "prompt": "If you eat more vegetables, you ______ stronger and healthier."
+  },
+  {
+    "id": "eg-b1-069",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "present-passive",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "choices": [
+      {
+        "key": "A",
+        "text": "makes"
+      },
+      {
+        "key": "B",
+        "text": "is made"
+      },
+      {
+        "key": "C",
+        "text": "made"
+      },
+      {
+        "key": "D",
+        "text": "is making"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Makes' is active voice, but paper doesn't make itself — people make it from wood.",
+      "C": "'Made' is past simple active or past participle, but we need a present passive verb here.",
+      "D": "'Is making' is present continuous active, which would mean the paper is doing the making."
+    },
+    "explanation": "Perfect! The paper receives the action, so we need the present passive voice.",
+    "explanationSteps": [
+      "The subject 'paper' receives the action — it is made by people.",
+      "Present passive uses 'am/is/are + past participle'.",
+      "Since 'paper' is singular, we use 'is made'."
+    ],
+    "hints": [
+      "Does paper make itself, or is it made by someone?",
+      "Present passive for singular subjects: 'is + past participle'.",
+      "What is the past participle of 'make'?"
+    ],
+    "tags": [
+      "present-passive",
+      "environment",
+      "materials"
+    ],
+    "estimatedTimeSec": 24,
+    "prompt": "Paper ______ from wood pulp in factories all over the world."
+  },
+  {
+    "id": "eg-b1-070",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "past-passive",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.44,
+    "answerKey": "was invented",
+    "acceptableAnswers": [
+      "was invented"
+    ],
+    "explanation": "Excellent! The telephone received the action of invention in the past.",
+    "explanationSteps": [
+      "The telephone didn't invent itself — Alexander Graham Bell did.",
+      "'In 1876' tells us this happened in the past.",
+      "Past passive for singular subjects: 'was + past participle'."
+    ],
+    "hints": [
+      "Did the telephone invent itself?",
+      "Past passive: 'was + past participle' for singular subjects.",
+      "What is the past participle of 'invent'?"
+    ],
+    "tags": [
+      "past-passive",
+      "technology",
+      "inventions"
+    ],
+    "estimatedTimeSec": 26,
+    "prompt": "The telephone ______ ______ by Alexander Graham Bell in 1876. (invent)"
+  },
+  {
+    "id": "eg-b1-071",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "passive-with-agent",
+    "level": "B1",
+    "questionType": "transformation",
+    "difficulty": 0.47,
+    "originalSentence": "A famous architect designed this bridge.",
+    "targetPattern": "passive with agent",
+    "answerKey": "This bridge was designed by a famous architect.",
+    "acceptableAnswers": [
+      "This bridge was designed by a famous architect."
+    ],
+    "explanation": "Wonderful! You shifted the focus to the bridge and included the agent for extra information.",
+    "explanationSteps": [
+      "The object 'this bridge' becomes the new subject.",
+      "Past passive: 'was + past participle' because the bridge is singular.",
+      "We included 'by a famous architect' to mention who designed it."
+    ],
+    "hints": [
+      "Make 'this bridge' the new subject.",
+      "Use 'was + past participle' and include 'by a famous architect'.",
+      "Keep the same tense: past simple passive."
+    ],
+    "tags": [
+      "past-passive",
+      "travel",
+      "agent"
+    ],
+    "estimatedTimeSec": 29,
+    "prompt": "Change this sentence to the passive voice. Begin with 'This bridge...'"
+  },
+  {
+    "id": "eg-b1-072",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "present-passive",
+    "level": "B1",
+    "questionType": "error-correction",
+    "difficulty": 0.42,
+    "errorSegment": "are build",
+    "answerKey": "are built",
+    "acceptableAnswers": [
+      "are built"
+    ],
+    "explanation": "Great catch! Passive voice needs the past participle, not the base form.",
+    "explanationSteps": [
+      "'Are build' mixes the auxiliary verb with the base form.",
+      "Present passive uses 'are + past participle'.",
+      "'Built' is the past participle of 'build'."
+    ],
+    "hints": [
+      "Is 'build' the past participle of 'build'?",
+      "Passive voice needs 'are + past participle'.",
+      "What is the past participle of 'build'?"
+    ],
+    "tags": [
+      "present-passive",
+      "school",
+      "error-correction"
+    ],
+    "estimatedTimeSec": 25,
+    "prompt": "These houses are build with recycled materials to help the environment."
+  },
+  {
+    "id": "eg-b1-073",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "future-passive",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.46,
+    "choices": [
+      {
+        "key": "A",
+        "text": "will complete"
+      },
+      {
+        "key": "B",
+        "text": "will be completed"
+      },
+      {
+        "key": "C",
+        "text": "is completing"
+      },
+      {
+        "key": "D",
+        "text": "completes"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Will complete' is active voice, but the stadium doesn't complete itself — workers do.",
+      "C": "'Is completing' is present continuous active, which would mean the stadium is doing the completing.",
+      "D": "'Completes' is present simple active and doesn't fit the future time 'next year'."
+    },
+    "explanation": "Perfect! The stadium will receive the action, so future passive is exactly right.",
+    "explanationSteps": [
+      "The stadium is the receiver of the action, not the doer.",
+      "'Next year' tells us we're talking about the future.",
+      "Future passive: 'will be + past participle'."
+    ],
+    "hints": [
+      "Will the stadium complete itself?",
+      "Future passive structure: 'will be + past participle'.",
+      "What is the past participle of 'complete'?"
+    ],
+    "tags": [
+      "future-passive",
+      "sports",
+      "construction"
+    ],
+    "estimatedTimeSec": 27,
+    "prompt": "The new stadium ______ ______ by next year. (complete)"
+  },
+  {
+    "id": "eg-b1-074",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "modal-passive",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.49,
+    "answerKey": "must be worn",
+    "acceptableAnswers": [
+      "must be worn"
+    ],
+    "explanation": "Excellent! When we combine a modal with passive voice, we use 'modal + be + past participle'.",
+    "explanationSteps": [
+      "'Must' is a modal verb expressing obligation.",
+      "Modal passive structure: 'modal + be + past participle'.",
+      "'Must be worn' shows that helmets are required by rules."
+    ],
+    "hints": [
+      "Which modal shows strong obligation?",
+      "Modal passive: 'must + be + past participle'.",
+      "What is the past participle of 'wear'?"
+    ],
+    "tags": [
+      "modal-passive",
+      "sports",
+      "safety"
+    ],
+    "estimatedTimeSec": 28,
+    "prompt": "Helmets ______ ______ ______ by all cyclists on this road. (must / wear)"
+  },
+  {
+    "id": "eg-b1-075",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "passive-tenses",
+    "level": "B1",
+    "questionType": "true-false",
+    "difficulty": 0.4,
+    "answerKey": "false",
+    "explanation": "Not necessarily! We can form passive sentences in any tense, not just the past.",
+    "explanationSteps": [
+      "Passive voice exists in all tenses: present, past, future, perfect, and continuous.",
+      "Examples: 'is eaten' (present), 'was eaten' (past), 'will be eaten' (future).",
+      "Any tense can be turned into passive voice!"
+    ],
+    "hints": [
+      "Can you think of a present passive sentence?",
+      "Passive voice works in every tense.",
+      "Try making a passive sentence in the present tense."
+    ],
+    "tags": [
+      "passive-voice",
+      "tenses",
+      "grammar-myths"
+    ],
+    "estimatedTimeSec": 24,
+    "prompt": "Passive voice can only be used in the past tense."
+  },
+  {
+    "id": "eg-b1-076",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "present-passive",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.43,
+    "choices": [
+      {
+        "key": "A",
+        "text": "speaks"
+      },
+      {
+        "key": "B",
+        "text": "is spoken"
+      },
+      {
+        "key": "C",
+        "text": "was spoken"
+      },
+      {
+        "key": "D",
+        "text": "has spoken"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Speaks' is active voice, but English doesn't speak itself — people speak it.",
+      "C": "'Was spoken' is past passive, but the sentence is a general fact about the present.",
+      "D": "'Has spoken' is present perfect active and doesn't fit this general statement."
+    },
+    "explanation": "Perfect! English is the object of speaking, so present passive is the natural choice.",
+    "explanationSteps": [
+      "English is spoken by people, so it receives the action.",
+      "This is a general fact, so we use the present passive.",
+      "'Is spoken' shows it's a current, ongoing situation."
+    ],
+    "hints": [
+      "Does English speak itself?",
+      "For general facts about actions received, use present passive.",
+      "What is the past participle of 'speak'?"
+    ],
+    "tags": [
+      "present-passive",
+      "language",
+      "general-facts"
+    ],
+    "estimatedTimeSec": 25,
+    "prompt": "English ______ by over a billion people around the world."
+  },
+  {
+    "id": "eg-b1-077",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "collective-nouns",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.41,
+    "choices": [
+      {
+        "key": "D",
+        "text": "is"
+      },
+      {
+        "key": "B",
+        "text": "are"
+      },
+      {
+        "key": "C",
+        "text": "were"
+      },
+      {
+        "key": "A",
+        "text": "have been"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "'Are' is plural, but 'the audience' acts as a single unit when reacting together.",
+      "C": "'Were' is past tense, but 'now' tells us this is happening in the present.",
+      "A": "'Have been' is present perfect and doesn't fit the immediate reaction described."
+    },
+    "explanation": "Great! When a collective noun acts as one unit, a singular verb is the best choice.",
+    "explanationSteps": [
+      "'The audience' is a collective noun that can act as a single unit.",
+      "When the group reacts together, use a singular verb.",
+      "'Is clapping' shows the audience acting as one."
+    ],
+    "hints": [
+      "Is the audience acting as one group or as separate individuals?",
+      "Collective nouns often take singular verbs when the group acts together.",
+      "'Now' tells us this is happening in the present."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "collective-nouns",
+      "school"
+    ],
+    "estimatedTimeSec": 25,
+    "prompt": "The audience ______ clapping loudly after the school play."
+  },
+  {
+    "id": "eg-b1-078",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "intervening-phrases",
+    "level": "B1",
+    "questionType": "error-correction",
+    "difficulty": 0.44,
+    "errorSegment": "are very",
+    "answerKey": "is very",
+    "acceptableAnswers": [
+      "is very"
+    ],
+    "explanation": "Excellent! You looked past the prepositional phrase to find the true subject.",
+    "explanationSteps": [
+      "Remove 'of old books' to find the real subject.",
+      "The subject is 'the collection', which is singular.",
+      "So the verb must be singular: 'is'."
+    ],
+    "hints": [
+      "Cross out 'of old books' to find the real subject.",
+      "Is the true subject singular or plural?",
+      "The collection is one thing, even though it contains many books."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "intervening-phrases",
+      "library"
+    ],
+    "estimatedTimeSec": 26,
+    "prompt": "The collection of old books in the library are very valuable."
+  },
+  {
+    "id": "eg-b1-079",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "compound-subjects",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.46,
+    "answerKey": "is",
+    "acceptableAnswers": [
+      "is",
+      "was"
+    ],
+    "explanation": "Perfect! With 'either...or', the verb agrees with the noun closest to it.",
+    "explanationSteps": [
+      "In 'either...or' constructions, look at the noun nearest to the verb.",
+      "Here, 'the teacher' is singular and closest to the verb.",
+      "So we use the singular verb 'is'."
+    ],
+    "hints": [
+      "With 'either...or', which noun is closer to the verb?",
+      "The verb agrees with the nearest subject.",
+      "'The teacher' is singular, so use 'is'."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "either-or",
+      "school"
+    ],
+    "estimatedTimeSec": 27,
+    "prompt": "Either the students or the teacher ______ going to present the project tomorrow."
+  },
+  {
+    "id": "eg-b1-080",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "indefinite-pronouns",
+    "level": "B1",
+    "questionType": "true-false",
+    "difficulty": 0.39,
+    "answerKey": "false",
+    "explanation": "Not quite! 'Neither' is singular and takes a singular verb.",
+    "explanationSteps": [
+      "'Neither of the options' refers to 'not one and not the other'.",
+      "When 'neither' is the subject, it takes a singular verb.",
+      "The correct form is 'Neither of the options is correct.'"
+    ],
+    "hints": [
+      "Does 'neither' mean one thing or two things?",
+      "'Neither' is singular and takes a singular verb.",
+      "Think of 'neither' as 'not either one'."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "neither",
+      "indefinite-pronouns"
+    ],
+    "estimatedTimeSec": 23,
+    "prompt": "The sentence 'Neither of the options are correct' is grammatically correct."
+  },
+  {
+    "id": "eg-b1-081",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "there-be",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.42,
+    "choices": [
+      {
+        "key": "A",
+        "text": "is"
+      },
+      {
+        "key": "B",
+        "text": "are"
+      },
+      {
+        "key": "C",
+        "text": "were"
+      },
+      {
+        "key": "D",
+        "text": "has been"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Is' is singular, but the real subject after 'there' is 'three teams', which is plural.",
+      "C": "'Were' is past tense, but 'this year' suggests a present time frame.",
+      "D": "'Has been' is singular and doesn't match the plural subject 'three teams'."
+    },
+    "explanation": "Perfect! In 'there be' sentences, the verb agrees with the real subject that follows.",
+    "explanationSteps": [
+      "In 'there is/are' sentences, find the subject after the verb.",
+      "The real subject is 'three teams', which is plural.",
+      "So we use the plural verb 'are'."
+    ],
+    "hints": [
+      "Which noun comes after 'there' in this sentence?",
+      "The verb agrees with the real subject, not with 'there'.",
+      "'Three teams' is plural, so use 'are'."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "there-be",
+      "sports"
+    ],
+    "estimatedTimeSec": 24,
+    "prompt": "There ______ three teams competing in the tournament this year."
+  },
+  {
+    "id": "eg-b1-082",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "each-every",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.45,
+    "answerKey": "has",
+    "acceptableAnswers": [
+      "has"
+    ],
+    "explanation": "Excellent! 'Each' is always singular and takes a singular verb.",
+    "explanationSteps": [
+      "'Each student' means every single student individually.",
+      "'Each' is always singular, even when followed by a plural noun.",
+      "So we use the singular verb 'has'."
+    ],
+    "hints": [
+      "Does 'each' refer to one person or many people?",
+      "'Each' is always singular and takes a singular verb.",
+      "Think about 'each one' to help you remember."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "each",
+      "school"
+    ],
+    "estimatedTimeSec": 25,
+    "prompt": "Each student in my class ______ a unique talent to share."
+  },
+  {
+    "id": "eg-b1-083",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "prepositions-of-time",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "choices": [
+      {
+        "key": "A",
+        "text": "at"
+      },
+      {
+        "key": "B",
+        "text": "on"
+      },
+      {
+        "key": "C",
+        "text": "in"
+      },
+      {
+        "key": "D",
+        "text": "by"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'At' is used for specific times like 'at 5 o'clock', not for days of the week.",
+      "C": "'In' is used for months, seasons, and years, not specific days.",
+      "D": "'By Monday' means before or no later than Monday, not during Monday."
+    },
+    "explanation": "Perfect! Days of the week always pair with the preposition 'on'.",
+    "explanationSteps": [
+      "We use 'on' for specific days and dates.",
+      "'Monday' is a day of the week.",
+      "So 'on Monday' is the correct choice."
+    ],
+    "hints": [
+      "Which preposition do we use with days of the week?",
+      "Think: on days, in months, at times.",
+      "Monday is a specific day."
+    ],
+    "tags": [
+      "prepositions",
+      "time-prepositions",
+      "school"
+    ],
+    "estimatedTimeSec": 20,
+    "prompt": "We have a science test ______ Monday morning."
+  },
+  {
+    "id": "eg-b1-084",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "prepositions-of-place",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.43,
+    "answerKey": "on ... in",
+    "acceptableAnswers": [
+      "on ... in"
+    ],
+    "explanation": "Excellent! You've matched each noun with its correct preposition partner.",
+    "explanationSteps": [
+      "We use 'on' for surfaces like a table or desk.",
+      "We use 'in' for containers like a drawer.",
+      "'On the desk' and 'in the drawer' are standard preposition combinations."
+    ],
+    "hints": [
+      "Which preposition do we use for a surface?",
+      "Which preposition do we use for inside a container?",
+      "A desk is a surface, and a drawer is inside a desk."
+    ],
+    "tags": [
+      "prepositions",
+      "place-prepositions",
+      "school"
+    ],
+    "estimatedTimeSec": 26,
+    "prompt": "Put the book ______ the desk and the pencils ______ the drawer."
+  },
+  {
+    "id": "eg-b1-085",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "dependent-prepositions",
+    "level": "B1",
+    "questionType": "error-correction",
+    "difficulty": 0.41,
+    "errorSegment": "afraid from",
+    "answerKey": "afraid of",
+    "acceptableAnswers": [
+      "afraid of"
+    ],
+    "explanation": "Great catch! 'Afraid' always pairs with 'of' in English.",
+    "explanationSteps": [
+      "The adjective 'afraid' pairs with 'of' to show what causes fear.",
+      "'Afraid from' is not standard English.",
+      "'Afraid of' is the correct collocation."
+    ],
+    "hints": [
+      "Which preposition follows 'afraid'?",
+      "'Afraid of' is a fixed collocation in English.",
+      "Think about common phrases like 'afraid of the dark'."
+    ],
+    "tags": [
+      "prepositions",
+      "dependent-prepositions",
+      "feelings"
+    ],
+    "estimatedTimeSec": 22,
+    "prompt": "My sister is afraid from spiders, even the tiny ones."
+  },
+  {
+    "id": "eg-b1-086",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "prepositions-of-movement",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.44,
+    "choices": [
+      {
+        "key": "D",
+        "text": "across"
+      },
+      {
+        "key": "B",
+        "text": "through"
+      },
+      {
+        "key": "C",
+        "text": "between"
+      },
+      {
+        "key": "A",
+        "text": "along"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "'Through' means going inside something, like a tunnel or forest, not over a flat surface.",
+      "C": "'Between' is used for two things, like between two buildings, not a bridge.",
+      "A": "'Along' means following a line, like a road or river, not crossing over something."
+    },
+    "explanation": "Perfect! 'Across' is the preposition we use when moving from one side to the other of a surface.",
+    "explanationSteps": [
+      "A bridge is a surface that connects two sides of a river.",
+      "'Across' means from one side to the other.",
+      "So 'walked across the bridge' is the natural choice."
+    ],
+    "hints": [
+      "Does the bridge connect two sides?",
+      "'Across' means from one side to another.",
+      "Think about crossing a road or a field."
+    ],
+    "tags": [
+      "prepositions",
+      "movement",
+      "travel"
+    ],
+    "estimatedTimeSec": 24,
+    "prompt": "We walked ______ the bridge to get to the other side of the river."
+  },
+  {
+    "id": "eg-b1-087",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "phrasal-prepositions",
+    "level": "B1",
+    "questionType": "true-false",
+    "difficulty": 0.37,
+    "answerKey": "true",
+    "explanation": "Exactly right! 'Look after' is a phrasal verb that means to take care of someone or something.",
+    "explanationSteps": [
+      "'Look after' means to take care of or be responsible for.",
+      "It is a phrasal verb where the preposition 'after' changes the meaning of 'look'.",
+      "Other examples: look for, look up, look forward to."
+    ],
+    "hints": [
+      "Does 'look after' mean the same as 'take care of'?",
+      "Phrasal verbs combine a verb and a preposition with a special meaning.",
+      "Think about babysitting or pet sitting."
+    ],
+    "tags": [
+      "prepositions",
+      "phrasal-verbs",
+      "family"
+    ],
+    "estimatedTimeSec": 21,
+    "prompt": "The phrasal verb 'look after' means to take care of someone or something."
+  },
+  {
+    "id": "eg-b1-088",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "prepositions-of-time",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.45,
+    "answerKey": "at ... on",
+    "acceptableAnswers": [
+      "at ... on"
+    ],
+    "explanation": "Excellent! You've used the correct prepositions for time and date.",
+    "explanationSteps": [
+      "We use 'at' for specific times like 'at 9 o'clock'.",
+      "We use 'on' for specific days and dates like 'on Saturday'.",
+      "'At 9 o'clock on Saturday' follows the standard rules."
+    ],
+    "hints": [
+      "Which preposition do we use with a specific time?",
+      "Which preposition do we use with a day of the week?",
+      "Remember: at times, on days, in months."
+    ],
+    "tags": [
+      "prepositions",
+      "time-prepositions",
+      "travel"
+    ],
+    "estimatedTimeSec": 25,
+    "prompt": "The train leaves ______ 9 o'clock ______ Saturday morning."
+  },
+  {
+    "id": "eg-b1-089",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "permission",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.38,
+    "choices": [
+      {
+        "key": "A",
+        "text": "must"
+      },
+      {
+        "key": "B",
+        "text": "can"
+      },
+      {
+        "key": "C",
+        "text": "should"
+      },
+      {
+        "key": "D",
+        "text": "might"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Must' means obligation, but the sentence is asking for permission, not giving a rule.",
+      "C": "'Should' gives advice, but here we need to ask if something is allowed.",
+      "D": "'Might' shows possibility, not permission."
+    },
+    "explanation": "Perfect! 'Can' is the friendly modal we use to ask for permission.",
+    "explanationSteps": [
+      "The sentence is a polite request for permission.",
+      "'Can' is commonly used to ask if something is allowed.",
+      "'Can I borrow your pen?' is a natural way to ask."
+    ],
+    "hints": [
+      "Are we asking for permission or giving advice?",
+      "'Can' is a common modal for asking permission.",
+      "Think about what you say when you want to borrow something."
+    ],
+    "tags": [
+      "modal-verbs",
+      "permission",
+      "school"
+    ],
+    "estimatedTimeSec": 20,
+    "prompt": "______ I borrow your pen for a moment, please?"
+  },
+  {
+    "id": "eg-b1-090",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "ability-past",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.46,
+    "answerKey": "could swim",
+    "acceptableAnswers": [
+      "could swim",
+      "was able to swim"
+    ],
+    "explanation": "Excellent! 'Could' is the past tense of 'can' and shows past ability.",
+    "explanationSteps": [
+      "'When I was five' tells us we are talking about the past.",
+      "'Could' is the past form of 'can' and shows ability in the past.",
+      "'Could swim' means I had the ability to swim at that age."
+    ],
+    "hints": [
+      "Does the sentence talk about the past or the present?",
+      "What is the past tense of 'can'?",
+      "'Could' shows past ability."
+    ],
+    "tags": [
+      "modal-verbs",
+      "ability",
+      "past",
+      "sports"
+    ],
+    "estimatedTimeSec": 25,
+    "prompt": "When I was five, I ______ ______ across the pool without any help."
+  },
+  {
+    "id": "eg-b1-091",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "prohibition",
+    "level": "B1",
+    "questionType": "error-correction",
+    "difficulty": 0.43,
+    "errorSegment": "must not to",
+    "answerKey": "must not",
+    "acceptableAnswers": [
+      "must not",
+      "mustn't"
+    ],
+    "explanation": "Great catch! After 'must not', we use the base form of the verb without 'to'.",
+    "explanationSteps": [
+      "'Must not' is a modal verb phrase.",
+      "Modal verbs are followed directly by the base verb.",
+      "So we say 'must not touch', not 'must not to touch'."
+    ],
+    "hints": [
+      "Do modal verbs need 'to' before the next verb?",
+      "After 'must not', use the base form directly.",
+      "'Must not' means prohibition — it is not allowed."
+    ],
+    "tags": [
+      "modal-verbs",
+      "prohibition",
+      "museum"
+    ],
+    "estimatedTimeSec": 24,
+    "prompt": "You must not to touch the paintings in the museum."
+  },
+  {
+    "id": "eg-b1-092",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "deduction-present",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.48,
+    "choices": [
+      {
+        "key": "D",
+        "text": "must"
+      },
+      {
+        "key": "B",
+        "text": "might"
+      },
+      {
+        "key": "C",
+        "text": "can"
+      },
+      {
+        "key": "A",
+        "text": "should"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "'Might' shows possibility, but the lights being on is strong evidence that someone is home.",
+      "C": "'Can' shows ability, not logical deduction from evidence.",
+      "A": "'Should' gives advice or expectation, but we are making a deduction, not giving advice."
+    },
+    "explanation": "Brilliant deduction! 'Must' is the modal we use when we are very certain based on evidence.",
+    "explanationSteps": [
+      "The lights being on is strong evidence.",
+      "'Must' shows we are almost certain based on what we see.",
+      "It means we are making a logical conclusion."
+    ],
+    "hints": [
+      "How certain are we based on the evidence?",
+      "For strong logical deductions, use 'must'.",
+      "Think about what the lights being on tells us."
+    ],
+    "tags": [
+      "modal-verbs",
+      "deduction",
+      "home"
+    ],
+    "estimatedTimeSec": 26,
+    "prompt": "The lights are on, so someone ______ be at home."
+  },
+  {
+    "id": "eg-b1-093",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "past-obligation",
+    "level": "B1",
+    "questionType": "transformation",
+    "difficulty": 0.5,
+    "originalSentence": "It was necessary for me to wear a uniform at my old school.",
+    "targetPattern": "had to",
+    "answerKey": "I had to wear a uniform at my old school.",
+    "acceptableAnswers": [
+      "I had to wear a uniform at my old school."
+    ],
+    "explanation": "Excellent transformation! 'Had to' is the past form of 'must' and shows past obligation.",
+    "explanationSteps": [
+      "'Had to' replaces 'it was necessary' in the past.",
+      "It shows that wearing a uniform was an obligation in the past.",
+      "'Had to' is the past tense of 'must' for obligation."
+    ],
+    "hints": [
+      "Which modal phrase shows past obligation?",
+      "'Had to' means it was necessary in the past.",
+      "Make 'I' the subject of the new sentence."
+    ],
+    "tags": [
+      "modal-verbs",
+      "obligation",
+      "past",
+      "school"
+    ],
+    "estimatedTimeSec": 28,
+    "prompt": "Rewrite this sentence using 'had to'. Keep the same meaning about past obligation."
+  },
+  {
+    "id": "eg-b1-094",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "defining-clauses",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.44,
+    "choices": [
+      {
+        "key": "A",
+        "text": "who"
+      },
+      {
+        "key": "B",
+        "text": "which"
+      },
+      {
+        "key": "C",
+        "text": "where"
+      },
+      {
+        "key": "D",
+        "text": "whose"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Who' is for people, not things like books.",
+      "C": "'Where' is for places, not objects.",
+      "D": "'Whose' shows possession, but we don't need possession here."
+    },
+    "explanation": "Perfect! 'Which' is the relative pronoun we use for things in defining clauses.",
+    "explanationSteps": [
+      "The antecedent is 'the book', which is a thing.",
+      "For things in defining relative clauses, we use 'which' or 'that'.",
+      "'Which was written last year' defines which book we mean."
+    ],
+    "hints": [
+      "Are we talking about a person or a thing?",
+      "For things, 'which' is a great choice.",
+      "The clause tells us which specific book."
+    ],
+    "tags": [
+      "relative-clauses",
+      "defining-clauses",
+      "books"
+    ],
+    "estimatedTimeSec": 25,
+    "prompt": "This is the book ______ was written by my favourite author last year."
+  },
+  {
+    "id": "eg-b1-095",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "non-defining-clauses",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.48,
+    "answerKey": "which",
+    "acceptableAnswers": [
+      "which"
+    ],
+    "explanation": "Excellent! For things in non-defining clauses, 'which' is the correct choice.",
+    "explanationSteps": [
+      "The clause gives extra information about Mount Everest.",
+      "Non-defining clauses use commas and 'which' for things.",
+      "'Which' is preferred over 'that' in non-defining clauses."
+    ],
+    "hints": [
+      "Is this clause essential or just extra information?",
+      "Non-defining clauses use 'which' for things.",
+      "Notice the commas around the clause."
+    ],
+    "tags": [
+      "relative-clauses",
+      "non-defining-clauses",
+      "travel"
+    ],
+    "estimatedTimeSec": 27,
+    "prompt": "Mount Everest, ______ is the highest mountain in the world, attracts many climbers."
+  },
+  {
+    "id": "eg-b1-096",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "relative-pronouns",
+    "level": "B1",
+    "questionType": "error-correction",
+    "difficulty": 0.45,
+    "errorSegment": "which",
+    "answerKey": "who",
+    "acceptableAnswers": [
+      "who",
+      "that"
+    ],
+    "explanation": "Great catch! For people, we use 'who' or 'that', not 'which'.",
+    "explanationSteps": [
+      "The antecedent is 'the girl', which is a person.",
+      "For people in relative clauses, 'who' is the natural choice.",
+      "'Which' is reserved for things and animals."
+    ],
+    "hints": [
+      "Is a girl a person or a thing?",
+      "For people, use 'who' or 'that'.",
+      "'Which' is for things, not people."
+    ],
+    "tags": [
+      "relative-clauses",
+      "defining-clauses",
+      "people"
+    ],
+    "estimatedTimeSec": 24,
+    "prompt": "The girl which sits next to me in class is really good at maths."
+  },
+  {
+    "id": "eg-b1-097",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "omitting-relative-pronouns",
+    "level": "B1",
+    "questionType": "true-false",
+    "difficulty": 0.42,
+    "answerKey": "true",
+    "explanation": "Exactly right! In defining relative clauses, we can often omit the relative pronoun when it is the object.",
+    "explanationSteps": [
+      "When the relative pronoun is the object of the clause, we can leave it out.",
+      "'The book (that) I read' — 'that' is the object, so it can be omitted.",
+      "This is only possible in defining clauses, not non-defining clauses."
+    ],
+    "hints": [
+      "Is the relative pronoun the subject or the object of the clause?",
+      "Object relative pronouns can often be omitted.",
+      "Try saying the sentence without the relative pronoun."
+    ],
+    "tags": [
+      "relative-clauses",
+      "defining-clauses",
+      "omission"
+    ],
+    "estimatedTimeSec": 26,
+    "prompt": "In defining relative clauses, we can sometimes omit the relative pronoun when it is the object of the clause."
+  },
+  {
+    "id": "eg-b1-098",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "definite-article",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "choices": [
+      {
+        "key": "A",
+        "text": "a"
+      },
+      {
+        "key": "B",
+        "text": "an"
+      },
+      {
+        "key": "C",
+        "text": "the"
+      },
+      {
+        "key": "D",
+        "text": "no article"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "'A' is indefinite and used for general singular nouns, but we are talking about a specific sun.",
+      "B": "'An' is also indefinite and used before vowel sounds, but we need the definite article here.",
+      "D": "We need an article because 'sun' is a singular countable noun and we are referring to the specific sun in our solar system."
+    },
+    "explanation": "Perfect! We use 'the' when there is only one of something that everyone knows about.",
+    "explanationSteps": [
+      "There is only one sun in our solar system.",
+      "We use 'the' for unique things that everyone knows.",
+      "'The sun' is a specific, unique object."
+    ],
+    "hints": [
+      "Is there more than one sun in our solar system?",
+      "We use 'the' for unique things.",
+      "Think about 'the moon' and 'the earth' too."
+    ],
+    "tags": [
+      "articles-determiners",
+      "definite-article",
+      "science"
+    ],
+    "estimatedTimeSec": 22,
+    "prompt": "______ sun rises in the east and sets in the west."
+  },
+  {
+    "id": "eg-b1-099",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "indefinite-article",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.42,
+    "answerKey": "a",
+    "acceptableAnswers": [
+      "a"
+    ],
+    "explanation": "Excellent! We use 'a' before singular countable nouns that start with a consonant sound.",
+    "explanationSteps": [
+      "'Uniform' starts with a consonant sound 'yoo'.",
+      "Even though 'uniform' starts with the letter 'u', the sound is what matters.",
+      "So we use 'a' instead of 'an'."
+    ],
+    "hints": [
+      "What sound does 'uniform' start with?",
+      "It is the sound, not the letter, that matters.",
+      "'Uniform' starts with a 'y' sound."
+    ],
+    "tags": [
+      "articles-determiners",
+      "indefinite-article",
+      "school"
+    ],
+    "estimatedTimeSec": 21,
+    "prompt": "My school requires everyone to wear ______ uniform on special occasions."
+  },
+  {
+    "id": "eg-b1-100",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "quantifiers",
+    "level": "B1",
+    "questionType": "true-false",
+    "difficulty": 0.39,
+    "answerKey": "false",
+    "explanation": "Not quite! 'Little' and 'a little' have different meanings.",
+    "explanationSteps": [
+      "'A little' means some, a small amount — it is positive.",
+      "'Little' means almost none — it is negative.",
+      "'I have a little time' means I have some time. 'I have little time' means I almost have no time."
+    ],
+    "hints": [
+      "Does 'a little' mean the same as 'little'?",
+      "'A little' is positive, but 'little' is negative.",
+      "Think about the difference between 'a few friends' and 'few friends'."
+    ],
+    "tags": [
+      "articles-determiners",
+      "quantifiers",
+      "uncountable"
+    ],
+    "estimatedTimeSec": 24,
+    "prompt": "'I have a little time' and 'I have little time' mean exactly the same thing."
+  }
+]

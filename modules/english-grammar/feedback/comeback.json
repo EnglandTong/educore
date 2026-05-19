@@ -1,0 +1,62 @@
+[
+  {
+    "id": "comeback-01",
+    "text": "Welcome back! Your skills are still here — let's dust them off together!",
+    "context": "returning-user",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "comeback-02",
+    "text": "Hey! So glad to see you again. Ready to pick up where you left off?",
+    "context": "returning-user",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "comeback-03",
+    "text": "You're back! Every return is a fresh chance to grow. Let's do this!",
+    "context": "returning-user",
+    "minLevel": "growing"
+  },
+  {
+    "id": "comeback-04",
+    "text": "Great to see you again! Your progress is waiting for you — let's continue the journey!",
+    "context": "returning-user",
+    "minLevel": "growing"
+  },
+  {
+    "id": "comeback-05",
+    "text": "Welcome back! Learning is a journey with breaks, and that's perfectly okay.",
+    "context": "returning-user",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "comeback-06",
+    "text": "You've returned — that takes commitment! Let's make this session count!",
+    "context": "returning-user",
+    "minLevel": "developing"
+  },
+  {
+    "id": "comeback-07",
+    "text": "Back again! Your skills haven't gone anywhere. Let's strengthen them even more!",
+    "context": "returning-user",
+    "minLevel": "proficient"
+  },
+  {
+    "id": "comeback-08",
+    "text": "Hello again! Whether it's been a day or a week, you're exactly where you need to be.",
+    "context": "returning-user",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "comeback-09",
+    "text": "Your return shows real dedication. Let's jump back in and keep building!",
+    "context": "returning-user",
+    "minLevel": "growing"
+  },
+  {
+    "id": "comeback-10",
+    "text": "Welcome back! The best learners are the ones who keep coming back. You're one of them!",
+    "context": "returning-user",
+    "minLevel": "seedling"
+  }
+]

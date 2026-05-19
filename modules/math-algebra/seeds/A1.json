@@ -1,0 +1,2982 @@
+[
+  {
+    "id": "ma-alg-a1-001",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "number-patterns",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.1,
+    "prompt": "What comes next: 2, 4, 6, 8, ___?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "9"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "11"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Almost! This pattern adds 2 each time. 8 + 2 = 10, not 9.",
+      "C": "That's too high. Try adding 2 to 8.",
+      "D": "Close, but we're adding 2 each time, not 4."
+    },
+    "explanation": "The pattern is adding 2 each time. 2 → 4 (+2), 4 → 6 (+2), 6 → 8 (+2), so 8 + 2 = 10.",
+    "explanationSteps": [
+      "Look at the difference between each number.",
+      "Notice each step adds 2.",
+      "Apply the same rule: 8 + 2 = 10."
+    ],
+    "hints": [
+      "What number do you add to get from 2 to 4?",
+      "Try the same addition on the last number."
+    ],
+    "tags": [
+      "patterns",
+      "skip-counting",
+      "addition"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-002",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "number-patterns",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.15,
+    "prompt": "What comes next: 5, 10, 15, 20, ___?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "22"
+      },
+      {
+        "key": "B",
+        "text": "25"
+      },
+      {
+        "key": "C",
+        "text": "30"
+      },
+      {
+        "key": "D",
+        "text": "35"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Not quite. This pattern adds 5 each time. 20 + 5 = 25.",
+      "C": "That's too many. We add 5, not 10.",
+      "D": "A bit too high. Try adding 5 to 20."
+    },
+    "explanation": "Each number increases by 5. 5 → 10 (+5), 10 → 15 (+5), 15 → 20 (+5), so 20 + 5 = 25.",
+    "explanationSteps": [
+      "Find the difference: 10 - 5 = 5.",
+      "Check the next pair: 15 - 10 = 5.",
+      "Add 5 to the last number: 20 + 5 = 25."
+    ],
+    "hints": [
+      "How much is added from 5 to 10?",
+      "Add that same amount to 20."
+    ],
+    "tags": [
+      "patterns",
+      "skip-counting",
+      "multiplication"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-003",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "number-patterns",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.2,
+    "prompt": "Fill in the missing number: 3, 6, ___, 12, 15",
+    "choices": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "9"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Not quite. The pattern adds 3 each time. 6 + 3 = 9.",
+      "B": "Almost! Try counting up by 3s: 3, 6, 9, 12.",
+      "D": "Close, but the step is 3, not 4."
+    },
+    "explanation": "The pattern adds 3 each time. 3 → 6 (+3), 6 → 9 (+3), 9 → 12 (+3), 12 → 15 (+3). The missing number is 9.",
+    "explanationSteps": [
+      "Check the difference between known numbers: 6 - 3 = 3 and 12 - 9 = 3.",
+      "The rule is 'add 3'.",
+      "Apply it: 6 + 3 = 9."
+    ],
+    "hints": [
+      "What is the difference between 3 and 6?",
+      "Use that same difference after 6."
+    ],
+    "tags": [
+      "patterns",
+      "missing-term",
+      "addition"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a1-004",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "number-patterns",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.15,
+    "prompt": "What number comes next: 1, 4, 7, 10, ___?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "11"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "13"
+      },
+      {
+        "key": "D",
+        "text": "14"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Almost! Add 3 to 10, not 1.",
+      "B": "That's adding 2. Try adding 3 instead.",
+      "D": "A bit high. The pattern adds 3, so 10 + 3 = 13."
+    },
+    "explanation": "The pattern adds 3 each time. 1 → 4 (+3), 4 → 7 (+3), 7 → 10 (+3), so 10 + 3 = 13.",
+    "explanationSteps": [
+      "Find the step: 4 - 1 = 3.",
+      "Check: 7 - 4 = 3, 10 - 7 = 3.",
+      "Add 3 to 10: 10 + 3 = 13."
+    ],
+    "hints": [
+      "What is 4 minus 1?",
+      "Add that number to 10."
+    ],
+    "tags": [
+      "patterns",
+      "skip-counting",
+      "addition"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-005",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "shape-patterns",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "Look at this shape pattern: circle, square, triangle, circle, square, ___? What comes next?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "circle"
+      },
+      {
+        "key": "B",
+        "text": "square"
+      },
+      {
+        "key": "C",
+        "text": "triangle"
+      },
+      {
+        "key": "D",
+        "text": "star"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "The pattern repeats every 3 shapes. After circle, square comes triangle.",
+      "B": "Look carefully at the repeating cycle. Square was the second shape.",
+      "D": "Star is not part of this repeating pattern."
+    },
+    "explanation": "The shapes repeat in a cycle of 3: circle, square, triangle, circle, square, triangle. So after square comes triangle.",
+    "explanationSteps": [
+      "Notice the shapes repeat in the same order.",
+      "The cycle length is 3 shapes.",
+      "After the first circle-square-triangle, the pattern starts again: circle, square, triangle."
+    ],
+    "hints": [
+      "How many different shapes are in the pattern?",
+      "What comes after square in the first set?"
+    ],
+    "tags": [
+      "patterns",
+      "shapes",
+      "cycles"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "ma-alg-a1-006",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "number-patterns",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.25,
+    "prompt": "Fill in the missing number: 20, 16, 12, ___, 4",
+    "choices": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Almost! We subtract 4 each time. 12 - 4 = 8, not 10.",
+      "C": "Close! The step is 4, not 6.",
+      "D": "That's subtracting too much. Each step subtracts 4."
+    },
+    "explanation": "This is a decreasing pattern. 20, 16 (-4), 16, 12 (-4), 12, 8 (-4), 8, 4 (-4). The missing number is 8.",
+    "explanationSteps": [
+      "Find how much is subtracted: 20 - 16 = 4.",
+      "Check: 16 - 12 = 4.",
+      "Subtract 4 from 12: 12 - 4 = 8."
+    ],
+    "hints": [
+      "What is 20 minus 16?",
+      "Subtract that number from 12."
+    ],
+    "tags": [
+      "patterns",
+      "decreasing",
+      "subtraction"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a1-007",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "number-patterns",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "What comes next: 10, 20, 30, 40, ___?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "45"
+      },
+      {
+        "key": "B",
+        "text": "50"
+      },
+      {
+        "key": "C",
+        "text": "60"
+      },
+      {
+        "key": "D",
+        "text": "100"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Almost! We add 10 each time. 40 + 10 = 50.",
+      "C": "That's adding 20. The pattern adds 10 each time.",
+      "D": "That jumps too far ahead. Just add 10 to 40."
+    },
+    "explanation": "This pattern adds 10 each time. 10, 20 (+10), 20, 30 (+10), 30, 40 (+10), so 40 + 10 = 50.",
+    "explanationSteps": [
+      "Find the difference: 20 - 10 = 10.",
+      "Check that the difference is the same throughout.",
+      "Add 10 to 40: 40 + 10 = 50."
+    ],
+    "hints": [
+      "What is 20 minus 10?",
+      "Add that to 40."
+    ],
+    "tags": [
+      "patterns",
+      "skip-counting",
+      "tens"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "ma-alg-a1-008",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "arithmetic-sequences",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "What is the next number in this sequence: 1, 3, 5, 7, ___?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "8"
+      },
+      {
+        "key": "B",
+        "text": "9"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "11"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Almost! We add 2 each time. 7 + 2 = 9, not 8.",
+      "C": "That's adding 3. Look at the step between numbers.",
+      "D": "A bit too high. The pattern adds 2, not 4."
+    },
+    "explanation": "These are the odd numbers. Each term adds 2. 1, 3 (+2), 3, 5 (+2), 5, 7 (+2), so 7 + 2 = 9.",
+    "explanationSteps": [
+      "Find the difference between consecutive numbers: 3 - 1 = 2.",
+      "Confirm the pattern with the next pair: 5 - 3 = 2.",
+      "Add 2 to the last number: 7 + 2 = 9."
+    ],
+    "hints": [
+      "What do you add to 1 to get 3?",
+      "Add that number to 7."
+    ],
+    "tags": [
+      "sequences",
+      "odd-numbers",
+      "arithmetic"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-009",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "shape-patterns",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.3,
+    "prompt": "Complete the pattern: a, bb, ccc, ____, eeeee",
+    "choices": [
+      {
+        "key": "A",
+        "text": "dd"
+      },
+      {
+        "key": "B",
+        "text": "dddd"
+      },
+      {
+        "key": "C",
+        "text": "dddddd"
+      },
+      {
+        "key": "D",
+        "text": "ddd"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "That would be 2 letters, but we already had 3 and need 5 next. We need 4 letters.",
+      "C": "That's 6 letters. The pattern increases by 1 each time.",
+      "D": "There are already 3 c's at position 3. Each step adds 1 letter."
+    },
+    "explanation": "The number of repeated letters increases by 1 each time. a, bb, ccc, dddd, eeeee. The missing entry has 4 d's.",
+    "explanationSteps": [
+      "Count the letters in each group: 1, 2, 3, ?, 5.",
+      "The pattern is counting up by 1.",
+      "The missing number is 4, so fill in 4 d's."
+    ],
+    "hints": [
+      "How many letters are in the first group?",
+      "How many in the second? What is the pattern?",
+      "How many should come between 3 and 5?"
+    ],
+    "tags": [
+      "patterns",
+      "visual",
+      "counting"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-010",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "arithmetic-sequences",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "What is the 6th number in this sequence: 2, 4, 6, 8, ...?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "11"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "14"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "That's the 5th term. Keep going one more step.",
+      "B": "This sequence only has even numbers. 11 is odd.",
+      "D": "That's too far. Continue the pattern: 2, 4, 6, 8, 10, 12."
+    },
+    "explanation": "The 1st term is 2. The 2nd is 4. The 3rd is 6. The 4th is 8. The 5th is 10. The 6th is 12. Each term adds 2.",
+    "explanationSteps": [
+      "List the sequence: 2, 4, 6, 8, 10, 12.",
+      "The 1st term = 2 x 1 = 2.",
+      "The 6th term = 2 x 6 = 12."
+    ],
+    "hints": [
+      "Can you write out the first 6 numbers?",
+      "What is 2 x 6?"
+    ],
+    "tags": [
+      "sequences",
+      "even-numbers",
+      "arithmetic"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "ma-alg-a1-011",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "variable-concepts",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.15,
+    "prompt": "If a = 5, what is a + 3?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "15"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Remember, 'a' is a variable. We replace 'a' with 5, then compute 5 + 3 = 8.",
+      "C": "That would be a + 5. We need a + 3, so 5 + 3 = 8.",
+      "D": "That's a x 3. The expression says a + 3, so 5 + 3 = 8."
+    },
+    "explanation": "The variable a stands for 5. Replace a with 5: a + 3 = 5 + 3 = 8.",
+    "explanationSteps": [
+      "Identify what a represents: a = 5.",
+      "Substitute 5 for a: a + 3 becomes 5 + 3.",
+      "Add: 5 + 3 = 8."
+    ],
+    "hints": [
+      "What number does the letter 'a' stand for?",
+      "Add 3 to that number."
+    ],
+    "tags": [
+      "variables",
+      "substitution",
+      "addition"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "ma-alg-a1-012",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "variable-concepts",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "If b = 7, what is b - 2?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "7"
+      },
+      {
+        "key": "C",
+        "text": "9"
+      },
+      {
+        "key": "D",
+        "text": "14"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "We need to subtract 2 from b. b - 2 = 7 - 2 = 5.",
+      "C": "That would be b + 2. The expression says b - 2.",
+      "D": "That's b x 2. We need b - 2 = 7 - 2 = 5."
+    },
+    "explanation": "The variable b stands for 7. Replace b with 7: b - 2 = 7 - 2 = 5.",
+    "explanationSteps": [
+      "Identify what b represents: b = 7.",
+      "Substitute 7 for b: b - 2 becomes 7 - 2.",
+      "Subtract: 7 - 2 = 5."
+    ],
+    "hints": [
+      "What number does 'b' stand for?",
+      "Subtract 2 from that number."
+    ],
+    "tags": [
+      "variables",
+      "substitution",
+      "subtraction"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "ma-alg-a1-013",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "variable-concepts",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.25,
+    "prompt": "If n = 4, what is 3 x n?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "34"
+      },
+      {
+        "key": "D",
+        "text": "81"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "That's 3 + n, not 3 x n. 3 x n means multiply 3 by n.",
+      "C": "That looks like you put 3 and 4 next to each other. 3 x 4 = 12.",
+      "D": "That's 3 to the power of 4. 3 x n means 3 times n."
+    },
+    "explanation": "The variable n stands for 4. 3 x n = 3 x 4 = 12.",
+    "explanationSteps": [
+      "Identify what n represents: n = 4.",
+      "Replace n with 4: 3 x n = 3 x 4.",
+      "Multiply: 3 x 4 = 12."
+    ],
+    "hints": [
+      "The letter n equals what number?",
+      "What is 3 groups of that number?"
+    ],
+    "tags": [
+      "variables",
+      "substitution",
+      "multiplication"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-014",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "writing-expressions",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "Which expression means 'a number plus 5' if we use x for the number?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5 - x"
+      },
+      {
+        "key": "B",
+        "text": "x + 5"
+      },
+      {
+        "key": "C",
+        "text": "x x 5"
+      },
+      {
+        "key": "D",
+        "text": "5 / x"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "5 - x means '5 minus a number', not 'a number plus 5'.",
+      "C": "x x 5 means 'a number times 5', not 'a number plus 5'.",
+      "D": "5 / x means '5 divided by a number', not 'a number plus 5'."
+    },
+    "explanation": "When we say 'a number plus 5' and use x for the number, we write x + 5.",
+    "explanationSteps": [
+      "Let x be the unknown number.",
+      "'A number plus 5' means we add 5 to x.",
+      "The expression is x + 5."
+    ],
+    "hints": [
+      "What letter could stand for 'a number'?",
+      "What operation does 'plus' mean?",
+      "Put them together with the operation."
+    ],
+    "tags": [
+      "variables",
+      "writing-expressions",
+      "translation"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-015",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "writing-expressions",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "Which expression means 'twice a number' if we use y for the number?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "y + 2"
+      },
+      {
+        "key": "B",
+        "text": "y - 2"
+      },
+      {
+        "key": "C",
+        "text": "2 / y"
+      },
+      {
+        "key": "D",
+        "text": "2 x y"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "A": "y + 2 means 'a number plus 2', not 'twice a number'.",
+      "B": "y - 2 means 'a number minus 2', not 'twice a number'.",
+      "C": "2 / y means '2 divided by a number', not 'twice a number'."
+    },
+    "explanation": "'Twice a number' means multiply the number by 2. With y as the number, the expression is 2 x y.",
+    "explanationSteps": [
+      "Let y be the unknown number.",
+      "'Twice' means 2 times or multiply by 2.",
+      "The expression is 2 x y."
+    ],
+    "hints": [
+      "What does 'twice' mean in everyday language?",
+      "What operation is used for 'times'?"
+    ],
+    "tags": [
+      "variables",
+      "writing-expressions",
+      "multiplication"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-016",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "evaluating-expressions",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.3,
+    "prompt": "If c = 3, what is 2 x c + 1?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "9"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Almost! First multiply 2 x 3 = 6, then add 1: 6 + 1 = 7.",
+      "B": "You found 2 x c, but don't forget to add 1.",
+      "D": "Check your order. Multiply first: 2 x 3 = 6, then 6 + 1 = 7."
+    },
+    "explanation": "Replace c with 3: 2 x c + 1 = 2 x 3 + 1 = 6 + 1 = 7.",
+    "explanationSteps": [
+      "Identify that c = 3.",
+      "Substitute: 2 x 3 + 1.",
+      "Multiply first: 6 + 1 = 7."
+    ],
+    "hints": [
+      "First find 2 x c. What is 2 x 3?",
+      "Then add 1 to your answer."
+    ],
+    "tags": [
+      "variables",
+      "evaluation",
+      "order-of-operations"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a1-017",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "writing-expressions",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "There are p apples in a basket. Sarah takes 3 apples. Which expression shows how many apples are left?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "p + 3"
+      },
+      {
+        "key": "B",
+        "text": "3 - p"
+      },
+      {
+        "key": "C",
+        "text": "p - 3"
+      },
+      {
+        "key": "D",
+        "text": "p / 3"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "p + 3 means adding apples, but Sarah is taking them away.",
+      "B": "3 - p would mean 3 minus the number of apples. We need p minus 3.",
+      "D": "Division doesn't make sense here. We're removing apples, not dividing them."
+    },
+    "explanation": "Start with p apples. When Sarah takes 3 away, we subtract: p - 3 apples left.",
+    "explanationSteps": [
+      "Start with p apples in the basket.",
+      "Sarah takes 3 apples away (subtract).",
+      "Remaining apples = p - 3."
+    ],
+    "hints": [
+      "Does 'takes' mean we add or subtract?",
+      "We start with p, then what operation do we do with 3?"
+    ],
+    "tags": [
+      "variables",
+      "writing-expressions",
+      "word-problems"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a1-018",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "evaluating-expressions",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.35,
+    "prompt": "If d = 6, what is d / 2 + 4?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "You found d / 2, but don't forget to add 4.",
+      "B": "Almost! 6 / 2 = 3, then 3 + 4 = 7.",
+      "D": "That would be if you added before dividing. Do division first."
+    },
+    "explanation": "Replace d with 6: d / 2 + 4 = 6 / 2 + 4 = 3 + 4 = 7.",
+    "explanationSteps": [
+      "Identify that d = 6.",
+      "Substitute: 6 / 2 + 4.",
+      "Divide first: 3 + 4 = 7."
+    ],
+    "hints": [
+      "First find d / 2. What is 6 / 2?",
+      "Then add 4 to that answer."
+    ],
+    "tags": [
+      "variables",
+      "evaluation",
+      "order-of-operations"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a1-019",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "evaluating-expressions",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "If x = 2, what is 3 x x + x?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "That's just 3 x x. Remember x also appears by itself at the end.",
+      "C": "Check your arithmetic. 3 x 2 = 6, 6 + 2 = 8.",
+      "D": "That would be 3 x x x x. Here we have 3 x x + x."
+    },
+    "explanation": "Replace x with 2: 3 x x + x = 3 x 2 + 2 = 6 + 2 = 8.",
+    "explanationSteps": [
+      "Identify that x = 2.",
+      "Substitute: 3 x 2 + 2.",
+      "Multiply first: 6 + 2 = 8."
+    ],
+    "hints": [
+      "What is 3 x 2?",
+      "Now add that other x. What is x again?"
+    ],
+    "tags": [
+      "variables",
+      "evaluation",
+      "multiple-occurrences"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a1-020",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "variable-concepts",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "If m = 9 and n = 2, what is m - n?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "11"
+      },
+      {
+        "key": "C",
+        "text": "18"
+      },
+      {
+        "key": "D",
+        "text": "92"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "That would be m + n. m - n means subtract n from m.",
+      "C": "That's m x n. We need m - n = 9 - 2 = 7.",
+      "D": "That's writing the numbers side by side, not subtracting."
+    },
+    "explanation": "Replace m with 9 and n with 2: m - n = 9 - 2 = 7.",
+    "explanationSteps": [
+      "Identify: m = 9, n = 2.",
+      "Substitute: 9 - 2.",
+      "Subtract: 9 - 2 = 7."
+    ],
+    "hints": [
+      "What number does m stand for? What does n stand for?",
+      "Now subtract the second number from the first."
+    ],
+    "tags": [
+      "variables",
+      "substitution",
+      "two-variables"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-001",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "number-patterns",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.1,
+    "prompt": "What comes next: 2, 4, 6, 8, ___?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "9"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "11"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Almost! This pattern adds 2 each time. 8 + 2 = 10, not 9.",
+      "C": "That's too high. Try adding 2 to 8.",
+      "D": "Close, but we're adding 2 each time, not 4."
+    },
+    "explanation": "The pattern is adding 2 each time. 2 → 4 (+2), 4 → 6 (+2), 6 → 8 (+2), so 8 + 2 = 10.",
+    "explanationSteps": [
+      "Look at the difference between each number.",
+      "Notice each step adds 2.",
+      "Apply the same rule: 8 + 2 = 10."
+    ],
+    "hints": [
+      "What number do you add to get from 2 to 4?",
+      "Try the same addition on the last number."
+    ],
+    "tags": [
+      "patterns",
+      "skip-counting",
+      "addition"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-002",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "number-patterns",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.15,
+    "prompt": "What comes next: 5, 10, 15, 20, ___?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "22"
+      },
+      {
+        "key": "B",
+        "text": "25"
+      },
+      {
+        "key": "C",
+        "text": "30"
+      },
+      {
+        "key": "D",
+        "text": "35"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Not quite. This pattern adds 5 each time. 20 + 5 = 25.",
+      "C": "That's too many. We add 5, not 10.",
+      "D": "A bit too high. Try adding 5 to 20."
+    },
+    "explanation": "Each number increases by 5. 5 → 10 (+5), 10 → 15 (+5), 15 → 20 (+5), so 20 + 5 = 25.",
+    "explanationSteps": [
+      "Find the difference: 10 - 5 = 5.",
+      "Check the next pair: 15 - 10 = 5.",
+      "Add 5 to the last number: 20 + 5 = 25."
+    ],
+    "hints": [
+      "How much is added from 5 to 10?",
+      "Add that same amount to 20."
+    ],
+    "tags": [
+      "patterns",
+      "skip-counting",
+      "multiplication"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-003",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "number-patterns",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.2,
+    "prompt": "Fill in the missing number: 3, 6, ___, 12, 15",
+    "choices": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "9"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Not quite. The pattern adds 3 each time. 6 + 3 = 9.",
+      "B": "Almost! Try counting up by 3s: 3, 6, 9, 12.",
+      "D": "Close, but the step is 3, not 4."
+    },
+    "explanation": "The pattern adds 3 each time. 3 → 6 (+3), 6 → 9 (+3), 9 → 12 (+3), 12 → 15 (+3). The missing number is 9.",
+    "explanationSteps": [
+      "Check the difference between known numbers: 6 - 3 = 3 and 12 - 9 = 3.",
+      "The rule is 'add 3'.",
+      "Apply it: 6 + 3 = 9."
+    ],
+    "hints": [
+      "What is the difference between 3 and 6?",
+      "Use that same difference after 6."
+    ],
+    "tags": [
+      "patterns",
+      "missing-term",
+      "addition"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a1-004",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "number-patterns",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.15,
+    "prompt": "What number comes next: 1, 4, 7, 10, ___?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "11"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "13"
+      },
+      {
+        "key": "D",
+        "text": "14"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Almost! Add 3 to 10, not 1.",
+      "B": "That's adding 2. Try adding 3 instead.",
+      "D": "A bit high. The pattern adds 3, so 10 + 3 = 13."
+    },
+    "explanation": "The pattern adds 3 each time. 1 → 4 (+3), 4 → 7 (+3), 7 → 10 (+3), so 10 + 3 = 13.",
+    "explanationSteps": [
+      "Find the step: 4 - 1 = 3.",
+      "Check: 7 - 4 = 3, 10 - 7 = 3.",
+      "Add 3 to 10: 10 + 3 = 13."
+    ],
+    "hints": [
+      "What is 4 minus 1?",
+      "Add that number to 10."
+    ],
+    "tags": [
+      "patterns",
+      "skip-counting",
+      "addition"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-005",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "shape-patterns",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "Look at this shape pattern: circle, square, triangle, circle, square, ___? What comes next?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "circle"
+      },
+      {
+        "key": "B",
+        "text": "square"
+      },
+      {
+        "key": "C",
+        "text": "triangle"
+      },
+      {
+        "key": "D",
+        "text": "star"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "The pattern repeats every 3 shapes. After circle, square comes triangle.",
+      "B": "Look carefully at the repeating cycle. Square was the second shape.",
+      "D": "Star is not part of this repeating pattern."
+    },
+    "explanation": "The shapes repeat in a cycle of 3: circle → square → triangle → circle → square → triangle. So after square comes triangle.",
+    "explanationSteps": [
+      "Notice the shapes repeat in the same order.",
+      "The cycle length is 3 shapes.",
+      "After the first circle-square-triangle, the pattern starts again: circle, square, triangle."
+    ],
+    "hints": [
+      "How many different shapes are in the pattern?",
+      "What comes after square in the first set?"
+    ],
+    "tags": [
+      "patterns",
+      "shapes",
+      "cycles"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "ma-alg-a1-006",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "number-patterns",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.25,
+    "prompt": "Fill in the missing number: 20, 16, 12, ___, 4",
+    "choices": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Almost! We subtract 4 each time. 12 - 4 = 8, not 10.",
+      "C": "Close! The step is 4, not 6.",
+      "D": "That's subtracting too much. Each step subtracts 4."
+    },
+    "explanation": "This is a decreasing pattern. 20 → 16 (-4), 16 → 12 (-4), 12 → 8 (-4), 8 → 4 (-4). The missing number is 8.",
+    "explanationSteps": [
+      "Find how much is subtracted: 20 - 16 = 4.",
+      "Check: 16 - 12 = 4.",
+      "Subtract 4 from 12: 12 - 4 = 8."
+    ],
+    "hints": [
+      "What is 20 minus 16?",
+      "Subtract that number from 12."
+    ],
+    "tags": [
+      "patterns",
+      "decreasing",
+      "subtraction"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a1-007",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "number-patterns",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "What comes next: 10, 20, 30, 40, ___?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "45"
+      },
+      {
+        "key": "B",
+        "text": "50"
+      },
+      {
+        "key": "C",
+        "text": "60"
+      },
+      {
+        "key": "D",
+        "text": "100"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Almost! We add 10 each time. 40 + 10 = 50.",
+      "C": "That's adding 20. The pattern adds 10 each time.",
+      "D": "That jumps too far ahead. Just add 10 to 40."
+    },
+    "explanation": "This pattern adds 10 each time. 10 → 20 (+10), 20 → 30 (+10), 30 → 40 (+10), so 40 + 10 = 50.",
+    "explanationSteps": [
+      "Find the difference: 20 - 10 = 10.",
+      "Check that the difference is the same throughout.",
+      "Add 10 to 40: 40 + 10 = 50."
+    ],
+    "hints": [
+      "What is 20 minus 10?",
+      "Add that to 40."
+    ],
+    "tags": [
+      "patterns",
+      "skip-counting",
+      "tens"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "ma-alg-a1-008",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "arithmetic-sequences",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "What is the next number in this sequence: 1, 3, 5, 7, ___?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "8"
+      },
+      {
+        "key": "B",
+        "text": "9"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "11"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Almost! We add 2 each time. 7 + 2 = 9, not 8.",
+      "C": "That's adding 3. Look at the step between numbers.",
+      "D": "A bit too high. The pattern adds 2, not 4."
+    },
+    "explanation": "These are the odd numbers. Each term adds 2. 1 → 3 (+2), 3 → 5 (+2), 5 → 7 (+2), so 7 + 2 = 9.",
+    "explanationSteps": [
+      "Find the difference between consecutive numbers: 3 - 1 = 2.",
+      "Confirm the pattern with the next pair: 5 - 3 = 2.",
+      "Add 2 to the last number: 7 + 2 = 9."
+    ],
+    "hints": [
+      "What do you add to 1 to get 3?",
+      "Add that number to 7."
+    ],
+    "tags": [
+      "sequences",
+      "odd-numbers",
+      "arithmetic"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-009",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "shape-patterns",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.3,
+    "prompt": "Complete the pattern: ★ ★★ ★★★ ____ ★★★★★",
+    "choices": [
+      {
+        "key": "A",
+        "text": "★★"
+      },
+      {
+        "key": "B",
+        "text": "★★★★"
+      },
+      {
+        "key": "C",
+        "text": "★★★★★★"
+      },
+      {
+        "key": "D",
+        "text": "★★★"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "That would be 2 stars, but we already had 3 and need 5 next. We need 4 stars.",
+      "C": "That's 6 stars. The pattern increases by 1 each time.",
+      "D": "There are already 3 stars at position 3. Each step adds 1 star."
+    },
+    "explanation": "The number of stars increases by 1 each time. 1 star → 2 stars → 3 stars → 4 stars → 5 stars. The missing entry has 4 stars.",
+    "explanationSteps": [
+      "Count the stars in each group: 1, 2, 3, ?, 5.",
+      "The pattern is counting up by 1.",
+      "The missing number is 4, so fill in 4 stars."
+    ],
+    "hints": [
+      "How many stars are in the first group?",
+      "How many in the second? What is the pattern?",
+      "How many should come between 3 and 5?"
+    ],
+    "tags": [
+      "patterns",
+      "visual",
+      "counting"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-010",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "arithmetic-sequences",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "What is the 6th number in this sequence: 2, 4, 6, 8, ...?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "11"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "14"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "That's the 5th term. Keep going one more step.",
+      "B": "This sequence only has even numbers. 11 is odd.",
+      "D": "That's too far. Continue the pattern: 2, 4, 6, 8, 10, 12."
+    },
+    "explanation": "The 1st term is 2. The 2nd is 4. The 3rd is 6. The 4th is 8. The 5th is 10. The 6th is 12. Each term adds 2.",
+    "explanationSteps": [
+      "List the sequence: 2, 4, 6, 8, 10, 12.",
+      "The 1st term = 2 × 1 = 2.",
+      "The 6th term = 2 × 6 = 12."
+    ],
+    "hints": [
+      "Can you write out the first 6 numbers?",
+      "What is 2 × 6?"
+    ],
+    "tags": [
+      "sequences",
+      "even-numbers",
+      "arithmetic"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "ma-alg-a1-011",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "variable-concepts",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.15,
+    "prompt": "If a = 5, what is a + 3?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "15"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Remember, 'a' is a variable. We replace 'a' with 5, then compute 5 + 3 = 8.",
+      "C": "That would be a + 5. We need a + 3, so 5 + 3 = 8.",
+      "D": "That's a × 3. The expression says a + 3, so 5 + 3 = 8."
+    },
+    "explanation": "The variable a stands for 5. Replace a with 5: a + 3 = 5 + 3 = 8.",
+    "explanationSteps": [
+      "Identify what a represents: a = 5.",
+      "Substitute 5 for a: a + 3 becomes 5 + 3.",
+      "Add: 5 + 3 = 8."
+    ],
+    "hints": [
+      "What number does the letter 'a' stand for?",
+      "Add 3 to that number."
+    ],
+    "tags": [
+      "variables",
+      "substitution",
+      "addition"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "ma-alg-a1-012",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "variable-concepts",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "If b = 7, what is b - 2?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "7"
+      },
+      {
+        "key": "C",
+        "text": "9"
+      },
+      {
+        "key": "D",
+        "text": "14"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "We need to subtract 2 from b. b - 2 = 7 - 2 = 5.",
+      "C": "That would be b + 2. The expression says b - 2.",
+      "D": "That's b × 2. We need b - 2 = 7 - 2 = 5."
+    },
+    "explanation": "The variable b stands for 7. Replace b with 7: b - 2 = 7 - 2 = 5.",
+    "explanationSteps": [
+      "Identify what b represents: b = 7.",
+      "Substitute 7 for b: b - 2 becomes 7 - 2.",
+      "Subtract: 7 - 2 = 5."
+    ],
+    "hints": [
+      "What number does 'b' stand for?",
+      "Subtract 2 from that number."
+    ],
+    "tags": [
+      "variables",
+      "substitution",
+      "subtraction"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "ma-alg-a1-013",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "variable-concepts",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.25,
+    "prompt": "If n = 4, what is 3 × n?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "34"
+      },
+      {
+        "key": "D",
+        "text": "81"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "That's 3 + n, not 3 × n. 3 × n means multiply 3 by n.",
+      "C": "That looks like you put 3 and 4 next to each other. 3 × 4 = 12.",
+      "D": "That's 3 to the power of 4. 3 × n means 3 times n."
+    },
+    "explanation": "The variable n stands for 4. 3 × n = 3 × 4 = 12.",
+    "explanationSteps": [
+      "Identify what n represents: n = 4.",
+      "Replace n with 4: 3 × n = 3 × 4.",
+      "Multiply: 3 × 4 = 12."
+    ],
+    "hints": [
+      "The letter n equals what number?",
+      "What is 3 groups of that number?"
+    ],
+    "tags": [
+      "variables",
+      "substitution",
+      "multiplication"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-014",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "writing-expressions",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "Which expression means 'a number plus 5' if we use x for the number?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5 - x"
+      },
+      {
+        "key": "B",
+        "text": "x + 5"
+      },
+      {
+        "key": "C",
+        "text": "x × 5"
+      },
+      {
+        "key": "D",
+        "text": "5 ÷ x"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "5 - x means '5 minus a number', not 'a number plus 5'.",
+      "C": "x × 5 means 'a number times 5', not 'a number plus 5'.",
+      "D": "5 ÷ x means '5 divided by a number', not 'a number plus 5'."
+    },
+    "explanation": "When we say 'a number plus 5' and use x for the number, we write x + 5.",
+    "explanationSteps": [
+      "Let x be the unknown number.",
+      "'A number plus 5' means we add 5 to x.",
+      "The expression is x + 5."
+    ],
+    "hints": [
+      "What letter could stand for 'a number'?",
+      "What operation does 'plus' mean?",
+      "Put them together with the operation."
+    ],
+    "tags": [
+      "variables",
+      "writing-expressions",
+      "translation"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-015",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "writing-expressions",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "Which expression means 'twice a number' if we use y for the number?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "y + 2"
+      },
+      {
+        "key": "B",
+        "text": "y - 2"
+      },
+      {
+        "key": "C",
+        "text": "2 ÷ y"
+      },
+      {
+        "key": "D",
+        "text": "2 × y"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "A": "y + 2 means 'a number plus 2', not 'twice a number'.",
+      "B": "y - 2 means 'a number minus 2', not 'twice a number'.",
+      "C": "2 ÷ y means '2 divided by a number', not 'twice a number'."
+    },
+    "explanation": "'Twice a number' means multiply the number by 2. With y as the number, the expression is 2 × y or 2y.",
+    "explanationSteps": [
+      "Let y be the unknown number.",
+      "'Twice' means 2 times or multiply by 2.",
+      "The expression is 2 × y (often written as 2y)."
+    ],
+    "hints": [
+      "What does 'twice' mean in everyday language?",
+      "What operation is used for 'times'?"
+    ],
+    "tags": [
+      "variables",
+      "writing-expressions",
+      "multiplication"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-016",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "evaluating-expressions",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.3,
+    "prompt": "If c = 3, what is 2 × c + 1?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "9"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Almost! First multiply 2 × 3 = 6, then add 1: 6 + 1 = 7.",
+      "B": "You found 2 × c, but don't forget to add 1.",
+      "D": "Check your order. Multiply first: 2 × 3 = 6, then 6 + 1 = 7."
+    },
+    "explanation": "Replace c with 3: 2 × c + 1 = 2 × 3 + 1 = 6 + 1 = 7.",
+    "explanationSteps": [
+      "Identify that c = 3.",
+      "Substitute: 2 × 3 + 1.",
+      "Multiply first: 6 + 1 = 7."
+    ],
+    "hints": [
+      "First find 2 × c. What is 2 × 3?",
+      "Then add 1 to your answer."
+    ],
+    "tags": [
+      "variables",
+      "evaluation",
+      "order-of-operations"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a1-017",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "writing-expressions",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "There are p apples in a basket. Sarah takes 3 apples. Which expression shows how many apples are left?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "p + 3"
+      },
+      {
+        "key": "B",
+        "text": "3 - p"
+      },
+      {
+        "key": "C",
+        "text": "p - 3"
+      },
+      {
+        "key": "D",
+        "text": "p ÷ 3"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "p + 3 means adding apples, but Sarah is taking them away.",
+      "B": "3 - p would mean 3 minus the number of apples. We need p minus 3.",
+      "D": "Division doesn't make sense here. We're removing apples, not dividing them."
+    },
+    "explanation": "Start with p apples. When Sarah takes 3 away, we subtract: p - 3 apples left.",
+    "explanationSteps": [
+      "Start with p apples in the basket.",
+      "Sarah takes 3 apples away (subtract).",
+      "Remaining apples = p - 3."
+    ],
+    "hints": [
+      "Does 'takes' mean we add or subtract?",
+      "We start with p, then what operation do we do with 3?"
+    ],
+    "tags": [
+      "variables",
+      "writing-expressions",
+      "word-problems"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a1-018",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "evaluating-expressions",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.35,
+    "prompt": "If d = 6, what is d ÷ 2 + 4?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "You found d ÷ 2, but don't forget to add 4.",
+      "B": "Almost! 6 ÷ 2 = 3, then 3 + 4 = 7.",
+      "D": "That would be if you added before dividing. Do division first."
+    },
+    "explanation": "Replace d with 6: d ÷ 2 + 4 = 6 ÷ 2 + 4 = 3 + 4 = 7.",
+    "explanationSteps": [
+      "Identify that d = 6.",
+      "Substitute: 6 ÷ 2 + 4.",
+      "Divide first: 3 + 4 = 7."
+    ],
+    "hints": [
+      "First find d ÷ 2. What is 6 ÷ 2?",
+      "Then add 4 to that answer."
+    ],
+    "tags": [
+      "variables",
+      "evaluation",
+      "order-of-operations"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a1-019",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "evaluating-expressions",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "If x = 2, what is 3 × x + x?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "That's just 3 × x. Remember x also appears by itself at the end.",
+      "C": "Check your arithmetic. 3 × 2 = 6, 6 + 2 = 8.",
+      "D": "That would be 3 × x × x. Here we have 3 × x + x."
+    },
+    "explanation": "Replace x with 2: 3 × x + x = 3 × 2 + 2 = 6 + 2 = 8.",
+    "explanationSteps": [
+      "Identify that x = 2.",
+      "Substitute: 3 × 2 + 2.",
+      "Multiply first: 6 + 2 = 8."
+    ],
+    "hints": [
+      "What is 3 × 2?",
+      "Now add that other x. What is x again?"
+    ],
+    "tags": [
+      "variables",
+      "evaluation",
+      "multiple-occurrences"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a1-020",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "variable-concepts",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "If m = 9 and n = 2, what is m - n?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "11"
+      },
+      {
+        "key": "C",
+        "text": "18"
+      },
+      {
+        "key": "D",
+        "text": "92"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "That would be m + n. m - n means subtract n from m.",
+      "C": "That's m × n. We need m - n = 9 - 2 = 7.",
+      "D": "That's writing the numbers side by side, not subtracting."
+    },
+    "explanation": "Replace m with 9 and n with 2: m - n = 9 - 2 = 7.",
+    "explanationSteps": [
+      "Identify: m = 9, n = 2.",
+      "Substitute: 9 - 2.",
+      "Subtract: 9 - 2 = 7."
+    ],
+    "hints": [
+      "What number does m stand for? What does n stand for?",
+      "Now subtract the second number from the first."
+    ],
+    "tags": [
+      "variables",
+      "substitution",
+      "two-variables"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-001",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "number-patterns",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.1,
+    "prompt": "What comes next: 2, 4, 6, 8, ___?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "9"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "11"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Almost! Add 2: 8+2=10.",
+      "C": "Too high.",
+      "D": "Add 2 each time."
+    },
+    "explanation": "Adds 2: 8+2=10.",
+    "explanationSteps": [
+      "Each step adds 2.",
+      "8+2=10."
+    ],
+    "hints": [
+      "Add from 2 to 4?",
+      "Add to 8."
+    ],
+    "tags": [
+      "patterns",
+      "skip-counting",
+      "addition"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-002",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "number-patterns",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.15,
+    "prompt": "What comes next: 5, 10, 15, 20, ___?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "22"
+      },
+      {
+        "key": "B",
+        "text": "25"
+      },
+      {
+        "key": "C",
+        "text": "30"
+      },
+      {
+        "key": "D",
+        "text": "35"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Pattern adds 5. 20+5=25.",
+      "C": "Add 5, not 10.",
+      "D": "Add 5 to 20."
+    },
+    "explanation": "Adds 5: 20+5=25.",
+    "explanationSteps": [
+      "10-5=5.",
+      "20+5=25."
+    ],
+    "hints": [
+      "How much from 5 to 10?",
+      "Add to 20."
+    ],
+    "tags": [
+      "patterns",
+      "skip-counting",
+      "multiplication"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-003",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "number-patterns",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.2,
+    "prompt": "Fill in missing: 3, 6, ___, 12, 15",
+    "choices": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "9"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Adds 3. 6+3=9.",
+      "D": "Step is 3."
+    },
+    "explanation": "Adds 3: 6+3=9.",
+    "explanationSteps": [
+      "Difference: 6-3=3.",
+      "6+3=9."
+    ],
+    "hints": [
+      "Difference 3 and 6?",
+      "Add to 6."
+    ],
+    "tags": [
+      "patterns",
+      "missing-term",
+      "addition"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a1-004",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "number-patterns",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.15,
+    "prompt": "What comes next: 1, 4, 7, 10, ___?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "11"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "13"
+      },
+      {
+        "key": "D",
+        "text": "14"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Add 3 to 10.",
+      "D": "Add 3 to 10 = 13."
+    },
+    "explanation": "Adds 3: 10+3=13.",
+    "explanationSteps": [
+      "4-1=3.",
+      "10+3=13."
+    ],
+    "hints": [
+      "4-1?",
+      "Add to 10."
+    ],
+    "tags": [
+      "patterns",
+      "skip-counting",
+      "addition"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-005",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "shape-patterns",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "Shape pattern: circle, square, triangle, circle, square, ___?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "circle"
+      },
+      {
+        "key": "B",
+        "text": "square"
+      },
+      {
+        "key": "C",
+        "text": "triangle"
+      },
+      {
+        "key": "D",
+        "text": "star"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Cycle of 3.",
+      "D": "Not in pattern."
+    },
+    "explanation": "Cycle of 3: circle, square, triangle.",
+    "explanationSteps": [
+      "Repeats every 3.",
+      "After square = triangle."
+    ],
+    "hints": [
+      "How many shapes?",
+      "After square?"
+    ],
+    "tags": [
+      "patterns",
+      "shapes",
+      "cycles"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "ma-alg-a1-006",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "number-patterns",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.25,
+    "prompt": "Fill in missing: 20, 16, 12, ___, 4",
+    "choices": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Subtract 4. 12-4=8.",
+      "C": "Step is 4.",
+      "D": "Too much."
+    },
+    "explanation": "Decreasing by 4: 12-4=8.",
+    "explanationSteps": [
+      "20-16=4.",
+      "12-4=8."
+    ],
+    "hints": [
+      "20-16?",
+      "Subtract from 12."
+    ],
+    "tags": [
+      "patterns",
+      "decreasing",
+      "subtraction"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a1-007",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "number-patterns",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "What comes next: 10, 20, 30, 40, ___?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "45"
+      },
+      {
+        "key": "B",
+        "text": "50"
+      },
+      {
+        "key": "C",
+        "text": "60"
+      },
+      {
+        "key": "D",
+        "text": "100"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Add 10. 40+10=50.",
+      "C": "Add 20.",
+      "D": "Too far."
+    },
+    "explanation": "Adds 10: 40+10=50.",
+    "explanationSteps": [
+      "20-10=10.",
+      "40+10=50."
+    ],
+    "hints": [
+      "20-10?",
+      "Add to 40."
+    ],
+    "tags": [
+      "patterns",
+      "skip-counting",
+      "tens"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "ma-alg-a1-008",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "arithmetic-sequences",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "Next number: 1, 3, 5, 7, ___?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "8"
+      },
+      {
+        "key": "B",
+        "text": "9"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "11"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Add 2. 7+2=9.",
+      "C": "Add 3.",
+      "D": "Too high."
+    },
+    "explanation": "Adds 2: 7+2=9.",
+    "explanationSteps": [
+      "3-1=2.",
+      "7+2=9."
+    ],
+    "hints": [
+      "Add to 1 to get 3?",
+      "Add to 7."
+    ],
+    "tags": [
+      "sequences",
+      "odd-numbers",
+      "arithmetic"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-009",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "shape-patterns",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.3,
+    "prompt": "Complete: a, bb, ccc, ____, eeeee",
+    "choices": [
+      {
+        "key": "A",
+        "text": "dd"
+      },
+      {
+        "key": "B",
+        "text": "dddd"
+      },
+      {
+        "key": "C",
+        "text": "dddddd"
+      },
+      {
+        "key": "D",
+        "text": "ddd"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Need 4 letters.",
+      "C": "That is 6.",
+      "D": "Need 4."
+    },
+    "explanation": "Increases by 1: 1,2,3,4,5.",
+    "explanationSteps": [
+      "Count: 1,2,3,?,5.",
+      "4 = dddd."
+    ],
+    "hints": [
+      "How many letters?",
+      "Between 3 and 5?"
+    ],
+    "tags": [
+      "patterns",
+      "visual",
+      "counting"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-010",
+    "moduleId": "math.algebra",
+    "skill": "patterns-sequences",
+    "subSkill": "arithmetic-sequences",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "6th number in: 2, 4, 6, 8, ...?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "11"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "14"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "5th term.",
+      "D": "Too far."
+    },
+    "explanation": "2,4,6,8,10,12. 6th=12.",
+    "explanationSteps": [
+      "List first 6.",
+      "6th = 2x6 = 12."
+    ],
+    "hints": [
+      "First 6 numbers?",
+      "2x6?"
+    ],
+    "tags": [
+      "sequences",
+      "even-numbers",
+      "arithmetic"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "ma-alg-a1-011",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "variable-concepts",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.15,
+    "prompt": "If a = 5, what is a + 3?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "15"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Replace a: 5+3=8.",
+      "C": "That is a+5.",
+      "D": "That is a x 3."
+    },
+    "explanation": "a+3 = 5+3 = 8.",
+    "explanationSteps": [
+      "a=5.",
+      "5+3=8."
+    ],
+    "hints": [
+      "What does a equal?",
+      "Add 3."
+    ],
+    "tags": [
+      "variables",
+      "substitution",
+      "addition"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "ma-alg-a1-012",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "variable-concepts",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "If b = 7, what is b - 2?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "7"
+      },
+      {
+        "key": "C",
+        "text": "9"
+      },
+      {
+        "key": "D",
+        "text": "14"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "That is b+2.",
+      "C": "That is b x 2."
+    },
+    "explanation": "b-2 = 7-2 = 5.",
+    "explanationSteps": [
+      "b=7.",
+      "7-2=5."
+    ],
+    "hints": [
+      "What does b equal?",
+      "Subtract 2."
+    ],
+    "tags": [
+      "variables",
+      "substitution",
+      "subtraction"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "ma-alg-a1-013",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "variable-concepts",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.25,
+    "prompt": "If n = 4, what is 3 x n?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "34"
+      },
+      {
+        "key": "D",
+        "text": "81"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "That is 3+n.",
+      "C": "Putting digits.",
+      "D": "3 to power 4."
+    },
+    "explanation": "3 x n = 3 x 4 = 12.",
+    "explanationSteps": [
+      "n=4.",
+      "3x4=12."
+    ],
+    "hints": [
+      "n equals?",
+      "3x4?"
+    ],
+    "tags": [
+      "variables",
+      "substitution",
+      "multiplication"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-014",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "writing-expressions",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "Which means a number plus 5 using x?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5 - x"
+      },
+      {
+        "key": "B",
+        "text": "x + 5"
+      },
+      {
+        "key": "C",
+        "text": "x x 5"
+      },
+      {
+        "key": "D",
+        "text": "5 / x"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "5-x means minus.",
+      "C": "x x 5 means times.",
+      "D": "5/x means divide."
+    },
+    "explanation": "Number plus 5: x+5.",
+    "explanationSteps": [
+      "Let x = number.",
+      "Plus 5: x+5."
+    ],
+    "hints": [
+      "Letter for number?",
+      "Plus operation?"
+    ],
+    "tags": [
+      "variables",
+      "writing-expressions",
+      "translation"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-015",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "writing-expressions",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "Which means twice a number using y?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "y + 2"
+      },
+      {
+        "key": "B",
+        "text": "y - 2"
+      },
+      {
+        "key": "C",
+        "text": "2 / y"
+      },
+      {
+        "key": "D",
+        "text": "2 x y"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "A": "y+2 means plus 2.",
+      "B": "y-2 means minus 2.",
+      "C": "2/y means divide."
+    },
+    "explanation": "Twice = multiply by 2: 2 x y.",
+    "explanationSteps": [
+      "Let y = number.",
+      "Twice = 2 times.",
+      "2 x y."
+    ],
+    "hints": [
+      "Twice means?",
+      "Operation for times?"
+    ],
+    "tags": [
+      "variables",
+      "writing-expressions",
+      "multiplication"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a1-016",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "evaluating-expressions",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.3,
+    "prompt": "If c = 3, what is 2 x c + 1?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "9"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Multiply first: 2x3=6, 6+1=7.",
+      "D": "Multiply first."
+    },
+    "explanation": "2xc+1 = 2x3+1 = 6+1 = 7.",
+    "explanationSteps": [
+      "c=3.",
+      "2x3=6.",
+      "6+1=7."
+    ],
+    "hints": [
+      "2x3?",
+      "Add 1."
+    ],
+    "tags": [
+      "variables",
+      "evaluation",
+      "order-of-operations"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a1-017",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "writing-expressions",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "p apples, Sarah takes 3. Apples left?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "p + 3"
+      },
+      {
+        "key": "B",
+        "text": "3 - p"
+      },
+      {
+        "key": "C",
+        "text": "p - 3"
+      },
+      {
+        "key": "D",
+        "text": "p / 3"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Takes = subtract.",
+      "B": "p-3.",
+      "D": "Not dividing."
+    },
+    "explanation": "Start with p, take 3: p-3.",
+    "explanationSteps": [
+      "Start with p.",
+      "Take 3: p-3."
+    ],
+    "hints": [
+      "Takes = add/subtract?",
+      "Start with p?"
+    ],
+    "tags": [
+      "variables",
+      "writing-expressions",
+      "word-problems"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a1-018",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "evaluating-expressions",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.35,
+    "prompt": "If d = 6, what is d / 2 + 4?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Found d/2 but add 4.",
+      "D": "Divide first."
+    },
+    "explanation": "d/2+4 = 6/2+4 = 3+4 = 7.",
+    "explanationSteps": [
+      "d=6.",
+      "6/2=3.",
+      "3+4=7."
+    ],
+    "hints": [
+      "6/2?",
+      "Add 4."
+    ],
+    "tags": [
+      "variables",
+      "evaluation",
+      "order-of-operations"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a1-019",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "evaluating-expressions",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "If x = 2, what is 3 x x + x?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Just 3x. Add x.",
+      "C": "3x2=6, 6+2=8.",
+      "D": "3x2x2."
+    },
+    "explanation": "3xx+x = 3x2+2 = 6+2 = 8.",
+    "explanationSteps": [
+      "x=2.",
+      "3x2=6.",
+      "6+2=8."
+    ],
+    "hints": [
+      "3x2?",
+      "Add x (x=2)."
+    ],
+    "tags": [
+      "variables",
+      "evaluation",
+      "multiple-occurrences"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a1-020",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "variable-concepts",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "If m = 9 and n = 2, what is m - n?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "11"
+      },
+      {
+        "key": "C",
+        "text": "18"
+      },
+      {
+        "key": "D",
+        "text": "92"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "That is m x n.",
+      "C": "That is side by side."
+    },
+    "explanation": "m-n = 9-2 = 7.",
+    "explanationSteps": [
+      "m=9,n=2.",
+      "9-2=7."
+    ],
+    "hints": [
+      "What is m? n?",
+      "Subtract n from m."
+    ],
+    "tags": [
+      "variables",
+      "substitution",
+      "two-variables"
+    ],
+    "estimatedTimeSec": 30
+  }
+]

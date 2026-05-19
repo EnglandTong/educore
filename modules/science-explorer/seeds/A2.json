@@ -1,0 +1,1985 @@
+[
+  {
+    "id": "se-a2-001",
+    "moduleId": "science.explorer",
+    "skill": "life-science",
+    "subSkill": "ecosystems",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "Which of these describes a desert ecosystem?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Lots of rain, tall trees, and many rivers"
+      },
+      {
+        "key": "B",
+        "text": "Very little rain, sandy or rocky ground, hot days and cold nights"
+      },
+      {
+        "key": "C",
+        "text": "Snow and ice covering the ground all year"
+      },
+      {
+        "key": "D",
+        "text": "Dense fog and moss covering everything"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "That sounds like a rainforest, not a desert. Deserts have very little rain.",
+      "C": "That describes a polar or tundra ecosystem, not a desert.",
+      "D": "That sounds like a cloud forest or swamp, not a desert."
+    },
+    "explanation": "Deserts get less than 25 cm of rain per year. Despite the harsh conditions, many plants and animals like cacti, camels, and lizards have adapted to survive there.",
+    "explanationSteps": [
+      "Deserts are defined by how little rain they get, not by temperature.",
+      "Some deserts are hot (like the Sahara) and some are cold (like Antarctica).",
+      "Desert animals often come out at night when it's cooler."
+    ],
+    "hints": [
+      "Think about a place where it almost never rains.",
+      "What kind of plants store water in their stems?"
+    ],
+    "tags": [
+      "desert",
+      "ecosystem",
+      "habitat",
+      "adaptation"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-a2-002",
+    "moduleId": "science.explorer",
+    "skill": "life-science",
+    "subSkill": "food-chains",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "In a grassland food chain, grass is eaten by a grasshopper, the grasshopper is eaten by a mouse, and the mouse is eaten by an owl. What is the grasshopper?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A producer"
+      },
+      {
+        "key": "B",
+        "text": "A primary consumer"
+      },
+      {
+        "key": "C",
+        "text": "A secondary consumer"
+      },
+      {
+        "key": "D",
+        "text": "A decomposer"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Producers make their own food. The grasshopper eats plants, so it's a consumer.",
+      "C": "Secondary consumers eat primary consumers. The grasshopper is the first to eat, so it's primary.",
+      "D": "Decomposers break down dead matter. The grasshopper is alive and eating."
+    },
+    "explanation": "In a food chain, the grasshopper is a primary consumer because it eats plants (producers). The mouse is a secondary consumer and the owl is a tertiary consumer.",
+    "explanationSteps": [
+      "Plants (grass) are producers — they make their own food.",
+      "Herbivores like grasshoppers are primary consumers — they eat producers.",
+      "Carnivores that eat herbivores are secondary consumers."
+    ],
+    "hints": [
+      "What does the grasshopper eat? That tells you what type of consumer it is.",
+      "The word 'primary' means 'first.' What is the first animal in this chain?"
+    ],
+    "tags": [
+      "food-chain",
+      "consumer",
+      "grassland",
+      "ecology"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-a2-003",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "states-of-matter",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "Which state of matter has a definite shape and volume?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Solid"
+      },
+      {
+        "key": "B",
+        "text": "Liquid"
+      },
+      {
+        "key": "C",
+        "text": "Gas"
+      },
+      {
+        "key": "D",
+        "text": "Plasma"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Liquids have a definite volume but take the shape of their container.",
+      "C": "Gases have no definite shape or volume — they expand to fill their container.",
+      "D": "Plasma is a state of matter found in stars, but it does not have a definite shape."
+    },
+    "explanation": "Solids have tightly packed particles that vibrate in place. This gives solids a definite shape and volume. Examples include ice, rocks, and wood.",
+    "explanationSteps": [
+      "In a solid, particles are packed closely together in a fixed arrangement.",
+      "The particles can only vibrate, not move past each other.",
+      "This is why a solid keeps its shape and doesn't flow."
+    ],
+    "hints": [
+      "Think about a wooden block. Does its shape change when you put it in a bowl?",
+      "Which state of matter can you hold in your hand without it changing shape?"
+    ],
+    "tags": [
+      "states-of-matter",
+      "solid",
+      "matter"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "se-a2-004",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "states-of-matter",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "When water boils, it changes from a liquid to a __________.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "solid"
+      },
+      {
+        "key": "B",
+        "text": "plasma"
+      },
+      {
+        "key": "C",
+        "text": "gas (water vapor)"
+      },
+      {
+        "key": "D",
+        "text": "crystal"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Water turns into a solid (ice) when it freezes, not when it boils.",
+      "B": "Plasma is found in stars and lightning. Boiling water does not turn into plasma.",
+      "D": "Crystals form when some liquids cool slowly. Boiling water turns into gas, not crystals."
+    },
+    "explanation": "Boiling is a phase change where liquid water absorbs enough heat to turn into water vapor (a gas). The boiling point of water is 100°C (212°F) at sea level.",
+    "explanationSteps": [
+      "When water is heated, the molecules move faster and faster.",
+      "At 100°C, the molecules have enough energy to escape into the air as gas.",
+      "The bubbles you see in boiling water are water vapor escaping."
+    ],
+    "hints": [
+      "What do you see rising from a pot of boiling water?",
+      "Think about the steam that comes out of a kettle."
+    ],
+    "tags": [
+      "boiling",
+      "evaporation",
+      "states-of-matter",
+      "water"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "se-a2-005",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "water-cycle",
+    "level": "A2",
+    "questionType": "gap-filling",
+    "difficulty": 0.25,
+    "prompt": "Fill in the blank: In the water cycle, water vapor cools high in the sky and turns back into tiny liquid droplets. This process is called __________.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "evaporation"
+      },
+      {
+        "key": "B",
+        "text": "condensation"
+      },
+      {
+        "key": "C",
+        "text": "precipitation"
+      },
+      {
+        "key": "D",
+        "text": "collection"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Evaporation is when water turns from liquid to gas and rises. This happens BEFORE condensation.",
+      "C": "Precipitation is when water falls from clouds as rain, snow, or hail. It comes after condensation.",
+      "D": "Collection is when water gathers in rivers, lakes, and oceans. That's a different step."
+    },
+    "explanation": "Condensation is the process where water vapor (gas) cools and changes back into liquid water, forming clouds.",
+    "explanationSteps": [
+      "Warm water vapor rises into the cool upper atmosphere.",
+      "The vapor loses energy and turns into tiny liquid droplets.",
+      "These droplets group together to form clouds."
+    ],
+    "hints": [
+      "What happens to the outside of a cold glass of lemonade on a hot day?",
+      "The word starts with 'con-' and is the opposite of evaporation."
+    ],
+    "tags": [
+      "water-cycle",
+      "condensation",
+      "clouds"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-a2-006",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "solar-system",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "Which planet is known as the 'Red Planet'?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Venus"
+      },
+      {
+        "key": "B",
+        "text": "Jupiter"
+      },
+      {
+        "key": "C",
+        "text": "Mars"
+      },
+      {
+        "key": "D",
+        "text": "Saturn"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Venus is called Earth's 'sister planet' and looks bright white/yellow, not red.",
+      "B": "Jupiter is a gas giant with colorful bands of orange and white, not red overall.",
+      "D": "Saturn is known for its beautiful rings and is pale yellow, not red."
+    },
+    "explanation": "Mars looks red because its surface contains a lot of iron oxide (rust). It has the tallest mountain in the solar system — Olympus Mons.",
+    "explanationSteps": [
+      "Mars has iron-rich rocks and soil on its surface.",
+      "The iron has oxidized (rusted) over billions of years.",
+      "This rust gives Mars its distinctive red color."
+    ],
+    "hints": [
+      "Think about the color of rust on an old metal bicycle.",
+      "This planet is the fourth from the Sun, right after Earth."
+    ],
+    "tags": [
+      "mars",
+      "solar-system",
+      "planets",
+      "red-planet"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "se-a2-007",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "solar-system",
+    "level": "A2",
+    "questionType": "true-false",
+    "difficulty": 0.15,
+    "prompt": "True or False: The Earth is the closest planet to the Sun.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Mercury is actually the closest planet to the Sun. Earth is the third planet from the Sun."
+    },
+    "explanation": "The order from the Sun is: Mercury, Venus, Earth, Mars. Mercury is closest, then Venus, then Earth.",
+    "explanationSteps": [
+      "Mercury is about 58 million km from the Sun.",
+      "Earth is about 150 million km from the Sun.",
+      "Mercury, being closest, is extremely hot on its sun-facing side."
+    ],
+    "hints": [
+      "Which planet is so close to the Sun that it's hard to see from Earth?",
+      "There is a planet between the Sun and Earth."
+    ],
+    "tags": [
+      "solar-system",
+      "planets",
+      "mercury",
+      "earth"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "se-a2-008",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "forces-motion",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "A ball is rolling on the grass and gradually slows down. What force is causing it to slow?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Gravity"
+      },
+      {
+        "key": "B",
+        "text": "Magnetism"
+      },
+      {
+        "key": "C",
+        "text": "Friction"
+      },
+      {
+        "key": "D",
+        "text": "Buoyancy"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Gravity pulls the ball down toward the ground, but it does not slow the ball's sideways motion.",
+      "B": "Magnetism only affects certain materials like iron. A regular ball is not magnetic.",
+      "D": "Buoyancy is an upward force that helps things float, not a force that slows rolling."
+    },
+    "explanation": "Friction is a force that resists motion between two surfaces touching each other. The grass rubs against the ball, creating friction that slows it down.",
+    "explanationSteps": [
+      "When two surfaces rub together, friction is created.",
+      "Friction always acts in the opposite direction of motion.",
+      "Rougher surfaces create more friction, which is why a ball slows faster on grass than on ice."
+    ],
+    "hints": [
+      "Would the ball slow down faster on grass or on smooth ice?",
+      "Rub your hands together fast — what do you feel?"
+    ],
+    "tags": [
+      "friction",
+      "forces",
+      "motion",
+      "physics"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-a2-009",
+    "moduleId": "science.explorer",
+    "skill": "life-science",
+    "subSkill": "human-body-systems",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.22,
+    "prompt": "What is the main function of the skeletal system?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "To pump blood through the body"
+      },
+      {
+        "key": "B",
+        "text": "To give the body structure and protect organs"
+      },
+      {
+        "key": "C",
+        "text": "To help digest food"
+      },
+      {
+        "key": "D",
+        "text": "To help you think"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The heart and circulatory system pump blood, not the skeleton.",
+      "C": "The digestive system (stomach, intestines) digests food, not bones.",
+      "D": "The brain and nervous system handle thinking, not the skeleton."
+    },
+    "explanation": "The skeletal system has 206 bones in adults. It provides support, protects organs (like the skull protecting the brain and ribs protecting the heart), and works with muscles to help us move.",
+    "explanationSteps": [
+      "Bones form a strong framework that holds the body up.",
+      "The skull protects the brain; the ribs protect the heart and lungs.",
+      "Muscles pull on bones to make the body move."
+    ],
+    "hints": [
+      "Think about a house frame — what holds up the walls and roof?",
+      "What would happen to your brain if you didn't have a skull?"
+    ],
+    "tags": [
+      "skeletal-system",
+      "bones",
+      "human-body"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-a2-010",
+    "moduleId": "science.explorer",
+    "skill": "life-science",
+    "subSkill": "animal-classification",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.28,
+    "prompt": "A whale lives in the ocean, breathes air, has a small amount of hair, and feeds milk to its babies. Which group does it belong to?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Fish"
+      },
+      {
+        "key": "B",
+        "text": "Reptiles"
+      },
+      {
+        "key": "C",
+        "text": "Mammals"
+      },
+      {
+        "key": "D",
+        "text": "Amphibians"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Fish have gills and lay eggs. Whales breathe air with lungs and feed milk to babies.",
+      "B": "Reptiles are cold-blooded and lay eggs on land. Whales give live birth and are warm-blooded.",
+      "D": "Amphibians live part of their life in water and part on land. Whales live fully in water."
+    },
+    "explanation": "Whales are marine mammals. They are warm-blooded, breathe air through lungs, give live birth, and nurse their young with milk — all key characteristics of mammals.",
+    "explanationSteps": [
+      "Mammals are warm-blooded vertebrates with hair or fur.",
+      "Female mammals produce milk to feed their babies.",
+      "Even though whales live in the ocean, they share all these mammal traits."
+    ],
+    "hints": [
+      "Think about how a whale gets oxygen — does it have gills or does it come up for air?",
+      "What do baby whales drink?"
+    ],
+    "tags": [
+      "whales",
+      "mammals",
+      "animal-classification",
+      "marine-biology"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-a2-011",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "earth-structure",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "What is the outermost layer of the Earth called?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The core"
+      },
+      {
+        "key": "B",
+        "text": "The mantle"
+      },
+      {
+        "key": "C",
+        "text": "The crust"
+      },
+      {
+        "key": "D",
+        "text": "The magma"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "The core is the center of the Earth, deep inside and extremely hot.",
+      "B": "The mantle sits between the core and the crust. It's not the outermost layer.",
+      "D": "Magma is molten rock found inside the Earth, not a layer of the Earth itself."
+    },
+    "explanation": "The Earth has three main layers: the crust (outermost), the mantle (middle), and the core (innermost). The crust is the thin, rocky surface we live on.",
+    "explanationSteps": [
+      "The crust is like the Earth's outer shell.",
+      "It is made of solid rock and is divided into tectonic plates.",
+      "The crust is very thin compared to the other layers — like the skin of an apple."
+    ],
+    "hints": [
+      "Think about what you stand on when you go outside.",
+      "It is the thinnest layer, like the peel of a fruit."
+    ],
+    "tags": [
+      "earth-structure",
+      "crust",
+      "geology"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "se-a2-012",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "sound-light",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "Why can you see yourself in a mirror?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The mirror creates a copy of you"
+      },
+      {
+        "key": "B",
+        "text": "Light bounces off you and reflects off the smooth mirror surface"
+      },
+      {
+        "key": "C",
+        "text": "The mirror absorbs light and sends it back"
+      },
+      {
+        "key": "D",
+        "text": "Your eyes send out beams that hit the mirror"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Mirrors don't create copies. They reflect the light that comes from you.",
+      "C": "Mirrors reflect light, they don't absorb it. Dark objects absorb light.",
+      "D": "Your eyes receive light, they don't send out beams like flashlights."
+    },
+    "explanation": "Light reflects off your body, travels to the mirror, and the smooth mirror surface reflects that light back to your eyes. This is called reflection.",
+    "explanationSteps": [
+      "Light from the room hits your body and bounces off.",
+      "The light travels to the smooth mirror surface.",
+      "The mirror reflects the light back to your eyes, so you see yourself."
+    ],
+    "hints": [
+      "What happens when you shine a flashlight at a mirror?",
+      "Think about why a piece of paper doesn't work like a mirror."
+    ],
+    "tags": [
+      "light",
+      "reflection",
+      "mirrors",
+      "optics"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-a2-013",
+    "moduleId": "science.explorer",
+    "skill": "life-science",
+    "subSkill": "ecosystems",
+    "level": "A2",
+    "questionType": "gap-filling",
+    "difficulty": 0.28,
+    "prompt": "A __________ is a place where an organism lives and gets everything it needs to survive.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "population"
+      },
+      {
+        "key": "B",
+        "text": "habitat"
+      },
+      {
+        "key": "C",
+        "text": "community"
+      },
+      {
+        "key": "D",
+        "text": "biome"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "A population is a group of the same species living in the same area, not a place.",
+      "C": "A community includes all different populations living in an area, not a physical place.",
+      "D": "A biome is a large geographic region with similar climate and organisms. A habitat is more specific."
+    },
+    "explanation": "A habitat is the natural home of an organism. It provides food, water, shelter, and space. Examples include a pond, a forest, or a desert.",
+    "explanationSteps": [
+      "Every living thing has a habitat where it can survive.",
+      "The habitat must provide everything the organism needs.",
+      "Different organisms need different types of habitats."
+    ],
+    "hints": [
+      "Think of your home — it's where you find everything you need.",
+      "A fish's habitat is water; a bird's habitat might be a tree."
+    ],
+    "tags": [
+      "habitat",
+      "ecosystem",
+      "ecology"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "se-a2-014",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "moon-phases",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "About how long does it take for the Moon to go through all its phases, from one full moon to the next?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "One day"
+      },
+      {
+        "key": "B",
+        "text": "One week"
+      },
+      {
+        "key": "C",
+        "text": "About one month"
+      },
+      {
+        "key": "D",
+        "text": "One year"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "The Moon changes position daily, but a full cycle takes much longer than one day.",
+      "B": "One week only shows about a quarter of the cycle. You can see new, crescent, and quarter phases in a week.",
+      "D": "One year is much too long. The Moon completes about 12 full cycles in a year."
+    },
+    "explanation": "The lunar cycle takes about 29.5 days. As the Moon orbits Earth, we see different amounts of the sunlit side, creating the phases from new moon to full moon and back.",
+    "explanationSteps": [
+      "The Moon orbits Earth about once every 27 days.",
+      "Because Earth is also moving, it takes about 29.5 days for the same phase to appear.",
+      "This 29.5-day period is called a lunar month."
+    ],
+    "hints": [
+      "Look at a calendar — about how many days are between one full moon and the next?",
+      "The word 'month' actually comes from the word 'moon'!"
+    ],
+    "tags": [
+      "moon-phases",
+      "lunar-cycle",
+      "moon"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-a2-015",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "energy-types",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "When you eat food and then run around the playground, the food provides you with what type of energy?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Light energy"
+      },
+      {
+        "key": "B",
+        "text": "Sound energy"
+      },
+      {
+        "key": "C",
+        "text": "Chemical energy"
+      },
+      {
+        "key": "D",
+        "text": "Electrical energy"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Light energy comes from the Sun or light bulbs, not from the food you eat.",
+      "B": "Sound energy comes from vibrations. You use energy to run, not produce sound.",
+      "D": "Electrical energy powers devices. Your body uses chemical energy from food."
+    },
+    "explanation": "Food contains chemical energy stored in molecules like carbohydrates and fats. Your body breaks these down to release energy for movement, growth, and all body functions.",
+    "explanationSteps": [
+      "Food molecules contain stored chemical energy in their bonds.",
+      "Your digestive system breaks food down into nutrients.",
+      "Your cells convert this chemical energy into movement and heat."
+    ],
+    "hints": [
+      "Think about how you feel after eating a good meal — do you have more energy to play?",
+      "What type of energy is stored in a battery? Food works in a similar way."
+    ],
+    "tags": [
+      "energy",
+      "chemical-energy",
+      "nutrition",
+      "body"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-a2-016",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "weather-climate",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.22,
+    "prompt": "What instrument measures temperature?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A barometer"
+      },
+      {
+        "key": "B",
+        "text": "A thermometer"
+      },
+      {
+        "key": "C",
+        "text": "An anemometer"
+      },
+      {
+        "key": "D",
+        "text": "A rain gauge"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "A barometer measures air pressure, not temperature.",
+      "C": "An anemometer measures wind speed, not temperature.",
+      "D": "A rain gauge measures how much rain has fallen, not temperature."
+    },
+    "explanation": "A thermometer measures temperature. It contains a liquid (usually alcohol or mercury) that expands when heated and contracts when cooled, moving up or down a scale.",
+    "explanationSteps": [
+      "Thermometers contain a liquid that expands when it gets warm.",
+      "The liquid moves up the tube as temperature increases.",
+      "We read the scale to find the temperature."
+    ],
+    "hints": [
+      "The word 'thermo' means heat. What instrument has 'thermo' in its name?",
+      "When you're sick, what does a doctor use to check if you have a fever?"
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "thermometer"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "se-a2-017",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "electricity-magnetism",
+    "level": "A2",
+    "questionType": "true-false",
+    "difficulty": 0.2,
+    "prompt": "True or False: A magnet can attract a plastic spoon.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Magnets only attract materials that contain iron, nickel, or cobalt. Plastic is not magnetic."
+    },
+    "explanation": "Magnets attract ferromagnetic materials like iron, nickel, and cobalt. Plastic, wood, paper, and glass are not attracted to magnets.",
+    "explanationSteps": [
+      "Magnetic materials contain iron, nickel, or cobalt.",
+      "Plastic is made from polymers and does not contain these metals.",
+      "That's why a magnet will not pick up a plastic spoon."
+    ],
+    "hints": [
+      "Test it with things around you — does a magnet stick to a plastic cup?",
+      "Think about what kinds of objects a magnet on your fridge can hold up."
+    ],
+    "tags": [
+      "magnetism",
+      "magnets",
+      "materials"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "se-a2-018",
+    "moduleId": "science.explorer",
+    "skill": "life-science",
+    "subSkill": "plant-life",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "What is the main purpose of a flower on a plant?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "To soak up water from the rain"
+      },
+      {
+        "key": "B",
+        "text": "To make food through photosynthesis"
+      },
+      {
+        "key": "C",
+        "text": "To help the plant reproduce and make seeds"
+      },
+      {
+        "key": "D",
+        "text": "To protect the plant from animals"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Roots soak up water, not flowers. Flowers are not good at absorbing water.",
+      "B": "Leaves are the main organs for photosynthesis, not flowers.",
+      "D": "Some flowers may have thorns or smell bad, but their main purpose is reproduction."
+    },
+    "explanation": "Flowers are the reproductive organs of plants. They produce pollen and eggs, attract pollinators like bees and butterflies, and develop into fruits that contain seeds.",
+    "explanationSteps": [
+      "Flowers produce pollen (male sex cells) and ovules (female sex cells).",
+      "Bees and other insects carry pollen from one flower to another.",
+      "After pollination, the flower develops into a fruit with seeds inside."
+    ],
+    "hints": [
+      "Why do bees visit flowers so often?",
+      "What happens to a flower after it wilts? Where do new plants come from?"
+    ],
+    "tags": [
+      "flowers",
+      "reproduction",
+      "plants",
+      "pollination"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-a2-019",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "seasons",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "Why does Earth have seasons?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Because Earth is closer to the Sun in summer and farther in winter"
+      },
+      {
+        "key": "B",
+        "text": "Because Earth's axis is tilted as it orbits the Sun"
+      },
+      {
+        "key": "C",
+        "text": "Because the Sun gives off more heat at certain times of year"
+      },
+      {
+        "key": "D",
+        "text": "Because clouds block the Sun more in winter"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Earth's orbit is nearly circular. The distance to the Sun changes very little and is not what causes seasons.",
+      "C": "The Sun's energy output is very steady and does not change significantly throughout the year.",
+      "D": "Cloud cover varies but does not cause seasons. Many places have sunny winters and rainy summers."
+    },
+    "explanation": "Earth's axis is tilted at about 23.5 degrees. As Earth orbits the Sun, different hemispheres receive more direct sunlight at different times, causing seasons.",
+    "explanationSteps": [
+      "Earth's axis is tilted 23.5 degrees from vertical.",
+      "In summer, the Northern Hemisphere is tilted toward the Sun.",
+      "This means more direct sunlight, longer days, and warmer temperatures."
+    ],
+    "hints": [
+      "Think about how a flashlight beam looks different when you shine it straight down versus at an angle.",
+      "When it's summer in North America, what season is it in Australia?"
+    ],
+    "tags": [
+      "seasons",
+      "earth-tilt",
+      "orbit",
+      "astronomy"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-a2-020",
+    "moduleId": "science.explorer",
+    "skill": "life-science",
+    "subSkill": "food-chains",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "What role do decomposers like mushrooms and bacteria play in an ecosystem?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "They make their own food using sunlight"
+      },
+      {
+        "key": "B",
+        "text": "They hunt and eat other animals"
+      },
+      {
+        "key": "C",
+        "text": "They break down dead plants and animals, returning nutrients to the soil"
+      },
+      {
+        "key": "D",
+        "text": "They only eat living plants"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "That describes producers (plants), not decomposers. Decomposers cannot photosynthesize.",
+      "B": "That describes predators or carnivores. Decomposers eat dead matter.",
+      "D": "Decomposers break down dead matter, not living plants."
+    },
+    "explanation": "Decomposers like fungi, bacteria, and worms break down dead organisms and waste. This recycles nutrients back into the soil so plants can use them again.",
+    "explanationSteps": [
+      "Dead plants and animals would pile up without decomposers.",
+      "Decomposers break down complex organic matter into simple nutrients.",
+      "These nutrients go into the soil to be used by new plants."
+    ],
+    "hints": [
+      "What happens to a fallen log in the forest over time?",
+      "Think about what helps dead leaves turn into soil."
+    ],
+    "tags": [
+      "decomposers",
+      "nutrient-cycle",
+      "ecology",
+      "soil"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-a2-001",
+    "moduleId": "science.explorer",
+    "skill": "life-science",
+    "subSkill": "ecosystems",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "Which of these describes a desert ecosystem?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Lots of rain, tall trees, rivers"
+      },
+      {
+        "key": "B",
+        "text": "Very little rain, sandy ground, hot and cold"
+      },
+      {
+        "key": "C",
+        "text": "Snow and ice all year"
+      },
+      {
+        "key": "D",
+        "text": "Fog and moss everywhere"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "That is a rainforest.",
+      "C": "That is a polar ecosystem.",
+      "D": "That is a cloud forest."
+    },
+    "explanation": "Deserts get less than 25 cm of rain per year.",
+    "explanationSteps": [
+      "Deserts have very low rainfall.",
+      "Some deserts are hot, some are cold.",
+      "Desert animals are often nocturnal."
+    ],
+    "hints": [
+      "A place where it rarely rains.",
+      "What plants store water in stems?"
+    ],
+    "tags": [
+      "desert",
+      "ecosystem",
+      "habitat",
+      "adaptation"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-a2-002",
+    "moduleId": "science.explorer",
+    "skill": "life-science",
+    "subSkill": "food-chains",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "In grassland: grass>grasshopper>mouse>owl. What is the grasshopper?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A producer"
+      },
+      {
+        "key": "B",
+        "text": "A primary consumer"
+      },
+      {
+        "key": "C",
+        "text": "A secondary consumer"
+      },
+      {
+        "key": "D",
+        "text": "A decomposer"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Producers make their own food.",
+      "C": "Secondary consumers eat primary.",
+      "D": "Decomposers break down dead matter."
+    },
+    "explanation": "A grasshopper eats plants so it is a primary consumer.",
+    "explanationSteps": [
+      "Plants are producers.",
+      "Herbivores are primary consumers.",
+      "Carnivores are secondary consumers."
+    ],
+    "hints": [
+      "What does it eat?",
+      "Primary means first."
+    ],
+    "tags": [
+      "food-chain",
+      "consumer",
+      "grassland",
+      "ecology"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-a2-003",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "states-of-matter",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "Which state of matter has a definite shape and volume?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Solid"
+      },
+      {
+        "key": "B",
+        "text": "Liquid"
+      },
+      {
+        "key": "C",
+        "text": "Gas"
+      },
+      {
+        "key": "D",
+        "text": "Plasma"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Liquids take shape of container.",
+      "C": "Gases have no fixed shape.",
+      "D": "Plasma has no fixed shape."
+    },
+    "explanation": "Solids have tightly packed particles that give definite shape and volume.",
+    "explanationSteps": [
+      "Solid particles are tightly packed.",
+      "They only vibrate in place.",
+      "That is why solids keep shape."
+    ],
+    "hints": [
+      "Think of a wooden block.",
+      "What can you hold without it changing?"
+    ],
+    "tags": [
+      "states-of-matter",
+      "solid",
+      "matter"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "se-a2-004",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "states-of-matter",
+    "level": "A2",
+    "questionType": "gap-filling",
+    "difficulty": 0.25,
+    "prompt": "When water boils it changes from a liquid to a __________.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "solid"
+      },
+      {
+        "key": "B",
+        "text": "plasma"
+      },
+      {
+        "key": "C",
+        "text": "gas (water vapor)"
+      },
+      {
+        "key": "D",
+        "text": "crystal"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Water becomes solid when freezing.",
+      "B": "Plasma is in stars.",
+      "D": "Crystals form from slow cooling."
+    },
+    "explanation": "Boiling turns liquid water into water vapor (gas) at 100 C.",
+    "explanationSteps": [
+      "Heated water molecules move faster.",
+      "At 100 C they escape as gas.",
+      "Bubbles are water vapor."
+    ],
+    "hints": [
+      "What rises from boiling water?",
+      "Think of steam from a kettle."
+    ],
+    "tags": [
+      "boiling",
+      "evaporation",
+      "states-of-matter",
+      "water"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "se-a2-005",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "water-cycle",
+    "level": "A2",
+    "questionType": "gap-filling",
+    "difficulty": 0.25,
+    "prompt": "Water vapor cools in the sky and turns back into droplets. This is called __________.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "evaporation"
+      },
+      {
+        "key": "B",
+        "text": "condensation"
+      },
+      {
+        "key": "C",
+        "text": "precipitation"
+      },
+      {
+        "key": "D",
+        "text": "collection"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Evaporation is liquid to gas.",
+      "C": "Precipitation is rain or snow.",
+      "D": "Collection is water gathering."
+    },
+    "explanation": "Condensation is when water vapor becomes liquid, forming clouds.",
+    "explanationSteps": [
+      "Warm vapor rises to cool air.",
+      "It loses energy and becomes liquid.",
+      "Droplets group into clouds."
+    ],
+    "hints": [
+      "What happens to a cold glass on a hot day?",
+      "Starts with con-."
+    ],
+    "tags": [
+      "water-cycle",
+      "condensation",
+      "clouds"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-a2-006",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "solar-system",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "Which planet is known as the Red Planet?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Venus"
+      },
+      {
+        "key": "B",
+        "text": "Jupiter"
+      },
+      {
+        "key": "C",
+        "text": "Mars"
+      },
+      {
+        "key": "D",
+        "text": "Saturn"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Venus is bright white/yellow.",
+      "B": "Jupiter has colorful bands.",
+      "D": "Saturn is pale yellow with rings."
+    },
+    "explanation": "Mars is red due to iron oxide (rust) on its surface.",
+    "explanationSteps": [
+      "Mars has iron-rich rocks.",
+      "The iron has rusted over time.",
+      "This gives Mars its red color."
+    ],
+    "hints": [
+      "Think of rust on a bicycle.",
+      "Fourth planet from the Sun."
+    ],
+    "tags": [
+      "mars",
+      "solar-system",
+      "planets",
+      "red-planet"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "se-a2-007",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "solar-system",
+    "level": "A2",
+    "questionType": "true-false",
+    "difficulty": 0.15,
+    "prompt": "True or False: Earth is the closest planet to the Sun.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Mercury is the closest planet."
+    },
+    "explanation": "The order from the Sun is Mercury, Venus, Earth, Mars.",
+    "explanationSteps": [
+      "Mercury is about 58 million km from Sun.",
+      "Earth is about 150 million km.",
+      "Mercury is closest."
+    ],
+    "hints": [
+      "Which planet is between the Sun and Earth?"
+    ],
+    "tags": [
+      "solar-system",
+      "planets",
+      "mercury",
+      "earth"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "se-a2-008",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "forces-motion",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "A ball rolls on grass and slows down. What force causes this?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Gravity"
+      },
+      {
+        "key": "B",
+        "text": "Magnetism"
+      },
+      {
+        "key": "C",
+        "text": "Friction"
+      },
+      {
+        "key": "D",
+        "text": "Buoyancy"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Gravity pulls down.",
+      "B": "Magnets affect only iron.",
+      "D": "Buoyancy makes things float."
+    },
+    "explanation": "Friction resists motion between the ball and grass surface.",
+    "explanationSteps": [
+      "Surfaces rubbing create friction.",
+      "Friction acts opposite to motion.",
+      "Rough surfaces create more friction."
+    ],
+    "hints": [
+      "Would the ball slow faster on grass or ice?",
+      "Rub your hands together."
+    ],
+    "tags": [
+      "friction",
+      "forces",
+      "motion",
+      "physics"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-a2-009",
+    "moduleId": "science.explorer",
+    "skill": "life-science",
+    "subSkill": "human-body-systems",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.22,
+    "prompt": "What is the main function of the skeletal system?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "To pump blood"
+      },
+      {
+        "key": "B",
+        "text": "To give structure and protect organs"
+      },
+      {
+        "key": "C",
+        "text": "To digest food"
+      },
+      {
+        "key": "D",
+        "text": "To think"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The heart pumps blood.",
+      "C": "The digestive system digests food.",
+      "D": "The brain handles thinking."
+    },
+    "explanation": "The skeleton provides support, protection, and enables movement with muscles.",
+    "explanationSteps": [
+      "Bones form a framework.",
+      "Skull protects the brain.",
+      "Muscles pull on bones to move."
+    ],
+    "hints": [
+      "Think of a house frame.",
+      "What would happen without a skull?"
+    ],
+    "tags": [
+      "skeletal-system",
+      "bones",
+      "human-body"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-a2-010",
+    "moduleId": "science.explorer",
+    "skill": "life-science",
+    "subSkill": "animal-classification",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.28,
+    "prompt": "A whale lives in the ocean, breathes air, has hair, and feeds milk. Which group?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Fish"
+      },
+      {
+        "key": "B",
+        "text": "Reptiles"
+      },
+      {
+        "key": "C",
+        "text": "Mammals"
+      },
+      {
+        "key": "D",
+        "text": "Amphibians"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Fish have gills and lay eggs.",
+      "B": "Reptiles lay eggs on land.",
+      "D": "Amphibians live in water and on land."
+    },
+    "explanation": "Whales are marine mammals - warm-blooded, breathe air, give live birth, nurse young.",
+    "explanationSteps": [
+      "Mammals are warm-blooded with hair.",
+      "Females produce milk.",
+      "Whales share all mammal traits."
+    ],
+    "hints": [
+      "How does a whale get oxygen?",
+      "What do baby whales drink?"
+    ],
+    "tags": [
+      "whales",
+      "mammals",
+      "animal-classification",
+      "marine-biology"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-a2-011",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "earth-structure",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "What is the outermost layer of Earth called?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The core"
+      },
+      {
+        "key": "B",
+        "text": "The mantle"
+      },
+      {
+        "key": "C",
+        "text": "The crust"
+      },
+      {
+        "key": "D",
+        "text": "The magma"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "The core is the center.",
+      "B": "The mantle is between core and crust.",
+      "D": "Magma is molten rock."
+    },
+    "explanation": "Earth has three layers: crust (outer), mantle (middle), core (inner).",
+    "explanationSteps": [
+      "The crust is the outer shell.",
+      "It is made of solid rock.",
+      "It is thin like apple skin."
+    ],
+    "hints": [
+      "What do you stand on outside?",
+      "The thinnest layer."
+    ],
+    "tags": [
+      "earth-structure",
+      "crust",
+      "geology"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "se-a2-012",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "sound-light",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "Why can you see yourself in a mirror?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It creates a copy of you"
+      },
+      {
+        "key": "B",
+        "text": "Light reflects off you and the mirror"
+      },
+      {
+        "key": "C",
+        "text": "The mirror absorbs and sends light"
+      },
+      {
+        "key": "D",
+        "text": "Your eyes send out beams"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Mirrors do not create copies.",
+      "C": "Mirrors reflect, not absorb.",
+      "D": "Eyes receive light, not send it."
+    },
+    "explanation": "Light bounces off you to the mirror, which reflects it back to your eyes.",
+    "explanationSteps": [
+      "Light hits your body and bounces.",
+      "Light travels to the smooth mirror.",
+      "The mirror reflects light back."
+    ],
+    "hints": [
+      "What happens when you shine a flashlight at a mirror?",
+      "Why does paper not work like a mirror?"
+    ],
+    "tags": [
+      "light",
+      "reflection",
+      "mirrors",
+      "optics"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-a2-013",
+    "moduleId": "science.explorer",
+    "skill": "life-science",
+    "subSkill": "ecosystems",
+    "level": "A2",
+    "questionType": "gap-filling",
+    "difficulty": 0.28,
+    "prompt": "A __________ is where an organism lives and gets what it needs.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "population"
+      },
+      {
+        "key": "B",
+        "text": "habitat"
+      },
+      {
+        "key": "C",
+        "text": "community"
+      },
+      {
+        "key": "D",
+        "text": "biome"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Population is a group of same species.",
+      "C": "Community includes all populations.",
+      "D": "Biome is a large region."
+    },
+    "explanation": "A habitat provides food, water, shelter, and space for an organism.",
+    "explanationSteps": [
+      "Every living thing has a habitat.",
+      "It provides everything needed.",
+      "Different organisms need different habitats."
+    ],
+    "hints": [
+      "Think of your home.",
+      "A fish habitat is water."
+    ],
+    "tags": [
+      "habitat",
+      "ecosystem",
+      "ecology"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "se-a2-014",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "moon-phases",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "How long for the Moon to go from one full moon to the next?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "One day"
+      },
+      {
+        "key": "B",
+        "text": "One week"
+      },
+      {
+        "key": "C",
+        "text": "About one month"
+      },
+      {
+        "key": "D",
+        "text": "One year"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Much longer than one day.",
+      "B": "One week is a quarter cycle.",
+      "D": "The Moon completes 12 cycles yearly."
+    },
+    "explanation": "The lunar cycle is about 29.5 days.",
+    "explanationSteps": [
+      "The Moon orbits Earth every 27 days.",
+      "It takes 29.5 days for same phase.",
+      "This is a lunar month."
+    ],
+    "hints": [
+      "Check days between full moons on a calendar.",
+      "Month comes from moon!"
+    ],
+    "tags": [
+      "moon-phases",
+      "lunar-cycle",
+      "moon"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-a2-015",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "energy-types",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "When you eat food and then run, the food provides what type of energy?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Light energy"
+      },
+      {
+        "key": "B",
+        "text": "Sound energy"
+      },
+      {
+        "key": "C",
+        "text": "Chemical energy"
+      },
+      {
+        "key": "D",
+        "text": "Electrical energy"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Light comes from the Sun.",
+      "B": "Sound comes from vibrations.",
+      "D": "Electricity powers devices."
+    },
+    "explanation": "Food contains chemical energy that the body breaks down for movement.",
+    "explanationSteps": [
+      "Food molecules store chemical energy.",
+      "The body breaks down nutrients.",
+      "Cells convert this into movement and heat."
+    ],
+    "hints": [
+      "How do you feel after a meal?",
+      "What energy is in a battery?"
+    ],
+    "tags": [
+      "energy",
+      "chemical-energy",
+      "nutrition",
+      "body"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-a2-016",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "weather-climate",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.22,
+    "prompt": "What instrument measures temperature?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Barometer"
+      },
+      {
+        "key": "B",
+        "text": "Thermometer"
+      },
+      {
+        "key": "C",
+        "text": "Anemometer"
+      },
+      {
+        "key": "D",
+        "text": "Rain gauge"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Barometer measures air pressure.",
+      "C": "Anemometer measures wind speed.",
+      "D": "Rain gauge measures rainfall."
+    },
+    "explanation": "A thermometer contains liquid that expands when heated.",
+    "explanationSteps": [
+      "Liquid expands when warm.",
+      "It moves up the tube.",
+      "We read the scale."
+    ],
+    "hints": [
+      "Thermo means heat.",
+      "What does a doctor use for fever?"
+    ],
+    "tags": [
+      "weather",
+      "temperature",
+      "thermometer"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "se-a2-017",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "electricity-magnetism",
+    "level": "A2",
+    "questionType": "true-false",
+    "difficulty": 0.2,
+    "prompt": "True or False: A magnet can attract a plastic spoon.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Magnets only attract iron, nickel, or cobalt."
+    },
+    "explanation": "Plastic does not contain magnetic metals.",
+    "explanationSteps": [
+      "Magnetic materials contain iron, nickel, or cobalt.",
+      "Plastic has no magnetic metals.",
+      "A magnet will not pick up plastic."
+    ],
+    "hints": [
+      "Does a magnet stick to a plastic cup?",
+      "What sticks to a fridge magnet?"
+    ],
+    "tags": [
+      "magnetism",
+      "magnets",
+      "materials"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "se-a2-018",
+    "moduleId": "science.explorer",
+    "skill": "life-science",
+    "subSkill": "plant-life",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "What is the main purpose of a flower on a plant?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "To soak up water"
+      },
+      {
+        "key": "B",
+        "text": "To make food"
+      },
+      {
+        "key": "C",
+        "text": "To reproduce and make seeds"
+      },
+      {
+        "key": "D",
+        "text": "To protect from animals"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Roots soak up water.",
+      "B": "Leaves make food.",
+      "D": "Protection is secondary."
+    },
+    "explanation": "Flowers are reproductive organs. They attract pollinators and develop into fruits with seeds.",
+    "explanationSteps": [
+      "Flowers produce pollen and ovules.",
+      "Bees carry pollen between flowers.",
+      "Flowers become fruits with seeds."
+    ],
+    "hints": [
+      "Why do bees visit flowers?",
+      "What happens after a flower wilts?"
+    ],
+    "tags": [
+      "flowers",
+      "reproduction",
+      "plants",
+      "pollination"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-a2-019",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "seasons",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "Why does Earth have seasons?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Earth is closer to the Sun in summer"
+      },
+      {
+        "key": "B",
+        "text": "Earth axis is tilted as it orbits"
+      },
+      {
+        "key": "C",
+        "text": "The Sun gives more heat sometimes"
+      },
+      {
+        "key": "D",
+        "text": "Clouds block the Sun in winter"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Earth orbit is nearly circular.",
+      "C": "Sun output is steady.",
+      "D": "Cloud cover varies."
+    },
+    "explanation": "Earth axis is tilted 23.5 degrees, causing different sunlight angles.",
+    "explanationSteps": [
+      "Earth is tilted 23.5 degrees.",
+      "In summer, a hemisphere tilts toward the Sun.",
+      "More direct sunlight means warmer."
+    ],
+    "hints": [
+      "Think of a flashlight at different angles.",
+      "When it is summer in the US, what season in Australia?"
+    ],
+    "tags": [
+      "seasons",
+      "earth-tilt",
+      "orbit",
+      "astronomy"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-a2-020",
+    "moduleId": "science.explorer",
+    "skill": "life-science",
+    "subSkill": "food-chains",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "What role do decomposers like mushrooms and bacteria play?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Make food using sunlight"
+      },
+      {
+        "key": "B",
+        "text": "Hunt other animals"
+      },
+      {
+        "key": "C",
+        "text": "Break down dead matter, recycle nutrients"
+      },
+      {
+        "key": "D",
+        "text": "Only eat living plants"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "That describes producers.",
+      "B": "That describes predators.",
+      "D": "They eat dead matter."
+    },
+    "explanation": "Decomposers break down dead organisms, recycling nutrients to the soil.",
+    "explanationSteps": [
+      "Dead matter would pile up.",
+      "They break complex matter into simple nutrients.",
+      "Nutrients return to the soil."
+    ],
+    "hints": [
+      "What happens to a fallen log?",
+      "What makes dead leaves become soil?"
+    ],
+    "tags": [
+      "decomposers",
+      "nutrient-cycle",
+      "ecology",
+      "soil"
+    ],
+    "estimatedTimeSec": 30
+  }
+]

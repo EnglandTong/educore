@@ -1,0 +1,73 @@
+{
+  "id": "science.explorer",
+  "name": "Science Explorer",
+  "version": "1.0.0",
+  "subject": "science",
+  "category": "explorer",
+  "description": "Discover the wonders of science through exploration of nature, physics, chemistry, and biology",
+  "icon": "flask-conical",
+  "color": "#10b981",
+  "targetAge": { "min": 6, "max": 18 },
+  "skills": [
+    {
+      "id": "scientific-method",
+      "name": "Scientific Method",
+      "description": "Learn how to observe, question, experiment, and draw conclusions",
+      "subSkills": ["observation-skills", "hypothesis-formation", "experiment-design", "data-recording", "conclusion-drawing"],
+      "order": 1
+    },
+    {
+      "id": "life-science",
+      "name": "Life Science",
+      "description": "Explore living organisms, ecosystems, and the human body",
+      "subSkills": ["plant-life", "animal-classification", "human-body-systems", "ecosystems", "food-chains", "heredity"],
+      "order": 2
+    },
+    {
+      "id": "physical-science",
+      "name": "Physical Science",
+      "description": "Understand matter, energy, forces, and motion",
+      "subSkills": ["states-of-matter", "forces-motion", "simple-machines", "sound-light", "electricity-magnetism", "energy-types"],
+      "order": 3
+    },
+    {
+      "id": "earth-space",
+      "name": "Earth & Space",
+      "description": "Learn about our planet, weather, solar system, and beyond",
+      "subSkills": ["earth-structure", "weather-climate", "water-cycle", "solar-system", "moon-phases", "seasons"],
+      "order": 4
+    },
+    {
+      "id": "chemistry-basics",
+      "name": "Chemistry Basics",
+      "description": "Discover atoms, elements, compounds, and chemical reactions",
+      "subSkills": ["atoms-molecules", "elements-periodic-table", "compounds-mixtures", "chemical-reactions", "acids-bases"],
+      "order": 5
+    },
+    {
+      "id": "environmental-science",
+      "name": "Environmental Science",
+      "description": "Understand conservation, pollution, and our role in protecting the planet",
+      "subSkills": ["conservation", "pollution-types", "renewable-energy", "biodiversity", "climate-change"],
+      "order": 6
+    }
+  ],
+  "levels": [
+    { "id": "A1", "name": "Discovery", "gradeRange": "1-2", "order": 1 },
+    { "id": "A2", "name": "Exploration", "gradeRange": "3-4", "order": 2 },
+    { "id": "B1", "name": "Investigation", "gradeRange": "5-6", "order": 3 },
+    { "id": "B2", "name": "Experimentation", "gradeRange": "7-8", "order": 4 },
+    { "id": "C1", "name": "Advanced Science", "gradeRange": "9-12", "order": 5 }
+  ],
+  "questionTypes": ["multiple-choice", "gap-filling", "true-false", "matching", "open-ended"],
+  "diagnostic": {
+    "rounds": 5,
+    "questionsPerRound": 5,
+    "strategy": "adaptive"
+  },
+  "training": {
+    "sessionLength": 25,
+    "adaptiveWeights": { "weak": 60, "current": 25, "review": 15 },
+    "masteryThreshold": 85
+  }
+}

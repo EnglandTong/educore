@@ -1,0 +1,3498 @@
+[
+  {
+    "id": "eg-b2-001",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "past-perfect",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "By the time we arrived at the airport, the flight ______ already departed.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "had"
+      },
+      {
+        "key": "B",
+        "text": "has"
+      },
+      {
+        "key": "C",
+        "text": "was"
+      },
+      {
+        "key": "A",
+        "text": "did"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "The present perfect doesn't fit here because the main clause is set in the past.",
+      "C": "The past continuous doesn't show that one past action was completed before another.",
+      "A": "Did is an auxiliary for questions and negatives, not for showing sequence between two past events."
+    },
+    "explanation": "Great job noticing the sequence! When one past event happens before another, we use the past perfect.",
+    "explanationSteps": [
+      "Identify two past events",
+      "The earlier event uses the past perfect",
+      "Had + past participle shows completion before the later event"
+    ],
+    "hints": [
+      "Think about which event happened first",
+      "Which tense shows an earlier past action?",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "tense-aspect",
+      "past-perfect",
+      "travel"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-002",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "future-perfect",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.55,
+    "prompt": "Complete the sentence with the correct future perfect form: By 2030, scientists ______ (develop) a cure for the common cold using AI.",
+    "answerKey": [
+      "will have developed",
+      "will've developed"
+    ],
+    "explanation": "Excellent work with future timelines! The future perfect shows an action completed before a specific future time.",
+    "explanationSteps": [
+      "Identify the future time marker: By 2030",
+      "Use will have + past participle",
+      "This shows completion before that future point"
+    ],
+    "hints": [
+      "What tense describes completion before a future moment?",
+      "Use will + have + past participle",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "tense-aspect",
+      "future-perfect",
+      "technology"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-b2-003",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "mixed-tenses",
+    "level": "B2",
+    "questionType": "transformation",
+    "difficulty": 0.6,
+    "prompt": "Rewrite using a perfect tense: 'I started the project. Then the teacher changed the deadline.'",
+    "answerKey": [
+      "I had already started the project when the teacher changed the deadline.",
+      "When the teacher changed the deadline, I had already started the project."
+    ],
+    "explanation": "Nice thinking! Combining these events with the past perfect makes the sequence crystal clear.",
+    "explanationSteps": [
+      "Identify the earlier action: starting the project",
+      "Use had started for the earlier action",
+      "Connect with when for the later action"
+    ],
+    "hints": [
+      "Which action happened first?",
+      "Use had + past participle for the earlier event",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "tense-aspect",
+      "mixed-tenses",
+      "education"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-b2-004",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "past-perfect",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "The movie was disappointing because I ______ it many times before.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "had seen"
+      },
+      {
+        "key": "B",
+        "text": "saw"
+      },
+      {
+        "key": "C",
+        "text": "have seen"
+      },
+      {
+        "key": "A",
+        "text": "was seeing"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "The simple past doesn't emphasize the earlier experience before another past event.",
+      "C": "The present perfect doesn't fit because the main clause is in the past tense.",
+      "A": "The past continuous describes an ongoing action, not a completed prior experience."
+    },
+    "explanation": "Well spotted! The past perfect shows that seeing the movie happened before the disappointment in the past.",
+    "explanationSteps": [
+      "The disappointment happened in the past",
+      "Seeing the movie happened before that",
+      "Use had seen for the earlier past action"
+    ],
+    "hints": [
+      "Think about the order of past events",
+      "Which tense links a prior past experience to a later past situation?",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "tense-aspect",
+      "past-perfect",
+      "media"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-005",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "mixed-tenses",
+    "level": "B2",
+    "questionType": "error-correction",
+    "difficulty": 0.55,
+    "prompt": "Identify and correct the tense error: 'Climate activists have protested for hours before the law was passed.'",
+    "answerKey": "Climate activists had protested for hours before the law was passed.",
+    "explanation": "Good eye! When one past action happens before another past action, the earlier one needs the past perfect.",
+    "explanationSteps": [
+      "The law being passed is in the past",
+      "Protesting happened before that",
+      "Change have protested to had protested"
+    ],
+    "hints": [
+      "Compare the timing of protesting and passing the law",
+      "The earlier past action needs a different tense",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "tense-aspect",
+      "mixed-tenses",
+      "social-issues"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-b2-006",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "future-perfect",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.5,
+    "prompt": "Complete the sentence: By next summer, she ______ (visit) over twenty countries across Europe.",
+    "answerKey": [
+      "will have visited",
+      "will've visited"
+    ],
+    "explanation": "Fantastic! The future perfect shows that her travels will be completed before next summer arrives.",
+    "explanationSteps": [
+      "By next summer is a future time marker",
+      "Use will have + past participle",
+      "Visited is the past participle of visit"
+    ],
+    "hints": [
+      "Which tense shows completion before a future point?",
+      "Remember: will + have + past participle",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "tense-aspect",
+      "future-perfect",
+      "travel"
+    ],
+    "estimatedTimeSec": 28
+  },
+  {
+    "id": "eg-b2-007",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "mixed-tenses",
+    "level": "B2",
+    "questionType": "cloze",
+    "difficulty": 0.65,
+    "prompt": "Fill in the two blanks: Students ______ computers for years before schools finally ______ coding classes everywhere.",
+    "answerKey": [
+      "had been using",
+      "introduced"
+    ],
+    "explanation": "Excellent grasp of sequence! The continuous form emphasizes duration, while the simple past marks the later event.",
+    "explanationSteps": [
+      "The first action lasted for years before the second",
+      "Use past perfect continuous for duration",
+      "Use simple past for the later event"
+    ],
+    "hints": [
+      "Which blank needs a longer, ongoing action?",
+      "The second event happened after the first",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "tense-aspect",
+      "mixed-tenses",
+      "technology"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-b2-008",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "mixed-tenses",
+    "level": "B2",
+    "questionType": "transformation",
+    "difficulty": 0.6,
+    "prompt": "Combine into one sentence: 'She finished her homework. Then she watched an educational documentary.'",
+    "answerKey": [
+      "After she had finished her homework, she watched an educational documentary.",
+      "She had finished her homework before she watched an educational documentary.",
+      "She watched an educational documentary after she had finished her homework."
+    ],
+    "explanation": "Wonderful work connecting the events! Using the past perfect for the earlier action keeps the timeline perfectly clear.",
+    "explanationSteps": [
+      "Identify the earlier action: finishing homework",
+      "Use had finished for the earlier action",
+      "Use simple past for watching the documentary"
+    ],
+    "hints": [
+      "Which action came first?",
+      "Try using after or before to connect them",
+      "Look at the time words carefully — they are the biggest clue to which tense you need."
+    ],
+    "tags": [
+      "tense-aspect",
+      "mixed-tenses",
+      "education"
+    ],
+    "estimatedTimeSec": 32
+  },
+  {
+    "id": "eg-b2-009",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "second-conditional",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "If I ______ more money, I would backpack through Southeast Asia next summer.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "had"
+      },
+      {
+        "key": "B",
+        "text": "have"
+      },
+      {
+        "key": "C",
+        "text": "would have"
+      },
+      {
+        "key": "A",
+        "text": "had had"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "The simple present is used in first conditionals, but this sentence uses would for a hypothetical present.",
+      "C": "Would have in the if-clause creates a double conditional structure.",
+      "A": "Had had is past perfect, which belongs in third conditionals for past hypotheticals."
+    },
+    "explanation": "Nicely done! The second conditional uses the simple past in the if-clause to describe an unreal present situation.",
+    "explanationSteps": [
+      "This is a hypothetical present situation",
+      "Second conditional: if + simple past",
+      "Main clause uses would + base verb"
+    ],
+    "hints": [
+      "What type of conditional talks about unreal present situations?",
+      "In the if-clause, use simple past for second conditional",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "conditionals",
+      "second-conditional",
+      "travel"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-010",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "third-conditional",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.6,
+    "prompt": "Complete the sentence: If the government had invested in renewable energy earlier, pollution levels ______ (drop) significantly by now.",
+    "answerKey": [
+      "would have dropped",
+      "would've dropped"
+    ],
+    "explanation": "Great thinking! The third conditional reflects on a past decision that didn't happen and imagines a different present result.",
+    "explanationSteps": [
+      "The if-clause uses past perfect for the unreal past",
+      "The main clause uses would have + past participle",
+      "This shows a hypothetical past causing a hypothetical present result"
+    ],
+    "hints": [
+      "Which conditional looks back at past decisions?",
+      "Use would + have + past participle in the result clause",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "conditionals",
+      "third-conditional",
+      "social-issues"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-b2-011",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "mixed-conditionals",
+    "level": "B2",
+    "questionType": "transformation",
+    "difficulty": 0.65,
+    "prompt": "Rewrite as a mixed conditional: 'I didn't save my files yesterday. My computer crashed. I lost everything.'",
+    "answerKey": [
+      "If I had saved my files yesterday, I wouldn't have lost everything when my computer crashed.",
+      "If I had saved my files yesterday, I wouldn't have lost everything."
+    ],
+    "explanation": "Excellent transformation! You connected a past cause with a past result using the third conditional structure.",
+    "explanationSteps": [
+      "Identify the past mistake: not saving files",
+      "Use if + had saved for the unreal past",
+      "Use wouldn't have lost for the imagined result"
+    ],
+    "hints": [
+      "Which action in the past caused the problem?",
+      "Use had + past participle in the if-clause",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "conditionals",
+      "mixed-conditionals",
+      "technology"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-b2-012",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "second-conditional",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "prompt": "If students ______ access to better libraries, they would read more academic books.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "had"
+      },
+      {
+        "key": "B",
+        "text": "have"
+      },
+      {
+        "key": "C",
+        "text": "would have"
+      },
+      {
+        "key": "A",
+        "text": "had had"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "The simple present fits first conditionals, but this sentence describes an unreal present situation with would.",
+      "C": "Using would in the if-clause is not standard for second conditionals.",
+      "A": "Past perfect is used for third conditionals about the past, not present hypotheticals."
+    },
+    "explanation": "Well chosen! The second conditional pairs the simple past in the if-clause with would in the main clause for present unreal situations.",
+    "explanationSteps": [
+      "This describes an unreal present situation",
+      "Second conditional uses if + simple past",
+      "Main clause uses would + base verb"
+    ],
+    "hints": [
+      "Is this a real or hypothetical situation?",
+      "For present hypotheticals, use simple past in the if-clause",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "conditionals",
+      "second-conditional",
+      "education"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-013",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "third-conditional",
+    "level": "B2",
+    "questionType": "error-correction",
+    "difficulty": 0.55,
+    "prompt": "Correct the conditional error: 'If the director would have planned the film better, it had been a success.'",
+    "answerKey": "If the director had planned the film better, it would have been a success.",
+    "explanation": "Nice catch! Third conditionals use had in the if-clause and would have in the main clause—no would in the if-clause needed.",
+    "explanationSteps": [
+      "Remove would from the if-clause",
+      "Use had planned instead of would have planned",
+      "Use would have been instead of had been in the main clause"
+    ],
+    "hints": [
+      "Would doesn't belong in the if-clause of a third conditional",
+      "The main clause needs would have + past participle",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "conditionals",
+      "third-conditional",
+      "media"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-b2-014",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "mixed-conditionals",
+    "level": "B2",
+    "questionType": "cloze",
+    "difficulty": 0.65,
+    "prompt": "Fill in the two blanks: If I ______ learned Spanish at school, I ______ be able to travel through Latin America more easily now.",
+    "answerKey": [
+      "had",
+      "would"
+    ],
+    "explanation": "Perfect! This mixed conditional connects a past unreal situation with a present result.",
+    "explanationSteps": [
+      "Not learning Spanish happened in the past",
+      "Use had + past participle for the past unreal condition",
+      "Use would + base verb for the present result"
+    ],
+    "hints": [
+      "The first blank refers to a past unreal condition",
+      "The second blank shows a present hypothetical result",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "conditionals",
+      "mixed-conditionals",
+      "travel"
+    ],
+    "estimatedTimeSec": 32
+  },
+  {
+    "id": "eg-b2-015",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "second-conditional",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.5,
+    "prompt": "Complete the sentence: If teenagers spent less time on social media, they ______ (have) more time for face-to-face friendships.",
+    "answerKey": [
+      "would have",
+      "would've"
+    ],
+    "explanation": "Exactly right! This second conditional imagines a different present reality and its likely consequence.",
+    "explanationSteps": [
+      "This is an unreal present situation",
+      "The if-clause uses simple past: spent",
+      "The main clause uses would + base verb: would have"
+    ],
+    "hints": [
+      "Which conditional describes unreal present situations?",
+      "Use would + base verb in the main clause",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "conditionals",
+      "second-conditional",
+      "technology"
+    ],
+    "estimatedTimeSec": 28
+  },
+  {
+    "id": "eg-b2-016",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "mixed-conditionals",
+    "level": "B2",
+    "questionType": "transformation",
+    "difficulty": 0.7,
+    "prompt": "Rewrite as a mixed conditional: 'She didn't vote in the last election. She regrets it now.'",
+    "answerKey": [
+      "If she had voted in the last election, she wouldn't regret it now.",
+      "She wouldn't regret it now if she had voted in the last election."
+    ],
+    "explanation": "Brilliant! You connected her past action with her present feelings using a mixed conditional perfectly.",
+    "explanationSteps": [
+      "The unreal past action: not voting",
+      "Use if + had voted for the past condition",
+      "Use wouldn't regret for the present result"
+    ],
+    "hints": [
+      "Which part refers to the past?",
+      "Which part describes her current feeling?",
+      "Ask yourself: is this a real possibility or an imaginary situation? That tells you which conditional to use."
+    ],
+    "tags": [
+      "conditionals",
+      "mixed-conditionals",
+      "social-issues"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-b2-017",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "perfect-passive",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "prompt": "All the exams ______ marked by the teachers before the results were announced.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "had been"
+      },
+      {
+        "key": "B",
+        "text": "have been"
+      },
+      {
+        "key": "C",
+        "text": "were being"
+      },
+      {
+        "key": "A",
+        "text": "are being"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "The present perfect doesn't fit because the sentence refers to a completed past sequence before another past event.",
+      "C": "The past continuous passive doesn't show completion before another past action.",
+      "A": "The present continuous passive is for ongoing present actions, not a completed past sequence."
+    },
+    "explanation": "Excellent! The past perfect passive shows that the exams were marked before the announcement happened.",
+    "explanationSteps": [
+      "The results being announced is in the past",
+      "Marking happened before that",
+      "Use had been + past participle for the earlier passive action"
+    ],
+    "hints": [
+      "Which action happened first?",
+      "Use had been + past participle for the earlier passive action",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "passive-voice",
+      "perfect-passive",
+      "education"
+    ],
+    "estimatedTimeSec": 28
+  },
+  {
+    "id": "eg-b2-018",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "modal-passive",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.5,
+    "prompt": "Complete the sentence: Passwords ______ (should / change) regularly to protect personal data online.",
+    "answerKey": [
+      "should be changed",
+      "should be changed regularly to protect personal data online"
+    ],
+    "explanation": "Great job! Modal passives combine a modal verb with be + past participle to give advice about an action.",
+    "explanationSteps": [
+      "This sentence gives advice using should",
+      "The passive form needs be + past participle",
+      "Combine them: should be changed"
+    ],
+    "hints": [
+      "Which modal verb gives advice?",
+      "The passive structure is modal + be + past participle",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "passive-voice",
+      "modal-passive",
+      "technology"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-019",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "passive-reporting",
+    "level": "B2",
+    "questionType": "transformation",
+    "difficulty": 0.65,
+    "prompt": "Rewrite in the passive: 'Journalists say that the streaming platform will change its pricing policy.'",
+    "answerKey": [
+      "The streaming platform is said to be going to change its pricing policy.",
+      "The streaming platform is said to change its pricing policy.",
+      "It is said that the streaming platform will change its pricing policy."
+    ],
+    "explanation": "Wonderful! The passive reporting structure shifts focus from who says it to what is being said.",
+    "explanationSteps": [
+      "Use subject + is said + to-infinitive",
+      "Or use It is said that + original clause",
+      "This focuses attention on the information itself"
+    ],
+    "hints": [
+      "Try starting with the subject of the rumor",
+      "Use is said to + infinitive",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "passive-voice",
+      "passive-reporting",
+      "media"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-b2-020",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "perfect-passive",
+    "level": "B2",
+    "questionType": "error-correction",
+    "difficulty": 0.45,
+    "prompt": "Correct the passive voice error: 'The flight tickets had been book weeks before the trip started.'",
+    "answerKey": "The flight tickets had been booked weeks before the trip started.",
+    "explanation": "Good eye! The past perfect passive needs the past participle form of the verb.",
+    "explanationSteps": [
+      "Had been shows the past perfect passive",
+      "Book needs to become booked",
+      "This shows the tickets were reserved before the trip"
+    ],
+    "hints": [
+      "What is the past participle of book?",
+      "Passive voice always uses be + past participle",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "passive-voice",
+      "perfect-passive",
+      "travel"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-021",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "modal-passive",
+    "level": "B2",
+    "questionType": "cloze",
+    "difficulty": 0.7,
+    "prompt": "Fill in the two blanks: Plastic waste ______ reduced if stricter laws ______ introduced by the government.",
+    "answerKey": [
+      "could be",
+      "were"
+    ],
+    "explanation": "Excellent! This combines a modal passive with a second conditional to discuss possible solutions.",
+    "explanationSteps": [
+      "The sentence proposes a hypothetical solution",
+      "Use could be + past participle for modal passive",
+      "Use were introduced for the passive conditional clause"
+    ],
+    "hints": [
+      "The first blank needs a modal passive structure",
+      "The second blank is in a hypothetical if-clause",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "passive-voice",
+      "modal-passive",
+      "social-issues"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-b2-022",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "passive-reporting",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "Students ______ to be among the most motivated learners in the school.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "are said"
+      },
+      {
+        "key": "B",
+        "text": "say"
+      },
+      {
+        "key": "C",
+        "text": "are saying"
+      },
+      {
+        "key": "D",
+        "text": "said"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "The active voice here doesn't match the reporting structure needed for general opinion.",
+      "C": "The present continuous active doesn't create the passive reporting meaning.",
+      "D": "The simple past active doesn't express current general belief or reporting."
+    },
+    "explanation": "Nicely done! 'Are said' is the passive reporting structure used to share what people generally believe.",
+    "explanationSteps": [
+      "This reports general opinion about students",
+      "Use be + said in passive reporting",
+      "Follow with to + infinitive or a that-clause"
+    ],
+    "hints": [
+      "Who is expressing this opinion?",
+      "The passive form is used when we don't need to name the source",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "passive-voice",
+      "passive-reporting",
+      "education"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-023",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "perfect-passive",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.6,
+    "prompt": "Complete the sentence: By the time the update was released, the software ______ (already / test) by thousands of beta users.",
+    "answerKey": [
+      "had already been tested",
+      "had been tested"
+    ],
+    "explanation": "Fantastic! The past perfect passive shows that testing was completed before the release happened.",
+    "explanationSteps": [
+      "The release happened in the past",
+      "Testing was completed before that",
+      "Use had been + past participle for the earlier passive action"
+    ],
+    "hints": [
+      "Which action happened first?",
+      "Use had been + past participle in the passive voice",
+      "Remember: passive needs a form of \"be\" plus the past participle of the main verb."
+    ],
+    "tags": [
+      "passive-voice",
+      "perfect-passive",
+      "technology"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-b2-024",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "deduction",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "She's not answering her phone, so she ______ still be on the plane.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "must"
+      },
+      {
+        "key": "B",
+        "text": "should"
+      },
+      {
+        "key": "C",
+        "text": "can"
+      },
+      {
+        "key": "A",
+        "text": "would"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "Should expresses expectation or obligation, not strong deduction about a present situation.",
+      "C": "Can is used for general possibility or ability, not strong logical deduction in affirmative statements.",
+      "A": "Would expresses hypothetical situations, not logical conclusions about present facts."
+    },
+    "explanation": "Well reasoned! Must is used when we are fairly certain about something based on available evidence.",
+    "explanationSteps": [
+      "The evidence: she's not answering her phone",
+      "Must shows strong logical deduction",
+      "This means we believe she is very likely on the plane"
+    ],
+    "hints": [
+      "How certain are you based on the evidence?",
+      "Which modal expresses strong logical deduction?",
+      "Modal verbs never change form and are always followed directly by the base verb."
+    ],
+    "tags": [
+      "modal-verbs",
+      "deduction",
+      "travel"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-025",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "possibility",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.45,
+    "prompt": "Complete the sentence: Advances in artificial intelligence ______ (may / lead) to major changes in how we work within the next decade.",
+    "answerKey": [
+      "may lead",
+      "might lead",
+      "could lead"
+    ],
+    "explanation": "Excellent! May, might, and could all express possibility about future technological developments.",
+    "explanationSteps": [
+      "This sentence talks about future possibility",
+      "Use may/might/could + base verb",
+      "These modals show uncertainty about the future"
+    ],
+    "hints": [
+      "Is this a certain fact or a possibility?",
+      "Use a modal that expresses future possibility",
+      "Modal verbs never change form and are always followed directly by the base verb."
+    ],
+    "tags": [
+      "modal-verbs",
+      "possibility",
+      "technology"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-026",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "advice",
+    "level": "B2",
+    "questionType": "transformation",
+    "difficulty": 0.5,
+    "prompt": "Rewrite using a modal verb for advice: 'It is a good idea to review your notes before the exam.'",
+    "answerKey": [
+      "You should review your notes before the exam.",
+      "You ought to review your notes before the exam.",
+      "You had better review your notes before the exam."
+    ],
+    "explanation": "Great transformation! Should and ought to are perfect for giving friendly, sensible advice.",
+    "explanationSteps": [
+      "Identify that this is giving advice",
+      "Should + base verb gives strong advice",
+      "Ought to + base verb is a slightly more formal alternative"
+    ],
+    "hints": [
+      "Which modal verbs are commonly used for advice?",
+      "Try starting with 'You should...'",
+      "Modal verbs never change form and are always followed directly by the base verb."
+    ],
+    "tags": [
+      "modal-verbs",
+      "advice",
+      "education"
+    ],
+    "estimatedTimeSec": 28
+  },
+  {
+    "id": "eg-b2-027",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "deduction",
+    "level": "B2",
+    "questionType": "error-correction",
+    "difficulty": 0.45,
+    "prompt": "Correct the modal verb error: 'The increase in crime must due to economic factors, according to experts.'",
+    "answerKey": "The increase in crime must be due to economic factors, according to experts.",
+    "explanation": "Good catch! Must always needs a main verb or be after it to form a complete verb phrase.",
+    "explanationSteps": [
+      "Must is a modal verb",
+      "It must be followed by a base verb or the verb be",
+      "Add be after must to complete the phrase"
+    ],
+    "hints": [
+      "What form of the verb follows modal verbs?",
+      "Modal verbs need the base form of be",
+      "Modal verbs never change form and are always followed directly by the base verb."
+    ],
+    "tags": [
+      "modal-verbs",
+      "deduction",
+      "social-issues"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-028",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "possibility",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.45,
+    "prompt": "Complete the sentence: Streaming services ______ (may / become) more expensive if production costs continue to rise.",
+    "answerKey": [
+      "may become",
+      "might become",
+      "could become"
+    ],
+    "explanation": "Excellent! May, might, and could all express that this is one possible future outcome.",
+    "explanationSteps": [
+      "This is a future possibility, not a certainty",
+      "Use may/might/could + base verb",
+      "Become stays in its base form after the modal"
+    ],
+    "hints": [
+      "Is this a prediction or a possibility?",
+      "Modal verbs are followed by the base form of the verb",
+      "Modal verbs never change form and are always followed directly by the base verb."
+    ],
+    "tags": [
+      "modal-verbs",
+      "possibility",
+      "media"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-029",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "advice",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.45,
+    "prompt": "Complete the sentence: You ______ (should / check) the visa requirements before booking international flights.",
+    "answerKey": [
+      "should check",
+      "ought to check",
+      "had better check"
+    ],
+    "explanation": "Perfect! This modal gives practical advice to travelers planning a trip abroad.",
+    "explanationSteps": [
+      "This sentence gives travel advice",
+      "Should + base verb is the most common advice modal",
+      "Ought to and had better are also acceptable"
+    ],
+    "hints": [
+      "Which modal is commonly used for giving advice?",
+      "The base form of the verb follows the modal",
+      "Modal verbs never change form and are always followed directly by the base verb."
+    ],
+    "tags": [
+      "modal-verbs",
+      "advice",
+      "travel"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-030",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "defining-clauses",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "The app ______ allows offline messaging is extremely popular among teenagers.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "which"
+      },
+      {
+        "key": "B",
+        "text": "that"
+      },
+      {
+        "key": "C",
+        "text": "who"
+      },
+      {
+        "key": "D",
+        "text": "whose"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Which can be used for things, but in defining relative clauses, that is often preferred, especially in everyday English.",
+      "C": "Who is used for people, not for apps or things.",
+      "D": "Whose shows possession and would need to be followed by a noun, which doesn't fit here."
+    },
+    "explanation": "Well chosen! That is commonly used in defining relative clauses to identify a specific thing.",
+    "explanationSteps": [
+      "This is a defining relative clause identifying the app",
+      "That refers to things",
+      "The clause tells us which app is meant"
+    ],
+    "hints": [
+      "Is this clause essential to the meaning?",
+      "Which relative pronoun refers to things in defining clauses?",
+      "Who is for people, which is for things, and where is for places — choose the pronoun that matches the noun."
+    ],
+    "tags": [
+      "relative-clauses",
+      "defining-clauses",
+      "technology"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-031",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "non-defining-clauses",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.55,
+    "prompt": "Complete the sentence with a non-defining relative clause: My physics teacher, ______ (graduate / MIT), explained quantum computing last week.",
+    "answerKey": [
+      "who graduated from MIT",
+      "who has graduated from MIT"
+    ],
+    "explanation": "Wonderful! Non-defining clauses add extra information and always use commas.",
+    "explanationSteps": [
+      "This adds extra information about the teacher",
+      "Use who for people",
+      "Remember the commas around the non-defining clause"
+    ],
+    "hints": [
+      "Does this clause identify the teacher or add extra information?",
+      "Use who for people in non-defining clauses",
+      "Who is for people, which is for things, and where is for places — choose the pronoun that matches the noun."
+    ],
+    "tags": [
+      "relative-clauses",
+      "non-defining-clauses",
+      "education"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-b2-032",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "reduced-relatives",
+    "level": "B2",
+    "questionType": "transformation",
+    "difficulty": 0.6,
+    "prompt": "Rewrite using a reduced relative clause: 'The tourists who were waiting for the delayed flight looked exhausted.'",
+    "answerKey": [
+      "The tourists waiting for the delayed flight looked exhausted."
+    ],
+    "explanation": "Excellent! Removing who were creates a more concise reduced relative clause without changing the meaning.",
+    "explanationSteps": [
+      "Identify the relative clause: who were waiting",
+      "Remove the relative pronoun and the verb be",
+      "Keep the present participle waiting"
+    ],
+    "hints": [
+      "Which words can you remove without changing the meaning?",
+      "Reduced relative clauses drop who + be",
+      "Who is for people, which is for things, and where is for places — choose the pronoun that matches the noun."
+    ],
+    "tags": [
+      "relative-clauses",
+      "reduced-relatives",
+      "travel"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-b2-033",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "defining-clauses",
+    "level": "B2",
+    "questionType": "error-correction",
+    "difficulty": 0.45,
+    "prompt": "Correct the relative clause error: 'The documentary what won the award revealed important truths about social media.'",
+    "answerKey": "The documentary that won the award revealed important truths about social media.",
+    "explanation": "Good eye! What is not used as a relative pronoun in standard relative clauses for things.",
+    "explanationSteps": [
+      "What is not used as a relative pronoun here",
+      "Use that or which for things",
+      "That is preferred in defining relative clauses"
+    ],
+    "hints": [
+      "Which relative pronouns refer to things?",
+      "What is not used in standard relative clauses",
+      "Who is for people, which is for things, and where is for places — choose the pronoun that matches the noun."
+    ],
+    "tags": [
+      "relative-clauses",
+      "defining-clauses",
+      "media"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-034",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "non-defining-clauses",
+    "level": "B2",
+    "questionType": "cloze",
+    "difficulty": 0.65,
+    "prompt": "Fill in the two blanks: Climate change, ______ affects millions of people, is a problem ______ requires immediate global action.",
+    "answerKey": [
+      "which",
+      "that"
+    ],
+    "explanation": "Perfect! The first adds extra information with a non-defining clause, while the second defines the problem with a defining clause.",
+    "explanationSteps": [
+      "The first clause is non-defining and uses commas",
+      "Use which for the non-defining clause",
+      "Use that or which for the defining clause"
+    ],
+    "hints": [
+      "Which clause has commas around it?",
+      "Non-defining clauses use which; defining clauses can use that or which",
+      "Who is for people, which is for things, and where is for places — choose the pronoun that matches the noun."
+    ],
+    "tags": [
+      "relative-clauses",
+      "non-defining-clauses",
+      "social-issues"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "eg-b2-035",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "reduced-relatives",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.6,
+    "prompt": "Complete the sentence with a reduced relative clause: The algorithm ______ (design / improve) recommendations is constantly updated.",
+    "answerKey": [
+      "designed to improve"
+    ],
+    "explanation": "Excellent! Designed to improve is a neat reduced relative clause that modifies the algorithm.",
+    "explanationSteps": [
+      "The full clause would be which was designed",
+      "Remove which was to reduce it",
+      "Designed to improve acts as an adjective phrase"
+    ],
+    "hints": [
+      "What is the past participle of design?",
+      "Try removing the relative pronoun and was",
+      "Who is for people, which is for things, and where is for places — choose the pronoun that matches the noun."
+    ],
+    "tags": [
+      "relative-clauses",
+      "reduced-relatives",
+      "technology"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-b2-036",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "statements",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "'I have never visited Asia before,' Tom said. Tom said that he ______ never visited Asia before.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "has"
+      },
+      {
+        "key": "B",
+        "text": "had"
+      },
+      {
+        "key": "C",
+        "text": "have"
+      },
+      {
+        "key": "D",
+        "text": "would have"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The present perfect doesn't shift back in reported speech when the main verb is in the past tense.",
+      "C": "Have doesn't agree with the subject and doesn't show the required tense backshift.",
+      "D": "Would have changes the meaning to conditional, which doesn't match the original statement."
+    },
+    "explanation": "Great work! In reported speech, present perfect shifts back to past perfect when the reporting verb is in the past tense.",
+    "explanationSteps": [
+      "The original statement uses present perfect",
+      "The reporting verb said is in the past",
+      "Shift present perfect to past perfect: have visited becomes had visited"
+    ],
+    "hints": [
+      "What tense is the reporting verb?",
+      "When the reporting verb is past, present perfect usually shifts back",
+      "Shift everything one step back: present becomes past, and pronouns shift to match the reporter."
+    ],
+    "tags": [
+      "reported-speech",
+      "statements",
+      "travel"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-037",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "questions",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.45,
+    "prompt": "Complete the reported question: 'Are smartphones replacing laptops?' The journalist asked ______ smartphones were replacing laptops.",
+    "answerKey": [
+      "whether",
+      "if"
+    ],
+    "explanation": "Perfect! When reporting yes/no questions, we use if or whether to introduce the reported clause.",
+    "explanationSteps": [
+      "This is a yes/no question",
+      "In reported speech, use if or whether",
+      "The word order changes from question to statement form"
+    ],
+    "hints": [
+      "Is this a wh-question or a yes/no question?",
+      "Use if or whether for reported yes/no questions",
+      "Shift everything one step back: present becomes past, and pronouns shift to match the reporter."
+    ],
+    "tags": [
+      "reported-speech",
+      "questions",
+      "technology"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-038",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "tense-backshift",
+    "level": "B2",
+    "questionType": "transformation",
+    "difficulty": 0.55,
+    "prompt": "Rewrite in reported speech: 'The exam will be postponed,' the principal announced.",
+    "answerKey": [
+      "The principal announced that the exam would be postponed.",
+      "The principal announced the exam would be postponed."
+    ],
+    "explanation": "Wonderful! You correctly shifted will to would when reporting in the past tense.",
+    "explanationSteps": [
+      "The reporting verb announced is in the past",
+      "Will changes to would in reported speech",
+      "Be postponed stays in the passive form"
+    ],
+    "hints": [
+      "What happens to will when the reporting verb is past?",
+      "Change will to would",
+      "Shift everything one step back: present becomes past, and pronouns shift to match the reporter."
+    ],
+    "tags": [
+      "reported-speech",
+      "tense-backshift",
+      "education"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-b2-039",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "statements",
+    "level": "B2",
+    "questionType": "error-correction",
+    "difficulty": 0.45,
+    "prompt": "Correct the reported speech error: 'The series is cancelled,' the network stated. The network stated that the series is cancelled.",
+    "answerKey": "The network stated that the series was cancelled.",
+    "explanation": "Good catch! When the reporting verb is in the past tense, the present tense in the original statement needs to shift back.",
+    "explanationSteps": [
+      "The reporting verb stated is past tense",
+      "The original uses present tense is",
+      "Shift is to was in reported speech"
+    ],
+    "hints": [
+      "What tense is stated?",
+      "Present tense shifts to past tense in reported speech",
+      "Shift everything one step back: present becomes past, and pronouns shift to match the reporter."
+    ],
+    "tags": [
+      "reported-speech",
+      "statements",
+      "media"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-040",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "questions",
+    "level": "B2",
+    "questionType": "cloze",
+    "difficulty": 0.55,
+    "prompt": "Fill in the two blanks: 'Why are young people protesting?' The reporter asked ______ young people ______ protesting.",
+    "answerKey": [
+      "why",
+      "were"
+    ],
+    "explanation": "Excellent! Wh-questions keep their question word, and the verb shifts back to the past tense.",
+    "explanationSteps": [
+      "Keep the wh- word why",
+      "Change the question word order to statement word order",
+      "Shift are to were because asked is past tense"
+    ],
+    "hints": [
+      "Which word introduces the reported question?",
+      "The original verb is present tense; shift it back",
+      "Shift everything one step back: present becomes past, and pronouns shift to match the reporter."
+    ],
+    "tags": [
+      "reported-speech",
+      "questions",
+      "social-issues"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-b2-041",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "correlative",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "prompt": "Teenagers spend ______ too much time on screens ______ not enough time reading physical books.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "either...or"
+      },
+      {
+        "key": "B",
+        "text": "neither...nor"
+      },
+      {
+        "key": "C",
+        "text": "both...and"
+      },
+      {
+        "key": "D",
+        "text": "not only...but also"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Neither...nor creates a double negative meaning, which doesn't fit this contrast between two problematic habits.",
+      "C": "Both...and would connect two positive ideas, but this sentence contrasts two negative situations.",
+      "D": "Not only...but also adds emphasis to two related ideas, but the sentence presents a balanced contrast rather than emphasis."
+    },
+    "explanation": "Well done! Either...or presents two alternatives or problems side by side in a balanced way.",
+    "explanationSteps": [
+      "The sentence presents two problems",
+      "Either...or shows a choice or balance between two options",
+      "This fits the contrast between screen time and reading time"
+    ],
+    "hints": [
+      "Are the two ideas connected by addition or alternative?",
+      "Which correlative conjunction presents alternatives?",
+      "Look at the relationship between the two ideas — do they add, contrast, explain, or show a result?"
+    ],
+    "tags": [
+      "conjunctions-connectors",
+      "correlative",
+      "technology"
+    ],
+    "estimatedTimeSec": 28
+  },
+  {
+    "id": "eg-b2-042",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "conjunctive-adverbs",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.5,
+    "prompt": "Complete the sentence: The school introduced digital textbooks; ______ , students still preferred printed books for revision.",
+    "answerKey": [
+      "however",
+      "nevertheless",
+      "nonetheless"
+    ],
+    "explanation": "Excellent! However shows a clear contrast between the school's action and the students' preference.",
+    "explanationSteps": [
+      "The first idea: digital textbooks were introduced",
+      "The second idea: students still preferred printed books",
+      "However shows contrast between these two ideas"
+    ],
+    "hints": [
+      "Is the second idea similar to or different from the first?",
+      "Use a conjunctive adverb that shows contrast",
+      "Look at the relationship between the two ideas — do they add, contrast, explain, or show a result?"
+    ],
+    "tags": [
+      "conjunctions-connectors",
+      "conjunctive-adverbs",
+      "education"
+    ],
+    "estimatedTimeSec": 28
+  },
+  {
+    "id": "eg-b2-043",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "correlative",
+    "level": "B2",
+    "questionType": "transformation",
+    "difficulty": 0.55,
+    "prompt": "Rewrite using correlative conjunctions: 'You can stay in a hotel. You can camp in the mountains.'",
+    "answerKey": [
+      "You can either stay in a hotel or camp in the mountains.",
+      "Either you can stay in a hotel, or you can camp in the mountains."
+    ],
+    "explanation": "Great transformation! Either...or neatly presents the two travel accommodation options.",
+    "explanationSteps": [
+      "There are two options presented",
+      "Use either before the first option",
+      "Use or before the second option"
+    ],
+    "hints": [
+      "Which correlative conjunction presents a choice between two options?",
+      "Place either before the first option and or before the second",
+      "Look at the relationship between the two ideas — do they add, contrast, explain, or show a result?"
+    ],
+    "tags": [
+      "conjunctions-connectors",
+      "correlative",
+      "travel"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-b2-044",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "conjunctive-adverbs",
+    "level": "B2",
+    "questionType": "error-correction",
+    "difficulty": 0.55,
+    "prompt": "Correct the connector error: 'The film received poor reviews, therefore it became a box office hit.'",
+    "answerKey": "The film received poor reviews; however, it became a box office hit.",
+    "explanation": "Nice catch! Therefore shows a result, but these two ideas are actually in contrast with each other.",
+    "explanationSteps": [
+      "Poor reviews and box office success contrast",
+      "Therefore indicates cause and effect",
+      "Use however, but, or yet to show contrast instead"
+    ],
+    "hints": [
+      "Do poor reviews usually lead to box office success?",
+      "Choose a connector that shows contrast rather than result",
+      "Look at the relationship between the two ideas — do they add, contrast, explain, or show a result?"
+    ],
+    "tags": [
+      "conjunctions-connectors",
+      "conjunctive-adverbs",
+      "media"
+    ],
+    "estimatedTimeSec": 28
+  },
+  {
+    "id": "eg-b2-045",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "correlative",
+    "level": "B2",
+    "questionType": "cloze",
+    "difficulty": 0.45,
+    "prompt": "Fill in the two blanks: ______ governments ______ citizens must work together to reduce plastic pollution.",
+    "answerKey": [
+      "Both",
+      "and"
+    ],
+    "explanation": "Perfect! Both...and emphasizes that two groups share equal responsibility for solving the problem.",
+    "explanationSteps": [
+      "Two subjects share responsibility",
+      "Use both before the first subject",
+      "Use and before the second subject"
+    ],
+    "hints": [
+      "Are both groups needed for the solution?",
+      "Which correlative conjunction adds two subjects together?",
+      "Look at the relationship between the two ideas — do they add, contrast, explain, or show a result?"
+    ],
+    "tags": [
+      "conjunctions-connectors",
+      "correlative",
+      "social-issues"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-046",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "collective-nouns",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "The team of students ______ preparing for the national debate competition.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "is"
+      },
+      {
+        "key": "B",
+        "text": "are"
+      },
+      {
+        "key": "C",
+        "text": "were"
+      },
+      {
+        "key": "D",
+        "text": "have been"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Although team members are plural, the collective noun team itself is grammatically singular in standard usage.",
+      "C": "Were is plural and past tense, but the sentence describes a present situation with a singular collective subject.",
+      "D": "Have been is plural and doesn't agree with the singular collective noun team."
+    },
+    "explanation": "Well chosen! Collective nouns like team usually take a singular verb when the group acts as a single unit.",
+    "explanationSteps": [
+      "Team is a collective noun",
+      "When acting as a unit, collective nouns take singular verbs",
+      "Use is preparing for the present continuous singular"
+    ],
+    "hints": [
+      "Is the team acting as one unit or as separate individuals?",
+      "Collective nouns usually take singular verbs in standard grammar",
+      "Count the subject — if it is one person or thing, the verb usually needs -s or -es."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "collective-nouns",
+      "education"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-047",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "intervening-phrases",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.55,
+    "prompt": "Complete the sentence: The list of approved apps ______ (be) updated every semester by the school board.",
+    "answerKey": [
+      "is",
+      "is updated"
+    ],
+    "explanation": "Excellent! The subject is list, which is singular, so the verb must also be singular despite the plural noun apps in between.",
+    "explanationSteps": [
+      "Identify the subject: list",
+      "Of approved apps is a prepositional phrase, not the subject",
+      "Use is because list is singular"
+    ],
+    "hints": [
+      "What is the real subject of the sentence?",
+      "Ignore prepositional phrases when choosing the verb form",
+      "Count the subject — if it is one person or thing, the verb usually needs -s or -es."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "intervening-phrases",
+      "technology"
+    ],
+    "estimatedTimeSec": 28
+  },
+  {
+    "id": "eg-b2-048",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "collective-nouns",
+    "level": "B2",
+    "questionType": "error-correction",
+    "difficulty": 0.45,
+    "prompt": "Correct the subject-verb agreement error: 'The cast of the series are exceptionally talented.'",
+    "answerKey": "The cast of the series is exceptionally talented.",
+    "explanation": "Good eye! Cast is a collective noun that takes a singular verb when referring to the group as a whole.",
+    "explanationSteps": [
+      "Cast is a collective noun",
+      "When referring to the group as a unit, use a singular verb",
+      "Change are to is"
+    ],
+    "hints": [
+      "Is cast acting as a single unit or as individuals?",
+      "Collective nouns usually take singular verbs in this context",
+      "Count the subject — if it is one person or thing, the verb usually needs -s or -es."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "collective-nouns",
+      "media"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-049",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "intervening-phrases",
+    "level": "B2",
+    "questionType": "transformation",
+    "difficulty": 0.55,
+    "prompt": "Rewrite with correct subject-verb agreement: 'The luggage of the passengers have been checked by security.'",
+    "answerKey": [
+      "The luggage of the passengers has been checked by security."
+    ],
+    "explanation": "Wonderful! Luggage is an uncountable noun that takes a singular verb, regardless of the plural noun passengers nearby.",
+    "explanationSteps": [
+      "Identify the subject: luggage",
+      "Luggage is uncountable and singular",
+      "Change have been to has been"
+    ],
+    "hints": [
+      "Is luggage countable or uncountable?",
+      "Uncountable nouns take singular verbs",
+      "Count the subject — if it is one person or thing, the verb usually needs -s or -es."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "intervening-phrases",
+      "travel"
+    ],
+    "estimatedTimeSec": 28
+  },
+  {
+    "id": "eg-b2-050",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "collective-nouns",
+    "level": "B2",
+    "questionType": "cloze",
+    "difficulty": 0.6,
+    "prompt": "Fill in the two blanks: The committee ______ divided on whether the new policy ______ effective.",
+    "answerKey": [
+      "is",
+      "is"
+    ],
+    "explanation": "Perfect! Committee is a collective noun that takes a singular verb, and policy is also singular.",
+    "explanationSteps": [
+      "Committee is a collective noun acting as a unit",
+      "Use is for the singular collective noun",
+      "Policy is singular, so use is as well"
+    ],
+    "hints": [
+      "Is committee singular or plural in standard grammar?",
+      "Policy is also singular",
+      "Count the subject — if it is one person or thing, the verb usually needs -s or -es."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "collective-nouns",
+      "social-issues"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-b2-051",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "past-perfect-continuous",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "prompt": "The backpackers were exhausted because they ______ for twelve hours without a break.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "had been walking"
+      },
+      {
+        "key": "B",
+        "text": "have been walking"
+      },
+      {
+        "key": "C",
+        "text": "were walking"
+      },
+      {
+        "key": "A",
+        "text": "had walked"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "The present perfect continuous doesn't fit because the main clause sets the scene in the past.",
+      "C": "The past continuous doesn't show duration leading up to another past moment.",
+      "A": "The past perfect simple doesn't emphasise the ongoing nature of the activity."
+    },
+    "explanation": "Great observation! The past perfect continuous emphasises how long the action lasted before another past event.",
+    "explanationSteps": [
+      "The exhaustion happened in the past",
+      "Walking lasted for a period before that",
+      "Had been + present participle shows duration up to a past point"
+    ],
+    "hints": [
+      "Think about how long the action lasted before the exhaustion",
+      "Which tense emphasises duration before another past event?",
+      "Use had been + -ing for the ongoing earlier action"
+    ],
+    "tags": [
+      "tense-aspect",
+      "past-perfect-continuous",
+      "travel"
+    ],
+    "estimatedTimeSec": 28
+  },
+  {
+    "id": "eg-b2-052",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "future-perfect-continuous",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.6,
+    "prompt": "Complete the sentence: By the end of this year, AI researchers ______ (work) on this ethical framework for over eighteen months.",
+    "answerKey": [
+      "will have been working",
+      "will've been working"
+    ],
+    "explanation": "Excellent! The future perfect continuous highlights the ongoing effort that will continue up to a specific future moment.",
+    "explanationSteps": [
+      "By the end of this year is a future time marker",
+      "Use will have been + present participle",
+      "This shows duration up to that future point"
+    ],
+    "hints": [
+      "Which tense shows ongoing action up to a future moment?",
+      "Use will + have been + -ing",
+      "The researchers are still working now"
+    ],
+    "tags": [
+      "tense-aspect",
+      "future-perfect-continuous",
+      "technology"
+    ],
+    "estimatedTimeSec": 32
+  },
+  {
+    "id": "eg-b2-053",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "past-perfect",
+    "level": "B2",
+    "questionType": "transformation",
+    "difficulty": 0.55,
+    "prompt": "Combine into one sentence: 'The exam finished. The students realised they had made careless mistakes.'",
+    "answerKey": [
+      "By the time the students realised they had made careless mistakes, the exam had already finished.",
+      "The exam had already finished by the time the students realised they had made careless mistakes.",
+      "When the students realised they had made careless mistakes, the exam had already finished."
+    ],
+    "explanation": "Nice work! Using the past perfect for the exam finishing makes the sequence of events perfectly clear.",
+    "explanationSteps": [
+      "Identify the earlier action: the exam finishing",
+      "Use the past perfect for the earlier action",
+      "Connect the later realisation with when or by the time"
+    ],
+    "hints": [
+      "Which event happened first?",
+      "Use had + past participle for the earlier event",
+      "Try using by the time to link the two events"
+    ],
+    "tags": [
+      "tense-aspect",
+      "past-perfect",
+      "education"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-b2-054",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "mixed-tenses",
+    "level": "B2",
+    "questionType": "error-correction",
+    "difficulty": 0.5,
+    "prompt": "Identify and correct the tense error: 'Online activism has grown rapidly since the movement started, but many people still underestimated its power.'",
+    "answerKey": "Online activism has grown rapidly since the movement started, but many people still underestimate its power.",
+    "explanation": "Good eye! The second clause describes a current attitude, so the present tense is more appropriate than the past.",
+    "explanationSteps": [
+      "The first clause describes growth up to now",
+      "The second clause describes a current situation",
+      "Change underestimated to the present tense underestimate"
+    ],
+    "hints": [
+      "Does the second clause refer to the past or the present?",
+      "Current attitudes need the present tense",
+      "Compare the time frames of both clauses"
+    ],
+    "tags": [
+      "tense-aspect",
+      "mixed-tenses",
+      "social-issues"
+    ],
+    "estimatedTimeSec": 28
+  },
+  {
+    "id": "eg-b2-055",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "future-perfect",
+    "level": "B2",
+    "questionType": "cloze",
+    "difficulty": 0.6,
+    "prompt": "Fill in the two blanks: By the time the train ______ at the platform, the passengers ______ for over forty minutes in the cold.",
+    "answerKey": [
+      "arrives",
+      "will have been waiting"
+    ],
+    "explanation": "Perfect! The time clause uses the present simple for a future event, while the main clause uses the future perfect continuous for duration.",
+    "explanationSteps": [
+      "By the time introduces a future event",
+      "Use present simple in the time clause",
+      "Use future perfect continuous for the waiting duration"
+    ],
+    "hints": [
+      "Which tense is used in time clauses about the future?",
+      "Which tense shows duration up to that future moment?",
+      "Remember: present simple after by the time"
+    ],
+    "tags": [
+      "tense-aspect",
+      "future-perfect",
+      "travel"
+    ],
+    "estimatedTimeSec": 32
+  },
+  {
+    "id": "eg-b2-056",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "present-perfect-continuous",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.5,
+    "prompt": "Complete the sentence: Streaming platforms ______ (compete) for viewers' attention for the past decade, and the battle shows no sign of ending.",
+    "answerKey": [
+      "have been competing",
+      "'ve been competing"
+    ],
+    "explanation": "Fantastic! The present perfect continuous captures the ongoing rivalry that started in the past and continues now.",
+    "explanationSteps": [
+      "For the past decade shows duration from past to present",
+      "Use have been + present participle",
+      "This emphasises the ongoing nature of the competition"
+    ],
+    "hints": [
+      "Does the competition continue into the present?",
+      "Which tense shows an action that started in the past and continues now?",
+      "Use have been + -ing"
+    ],
+    "tags": [
+      "tense-aspect",
+      "present-perfect-continuous",
+      "media"
+    ],
+    "estimatedTimeSec": 28
+  },
+  {
+    "id": "eg-b2-057",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "future-continuous",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "This time next week, most teenagers ______ their summer coding camp at the tech centre.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "will be attending"
+      },
+      {
+        "key": "B",
+        "text": "will attend"
+      },
+      {
+        "key": "C",
+        "text": "are attending"
+      },
+      {
+        "key": "D",
+        "text": "will have attended"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "The simple future doesn't emphasise the ongoing nature of an action at a specific future moment.",
+      "C": "The present continuous is for arrangements, but this sentence highlights an action in progress at a future time.",
+      "D": "The future perfect suggests completion, but the sentence focuses on an activity in progress."
+    },
+    "explanation": "Well chosen! The future continuous describes an action that will be in progress at a specific future time.",
+    "explanationSteps": [
+      "This time next week is a specific future moment",
+      "Use will be + present participle",
+      "This shows the activity will be ongoing then"
+    ],
+    "hints": [
+      "Is the sentence about a completed action or one in progress?",
+      "Which tense describes an ongoing action at a future moment?",
+      "Use will be + -ing"
+    ],
+    "tags": [
+      "tense-aspect",
+      "future-continuous",
+      "technology"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-058",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "mixed-tenses",
+    "level": "B2",
+    "questionType": "transformation",
+    "difficulty": 0.6,
+    "prompt": "Rewrite using a perfect tense: 'The teacher explained the grammar rule. Then the students practised it in pairs.'",
+    "answerKey": [
+      "After the teacher had explained the grammar rule, the students practised it in pairs.",
+      "The students practised the grammar rule in pairs after the teacher had explained it.",
+      "Once the teacher had explained the grammar rule, the students practised it in pairs."
+    ],
+    "explanation": "Wonderful! Using the past perfect for the explanation keeps the classroom timeline crystal clear.",
+    "explanationSteps": [
+      "Identify the earlier action: the teacher's explanation",
+      "Use had explained for the earlier action",
+      "Use the simple past for the students' practice"
+    ],
+    "hints": [
+      "Which action happened first?",
+      "Use had + past participle for the earlier event",
+      "Try using after or once to connect the clauses"
+    ],
+    "tags": [
+      "tense-aspect",
+      "mixed-tenses",
+      "education"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-b2-059",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "second-conditional",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "If hostels ______ cheaper in peak season, more students would travel during the summer holidays.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "were"
+      },
+      {
+        "key": "B",
+        "text": "are"
+      },
+      {
+        "key": "C",
+        "text": "would be"
+      },
+      {
+        "key": "A",
+        "text": "had been"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "The simple present is used in first conditionals for real possibilities, but this sentence describes an unreal present.",
+      "C": "Would be in the if-clause creates a double conditional structure, which is non-standard.",
+      "A": "Had been is the past perfect, used in third conditionals for past hypotheticals."
+    },
+    "explanation": "Nicely done! The second conditional uses the simple past in the if-clause to imagine a different present reality.",
+    "explanationSteps": [
+      "This describes an unreal present situation",
+      "Second conditional: if + simple past",
+      "Main clause uses would + base verb"
+    ],
+    "hints": [
+      "Is this a real or hypothetical situation?",
+      "Which conditional talks about unreal present situations?",
+      "Use the simple past in the if-clause"
+    ],
+    "tags": [
+      "conditionals",
+      "second-conditional",
+      "travel"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-060",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "third-conditional",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.6,
+    "prompt": "Complete the sentence: If local communities had been consulted earlier, the housing crisis ______ (avoid) to a large extent.",
+    "answerKey": [
+      "would have been avoided",
+      "would've been avoided"
+    ],
+    "explanation": "Great thinking! The third conditional looks back at a past decision and imagines a different outcome.",
+    "explanationSteps": [
+      "The if-clause uses past perfect for the unreal past",
+      "The main clause uses would have + past participle",
+      "The passive voice is needed because the crisis would be avoided"
+    ],
+    "hints": [
+      "Which conditional reflects on past decisions?",
+      "Use would + have + been + past participle for the passive",
+      "The main clause needs the passive voice"
+    ],
+    "tags": [
+      "conditionals",
+      "third-conditional",
+      "social-issues"
+    ],
+    "estimatedTimeSec": 32
+  },
+  {
+    "id": "eg-b2-061",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "mixed-conditionals",
+    "level": "B2",
+    "questionType": "transformation",
+    "difficulty": 0.65,
+    "prompt": "Rewrite as a mixed conditional: 'He bought a new smartphone last month. He doesn't have any savings now.'",
+    "answerKey": [
+      "If he hadn't bought a new smartphone last month, he would have some savings now.",
+      "He would have some savings now if he hadn't bought a new smartphone last month."
+    ],
+    "explanation": "Excellent! You linked a past purchase with a present financial situation using a mixed conditional.",
+    "explanationSteps": [
+      "Identify the past action: buying the smartphone",
+      "Use if + hadn't bought for the unreal past",
+      "Use would have for the present result"
+    ],
+    "hints": [
+      "Which action in the past caused the present situation?",
+      "Use had + not + past participle in the if-clause",
+      "The result clause describes the present"
+    ],
+    "tags": [
+      "conditionals",
+      "mixed-conditionals",
+      "technology"
+    ],
+    "estimatedTimeSec": 32
+  },
+  {
+    "id": "eg-b2-062",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "second-conditional",
+    "level": "B2",
+    "questionType": "error-correction",
+    "difficulty": 0.5,
+    "prompt": "Correct the conditional error: 'If schools would provide free tablets, every student could access digital resources.'",
+    "answerKey": "If schools provided free tablets, every student could access digital resources.",
+    "explanation": "Nice catch! Second conditionals use the simple past in the if-clause, not would.",
+    "explanationSteps": [
+      "Remove would from the if-clause",
+      "Use the simple past provided",
+      "Keep could in the main clause"
+    ],
+    "hints": [
+      "Would does not belong in the if-clause of a second conditional",
+      "Use the simple past in the if-clause",
+      "Which form of provide is the simple past?"
+    ],
+    "tags": [
+      "conditionals",
+      "second-conditional",
+      "education"
+    ],
+    "estimatedTimeSec": 28
+  },
+  {
+    "id": "eg-b2-063",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "mixed-conditionals",
+    "level": "B2",
+    "questionType": "cloze",
+    "difficulty": 0.65,
+    "prompt": "Fill in the two blanks: If I ______ booked the tickets earlier, I ______ be flying to Tokyo tomorrow instead of staying home.",
+    "answerKey": [
+      "had",
+      "would"
+    ],
+    "explanation": "Perfect! This mixed conditional connects a past failure with a present hypothetical situation.",
+    "explanationSteps": [
+      "Not booking earlier is a past unreal condition",
+      "Use had + past participle for the past unreal",
+      "Use would + base verb for the present result"
+    ],
+    "hints": [
+      "The first blank refers to a past unreal condition",
+      "The second blank shows a present hypothetical result",
+      "Use had in the if-clause and would in the main clause"
+    ],
+    "tags": [
+      "conditionals",
+      "mixed-conditionals",
+      "travel"
+    ],
+    "estimatedTimeSec": 32
+  },
+  {
+    "id": "eg-b2-064",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "third-conditional",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.6,
+    "prompt": "Complete the sentence: If the documentary ______ (broadcast) earlier, it would have reached a much larger audience.",
+    "answerKey": [
+      "had been broadcast",
+      "had been broadcasted"
+    ],
+    "explanation": "Great work! The third conditional uses the past perfect passive when the unreal past condition is passive.",
+    "explanationSteps": [
+      "The documentary didn't get broadcast earlier",
+      "Use if + had been + past participle for the passive",
+      "The main clause uses would have + past participle"
+    ],
+    "hints": [
+      "Which conditional looks back at the past?",
+      "The if-clause needs the passive voice",
+      "Use had been + past participle"
+    ],
+    "tags": [
+      "conditionals",
+      "third-conditional",
+      "media"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-b2-065",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "inverted-conditionals",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.65,
+    "prompt": "______ the government acted sooner, the protest movement would never have gained such momentum.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "Had"
+      },
+      {
+        "key": "B",
+        "text": "Have"
+      },
+      {
+        "key": "C",
+        "text": "If"
+      },
+      {
+        "key": "A",
+        "text": "Would"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "Have is not used to begin inverted conditional structures; the auxiliary had is required.",
+      "C": "If is correct for standard conditionals, but this sentence omits if and inverts the subject and auxiliary.",
+      "A": "Would does not introduce an inverted third conditional clause."
+    },
+    "explanation": "Well done! Inverted third conditionals drop if and place had before the subject for a more formal tone.",
+    "explanationSteps": [
+      "This is a formal inversion of a third conditional",
+      "Remove if and move had to the front",
+      "Had the government acted = If the government had acted"
+    ],
+    "hints": [
+      "Notice that if is missing from the sentence",
+      "Which auxiliary verb begins an inverted third conditional?",
+      "Move had to the beginning of the clause"
+    ],
+    "tags": [
+      "conditionals",
+      "inverted-conditionals",
+      "social-issues"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-b2-066",
+    "moduleId": "english.grammar",
+    "skill": "conditionals",
+    "subSkill": "second-conditional",
+    "level": "B2",
+    "questionType": "transformation",
+    "difficulty": 0.55,
+    "prompt": "Rewrite using a second conditional: 'Teenagers spend too much time gaming. They don't get enough sleep.'",
+    "answerKey": [
+      "If teenagers didn't spend too much time gaming, they would get enough sleep.",
+      "Teenagers would get enough sleep if they didn't spend too much time gaming."
+    ],
+    "explanation": "Brilliant! You turned a present problem into a hypothetical solution using the second conditional.",
+    "explanationSteps": [
+      "Identify the present problem: spending too much time gaming",
+      "Use if + didn't spend for the unreal present",
+      "Use would get for the imagined result"
+    ],
+    "hints": [
+      "Which action needs to change in the hypothetical situation?",
+      "Use didn't + base verb in the if-clause",
+      "Use would + base verb in the main clause"
+    ],
+    "tags": [
+      "conditionals",
+      "second-conditional",
+      "technology"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-b2-067",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "passive-causative",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "prompt": "The school had its computer lab ______ by a team of professional technicians before the new term began.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "upgraded"
+      },
+      {
+        "key": "B",
+        "text": "upgrade"
+      },
+      {
+        "key": "C",
+        "text": "upgrading"
+      },
+      {
+        "key": "D",
+        "text": "to upgrade"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Upgrade is the base form, but the causative structure have something done requires the past participle.",
+      "C": "Upgrading is a present participle, which doesn't fit the have something done pattern.",
+      "D": "To upgrade is an infinitive, which is not used in the standard causative passive structure."
+    },
+    "explanation": "Excellent! Have something done is a causative structure where the past participle shows the action was arranged for someone else.",
+    "explanationSteps": [
+      "Have + object + past participle is the causative pattern",
+      "The school arranged for others to upgrade the lab",
+      "Use upgraded as the past participle"
+    ],
+    "hints": [
+      "Which structure shows that someone arranged for an action to be done?",
+      "Have something + past participle",
+      "What is the past participle of upgrade?"
+    ],
+    "tags": [
+      "passive-voice",
+      "passive-causative",
+      "education"
+    ],
+    "estimatedTimeSec": 28
+  },
+  {
+    "id": "eg-b2-068",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "modal-passive",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.5,
+    "prompt": "Complete the sentence: Lost passports ______ (can / replace) at the embassy within five working days.",
+    "answerKey": [
+      "can be replaced"
+    ],
+    "explanation": "Great job! Modal passives combine a modal verb with be + past participle to describe what is possible.",
+    "explanationSteps": [
+      "This sentence describes a possibility using can",
+      "The passive form needs be + past participle",
+      "Combine them: can be replaced"
+    ],
+    "hints": [
+      "Which modal verb expresses possibility?",
+      "The passive structure is modal + be + past participle",
+      "What is the past participle of replace?"
+    ],
+    "tags": [
+      "passive-voice",
+      "modal-passive",
+      "travel"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-069",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "passive-reporting",
+    "level": "B2",
+    "questionType": "transformation",
+    "difficulty": 0.6,
+    "prompt": "Rewrite in the passive: 'Experts believe that social media algorithms influence political opinions.'",
+    "answerKey": [
+      "Social media algorithms are believed to influence political opinions.",
+      "It is believed that social media algorithms influence political opinions."
+    ],
+    "explanation": "Wonderful! The passive reporting structure shifts the focus from the experts to the algorithms themselves.",
+    "explanationSteps": [
+      "Use subject + are believed + to-infinitive",
+      "Or use It is believed that + original clause",
+      "This focuses attention on the belief rather than the believers"
+    ],
+    "hints": [
+      "Try starting with the subject of the belief",
+      "Use are believed to + infinitive",
+      "Alternatively, start with It is believed that"
+    ],
+    "tags": [
+      "passive-voice",
+      "passive-reporting",
+      "social-issues"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-b2-070",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "perfect-passive",
+    "level": "B2",
+    "questionType": "error-correction",
+    "difficulty": 0.5,
+    "prompt": "Correct the passive voice error: 'The new educational app has been download over a million times since its launch.'",
+    "answerKey": "The new educational app has been downloaded over a million times since its launch.",
+    "explanation": "Good eye! The present perfect passive needs the past participle form of the verb.",
+    "explanationSteps": [
+      "Has been shows the present perfect passive",
+      "Download needs to become downloaded",
+      "This shows the completion of the action up to now"
+    ],
+    "hints": [
+      "What is the past participle of download?",
+      "Passive voice always uses be + past participle",
+      "Check the spelling of the past participle"
+    ],
+    "tags": [
+      "passive-voice",
+      "perfect-passive",
+      "technology"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-071",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "modal-passive",
+    "level": "B2",
+    "questionType": "cloze",
+    "difficulty": 0.65,
+    "prompt": "Fill in the two blanks: Fake news ______ stopped more effectively if stricter fact-checking measures ______ introduced by social media platforms.",
+    "answerKey": [
+      "could be",
+      "were"
+    ],
+    "explanation": "Excellent! This combines a modal passive with a second conditional to discuss a possible solution.",
+    "explanationSteps": [
+      "The sentence proposes a hypothetical solution",
+      "Use could be + past participle for modal passive",
+      "Use were introduced for the passive conditional clause"
+    ],
+    "hints": [
+      "The first blank needs a modal passive structure",
+      "The second blank is in a hypothetical if-clause",
+      "Use were for the passive conditional"
+    ],
+    "tags": [
+      "passive-voice",
+      "modal-passive",
+      "media"
+    ],
+    "estimatedTimeSec": 32
+  },
+  {
+    "id": "eg-b2-072",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "get-passive",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.55,
+    "prompt": "Complete the sentence: Several travellers ______ (get / delay) at the border because of visa complications.",
+    "answerKey": [
+      "got delayed",
+      "were delayed"
+    ],
+    "explanation": "Perfect! Get + past participle is an informal alternative to the standard passive voice, common in spoken English.",
+    "explanationSteps": [
+      "Get can replace be in informal passive constructions",
+      "Use got + past participle for the past tense",
+      "This describes an event that happened to the travellers"
+    ],
+    "hints": [
+      "Which informal passive structure uses get instead of be?",
+      "Use got + past participle in the past tense",
+      "What is the past participle of delay?"
+    ],
+    "tags": [
+      "passive-voice",
+      "get-passive",
+      "travel"
+    ],
+    "estimatedTimeSec": 28
+  },
+  {
+    "id": "eg-b2-073",
+    "moduleId": "english.grammar",
+    "skill": "passive-voice",
+    "subSkill": "passive-reporting",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "The new exam format ______ to be more inclusive of students with different learning needs.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "is said"
+      },
+      {
+        "key": "B",
+        "text": "says"
+      },
+      {
+        "key": "C",
+        "text": "is saying"
+      },
+      {
+        "key": "A",
+        "text": "said"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "The active voice here doesn't match the reporting structure needed for general opinion.",
+      "C": "The present continuous active doesn't create the passive reporting meaning.",
+      "A": "The simple past active doesn't express current general belief or reporting."
+    },
+    "explanation": "Nicely done! 'Is said' is the passive reporting structure used to share what people generally believe or report.",
+    "explanationSteps": [
+      "This reports general opinion about the exam format",
+      "Use be + said in passive reporting",
+      "Follow with to + infinitive or a that-clause"
+    ],
+    "hints": [
+      "Who is expressing this opinion?",
+      "The passive form is used when we don't need to name the source",
+      "Use is said to be or is said that"
+    ],
+    "tags": [
+      "passive-voice",
+      "passive-reporting",
+      "education"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-074",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "deduction",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "The app keeps crashing, so there ______ be a bug in the latest software update.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "must"
+      },
+      {
+        "key": "B",
+        "text": "should"
+      },
+      {
+        "key": "C",
+        "text": "can"
+      },
+      {
+        "key": "A",
+        "text": "would"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "Should expresses expectation or obligation, not strong deduction about a present situation.",
+      "C": "Can is used for general possibility or ability, not strong logical deduction in affirmative statements.",
+      "A": "Would expresses hypothetical situations, not logical conclusions about present facts."
+    },
+    "explanation": "Well reasoned! Must is used when we draw a logical conclusion from clear evidence.",
+    "explanationSteps": [
+      "The evidence: the app keeps crashing",
+      "Must shows strong logical deduction",
+      "This means we believe a bug is very likely"
+    ],
+    "hints": [
+      "How certain are you based on the evidence?",
+      "Which modal expresses strong logical deduction?",
+      "Must is used when the evidence points strongly to one conclusion"
+    ],
+    "tags": [
+      "modal-verbs",
+      "deduction",
+      "technology"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-075",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "obligation",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.5,
+    "prompt": "Complete the sentence: All students ______ (must / submit) their coursework by Friday evening at the latest.",
+    "answerKey": [
+      "must submit",
+      "have to submit"
+    ],
+    "explanation": "Excellent! Must and have to express strong obligation, which is perfect for strict deadlines.",
+    "explanationSteps": [
+      "This sentence states a strict rule or deadline",
+      "Use must + base verb for strong obligation",
+      "Have to is also acceptable for external rules"
+    ],
+    "hints": [
+      "Is this a suggestion or a strict requirement?",
+      "Which modal expresses strong obligation?",
+      "The base form of the verb follows the modal"
+    ],
+    "tags": [
+      "modal-verbs",
+      "obligation",
+      "education"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-076",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "critical",
+    "level": "B2",
+    "questionType": "transformation",
+    "difficulty": 0.55,
+    "prompt": "Rewrite using a modal verb for criticism: 'It was irresponsible of the company to ignore safety warnings.'",
+    "answerKey": [
+      "The company shouldn't have ignored safety warnings.",
+      "The company ought not to have ignored safety warnings."
+    ],
+    "explanation": "Great transformation! Shouldn't have is a natural way to criticise a past action.",
+    "explanationSteps": [
+      "Identify that this is criticising a past action",
+      "Shouldn't have + past participle criticises past behaviour",
+      "This expresses that the company made a mistake"
+    ],
+    "hints": [
+      "Which modal structure is used to criticise past actions?",
+      "Use shouldn't + have + past participle",
+      "Try starting with 'The company shouldn't have...'"
+    ],
+    "tags": [
+      "modal-verbs",
+      "critical",
+      "social-issues"
+    ],
+    "estimatedTimeSec": 28
+  },
+  {
+    "id": "eg-b2-077",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "modal-perfect",
+    "level": "B2",
+    "questionType": "error-correction",
+    "difficulty": 0.55,
+    "prompt": "Correct the modal verb error: 'We must have checked the gate schedule before we arrived at the airport.'",
+    "answerKey": "We should have checked the gate schedule before we arrived at the airport.",
+    "explanation": "Good catch! Must have expresses certainty about the past, but here we are giving advice about a past mistake.",
+    "explanationSteps": [
+      "The sentence criticises a past omission",
+      "Should have + past participle gives past advice",
+      "Must have changes the meaning to certainty, which doesn't fit"
+    ],
+    "hints": [
+      "Is the sentence expressing certainty or giving advice about the past?",
+      "Use should have for advice about a past mistake",
+      "Must have is for strong deduction, not criticism"
+    ],
+    "tags": [
+      "modal-verbs",
+      "modal-perfect",
+      "travel"
+    ],
+    "estimatedTimeSec": 28
+  },
+  {
+    "id": "eg-b2-078",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "possibility",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.5,
+    "prompt": "Complete the sentence: Independent journalism ______ (may / survive) the shift to digital platforms if readers continue to value quality reporting.",
+    "answerKey": [
+      "may survive",
+      "might survive",
+      "could survive"
+    ],
+    "explanation": "Excellent! May, might, and could all express that this is one possible future outcome.",
+    "explanationSteps": [
+      "This is a future possibility, not a certainty",
+      "Use may/might/could + base verb",
+      "Survive stays in its base form after the modal"
+    ],
+    "hints": [
+      "Is this a prediction or a possibility?",
+      "Modal verbs are followed by the base form of the verb",
+      "Use may, might, or could for future possibility"
+    ],
+    "tags": [
+      "modal-verbs",
+      "possibility",
+      "media"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-079",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "modal-passive",
+    "level": "B2",
+    "questionType": "cloze",
+    "difficulty": 0.6,
+    "prompt": "Fill in the two blanks: Personal data ______ (should / protect) more carefully, or users ______ face serious privacy risks.",
+    "answerKey": [
+      "should be protected",
+      "may"
+    ],
+    "explanation": "Perfect! This combines a modal passive with a modal of possibility to give a warning about data protection.",
+    "explanationSteps": [
+      "The first clause gives advice about data protection",
+      "Use should be + past participle for modal passive",
+      "Use may for the possible consequence"
+    ],
+    "hints": [
+      "The first blank needs a modal passive structure",
+      "Which modal expresses future possibility?",
+      "Use should be protected for the advice clause"
+    ],
+    "tags": [
+      "modal-verbs",
+      "modal-passive",
+      "technology"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-b2-080",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "defining-clauses",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "The charity ______ provides free meals to homeless teenagers was founded by a group of university students.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "which"
+      },
+      {
+        "key": "B",
+        "text": "that"
+      },
+      {
+        "key": "C",
+        "text": "who"
+      },
+      {
+        "key": "D",
+        "text": "whose"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Which can be used for things, but in defining relative clauses, that is often preferred, especially in everyday English.",
+      "C": "Who is used for people, not for charities or organisations.",
+      "D": "Whose shows possession and would need to be followed by a noun, which doesn't fit here."
+    },
+    "explanation": "Well chosen! That is commonly used in defining relative clauses to identify a specific organisation.",
+    "explanationSteps": [
+      "This is a defining relative clause identifying the charity",
+      "That refers to things and organisations",
+      "The clause tells us which charity is meant"
+    ],
+    "hints": [
+      "Is this clause essential to the meaning?",
+      "Which relative pronoun refers to things in defining clauses?",
+      "That or which can be used, but that is preferred here"
+    ],
+    "tags": [
+      "relative-clauses",
+      "defining-clauses",
+      "social-issues"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-081",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "non-defining-clauses",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.55,
+    "prompt": "Complete the sentence with a non-defining relative clause: Our tour guide, ______ (speak / four languages), made the trip much more enjoyable.",
+    "answerKey": [
+      "who speaks four languages",
+      "who spoke four languages"
+    ],
+    "explanation": "Wonderful! Non-defining clauses add extra information and always use commas.",
+    "explanationSteps": [
+      "This adds extra information about the tour guide",
+      "Use who for people",
+      "Remember the commas around the non-defining clause"
+    ],
+    "hints": [
+      "Does this clause identify the guide or add extra information?",
+      "Use who for people in non-defining clauses",
+      "Place commas before and after the clause"
+    ],
+    "tags": [
+      "relative-clauses",
+      "non-defining-clauses",
+      "travel"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-b2-082",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "reduced-relatives",
+    "level": "B2",
+    "questionType": "transformation",
+    "difficulty": 0.6,
+    "prompt": "Rewrite using a reduced relative clause: 'The assignments that were submitted late were marked down by the teacher.'",
+    "answerKey": [
+      "The assignments submitted late were marked down by the teacher."
+    ],
+    "explanation": "Excellent! Removing that were creates a more concise reduced relative clause without changing the meaning.",
+    "explanationSteps": [
+      "Identify the relative clause: that were submitted",
+      "Remove the relative pronoun and the verb be",
+      "Keep the past participle submitted"
+    ],
+    "hints": [
+      "Which words can you remove without changing the meaning?",
+      "Reduced relative clauses drop that + be",
+      "Keep the past participle as an adjective phrase"
+    ],
+    "tags": [
+      "relative-clauses",
+      "reduced-relatives",
+      "education"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-b2-083",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "defining-clauses",
+    "level": "B2",
+    "questionType": "error-correction",
+    "difficulty": 0.5,
+    "prompt": "Correct the relative clause error: 'The online course where covers AI ethics is extremely popular among students.'",
+    "answerKey": "The online course that covers AI ethics is extremely popular among students.",
+    "explanation": "Good eye! Where is used for places, but here we need a relative pronoun that refers to the course itself.",
+    "explanationSteps": [
+      "Where refers to places, not things",
+      "Use that or which for things",
+      "That is preferred in defining relative clauses"
+    ],
+    "hints": [
+      "Does the clause refer to a place or the subject of the course?",
+      "Use that or which for things",
+      "Where is only for locations"
+    ],
+    "tags": [
+      "relative-clauses",
+      "defining-clauses",
+      "technology"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-084",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "mixed-clauses",
+    "level": "B2",
+    "questionType": "cloze",
+    "difficulty": 0.65,
+    "prompt": "Fill in the two blanks: The documentary series, ______ won several awards, explores issues ______ affect young people today.",
+    "answerKey": [
+      "which",
+      "that"
+    ],
+    "explanation": "Perfect! The first adds extra information with a non-defining clause, while the second defines the issues with a defining clause.",
+    "explanationSteps": [
+      "The first clause is non-defining and uses commas",
+      "Use which for the non-defining clause",
+      "Use that or which for the defining clause"
+    ],
+    "hints": [
+      "Which clause has commas around it?",
+      "Non-defining clauses use which; defining clauses can use that or which",
+      "The first clause adds extra information"
+    ],
+    "tags": [
+      "relative-clauses",
+      "mixed-clauses",
+      "media"
+    ],
+    "estimatedTimeSec": 32
+  },
+  {
+    "id": "eg-b2-085",
+    "moduleId": "english.grammar",
+    "skill": "relative-clauses",
+    "subSkill": "reduced-relatives",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.6,
+    "prompt": "Complete the sentence with a reduced relative clause: The policies ______ (introduce / last year) to tackle inequality are already showing results.",
+    "answerKey": [
+      "introduced last year"
+    ],
+    "explanation": "Excellent! Introduced last year is a neat reduced relative clause that modifies the policies.",
+    "explanationSteps": [
+      "The full clause would be which were introduced",
+      "Remove which were to reduce it",
+      "Introduced last year acts as an adjective phrase"
+    ],
+    "hints": [
+      "What is the past participle of introduce?",
+      "Try removing the relative pronoun and were",
+      "Keep the past participle and time phrase"
+    ],
+    "tags": [
+      "relative-clauses",
+      "reduced-relatives",
+      "social-issues"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-b2-086",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "statements",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "'We are implementing a new grading system,' the headteacher said. The headteacher said that they ______ implementing a new grading system.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "were"
+      },
+      {
+        "key": "B",
+        "text": "are"
+      },
+      {
+        "key": "C",
+        "text": "had been"
+      },
+      {
+        "key": "A",
+        "text": "would be"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "The present continuous doesn't shift back in reported speech when the reporting verb is in the past tense.",
+      "C": "Had been changes the meaning to past perfect continuous, which is not the required backshift from present continuous.",
+      "A": "Would be changes the meaning to conditional future, which doesn't match the original statement."
+    },
+    "explanation": "Great work! In reported speech, present continuous shifts back to past continuous when the reporting verb is in the past tense.",
+    "explanationSteps": [
+      "The original statement uses present continuous",
+      "The reporting verb said is in the past",
+      "Shift present continuous to past continuous: are becomes were"
+    ],
+    "hints": [
+      "What tense is the reporting verb?",
+      "When the reporting verb is past, present continuous usually shifts back",
+      "Are becomes were in the past"
+    ],
+    "tags": [
+      "reported-speech",
+      "statements",
+      "education"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-087",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "questions",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.5,
+    "prompt": "Complete the reported question: 'Have the flight times changed?' She asked ______ the flight times had changed.",
+    "answerKey": [
+      "whether",
+      "if"
+    ],
+    "explanation": "Perfect! When reporting yes/no questions, we use if or whether to introduce the reported clause.",
+    "explanationSteps": [
+      "This is a yes/no question in the present perfect",
+      "In reported speech, use if or whether",
+      "The word order changes from question to statement form"
+    ],
+    "hints": [
+      "Is this a wh-question or a yes/no question?",
+      "Use if or whether for reported yes/no questions",
+      "Change the word order to statement form"
+    ],
+    "tags": [
+      "reported-speech",
+      "questions",
+      "travel"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-088",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "tense-backshift",
+    "level": "B2",
+    "questionType": "transformation",
+    "difficulty": 0.55,
+    "prompt": "Rewrite in reported speech: 'The new feature will be available next month,' the tech company announced.",
+    "answerKey": [
+      "The tech company announced that the new feature would be available the following month.",
+      "The tech company announced that the new feature would be available next month."
+    ],
+    "explanation": "Wonderful! You correctly shifted will to would when reporting in the past tense.",
+    "explanationSteps": [
+      "The reporting verb announced is in the past",
+      "Will changes to would in reported speech",
+      "Be available stays in the same form"
+    ],
+    "hints": [
+      "What happens to will when the reporting verb is past?",
+      "Change will to would",
+      "You can also change next month to the following month"
+    ],
+    "tags": [
+      "reported-speech",
+      "tense-backshift",
+      "technology"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-b2-089",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "commands",
+    "level": "B2",
+    "questionType": "error-correction",
+    "difficulty": 0.5,
+    "prompt": "Correct the reported speech error: 'Turn off your phones,' the director said. The director said to turn off our phones.",
+    "answerKey": "The director told us to turn off our phones.",
+    "explanation": "Good catch! While said to is sometimes used, told us is the more standard and natural way to report an imperative.",
+    "explanationSteps": [
+      "Imperatives are usually reported with told + object + to-infinitive",
+      "Use told us instead of said to",
+      "This is more natural for reported commands"
+    ],
+    "hints": [
+      "Which verb is standard for reporting commands?",
+      "Use told + person + to-infinitive",
+      "Said to is less common for imperatives"
+    ],
+    "tags": [
+      "reported-speech",
+      "commands",
+      "media"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-090",
+    "moduleId": "english.grammar",
+    "skill": "reported-speech",
+    "subSkill": "questions",
+    "level": "B2",
+    "questionType": "cloze",
+    "difficulty": 0.55,
+    "prompt": "Fill in the two blanks: 'When will the new policy take effect?' The citizens asked ______ the new policy ______ take effect.",
+    "answerKey": [
+      "when",
+      "would"
+    ],
+    "explanation": "Excellent! Wh-questions keep their question word, and the future tense shifts back to the conditional.",
+    "explanationSteps": [
+      "Keep the wh- word when",
+      "Change the question word order to statement word order",
+      "Shift will to would because asked is past tense"
+    ],
+    "hints": [
+      "Which word introduces the reported question?",
+      "The original verb is future tense; shift it back",
+      "Will becomes would in reported speech"
+    ],
+    "tags": [
+      "reported-speech",
+      "questions",
+      "social-issues"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "eg-b2-091",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "correlative",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "Students can choose ______ to complete a research project ______ to sit a traditional exam at the end of the course.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "either...or"
+      },
+      {
+        "key": "B",
+        "text": "neither...nor"
+      },
+      {
+        "key": "C",
+        "text": "both...and"
+      },
+      {
+        "key": "D",
+        "text": "not only...but also"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Neither...nor creates a double negative meaning, which doesn't fit this choice between two valid options.",
+      "C": "Both...and would mean students must do both tasks, but the sentence presents a choice.",
+      "D": "Not only...but also adds emphasis to two related ideas, but the sentence presents alternatives rather than addition."
+    },
+    "explanation": "Well done! Either...or presents two alternatives or options side by side in a balanced way.",
+    "explanationSteps": [
+      "The sentence presents two options",
+      "Either...or shows a choice between two alternatives",
+      "This fits the context of assessment choices"
+    ],
+    "hints": [
+      "Are the two ideas connected by addition or alternative?",
+      "Which correlative conjunction presents alternatives?",
+      "Place either before the first option and or before the second"
+    ],
+    "tags": [
+      "conjunctions-connectors",
+      "correlative",
+      "education"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-092",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "conjunctive-adverbs",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.5,
+    "prompt": "Complete the sentence: The airline promised better service; ______ , complaints from passengers continued to rise.",
+    "answerKey": [
+      "however",
+      "nevertheless",
+      "nonetheless"
+    ],
+    "explanation": "Excellent! However shows a clear contrast between the airline's promise and the reality.",
+    "explanationSteps": [
+      "The first idea: better service was promised",
+      "The second idea: complaints continued to rise",
+      "However shows contrast between these two ideas"
+    ],
+    "hints": [
+      "Is the second idea similar to or different from the first?",
+      "Use a conjunctive adverb that shows contrast",
+      "However is commonly used after a semicolon"
+    ],
+    "tags": [
+      "conjunctions-connectors",
+      "conjunctive-adverbs",
+      "travel"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-093",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "subordinating-conjunctions",
+    "level": "B2",
+    "questionType": "transformation",
+    "difficulty": 0.55,
+    "prompt": "Rewrite using a subordinating conjunction: 'Teenagers want to protect their privacy. They still share personal data on social media.'",
+    "answerKey": [
+      "Although teenagers want to protect their privacy, they still share personal data on social media.",
+      "Teenagers still share personal data on social media although they want to protect their privacy.",
+      "Even though teenagers want to protect their privacy, they still share personal data on social media."
+    ],
+    "explanation": "Great transformation! Although introduces a contrast between what teenagers want and what they actually do.",
+    "explanationSteps": [
+      "There is a contrast between the two ideas",
+      "Use although or even though to show contrast",
+      "Place the conjunction at the beginning of the first clause"
+    ],
+    "hints": [
+      "Is there a contrast between the two sentences?",
+      "Which subordinating conjunction shows contrast?",
+      "Try starting with Although or Even though"
+    ],
+    "tags": [
+      "conjunctions-connectors",
+      "subordinating-conjunctions",
+      "technology"
+    ],
+    "estimatedTimeSec": 28
+  },
+  {
+    "id": "eg-b2-094",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "conjunctive-adverbs",
+    "level": "B2",
+    "questionType": "error-correction",
+    "difficulty": 0.55,
+    "prompt": "Correct the connector error: 'The documentary was biased, moreover it sparked an important public debate.'",
+    "answerKey": "The documentary was biased; however, it sparked an important public debate.",
+    "explanation": "Nice catch! Moreover adds similar information, but these two ideas are actually in contrast with each other.",
+    "explanationSteps": [
+      "Being biased and sparking debate contrast with each other",
+      "Moreover indicates additional similar information",
+      "Use however, but, or yet to show contrast instead"
+    ],
+    "hints": [
+      "Does bias usually lead to positive public debate?",
+      "Choose a connector that shows contrast rather than addition",
+      "However fits well after a semicolon"
+    ],
+    "tags": [
+      "conjunctions-connectors",
+      "conjunctive-adverbs",
+      "media"
+    ],
+    "estimatedTimeSec": 28
+  },
+  {
+    "id": "eg-b2-095",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "correlative",
+    "level": "B2",
+    "questionType": "cloze",
+    "difficulty": 0.5,
+    "prompt": "Fill in the two blanks: ______ renewable energy ______ public transport investment is essential if we want to reduce urban pollution.",
+    "answerKey": [
+      "Both",
+      "and"
+    ],
+    "explanation": "Perfect! Both...and emphasises that two factors share equal importance for solving the problem.",
+    "explanationSteps": [
+      "Two subjects share importance",
+      "Use both before the first subject",
+      "Use and before the second subject"
+    ],
+    "hints": [
+      "Are both factors needed for the solution?",
+      "Which correlative conjunction adds two subjects together?",
+      "Place both before the first noun and and before the second"
+    ],
+    "tags": [
+      "conjunctions-connectors",
+      "correlative",
+      "social-issues"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-096",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "indefinite-pronouns",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "None of the educational apps ______ completely free of in-app purchases.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "is"
+      },
+      {
+        "key": "B",
+        "text": "are"
+      },
+      {
+        "key": "C",
+        "text": "were"
+      },
+      {
+        "key": "D",
+        "text": "have been"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Although none can be singular in formal contexts, in everyday English and with countable plural nouns like apps, are is commonly accepted and natural.",
+      "C": "Were is plural and past tense, but the sentence describes a general present truth.",
+      "D": "Have been is plural and present perfect, but the sentence states a general fact better expressed with the simple present."
+    },
+    "explanation": "Well chosen! With countable plural nouns, none is often treated as plural in modern English, especially in everyday contexts.",
+    "explanationSteps": [
+      "None of + plural noun often takes a plural verb",
+      "Apps is plural and countable",
+      "Use are for a general present statement"
+    ],
+    "hints": [
+      "Is apps singular or plural?",
+      "None of + plural noun usually takes a plural verb in everyday English",
+      "Think about how the sentence sounds most natural"
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "indefinite-pronouns",
+      "technology"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-097",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "intervening-phrases",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.55,
+    "prompt": "Complete the sentence: The quality of online educational videos ______ (be) improving steadily over the last few years.",
+    "answerKey": [
+      "has been"
+    ],
+    "explanation": "Excellent! The subject is quality, which is singular, so the verb must also be singular despite the plural noun videos in between.",
+    "explanationSteps": [
+      "Identify the subject: quality",
+      "Of online educational videos is a prepositional phrase, not the subject",
+      "Use has been because quality is singular"
+    ],
+    "hints": [
+      "What is the real subject of the sentence?",
+      "Ignore prepositional phrases when choosing the verb form",
+      "Quality is singular, so use has rather than have"
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "intervening-phrases",
+      "education"
+    ],
+    "estimatedTimeSec": 28
+  },
+  {
+    "id": "eg-b2-098",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "collective-nouns",
+    "level": "B2",
+    "questionType": "transformation",
+    "difficulty": 0.55,
+    "prompt": "Rewrite with correct subject-verb agreement: 'The crew of the cruise ship are preparing for an emergency drill.'",
+    "answerKey": [
+      "The crew of the cruise ship is preparing for an emergency drill."
+    ],
+    "explanation": "Wonderful! Crew is a collective noun that takes a singular verb when the group acts as a single unit.",
+    "explanationSteps": [
+      "Crew is a collective noun",
+      "When acting as a unit, collective nouns take singular verbs",
+      "Change are to is preparing"
+    ],
+    "hints": [
+      "Is the crew acting as one unit or as individuals?",
+      "Collective nouns usually take singular verbs in standard grammar",
+      "Use is for singular subjects"
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "collective-nouns",
+      "travel"
+    ],
+    "estimatedTimeSec": 28
+  },
+  {
+    "id": "eg-b2-099",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "intervening-phrases",
+    "level": "B2",
+    "questionType": "error-correction",
+    "difficulty": 0.5,
+    "prompt": "Correct the subject-verb agreement error: 'The rise of streaming services have changed how we consume media.'",
+    "answerKey": "The rise of streaming services has changed how we consume media.",
+    "explanation": "Good eye! Rise is the singular subject, so it needs a singular verb regardless of the plural noun services nearby.",
+    "explanationSteps": [
+      "Identify the subject: rise",
+      "Of streaming services is a prepositional phrase",
+      "Change have to has for the singular subject"
+    ],
+    "hints": [
+      "What is the real subject of the sentence?",
+      "Ignore prepositional phrases when choosing the verb",
+      "Rise is singular, so use has"
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "intervening-phrases",
+      "media"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "eg-b2-100",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "indefinite-pronouns",
+    "level": "B2",
+    "questionType": "cloze",
+    "difficulty": 0.55,
+    "prompt": "Fill in the two blanks: Each of the volunteers ______ received training, and everyone ______ excited to help at the community centre.",
+    "answerKey": [
+      "has",
+      "is"
+    ],
+    "explanation": "Perfect! Each and everyone are singular indefinite pronouns, so they both need singular verbs.",
+    "explanationSteps": [
+      "Each is a singular indefinite pronoun",
+      "Everyone is also singular",
+      "Both require singular verbs: has and is"
+    ],
+    "hints": [
+      "Is each singular or plural?",
+      "Is everyone singular or plural?",
+      "Both indefinite pronouns need singular verbs"
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "indefinite-pronouns",
+      "social-issues"
+    ],
+    "estimatedTimeSec": 28
+  }
+]

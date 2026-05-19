@@ -1,0 +1,45 @@
+# Build output
+dist/
+.turbo/
+
+# Dependencies (installed in container)
+node_modules/
+
+# Version control
+.git/
+.gitignore
+
+# Audit + docs (not needed at runtime)
+audit/
+*.md
+!README.md
+
+# Reference platforms (read-only, never deploy)
+Example-SourceCode/
+
+# Uploads (use volume mount in production)
+.uploads/
+
+# Environment (use env vars in compose)
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test
+coverage/
+*.test.ts
+*.spec.ts
+
+# Agent status files (not needed at runtime)
+STATUS_*.md
+HANDOFF_*.md

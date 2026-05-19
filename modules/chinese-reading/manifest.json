@@ -1,0 +1,66 @@
+{
+  "id": "chinese.reading",
+  "name": "中文阅读",
+  "version": "1.0.0",
+  "subject": "chinese",
+  "category": "reading",
+  "description": "从拼音识字到阅读理解，培养中文阅读能力",
+  "icon": "book-heart",
+  "color": "#ec4899",
+  "targetAge": { "min": 5, "max": 18 },
+  "skills": [
+    {
+      "id": "pinyin-phonics",
+      "name": "拼音与识字",
+      "description": "掌握拼音、声调和基础汉字识别",
+      "subSkills": ["initials-finals", "tones", "pinyin-blending", "basic-characters", "stroke-order"],
+      "order": 1
+    },
+    {
+      "id": "vocabulary-chinese",
+      "name": "词语积累",
+      "description": "理解词义、近反义词和成语",
+      "subSkills": ["word-meanings", "synonyms-antonyms-zh", "chengyu", "compound-words", "measure-words"],
+      "order": 2
+    },
+    {
+      "id": "sentence-structure",
+      "name": "句子结构",
+      "description": "理解句子成分、句型和语法",
+      "subSkills": ["subject-predicate", "question-sentences", "ba-sentences", "comparison-sentences", "conjunctions-zh"],
+      "order": 3
+    },
+    {
+      "id": "reading-comprehension-zh",
+      "name": "阅读理解",
+      "description": "理解文章主旨、细节和深层含义",
+      "subSkills": ["main-idea-zh", "detail-finding", "sequencing-zh", "author-purpose-zh", "inference-zh"],
+      "order": 4
+    },
+    {
+      "id": "literary-analysis",
+      "name": "文学赏析",
+      "description": "分析诗歌、散文和故事中的修辞与意境",
+      "subSkills": ["poetry-basics", "rhetorical-devices", "story-elements", "theme-zh", "character-analysis"],
+      "order": 5
+    }
+  ],
+  "levels": [
+    { "id": "A1", "name": "启蒙", "gradeRange": "K-1", "order": 1 },
+    { "id": "A2", "name": "基础", "gradeRange": "2-3", "order": 2 },
+    { "id": "B1", "name": "进阶", "gradeRange": "4-5", "order": 3 },
+    { "id": "B2", "name": "熟练", "gradeRange": "6-8", "order": 4 },
+    { "id": "C1", "name": "精通", "gradeRange": "9-12", "order": 5 }
+  ],
+  "questionTypes": ["multiple-choice", "gap-filling", "true-false", "matching"],
+  "diagnostic": {
+    "rounds": 5,
+    "questionsPerRound": 5,
+    "strategy": "adaptive"
+  },
+  "training": {
+    "sessionLength": 25,
+    "adaptiveWeights": { "weak": 60, "current": 25, "review": 15 },
+    "masteryThreshold": 85
+  }
+}

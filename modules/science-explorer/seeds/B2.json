@@ -1,0 +1,2020 @@
+[
+  {
+    "id": "se-b2-001",
+    "moduleId": "science.explorer",
+    "skill": "scientific-method",
+    "subSkill": "experiment-design",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "prompt": "A student wants to test whether fertilizer affects plant growth. She gives Plant A fertilizer and water, Plant B only water, and Plant C fertilizer with extra sunlight. She measures height after 2 weeks. What is wrong with this experiment?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "She should not measure plant height"
+      },
+      {
+        "key": "B",
+        "text": "She changed too many variables at once — Plant C has both fertilizer AND extra sunlight"
+      },
+      {
+        "key": "C",
+        "text": "She should have only used one plant"
+      },
+      {
+        "key": "D",
+        "text": "Nothing is wrong — this is a well-designed experiment"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Measuring height is a valid way to measure plant growth.",
+      "C": "More plants would actually improve the experiment, but one plant each is acceptable. The real problem is the uncontrolled variable.",
+      "D": "There IS a problem. Plant C cannot be compared fairly because it has two differences from Plant A."
+    },
+    "explanation": "A fair experiment changes only one variable at a time. Here, Plant A and Plant C differ in TWO ways (fertilizer AND sunlight), so you cannot tell which variable caused any difference in growth.",
+    "explanationSteps": [
+      "A controlled experiment tests one variable at a time.",
+      "Plant A vs Plant B tests the effect of fertilizer (good).",
+      "But Plant C adds extra sunlight too, making it impossible to isolate the fertilizer effect."
+    ],
+    "hints": [
+      "For a fair comparison, only one thing should be different between two test subjects.",
+      "Count how many things are different between Plant A and Plant C."
+    ],
+    "tags": [
+      "experiment-design",
+      "variables",
+      "scientific-method",
+      "controlled-experiment"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "se-b2-002",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "chemical-reactions",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "prompt": "When iron rusts, it combines with oxygen to form iron oxide. This is an example of what type of chemical reaction?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Decomposition"
+      },
+      {
+        "key": "B",
+        "text": "Combustion"
+      },
+      {
+        "key": "C",
+        "text": "Oxidation"
+      },
+      {
+        "key": "D",
+        "text": "Precipitation"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Decomposition is when a compound breaks down into simpler substances, not when something combines with oxygen.",
+      "B": "Combustion is rapid burning that produces heat and light. Rusting is slow oxidation without flames.",
+      "D": "Precipitation is when a solid forms from a solution. Rusting is a solid-gas reaction."
+    },
+    "explanation": "Rusting is a slow oxidation reaction where iron (Fe) reacts with oxygen (O₂) in the presence of water to form iron oxide (Fe₂O₃·xH₂O). It is also called corrosion.",
+    "explanationSteps": [
+      "Iron atoms on the surface lose electrons to oxygen atoms.",
+      "This creates iron ions that bond with oxygen to form iron oxide.",
+      "Water speeds up this process, which is why cars rust faster in humid climates."
+    ],
+    "hints": [
+      "What is the chemical name for 'rust'?",
+      "Think about what 'corrosion' means for metals."
+    ],
+    "tags": [
+      "oxidation",
+      "rust",
+      "chemical-reactions",
+      "corrosion"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b2-003",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "acids-bases",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "A student tests three liquids with pH paper and records these results: Liquid X = pH 2, Liquid Y = pH 7, Liquid Z = pH 11. Which statement is correct?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Liquid X is a strong base, Y is neutral, Z is a strong acid"
+      },
+      {
+        "key": "B",
+        "text": "Liquid X is a strong acid, Y is neutral, Z is a strong base"
+      },
+      {
+        "key": "C",
+        "text": "All three liquids are acids"
+      },
+      {
+        "key": "D",
+        "text": "Liquid X and Z are both bases"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "This is reversed. pH 2 is a strong acid and pH 11 is a strong base.",
+      "C": "Liquid Y is neutral (pH 7) and Liquid Z is a base (pH 11). Only X is an acid.",
+      "D": "Liquid X at pH 2 is an acid, not a base."
+    },
+    "explanation": "On the pH scale (0-14): 0-6 is acidic (lower = stronger acid), 7 is neutral, 8-14 is basic (higher = stronger base). X (pH 2) is a strong acid, Y (pH 7) is neutral, Z (pH 11) is a strong base.",
+    "explanationSteps": [
+      "pH 2 is highly acidic — like lemon juice or stomach acid.",
+      "pH 7 is neutral — like pure water.",
+      "pH 11 is highly basic — like ammonia or soap."
+    ],
+    "hints": [
+      "Remember: low pH = acid, high pH = base, 7 = neutral.",
+      "Think about which numbers are 'sour' (acid) and which are 'slippery' (base)."
+    ],
+    "tags": [
+      "pH",
+      "acids",
+      "bases",
+      "data-interpretation"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-b2-004",
+    "moduleId": "science.explorer",
+    "skill": "environmental-science",
+    "subSkill": "pollution-types",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "Which of the following is a major source of air pollution in cities?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Planting trees in parks"
+      },
+      {
+        "key": "B",
+        "text": "Vehicle exhaust from cars and trucks"
+      },
+      {
+        "key": "C",
+        "text": "Recycling paper and plastic"
+      },
+      {
+        "key": "D",
+        "text": "Using solar panels on buildings"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Trees actually help clean the air by absorbing CO₂ and producing oxygen.",
+      "C": "Recycling helps reduce waste and pollution, it does not cause air pollution.",
+      "D": "Solar panels produce clean energy and do not create air pollution."
+    },
+    "explanation": "Vehicle exhaust releases pollutants like carbon monoxide, nitrogen oxides, and particulate matter. These contribute to smog, respiratory problems, and climate change.",
+    "explanationSteps": [
+      "Burning gasoline in engines produces CO₂, NOₓ, and fine particles.",
+      "These pollutants form ground-level ozone and smog.",
+      "Electric vehicles and public transit can reduce this pollution."
+    ],
+    "hints": [
+      "What comes out of a car's tailpipe?",
+      "Think about what makes the air hazy and hard to breathe in big cities."
+    ],
+    "tags": [
+      "air-pollution",
+      "vehicles",
+      "environment",
+      "emissions"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-b2-005",
+    "moduleId": "science.explorer",
+    "skill": "environmental-science",
+    "subSkill": "conservation",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "A city wants to reduce its water consumption. Which strategy would save the most water?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Encouraging people to take shorter showers"
+      },
+      {
+        "key": "B",
+        "text": "Fixing leaks in the municipal water system"
+      },
+      {
+        "key": "C",
+        "text": "Building more swimming pools"
+      },
+      {
+        "key": "D",
+        "text": "Watering parks during the middle of the day"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Shorter showers help, but leaks in the water system often waste far more water overall.",
+      "C": "Building pools increases water consumption, not reduces it.",
+      "D": "Watering during midday causes more evaporation, wasting water."
+    },
+    "explanation": "Water distribution systems can lose 20-30% of water through leaks. Fixing these leaks is one of the most effective conservation strategies for a municipal water system.",
+    "explanationSteps": [
+      "Aging infrastructure often has thousands of small leaks.",
+      "A small drip can waste hundreds of liters per day.",
+      "Fixing leaks prevents waste before water even reaches consumers."
+    ],
+    "hints": [
+      "Where does water go before it reaches your faucet?",
+      "Think about the difference between saving at home vs. saving at the system level."
+    ],
+    "tags": [
+      "water-conservation",
+      "infrastructure",
+      "environment",
+      "sustainability"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b2-006",
+    "moduleId": "science.explorer",
+    "skill": "scientific-method",
+    "subSkill": "data-recording",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "prompt": "A student records the temperature of water every minute as it heats up. The data shows: 0 min = 22°C, 1 min = 31°C, 2 min = 40°C, 3 min = 49°C, 4 min = 58°C. What is the temperature increasing by each minute?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "About 5°C per minute"
+      },
+      {
+        "key": "B",
+        "text": "About 9°C per minute"
+      },
+      {
+        "key": "C",
+        "text": "About 15°C per minute"
+      },
+      {
+        "key": "D",
+        "text": "About 22°C per minute"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "5°C would be too slow. 22 to 58 over 4 minutes is 36°C total = 9°C per minute.",
+      "C": "15°C per minute would give 82°C at 4 minutes, much higher than 58°C.",
+      "D": "22°C per minute would give 110°C at 4 minutes, far too high."
+    },
+    "explanation": "The temperature goes from 22°C to 58°C over 4 minutes, a total increase of 36°C. 36 ÷ 4 = 9°C per minute. The data shows a consistent linear increase.",
+    "explanationSteps": [
+      "Total temperature change = 58°C - 22°C = 36°C.",
+      "Total time = 4 minutes.",
+      "Rate = 36°C ÷ 4 min = 9°C per minute."
+    ],
+    "hints": [
+      "Find the total change and divide by the total time.",
+      "Check: 22 + 9 = 31, 31 + 9 = 40 — does this pattern match the data?"
+    ],
+    "tags": [
+      "data-analysis",
+      "graphing",
+      "temperature",
+      "rate-of-change"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-b2-007",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "compounds-mixtures",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "prompt": "A student has a mixture of salt, sand, and iron filings. What is the most efficient order of separation methods?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Filtering → Magnet → Evaporation"
+      },
+      {
+        "key": "B",
+        "text": "Magnet → Water → Filtering → Evaporation"
+      },
+      {
+        "key": "C",
+        "text": "Evaporation → Filtering → Magnet"
+      },
+      {
+        "key": "D",
+        "text": "Water → Evaporation → Magnet"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Filtering first won't work well because iron filings might clog the filter. Remove iron first with magnet.",
+      "C": "Evaporation first would leave everything mixed together and wouldn't help separate the components.",
+      "D": "Adding water first without removing iron means the iron filings get wet and become harder to separate."
+    },
+    "explanation": "First, a magnet removes iron filings. Then adding water dissolves the salt but not the sand. Filtering separates the sand. Finally, evaporating the water leaves the salt behind.",
+    "explanationSteps": [
+      "Use a magnet to pull out the iron filings (they are magnetic).",
+      "Add water — salt dissolves but sand does not.",
+      "Filter to separate sand (stays in filter), then evaporate water to recover salt."
+    ],
+    "hints": [
+      "Which material can be removed without adding anything?",
+      "Think about what dissolves in water and what doesn't."
+    ],
+    "tags": [
+      "separation",
+      "mixtures",
+      "filtration",
+      "evaporation",
+      "magnetism"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "se-b2-008",
+    "moduleId": "science.explorer",
+    "skill": "environmental-science",
+    "subSkill": "renewable-energy",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "Which energy source is considered non-renewable?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Solar power"
+      },
+      {
+        "key": "B",
+        "text": "Wind power"
+      },
+      {
+        "key": "C",
+        "text": "Natural gas"
+      },
+      {
+        "key": "D",
+        "text": "Hydropower"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Solar power is renewable — the Sun will keep shining for billions of years.",
+      "B": "Wind is renewable — wind is caused by the Sun heating the atmosphere unevenly.",
+      "D": "Hydropower is renewable — the water cycle continuously replenishes water."
+    },
+    "explanation": "Natural gas is a fossil fuel formed from ancient organic matter over millions of years. It is non-renewable because we use it much faster than it can be replenished naturally.",
+    "explanationSteps": [
+      "Fossil fuels (coal, oil, natural gas) take millions of years to form.",
+      "We are consuming them in hundreds of years — far faster than they form.",
+      "Renewable sources like solar, wind, and hydro are naturally replenished."
+    ],
+    "hints": [
+      "Think about which sources will eventually run out.",
+      "Which of these is made from ancient plants and animals buried underground?"
+    ],
+    "tags": [
+      "energy",
+      "non-renewable",
+      "fossil-fuels",
+      "natural-gas"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-b2-009",
+    "moduleId": "science.explorer",
+    "skill": "scientific-method",
+    "subSkill": "hypothesis-formation",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "prompt": "A student notices that plants near a busy road are shorter than plants in a nearby park. Which of the following is a testable hypothesis?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The plants near the road are sad because of the noise"
+      },
+      {
+        "key": "B",
+        "text": "The plants near the road are shorter because they receive less water from rainfall"
+      },
+      {
+        "key": "C",
+        "text": "Maybe the plants just don't like the road"
+      },
+      {
+        "key": "D",
+        "text": "The park is a nicer place to be a plant"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Plants do not have emotions like sadness. This is not a scientific hypothesis.",
+      "C": "This is a vague, untestable statement, not a scientific hypothesis.",
+      "D": "This is subjective and not a testable hypothesis."
+    },
+    "explanation": "A scientific hypothesis must be testable and falsifiable. 'The plants receive less water' can be tested by measuring rainfall or soil moisture at both locations.",
+    "explanationSteps": [
+      "A good hypothesis makes a specific, testable claim.",
+      "It should suggest what you expect to observe and why.",
+      "It must be possible to prove the hypothesis wrong through experimentation."
+    ],
+    "hints": [
+      "A hypothesis needs to be something you can measure or test.",
+      "Which statement suggests a clear cause that can be investigated?"
+    ],
+    "tags": [
+      "hypothesis",
+      "scientific-method",
+      "testable"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b2-010",
+    "moduleId": "science.explorer",
+    "skill": "environmental-science",
+    "subSkill": "biodiversity",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "prompt": "Why is biodiversity important for an ecosystem?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It makes the ecosystem look more beautiful"
+      },
+      {
+        "key": "B",
+        "text": "It helps the ecosystem be more stable and resilient to changes"
+      },
+      {
+        "key": "C",
+        "text": "It has no real effect on the ecosystem"
+      },
+      {
+        "key": "D",
+        "text": "Biodiversity only matters for rainforests, not other ecosystems"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "While biodiversity can be beautiful, this is not the primary scientific reason for its importance.",
+      "C": "Biodiversity is very important. Low biodiversity makes ecosystems vulnerable to collapse.",
+      "D": "Biodiversity is important in ALL ecosystems, from rainforests to coral reefs to grasslands."
+    },
+    "explanation": "High biodiversity means many species fill different roles. If one species is lost, others can help maintain ecosystem function. This makes ecosystems more resilient to disturbance, disease, and climate change.",
+    "explanationSteps": [
+      "Each species plays a unique role in an ecosystem (a 'niche').",
+      "More species means more redundancy — if one species declines, others can step in.",
+      "Low biodiversity ecosystems (like monoculture farms) are vulnerable to pests and disease."
+    ],
+    "hints": [
+      "Think about a team with many different skills vs. a team where everyone does the same thing.",
+      "What happens when one type of plant in a field gets a disease?"
+    ],
+    "tags": [
+      "biodiversity",
+      "ecosystem",
+      "stability",
+      "conservation"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b2-011",
+    "moduleId": "science.explorer",
+    "skill": "scientific-method",
+    "subSkill": "conclusion-drawing",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "prompt": "An experiment tests whether temperature affects how fast sugar dissolves. Results: 10°C = 25 seconds, 25°C = 18 seconds, 40°C = 12 seconds, 60°C = 7 seconds. What conclusion is best supported?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Temperature has no effect on how fast sugar dissolves"
+      },
+      {
+        "key": "B",
+        "text": "Higher temperature makes sugar dissolve faster"
+      },
+      {
+        "key": "C",
+        "text": "Sugar only dissolves at temperatures above 40°C"
+      },
+      {
+        "key": "D",
+        "text": "Cold water dissolves sugar fastest"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The data clearly shows a pattern — the dissolving time changes with temperature, so temperature DOES have an effect.",
+      "C": "Sugar dissolved at all temperatures tested, including 10°C.",
+      "D": "The data shows the opposite — cold water (10°C) took the longest time to dissolve sugar."
+    },
+    "explanation": "The data shows a clear inverse relationship: as temperature increases, dissolving time decreases. This supports the conclusion that higher temperatures increase the rate of dissolving.",
+    "explanationSteps": [
+      "At 10°C: 25 seconds (slowest).",
+      "At 60°C: 7 seconds (fastest).",
+      "The pattern is consistent — each temperature increase leads to faster dissolving."
+    ],
+    "hints": [
+      "Look at the trend — what happens to the time as temperature goes up?",
+      "Is the relationship consistent across all data points?"
+    ],
+    "tags": [
+      "conclusion",
+      "data-analysis",
+      "dissolving",
+      "temperature",
+      "scientific-method"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-b2-012",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "elements-periodic-table",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "prompt": "An element has 12 protons. Based on the periodic table, which element is it and how many electrons does a neutral atom have?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Carbon (C) with 6 electrons"
+      },
+      {
+        "key": "B",
+        "text": "Magnesium (Mg) with 12 electrons"
+      },
+      {
+        "key": "C",
+        "text": "Sodium (Na) with 11 electrons"
+      },
+      {
+        "key": "D",
+        "text": "Calcium (Ca) with 20 electrons"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Carbon has 6 protons, not 12.",
+      "C": "Sodium has 11 protons, not 12.",
+      "D": "Calcium has 20 protons, not 12."
+    },
+    "explanation": "The number of protons defines an element. Atomic number 12 is magnesium (Mg). In a neutral atom, the number of electrons equals the number of protons, so Mg has 12 electrons.",
+    "explanationSteps": [
+      "The atomic number is the number of protons in an atom.",
+      "Atomic number 12 = Magnesium on the periodic table.",
+      "Neutral atoms have equal numbers of protons and electrons."
+    ],
+    "hints": [
+      "The periodic table is arranged by atomic number (number of protons).",
+      "An atom is neutral when positive charges (protons) = negative charges (electrons)."
+    ],
+    "tags": [
+      "periodic-table",
+      "atomic-number",
+      "magnesium",
+      "electrons"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b2-013",
+    "moduleId": "science.explorer",
+    "skill": "environmental-science",
+    "subSkill": "climate-change",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "prompt": "Scientists have measured that the average global temperature has increased by about 1°C since the late 1800s. What is the primary cause of this recent warming?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Increased volcanic activity"
+      },
+      {
+        "key": "B",
+        "text": "Increased greenhouse gases from burning fossil fuels"
+      },
+      {
+        "key": "C",
+        "text": "The Sun getting hotter"
+      },
+      {
+        "key": "D",
+        "text": "Natural cycles that have no connection to human activity"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Volcanic eruptions can cool the climate temporarily by blocking sunlight, not cause long-term warming.",
+      "C": "Solar output has been measured and it has not increased enough to explain recent warming.",
+      "D": "While natural cycles exist, the current rapid warming correlates strongly with human CO₂ emissions."
+    },
+    "explanation": "Burning fossil fuels releases CO₂ and other greenhouse gases that trap heat in the atmosphere. The rapid increase in these gases since the Industrial Revolution is the main driver of modern climate change.",
+    "explanationSteps": [
+      "Greenhouse gases (CO₂, CH₄) trap heat like a blanket around Earth.",
+      "CO₂ levels have increased by about 50% since the Industrial Revolution.",
+      "This extra greenhouse effect is causing global temperatures to rise."
+    ],
+    "hints": [
+      "What do cars, power plants, and factories release into the air?",
+      "Think about the 'greenhouse effect' and which human activities strengthen it."
+    ],
+    "tags": [
+      "climate-change",
+      "greenhouse-gases",
+      "global-warming",
+      "fossil-fuels"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b2-014",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "chemical-reactions",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.55,
+    "prompt": "In the chemical equation 2H₂ + O₂ → 2H₂O, how many hydrogen molecules react with each oxygen molecule?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1 hydrogen molecule"
+      },
+      {
+        "key": "B",
+        "text": "2 hydrogen molecules"
+      },
+      {
+        "key": "C",
+        "text": "4 hydrogen molecules"
+      },
+      {
+        "key": "D",
+        "text": "8 hydrogen molecules"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The coefficient 2 in front of H₂ means TWO molecules of hydrogen react.",
+      "C": "4 would be wrong. The equation shows 2H₂ (two molecules) reacting with O₂.",
+      "D": "8 is way too many. Check the coefficients in the balanced equation."
+    },
+    "explanation": "The balanced equation 2H₂ + O₂ → 2H₂O shows that 2 molecules of hydrogen (H₂) react with 1 molecule of oxygen (O₂) to produce 2 molecules of water.",
+    "explanationSteps": [
+      "The coefficient (number in front) tells you how many molecules.",
+      "2H₂ means 2 molecules of hydrogen gas.",
+      "O₂ with no coefficient means 1 molecule of oxygen gas."
+    ],
+    "hints": [
+      "Look at the numbers written in front of the chemical formulas.",
+      "These numbers are called 'coefficients' — they tell you the molecule count."
+    ],
+    "tags": [
+      "chemical-equations",
+      "balancing",
+      "stoichiometry",
+      "chemistry"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b2-015",
+    "moduleId": "science.explorer",
+    "skill": "environmental-science",
+    "subSkill": "conservation",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "A town's population doubles, but its water supply stays the same. Which is the most sustainable solution?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Building a dam on the nearest river"
+      },
+      {
+        "key": "B",
+        "text": "Implementing water conservation programs and fixing leaks"
+      },
+      {
+        "key": "C",
+        "text": "Drilling deeper wells to reach groundwater"
+      },
+      {
+        "key": "D",
+        "text": "Rationing water to one hour per day"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Dams have environmental impacts and may not solve long-term sustainability.",
+      "C": "Groundwater can be depleted faster than it's replenished, which is not sustainable.",
+      "D": "Rationing treats the symptom but does not change consumption habits or improve infrastructure."
+    },
+    "explanation": "A combination of conservation, efficiency, and infrastructure improvements is the most sustainable approach. It reduces waste, extends the existing supply, and is less damaging to the environment.",
+    "explanationSteps": [
+      "Conservation reduces overall demand without sacrificing essential needs.",
+      "Fixing leaks and upgrading infrastructure prevents water loss.",
+      "Education programs help the community use water more wisely."
+    ],
+    "hints": [
+      "Which option reduces waste first before looking for new sources?",
+      "Think about which solution has the least environmental impact."
+    ],
+    "tags": [
+      "conservation",
+      "sustainability",
+      "water",
+      "environment"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-b2-016",
+    "moduleId": "science.explorer",
+    "skill": "scientific-method",
+    "subSkill": "observation-skills",
+    "level": "B2",
+    "questionType": "true-false",
+    "difficulty": 0.45,
+    "prompt": "True or False: A scientific observation must be measurable or detectable with the senses or scientific instruments.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Science relies on observations that can be verified through measurement, sensing, or instrumentation."
+    },
+    "explanation": "Scientific observations must be empirical — based on evidence that can be observed, measured, and verified. This separates science from opinions, beliefs, or untestable claims.",
+    "explanationSteps": [
+      "Good observations are objective and can be confirmed by others.",
+      "Measurements (length, mass, temperature) are quantitative observations.",
+      "Descriptions (color, texture, smell) are qualitative observations."
+    ],
+    "hints": [
+      "Can your observation be verified by someone else?",
+      "If you can't measure it or detect it, can it be studied scientifically?"
+    ],
+    "tags": [
+      "observation",
+      "scientific-method",
+      "empirical",
+      "measurement"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "se-b2-017",
+    "moduleId": "science.explorer",
+    "skill": "environmental-science",
+    "subSkill": "biodiversity",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "prompt": "A farmer clears a large forest area to create a single-crop farm. How does this most likely affect local biodiversity?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Biodiversity increases because the farmer is adding new plants"
+      },
+      {
+        "key": "B",
+        "text": "Biodiversity decreases because many species lose their habitat"
+      },
+      {
+        "key": "C",
+        "text": "Biodiversity stays the same because the area is still green"
+      },
+      {
+        "key": "D",
+        "text": "Biodiversity increases because crop plants attract more animals"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Replacing diverse forest with a single crop reduces the number of plant and animal species.",
+      "C": "A monoculture farm has far fewer species than the diverse forest it replaced.",
+      "D": "Most wild animals cannot survive in a monoculture crop field."
+    },
+    "explanation": "Deforestation for monoculture farming destroys diverse habitats. The complex forest ecosystem (with hundreds of species) is replaced by a single crop, drastically reducing biodiversity.",
+    "explanationSteps": [
+      "Forests contain many layers and niches that support diverse species.",
+      "Clearing removes food sources, shelter, and breeding grounds.",
+      "A monoculture supports only a small number of species adapted to that crop."
+    ],
+    "hints": [
+      "Think about how many types of plants and animals live in a forest vs. a cornfield.",
+      "What happens to the animals that lived in the trees when the trees are gone?"
+    ],
+    "tags": [
+      "biodiversity",
+      "deforestation",
+      "monoculture",
+      "habitat-loss"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b2-018",
+    "moduleId": "science.explorer",
+    "skill": "scientific-method",
+    "subSkill": "experiment-design",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.65,
+    "prompt": "A researcher wants to test if a new drug reduces blood pressure. She gives the drug to 50 patients and a placebo to 50 other patients. Neither the patients nor the doctors know who got the real drug. This is called a:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Single-blind study"
+      },
+      {
+        "key": "B",
+        "text": "Double-blind study"
+      },
+      {
+        "key": "C",
+        "text": "Open-label study"
+      },
+      {
+        "key": "D",
+        "text": "Case study"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "A single-blind study means only one group (either patients or doctors) is unaware. Here, both are unaware.",
+      "C": "In an open-label study, everyone knows who gets the real treatment. That's the opposite of this setup.",
+      "D": "A case study follows one individual in depth, not a group of 100 patients."
+    },
+    "explanation": "In a double-blind study, neither participants nor researchers know who receives the treatment. This prevents bias in both reporting and evaluating results. The placebo is an inactive substance that looks identical to the drug.",
+    "explanationSteps": [
+      "The placebo group provides a baseline for comparison.",
+      "Blinding prevents the placebo effect and observer bias from affecting results.",
+      "Double-blind is the gold standard for clinical trials."
+    ],
+    "hints": [
+      "How many groups are 'blind' (don't know the assignment)?",
+      "Think about why it matters that the doctors also don't know."
+    ],
+    "tags": [
+      "experiment-design",
+      "double-blind",
+      "placebo",
+      "clinical-trial"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-b2-019",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "chemical-reactions",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "prompt": "In a chemical reaction, the total mass of the reactants equals the total mass of the products. This principle is known as:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The law of conservation of energy"
+      },
+      {
+        "key": "B",
+        "text": "The law of conservation of mass"
+      },
+      {
+        "key": "C",
+        "text": "The law of definite proportions"
+      },
+      {
+        "key": "D",
+        "text": "Newton's first law"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Energy is conserved separately. This principle specifically states that mass is conserved in chemical reactions.",
+      "C": "The law of definite proportions states that a compound always has the same ratio of elements by mass.",
+      "D": "Newton's first law is about motion and inertia, not chemical reactions."
+    },
+    "explanation": "The law of conservation of mass, discovered by Antoine Lavoisier, states that matter cannot be created or destroyed in a chemical reaction. Atoms are rearranged, but the total mass stays constant.",
+    "explanationSteps": [
+      "In a chemical reaction, atoms are rearranged, not created or destroyed.",
+      "This means the number and type of atoms in reactants equals those in products.",
+      "Therefore, the total mass before the reaction equals the total mass after."
+    ],
+    "hints": [
+      "Think about what happens to matter in a sealed container during a reaction.",
+      "Who is known as the 'father of modern chemistry' for discovering this?"
+    ],
+    "tags": [
+      "conservation-of-mass",
+      "chemical-reactions",
+      "Lavoisier",
+      "chemistry"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b2-020",
+    "moduleId": "science.explorer",
+    "skill": "environmental-science",
+    "subSkill": "climate-change",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.55,
+    "prompt": "The gradual increase in Earth's average temperature due to the buildup of gases like CO₂ and methane in the atmosphere is called __________.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "the ozone layer depletion"
+      },
+      {
+        "key": "B",
+        "text": "acid rain"
+      },
+      {
+        "key": "C",
+        "text": "global warming"
+      },
+      {
+        "key": "D",
+        "text": "the carbon cycle"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Ozone depletion is the thinning of the ozone layer by CFCs, not temperature increase from CO₂.",
+      "B": "Acid rain is caused by sulfur and nitrogen compounds in the atmosphere, not temperature increase.",
+      "D": "The carbon cycle is the natural movement of carbon between Earth's systems, not a warming phenomenon."
+    },
+    "explanation": "Global warming refers to the long-term increase in Earth's average surface temperature, primarily caused by increased greenhouse gas emissions from human activities like burning fossil fuels and deforestation.",
+    "explanationSteps": [
+      "Greenhouse gases trap heat from the Sun in Earth's atmosphere.",
+      "More greenhouse gases = more heat trapped = higher temperatures.",
+      "This is the main driver of climate change."
+    ],
+    "hints": [
+      "The phrase combines 'global' (worldwide) and 'warming' (getting hotter).",
+      "What term describes the Earth getting hotter over time?"
+    ],
+    "tags": [
+      "global-warming",
+      "climate-change",
+      "greenhouse-gases"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-b2-001",
+    "moduleId": "science.explorer",
+    "skill": "scientific-method",
+    "subSkill": "experiment-design",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "prompt": "A student gives Plant A fertilizer+water, Plant B only water, Plant C fertilizer+extra sunlight. What is wrong?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "She should not measure height"
+      },
+      {
+        "key": "B",
+        "text": "She changed too many variables at once"
+      },
+      {
+        "key": "C",
+        "text": "She should use only one plant"
+      },
+      {
+        "key": "D",
+        "text": "Nothing is wrong"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Measuring height is valid.",
+      "C": "More plants would help, but not the main issue.",
+      "D": "There IS a problem with the design."
+    },
+    "explanation": "Plant A and C differ in TWO ways (fertilizer AND sunlight), so you cannot isolate the cause.",
+    "explanationSteps": [
+      "A fair test changes one variable at a time.",
+      "A vs B tests fertilizer effect (good).",
+      "C adds extra sunlight too - confounded variables."
+    ],
+    "hints": [
+      "How many things differ between A and C?",
+      "For fair comparison, only one thing should differ."
+    ],
+    "tags": [
+      "experiment-design",
+      "variables",
+      "scientific-method"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "se-b2-002",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "chemical-reactions",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "prompt": "When iron rusts, it combines with oxygen. This is what type of reaction?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Decomposition"
+      },
+      {
+        "key": "B",
+        "text": "Combustion"
+      },
+      {
+        "key": "C",
+        "text": "Oxidation"
+      },
+      {
+        "key": "D",
+        "text": "Precipitation"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Decomposition breaks things down.",
+      "B": "Combustion is rapid burning.",
+      "D": "Precipitation forms solid from solution."
+    },
+    "explanation": "Rusting is slow oxidation where iron reacts with oxygen in the presence of water.",
+    "explanationSteps": [
+      "Iron atoms lose electrons to oxygen.",
+      "This creates iron oxide (rust).",
+      "Water speeds up the process."
+    ],
+    "hints": [
+      "What is the chemical name for rust?",
+      "Think about corrosion."
+    ],
+    "tags": [
+      "oxidation",
+      "rust",
+      "chemical-reactions",
+      "corrosion"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b2-003",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "acids-bases",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "Three liquids tested: X=pH 2, Y=pH 7, Z=pH 11. Which statement is correct?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "X is strong base, Y neutral, Z strong acid"
+      },
+      {
+        "key": "B",
+        "text": "X is strong acid, Y neutral, Z strong base"
+      },
+      {
+        "key": "C",
+        "text": "All three are acids"
+      },
+      {
+        "key": "D",
+        "text": "X and Z are both bases"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Its reversed! pH 2 is acid, 11 is base.",
+      "C": "Y is neutral, Z is base.",
+      "D": "pH 2 is an acid."
+    },
+    "explanation": "pH 0-6 = acid, 7 = neutral, 8-14 = base. X is strong acid, Y neutral, Z strong base.",
+    "explanationSteps": [
+      "pH 2 is highly acidic (like lemon juice).",
+      "pH 7 is neutral (pure water).",
+      "pH 11 is highly basic (like soap)."
+    ],
+    "hints": [
+      "Low pH = acid, high pH = base.",
+      "Which is sour and which is slippery?"
+    ],
+    "tags": [
+      "pH",
+      "acids",
+      "bases",
+      "data-interpretation"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-b2-004",
+    "moduleId": "science.explorer",
+    "skill": "environmental-science",
+    "subSkill": "pollution-types",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "Which is a major source of air pollution in cities?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Planting trees in parks"
+      },
+      {
+        "key": "B",
+        "text": "Vehicle exhaust from cars and trucks"
+      },
+      {
+        "key": "C",
+        "text": "Recycling paper and plastic"
+      },
+      {
+        "key": "D",
+        "text": "Using solar panels"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Trees clean the air!",
+      "C": "Recycling reduces waste.",
+      "D": "Solar panels produce clean energy."
+    },
+    "explanation": "Vehicle exhaust releases CO, nitrogen oxides, and particulates that create smog.",
+    "explanationSteps": [
+      "Burning gasoline produces pollutants.",
+      "These form ground-level ozone and smog.",
+      "Electric vehicles can reduce this."
+    ],
+    "hints": [
+      "What comes out of a car tailpipe?",
+      "What makes city air hazy?"
+    ],
+    "tags": [
+      "air-pollution",
+      "vehicles",
+      "environment",
+      "emissions"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-b2-005",
+    "moduleId": "science.explorer",
+    "skill": "environmental-science",
+    "subSkill": "conservation",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "A city wants to reduce water consumption. Which strategy saves the most water?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Encourage shorter showers"
+      },
+      {
+        "key": "B",
+        "text": "Fix leaks in the water system"
+      },
+      {
+        "key": "C",
+        "text": "Build more swimming pools"
+      },
+      {
+        "key": "D",
+        "text": "Water parks during midday"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Shorter showers help but leaks waste more.",
+      "C": "Pools increase consumption.",
+      "D": "Midday watering causes evaporation."
+    },
+    "explanation": "Water systems lose 20-30% through leaks. Fixing leaks prevents waste before water reaches users.",
+    "explanationSteps": [
+      "Aging infrastructure has many leaks.",
+      "A small drip wastes hundreds of liters daily.",
+      "Fixing leaks is most effective."
+    ],
+    "hints": [
+      "Where does water go before your faucet?",
+      "System-level vs. home-level savings."
+    ],
+    "tags": [
+      "water-conservation",
+      "infrastructure",
+      "environment",
+      "sustainability"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b2-006",
+    "moduleId": "science.explorer",
+    "skill": "scientific-method",
+    "subSkill": "data-recording",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "prompt": "Water heating data: 0min=22C, 1min=31C, 2min=40C, 3min=49C, 4min=58C. Temperature increase per minute?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "About 5C per minute"
+      },
+      {
+        "key": "B",
+        "text": "About 9C per minute"
+      },
+      {
+        "key": "C",
+        "text": "About 15C per minute"
+      },
+      {
+        "key": "D",
+        "text": "About 22C per minute"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "5C too slow. 22 to 58 over 4 min = 36C.",
+      "C": "15C would give 82C at 4min.",
+      "D": "22C would give 110C!"
+    },
+    "explanation": "22C to 58C over 4 minutes = 36C total. 36/4 = 9C per minute.",
+    "explanationSteps": [
+      "Total change: 58-22 = 36C.",
+      "Total time: 4 minutes.",
+      "Rate: 36/4 = 9C per minute."
+    ],
+    "hints": [
+      "Total change divided by total time.",
+      "Check: 22+9=31, 31+9=40. Does it match?"
+    ],
+    "tags": [
+      "data-analysis",
+      "graphing",
+      "temperature",
+      "rate-of-change"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-b2-007",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "compounds-mixtures",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "prompt": "What is the best separation order for a mixture of salt, sand, and iron filings?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Filtering > Magnet > Evaporation"
+      },
+      {
+        "key": "B",
+        "text": "Magnet > Water > Filtering > Evaporation"
+      },
+      {
+        "key": "C",
+        "text": "Evaporation > Filtering > Magnet"
+      },
+      {
+        "key": "D",
+        "text": "Water > Evaporation > Magnet"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Iron might clog filter. Remove iron first.",
+      "C": "Evaporation first leaves everything mixed.",
+      "D": "Wet iron is harder to separate."
+    },
+    "explanation": "Magnet removes iron. Water dissolves salt. Filter removes sand. Evaporation recovers salt.",
+    "explanationSteps": [
+      "Magnet pulls out iron filings.",
+      "Water dissolves salt (sand does not).",
+      "Filter separates sand. Evaporate for salt."
+    ],
+    "hints": [
+      "What can be removed without adding anything?",
+      "What dissolves in water?"
+    ],
+    "tags": [
+      "separation",
+      "mixtures",
+      "filtration",
+      "evaporation",
+      "magnetism"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "se-b2-008",
+    "moduleId": "science.explorer",
+    "skill": "environmental-science",
+    "subSkill": "renewable-energy",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "Which energy source is non-renewable?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Solar power"
+      },
+      {
+        "key": "B",
+        "text": "Wind power"
+      },
+      {
+        "key": "C",
+        "text": "Natural gas"
+      },
+      {
+        "key": "D",
+        "text": "Hydropower"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Solar is renewable (Sun keeps shining).",
+      "B": "Wind is renewable.",
+      "D": "Hydropower is renewable (water cycle)."
+    },
+    "explanation": "Natural gas is a fossil fuel formed over millions of years. We use it faster than it forms.",
+    "explanationSteps": [
+      "Fossil fuels take millions of years to form.",
+      "We consume them in hundreds of years.",
+      "Renewable sources are naturally replenished."
+    ],
+    "hints": [
+      "Which will eventually run out?",
+      "Which comes from ancient organisms?"
+    ],
+    "tags": [
+      "energy",
+      "non-renewable",
+      "fossil-fuels",
+      "natural-gas"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "se-b2-009",
+    "moduleId": "science.explorer",
+    "skill": "scientific-method",
+    "subSkill": "hypothesis-formation",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "prompt": "A student notices plants near a road are shorter than plants in a park. Which is a testable hypothesis?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The plants are sad because of noise"
+      },
+      {
+        "key": "B",
+        "text": "The plants receive less water from rainfall"
+      },
+      {
+        "key": "C",
+        "text": "Maybe the plants just do not like the road"
+      },
+      {
+        "key": "D",
+        "text": "The park is a nicer place"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Plants do not have emotions.",
+      "C": "This is vague and untestable.",
+      "D": "This is subjective."
+    },
+    "explanation": "A testable hypothesis must be measurable. Water availability can be measured and compared.",
+    "explanationSteps": [
+      "A good hypothesis is specific and testable.",
+      "It suggests what you expect and why.",
+      "It must be possible to prove wrong."
+    ],
+    "hints": [
+      "A hypothesis needs to be measurable.",
+      "Which statement suggests a clear cause?"
+    ],
+    "tags": [
+      "hypothesis",
+      "scientific-method",
+      "testable"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b2-010",
+    "moduleId": "science.explorer",
+    "skill": "environmental-science",
+    "subSkill": "biodiversity",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "prompt": "Why is biodiversity important for an ecosystem?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It makes the ecosystem look beautiful"
+      },
+      {
+        "key": "B",
+        "text": "It helps the ecosystem be more stable and resilient"
+      },
+      {
+        "key": "C",
+        "text": "It has no real effect"
+      },
+      {
+        "key": "D",
+        "text": "Biodiversity only matters for rainforests"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Beauty is not the scientific reason.",
+      "C": "Biodiversity is very important.",
+      "D": "It matters for all ecosystems."
+    },
+    "explanation": "High biodiversity means many species fill different roles, making ecosystems more resilient.",
+    "explanationSteps": [
+      "Each species plays a unique role (niche).",
+      "More species means redundancy.",
+      "Low biodiversity ecosystems are vulnerable."
+    ],
+    "hints": [
+      "Think of a team with many different skills.",
+      "What happens when one crop gets a disease?"
+    ],
+    "tags": [
+      "biodiversity",
+      "ecosystem",
+      "stability",
+      "conservation"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b2-011",
+    "moduleId": "science.explorer",
+    "skill": "scientific-method",
+    "subSkill": "conclusion-drawing",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "prompt": "Sugar dissolving experiment: 10C=25s, 25C=18s, 40C=12s, 60C=7s. What conclusion is best supported?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Temperature has no effect"
+      },
+      {
+        "key": "B",
+        "text": "Higher temperature makes sugar dissolve faster"
+      },
+      {
+        "key": "C",
+        "text": "Sugar only dissolves above 40C"
+      },
+      {
+        "key": "D",
+        "text": "Cold water dissolves fastest"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The data shows a clear pattern.",
+      "C": "Sugar dissolved at all temperatures.",
+      "D": "The data shows the opposite."
+    },
+    "explanation": "The data shows a clear inverse relationship: as temperature increases, dissolving time decreases.",
+    "explanationSteps": [
+      "At 10C: 25 seconds (slowest).",
+      "At 60C: 7 seconds (fastest).",
+      "Higher temp = faster dissolving."
+    ],
+    "hints": [
+      "What happens to time as temp goes up?",
+      "Is the relationship consistent?"
+    ],
+    "tags": [
+      "conclusion",
+      "data-analysis",
+      "dissolving",
+      "temperature"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-b2-012",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "elements-periodic-table",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "prompt": "An element has 12 protons. Which element and how many electrons (neutral)?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Carbon (C) with 6 electrons"
+      },
+      {
+        "key": "B",
+        "text": "Magnesium (Mg) with 12 electrons"
+      },
+      {
+        "key": "C",
+        "text": "Sodium (Na) with 11 electrons"
+      },
+      {
+        "key": "D",
+        "text": "Calcium (Ca) with 20 electrons"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Carbon has 6 protons.",
+      "C": "Sodium has 11 protons.",
+      "D": "Calcium has 20 protons."
+    },
+    "explanation": "Atomic number 12 is Magnesium. Neutral atoms have equal protons and electrons.",
+    "explanationSteps": [
+      "Atomic number = number of protons.",
+      "Atomic number 12 = Magnesium.",
+      "Neutral: electrons = protons = 12."
+    ],
+    "hints": [
+      "Periodic table is arranged by atomic number.",
+      "Neutral means equal positive and negative."
+    ],
+    "tags": [
+      "periodic-table",
+      "atomic-number",
+      "magnesium",
+      "electrons"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b2-013",
+    "moduleId": "science.explorer",
+    "skill": "environmental-science",
+    "subSkill": "climate-change",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "prompt": "Global temperature has risen about 1C since the late 1800s. What is the primary cause?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Increased volcanic activity"
+      },
+      {
+        "key": "B",
+        "text": "Increased greenhouse gases from burning fossil fuels"
+      },
+      {
+        "key": "C",
+        "text": "The Sun getting hotter"
+      },
+      {
+        "key": "D",
+        "text": "Natural cycles unrelated to humans"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Volcanoes can cool the climate.",
+      "C": "Solar output has not increased enough.",
+      "D": "Current warming is much faster than natural cycles."
+    },
+    "explanation": "CO2 and other greenhouse gases trap heat. Their rapid increase from fossil fuels drives modern warming.",
+    "explanationSteps": [
+      "Greenhouse gases trap heat like a blanket.",
+      "CO2 levels are up 50 percent since Industrial Revolution.",
+      "This extra greenhouse effect warms the planet."
+    ],
+    "hints": [
+      "What do cars and power plants release?",
+      "Think about the greenhouse effect."
+    ],
+    "tags": [
+      "climate-change",
+      "greenhouse-gases",
+      "global-warming",
+      "fossil-fuels"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b2-014",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "chemical-reactions",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.55,
+    "prompt": "In 2H2 + O2 -> 2H2O, how many hydrogen molecules react with each oxygen molecule?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The coefficient 2 in front of H2 means 2.",
+      "C": "Check the coefficients.",
+      "D": "Way too many."
+    },
+    "explanation": "The balanced equation shows 2H2 + O2, so 2 hydrogen molecules react with 1 oxygen molecule.",
+    "explanationSteps": [
+      "The coefficient tells you molecule count.",
+      "2H2 means 2 molecules of hydrogen.",
+      "O2 with no coefficient means 1 molecule."
+    ],
+    "hints": [
+      "Look at the numbers in front of formulas.",
+      "These are called coefficients."
+    ],
+    "tags": [
+      "chemical-equations",
+      "balancing",
+      "stoichiometry",
+      "chemistry"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b2-015",
+    "moduleId": "science.explorer",
+    "skill": "environmental-science",
+    "subSkill": "conservation",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "A town population doubles but water supply stays the same. What is the most sustainable solution?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Build a dam on the river"
+      },
+      {
+        "key": "B",
+        "text": "Implement conservation programs and fix leaks"
+      },
+      {
+        "key": "C",
+        "text": "Drill deeper wells"
+      },
+      {
+        "key": "D",
+        "text": "Ration water to one hour daily"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Dams have environmental impacts.",
+      "C": "Groundwater can be depleted.",
+      "D": "Rationing treats symptoms, not causes."
+    },
+    "explanation": "Conservation, efficiency, and infrastructure improvements reduce demand sustainably.",
+    "explanationSteps": [
+      "Conservation reduces overall demand.",
+      "Fixing leaks prevents water loss.",
+      "Education helps use water wisely."
+    ],
+    "hints": [
+      "Which reduces waste before finding new sources?",
+      "Least environmental impact?"
+    ],
+    "tags": [
+      "conservation",
+      "sustainability",
+      "water",
+      "environment"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-b2-016",
+    "moduleId": "science.explorer",
+    "skill": "scientific-method",
+    "subSkill": "observation-skills",
+    "level": "B2",
+    "questionType": "true-false",
+    "difficulty": 0.45,
+    "prompt": "True or False: A scientific observation must be measurable or detectable with senses or instruments.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Science relies on empirical, verifiable observations."
+    },
+    "explanation": "Scientific observations must be empirical - based on evidence that can be verified.",
+    "explanationSteps": [
+      "Good observations are objective and verifiable.",
+      "Measurements are quantitative observations.",
+      "Descriptions are qualitative observations."
+    ],
+    "hints": [
+      "Can your observation be confirmed by others?",
+      "If you cannot detect it, can you study it?"
+    ],
+    "tags": [
+      "observation",
+      "scientific-method",
+      "empirical",
+      "measurement"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "se-b2-017",
+    "moduleId": "science.explorer",
+    "skill": "environmental-science",
+    "subSkill": "biodiversity",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "prompt": "A farmer clears a forest for a single-crop farm. How does this affect local biodiversity?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Biodiversity increases (new plants added)"
+      },
+      {
+        "key": "B",
+        "text": "Biodiversity decreases (many species lose habitat)"
+      },
+      {
+        "key": "C",
+        "text": "Stays the same (still green)"
+      },
+      {
+        "key": "D",
+        "text": "Increases (crops attract animals)"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Forest is replaced by a single crop.",
+      "C": "A monoculture has far fewer species.",
+      "D": "Most animals cannot live in a crop field."
+    },
+    "explanation": "Deforestation for monoculture destroys diverse habitats, drastically reducing biodiversity.",
+    "explanationSteps": [
+      "Forests have many layers supporting diverse species.",
+      "Clearing removes food and shelter.",
+      "A monoculture supports few species."
+    ],
+    "hints": [
+      "How many species in a forest vs. a cornfield?",
+      "What happens to animals when trees are gone?"
+    ],
+    "tags": [
+      "biodiversity",
+      "deforestation",
+      "monoculture",
+      "habitat-loss"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b2-018",
+    "moduleId": "science.explorer",
+    "skill": "scientific-method",
+    "subSkill": "experiment-design",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.65,
+    "prompt": "A researcher tests a new drug. 50 patients get the drug, 50 get placebo. Neither patients nor doctors know who got what. This is called:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Single-blind study"
+      },
+      {
+        "key": "B",
+        "text": "Double-blind study"
+      },
+      {
+        "key": "C",
+        "text": "Open-label study"
+      },
+      {
+        "key": "D",
+        "text": "Case study"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Both groups are unaware, not just one.",
+      "C": "Open-label means everyone knows.",
+      "D": "A case study follows one individual."
+    },
+    "explanation": "Double-blind means neither participants nor researchers know who gets the treatment, preventing bias.",
+    "explanationSteps": [
+      "Placebo group provides a baseline.",
+      "Blinding prevents bias.",
+      "Double-blind is the gold standard."
+    ],
+    "hints": [
+      "How many groups are blind?",
+      "Why does it matter that doctors also do not know?"
+    ],
+    "tags": [
+      "experiment-design",
+      "double-blind",
+      "placebo",
+      "clinical-trial"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-b2-019",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "chemical-reactions",
+    "level": "B2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.6,
+    "prompt": "In a chemical reaction, the total mass of reactants equals the total mass of products. This is:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Conservation of energy"
+      },
+      {
+        "key": "B",
+        "text": "Conservation of mass"
+      },
+      {
+        "key": "C",
+        "text": "Law of definite proportions"
+      },
+      {
+        "key": "D",
+        "text": "Newtons first law"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Energy is conserved separately.",
+      "C": "That says compounds have fixed ratios.",
+      "D": "That is about motion and inertia."
+    },
+    "explanation": "The law of conservation of mass states matter cannot be created or destroyed in reactions.",
+    "explanationSteps": [
+      "Atoms are rearranged in reactions.",
+      "Number and type of atoms stay constant.",
+      "Total mass before = total mass after."
+    ],
+    "hints": [
+      "Think of a sealed container reaction.",
+      "Who discovered this (Lavoisier)?"
+    ],
+    "tags": [
+      "conservation-of-mass",
+      "chemical-reactions",
+      "Lavoisier",
+      "chemistry"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-b2-020",
+    "moduleId": "science.explorer",
+    "skill": "environmental-science",
+    "subSkill": "climate-change",
+    "level": "B2",
+    "questionType": "gap-filling",
+    "difficulty": 0.55,
+    "prompt": "The gradual increase in Earth average temperature due to CO2 and methane buildup is called __________.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "ozone layer depletion"
+      },
+      {
+        "key": "B",
+        "text": "acid rain"
+      },
+      {
+        "key": "C",
+        "text": "global warming"
+      },
+      {
+        "key": "D",
+        "text": "the carbon cycle"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Ozone depletion is thinning of ozone layer.",
+      "B": "Acid rain is sulfur/nitrogen compounds.",
+      "D": "Carbon cycle is natural movement of carbon."
+    },
+    "explanation": "Global warming is the long-term temperature increase from increased greenhouse gases.",
+    "explanationSteps": [
+      "Greenhouse gases trap heat.",
+      "More gases = more heat trapped.",
+      "This drives climate change."
+    ],
+    "hints": [
+      "Global + warming = ?",
+      "The Earth getting hotter over time."
+    ],
+    "tags": [
+      "global-warming",
+      "climate-change",
+      "greenhouse-gases"
+    ],
+    "estimatedTimeSec": 25
+  }
+]

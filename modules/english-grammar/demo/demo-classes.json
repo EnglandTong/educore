@@ -1,0 +1,38 @@
+[
+  {
+    "teacherId": "demo-teacher-001",
+    "name": "Ms. Anderson",
+    "email": "demo.teacher@educore.example",
+    "avatar": "👩‍🏫",
+    "className": "Grade 5-B English",
+    "students": [
+      { "studentId": "demo-emily-001", "name": "Emily", "score": 44, "level": "developing", "trend": "up" },
+      { "studentId": "demo-student-002", "name": "Marcus", "score": 62, "level": "developing", "trend": "up" },
+      { "studentId": "demo-student-003", "name": "Sophia", "score": 78, "level": "proficient", "trend": "stable" },
+      { "studentId": "demo-student-004", "name": "Liam", "score": 35, "level": "growing", "trend": "down" },
+      { "studentId": "demo-student-005", "name": "Ava", "score": 51, "level": "developing", "trend": "up" },
+      { "studentId": "demo-student-006", "name": "Noah", "score": 68, "level": "developing", "trend": "stable" },
+      { "studentId": "demo-student-007", "name": "Isabella", "score": 82, "level": "advanced", "trend": "up" },
+      { "studentId": "demo-student-008", "name": "Mason", "score": 29, "level": "seedling", "trend": "down" },
+      { "studentId": "demo-student-009", "name": "Mia", "score": 55, "level": "developing", "trend": "up" },
+      { "studentId": "demo-student-010", "name": "Ethan", "score": 71, "level": "proficient", "trend": "stable" },
+      { "studentId": "demo-student-011", "name": "Charlotte", "score": 48, "level": "growing", "trend": "up" },
+      { "studentId": "demo-student-012", "name": "James", "score": 63, "level": "developing", "trend": "stable" }
+    ],
+    "classWeakAreas": [
+      { "skillId": "passive-voice", "averageScore": 32, "affectedStudents": 8 },
+      { "skillId": "relative-clauses", "averageScore": 38, "affectedStudents": 7 },
+      { "skillId": "reported-speech", "averageScore": 41, "affectedStudents": 6 }
+    ],
+    "classStrengths": [
+      { "skillId": "tense-aspect", "averageScore": 68, "strongStudents": 9 },
+      { "skillId": "articles-determiners", "averageScore": 61, "strongStudents": 8 }
+    ],
+    "recentActivity": {
+      "sessionsThisWeek": 47,
+      "averageAccuracy": 62,
+      "mostActiveDay": "Friday",
+      "questionsAnswered": 1120
+    }
+  }
+]

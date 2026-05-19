@@ -1,0 +1,35 @@
+{
+  "skillId": "conditionals",
+  "skillName": "Conditionals",
+  "title": "Understanding Conditionals: If, Then, and Possibilities",
+  "whatIsIt": "Conditionals are sentences that express 'what if' situations. They have two parts: a condition (introduced by 'if') and a result. English has several types of conditionals, from definite facts ('If you heat water, it boils') to imaginary dreams ('If I won the lottery, I would travel the world'). Learning conditionals helps children express possibilities, make plans, and understand hypothetical thinking — skills that are valuable far beyond grammar class.",
+  "howToHelp": [
+    "Play the 'What If?' game at dinner: 'What if we had wings? What would we do?' This naturally practices second conditional in a fun, low-pressure way.",
+    "Use real situations for first conditional: 'If it rains tomorrow, we will stay inside.' Connect grammar to actual decisions your family makes.",
+    "Create conditional chains: one person says 'If I eat too much candy...', the next finishes with '...then you will feel sick!' This builds fluency and creativity.",
+    "Point out conditionals in stories and movies: 'If Belle doesn't return, the Beast will be cursed forever.' Stories make abstract grammar concrete.",
+    "Draw consequence maps: start with 'If I don't do my homework...' and branch out to all possible results. Visualizing consequences makes conditionals meaningful.",
+    "Practice zero conditional with science facts: 'If you drop an egg, it breaks.' This connects grammar to the real world and feels like discovery, not study."
+  ],
+  "commonMistakes": [
+    "'If I will see him, I will tell him' instead of 'If I see him, I will tell him' — after 'if', we use present tense for future situations, not 'will'.",
+    "'If I am rich, I buy a house' instead of 'If I were rich, I would buy a house' — second conditional needs 'were' (or 'was' in casual speech) and 'would' for imaginary situations.",
+    "Mixing conditional types: using 'would' in first conditional ('If it rains, I would stay home') — this confuses real possibilities with imaginary ones.",
+    "Forgetting the comma: 'If you study hard you will pass' — while not always required, the comma after the 'if' clause helps readability and is good practice."
+  ],
+  "signsOfProgress": [
+    "Uses first conditional naturally for real future possibilities: 'If we finish early, we can play games.'",
+    "Distinguishes between real and imaginary situations correctly — knows when to use 'will' versus 'would'.",
+    "Creates their own conditional sentences in storytelling and play without prompting.",
+    "Understands that 'were' (not 'was') is the traditional form for hypothetical 'if I were...' — even if they sometimes use 'was' in casual speech.",
+    "Begins using third conditional for past regrets: 'If I had studied, I would have passed.' This is advanced thinking!"
+  ],
+  "ifStruggling": [
+    "Start with ONLY first conditional — real situations, clear consequences. Don't introduce second or third conditional until first feels automatic.",
+    "Use visual color-coding: highlight the 'if' clause in one color and the result clause in another. Seeing the structure helps internalize it.",
+    "Make it personal: use your child's real interests and daily life in examples. Abstract examples feel pointless; personal examples feel relevant.",
+    "Accept 'was' instead of 'were' for second conditional — 'If I was a bird' is very common in modern English and perfectly understandable.",
+    "Use songs and rhymes: many children's songs naturally use conditional structures ('If you're happy and you know it...').",
+    "Remember that hypothetical thinking is a cognitive skill that develops with age. Some children need more time before conditionals 'click.'"
+  ]
+}

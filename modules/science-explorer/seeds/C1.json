@@ -1,0 +1,1572 @@
+[
+  {
+    "id": "se-c1-001",
+    "moduleId": "science.explorer",
+    "skill": "scientific-method",
+    "subSkill": "experiment-design",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.75,
+    "prompt": "A team of scientists conducts an experiment to test a new fertilizer. They use 100 plants: 50 receive the fertilizer and 50 do not. All plants get the same amount of water and sunlight. After 30 days, the fertilized plants are 25% taller on average. Which conclusion is MOST justified?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The fertilizer CAUSES plants to grow taller in all conditions"
+      },
+      {
+        "key": "B",
+        "text": "Under these experimental conditions, the fertilizer is associated with increased plant height"
+      },
+      {
+        "key": "C",
+        "text": "The fertilizer does not affect plant growth because all plants received water"
+      },
+      {
+        "key": "D",
+        "text": "The fertilizer makes plants grow 25% taller forever"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Correlation does not prove causation universally. The result is specific to these conditions and the sample may not represent all conditions.",
+      "C": "The data clearly shows a difference. The plants differed only in fertilizer treatment, so the fertilizer did have an effect in this experiment.",
+      "D": "The 25% was measured at 30 days. Growth effects may change over longer periods."
+    },
+    "explanation": "A well-controlled experiment can show a causal relationship within its specific conditions, but scientists must be cautious about generalizing. The results show a strong association, but further experiments would be needed to confirm the effect across different conditions, plant types, and time periods.",
+    "explanationSteps": [
+      "The experiment controlled for water and sunlight, making it a fair test of the fertilizer.",
+      "The results show a statistically significant difference between the two groups.",
+      "However, the conclusion is limited to the specific conditions tested (type of plant, soil, environment).",
+      "Additional experiments with different variables would strengthen the conclusion."
+    ],
+    "hints": [
+      "What does 'cause' really mean in science? Can we be 100% sure from one experiment?",
+      "The words 'most justified' are key — which statement stays closest to what the data actually shows?"
+    ],
+    "tags": [
+      "scientific-method",
+      "causation",
+      "correlation",
+      "experiment-design",
+      "conclusion"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "se-c1-002",
+    "moduleId": "science.explorer",
+    "skill": "life-science",
+    "subSkill": "heredity",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.7,
+    "prompt": "In pea plants, purple flower color (P) is dominant over white (p). If a heterozygous purple plant (Pp) is crossed with a white plant (pp), what percentage of offspring will have white flowers?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0%"
+      },
+      {
+        "key": "B",
+        "text": "25%"
+      },
+      {
+        "key": "C",
+        "text": "50%"
+      },
+      {
+        "key": "D",
+        "text": "100%"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "0% would only happen if both parents contributed a dominant allele, but the white parent contributes only recessive alleles.",
+      "B": "25% would occur if both parents were heterozygous (Pp × Pp), but that's not the case here.",
+      "D": "100% would only happen if both parents were homozygous recessive (pp × pp)."
+    },
+    "explanation": "Pp × pp gives: 50% Pp (purple) and 50% pp (white). The heterozygous parent contributes P or p with equal probability, while the homozygous recessive parent always contributes p.",
+    "explanationSteps": [
+      "Parent 1 (Pp) can contribute either P or p allele.",
+      "Parent 2 (pp) can only contribute p allele.",
+      "Punnett square: P from parent 1 + p from parent 2 = Pp (purple), p from parent 1 + p from parent 2 = pp (white).",
+      "Two out of four possible combinations (50%) result in white flowers."
+    ],
+    "hints": [
+      "Draw a Punnett square with Pp on one side and pp on the other.",
+      "How many combinations give the recessive phenotype (pp)?"
+    ],
+    "tags": [
+      "genetics",
+      "heredity",
+      "Punnett-square",
+      "dominant-recessive"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "se-c1-003",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "forces-motion",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.75,
+    "prompt": "A car of mass 1500 kg is traveling at 20 m/s. The driver applies the brakes, and the car comes to a stop in 5 seconds. What is the average braking force applied?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3,000 N"
+      },
+      {
+        "key": "B",
+        "text": "6,000 N"
+      },
+      {
+        "key": "C",
+        "text": "7,500 N"
+      },
+      {
+        "key": "D",
+        "text": "15,000 N"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "3,000 N would result from 1500 × 2, but the acceleration is 20/5 = 4 m/s², not 2.",
+      "C": "7,500 N may come from using the wrong formula. Check F = ma with a = 4 m/s².",
+      "D": "15,000 N uses the mass but misapplies the formula."
+    },
+    "explanation": "Using Newton's second law, F = ma. First find acceleration: a = Δv/t = (0 - 20)/5 = -4 m/s². Force = 1500 × 4 = 6000 N (the negative sign indicates the force is opposite to motion).",
+    "explanationSteps": [
+      "Calculate acceleration: a = (final velocity - initial velocity) / time = (0 - 20) / 5 = -4 m/s².",
+      "The magnitude of acceleration is 4 m/s².",
+      "Apply F = ma: F = 1500 kg × 4 m/s² = 6,000 N.",
+      "The force is 6,000 N in the direction opposite to motion (braking force)."
+    ],
+    "hints": [
+      "First find the acceleration using a = Δv / t.",
+      "Then use Newton's second law: F = ma.",
+      "Remember: Δv = final velocity - initial velocity."
+    ],
+    "tags": [
+      "forces",
+      "motion",
+      "Newton's-second-law",
+      "acceleration",
+      "physics"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "se-c1-004",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "solar-system",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.7,
+    "prompt": "A planet is observed to have an orbital period of 8 Earth years. According to Kepler's third law (P² ∝ a³), what is its average distance from the Sun in Astronomical Units (AU)?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2 AU"
+      },
+      {
+        "key": "B",
+        "text": "4 AU"
+      },
+      {
+        "key": "C",
+        "text": "8 AU"
+      },
+      {
+        "key": "D",
+        "text": "16 AU"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "2 AU would give P² = 4 and a³ = 8, so P = √8 ≈ 2.83 years, not 8 years.",
+      "C": "8 AU would give a³ = 512 and P = √512 ≈ 22.6 years, far too long.",
+      "D": "16 AU would give a³ = 4096 and P = √4096 = 64 years, much too long."
+    },
+    "explanation": "Kepler's third law: P² = a³ (when P is in Earth years and a is in AU). With P = 8: 8² = 64, so a³ = 64, meaning a = ∛64 = 4 AU.",
+    "explanationSteps": [
+      "Kepler's third law: P² ∝ a³, or P² = a³ when using Earth years and AU.",
+      "P = 8 years, so P² = 64.",
+      "a³ = 64, so a = ∛64 = 4 AU.",
+      "The planet orbits at 4 AU from the Sun."
+    ],
+    "hints": [
+      "Kepler's third law relates orbital period to distance.",
+      "If P = 8, what is P²? Then find the cube root to get a."
+    ],
+    "tags": [
+      "Kepler's-laws",
+      "orbital-mechanics",
+      "AU",
+      "astronomy"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "se-c1-005",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "chemical-reactions",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.8,
+    "prompt": "Consider the reaction: 2H₂(g) + O₂(g) → 2H₂O(l). If 4.0 grams of H₂ reacts completely with excess O₂, how many grams of H₂O are produced? (Atomic masses: H = 1 g/mol, O = 16 g/mol)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "18 grams"
+      },
+      {
+        "key": "B",
+        "text": "36 grams"
+      },
+      {
+        "key": "C",
+        "text": "72 grams"
+      },
+      {
+        "key": "D",
+        "text": "4 grams"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "18 grams would be the mass of water produced from 2 grams of H₂, but we have 4 grams.",
+      "C": "72 grams would require 8 grams of H₂, double what we have.",
+      "D": "The law of conservation of mass means the water produced must have more mass than just the hydrogen."
+    },
+    "explanation": "Moles of H₂ = 4.0 g ÷ 2 g/mol = 2 mol. From the balanced equation, 2 mol H₂ produces 2 mol H₂O. Mass of H₂O = 2 mol × 18 g/mol = 36 grams.",
+    "explanationSteps": [
+      "Molar mass of H₂ = 2 g/mol. Moles of H₂ = 4.0 ÷ 2 = 2 mol.",
+      "The balanced equation shows 2H₂ → 2H₂O, a 1:1 mole ratio.",
+      "Moles of H₂O produced = 2 mol.",
+      "Molar mass of H₂O = (2 × 1) + 16 = 18 g/mol. Mass = 2 × 18 = 36 grams."
+    ],
+    "hints": [
+      "First convert grams of H₂ to moles using the molar mass.",
+      "Use the balanced equation to find the mole ratio between H₂ and H₂O.",
+      "Convert moles of H₂O back to grams."
+    ],
+    "tags": [
+      "stoichiometry",
+      "chemical-reactions",
+      "mole-calculations",
+      "conservation-of-mass"
+    ],
+    "estimatedTimeSec": 55
+  },
+  {
+    "id": "se-c1-006",
+    "moduleId": "science.explorer",
+    "skill": "environmental-science",
+    "subSkill": "climate-change",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.75,
+    "prompt": "A scientist analyzes ice core data and finds that over the past 800,000 years, CO₂ levels have fluctuated between approximately 180 ppm (ice ages) and 280 ppm (warm periods). Current CO₂ levels are over 420 ppm. What does this comparison suggest?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Current CO₂ levels are within the natural range and not a concern"
+      },
+      {
+        "key": "B",
+        "text": "Current CO₂ levels are significantly higher than any natural levels in the past 800,000 years"
+      },
+      {
+        "key": "C",
+        "text": "The ice core data is not reliable"
+      },
+      {
+        "key": "D",
+        "text": "CO₂ has no relationship with global temperature"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "420 ppm is far above the natural range of 180-280 ppm seen in the ice core record.",
+      "C": "Ice core data is a well-validated scientific method for measuring historical CO₂ levels.",
+      "D": "Ice core data shows a strong correlation between CO₂ levels and temperature over hundreds of thousands of years."
+    },
+    "explanation": "Ice cores provide a detailed record of atmospheric CO₂ for the past 800,000 years. Current levels (420+ ppm) are about 50% higher than the maximum natural levels seen in this entire period, and the rate of increase is unprecedented.",
+    "explanationSteps": [
+      "Ice cores trap air bubbles that preserve ancient atmospheric samples.",
+      "Over 800,000 years, CO₂ naturally ranged from 180 to 280 ppm.",
+      "Current levels at 420+ ppm exceed this natural range by over 50%.",
+      "The rate of increase (since the Industrial Revolution) is also far faster than natural changes."
+    ],
+    "hints": [
+      "Compare the maximum natural level (280 ppm) to the current level (420 ppm).",
+      "How does the current level compare to the range seen in the ice core data?"
+    ],
+    "tags": [
+      "climate-change",
+      "ice-cores",
+      "CO₂",
+      "paleoclimatology"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "se-c1-007",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "acids-bases",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.75,
+    "prompt": "A solution has a hydrogen ion concentration [H⁺] of 1 × 10⁻⁵ M. What is its pH, and is it acidic or basic?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "pH = 5, acidic"
+      },
+      {
+        "key": "B",
+        "text": "pH = 9, basic"
+      },
+      {
+        "key": "C",
+        "text": "pH = 5, basic"
+      },
+      {
+        "key": "D",
+        "text": "pH = 10⁻⁵, neutral"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "pH = -log(10⁻⁵) = 5, not 9. pH 5 is acidic, not basic.",
+      "C": "pH = 5 is correct, but pH below 7 is acidic, not basic.",
+      "D": "pH is defined as -log[H⁺], not [H⁺] itself. pH 5 is acidic, not neutral."
+    },
+    "explanation": "pH = -log₁₀[H⁺] = -log(1 × 10⁻⁵) = 5. Since pH 5 is below 7, the solution is acidic.",
+    "explanationSteps": [
+      "The formula for pH: pH = -log₁₀[H⁺].",
+      "For [H⁺] = 1 × 10⁻⁵ M: pH = -log(10⁻⁵) = 5.",
+      "The pH scale: 0-6 acidic, 7 neutral, 8-14 basic.",
+      "pH 5 is acidic (below 7)."
+    ],
+    "hints": [
+      "pH is the negative logarithm (base 10) of the hydrogen ion concentration.",
+      "What is -log(10⁻⁵)? Remember log(10ⁿ) = n."
+    ],
+    "tags": [
+      "pH",
+      "acids",
+      "logarithms",
+      "hydrogen-ion-concentration"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-c1-008",
+    "moduleId": "science.explorer",
+    "skill": "life-science",
+    "subSkill": "ecosystems",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.7,
+    "prompt": "In an ecosystem, the amount of energy available decreases as you move up trophic levels. If producers have 10,000 kJ of energy, and only about 10% is transferred to each higher level, how much energy reaches the tertiary consumers?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "100 kJ"
+      },
+      {
+        "key": "B",
+        "text": "10 kJ"
+      },
+      {
+        "key": "C",
+        "text": "1,000 kJ"
+      },
+      {
+        "key": "D",
+        "text": "10,000 kJ"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "100 kJ would be the energy at the secondary consumer level, one level too high.",
+      "C": "1,000 kJ would be the energy at the primary consumer level, two levels too high.",
+      "D": "Energy decreases at each level, it does not stay the same."
+    },
+    "explanation": "Energy flow: Producers → Primary consumers → Secondary consumers → Tertiary consumers. Each transfer is ~10%. 10,000 × 0.1 × 0.1 × 0.1 = 10 kJ at the tertiary consumer level.",
+    "explanationSteps": [
+      "Trophic level 1 (producers): 10,000 kJ.",
+      "Trophic level 2 (primary consumers): 10,000 × 10% = 1,000 kJ.",
+      "Trophic level 3 (secondary consumers): 1,000 × 10% = 100 kJ.",
+      "Trophic level 4 (tertiary consumers): 100 × 10% = 10 kJ."
+    ],
+    "hints": [
+      "Count the number of energy transfers from producers to tertiary consumers.",
+      "Each level retains only about 10% of the energy from the level below."
+    ],
+    "tags": [
+      "energy-pyramid",
+      "trophic-levels",
+      "ecology",
+      "10-percent-rule"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-c1-009",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "electricity-magnetism",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.8,
+    "prompt": "A circuit has a 12-volt battery connected to a resistor with a resistance of 24 ohms. What is the current flowing through the circuit?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0.5 A"
+      },
+      {
+        "key": "B",
+        "text": "2 A"
+      },
+      {
+        "key": "C",
+        "text": "12 A"
+      },
+      {
+        "key": "D",
+        "text": "288 A"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "2 A would require 12V / 6Ω, not 12V / 24Ω.",
+      "C": "12 A would require 1 ohm of resistance, not 24 ohms.",
+      "D": "288 A would come from multiplying 12 × 24. Ohm's law uses division, not multiplication."
+    },
+    "explanation": "Ohm's law: V = IR, so I = V/R = 12 V / 24 Ω = 0.5 A. The current is 0.5 amperes.",
+    "explanationSteps": [
+      "Ohm's law states V = IR (Voltage = Current × Resistance).",
+      "Rearrange to solve for current: I = V/R.",
+      "I = 12 V ÷ 24 Ω = 0.5 A."
+    ],
+    "hints": [
+      "Use Ohm's law: V = IR. What is the formula for current?",
+      "Divide voltage by resistance to get current."
+    ],
+    "tags": [
+      "Ohm's-law",
+      "electricity",
+      "circuits",
+      "current",
+      "resistance"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-c1-010",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "earth-structure",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.75,
+    "prompt": "P-waves (primary waves) travel through both solid and liquid layers of Earth, while S-waves (secondary waves) only travel through solids. What does the fact that S-waves are not detected on the opposite side of Earth from an earthquake indicate?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Earthquakes do not produce S-waves"
+      },
+      {
+        "key": "B",
+        "text": "Earth's outer core is liquid"
+      },
+      {
+        "key": "C",
+        "text": "S-waves travel slower than P-waves, so they haven't arrived yet"
+      },
+      {
+        "key": "D",
+        "text": "The mantle absorbs all S-waves"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Earthquakes do produce S-waves. They can be detected near the epicenter.",
+      "C": "S-waves are slower, but that would only cause a delay, not a complete absence.",
+      "D": "The mantle is solid and does transmit S-waves."
+    },
+    "explanation": "The S-wave shadow zone (an area where no S-waves are detected) occurs because S-waves cannot travel through the liquid outer core. This provided key evidence that Earth's outer core is liquid.",
+    "explanationSteps": [
+      "S-waves are detected near an earthquake but not on the opposite side of Earth.",
+      "The path to the far side passes through Earth's core.",
+      "Since S-waves can't travel through liquids, the outer core must be liquid.",
+      "P-waves do pass through the liquid core (but are refracted), creating their own shadow zone pattern."
+    ],
+    "hints": [
+      "What property of a material stops S-waves but not P-waves?",
+      "Think about which layer of Earth the seismic waves would need to pass through to reach the far side."
+    ],
+    "tags": [
+      "seismic-waves",
+      "earth-structure",
+      "outer-core",
+      "geophysics"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "se-c1-011",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "elements-periodic-table",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.8,
+    "prompt": "An atom has the electron configuration 1s² 2s² 2p⁶ 3s² 3p⁴. Which element is this, and how many valence electrons does it have?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Sulfur (S), 6 valence electrons"
+      },
+      {
+        "key": "B",
+        "text": "Oxygen (O), 6 valence electrons"
+      },
+      {
+        "key": "C",
+        "text": "Chlorine (Cl), 7 valence electrons"
+      },
+      {
+        "key": "D",
+        "text": "Silicon (Si), 4 valence electrons"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Oxygen's configuration ends with 2s² 2p⁴, not 3s² 3p⁴. This is period 3, not period 2.",
+      "C": "Chlorine would have 3s² 3p⁵ configuration (7 valence electrons). This atom has 6 valence electrons.",
+      "D": "Silicon has 3s² 3p² configuration (4 valence electrons), not 3p⁴."
+    },
+    "explanation": "The configuration totals 2 + 2 + 6 + 2 + 4 = 16 electrons, which is sulfur (atomic number 16). The valence electrons are in the outermost shell (n=3): 3s² 3p⁴ = 6 valence electrons.",
+    "explanationSteps": [
+      "Count total electrons: 2 + 2 + 6 + 2 + 4 = 16.",
+      "Atomic number 16 = Sulfur (S).",
+      "Valence electrons are in the highest energy level (n=3).",
+      "3s² + 3p⁴ = 6 valence electrons."
+    ],
+    "hints": [
+      "Count up all the electrons to find the atomic number.",
+      "The outermost shell (highest n value) determines valence electrons."
+    ],
+    "tags": [
+      "electron-configuration",
+      "periodic-table",
+      "valence-electrons",
+      "sulfur"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "se-c1-012",
+    "moduleId": "science.explorer",
+    "skill": "environmental-science",
+    "subSkill": "biodiversity",
+    "level": "C1",
+    "questionType": "gap-filling",
+    "difficulty": 0.7,
+    "prompt": "When a species is completely eliminated from Earth, it is called __________. Current extinction rates are estimated to be 100-1,000 times higher than natural background rates, suggesting a __________ extinction event.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "endangered, minor"
+      },
+      {
+        "key": "B",
+        "text": "extinction, mass"
+      },
+      {
+        "key": "C",
+        "text": "threatened, natural"
+      },
+      {
+        "key": "D",
+        "text": "extinct, local"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Endangered means at risk of extinction, not completely eliminated. 'Minor' does not fit the context of 100-1000× background rates.",
+      "C": "Threatened means likely to become endangered. Current extinction rates are far above 'natural' levels.",
+      "D": "The first blank is close but the species is eliminated globally, not locally. 'Local' does not fit the scale."
+    },
+    "explanation": "Extinction means a species has died out completely. The current rapid loss of species is often called the 'sixth mass extinction' because rates are comparable to the five major extinction events in Earth's history.",
+    "explanationSteps": [
+      "Background extinction rate is the natural rate of species loss.",
+      "Human activities (habitat loss, climate change, pollution) have accelerated extinction rates.",
+      "A mass extinction event is defined by a significant loss of biodiversity in a short geological time."
+    ],
+    "hints": [
+      "What is the term for a species that has no living members anywhere on Earth?",
+      "When the rate is very high, scientists call it a '___ extinction.'"
+    ],
+    "tags": [
+      "extinction",
+      "biodiversity",
+      "mass-extinction",
+      "conservation"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-c1-013",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "sound-light",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.8,
+    "prompt": "Light travels from air into water. The speed of light in air is approximately 3.0 × 10⁸ m/s, and in water it is about 2.25 × 10⁸ m/s. What is the index of refraction of water?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0.75"
+      },
+      {
+        "key": "B",
+        "text": "1.33"
+      },
+      {
+        "key": "C",
+        "text": "2.25"
+      },
+      {
+        "key": "D",
+        "text": "3.0"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "0.75 comes from dividing 2.25 by 3.0 (v/c). The formula is n = c/v, not v/c.",
+      "C": "2.25 is the speed of light in water, not the refractive index.",
+      "D": "3.0 is the speed of light in vacuum, not the refractive index."
+    },
+    "explanation": "The index of refraction n = c/v, where c is the speed of light in vacuum and v is the speed in the medium. n = (3.0 × 10⁸) / (2.25 × 10⁸) = 1.33.",
+    "explanationSteps": [
+      "The index of refraction formula: n = c / v.",
+      "c = 3.0 × 10⁸ m/s (speed of light in vacuum/air).",
+      "v = 2.25 × 10⁸ m/s (speed of light in water).",
+      "n = 3.0 / 2.25 = 1.33."
+    ],
+    "hints": [
+      "The refractive index is always greater than 1 for materials denser than air.",
+      "n = speed in vacuum / speed in medium."
+    ],
+    "tags": [
+      "refraction",
+      "index-of-refraction",
+      "light",
+      "optics",
+      "waves"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "se-c1-014",
+    "moduleId": "science.explorer",
+    "skill": "life-science",
+    "subSkill": "human-body-systems",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.7,
+    "prompt": "A doctor measures a patient's blood pressure as 140/90 mmHg. What do the two numbers represent?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The pressure in arteries when the heart beats (systolic) and when the heart rests (diastolic)"
+      },
+      {
+        "key": "B",
+        "text": "The pressure in the veins and the pressure in the arteries"
+      },
+      {
+        "key": "C",
+        "text": "The heart rate while sitting and while standing"
+      },
+      {
+        "key": "D",
+        "text": "The oxygen level in the blood and the carbon dioxide level"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Blood pressure specifically measures arterial pressure, not both arteries and veins.",
+      "C": "Heart rate is measured in beats per minute, not mmHg. These are pressure measurements.",
+      "D": "Blood pressure does not directly measure oxygen or carbon dioxide levels."
+    },
+    "explanation": "Systolic pressure (top number, 140 mmHg) measures pressure when the heart contracts and pumps blood. Diastolic pressure (bottom number, 90 mmHg) measures pressure when the heart relaxes between beats. A reading of 140/90 is considered high blood pressure (hypertension).",
+    "explanationSteps": [
+      "Systolic pressure: the maximum pressure during heart contraction.",
+      "Diastolic pressure: the minimum pressure during heart relaxation.",
+      "Normal blood pressure is typically around 120/80 mmHg.",
+      "High blood pressure puts extra strain on the heart and blood vessels."
+    ],
+    "hints": [
+      "One number corresponds to the 'working' phase of the heart, the other to the 'resting' phase.",
+      "Think about when the heart is squeezing vs. when it is filling with blood."
+    ],
+    "tags": [
+      "blood-pressure",
+      "circulatory-system",
+      "systolic",
+      "diastolic",
+      "human-body"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-c1-015",
+    "moduleId": "science.explorer",
+    "skill": "environmental-science",
+    "subSkill": "renewable-energy",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.85,
+    "prompt": "A coal power plant produces 500 MW of electrical power with an efficiency of 35%. How much waste heat does it release per second?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "175 MJ/s"
+      },
+      {
+        "key": "B",
+        "text": "325 MJ/s"
+      },
+      {
+        "key": "C",
+        "text": "929 MJ/s"
+      },
+      {
+        "key": "D",
+        "text": "500 MJ/s"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "175 MJ/s is 35% of 500, but that calculation doesn't account for the relationship between input, useful output, and waste.",
+      "B": "325 MJ/s comes from 500 - 175, but that's using the wrong reference point.",
+      "D": "500 MW is the useful electrical output, not the total energy input."
+    },
+    "explanation": "If efficiency is 35%, then 35% of the input energy becomes useful electricity. The waste heat is 65% of the input. Useful power = 500 MW = 0.35 × Input, so Input = 500 / 0.35 ≈ 1429 MW. Waste = 1429 - 500 = 929 MW = 929 MJ/s.",
+    "explanationSteps": [
+      "Efficiency = Useful output / Total input.",
+      "0.35 = 500 MW / Total input. So Total input = 500 / 0.35 ≈ 1429 MW.",
+      "Waste heat = Total input - Useful output = 1429 - 500 = 929 MW.",
+      "1 MW = 1 MJ/s, so waste heat = 929 MJ/s."
+    ],
+    "hints": [
+      "First find the total energy input needed to produce 500 MW at 35% efficiency.",
+      "Waste heat = input - useful output.",
+      "1 MW = 1 megajoule per second."
+    ],
+    "tags": [
+      "energy-efficiency",
+      "power-plants",
+      "waste-heat",
+      "thermodynamics"
+    ],
+    "estimatedTimeSec": 55
+  },
+  {
+    "id": "se-c1-001",
+    "moduleId": "science.explorer",
+    "skill": "scientific-method",
+    "subSkill": "experiment-design",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.75,
+    "prompt": "100 plants tested: 50 get fertilizer, 50 do not. Fertilized plants are 25% taller. Which conclusion is MOST justified?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Fertilizer CAUSES taller growth in all conditions"
+      },
+      {
+        "key": "B",
+        "text": "Under these conditions, fertilizer is associated with increased height"
+      },
+      {
+        "key": "C",
+        "text": "Fertilizer has no effect"
+      },
+      {
+        "key": "D",
+        "text": "Fertilizer makes plants grow 25% taller forever"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "One experiment does not prove universal causation.",
+      "C": "The data shows a clear difference.",
+      "D": "The 25% is specific to 30-day measurement."
+    },
+    "explanation": "The experiment shows strong association under specific conditions, but more tests are needed to generalize.",
+    "explanationSteps": [
+      "Experiment controlled water and sunlight.",
+      "Results show significant difference.",
+      "Conclusion is limited to tested conditions.",
+      "More experiments would strengthen findings."
+    ],
+    "hints": [
+      "What does cause really mean?",
+      "Which statement stays closest to the data?"
+    ],
+    "tags": [
+      "scientific-method",
+      "causation",
+      "correlation",
+      "experiment-design"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "se-c1-002",
+    "moduleId": "science.explorer",
+    "skill": "life-science",
+    "subSkill": "heredity",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.7,
+    "prompt": "In pea plants, purple (P) is dominant over white (p). Cross Pp (heterozygous purple) with pp (white). What percent of offspring have white flowers?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0 percent"
+      },
+      {
+        "key": "B",
+        "text": "25 percent"
+      },
+      {
+        "key": "C",
+        "text": "50 percent"
+      },
+      {
+        "key": "D",
+        "text": "100 percent"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "The white parent contributes p only.",
+      "B": "25 percent happens with Pp x Pp.",
+      "D": "100 percent happens with pp x pp."
+    },
+    "explanation": "Pp x pp gives 50% Pp (purple) and 50% pp (white).",
+    "explanationSteps": [
+      "Parent Pp contributes P or p equally.",
+      "Parent pp contributes p only.",
+      "Punnett square: Pp, Pp, pp, pp.",
+      "2 of 4 combinations (50%) are white."
+    ],
+    "hints": [
+      "Draw a Punnett square.",
+      "How many combinations give pp?"
+    ],
+    "tags": [
+      "genetics",
+      "heredity",
+      "Punnett-square",
+      "dominant-recessive"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "se-c1-003",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "forces-motion",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.75,
+    "prompt": "A 1500 kg car traveling at 20 m/s stops in 5 seconds. What is the average braking force?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3,000 N"
+      },
+      {
+        "key": "B",
+        "text": "6,000 N"
+      },
+      {
+        "key": "C",
+        "text": "7,500 N"
+      },
+      {
+        "key": "D",
+        "text": "15,000 N"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Uses wrong acceleration value.",
+      "C": "Uses wrong formula.",
+      "D": "Misapplies the formula."
+    },
+    "explanation": "F = ma. a = (0-20)/5 = -4 m/s2. F = 1500 x 4 = 6000 N.",
+    "explanationSteps": [
+      "a = (final v - initial v) / time.",
+      "a = (0 - 20) / 5 = -4 m/s2.",
+      "F = ma = 1500 x 4 = 6000 N.",
+      "Force is opposite to motion (braking)."
+    ],
+    "hints": [
+      "First find acceleration: a = delta v / t.",
+      "Then use F = ma."
+    ],
+    "tags": [
+      "forces",
+      "motion",
+      "Newtons-second-law",
+      "acceleration",
+      "physics"
+    ],
+    "estimatedTimeSec": 50
+  },
+  {
+    "id": "se-c1-004",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "solar-system",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.7,
+    "prompt": "A planet has an orbital period of 8 Earth years. Using Kepler third law (P2 = a3), what is its distance from the Sun in AU?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2 AU"
+      },
+      {
+        "key": "B",
+        "text": "4 AU"
+      },
+      {
+        "key": "C",
+        "text": "8 AU"
+      },
+      {
+        "key": "D",
+        "text": "16 AU"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "2 AU gives P2=4, a3=8, P=2.83 years.",
+      "C": "8 AU gives a3=512, P=22.6 years.",
+      "D": "16 AU gives a3=4096, P=64 years."
+    },
+    "explanation": "P2 = a3. P = 8, so P2 = 64, a3 = 64, a = cube root of 64 = 4 AU.",
+    "explanationSteps": [
+      "Kepler third law: P2 = a3.",
+      "P = 8 years, so P2 = 64.",
+      "a3 = 64, so a = cube root of 64 = 4 AU.",
+      "The planet orbits at 4 AU from the Sun."
+    ],
+    "hints": [
+      "What is 8 squared?",
+      "Then find the cube root."
+    ],
+    "tags": [
+      "Keplers-laws",
+      "orbital-mechanics",
+      "AU",
+      "astronomy"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "se-c1-005",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "chemical-reactions",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.8,
+    "prompt": "2H2(g) + O2(g) -> 2H2O(l). If 4.0g of H2 reacts with excess O2, how many grams of H2O are produced? (H=1 g/mol, O=16 g/mol)",
+    "choices": [
+      {
+        "key": "A",
+        "text": "18 grams"
+      },
+      {
+        "key": "B",
+        "text": "36 grams"
+      },
+      {
+        "key": "C",
+        "text": "72 grams"
+      },
+      {
+        "key": "D",
+        "text": "4 grams"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "18g is from 2g H2, but we have 4g.",
+      "C": "72g would need 8g H2.",
+      "D": "Conservation of mass means more mass."
+    },
+    "explanation": "Moles H2 = 4.0/2 = 2 mol. 2:2 ratio with H2O. Mass H2O = 2 x 18 = 36g.",
+    "explanationSteps": [
+      "Molar mass H2 = 2 g/mol. Moles = 4/2 = 2.",
+      "Equation shows 2H2 -> 2H2O (1:1 ratio).",
+      "Moles H2O = 2 mol.",
+      "Molar mass H2O = 18 g/mol. Mass = 2 x 18 = 36g."
+    ],
+    "hints": [
+      "Convert grams to moles first.",
+      "Use the balanced equation ratio.",
+      "Convert back to grams."
+    ],
+    "tags": [
+      "stoichiometry",
+      "chemical-reactions",
+      "mole-calculations",
+      "conservation-of-mass"
+    ],
+    "estimatedTimeSec": 55
+  },
+  {
+    "id": "se-c1-006",
+    "moduleId": "science.explorer",
+    "skill": "environmental-science",
+    "subSkill": "climate-change",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.75,
+    "prompt": "Ice cores show CO2 fluctuated between 180ppm (ice ages) and 280ppm (warm periods) over 800,000 years. Current CO2 is over 420ppm. What does this suggest?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Current CO2 is within natural range"
+      },
+      {
+        "key": "B",
+        "text": "Current CO2 is significantly higher than any natural levels in 800,000 years"
+      },
+      {
+        "key": "C",
+        "text": "Ice core data is unreliable"
+      },
+      {
+        "key": "D",
+        "text": "CO2 has no relationship with temperature"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "420 ppm is above the natural 180-280 range.",
+      "C": "Ice core data is well-validated.",
+      "D": "Ice cores show strong CO2-temperature correlation."
+    },
+    "explanation": "Current CO2 levels are about 50% higher than the maximum natural levels in 800,000 years.",
+    "explanationSteps": [
+      "Ice cores trap ancient air bubbles.",
+      "Natural CO2 range: 180-280 ppm.",
+      "Current: 420+ ppm (50% above max).",
+      "Rate of increase is also unprecedented."
+    ],
+    "hints": [
+      "Compare 420 to the max natural level of 280.",
+      "Is 420 within the natural range?"
+    ],
+    "tags": [
+      "climate-change",
+      "ice-cores",
+      "CO2",
+      "paleoclimatology"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "se-c1-007",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "acids-bases",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.75,
+    "prompt": "A solution has [H+] of 1 x 10^-5 M. What is its pH and is it acidic or basic?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "pH = 5, acidic"
+      },
+      {
+        "key": "B",
+        "text": "pH = 9, basic"
+      },
+      {
+        "key": "C",
+        "text": "pH = 5, basic"
+      },
+      {
+        "key": "D",
+        "text": "pH = 10^-5, neutral"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "pH = -log(10^-5) = 5, not 9.",
+      "C": "pH 5 is acidic, not basic.",
+      "D": "pH is -log[H+], not [H+] itself."
+    },
+    "explanation": "pH = -log[H+] = -log(1x10^-5) = 5. Since 5 < 7, the solution is acidic.",
+    "explanationSteps": [
+      "pH = -log10[H+].",
+      "For [H+] = 1x10^-5: pH = -log(10^-5) = 5.",
+      "pH 0-6 = acidic, 7 = neutral, 8-14 = basic.",
+      "pH 5 is acidic."
+    ],
+    "hints": [
+      "pH = -log of the hydrogen ion concentration.",
+      "What is -log(10^-5)? log(10^n) = n."
+    ],
+    "tags": [
+      "pH",
+      "acids",
+      "logarithms",
+      "hydrogen-ion-concentration"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-c1-008",
+    "moduleId": "science.explorer",
+    "skill": "life-science",
+    "subSkill": "ecosystems",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.7,
+    "prompt": "Producers have 10,000 kJ of energy. 10% transfers to each higher trophic level. How much reaches tertiary consumers?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "100 kJ"
+      },
+      {
+        "key": "B",
+        "text": "10 kJ"
+      },
+      {
+        "key": "C",
+        "text": "1,000 kJ"
+      },
+      {
+        "key": "D",
+        "text": "10,000 kJ"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "100 kJ is secondary consumer level.",
+      "C": "1,000 kJ is primary consumer level.",
+      "D": "Energy decreases at each level."
+    },
+    "explanation": "Producers (10,000) -> Primary (1,000) -> Secondary (100) -> Tertiary (10 kJ).",
+    "explanationSteps": [
+      "Level 1 (producers): 10,000 kJ.",
+      "Level 2 (primary): 10,000 x 0.1 = 1,000 kJ.",
+      "Level 3 (secondary): 1,000 x 0.1 = 100 kJ.",
+      "Level 4 (tertiary): 100 x 0.1 = 10 kJ."
+    ],
+    "hints": [
+      "Count transfers from producers to tertiary.",
+      "Each level keeps about 10%."
+    ],
+    "tags": [
+      "energy-pyramid",
+      "trophic-levels",
+      "ecology",
+      "10-percent-rule"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-c1-009",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "electricity-magnetism",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.8,
+    "prompt": "A circuit has a 12V battery connected to a 24 ohm resistor. What is the current?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0.5 A"
+      },
+      {
+        "key": "B",
+        "text": "2 A"
+      },
+      {
+        "key": "C",
+        "text": "12 A"
+      },
+      {
+        "key": "D",
+        "text": "288 A"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "2A would need 12V/6 ohm.",
+      "C": "12A would need 1 ohm.",
+      "D": "288 comes from multiplying."
+    },
+    "explanation": "Ohm law: V = IR, so I = V/R = 12/24 = 0.5 A.",
+    "explanationSteps": [
+      "Ohm law: V = IR.",
+      "Rearrange: I = V/R.",
+      "I = 12V / 24 ohms = 0.5 A."
+    ],
+    "hints": [
+      "Use Ohm law: V = IR.",
+      "Divide voltage by resistance."
+    ],
+    "tags": [
+      "Ohms-law",
+      "electricity",
+      "circuits",
+      "current",
+      "resistance"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-c1-010",
+    "moduleId": "science.explorer",
+    "skill": "earth-space",
+    "subSkill": "earth-structure",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.75,
+    "prompt": "P-waves travel through solids and liquids. S-waves only travel through solids. S-waves are not detected on the opposite side of Earth from an earthquake. What does this indicate?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Earthquakes do not produce S-waves"
+      },
+      {
+        "key": "B",
+        "text": "Earth outer core is liquid"
+      },
+      {
+        "key": "C",
+        "text": "S-waves are too slow to arrive"
+      },
+      {
+        "key": "D",
+        "text": "The mantle absorbs S-waves"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "S-waves are detected near the epicenter.",
+      "C": "Slowness would cause delay, not absence.",
+      "D": "The mantle is solid and transmits S-waves."
+    },
+    "explanation": "The S-wave shadow zone shows the outer core is liquid because S-waves cannot travel through it.",
+    "explanationSteps": [
+      "S-waves are detected near the earthquake.",
+      "They are absent on the opposite side.",
+      "The path goes through the outer core.",
+      "Since S-waves cannot travel through liquid, the outer core must be liquid."
+    ],
+    "hints": [
+      "What stops S-waves but not P-waves?",
+      "Which layer would the waves pass through?"
+    ],
+    "tags": [
+      "seismic-waves",
+      "earth-structure",
+      "outer-core",
+      "geophysics"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "se-c1-011",
+    "moduleId": "science.explorer",
+    "skill": "chemistry-basics",
+    "subSkill": "elements-periodic-table",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.8,
+    "prompt": "An atom has electron configuration 1s2 2s2 2p6 3s2 3p4. Which element and how many valence electrons?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Sulfur (S), 6 valence electrons"
+      },
+      {
+        "key": "B",
+        "text": "Oxygen (O), 6 valence electrons"
+      },
+      {
+        "key": "C",
+        "text": "Chlorine (Cl), 7 valence electrons"
+      },
+      {
+        "key": "D",
+        "text": "Silicon (Si), 4 valence electrons"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Oxygen ends in 2s2 2p4, not 3s2 3p4.",
+      "C": "Chlorine has 3s2 3p5 (7 valence).",
+      "D": "Silicon has 3s2 3p2 (4 valence)."
+    },
+    "explanation": "Total electrons = 2+2+6+2+4 = 16 = Sulfur. Valence: 3s2 3p4 = 6 electrons.",
+    "explanationSteps": [
+      "Total electrons: 2+2+6+2+4 = 16.",
+      "Atomic number 16 = Sulfur (S).",
+      "Valence electrons are in n=3 shell.",
+      "3s2 + 3p4 = 6 valence electrons."
+    ],
+    "hints": [
+      "Count total electrons for atomic number.",
+      "Outermost shell determines valence."
+    ],
+    "tags": [
+      "electron-configuration",
+      "periodic-table",
+      "valence-electrons",
+      "sulfur"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "se-c1-012",
+    "moduleId": "science.explorer",
+    "skill": "environmental-science",
+    "subSkill": "biodiversity",
+    "level": "C1",
+    "questionType": "gap-filling",
+    "difficulty": 0.7,
+    "prompt": "When a species is completely eliminated from Earth, it is called __________. Current rates suggest a __________ extinction event.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "endangered, minor"
+      },
+      {
+        "key": "B",
+        "text": "extinction, mass"
+      },
+      {
+        "key": "C",
+        "text": "threatened, natural"
+      },
+      {
+        "key": "D",
+        "text": "extinct, local"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Endangered means at risk.",
+      "C": "Threatened means likely endangered.",
+      "D": "Extinct globally, not locally."
+    },
+    "explanation": "Extinction means complete species loss. Current rapid loss is called the sixth mass extinction.",
+    "explanationSteps": [
+      "Background rate is the natural loss rate.",
+      "Human activities have accelerated extinction.",
+      "Mass extinction means significant biodiversity loss."
+    ],
+    "hints": [
+      "No living members anywhere on Earth?",
+      "High rate = ___ extinction."
+    ],
+    "tags": [
+      "extinction",
+      "biodiversity",
+      "mass-extinction",
+      "conservation"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "se-c1-013",
+    "moduleId": "science.explorer",
+    "skill": "physical-science",
+    "subSkill": "sound-light",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.8,
+    "prompt": "Light in air: 3.0x10^8 m/s. Light in water: 2.25x10^8 m/s. What is the index of refraction of water?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0.75"
+      },
+      {
+        "key": "B",
+        "text": "1.33"
+      },
+      {
+        "key": "C",
+        "text": "2.25"
+      },
+      {
+        "key": "D",
+        "text": "3.0"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "0.75 is v/c, but n = c/v.",
+      "C": "2.25 is speed in water, not refractive index.",
+      "D": "3.0 is speed in vacuum."
+    },
+    "explanation": "n = c/v = (3.0x10^8)/(2.25x10^8) = 1.33.",
+    "explanationSteps": [
+      "Index of refraction: n = c/v.",
+      "c = 3.0 x 10^8 m/s.",
+      "v = 2.25 x 10^8 m/s.",
+      "n = 3.0/2.25 = 1.33."
+    ],
+    "hints": [
+      "The refractive index is always > 1 for denser materials.",
+      "n = speed in vacuum / speed in medium."
+    ],
+    "tags": [
+      "refraction",
+      "index-of-refraction",
+      "light",
+      "optics",
+      "waves"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "se-c1-014",
+    "moduleId": "science.explorer",
+    "skill": "life-science",
+    "subSkill": "human-body-systems",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.7,
+    "prompt": "A doctor measures blood pressure as 140/90 mmHg. What do the two numbers represent?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Systolic (heart beats) and diastolic (heart rests)"
+      },
+      {
+        "key": "B",
+        "text": "Vein pressure and artery pressure"
+      },
+      {
+        "key": "C",
+        "text": "Heart rate sitting and standing"
+      },
+      {
+        "key": "D",
+        "text": "Oxygen and CO2 levels"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Blood pressure is arterial.",
+      "C": "Heart rate is in bpm, not mmHg.",
+      "D": "Blood pressure does not measure gas levels."
+    },
+    "explanation": "Systolic (140) measures pressure when the heart contracts. Diastolic (90) measures pressure when it rests.",
+    "explanationSteps": [
+      "Systolic: max pressure during contraction.",
+      "Diastolic: min pressure during relaxation.",
+      "Normal is about 120/80.",
+      "140/90 is considered high blood pressure."
+    ],
+    "hints": [
+      "One is working phase, one is resting phase.",
+      "When the heart squeezes vs. fills."
+    ],
+    "tags": [
+      "blood-pressure",
+      "circulatory-system",
+      "systolic",
+      "diastolic",
+      "human-body"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "se-c1-015",
+    "moduleId": "science.explorer",
+    "skill": "environmental-science",
+    "subSkill": "renewable-energy",
+    "level": "C1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.85,
+    "prompt": "A coal power plant produces 500 MW at 35% efficiency. How much waste heat per second?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "175 MJ/s"
+      },
+      {
+        "key": "B",
+        "text": "325 MJ/s"
+      },
+      {
+        "key": "C",
+        "text": "929 MJ/s"
+      },
+      {
+        "key": "D",
+        "text": "500 MJ/s"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "175 = 35% of 500, wrong calculation.",
+      "B": "500 - 175 = 325, wrong reference.",
+      "D": "500 is useful output, not waste."
+    },
+    "explanation": "Efficiency = useful/input. 0.35 = 500/input. Input = 500/0.35 = 1429 MW. Waste = 1429 - 500 = 929 MW = 929 MJ/s.",
+    "explanationSteps": [
+      "Efficiency = Useful / Total input.",
+      "0.35 = 500 / Total. Total = 500/0.35 = 1429 MW.",
+      "Waste = Total - Useful = 1429 - 500 = 929 MW.",
+      "1 MW = 1 MJ/s, so waste = 929 MJ/s."
+    ],
+    "hints": [
+      "Find total energy input first.",
+      "Waste = input - useful output.",
+      "1 MW = 1 megajoule per second."
+    ],
+    "tags": [
+      "energy-efficiency",
+      "power-plants",
+      "waste-heat",
+      "thermodynamics"
+    ],
+    "estimatedTimeSec": 55
+  }
+]

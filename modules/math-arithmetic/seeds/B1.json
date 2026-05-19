@@ -1,0 +1,93 @@
+[
+  {
+    "id": "ma-b1-001",
+    "moduleId": "math.arithmetic",
+    "skill": "multiplication",
+    "subSkill": "multiply-by-2-5-10",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "A box has 6 rows of chairs. Each row has 5 chairs. How many chairs are there in total?",
+    "choices": [
+      { "key": "A", "text": "25" },
+      { "key": "B", "text": "30" },
+      { "key": "C", "text": "35" },
+      { "key": "D", "text": "11" }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "That's 5 × 5. We have 6 rows, not 5.",
+      "C": "That's 7 × 5. Count the rows carefully — there are 6.",
+      "D": "That's 6 + 5 (addition). We need multiplication because there are 6 equal groups of 5."
+    },
+    "explanation": "6 rows × 5 chairs per row = 30 chairs. Multiplication is a shortcut for repeated addition: 5 + 5 + 5 + 5 + 5 + 5 = 30.",
+    "explanationSteps": [
+      "Identify the equal groups: 6 rows, each with 5 chairs.",
+      "Think: 6 groups of 5, written as 6 × 5.",
+      "6 × 5 = 30 (skip count by 5's: 5, 10, 15, 20, 25, 30)."
+    ],
+    "hints": [
+      "This is a multiplication problem: rows × chairs per row.",
+      "Try skip counting by 5's six times."
+    ],
+    "tags": ["multiplication", "word-problem", "arrays"],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "ma-b1-002",
+    "moduleId": "math.arithmetic",
+    "skill": "multiplication",
+    "subSkill": "multiply-by-3-4-6",
+    "level": "B1",
+    "questionType": "gap-filling",
+    "difficulty": 0.4,
+    "prompt": "8 × 7 = _______",
+    "answerKey": "56",
+    "explanation": "8 × 7 = 56. You can think of it as 8 groups of 7, or use the strategy: 8 × 5 = 40, then 8 × 2 = 16, and 40 + 16 = 56.",
+    "explanationSteps": [
+      "Break 7 into 5 + 2.",
+      "8 × 5 = 40, and 8 × 2 = 16.",
+      "Add them together: 40 + 16 = 56."
+    ],
+    "hints": [
+      "Try breaking 7 into 5 and 2: (8 × 5) + (8 × 2).",
+      "8 × 5 = 40, 8 × 2 = 16. Now add them."
+    ],
+    "tags": ["multiplication", "times-tables"],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-b1-003",
+    "moduleId": "math.arithmetic",
+    "skill": "division",
+    "subSkill": "simple-division",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "42 students are divided equally into 6 teams. How many students are on each team?",
+    "choices": [
+      { "key": "A", "text": "6" },
+      { "key": "B", "text": "8" },
+      { "key": "C", "text": "7" },
+      { "key": "D", "text": "9" }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "That's the number of teams. Try 42 ÷ 6.",
+      "B": "8 × 6 = 48, which is too many. Try a smaller number.",
+      "D": "9 × 6 = 54, which is way too many. Check your multiplication."
+    },
+    "explanation": "42 ÷ 6 = 7. When we divide 42 into 6 equal groups, each group gets 7. Check: 7 × 6 = 42.",
+    "explanationSteps": [
+      "We need to split 42 into 6 equal groups.",
+      "Use multiplication to help: what number × 6 = 42?",
+      "7 × 6 = 42, so 42 ÷ 6 = 7."
+    ],
+    "hints": [
+      "What number times 6 equals 42?",
+      "Try counting by 6's until you reach 42: 6, 12, 18, 24, 30, 36, 42."
+    ],
+    "tags": ["division", "word-problem", "equal-groups"],
+    "estimatedTimeSec": 40
+  }
+]

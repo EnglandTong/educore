@@ -1,0 +1,1504 @@
+[
+  {
+    "id": "er-a1-001",
+    "moduleId": "english.reading",
+    "skill": "phonics-decoding",
+    "subSkill": "letter-sounds",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.1,
+    "prompt": "Which word starts with the same sound as 'cat'?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "dog"
+      },
+      {
+        "key": "B",
+        "text": "car"
+      },
+      {
+        "key": "C",
+        "text": "fish"
+      },
+      {
+        "key": "D",
+        "text": "ball"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Dog' starts with /d/, not /k/. Listen to the first sound.",
+      "C": "'Fish' starts with /f/. Say 'cat' and 'fish' — do they start the same?",
+      "D": "'Ball' starts with /b/. The word 'cat' starts with /k/."
+    },
+    "explanation": "'Cat' and 'car' both start with the letter 'c' which makes the /k/ sound.",
+    "explanationSteps": [
+      "Say the word 'cat' slowly.",
+      "Listen to the first sound: /k/.",
+      "Find another word that starts with the same sound."
+    ],
+    "hints": [
+      "Say each word out loud.",
+      "Focus on the very first sound, not the spelling."
+    ],
+    "tags": [
+      "phonics",
+      "beginning-sounds",
+      "letter-c"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "er-a1-002",
+    "moduleId": "english.reading",
+    "skill": "phonics-decoding",
+    "subSkill": "letter-sounds",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.15,
+    "prompt": "Which word starts with the same sound as 'sun'?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "top"
+      },
+      {
+        "key": "B",
+        "text": "run"
+      },
+      {
+        "key": "C",
+        "text": "sad"
+      },
+      {
+        "key": "D",
+        "text": "mop"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "'Top' starts with /t/. Listen to the first sound of 'sun'.",
+      "B": "'Run' starts with /r/. Say 'sun' then 'run' — the first sounds are different.",
+      "D": "'Mop' starts with /m/. Keep listening for the /s/ sound."
+    },
+    "explanation": "'Sun' and 'sad' both start with the letter 's' which makes the /s/ sound.",
+    "explanationSteps": [
+      "Say the word 'sun' out loud.",
+      "Hear the /s/ at the beginning.",
+      "Find the word that also starts with /s/."
+    ],
+    "hints": [
+      "Make the first sound of 'sun': ssssss.",
+      "Now say each choice and listen for the same sound."
+    ],
+    "tags": [
+      "phonics",
+      "beginning-sounds",
+      "letter-s"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "er-a1-003",
+    "moduleId": "english.reading",
+    "skill": "phonics-decoding",
+    "subSkill": "letter-sounds",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "Which word ends with the same sound as 'bed'?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "bat"
+      },
+      {
+        "key": "B",
+        "text": "red"
+      },
+      {
+        "key": "C",
+        "text": "bell"
+      },
+      {
+        "key": "D",
+        "text": "bus"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Bat' ends with /t/. 'Bed' ends with /d/.",
+      "C": "'Bell' ends with /l/. Listen to how 'bed' ends.",
+      "D": "'Bus' ends with /s/. The word 'bed' ends with /d/."
+    },
+    "explanation": "'Bed' and 'red' rhyme! They both end with the /ed/ sound.",
+    "explanationSteps": [
+      "Say the word 'bed' and hold the last sound.",
+      "Notice that it ends with /d/.",
+      "Find the other word that ends the same way."
+    ],
+    "hints": [
+      "Say 'bed' and listen to the ending.",
+      "Now say each choice and compare the endings."
+    ],
+    "tags": [
+      "phonics",
+      "ending-sounds",
+      "rhyming"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "er-a1-004",
+    "moduleId": "english.reading",
+    "skill": "phonics-decoding",
+    "subSkill": "blending",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.15,
+    "prompt": "What word do these sounds make: /m/ /a/ /t/?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "map"
+      },
+      {
+        "key": "B",
+        "text": "mat"
+      },
+      {
+        "key": "C",
+        "text": "met"
+      },
+      {
+        "key": "D",
+        "text": "mit"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Map' ends with /p/. Listen again: /m/ /a/ /t/.",
+      "C": "'Met' has /e/ in the middle. The sounds we gave have /a/.",
+      "D": "'Mit' has /i/ in the middle. The sounds we gave have /a/."
+    },
+    "explanation": "When you put /m/ + /a/ + /t/ together, you get 'mat'!",
+    "explanationSteps": [
+      "Say each sound one by one: /m/ ... /a/ ... /t/.",
+      "Push the sounds closer together: /m/ /a/ /t/.",
+      "Blend them smoothly: 'mat'."
+    ],
+    "hints": [
+      "Say the three sounds faster and faster.",
+      "What word do you get when you say them all together?"
+    ],
+    "tags": [
+      "phonics",
+      "blending",
+      "cvc-words"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a1-005",
+    "moduleId": "english.reading",
+    "skill": "phonics-decoding",
+    "subSkill": "blending",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "What word do these sounds make: /p/ /i/ /g/?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "pig"
+      },
+      {
+        "key": "B",
+        "text": "peg"
+      },
+      {
+        "key": "C",
+        "text": "pin"
+      },
+      {
+        "key": "D",
+        "text": "big"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "'Peg' has /e/ not /i/ in the middle.",
+      "C": "'Pin' ends with /n/, not /g/.",
+      "D": "'Big' starts with /b/, not /p/."
+    },
+    "explanation": "/p/ + /i/ + /g/ blend together to make the word 'pig'!",
+    "explanationSteps": [
+      "Say /p/ /i/ /g/ slowly.",
+      "Blend them together: ppp-iii-ggg.",
+      "Say the whole word: pig!"
+    ],
+    "hints": [
+      "Think of a farm animal that goes 'oink'.",
+      "Blend the sounds: p...i...g."
+    ],
+    "tags": [
+      "phonics",
+      "blending",
+      "cvc-words"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a1-006",
+    "moduleId": "english.reading",
+    "skill": "phonics-decoding",
+    "subSkill": "digraphs",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "Which word has the 'sh' sound at the beginning?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "sun"
+      },
+      {
+        "key": "B",
+        "text": "ship"
+      },
+      {
+        "key": "C",
+        "text": "tap"
+      },
+      {
+        "key": "D",
+        "text": "chip"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Sun' starts with /s/, not 'sh'. Try making the 'sh' sound.",
+      "C": "'Tap' starts with /t/. The 'sh' sound is made by s and h together.",
+      "D": "'Chip' starts with 'ch', not 'sh'. Feel where your tongue is for each sound."
+    },
+    "explanation": "'Ship' starts with the 'sh' sound. The letters 's' and 'h' together make the /sh/ sound.",
+    "explanationSteps": [
+      "Make the 'sh' sound like telling someone to be quiet: 'shhh'.",
+      "Say 'ship' and feel the 'sh' at the start.",
+      "Notice that 'sh' is two letters making one sound."
+    ],
+    "hints": [
+      "Put your finger to your lips and say 'shhh'.",
+      "Which word starts with that quiet sound?"
+    ],
+    "tags": [
+      "phonics",
+      "digraphs",
+      "sh-sound"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a1-007",
+    "moduleId": "english.reading",
+    "skill": "phonics-decoding",
+    "subSkill": "digraphs",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "Which word has the 'ch' sound at the end?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "cat"
+      },
+      {
+        "key": "B",
+        "text": "much"
+      },
+      {
+        "key": "C",
+        "text": "shop"
+      },
+      {
+        "key": "D",
+        "text": "cake"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Cat' ends with /t/, not 'ch'.",
+      "C": "'Shop' starts with 'sh', not 'ch'. And it ends with /p/.",
+      "D": "'Cake' ends with /k/. Listen for the 'ch' sound at the end."
+    },
+    "explanation": "'Much' ends with the 'ch' sound like in 'lunch' or 'rich'.",
+    "explanationSteps": [
+      "Say 'much' slowly and listen to the ending.",
+      "The 'ch' sound is like a tiny train: ch-ch-ch.",
+      "Find the word that ends with that train sound."
+    ],
+    "hints": [
+      "Think of the sound a train makes: ch-ch-ch.",
+      "Which word ends with that sound?"
+    ],
+    "tags": [
+      "phonics",
+      "digraphs",
+      "ch-sound"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a1-008",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "context-clues",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.15,
+    "prompt": "I drink milk from a ________.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "plate"
+      },
+      {
+        "key": "B",
+        "text": "cup"
+      },
+      {
+        "key": "C",
+        "text": "book"
+      },
+      {
+        "key": "D",
+        "text": "shoe"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "We eat food from a plate. We don't usually drink milk from a plate.",
+      "C": "We read a book. You cannot drink milk from a book.",
+      "D": "We wear shoes on our feet. You cannot drink from a shoe."
+    },
+    "explanation": "We use a cup to drink milk. A cup holds liquids like milk and water.",
+    "explanationSteps": [
+      "Think about what you do with milk: you drink it.",
+      "What do you use to drink from?",
+      "A cup is perfect for drinking milk!"
+    ],
+    "hints": [
+      "What do you put in your hand when you want a drink?",
+      "Think about breakfast time."
+    ],
+    "tags": [
+      "vocabulary",
+      "context-clues",
+      "everyday-objects"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "er-a1-009",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "context-clues",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "The bird lives in a ________.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "car"
+      },
+      {
+        "key": "B",
+        "text": "nest"
+      },
+      {
+        "key": "C",
+        "text": "box"
+      },
+      {
+        "key": "D",
+        "text": "hat"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Birds do not live in cars. Birds fly and live outside.",
+      "C": "A bird might sit on a box, but that is not its home.",
+      "D": "A hat is for wearing on your head, not for a bird to live in."
+    },
+    "explanation": "A bird lives in a nest. A nest is a little home that a bird makes in a tree.",
+    "explanationSteps": [
+      "Think about where birds sleep and keep their eggs.",
+      "Birds build their homes with twigs and grass.",
+      "That home is called a nest."
+    ],
+    "hints": [
+      "Where do baby birds grow up?",
+      "Think about what you see in a tree."
+    ],
+    "tags": [
+      "vocabulary",
+      "context-clues",
+      "animals"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "er-a1-010",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "synonyms-antonyms",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "Which word means the same as 'big'?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "small"
+      },
+      {
+        "key": "B",
+        "text": "fast"
+      },
+      {
+        "key": "C",
+        "text": "large"
+      },
+      {
+        "key": "D",
+        "text": "cold"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "'Small' is the opposite of 'big'. We call that an antonym.",
+      "B": "'Fast' is about speed, not size.",
+      "D": "'Cold' is about temperature, not size."
+    },
+    "explanation": "'Big' and 'large' mean the same thing. They are synonyms — words that mean the same.",
+    "explanationSteps": [
+      "Think about what 'big' means: something with a lot of space.",
+      "'Large' also means something with a lot of space.",
+      "Words that mean the same are called synonyms."
+    ],
+    "hints": [
+      "Think of a word that describes an elephant.",
+      "'Big' and this word are the same."
+    ],
+    "tags": [
+      "vocabulary",
+      "synonyms",
+      "size-words"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "er-a1-011",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "synonyms-antonyms",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "Which word means the opposite of 'hot'?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "warm"
+      },
+      {
+        "key": "B",
+        "text": "cold"
+      },
+      {
+        "key": "C",
+        "text": "sunny"
+      },
+      {
+        "key": "D",
+        "text": "fast"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Warm' is a little hot, not the opposite. Think of ice.",
+      "C": "'Sunny' is about having sunshine, not temperature.",
+      "D": "'Fast' is about speed. 'Hot' is about temperature."
+    },
+    "explanation": "'Hot' and 'cold' are opposites. Ice cream is cold, soup is hot.",
+    "explanationSteps": [
+      "Think of something very hot, like fire.",
+      "Now think of the opposite — something very cold, like ice.",
+      "That opposite word is 'cold'."
+    ],
+    "hints": [
+      "If hot is like a sunny summer day, what is like a snowy winter day?",
+      "Think about temperature words."
+    ],
+    "tags": [
+      "vocabulary",
+      "antonyms",
+      "temperature-words"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "er-a1-012",
+    "moduleId": "english.reading",
+    "skill": "phonics-decoding",
+    "subSkill": "vowel-patterns",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "Which word has the short 'a' sound, like in 'apple'?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "cake"
+      },
+      {
+        "key": "B",
+        "text": "cat"
+      },
+      {
+        "key": "C",
+        "text": "lake"
+      },
+      {
+        "key": "D",
+        "text": "came"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Cake' has a long 'a' sound. The 'e' at the end makes the 'a' say its name.",
+      "C": "'Lake' has a long 'a' sound, just like 'cake'.",
+      "D": "'Came' also has a long 'a'. Listen for the short 'a' in 'apple'."
+    },
+    "explanation": "'Cat' has the short 'a' sound, just like in 'apple'. Short 'a' says /a/ not /ay/.",
+    "explanationSteps": [
+      "Say 'apple'. Hear the short /a/ at the start.",
+      "Say 'cat'. It has the same short /a/ in the middle.",
+      "Words like 'cake' have a long 'a' that says its name."
+    ],
+    "hints": [
+      "Short 'a' sounds like the 'a' in 'apple'.",
+      "Is the 'a' in the word saying its name or making a quick sound?"
+    ],
+    "tags": [
+      "phonics",
+      "vowel-patterns",
+      "short-vowels"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a1-013",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "context-clues",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.15,
+    "prompt": "The sky is ________ during the day.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "blue"
+      },
+      {
+        "key": "B",
+        "text": "green"
+      },
+      {
+        "key": "C",
+        "text": "red"
+      },
+      {
+        "key": "D",
+        "text": "black"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Grass is green, not the sky.",
+      "C": "The sky is not red during the day, except maybe at sunset.",
+      "D": "The sky is black at night, not during the day."
+    },
+    "explanation": "During the day, the sky looks blue. At night, it turns black.",
+    "explanationSteps": [
+      "Look up at the sky during the day.",
+      "What color do you see? It is blue!",
+      "At night it looks dark or black."
+    ],
+    "hints": [
+      "What color is the sky when you go outside to play?",
+      "Think about a sunny day."
+    ],
+    "tags": [
+      "vocabulary",
+      "context-clues",
+      "colors",
+      "nature"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "er-a1-014",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "homophones",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "Which word fits in this sentence? 'I ________ a red balloon.'",
+    "choices": [
+      {
+        "key": "A",
+        "text": "sea"
+      },
+      {
+        "key": "B",
+        "text": "see"
+      },
+      {
+        "key": "C",
+        "text": "saw"
+      },
+      {
+        "key": "D",
+        "text": "seem"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Sea' means the ocean. The sentence needs a word about looking.",
+      "C": "'Saw' means you already looked. The sentence says 'I ____ a red balloon' — this could work too, but 'see' fits better as present tense.",
+      "D": "'Seem' means appear to be. It does not mean to look with your eyes."
+    },
+    "explanation": "'See' means to look with your eyes. 'Sea' sounds the same but means the ocean.",
+    "explanationSteps": [
+      "The sentence is about looking at a balloon.",
+      "You look with your eyes — that is 'see'.",
+      "'Sea' sounds the same but means the big ocean."
+    ],
+    "hints": [
+      "Does the sentence mean looking or the ocean?",
+      "These two words sound the same but mean different things."
+    ],
+    "tags": [
+      "vocabulary",
+      "homophones",
+      "see-sea"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a1-015",
+    "moduleId": "english.reading",
+    "skill": "phonics-decoding",
+    "subSkill": "syllable-rules",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "How many syllables (beats) does the word 'elephant' have?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Try clapping for 'elephant'. One clap is not enough!",
+      "B": "Clap again: el-e-phant. There are more than 2 beats.",
+      "D": "Great guess, but 'elephant' has fewer than 4 beats. Try clapping it out."
+    },
+    "explanation": "'El-e-phant' has three syllables. You can clap three times when you say it.",
+    "explanationSteps": [
+      "Put your hand under your chin.",
+      "Say 'elephant' slowly.",
+      "Count how many times your chin drops: that is the syllables."
+    ],
+    "hints": [
+      "Clap your hands as you say the word slowly.",
+      "Each time your chin drops is one syllable."
+    ],
+    "tags": [
+      "phonics",
+      "syllables",
+      "multi-syllable-words"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a1-001",
+    "moduleId": "english.reading",
+    "skill": "phonics-decoding",
+    "subSkill": "letter-sounds",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.1,
+    "prompt": "Which word starts with the same sound as cat?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "dog"
+      },
+      {
+        "key": "B",
+        "text": "car"
+      },
+      {
+        "key": "C",
+        "text": "fish"
+      },
+      {
+        "key": "D",
+        "text": "ball"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Dog starts with /d/, not /k/.",
+      "C": "Fish starts with /f/.",
+      "D": "Ball starts with /b/."
+    },
+    "explanation": "Cat and car both start with /k/.",
+    "explanationSteps": [
+      "Say cat slowly.",
+      "Listen to /k/.",
+      "Find another /k/ word."
+    ],
+    "hints": [
+      "Say each word.",
+      "Focus on first sound."
+    ],
+    "tags": [
+      "phonics",
+      "beginning-sounds",
+      "letter-c"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "er-a1-002",
+    "moduleId": "english.reading",
+    "skill": "phonics-decoding",
+    "subSkill": "letter-sounds",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.15,
+    "prompt": "Which word starts with the same sound as sun?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "top"
+      },
+      {
+        "key": "B",
+        "text": "run"
+      },
+      {
+        "key": "C",
+        "text": "sad"
+      },
+      {
+        "key": "D",
+        "text": "mop"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Top starts with /t/.",
+      "B": "Run starts with /r/.",
+      "D": "Mop starts with /m/."
+    },
+    "explanation": "Sun and sad both start with /s/.",
+    "explanationSteps": [
+      "Say sun.",
+      "Hear the /s/.",
+      "Find another /s/ word."
+    ],
+    "hints": [
+      "Make the sss sound.",
+      "Say each choice."
+    ],
+    "tags": [
+      "phonics",
+      "beginning-sounds",
+      "letter-s"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "er-a1-003",
+    "moduleId": "english.reading",
+    "skill": "phonics-decoding",
+    "subSkill": "letter-sounds",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "Which word ends with the same sound as bed?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "bat"
+      },
+      {
+        "key": "B",
+        "text": "red"
+      },
+      {
+        "key": "C",
+        "text": "bell"
+      },
+      {
+        "key": "D",
+        "text": "bus"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Bat ends with /t/.",
+      "C": "Bell ends with /l/.",
+      "D": "Bus ends with /s/."
+    },
+    "explanation": "Bed and red rhyme!",
+    "explanationSteps": [
+      "Say bed.",
+      "Notice the ending /d/.",
+      "Find the matching word."
+    ],
+    "hints": [
+      "Say bed.",
+      "Say each choice."
+    ],
+    "tags": [
+      "phonics",
+      "ending-sounds",
+      "rhyming"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "er-a1-004",
+    "moduleId": "english.reading",
+    "skill": "phonics-decoding",
+    "subSkill": "blending",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.15,
+    "prompt": "What word do these sounds make: /m/ /a/ /t/?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "map"
+      },
+      {
+        "key": "B",
+        "text": "mat"
+      },
+      {
+        "key": "C",
+        "text": "met"
+      },
+      {
+        "key": "D",
+        "text": "mit"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Map ends with /p/.",
+      "C": "Met has /e/.",
+      "D": "Mit has /i/."
+    },
+    "explanation": "/m/ + /a/ + /t/ = mat!",
+    "explanationSteps": [
+      "Say /m/ /a/ /t/.",
+      "Push them together.",
+      "Blend: mat."
+    ],
+    "hints": [
+      "Say faster.",
+      "What word?"
+    ],
+    "tags": [
+      "phonics",
+      "blending",
+      "cvc-words"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a1-005",
+    "moduleId": "english.reading",
+    "skill": "phonics-decoding",
+    "subSkill": "blending",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "What word do these sounds make: /p/ /i/ /g/?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "pig"
+      },
+      {
+        "key": "B",
+        "text": "peg"
+      },
+      {
+        "key": "C",
+        "text": "pin"
+      },
+      {
+        "key": "D",
+        "text": "big"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Peg has /e/.",
+      "C": "Pin ends with /n/.",
+      "D": "Big starts with /b/."
+    },
+    "explanation": "/p/ + /i/ + /g/ = pig!",
+    "explanationSteps": [
+      "Say /p/ /i/ /g/.",
+      "Blend them.",
+      "Say pig!"
+    ],
+    "hints": [
+      "Think of a farm animal.",
+      "Blend: p...i...g."
+    ],
+    "tags": [
+      "phonics",
+      "blending",
+      "cvc-words"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a1-006",
+    "moduleId": "english.reading",
+    "skill": "phonics-decoding",
+    "subSkill": "digraphs",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "Which word has the sh sound at the beginning?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "sun"
+      },
+      {
+        "key": "B",
+        "text": "ship"
+      },
+      {
+        "key": "C",
+        "text": "tap"
+      },
+      {
+        "key": "D",
+        "text": "chip"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Sun starts with /s/.",
+      "C": "Tap starts with /t/.",
+      "D": "Chip starts with ch."
+    },
+    "explanation": "Ship starts with the sh sound.",
+    "explanationSteps": [
+      "Make the sh sound.",
+      "Say ship.",
+      "Feel the sh at the start."
+    ],
+    "hints": [
+      "Put finger to lips.",
+      "Say shhh."
+    ],
+    "tags": [
+      "phonics",
+      "digraphs",
+      "sh-sound"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a1-007",
+    "moduleId": "english.reading",
+    "skill": "phonics-decoding",
+    "subSkill": "digraphs",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "Which word has the ch sound at the end?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "cat"
+      },
+      {
+        "key": "B",
+        "text": "much"
+      },
+      {
+        "key": "C",
+        "text": "shop"
+      },
+      {
+        "key": "D",
+        "text": "cake"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Cat ends with /t/.",
+      "C": "Shop starts with sh.",
+      "D": "Cake ends with /k/."
+    },
+    "explanation": "Much ends with the ch sound.",
+    "explanationSteps": [
+      "Say much slowly.",
+      "Listen to the ending.",
+      "The ch sound."
+    ],
+    "hints": [
+      "Think of a train.",
+      "Ch-ch-ch."
+    ],
+    "tags": [
+      "phonics",
+      "digraphs",
+      "ch-sound"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a1-008",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "context-clues",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.15,
+    "prompt": "I drink milk from a ________.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "plate"
+      },
+      {
+        "key": "B",
+        "text": "cup"
+      },
+      {
+        "key": "C",
+        "text": "book"
+      },
+      {
+        "key": "D",
+        "text": "shoe"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "We eat from plates.",
+      "C": "We read books.",
+      "D": "We wear shoes."
+    },
+    "explanation": "We use a cup to drink milk.",
+    "explanationSteps": [
+      "Think about drinking.",
+      "What holds liquid?",
+      "A cup!"
+    ],
+    "hints": [
+      "What do you drink from?",
+      "Think breakfast time."
+    ],
+    "tags": [
+      "vocabulary",
+      "context-clues",
+      "everyday-objects"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "er-a1-009",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "context-clues",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "The bird lives in a ________.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "car"
+      },
+      {
+        "key": "B",
+        "text": "nest"
+      },
+      {
+        "key": "C",
+        "text": "box"
+      },
+      {
+        "key": "D",
+        "text": "hat"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Cars are for driving.",
+      "C": "Boxes hold things.",
+      "D": "Hats are for wearing."
+    },
+    "explanation": "A bird lives in a nest.",
+    "explanationSteps": [
+      "Where do birds sleep?",
+      "They build homes in trees.",
+      "That home is a nest."
+    ],
+    "hints": [
+      "Where do baby birds grow?",
+      "Think about trees."
+    ],
+    "tags": [
+      "vocabulary",
+      "context-clues",
+      "animals"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "er-a1-010",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "synonyms-antonyms",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "Which word means the same as big?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "small"
+      },
+      {
+        "key": "B",
+        "text": "fast"
+      },
+      {
+        "key": "C",
+        "text": "large"
+      },
+      {
+        "key": "D",
+        "text": "cold"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Small is opposite.",
+      "B": "Fast is speed.",
+      "D": "Cold is temperature."
+    },
+    "explanation": "Big and large are synonyms.",
+    "explanationSteps": [
+      "Think of big.",
+      "Large means the same.",
+      "These are synonyms."
+    ],
+    "hints": [
+      "Think of an elephant.",
+      "Big and this word are the same."
+    ],
+    "tags": [
+      "vocabulary",
+      "synonyms",
+      "size-words"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "er-a1-011",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "synonyms-antonyms",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "Which word means the opposite of hot?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "warm"
+      },
+      {
+        "key": "B",
+        "text": "cold"
+      },
+      {
+        "key": "C",
+        "text": "sunny"
+      },
+      {
+        "key": "D",
+        "text": "fast"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Warm is a little hot.",
+      "C": "Sunny is sunshine.",
+      "D": "Fast is speed."
+    },
+    "explanation": "Hot and cold are opposites.",
+    "explanationSteps": [
+      "Think of fire.",
+      "Think of ice.",
+      "They are opposites."
+    ],
+    "hints": [
+      "Hot = summer.",
+      "Cold = winter."
+    ],
+    "tags": [
+      "vocabulary",
+      "antonyms",
+      "temperature-words"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "er-a1-012",
+    "moduleId": "english.reading",
+    "skill": "phonics-decoding",
+    "subSkill": "vowel-patterns",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "Which word has the short a sound, like in apple?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "cake"
+      },
+      {
+        "key": "B",
+        "text": "cat"
+      },
+      {
+        "key": "C",
+        "text": "lake"
+      },
+      {
+        "key": "D",
+        "text": "came"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Cake has long a.",
+      "C": "Lake has long a.",
+      "D": "Came has long a."
+    },
+    "explanation": "Cat has the short a sound.",
+    "explanationSteps": [
+      "Say apple.",
+      "Short a: /a/.",
+      "Cat has short a too."
+    ],
+    "hints": [
+      "Short a like apple.",
+      "Is it short or long?"
+    ],
+    "tags": [
+      "phonics",
+      "vowel-patterns",
+      "short-vowels"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a1-013",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "context-clues",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.15,
+    "prompt": "The sky is ________ during the day.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "blue"
+      },
+      {
+        "key": "B",
+        "text": "green"
+      },
+      {
+        "key": "C",
+        "text": "red"
+      },
+      {
+        "key": "D",
+        "text": "black"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Grass is green.",
+      "C": "Sky is red at sunset.",
+      "D": "Sky is black at night."
+    },
+    "explanation": "The sky looks blue during the day.",
+    "explanationSteps": [
+      "Look up at the sky.",
+      "It is blue!",
+      "At night it is black."
+    ],
+    "hints": [
+      "What color is the sky?",
+      "Think of a sunny day."
+    ],
+    "tags": [
+      "vocabulary",
+      "context-clues",
+      "colors",
+      "nature"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "er-a1-014",
+    "moduleId": "english.reading",
+    "skill": "vocabulary",
+    "subSkill": "homophones",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "Which word fits? I ________ a red balloon.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "sea"
+      },
+      {
+        "key": "B",
+        "text": "see"
+      },
+      {
+        "key": "C",
+        "text": "saw"
+      },
+      {
+        "key": "D",
+        "text": "seem"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Sea = ocean.",
+      "C": "Saw = past tense.",
+      "D": "Seem = appear."
+    },
+    "explanation": "See means to look. Sea sounds the same.",
+    "explanationSteps": [
+      "See = look with eyes.",
+      "Sea = big ocean.",
+      "Same sound, different meaning."
+    ],
+    "hints": [
+      "Is it looking or ocean?",
+      "They sound the same."
+    ],
+    "tags": [
+      "vocabulary",
+      "homophones",
+      "see-sea"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "er-a1-015",
+    "moduleId": "english.reading",
+    "skill": "phonics-decoding",
+    "subSkill": "syllable-rules",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "How many syllables in elephant?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "One clap is not enough.",
+      "B": "There are more than 2.",
+      "D": "Fewer than 4."
+    },
+    "explanation": "El-e-phant has three syllables.",
+    "explanationSteps": [
+      "Put hand under chin.",
+      "Say elephant slowly.",
+      "Count chin drops: 3."
+    ],
+    "hints": [
+      "Clap as you say it.",
+      "Each chin drop = one syllable."
+    ],
+    "tags": [
+      "phonics",
+      "syllables",
+      "multi-syllable-words"
+    ],
+    "estimatedTimeSec": 25
+  }
+]

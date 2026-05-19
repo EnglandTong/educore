@@ -1,0 +1,1985 @@
+[
+  {
+    "id": "ma-alg-a2-001",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "evaluating-expressions",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "If x = 4, what is 3x + 5?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "17"
+      },
+      {
+        "key": "C",
+        "text": "20"
+      },
+      {
+        "key": "D",
+        "text": "27"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "That's only 3x. Don't forget to add 5.",
+      "C": "Check your multiplication. 3 × 4 = 12, then 12 + 5 = 17.",
+      "D": "That looks like 3 × (4 + 5). Remember the order: multiply first."
+    },
+    "explanation": "3x means 3 × x. With x = 4: 3(4) + 5 = 12 + 5 = 17.",
+    "explanationSteps": [
+      "Replace x with 4: 3(4) + 5.",
+      "Multiply: 3 × 4 = 12.",
+      "Add: 12 + 5 = 17."
+    ],
+    "hints": [
+      "What does 3x mean?",
+      "What is 3 times 4?",
+      "Now add 5."
+    ],
+    "tags": [
+      "variables",
+      "evaluation",
+      "multiplication"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a2-002",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "evaluating-expressions",
+    "level": "A2",
+    "questionType": "gap-filling",
+    "difficulty": 0.3,
+    "prompt": "If y = 10, what is 2y - 3?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "14"
+      },
+      {
+        "key": "C",
+        "text": "17"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "You subtracted 3 from 10, but remember 2y means 2 × y first.",
+      "B": "That's 2y, but don't forget to subtract 3.",
+      "D": "That's just y + 10. Compute 2 × 10 - 3 = 20 - 3 = 17."
+    },
+    "explanation": "Replace y with 10: 2(10) - 3 = 20 - 3 = 17.",
+    "explanationSteps": [
+      "Substitute y = 10: 2 × 10 - 3.",
+      "Multiply: 20 - 3.",
+      "Subtract: 17."
+    ],
+    "hints": [
+      "What is 2 × 10?",
+      "Now subtract 3 from that."
+    ],
+    "tags": [
+      "variables",
+      "evaluation",
+      "subtraction"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a2-003",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "writing-expressions",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "Which expression represents '6 more than twice a number n'?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2n + 6"
+      },
+      {
+        "key": "B",
+        "text": "6n + 2"
+      },
+      {
+        "key": "C",
+        "text": "2(n + 6)"
+      },
+      {
+        "key": "D",
+        "text": "n + 6 + 2"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "This means '2 more than 6 times n', not '6 more than twice n'.",
+      "C": "This means 'twice the sum of n and 6', which is different.",
+      "D": "This just means n + 8. We need twice n first, then add 6."
+    },
+    "explanation": "'Twice a number n' is 2n. '6 more than' means add 6. Together: 2n + 6.",
+    "explanationSteps": [
+      "'Twice a number n' means 2 × n = 2n.",
+      "'6 more than' means add 6.",
+      "Combine: 2n + 6."
+    ],
+    "hints": [
+      "What does 'twice a number' mean?",
+      "What operation does 'more than' tell you to use?"
+    ],
+    "tags": [
+      "variables",
+      "writing-expressions",
+      "translation"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a2-004",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "like-terms",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "Simplify: 3x + 2x",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5x"
+      },
+      {
+        "key": "B",
+        "text": "6x"
+      },
+      {
+        "key": "C",
+        "text": "5x²"
+      },
+      {
+        "key": "D",
+        "text": "x + 5"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "3x + 2x = 5x, not 6x. Check your addition.",
+      "C": "The x doesn't become squared. We just add the coefficients: 3 + 2 = 5.",
+      "D": "We keep the variable x. 3x + 2x = (3 + 2)x = 5x."
+    },
+    "explanation": "Both terms have the same variable x. Add the coefficients: 3 + 2 = 5, so 3x + 2x = 5x.",
+    "explanationSteps": [
+      "Identify like terms: both have x.",
+      "Add coefficients: 3 + 2 = 5.",
+      "Keep the variable: 5x."
+    ],
+    "hints": [
+      "What do 3x and 2x have in common?",
+      "Add the numbers in front of x."
+    ],
+    "tags": [
+      "like-terms",
+      "simplification",
+      "coefficients"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a2-005",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "like-terms",
+    "level": "A2",
+    "questionType": "gap-filling",
+    "difficulty": 0.4,
+    "prompt": "Simplify: 4a + 3b + 2a + b",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6a + 4b"
+      },
+      {
+        "key": "B",
+        "text": "6a + 3b"
+      },
+      {
+        "key": "C",
+        "text": "4a + 6b"
+      },
+      {
+        "key": "D",
+        "text": "10ab"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Check the b terms: 3b + b = 3b + 1b = 4b, not 3b.",
+      "C": "Check the a terms: 4a + 2a = 6a, not 4a.",
+      "D": "a and b are different variables. You can't combine them into ab."
+    },
+    "explanation": "Group a terms: 4a + 2a = 6a. Group b terms: 3b + b = 4b. Result: 6a + 4b.",
+    "explanationSteps": [
+      "Group like terms: (4a + 2a) + (3b + b).",
+      "Add a coefficients: 4 + 2 = 6a.",
+      "Add b coefficients: 3 + 1 = 4b.",
+      "Combine: 6a + 4b."
+    ],
+    "hints": [
+      "Which terms have 'a'? Add those together.",
+      "Which terms have 'b'? Add those together.",
+      "Remember that b is the same as 1b."
+    ],
+    "tags": [
+      "like-terms",
+      "simplification",
+      "multiple-variables"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "ma-alg-a2-006",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "evaluating-expressions",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "Evaluate 4(x + 3) when x = 5.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "23"
+      },
+      {
+        "key": "B",
+        "text": "32"
+      },
+      {
+        "key": "C",
+        "text": "20"
+      },
+      {
+        "key": "D",
+        "text": "17"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Check your arithmetic. 4 × (5 + 3) = 4 × 8, not 4 × 5 + 3.",
+      "C": "Don't forget to add inside the parentheses first: 5 + 3 = 8, then 4 × 8 = 32.",
+      "D": "You may have done 4 × 5 - 3. Try 4(5 + 3) = 4 × 8 = 32."
+    },
+    "explanation": "Substitute x = 5: 4(5 + 3) = 4 × 8 = 32.",
+    "explanationSteps": [
+      "Substitute x = 5: 4(5 + 3).",
+      "Add inside parentheses: 5 + 3 = 8.",
+      "Multiply: 4 × 8 = 32."
+    ],
+    "hints": [
+      "What is inside the parentheses first?",
+      "Add before multiplying."
+    ],
+    "tags": [
+      "variables",
+      "evaluation",
+      "parentheses"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a2-007",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "writing-expressions",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "A rectangle has length L and width 5. Which expression represents its perimeter?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "L + 5"
+      },
+      {
+        "key": "B",
+        "text": "L × 5"
+      },
+      {
+        "key": "C",
+        "text": "2L + 10"
+      },
+      {
+        "key": "D",
+        "text": "2L + 5"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "That's just one side plus width. Perimeter is the sum of all sides.",
+      "B": "That's area, not perimeter. Perimeter = 2 × length + 2 × width.",
+      "D": "Almost! Width is 5, so both widths together = 2 × 5 = 10."
+    },
+    "explanation": "Perimeter = 2 × length + 2 × width = 2L + 2(5) = 2L + 10.",
+    "explanationSteps": [
+      "Perimeter formula: P = 2L + 2W.",
+      "Width is 5, so 2 × 5 = 10.",
+      "Expression: 2L + 10."
+    ],
+    "hints": [
+      "How many sides does a rectangle have?",
+      "What is the formula for perimeter?"
+    ],
+    "tags": [
+      "variables",
+      "writing-expressions",
+      "geometry"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "ma-alg-a2-008",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "like-terms",
+    "level": "A2",
+    "questionType": "gap-filling",
+    "difficulty": 0.45,
+    "prompt": "Simplify: 5x + 3 - 2x + 7",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3x + 10"
+      },
+      {
+        "key": "B",
+        "text": "7x + 10"
+      },
+      {
+        "key": "C",
+        "text": "3x + 4"
+      },
+      {
+        "key": "D",
+        "text": "7x + 4"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Check the x terms: 5x - 2x = 3x, not 7x.",
+      "C": "Check the constants: 3 + 7 = 10, not 4.",
+      "D": "Both terms are wrong. 5x - 2x = 3x and 3 + 7 = 10."
+    },
+    "explanation": "Group x terms: 5x - 2x = 3x. Group constants: 3 + 7 = 10. Result: 3x + 10.",
+    "explanationSteps": [
+      "Group x terms: 5x - 2x.",
+      "Subtract coefficients: 5 - 2 = 3x.",
+      "Group constants: 3 + 7 = 10.",
+      "Combine: 3x + 10."
+    ],
+    "hints": [
+      "Combine the x terms first: 5x - 2x.",
+      "Then combine the plain numbers: 3 + 7."
+    ],
+    "tags": [
+      "like-terms",
+      "simplification",
+      "constants"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "ma-alg-a2-009",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "evaluating-expressions",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "If a = 3 and b = 4, what is a² + b?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "9"
+      },
+      {
+        "key": "B",
+        "text": "13"
+      },
+      {
+        "key": "C",
+        "text": "16"
+      },
+      {
+        "key": "D",
+        "text": "25"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "That's just a². Don't forget to add b = 4.",
+      "C": "That's b². We need a² + b = 3² + 4 = 9 + 4 = 13.",
+      "D": "That's (a + b)². Here we square only a, then add b."
+    },
+    "explanation": "a² means 3² = 9. Then add b = 4. So 9 + 4 = 13.",
+    "explanationSteps": [
+      "Substitute: a² + b = 3² + 4.",
+      "Square: 3² = 9.",
+      "Add: 9 + 4 = 13."
+    ],
+    "hints": [
+      "What is 3 squared?",
+      "Then add 4."
+    ],
+    "tags": [
+      "variables",
+      "evaluation",
+      "exponents"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a2-010",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "writing-expressions",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "prompt": "A number n is divided by 3, then 2 is added. Which expression represents this?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3 ÷ n + 2"
+      },
+      {
+        "key": "B",
+        "text": "n ÷ 3 + 2"
+      },
+      {
+        "key": "C",
+        "text": "n ÷ (3 + 2)"
+      },
+      {
+        "key": "D",
+        "text": "3 ÷ (n + 2)"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "That's '3 divided by n', not 'n divided by 3'.",
+      "C": "This divides n by 5, but we divide by 3 first, then add 2.",
+      "D": "This is 3 divided by (n + 2), which is different."
+    },
+    "explanation": "Start with n, divide by 3 gives n ÷ 3, then add 2 gives n ÷ 3 + 2.",
+    "explanationSteps": [
+      "Start with n.",
+      "Divide by 3: n ÷ 3.",
+      "Then add 2: n ÷ 3 + 2."
+    ],
+    "hints": [
+      "What operation does 'divided by' mean?",
+      "What comes first: division or addition?"
+    ],
+    "tags": [
+      "variables",
+      "writing-expressions",
+      "order-of-operations"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "ma-alg-a2-011",
+    "moduleId": "math.algebra",
+    "skill": "equations-inequalities",
+    "subSkill": "one-step-equations",
+    "level": "A2",
+    "questionType": "gap-filling",
+    "difficulty": 0.25,
+    "prompt": "Solve: x + 7 = 15",
+    "choices": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "15"
+      },
+      {
+        "key": "D",
+        "text": "22"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "If x were 7, then 7 + 7 = 14, not 15.",
+      "C": "That's the right side. x is what we add to 7 to get 15.",
+      "D": "That's 7 + 15. To solve, subtract 7 from both sides."
+    },
+    "explanation": "Subtract 7 from both sides: x + 7 - 7 = 15 - 7, so x = 8.",
+    "explanationSteps": [
+      "x + 7 = 15.",
+      "Subtract 7 from both sides: x = 15 - 7.",
+      "x = 8."
+    ],
+    "hints": [
+      "What number added to 7 equals 15?",
+      "Try subtracting 7 from 15."
+    ],
+    "tags": [
+      "equations",
+      "one-step",
+      "addition"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "ma-alg-a2-012",
+    "moduleId": "math.algebra",
+    "skill": "equations-inequalities",
+    "subSkill": "one-step-equations",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "Solve: y - 5 = 9",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "9"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "45"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "If y = 4, then 4 - 5 = -1, not 9. We need to add 5 to both sides.",
+      "B": "That's the right side. y - 5 = 9, so y is bigger than 9.",
+      "D": "That's 9 × 5. We need to add 5 to both sides: y = 9 + 5 = 14."
+    },
+    "explanation": "Add 5 to both sides: y - 5 + 5 = 9 + 5, so y = 14.",
+    "explanationSteps": [
+      "y - 5 = 9.",
+      "Add 5 to both sides: y = 9 + 5.",
+      "y = 14."
+    ],
+    "hints": [
+      "What number minus 5 equals 9?",
+      "Try adding 5 to 9."
+    ],
+    "tags": [
+      "equations",
+      "one-step",
+      "subtraction"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "ma-alg-a2-013",
+    "moduleId": "math.algebra",
+    "skill": "equations-inequalities",
+    "subSkill": "one-step-equations",
+    "level": "A2",
+    "questionType": "gap-filling",
+    "difficulty": 0.3,
+    "prompt": "Solve: 3a = 18",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "15"
+      },
+      {
+        "key": "C",
+        "text": "21"
+      },
+      {
+        "key": "D",
+        "text": "54"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "If a = 15, then 3 × 15 = 45, not 18. Divide 18 by 3.",
+      "C": "That's 3 + 18. To solve 3a = 18, divide both sides by 3.",
+      "D": "That's 3 × 18. We need to find what number times 3 equals 18."
+    },
+    "explanation": "Divide both sides by 3: 3a ÷ 3 = 18 ÷ 3, so a = 6.",
+    "explanationSteps": [
+      "3a = 18.",
+      "Divide both sides by 3: a = 18 ÷ 3.",
+      "a = 6."
+    ],
+    "hints": [
+      "What number times 3 equals 18?",
+      "Try dividing 18 by 3."
+    ],
+    "tags": [
+      "equations",
+      "one-step",
+      "multiplication"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "ma-alg-a2-014",
+    "moduleId": "math.algebra",
+    "skill": "equations-inequalities",
+    "subSkill": "one-step-equations",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "Solve: b ÷ 4 = 5",
+    "choices": [
+      {
+        "key": "A",
+        "text": "9"
+      },
+      {
+        "key": "B",
+        "text": "20"
+      },
+      {
+        "key": "C",
+        "text": "1.25"
+      },
+      {
+        "key": "D",
+        "text": "0.8"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "That's 4 + 5. To undo division by 4, multiply both sides by 4.",
+      "C": "That's 5 ÷ 4. We need b = 5 × 4 = 20.",
+      "D": "That's 4 ÷ 5. Multiply 5 by 4 to find b."
+    },
+    "explanation": "Multiply both sides by 4: (b ÷ 4) × 4 = 5 × 4, so b = 20.",
+    "explanationSteps": [
+      "b ÷ 4 = 5.",
+      "Multiply both sides by 4: b = 5 × 4.",
+      "b = 20."
+    ],
+    "hints": [
+      "If b divided by 4 gives 5, what is b?",
+      "Try multiplying 5 by 4."
+    ],
+    "tags": [
+      "equations",
+      "one-step",
+      "division"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "ma-alg-a2-015",
+    "moduleId": "math.algebra",
+    "skill": "equations-inequalities",
+    "subSkill": "inequalities",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "Which of these numbers is a solution to x > 4?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "A": "2 is less than 4, and we need numbers greater than 4.",
+      "B": "3 is less than 4. Look for a number bigger than 4.",
+      "C": "x > 4 means strictly greater than 4. 4 is not included."
+    },
+    "explanation": "x > 4 means x is any number greater than 4. Among the choices, only 5 > 4.",
+    "explanationSteps": [
+      "x > 4 means 'x is greater than 4'.",
+      "Check each option: 2 < 4, 3 < 4, 4 = 4 (not >), 5 > 4.",
+      "Only 5 satisfies the inequality."
+    ],
+    "hints": [
+      "What does the symbol > mean?",
+      "Which numbers are bigger than 4?"
+    ],
+    "tags": [
+      "inequalities",
+      "comparison",
+      "solutions"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a2-016",
+    "moduleId": "math.algebra",
+    "skill": "equations-inequalities",
+    "subSkill": "two-step-equations",
+    "level": "A2",
+    "questionType": "gap-filling",
+    "difficulty": 0.4,
+    "prompt": "Solve: 2x + 3 = 11",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Check: 2(5) + 3 = 13, not 11. Subtract 3 first, then divide by 2.",
+      "C": "That's 11 - 4. Try: 2x = 11 - 3, so 2x = 8, then x = 4.",
+      "D": "Check: 2(8) + 3 = 19. Subtract 3 then divide by 2."
+    },
+    "explanation": "Subtract 3 from both sides: 2x = 8. Then divide by 2: x = 4.",
+    "explanationSteps": [
+      "2x + 3 = 11.",
+      "Subtract 3: 2x = 8.",
+      "Divide by 2: x = 4."
+    ],
+    "hints": [
+      "First undo the +3. What is 11 - 3?",
+      "Then undo the multiplication by 2."
+    ],
+    "tags": [
+      "equations",
+      "two-step",
+      "inverse-operations"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a2-017",
+    "moduleId": "math.algebra",
+    "skill": "equations-inequalities",
+    "subSkill": "inequalities",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "Solve: x + 3 ≤ 7",
+    "choices": [
+      {
+        "key": "A",
+        "text": "x ≤ 4"
+      },
+      {
+        "key": "B",
+        "text": "x ≤ 10"
+      },
+      {
+        "key": "C",
+        "text": "x ≥ 4"
+      },
+      {
+        "key": "D",
+        "text": "x ≥ 10"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "That would be from adding, not subtracting. Subtract 3 from both sides.",
+      "C": "The inequality sign stays the same when subtracting. x ≤ 4, not x ≥ 4.",
+      "D": "Both the number and direction are wrong. Subtract 3 from both sides."
+    },
+    "explanation": "Subtract 3 from both sides: x + 3 - 3 ≤ 7 - 3, so x ≤ 4.",
+    "explanationSteps": [
+      "x + 3 ≤ 7.",
+      "Subtract 3 from both sides: x ≤ 7 - 3.",
+      "x ≤ 4."
+    ],
+    "hints": [
+      "What operation undoes +3?",
+      "Remember to do the same to both sides."
+    ],
+    "tags": [
+      "inequalities",
+      "one-step",
+      "less-than-or-equal"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a2-018",
+    "moduleId": "math.algebra",
+    "skill": "equations-inequalities",
+    "subSkill": "two-step-equations",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "prompt": "Solve: 5x - 4 = 16",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Check: 5(5) - 4 = 21, not 16. Add 4 first, then divide by 5.",
+      "C": "That's 16 - 4. First add 4: 5x = 20, then divide: x = 4.",
+      "D": "That's 5x. Divide by 5 to get x = 4."
+    },
+    "explanation": "Add 4 to both sides: 5x = 20. Then divide by 5: x = 4.",
+    "explanationSteps": [
+      "5x - 4 = 16.",
+      "Add 4: 5x = 20.",
+      "Divide by 5: x = 4."
+    ],
+    "hints": [
+      "First undo the -4. Add 4 to both sides.",
+      "Then undo the ×5. Divide both sides by 5."
+    ],
+    "tags": [
+      "equations",
+      "two-step",
+      "inverse-operations"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a2-019",
+    "moduleId": "math.algebra",
+    "skill": "equations-inequalities",
+    "subSkill": "inequalities",
+    "level": "A2",
+    "questionType": "gap-filling",
+    "difficulty": 0.45,
+    "prompt": "Solve: 2x > 10",
+    "choices": [
+      {
+        "key": "A",
+        "text": "x > 5"
+      },
+      {
+        "key": "B",
+        "text": "x > 8"
+      },
+      {
+        "key": "C",
+        "text": "x > 12"
+      },
+      {
+        "key": "D",
+        "text": "x > 20"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Check: 2 × 8 = 16, which is more than 10, but the boundary is 10 ÷ 2 = 5.",
+      "C": "That's 10 + 2. We need to divide both sides by 2.",
+      "D": "That's 10 × 2. Divide both sides by 2 to solve."
+    },
+    "explanation": "Divide both sides by 2: 2x ÷ 2 > 10 ÷ 2, so x > 5.",
+    "explanationSteps": [
+      "2x > 10.",
+      "Divide both sides by 2: x > 10 ÷ 2.",
+      "x > 5."
+    ],
+    "hints": [
+      "What operation undoes multiplication by 2?",
+      "Apply the same operation to both sides."
+    ],
+    "tags": [
+      "inequalities",
+      "one-step",
+      "multiplication"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a2-020",
+    "moduleId": "math.algebra",
+    "skill": "equations-inequalities",
+    "subSkill": "two-step-equations",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "Solve: 3(x + 2) = 18",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "Check: 3(5 + 2) = 21, not 18. Either divide by 3 first, or distribute.",
+      "C": "If x = 6, then 3(6 + 2) = 24. Try dividing 18 by 3 first.",
+      "D": "That's 18 - 2. First divide both sides by 3, then subtract 2."
+    },
+    "explanation": "Divide both sides by 3: x + 2 = 6. Then subtract 2: x = 4.",
+    "explanationSteps": [
+      "3(x + 2) = 18.",
+      "Divide by 3: x + 2 = 6.",
+      "Subtract 2: x = 4."
+    ],
+    "hints": [
+      "First undo the ×3. Divide 18 by 3.",
+      "Then undo the +2."
+    ],
+    "tags": [
+      "equations",
+      "two-step",
+      "parentheses"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "ma-alg-a2-001",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "evaluating-expressions",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "If x = 4, what is 3x + 5?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "17"
+      },
+      {
+        "key": "C",
+        "text": "20"
+      },
+      {
+        "key": "D",
+        "text": "27"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Only 3x. Add 5.",
+      "C": "3x4=12, 12+5=17.",
+      "D": "3x(4+5)."
+    },
+    "explanation": "3(4)+5 = 12+5 = 17.",
+    "explanationSteps": [
+      "3x means 3 times x.",
+      "3x4=12.",
+      "12+5=17."
+    ],
+    "hints": [
+      "What does 3x mean?",
+      "3x4?",
+      "Add 5."
+    ],
+    "tags": [
+      "variables",
+      "evaluation",
+      "multiplication"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a2-002",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "evaluating-expressions",
+    "level": "A2",
+    "questionType": "gap-filling",
+    "difficulty": 0.3,
+    "prompt": "If y = 10, what is 2y - 3?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "14"
+      },
+      {
+        "key": "C",
+        "text": "17"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Sub 3 from 10, not 2y.",
+      "D": "y+10."
+    },
+    "explanation": "2(10)-3 = 20-3 = 17.",
+    "explanationSteps": [
+      "2x10=20.",
+      "20-3=17."
+    ],
+    "hints": [
+      "2x10?",
+      "Subtract 3."
+    ],
+    "tags": [
+      "variables",
+      "evaluation",
+      "subtraction"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a2-003",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "writing-expressions",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "6 more than twice n?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2n + 6"
+      },
+      {
+        "key": "B",
+        "text": "6n + 2"
+      },
+      {
+        "key": "C",
+        "text": "2(n + 6)"
+      },
+      {
+        "key": "D",
+        "text": "n + 6 + 2"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "C": "Twice sum of n and 6.",
+      "D": "Just n+8."
+    },
+    "explanation": "Twice n = 2n. Plus 6 = 2n+6.",
+    "explanationSteps": [
+      "Twice = 2n.",
+      "6 more = +6.",
+      "2n+6."
+    ],
+    "hints": [
+      "Twice means?",
+      "More than operation?"
+    ],
+    "tags": [
+      "variables",
+      "writing-expressions",
+      "translation"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a2-004",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "like-terms",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "Simplify: 3x + 2x",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5x"
+      },
+      {
+        "key": "B",
+        "text": "6x"
+      },
+      {
+        "key": "C",
+        "text": "5x2"
+      },
+      {
+        "key": "D",
+        "text": "x+5"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "C": "Not squared.",
+      "D": "Keep variable."
+    },
+    "explanation": "Add coefficients: 3+2=5x.",
+    "explanationSteps": [
+      "Both have x.",
+      "3+2=5.",
+      "5x."
+    ],
+    "hints": [
+      "What do 3x and 2x share?",
+      "Add numbers in front."
+    ],
+    "tags": [
+      "like-terms",
+      "simplification",
+      "coefficients"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a2-005",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "like-terms",
+    "level": "A2",
+    "questionType": "gap-filling",
+    "difficulty": 0.4,
+    "prompt": "Simplify: 4a + 3b + 2a + b",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6a+4b"
+      },
+      {
+        "key": "B",
+        "text": "6a+3b"
+      },
+      {
+        "key": "C",
+        "text": "4a+6b"
+      },
+      {
+        "key": "D",
+        "text": "10ab"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "C": "4a+2a=6a.",
+      "D": "Different vars."
+    },
+    "explanation": "4a+2a=6a. 3b+b=4b.",
+    "explanationSteps": [
+      "Group a: 4a+2a=6a.",
+      "Group b: 3b+b=4b.",
+      "6a+4b."
+    ],
+    "hints": [
+      "Which have a?",
+      "Which have b?",
+      "b = 1b."
+    ],
+    "tags": [
+      "like-terms",
+      "simplification",
+      "multiple-variables"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "ma-alg-a2-006",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "evaluating-expressions",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "Evaluate 4(x+3) when x=5",
+    "choices": [
+      {
+        "key": "A",
+        "text": "23"
+      },
+      {
+        "key": "B",
+        "text": "32"
+      },
+      {
+        "key": "C",
+        "text": "20"
+      },
+      {
+        "key": "D",
+        "text": "17"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "4x(5+3)=4x8.",
+      "C": "Add inside first.",
+      "D": "4x5-3."
+    },
+    "explanation": "4(5+3)=4x8=32.",
+    "explanationSteps": [
+      "Sub x=5: 4(5+3).",
+      "5+3=8.",
+      "4x8=32."
+    ],
+    "hints": [
+      "Inside parentheses?",
+      "Add then multiply."
+    ],
+    "tags": [
+      "variables",
+      "evaluation",
+      "parentheses"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a2-007",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "writing-expressions",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "Rectangle perimeter: L and width 5?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "L+5"
+      },
+      {
+        "key": "B",
+        "text": "Lx5"
+      },
+      {
+        "key": "C",
+        "text": "2L+10"
+      },
+      {
+        "key": "D",
+        "text": "2L+5"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "One side+width.",
+      "D": "2L+2(5)=2L+10."
+    },
+    "explanation": "P=2L+2W=2L+2(5)=2L+10.",
+    "explanationSteps": [
+      "Perimeter=2L+2W.",
+      "2x5=10.",
+      "2L+10."
+    ],
+    "hints": [
+      "How many sides?",
+      "Perimeter formula?"
+    ],
+    "tags": [
+      "variables",
+      "writing-expressions",
+      "geometry"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "ma-alg-a2-008",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "like-terms",
+    "level": "A2",
+    "questionType": "gap-filling",
+    "difficulty": 0.45,
+    "prompt": "Simplify: 5x + 3 - 2x + 7",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3x+10"
+      },
+      {
+        "key": "B",
+        "text": "7x+10"
+      },
+      {
+        "key": "C",
+        "text": "3x+4"
+      },
+      {
+        "key": "D",
+        "text": "7x+4"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "C": "3+7=10.",
+      "D": "Both wrong."
+    },
+    "explanation": "5x-2x=3x. 3+7=10.",
+    "explanationSteps": [
+      "x terms: 5x-2x=3x.",
+      "Constants: 3+7=10.",
+      "3x+10."
+    ],
+    "hints": [
+      "Combine x terms.",
+      "Combine numbers."
+    ],
+    "tags": [
+      "like-terms",
+      "simplification",
+      "constants"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "ma-alg-a2-009",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "evaluating-expressions",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "If a=3, b=4, a2+b?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "9"
+      },
+      {
+        "key": "B",
+        "text": "13"
+      },
+      {
+        "key": "C",
+        "text": "16"
+      },
+      {
+        "key": "D",
+        "text": "25"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Just a2.",
+      "C": "b2.",
+      "D": "(a+b)2."
+    },
+    "explanation": "32+4=9+4=13.",
+    "explanationSteps": [
+      "a2=32=9.",
+      "9+4=13."
+    ],
+    "hints": [
+      "3 squared?",
+      "Add 4."
+    ],
+    "tags": [
+      "variables",
+      "evaluation",
+      "exponents"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a2-010",
+    "moduleId": "math.algebra",
+    "skill": "variables-expressions",
+    "subSkill": "writing-expressions",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "prompt": "n divided by 3, then add 2?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3/n+2"
+      },
+      {
+        "key": "B",
+        "text": "n/3+2"
+      },
+      {
+        "key": "C",
+        "text": "n/(3+2)"
+      },
+      {
+        "key": "D",
+        "text": "3/(n+2)"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "3/n, not n/3.",
+      "C": "Divides by 5.",
+      "D": "3/(n+2)."
+    },
+    "explanation": "n/3+2.",
+    "explanationSteps": [
+      "Start with n.",
+      "Divide by 3: n/3.",
+      "Add 2: n/3+2."
+    ],
+    "hints": [
+      "Division first?",
+      "Order?"
+    ],
+    "tags": [
+      "variables",
+      "writing-expressions",
+      "order-of-operations"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "ma-alg-a2-011",
+    "moduleId": "math.algebra",
+    "skill": "equations-inequalities",
+    "subSkill": "one-step-equations",
+    "level": "A2",
+    "questionType": "gap-filling",
+    "difficulty": 0.25,
+    "prompt": "Solve: x + 7 = 15",
+    "choices": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "15"
+      },
+      {
+        "key": "D",
+        "text": "22"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "7+7=14, not 15.",
+      "C": "Right side value.",
+      "D": "7+15."
+    },
+    "explanation": "x=15-7=8.",
+    "explanationSteps": [
+      "x+7=15.",
+      "Subtract 7: x=8."
+    ],
+    "hints": [
+      "What+7=15?",
+      "15-7?"
+    ],
+    "tags": [
+      "equations",
+      "one-step",
+      "addition"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "ma-alg-a2-012",
+    "moduleId": "math.algebra",
+    "skill": "equations-inequalities",
+    "subSkill": "one-step-equations",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "Solve: y - 5 = 9",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "9"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "45"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "4-5=-1.",
+      "D": "9x5."
+    },
+    "explanation": "y=9+5=14.",
+    "explanationSteps": [
+      "y-5=9.",
+      "Add 5: y=14."
+    ],
+    "hints": [
+      "What-5=9?",
+      "9+5?"
+    ],
+    "tags": [
+      "equations",
+      "one-step",
+      "subtraction"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "ma-alg-a2-013",
+    "moduleId": "math.algebra",
+    "skill": "equations-inequalities",
+    "subSkill": "one-step-equations",
+    "level": "A2",
+    "questionType": "gap-filling",
+    "difficulty": 0.3,
+    "prompt": "Solve: 3a = 18",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "15"
+      },
+      {
+        "key": "C",
+        "text": "21"
+      },
+      {
+        "key": "D",
+        "text": "54"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "C": "3+18.",
+      "D": "3x18."
+    },
+    "explanation": "a=18/3=6.",
+    "explanationSteps": [
+      "3a=18.",
+      "Divide by 3: a=6."
+    ],
+    "hints": [
+      "What x3=18?",
+      "18/3?"
+    ],
+    "tags": [
+      "equations",
+      "one-step",
+      "multiplication"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "ma-alg-a2-014",
+    "moduleId": "math.algebra",
+    "skill": "equations-inequalities",
+    "subSkill": "one-step-equations",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "prompt": "Solve: b/4 = 5",
+    "choices": [
+      {
+        "key": "A",
+        "text": "9"
+      },
+      {
+        "key": "B",
+        "text": "20"
+      },
+      {
+        "key": "C",
+        "text": "1.25"
+      },
+      {
+        "key": "D",
+        "text": "0.8"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "4+5.",
+      "C": "5/4.",
+      "D": "4/5."
+    },
+    "explanation": "b=5x4=20.",
+    "explanationSteps": [
+      "b/4=5.",
+      "Multiply by 4: b=20."
+    ],
+    "hints": [
+      "b/4=5, what is b?",
+      "5x4?"
+    ],
+    "tags": [
+      "equations",
+      "one-step",
+      "division"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "ma-alg-a2-015",
+    "moduleId": "math.algebra",
+    "skill": "equations-inequalities",
+    "subSkill": "inequalities",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "prompt": "Solution to x > 4?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "A": "Less than 4.",
+      "C": "Less than 4."
+    },
+    "explanation": "x>4 means greater than 4. 5>4.",
+    "explanationSteps": [
+      "x>4 means x is greater than 4.",
+      "Check: 5>4."
+    ],
+    "hints": [
+      "What does > mean?",
+      "Bigger than 4?"
+    ],
+    "tags": [
+      "inequalities",
+      "comparison",
+      "solutions"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a2-016",
+    "moduleId": "math.algebra",
+    "skill": "equations-inequalities",
+    "subSkill": "two-step-equations",
+    "level": "A2",
+    "questionType": "gap-filling",
+    "difficulty": 0.4,
+    "prompt": "Solve: 2x + 3 = 11",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "C": "11-4.",
+      "D": "2(8)+3=19."
+    },
+    "explanation": "2x=8, x=4.",
+    "explanationSteps": [
+      "2x+3=11.",
+      "-3: 2x=8.",
+      "/2: x=4."
+    ],
+    "hints": [
+      "Undo +3 first.",
+      "Undo x2."
+    ],
+    "tags": [
+      "equations",
+      "two-step",
+      "inverse-operations"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a2-017",
+    "moduleId": "math.algebra",
+    "skill": "equations-inequalities",
+    "subSkill": "inequalities",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "prompt": "Solve: x+3 <= 7",
+    "choices": [
+      {
+        "key": "A",
+        "text": "x <= 4"
+      },
+      {
+        "key": "B",
+        "text": "x <= 10"
+      },
+      {
+        "key": "C",
+        "text": "x >= 4"
+      },
+      {
+        "key": "D",
+        "text": "x >= 10"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "C": "Sign stays same.",
+      "D": "Both wrong."
+    },
+    "explanation": "x <= 4.",
+    "explanationSteps": [
+      "x+3 <= 7.",
+      "-3: x <= 4."
+    ],
+    "hints": [
+      "Undo +3?",
+      "Same to both sides."
+    ],
+    "tags": [
+      "inequalities",
+      "one-step",
+      "less-than-or-equal"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a2-018",
+    "moduleId": "math.algebra",
+    "skill": "equations-inequalities",
+    "subSkill": "two-step-equations",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "prompt": "Solve: 5x - 4 = 16",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "C": "16-4.",
+      "D": "5x value."
+    },
+    "explanation": "5x=20, x=4.",
+    "explanationSteps": [
+      "5x-4=16.",
+      "+4: 5x=20.",
+      "/5: x=4."
+    ],
+    "hints": [
+      "Undo -4 first.",
+      "Undo x5."
+    ],
+    "tags": [
+      "equations",
+      "two-step",
+      "inverse-operations"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "ma-alg-a2-019",
+    "moduleId": "math.algebra",
+    "skill": "equations-inequalities",
+    "subSkill": "inequalities",
+    "level": "A2",
+    "questionType": "gap-filling",
+    "difficulty": 0.45,
+    "prompt": "Solve: 2x > 10",
+    "choices": [
+      {
+        "key": "A",
+        "text": "x > 5"
+      },
+      {
+        "key": "B",
+        "text": "x > 8"
+      },
+      {
+        "key": "C",
+        "text": "x > 12"
+      },
+      {
+        "key": "D",
+        "text": "x > 20"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "C": "10+2.",
+      "D": "10x2."
+    },
+    "explanation": "x>5.",
+    "explanationSteps": [
+      "2x>10.",
+      "/2: x>5."
+    ],
+    "hints": [
+      "Undo x2?",
+      "Apply to both sides."
+    ],
+    "tags": [
+      "inequalities",
+      "one-step",
+      "multiplication"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "ma-alg-a2-020",
+    "moduleId": "math.algebra",
+    "skill": "equations-inequalities",
+    "subSkill": "two-step-equations",
+    "level": "A2",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "Solve: 3(x+2)=18",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "C": "3(6+2)=24.",
+      "D": "18-2."
+    },
+    "explanation": "x+2=6, x=4.",
+    "explanationSteps": [
+      "3(x+2)=18.",
+      "/3: x+2=6.",
+      "-2: x=4."
+    ],
+    "hints": [
+      "Undo x3 first.",
+      "Undo +2."
+    ],
+    "tags": [
+      "equations",
+      "two-step",
+      "parentheses"
+    ],
+    "estimatedTimeSec": 40
+  }
+]

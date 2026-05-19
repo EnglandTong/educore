@@ -1,0 +1,44 @@
+[
+  {
+    "parentId": "demo-parent-001",
+    "name": "Mrs. Chen",
+    "email": "demo.parent@educore.example",
+    "avatar": "👩",
+    "linkedChildren": [
+      {
+        "studentId": "demo-emily-001",
+        "name": "Emily",
+        "relationship": "mother",
+        "consentGiven": true,
+        "consentDate": "2026-04-28T10:05:00Z"
+      }
+    ],
+    "dashboardView": {
+      "childProgress": {
+        "studentId": "demo-emily-001",
+        "overallScore": 44,
+        "overallLevel": "developing",
+        "strengths": ["tense-aspect", "articles-determiners", "modal-verbs"],
+        "growthAreas": ["passive-voice", "relative-clauses", "reported-speech"],
+        "weeklyActivity": [
+          { "day": "Mon", "minutes": 25, "questions": 18 },
+          { "day": "Tue", "minutes": 30, "questions": 22 },
+          { "day": "Wed", "minutes": 0, "questions": 0 },
+          { "day": "Thu", "minutes": 20, "questions": 15 },
+          { "day": "Fri", "minutes": 35, "questions": 25 },
+          { "day": "Sat", "minutes": 15, "questions": 12 },
+          { "day": "Sun", "minutes": 10, "questions": 8 }
+        ]
+      },
+      "subjectGuidesRead": ["tense-aspect", "articles-determiners"],
+      "recentConversations": [
+        {
+          "teacherId": "demo-teacher-001",
+          "teacherName": "Ms. Anderson",
+          "lastMessage": "Emily is doing wonderfully with present tenses!",
+          "unreadCount": 1
+        }
+      ]
+    }
+  }
+]

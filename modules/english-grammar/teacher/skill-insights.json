@@ -1,0 +1,142 @@
+[
+  {
+    "skillId": "tense-aspect",
+    "classWeakAreaDescription": "Many students are still developing their understanding of when to use past simple versus present perfect. This is one of the trickiest distinctions in English because both tenses connect to the past, but in different ways.",
+    "suggestedActivities": [
+      "Timeline activity: students place events on a past-present line and discuss which tense fits each",
+      "Story chain: each student adds one sentence, maintaining correct tense throughout the narrative",
+      "Error hunt: find and fix tense errors in a short paragraph from a familiar story"
+    ],
+    "differentiationTips": {
+      "struggling": "Focus only on simple past versus simple present. Use lots of visual timelines and concrete time markers.",
+      "onTrack": "Introduce present perfect with clear 'life experience' contexts: 'Have you ever...?' questions work beautifully.",
+      "advanced": "Challenge with narrative tense shifts and reported speech. Ask students to rewrite a news article using multiple tenses."
+    }
+  },
+  {
+    "skillId": "subject-verb-agreement",
+    "classWeakAreaDescription": "Students frequently struggle with third-person singular -s and with indefinite pronouns like 'everyone' and 'nobody' that feel plural but act singular.",
+    "suggestedActivities": [
+      "Agreement relay race: teams compete to correctly match subjects with verbs under time pressure",
+      "Sentence unscramble: provide mixed-up subject-verb pairs for students to reassemble correctly",
+      "Peer editing: students trade paragraphs and highlight agreement errors for each other"
+    ],
+    "differentiationTips": {
+      "struggling": "Stick to pronouns only (I, you, he, she, it, we, they) before introducing noun subjects. Use songs with exaggerated -s sounds.",
+      "onTrack": "Introduce compound subjects and collective nouns. Use color-coding to identify the true subject.",
+      "advanced": "Challenge with intervening phrases and inverted sentences. 'On the wall hang three paintings' — finding the subject when word order shifts."
+    }
+  },
+  {
+    "skillId": "articles-determiners",
+    "classWeakAreaDescription": "Article usage remains inconsistent, especially with countable versus uncountable nouns and with first-mention versus subsequent-mention contexts.",
+    "suggestedActivities": [
+      "Article auction: students bid on sentences that need articles, explaining their reasoning",
+      "Picture description race: describe a complex image, competing to use the most correct articles",
+      "Text reconstruction: remove all articles from a paragraph and have students restore them"
+    ],
+    "differentiationTips": {
+      "struggling": "Focus only on 'a/an' versus 'the' with concrete objects. Skip zero article entirely for now.",
+      "onTrack": "Introduce zero article with general plurals and uncountable nouns. Use food and drink contexts.",
+      "advanced": "Challenge with abstract nouns, geographical names, and stylistic article omission in headlines."
+    }
+  },
+  {
+    "skillId": "prepositions",
+    "classWeakAreaDescription": "Prepositions of time and dependent prepositions (e.g., 'interested IN', 'afraid OF') are the most frequent sources of error. Students often overgeneralize 'in' and 'on' to all contexts.",
+    "suggestedActivities": [
+      "Preposition obstacle course: physical movement through a course labeled with place prepositions",
+      "Time preposition calendar: students schedule events using correct time prepositions",
+      "Dependent preposition matching game: match adjectives and verbs with their correct prepositions"
+    ],
+    "differentiationTips": {
+      "struggling": "Focus only on place prepositions with physical objects. Use a toy and a box to demonstrate every spatial relationship.",
+      "onTrack": "Add time prepositions using daily routines as context. 'At 7 o'clock, on Monday, in July.'",
+      "advanced": "Challenge with dependent prepositions and phrasal verbs. Focus on common academic collocations."
+    }
+  },
+  {
+    "skillId": "conditionals",
+    "classWeakAreaDescription": "Students often confuse first and second conditional, and struggle with the 'one step back' tense rule in the if-clause. Mixed conditionals remain challenging for most learners.",
+    "suggestedActivities": [
+      "Conditional chain stories: each student adds a sentence using a different conditional type",
+      "Consequence mapping: start with an 'if' scenario and branch out to all possible results",
+      "Real-world conditional hunt: find conditionals in advertisements, warnings, and advice columns"
+    ],
+    "differentiationTips": {
+      "struggling": "Focus only on first conditional with real future scenarios. Use personal plans and weather predictions.",
+      "onTrack": "Introduce second conditional with imaginative scenarios. 'What would you do if...?' questions work well.",
+      "advanced": "Challenge with third conditional for past regrets and mixed conditionals. Use narrative rewriting tasks."
+    }
+  },
+  {
+    "skillId": "passive-voice",
+    "classWeakAreaDescription": "Students frequently forget the 'be' verb or use the active past tense instead of the past participle. Understanding WHEN to use passive versus active remains a higher-order challenge.",
+    "suggestedActivities": [
+      "Mystery writing: students write crime reports using passive voice to focus on what happened",
+      "Science experiment reports: describe processes in passive voice, emphasizing the procedure over the experimenter",
+      "News headline transformation: convert active headlines to passive and discuss how meaning shifts"
+    ],
+    "differentiationTips": {
+      "struggling": "Practice only present simple passive with clear 'by' phrases. 'The cake is made by Mom.'",
+      "onTrack": "Introduce past passive and situations where the 'by' phrase is omitted. Focus on process descriptions.",
+      "advanced": "Challenge with modal passives and causative structures. 'The project should have been finished by now.'"
+    }
+  },
+  {
+    "skillId": "modal-verbs",
+    "classWeakAreaDescription": "Students often overuse 'can' for all meanings and struggle with the subtle distinctions between 'must', 'have to', 'should', and 'ought to'. Past modals remain particularly challenging.",
+    "suggestedActivities": [
+      "Modal manners role-play: students practice requests at different politeness levels using different modals",
+      "Rules and regulations game: create classroom rules using must, mustn't, can, and can't",
+      "Deduction detective: present evidence and have students deduce what must/might/could have happened"
+    ],
+    "differentiationTips": {
+      "struggling": "Focus only on 'can' for ability and 'must' for strong obligation. Keep contexts concrete and personal.",
+      "onTrack": "Add 'should' for advice and 'might/may' for possibility. Use real-life dilemma scenarios.",
+      "advanced": "Challenge with past modals ('could have', 'should have', 'must have') and continuous modals."
+    }
+  },
+  {
+    "skillId": "relative-clauses",
+    "classWeakAreaDescription": "Students frequently confuse 'who' and 'which', omit the relative pronoun in defining clauses, and struggle with comma placement in non-defining clauses.",
+    "suggestedActivities": [
+      "Sentence merging competition: combine pairs of sentences using relative clauses as quickly as possible",
+      "Character description chains: describe a person using multiple relative clauses without repeating the noun",
+      "Comma detective: find and correct comma errors in relative clauses from authentic texts"
+    ],
+    "differentiationTips": {
+      "struggling": "Use only 'who' for people and 'which' for things. Skip 'that' and non-defining clauses initially.",
+      "onTrack": "Introduce 'where' for places and 'that' as an alternative. Begin distinguishing defining versus non-defining.",
+      "advanced": "Challenge with reduced relative clauses and prepositional relatives. 'The book about which we spoke.'"
+    }
+  },
+  {
+    "skillId": "reported-speech",
+    "classWeakAreaDescription": "Backshifting tenses and shifting pronouns are the most common stumbling blocks. Students often forget to change 'said' contexts and leave direct speech markers in reported forms.",
+    "suggestedActivities": [
+      "Gossip circle: students whisper statements around a circle and report what the previous person said",
+      "News reporter role-play: interview a 'celebrity' and write a report using reported speech",
+      "Direct-to-reported transformation race: convert dialogue bubbles to reported paragraphs under time pressure"
+    ],
+    "differentiationTips": {
+      "struggling": "Focus only on pronoun changes ('I' → 'she/he'). Leave tense shifts for later. Use timeless statements.",
+      "onTrack": "Add simple present → simple past backshifting. Practice with recent personal conversations.",
+      "advanced": "Challenge with reported questions, commands, and modal backshifting. Use literary text transformation."
+    }
+  },
+  {
+    "skillId": "conjunctions-connectors",
+    "classWeakAreaDescription": "Students tend to overuse 'and' and 'but' while underusing causal and contrastive connectors like 'because', 'although', 'however', and 'therefore'. Run-on sentences remain common.",
+    "suggestedActivities": [
+      "Conjunction swap: rewrite a paragraph using different connectors to change the logical relationships",
+      "Sentence surgery: diagnose and repair run-on sentences by adding appropriate conjunctions",
+      "Debate preparation: students prepare arguments using 'because', 'although', 'therefore', and 'however'"
+    ],
+    "differentiationTips": {
+      "struggling": "Focus only on AND, BUT, BECAUSE, and SO. Use physical signals (clap, stomp, shrug, point) for each.",
+      "onTrack": "Introduce 'although', 'or', and 'so that'. Focus on compound and complex sentence construction.",
+      "advanced": "Challenge with formal connectors: 'however', 'therefore', 'nevertheless', 'furthermore', 'meanwhile'."
+    }
+  }
+]

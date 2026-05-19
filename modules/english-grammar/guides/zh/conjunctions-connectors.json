@@ -1,0 +1,35 @@
+{
+  "skillId": "conjunctions-connectors",
+  "skillName": "连词与连接词",
+  "title": "连词与连接词：把想法连接在一起",
+  "whatIsIt": "连词和连接词是把句子和想法粘合在一起的胶水。像'and'、'but'、'because'、'although'、'however'和'therefore'这样的词展示想法之间的关系——它们是同意、对比、因果关系，还是添加信息。没有连接词，写作感觉断断续续、互不相关；有了它们，写作就流畅而逻辑清晰。学好使用连词就像在练习过小马路后学会在高速公路上驾驶——它开启了表达复杂思想的能力。",
+  "howToHelp": [
+    "玩'连接想法'游戏——给孩子两个简单句，让他们连起来：'I like pizza. I don't like mushrooms.' → 'I like pizza BUT I don't like mushrooms.'这培养连词背后的逻辑思维。",
+    "用交通信号表示连词类型：AND = 绿灯（添加），BUT = 红灯（对比），BECAUSE = 黄灯（解释），SO = 前进箭头（结果）。视觉线索让分类更牢固。",
+    "在开车时建立连词接龙：一个人开始一个句子，下一个人用连词添加。'I woke up early... SO I had time for breakfast... BUT I couldn't find my shoes...'这是协作讲故事的最佳形式。",
+    "在最喜欢的书中指出连词，问：'这个连词在做什么工作？是添加、对比还是解释？'这同时培养分析性阅读技能和语法能力。",
+    "创建'句子手术'——拿一个没有连词的段落，一起'动手术'，添加连接词让它流畅。'I was tired. I went to bed.' → 'I was tired, SO I went to bed.'",
+    "逐渐引入正式的连接词：先学'and'、'but'、'because'、'so'，再学'however'、'therefore'、'nevertheless'、'furthermore.'"
+  ],
+  "commonMistakes": [
+    "流水句：'I like cats they are cute'——独立从句之间缺少连词或标点。这非常常见，是发展中的正常现象。",
+    "每个连接都用'and'：虽然'and'用途广泛，但过度使用会让写作单调。鼓励多样化：'but'、'so'、'because'、'or.'",
+    "逗号粘连：'I was tired, I went to bed'——只用逗号连接两个完整句子。这需要连词或句号/分号。",
+    "混淆'because'和'so'：'Because I was tired, so I went to bed'——两个都用是多余的。选一个：'Because I was tired, I went to bed' OR 'I was tired, so I went to bed.'"
+  ],
+  "signsOfProgress": [
+    "使用各种连词，而不是只依赖'and'。",
+    "能解释连接想法之间的关系：'我用BUT是因为这些想法对比。'",
+    "开始在写作中使用更高级的连接词，如'although'、'however'和'therefore'。",
+    "在自己写作中认出逗号粘连和流水句，并能修正。",
+    "理解不同的连词创造不同的逻辑关系——添加、对比、原因、结果、选择。"
+  ],
+  "ifStruggling": [
+    "先从四个连词开始：AND（添加）、BUT（对比）、BECAUSE（原因）、SO（结果）。掌握这些再引入其他的。",
+    "使用肢体动作：AND拍手、BUT跺脚、BECAUSE耸肩、SO指向前方。动觉学习建立强记忆锚点。",
+    "一开始不用担心连词的逗号规则。专注于意义和逻辑连接；标点精确度逐渐发展。",
+    "接受'and'作为安全的默认选项——用'and'连接想法比让它们保持碎片化要好。",
+    "用图片序列练习：展示三张相关的图片，让孩子用连词连接它们。视觉叙事支持语法连接。",
+    "庆祝复合句：当孩子用连词连接两个想法时，他们正在进行复杂的思考！"
+  ]
+}

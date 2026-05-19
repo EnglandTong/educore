@@ -1,0 +1,92 @@
+[
+  {
+    "id": "streak-01",
+    "text": "Two in a row! You're finding your rhythm!",
+    "context": "streak-2",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "streak-02",
+    "text": "Three in a row! You're really in the zone!",
+    "context": "streak-3",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "streak-03",
+    "text": "Four correct! Your confidence is building beautifully!",
+    "context": "streak-4",
+    "minLevel": "growing"
+  },
+  {
+    "id": "streak-04",
+    "text": "Five in a row! This is fantastic momentum!",
+    "context": "streak-5",
+    "minLevel": "growing"
+  },
+  {
+    "id": "streak-05",
+    "text": "Six correct answers! You're on a serious roll!",
+    "context": "streak-6",
+    "minLevel": "developing"
+  },
+  {
+    "id": "streak-06",
+    "text": "Seven in a row! Your focus is incredible!",
+    "context": "streak-7",
+    "minLevel": "developing"
+  },
+  {
+    "id": "streak-07",
+    "text": "Eight correct! You're showing real mastery now!",
+    "context": "streak-8",
+    "minLevel": "proficient"
+  },
+  {
+    "id": "streak-08",
+    "text": "Nine in a row! Almost perfect — keep it up!",
+    "context": "streak-9",
+    "minLevel": "proficient"
+  },
+  {
+    "id": "streak-09",
+    "text": "Ten correct answers! That's absolutely outstanding!",
+    "context": "streak-10",
+    "minLevel": "advanced"
+  },
+  {
+    "id": "streak-10",
+    "text": "Incredible streak! You're performing at your very best!",
+    "context": "streak-10",
+    "minLevel": "advanced"
+  },
+  {
+    "id": "streak-11",
+    "text": "You're unstoppable! This level of consistency is remarkable!",
+    "context": "streak-10-plus",
+    "minLevel": "mastered"
+  },
+  {
+    "id": "streak-12",
+    "text": "What a streak! You've turned practice into pure excellence!",
+    "context": "streak-10-plus",
+    "minLevel": "mastered"
+  },
+  {
+    "id": "streak-13",
+    "text": "Your streak is legendary! This is what dedication looks like!",
+    "context": "streak-10-plus",
+    "minLevel": "mastered"
+  },
+  {
+    "id": "streak-14",
+    "text": "Every answer correct! You're in complete command of your skills!",
+    "context": "streak-10-plus",
+    "minLevel": "mastered"
+  },
+  {
+    "id": "streak-15",
+    "text": "Perfection sustained! You're setting a new standard for yourself!",
+    "context": "streak-10-plus",
+    "minLevel": "mastered"
+  }
+]

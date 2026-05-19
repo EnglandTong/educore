@@ -1,0 +1,35 @@
+{
+  "skillId": "relative-clauses",
+  "skillName": "定语从句",
+  "title": "定语从句：像专业人士一样添加细节",
+  "whatIsIt": "定语从句是更精确描述名词的句子附加成分。它们以关系代词如'who'、'which'、'that'或'where'开头，帮助我们避免重复的句子。不说'我遇到了一个女人。这个女人是医生。'而说'我遇到了一个当医生的女人。'定语从句让写作更丰富、更复杂——它们就像变焦镜头，在不开始新句子的情况下把特定细节带入焦点。",
+  "howToHelp": [
+    "玩'句子合并'游戏——拿两个关于同一名词的短句，把它们连起来：'I have a cat. The cat sleeps all day.' → 'I have a cat that sleeps all day.'这清楚地展示了定语从句的用途。",
+    "用家庭照片练习：'This is my uncle who lives in Beijing.' 'That's the park where we play soccer.'真实的人和地方让抽象语法变得有意义。",
+    "先介绍'who'用于人、'which'用于物、'where'用于地点，再学'that'。一次一个代词，避免 overwhelm。",
+    "创建'定语从句侦探'游戏：在书中找用who/which/where的句子，找出它们描述哪个名词。这建立模式识别。",
+    "练习限定性与非限定性从句的逗号用法：'My sister who lives in Paris is visiting'（限定性——我有多个姐妹）vs 'My sister, who lives in Paris, is visiting'（非限定性——我只有一个姐妹，她住在巴黎）。",
+    "用讲故事：鼓励孩子用定语从句给角色和场景添加细节。'The castle, which stood on a hill, was dark and mysterious.'"
+  ],
+  "commonMistakes": [
+    "用'which'指人：'The boy which scored the goal'而不是'The boy WHO scored the goal.' Who用于人；which用于物。",
+    "完全忘记关系代词：'I read the book was interesting'而不是'I read the book THAT was interesting.'连接词至关重要。",
+    "给限定性从句加逗号：'The car, that I bought yesterday, is red.'限定性从句（必要信息）不用逗号。",
+    "省略定语从句中的动词：'The teacher who kind'而不是'The teacher who IS kind.'每个从句都需要动词。"
+  ],
+  "signsOfProgress": [
+    "能用who、which或where把两个关于同一名词的简单句合并。",
+    "选择正确的关系代词：who用于人，which用于物，where用于地点。",
+    "理解限定性从句（无逗号，必要信息）和非限定性从句（有逗号，附加信息）的区别。",
+    "在讲故事和描述中不经提示就自然地使用定语从句。",
+    "能在阅读中识别定语从句，并解释它们修饰哪个名词。"
+  ],
+  "ifStruggling": [
+    "只从'who'用于人开始。等'who'自动化了，再引入'which'、'where'或'that'。",
+    "使用手势指向：指向被描述的人/物，然后指向描述内容。肢体连接强化语法连接。",
+    "一开始先跳过逗号规则。专注于有意义地合并句子；标点精确度以后再说。",
+    "用最喜欢的故事或电视节目的角色练习——熟悉的名字让语法感觉更友好。",
+    "接受近似表达：'The dog what barks'不正确，但显示理解了概念。温和地示范'The dog THAT barks.'",
+    "庆祝复杂性：当孩子使用定语从句时，他们正在进行高级的句子构建！"
+  ]
+}

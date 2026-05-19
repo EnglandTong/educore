@@ -1,0 +1,4016 @@
+[
+  {
+    "id": "eg-a1-001",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.1,
+    "context": "school",
+    "choices": [
+      {
+        "key": "A",
+        "text": "go"
+      },
+      {
+        "key": "B",
+        "text": "goes"
+      },
+      {
+        "key": "C",
+        "text": "going"
+      },
+      {
+        "key": "D",
+        "text": "went"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "That's the base form. With 'she' we add a little 'es'!",
+      "C": "That form needs a helper like 'is'. Try the simple form instead.",
+      "D": "That form tells a story from yesterday, not every day."
+    },
+    "explanation": "Great job noticing 'every day'! That means we use the simple present. With 'she', we add 'es' to 'go'.",
+    "explanationSteps": [
+      "Look for the time word: 'every day' tells us it's a habit.",
+      "For 'he', 'she', or 'it', add '-es' to verbs ending in o, ch, sh, s, x, z.",
+      "So 'go' becomes 'goes' with 'she'."
+    ],
+    "hints": [
+      "Who is the sentence about?",
+      "Does the action happen once or every day?",
+      "When 'she' does something often, we add a little ending to the verb."
+    ],
+    "tags": [
+      "simple-present",
+      "third-person-singular",
+      "daily-routine"
+    ],
+    "estimatedTimeSec": 15,
+    "prompt": "She _______ to school every day.",
+    "subSkill": "simple-present"
+  },
+  {
+    "id": "eg-a1-002",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.1,
+    "context": "animals",
+    "acceptableAnswers": [
+      "drinks",
+      "is drinking"
+    ],
+    "answerKey": "drinks",
+    "explanation": "Lovely! The cat has this as a morning habit, so simple present is perfect here.",
+    "explanationSteps": [
+      "'In the morning' suggests a regular habit.",
+      "'The cat' is like 'he' or 'she', so we add 's'.",
+      "'Drink' becomes 'drinks'."
+    ],
+    "hints": [
+      "What does the cat do every morning?",
+      "Think about how we talk about habits.",
+      "Add one little letter to 'drink' for the cat."
+    ],
+    "tags": [
+      "simple-present",
+      "third-person-singular",
+      "animals"
+    ],
+    "estimatedTimeSec": 12,
+    "prompt": "The cat _______ milk in the morning.",
+    "subSkill": "present-continuous"
+  },
+  {
+    "id": "eg-a1-003",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.15,
+    "context": "food",
+    "choices": [
+      {
+        "key": "A",
+        "text": "eat"
+      },
+      {
+        "key": "B",
+        "text": "eats"
+      },
+      {
+        "key": "C",
+        "text": "ate"
+      },
+      {
+        "key": "D",
+        "text": "eating"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "That's the base form. Yesterday needs a special past form!",
+      "B": "That ending is for habits with 'he' or 'she', not yesterday.",
+      "D": "That form needs a helper word. Yesterday wants the past form of 'eat'."
+    },
+    "explanation": "Nice! 'Yesterday' is a time-travel word that takes us to the past. 'Eat' becomes 'ate'.",
+    "explanationSteps": [
+      "Find the time word: 'Yesterday' tells us it's finished.",
+      "'Eat' is an irregular verb in the past.",
+      "The past form of 'eat' is 'ate'."
+    ],
+    "hints": [
+      "When did this happen?",
+      "Is it today or before today?",
+      "The past form of 'eat' is a small, tricky word."
+    ],
+    "tags": [
+      "simple-past",
+      "irregular-verbs",
+      "food"
+    ],
+    "estimatedTimeSec": 15,
+    "prompt": "Yesterday, we _______ a big pizza.",
+    "subSkill": "simple-past"
+  },
+  {
+    "id": "eg-a1-004",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "level": "A1",
+    "questionType": "true-false",
+    "difficulty": 0.1,
+    "context": "school",
+    "answerKey": "false",
+    "explanation": "Almost there! With 'he', the verb needs a little 's' at the end to be correct: 'He plays football on Sundays.'",
+    "explanationSteps": [
+      "Look at the subject: 'He'.",
+      "In simple present, 'he/she/it' verbs need '-s' or '-es'.",
+      "'Play' should be 'plays'."
+    ],
+    "hints": [
+      "Who is playing?",
+      "Do we need a little ending on the verb for 'he'?",
+      "Try adding an 's' to 'play'."
+    ],
+    "tags": [
+      "simple-present",
+      "third-person-singular",
+      "sports"
+    ],
+    "estimatedTimeSec": 12,
+    "prompt": "'He play football on Sundays.' This sentence is correct.",
+    "subSkill": "past-continuous"
+  },
+  {
+    "id": "eg-a1-005",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.15,
+    "context": "family",
+    "acceptableAnswers": [
+      "watched"
+    ],
+    "answerKey": "watched",
+    "explanation": "Well done! 'Last night' is in the past, so we add '-ed' to 'watch' to make 'watched'.",
+    "explanationSteps": [
+      "'Last night' = finished past time.",
+      "For regular verbs, add '-ed' for the past.",
+      "'Watch' + 'ed' = 'watched'."
+    ],
+    "hints": [
+      "When did he watch TV?",
+      "Is it happening now or finished?",
+      "Regular past verbs love the letters 'e-d'."
+    ],
+    "tags": [
+      "simple-past",
+      "regular-verbs",
+      "family"
+    ],
+    "estimatedTimeSec": 14,
+    "prompt": "My brother _______ TV last night.",
+    "subSkill": "present-perfect"
+  },
+  {
+    "id": "eg-a1-006",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "context": "food",
+    "choices": [
+      {
+        "key": "A",
+        "text": "have"
+      },
+      {
+        "key": "B",
+        "text": "has"
+      },
+      {
+        "key": "C",
+        "text": "had"
+      },
+      {
+        "key": "D",
+        "text": "having"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "That's for 'he', 'she', or 'it'. 'I' uses the base form.",
+      "C": "That form is for yesterday, not every morning.",
+      "D": "That form needs a helper like 'am'. Try the simple form."
+    },
+    "explanation": "Excellent! With 'I' and habits like 'every morning', we keep the verb simple: 'have'.",
+    "explanationSteps": [
+      "The subject is 'I'.",
+      "'Every morning' means it's a habit.",
+      "With 'I', we use the base form 'have' in simple present."
+    ],
+    "hints": [
+      "Who has breakfast?",
+      "Does 'I' need an 's' on the verb?",
+      "Use the simple form you see in the dictionary."
+    ],
+    "tags": [
+      "simple-present",
+      "first-person",
+      "daily-routine"
+    ],
+    "estimatedTimeSec": 14,
+    "prompt": "I _______ breakfast at 7 o'clock every morning.",
+    "subSkill": "past-perfect"
+  },
+  {
+    "id": "eg-a1-007",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "context": "animals",
+    "choices": [
+      {
+        "key": "A",
+        "text": "sleep"
+      },
+      {
+        "key": "B",
+        "text": "sleeps"
+      },
+      {
+        "key": "C",
+        "text": "is sleeping"
+      },
+      {
+        "key": "D",
+        "text": "sleeped"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "That's the base form. 'Now' tells us the action is happening right this moment!",
+      "B": "That ending is for habits, but 'now' means right now.",
+      "D": "'Sleep' has a tricky past form, but we don't need the past here—'now' means present!"
+    },
+    "explanation": "Super! 'Now' is a magic word that means the action is happening at this very moment. We use 'is sleeping'.",
+    "explanationSteps": [
+      "Find the time word: 'now'.",
+      "'Now' means the action is in progress.",
+      "Use 'be + verb-ing': 'is sleeping'."
+    ],
+    "hints": [
+      "When is the dog sleeping?",
+      "Is it a habit or happening right now?",
+      "Use 'is' + the verb with '-ing'."
+    ],
+    "tags": [
+      "present-continuous",
+      "time-markers",
+      "animals"
+    ],
+    "estimatedTimeSec": 16,
+    "prompt": "The dog _______ under the table now.",
+    "subSkill": "simple-future"
+  },
+  {
+    "id": "eg-a1-008",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.15,
+    "context": "school",
+    "acceptableAnswers": [
+      "went"
+    ],
+    "answerKey": "went",
+    "explanation": "Great! 'Yesterday' sends us to the past, and 'go' has a special past form: 'went'.",
+    "explanationSteps": [
+      "'Yesterday' = past time.",
+      "'Go' is an irregular verb.",
+      "The past form of 'go' is 'went'."
+    ],
+    "hints": [
+      "When did they go?",
+      "Think about the past form of 'go'.",
+      "It's a short, common word that rhymes with 'sent'."
+    ],
+    "tags": [
+      "simple-past",
+      "irregular-verbs",
+      "places"
+    ],
+    "estimatedTimeSec": 13,
+    "prompt": "They _______ to the park yesterday.",
+    "subSkill": "future-continuous"
+  },
+  {
+    "id": "eg-a1-009",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "context": "family",
+    "choices": [
+      {
+        "key": "A",
+        "text": "cook"
+      },
+      {
+        "key": "B",
+        "text": "cooks"
+      },
+      {
+        "key": "C",
+        "text": "cooked"
+      },
+      {
+        "key": "D",
+        "text": "is cooking"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "A": "That's the base form. 'Right now' means it's happening at this moment!",
+      "B": "That's for habits. 'Right now' is about this very minute.",
+      "C": "That's the past form. 'Right now' is today, not yesterday."
+    },
+    "explanation": "Wonderful! 'Right now' tells us the cooking is happening at this very moment. We say 'is cooking'.",
+    "explanationSteps": [
+      "Find the time phrase: 'right now'.",
+      "It means the action is in progress now.",
+      "Use 'be + verb-ing': 'is cooking'."
+    ],
+    "hints": [
+      "When is mom cooking?",
+      "Is it a habit or happening at this moment?",
+      "Use 'is' plus the action word with '-ing'."
+    ],
+    "tags": [
+      "present-continuous",
+      "time-markers",
+      "family"
+    ],
+    "estimatedTimeSec": 16,
+    "prompt": "My mom _______ dinner right now.",
+    "subSkill": "future-perfect"
+  },
+  {
+    "id": "eg-a1-010",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "level": "A1",
+    "questionType": "true-false",
+    "difficulty": 0.15,
+    "context": "school",
+    "answerKey": "false",
+    "explanation": "Good catch! 'We' is a friendly word that doesn't need an 's' on the verb. It should be 'We walk to school.'",
+    "explanationSteps": [
+      "Look at the subject: 'We'.",
+      "'We' uses the base form of the verb.",
+      "So 'walks' should be 'walk'."
+    ],
+    "hints": [
+      "Who is walking?",
+      "Does 'we' need an 's'?",
+      "Try the simple form without any extra ending."
+    ],
+    "tags": [
+      "simple-present",
+      "subject-verb-agreement",
+      "school"
+    ],
+    "estimatedTimeSec": 12,
+    "prompt": "'We walks to school.' This sentence is correct.",
+    "subSkill": "simple-present"
+  },
+  {
+    "id": "eg-a1-011",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.2,
+    "context": "school",
+    "acceptableAnswers": [
+      "rises"
+    ],
+    "answerKey": "rises",
+    "explanation": "Bright answer! This is a fact that is always true, so we use the simple present. With 'the sun' (like 'it'), we add 's'.",
+    "explanationSteps": [
+      "This is a general truth, so use simple present.",
+      "'The sun' acts like 'it'.",
+      "Add '-s' to 'rise' → 'rises'."
+    ],
+    "hints": [
+      "Is this a habit, a fact, or right now?",
+      "Think of the sun as 'it'.",
+      "Add one little letter to 'rise'."
+    ],
+    "tags": [
+      "simple-present",
+      "general-truths",
+      "science"
+    ],
+    "estimatedTimeSec": 14,
+    "prompt": "The sun _______ in the east.",
+    "subSkill": "present-continuous"
+  },
+  {
+    "id": "eg-a1-012",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "context": "family",
+    "choices": [
+      {
+        "key": "A",
+        "text": "brush"
+      },
+      {
+        "key": "B",
+        "text": "brushes"
+      },
+      {
+        "key": "C",
+        "text": "brushing"
+      },
+      {
+        "key": "D",
+        "text": "brushed"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "That's the base form. 'She' needs a little ending for habits!",
+      "C": "That form needs a helper like 'is'. Try the simple present form.",
+      "D": "That's the past form. 'Every night' means it happens again and again."
+    },
+    "explanation": "Excellent! 'Every night' is a habit, and with 'she' we add 'es' to 'brush' because it ends in 'sh'.",
+    "explanationSteps": [
+      "'Every night' = habit = simple present.",
+      "'She' needs '-es' on verbs ending in sh, ch, s, x, o.",
+      "'Brush' ends in 'sh', so add 'es' → 'brushes'."
+    ],
+    "hints": [
+      "When does she brush her teeth?",
+      "Does 'she' need an ending on the verb?",
+      "Verbs ending in 'sh' get 'es' in the third person."
+    ],
+    "tags": [
+      "simple-present",
+      "third-person-singular",
+      "daily-routine"
+    ],
+    "estimatedTimeSec": 16,
+    "prompt": "She _______ her teeth every night before bed.",
+    "subSkill": "simple-past"
+  },
+  {
+    "id": "eg-a1-013",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.1,
+    "context": "animals",
+    "choices": [
+      {
+        "key": "A",
+        "text": "sing"
+      },
+      {
+        "key": "B",
+        "text": "sings"
+      },
+      {
+        "key": "C",
+        "text": "singing"
+      },
+      {
+        "key": "D",
+        "text": "sang"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "That's the base form. 'The bird' is one animal, so it needs a little 's'!",
+      "C": "That form needs a helper like 'is'. Try the simple present form instead.",
+      "D": "That's the past form. This sentence is talking about what the bird usually does."
+    },
+    "explanation": "Lovely! 'The bird' is one animal, so we add 's' to 'sing' to make 'sings'.",
+    "explanationSteps": [
+      "'The bird' = one animal = singular.",
+      "In simple present, singular subjects need '-s' or '-es'.",
+      "'Sing' + 's' = 'sings'."
+    ],
+    "hints": [
+      "How many birds are there?",
+      "Is the subject one or many?",
+      "One bird gets a little 's' on the verb."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "singular",
+      "simple-present"
+    ],
+    "estimatedTimeSec": 13,
+    "prompt": "The bird _______ in the tree.",
+    "subSkill": "singular-plural"
+  },
+  {
+    "id": "eg-a1-014",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.15,
+    "context": "animals",
+    "acceptableAnswers": [
+      "play"
+    ],
+    "answerKey": "play",
+    "explanation": "Great! 'Dogs' is more than one, so we use the friendly base form 'play' without any extra endings.",
+    "explanationSteps": [
+      "'Dogs' = plural (more than one).",
+      "Plural subjects use the base form of the verb.",
+      "So we keep it as 'play'."
+    ],
+    "hints": [
+      "How many dogs are there?",
+      "Is it one dog or many dogs?",
+      "Many dogs keep the verb simple—no extra letters."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "plural",
+      "simple-present"
+    ],
+    "estimatedTimeSec": 12,
+    "prompt": "The dogs _______ in the garden.",
+    "subSkill": "collective-nouns"
+  },
+  {
+    "id": "eg-a1-015",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "level": "A1",
+    "questionType": "true-false",
+    "difficulty": 0.1,
+    "context": "animals",
+    "answerKey": "false",
+    "explanation": "Almost! 'The cat' is one animal, so we add 's' to make 'likes'. 'The cat likes fish.'",
+    "explanationSteps": [
+      "'The cat' = one animal = singular.",
+      "Singular subjects in simple present need '-s' or '-es'.",
+      "'Like' needs 's' → 'likes'."
+    ],
+    "hints": [
+      "How many cats?",
+      "Does one animal need an ending on the verb?",
+      "Add one little letter to 'like'."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "singular",
+      "simple-present"
+    ],
+    "estimatedTimeSec": 12,
+    "prompt": "'The cat like fish.' This sentence is correct.",
+    "subSkill": "compound-subjects"
+  },
+  {
+    "id": "eg-a1-016",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "context": "school",
+    "choices": [
+      {
+        "key": "D",
+        "text": "play"
+      },
+      {
+        "key": "B",
+        "text": "plays"
+      },
+      {
+        "key": "C",
+        "text": "playing"
+      },
+      {
+        "key": "A",
+        "text": "played"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "That ending is for one friend. 'Friends' means more than one!",
+      "C": "That form needs a helper like 'are'. Try the simple present form.",
+      "A": "That's the past form. 'After school' here means a regular habit."
+    },
+    "explanation": "Nice! 'Friends' is plural, so we keep the verb simple: 'play'.",
+    "explanationSteps": [
+      "'My friends' = more than one friend = plural.",
+      "Plural subjects use the base form.",
+      "So we say 'play', not 'plays'."
+    ],
+    "hints": [
+      "How many friends?",
+      "Is the group one person or many?",
+      "Many friends keep the verb in its simple form."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "plural",
+      "simple-present"
+    ],
+    "estimatedTimeSec": 14,
+    "prompt": "My friends _______ soccer after school.",
+    "subSkill": "indefinite-pronouns"
+  },
+  {
+    "id": "eg-a1-017",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.2,
+    "context": "school",
+    "acceptableAnswers": [
+      "has"
+    ],
+    "answerKey": "has",
+    "explanation": "Good! 'Tom' is one person, so 'have' becomes 'has'.",
+    "explanationSteps": [
+      "'Tom' = one person = singular.",
+      "'Have' is a special verb.",
+      "With singular subjects, 'have' changes to 'has'."
+    ],
+    "hints": [
+      "Who has the bike?",
+      "Is Tom one person or many people?",
+      "One person uses a special form of 'have'."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "singular",
+      "irregular-verb"
+    ],
+    "estimatedTimeSec": 13,
+    "prompt": "Tom _______ a red bike.",
+    "subSkill": "intervening-phrases"
+  },
+  {
+    "id": "eg-a1-018",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "context": "family",
+    "choices": [
+      {
+        "key": "A",
+        "text": "is"
+      },
+      {
+        "key": "B",
+        "text": "are"
+      },
+      {
+        "key": "C",
+        "text": "am"
+      },
+      {
+        "key": "D",
+        "text": "be"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'Is' is for one person or thing. 'Children' means more than one kid!",
+      "C": "'Am' is a special word only for 'I'. Try another form of 'be'.",
+      "D": "'Be' is the base form. We need the matching form for 'children'."
+    },
+    "explanation": "Wonderful! 'Children' is the plural of 'child', so we use 'are'.",
+    "explanationSteps": [
+      "'Children' = more than one child = plural.",
+      "The verb 'be' changes with the subject.",
+      "For plural subjects, we use 'are'."
+    ],
+    "hints": [
+      "How many children?",
+      "Is it one child or many?",
+      "Many children need the plural form of 'be'."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "plural",
+      "be-verb"
+    ],
+    "estimatedTimeSec": 15,
+    "prompt": "The children _______ happy today.",
+    "subSkill": "singular-plural"
+  },
+  {
+    "id": "eg-a1-019",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "level": "A1",
+    "questionType": "true-false",
+    "difficulty": 0.15,
+    "context": "animals",
+    "answerKey": "false",
+    "explanation": "Good eye! With 'she', the special verb 'have' changes to 'has'. It should be 'She has a cat.'",
+    "explanationSteps": [
+      "The subject is 'she'.",
+      "'Have' changes to 'has' with 'he', 'she', or 'it'.",
+      "So it should be 'She has a cat.'"
+    ],
+    "hints": [
+      "Who has the cat?",
+      "Is 'have' the right word for 'she'?",
+      "Try the form of 'have' that goes with 'she'."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "singular",
+      "irregular-verb"
+    ],
+    "estimatedTimeSec": 12,
+    "prompt": "'She have a cat.' This sentence is correct.",
+    "subSkill": "collective-nouns"
+  },
+  {
+    "id": "eg-a1-020",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "context": "animals",
+    "choices": [
+      {
+        "key": "A",
+        "text": "have"
+      },
+      {
+        "key": "B",
+        "text": "has"
+      },
+      {
+        "key": "C",
+        "text": "had"
+      },
+      {
+        "key": "D",
+        "text": "having"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "That's the base form. 'An elephant' is one animal, so 'have' changes!",
+      "C": "That's the past form. This sentence talks about elephants in general.",
+      "D": "That form needs a helper like 'is'. Try the simple present form."
+    },
+    "explanation": "Excellent! 'An elephant' means one elephant, so we use 'has' instead of 'have'.",
+    "explanationSteps": [
+      "'An elephant' = one animal = singular.",
+      "'Have' is special: it becomes 'has' with singular subjects.",
+      "So we say 'has'."
+    ],
+    "hints": [
+      "How many elephants?",
+      "Is it one elephant or many?",
+      "One elephant uses 'has', not 'have'."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "singular",
+      "irregular-verb"
+    ],
+    "estimatedTimeSec": 14,
+    "prompt": "An elephant _______ very big ears.",
+    "subSkill": "compound-subjects"
+  },
+  {
+    "id": "eg-a1-021",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.2,
+    "context": "school",
+    "acceptableAnswers": [
+      "am"
+    ],
+    "answerKey": "am",
+    "explanation": "Perfect! 'I' is special—it always goes with 'am'.",
+    "explanationSteps": [
+      "The subject is 'I'.",
+      "'I' has its own special form of 'be'.",
+      "'I' always uses 'am'."
+    ],
+    "hints": [
+      "Who is the student?",
+      "What form of 'be' only goes with 'I'?",
+      "It's a two-letter word: a-m."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "first-person",
+      "be-verb"
+    ],
+    "estimatedTimeSec": 10,
+    "prompt": "I _______ a student.",
+    "subSkill": "indefinite-pronouns"
+  },
+  {
+    "id": "eg-a1-022",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "context": "food",
+    "choices": [
+      {
+        "key": "A",
+        "text": "eat"
+      },
+      {
+        "key": "B",
+        "text": "eats"
+      },
+      {
+        "key": "C",
+        "text": "eating"
+      },
+      {
+        "key": "D",
+        "text": "ate"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "That ending is for one girl. 'Girls' means more than one!",
+      "C": "That form needs a helper like 'are'. Try the simple present form.",
+      "D": "That's the past form. This sentence talks about a regular lunch habit."
+    },
+    "explanation": "Great! 'Girls' is plural, so we keep the verb simple: 'eat'.",
+    "explanationSteps": [
+      "'The girls' = more than one girl = plural.",
+      "Plural subjects use the base form of the verb.",
+      "So we say 'eat'."
+    ],
+    "hints": [
+      "How many girls?",
+      "Is it one girl or many?",
+      "Many girls keep the verb in its simple form."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "plural",
+      "simple-present"
+    ],
+    "estimatedTimeSec": 14,
+    "prompt": "The girls _______ apples for lunch.",
+    "subSkill": "intervening-phrases"
+  },
+  {
+    "id": "eg-a1-023",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.1,
+    "context": "food",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a"
+      },
+      {
+        "key": "B",
+        "text": "an"
+      },
+      {
+        "key": "C",
+        "text": "the"
+      },
+      {
+        "key": "D",
+        "text": "no article"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'A' is used before words that start with a consonant sound. 'Apple' starts with a vowel sound.",
+      "C": "'The' is for a specific apple we already know about. Here, it's any apple.",
+      "D": "We need a small word before 'apple' to show it's one apple."
+    },
+    "explanation": "Great! 'Apple' starts with the vowel sound 'a', so we use 'an' before it.",
+    "explanationSteps": [
+      "'Apple' starts with a vowel sound (a-e-i-o-u).",
+      "Before vowel sounds, we use 'an'.",
+      "So we say 'an apple'."
+    ],
+    "hints": [
+      "What sound does 'apple' start with?",
+      "Is it a vowel sound or a consonant sound?",
+      "Use 'an' before words starting with a, e, i, o, u sounds."
+    ],
+    "tags": [
+      "indefinite-article",
+      "vowel-sound",
+      "food"
+    ],
+    "estimatedTimeSec": 13,
+    "prompt": "I have _______ apple in my bag.",
+    "subSkill": "definite-article"
+  },
+  {
+    "id": "eg-a1-024",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.15,
+    "context": "school",
+    "acceptableAnswers": [
+      "the"
+    ],
+    "answerKey": "the",
+    "explanation": "Well done! There is only one sky, so we use 'the' because it's special and unique.",
+    "explanationSteps": [
+      "There is only one sky in the world.",
+      "We use 'the' for unique things.",
+      "So we say 'the sky'."
+    ],
+    "hints": [
+      "How many skies are there?",
+      "Is it any sky or the only sky?",
+      "Use the article for special, one-of-a-kind things."
+    ],
+    "tags": [
+      "definite-article",
+      "unique-things",
+      "science"
+    ],
+    "estimatedTimeSec": 12,
+    "prompt": "The sun is in _______ sky.",
+    "subSkill": "indefinite-article"
+  },
+  {
+    "id": "eg-a1-025",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "level": "A1",
+    "questionType": "true-false",
+    "difficulty": 0.1,
+    "context": "animals",
+    "answerKey": "false",
+    "explanation": "Good noticing! 'Elephant' starts with a vowel sound, so we need 'an elephant' instead of 'a elephant'.",
+    "explanationSteps": [
+      "'Elephant' starts with the vowel sound 'e'.",
+      "Before vowel sounds, we use 'an'.",
+      "So it should be 'an elephant'."
+    ],
+    "hints": [
+      "What sound does 'elephant' start with?",
+      "Does it start with a, e, i, o, or u sound?",
+      "Use 'an' before vowel sounds."
+    ],
+    "tags": [
+      "indefinite-article",
+      "vowel-sound",
+      "animals"
+    ],
+    "estimatedTimeSec": 12,
+    "prompt": "'I see a elephant.' This sentence is correct.",
+    "subSkill": "zero-article"
+  },
+  {
+    "id": "eg-a1-026",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "context": "school",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a"
+      },
+      {
+        "key": "B",
+        "text": "an"
+      },
+      {
+        "key": "C",
+        "text": "the"
+      },
+      {
+        "key": "D",
+        "text": "no article"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "'A' is for any one girl. 'Tallest' picks out one special girl.",
+      "B": "'An' is for vowel sounds, but here we need the special article for superlatives.",
+      "D": "We need an article because 'tallest' points to a specific person."
+    },
+    "explanation": "Excellent! When we say 'tallest', we are pointing to one special person, so we use 'the'.",
+    "explanationSteps": [
+      "'Tallest' is a superlative—it picks the #1 person.",
+      "We use 'the' with superlatives.",
+      "So we say 'the tallest girl'."
+    ],
+    "hints": [
+      "Is she any tall girl or the #1 tallest?",
+      "Superlatives like 'tallest' need a special article.",
+      "Use 'the' when there is only one winner."
+    ],
+    "tags": [
+      "definite-article",
+      "superlatives",
+      "school"
+    ],
+    "estimatedTimeSec": 15,
+    "prompt": "She is _______ tallest girl in my class.",
+    "subSkill": "demonstratives"
+  },
+  {
+    "id": "eg-a1-027",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.15,
+    "context": "food",
+    "acceptableAnswers": [
+      "a"
+    ],
+    "answerKey": "a",
+    "explanation": "Nice! 'Banana' starts with the consonant sound 'b', so we use 'a' before it.",
+    "explanationSteps": [
+      "'Banana' starts with the consonant sound 'b'.",
+      "Before consonant sounds, we use 'a'.",
+      "So we say 'a banana'."
+    ],
+    "hints": [
+      "What sound does 'banana' start with?",
+      "Is it a vowel sound or a consonant sound?",
+      "Use 'a' before words starting with consonant sounds."
+    ],
+    "tags": [
+      "indefinite-article",
+      "consonant-sound",
+      "food"
+    ],
+    "estimatedTimeSec": 12,
+    "prompt": "I want _______ banana, please.",
+    "subSkill": "quantifiers"
+  },
+  {
+    "id": "eg-a1-028",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "context": "food",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a"
+      },
+      {
+        "key": "B",
+        "text": "an"
+      },
+      {
+        "key": "C",
+        "text": "the"
+      },
+      {
+        "key": "D",
+        "text": "no article"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "'A' is for one countable thing. Salt is not usually counted as one piece.",
+      "B": "'An' is for vowel sounds, but here we mean the salt on the table.",
+      "D": "We need an article because we mean the specific salt right here."
+    },
+    "explanation": "Good! We both know which salt we mean—the one on the table—so we use 'the'.",
+    "explanationSteps": [
+      "We mean the salt that is on the table.",
+      "When both people know the thing, we use 'the'.",
+      "So we say 'the salt'."
+    ],
+    "hints": [
+      "Which salt do we mean?",
+      "Is it any salt or the salt on the table?",
+      "Use 'the' when we both know the exact thing."
+    ],
+    "tags": [
+      "definite-article",
+      "specific-reference",
+      "food"
+    ],
+    "estimatedTimeSec": 15,
+    "prompt": "Can you pass me _______ salt, please?",
+    "subSkill": "definite-article"
+  },
+  {
+    "id": "eg-a1-029",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "level": "A1",
+    "questionType": "true-false",
+    "difficulty": 0.15,
+    "context": "school",
+    "answerKey": "false",
+    "explanation": "Good catch! 'Engineer' starts with a vowel sound 'e', so we need 'an engineer'.",
+    "explanationSteps": [
+      "'Engineer' starts with the vowel sound 'e'.",
+      "Before vowel sounds, we use 'an'.",
+      "So it should be 'an engineer'."
+    ],
+    "hints": [
+      "What sound does 'engineer' start with?",
+      "Is it a vowel or consonant sound?",
+      "Use 'an' before words starting with vowel sounds."
+    ],
+    "tags": [
+      "indefinite-article",
+      "vowel-sound",
+      "jobs"
+    ],
+    "estimatedTimeSec": 12,
+    "prompt": "'She is a engineer.' This sentence is correct.",
+    "subSkill": "indefinite-article"
+  },
+  {
+    "id": "eg-a1-030",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "context": "school",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a"
+      },
+      {
+        "key": "B",
+        "text": "an"
+      },
+      {
+        "key": "C",
+        "text": "the"
+      },
+      {
+        "key": "D",
+        "text": "no article"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Even though 'honest' starts with 'h', the 'h' is silent and the word starts with an 'o' sound.",
+      "C": "'The' is for a specific boy we already know. Here it's any honest boy.",
+      "D": "We need a small word before 'honest boy' to show it's one boy."
+    },
+    "explanation": "Great! The 'h' in 'honest' is silent, so the word starts with the vowel sound 'o'. We use 'an'.",
+    "explanationSteps": [
+      "The 'h' in 'honest' is silent.",
+      "The first sound is the vowel sound 'o'.",
+      "Before vowel sounds, we use 'an'."
+    ],
+    "hints": [
+      "What is the first sound you hear in 'honest'?",
+      "Is the 'h' sounded or silent?",
+      "Use 'an' when the first sound is a vowel."
+    ],
+    "tags": [
+      "indefinite-article",
+      "silent-h",
+      "adjectives"
+    ],
+    "estimatedTimeSec": 16,
+    "prompt": "He is _______ honest boy.",
+    "subSkill": "zero-article"
+  },
+  {
+    "id": "eg-a1-031",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.2,
+    "context": "school",
+    "acceptableAnswers": [
+      "the"
+    ],
+    "answerKey": "the",
+    "explanation": "Nice! There is only one moon, so we use 'the' because it's unique and special.",
+    "explanationSteps": [
+      "There is only one moon.",
+      "We use 'the' for unique things.",
+      "So we say 'the moon'."
+    ],
+    "hints": [
+      "How many moons do we see?",
+      "Is it any moon or the only moon?",
+      "Use the article for one-of-a-kind things."
+    ],
+    "tags": [
+      "definite-article",
+      "unique-things",
+      "science"
+    ],
+    "estimatedTimeSec": 12,
+    "prompt": "I see _______ moon at night.",
+    "subSkill": "demonstratives"
+  },
+  {
+    "id": "eg-a1-032",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "context": "family",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a"
+      },
+      {
+        "key": "B",
+        "text": "an"
+      },
+      {
+        "key": "C",
+        "text": "the"
+      },
+      {
+        "key": "D",
+        "text": "no article"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'A' is for consonant sounds. 'Umbrella' starts with a vowel sound 'u'.",
+      "C": "'The' would mean a specific umbrella we already talked about. This is a new umbrella.",
+      "D": "We need a small word before 'umbrella' to show it's one umbrella."
+    },
+    "explanation": "Excellent! 'Umbrella' starts with the vowel sound 'u', so we use 'an' before it.",
+    "explanationSteps": [
+      "'Umbrella' starts with the vowel sound 'u'.",
+      "Before vowel sounds, we use 'an'.",
+      "So we say 'an umbrella'."
+    ],
+    "hints": [
+      "What sound does 'umbrella' start with?",
+      "Is it a vowel sound or a consonant sound?",
+      "Use 'an' before words starting with vowel sounds."
+    ],
+    "tags": [
+      "indefinite-article",
+      "vowel-sound",
+      "family"
+    ],
+    "estimatedTimeSec": 13,
+    "prompt": "My mom bought _______ umbrella yesterday.",
+    "subSkill": "quantifiers"
+  },
+  {
+    "id": "eg-a1-033",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.1,
+    "context": "animals",
+    "choices": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "at"
+      },
+      {
+        "key": "C",
+        "text": "to"
+      },
+      {
+        "key": "D",
+        "text": "with"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "'At' is usually for places like 'at school' or times like 'at 5 o'clock'.",
+      "C": "'To' shows direction, like going somewhere. The cat is not moving.",
+      "D": "'With' means together. The sentence is about where the cat is, not who it is with."
+    },
+    "explanation": "Perfect! When something is resting on top of something else, we use 'on'.",
+    "explanationSteps": [
+      "The cat is resting on the surface of the chair.",
+      "'On' means touching the top surface.",
+      "So we say 'on the chair'."
+    ],
+    "hints": [
+      "Where is the cat?",
+      "Is it under, next to, or on top of the chair?",
+      "Use the word for 'on top of' something."
+    ],
+    "tags": [
+      "prepositions-of-place",
+      "on",
+      "animals"
+    ],
+    "estimatedTimeSec": 12,
+    "prompt": "The cat is _______ the chair.",
+    "subSkill": "prepositions-of-time"
+  },
+  {
+    "id": "eg-a1-034",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.15,
+    "context": "school",
+    "acceptableAnswers": [
+      "on",
+      "under",
+      "beside",
+      "near"
+    ],
+    "answerKey": "on",
+    "explanation": "Great! Books usually rest on top of tables, so 'on' is the natural choice.",
+    "explanationSteps": [
+      "Think about where a book usually sits.",
+      "'On' means touching the top surface.",
+      "So we say 'on the table'."
+    ],
+    "hints": [
+      "Where do you put a book on a table?",
+      "Is it on top, under, or inside?",
+      "Use the word for 'on top of' something."
+    ],
+    "tags": [
+      "prepositions-of-place",
+      "on",
+      "school"
+    ],
+    "estimatedTimeSec": 12,
+    "prompt": "My book is _______ the table.",
+    "subSkill": "prepositions-of-place"
+  },
+  {
+    "id": "eg-a1-035",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "level": "A1",
+    "questionType": "true-false",
+    "difficulty": 0.1,
+    "context": "family",
+    "answerKey": "false",
+    "explanation": "Good thinking! 'Under' means below something, not on top. The ball is below the bed.",
+    "explanationSteps": [
+      "'Under' means below something.",
+      "'On top of' would be 'on'.",
+      "So 'under the bed' means below it."
+    ],
+    "hints": [
+      "What does 'under' mean?",
+      "Is it above or below?",
+      "'Under' means below, not on top."
+    ],
+    "tags": [
+      "prepositions-of-place",
+      "under",
+      "vocabulary"
+    ],
+    "estimatedTimeSec": 12,
+    "prompt": "'The ball is under the bed.' This sentence means the ball is on top of the bed.",
+    "subSkill": "prepositions-of-movement"
+  },
+  {
+    "id": "eg-a1-036",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "context": "food",
+    "choices": [
+      {
+        "key": "A",
+        "text": "in"
+      },
+      {
+        "key": "B",
+        "text": "on"
+      },
+      {
+        "key": "C",
+        "text": "at"
+      },
+      {
+        "key": "D",
+        "text": "by"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "'In' is for longer times like months, years, or parts of the day.",
+      "B": "'On' is for days and dates, like 'on Monday'.",
+      "D": "'By' means near or before a time, not exactly at that time."
+    },
+    "explanation": "Excellent! For exact times like 'noon' or '5 o'clock', we use the preposition 'at'.",
+    "explanationSteps": [
+      "'Noon' is an exact time.",
+      "We use 'at' for exact times.",
+      "So we say 'at noon'."
+    ],
+    "hints": [
+      "Is noon a day, a month, or an exact time?",
+      "What preposition goes with exact clock times?",
+      "Use 'at' for specific times like noon and midnight."
+    ],
+    "tags": [
+      "prepositions-of-time",
+      "at",
+      "daily-routine"
+    ],
+    "estimatedTimeSec": 14,
+    "prompt": "We eat lunch _______ noon.",
+    "subSkill": "phrasal-prepositions"
+  },
+  {
+    "id": "eg-a1-037",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.15,
+    "context": "animals",
+    "acceptableAnswers": [
+      "on",
+      "under",
+      "beside",
+      "near"
+    ],
+    "answerKey": "on",
+    "explanation": "Nice! Dogs often sleep on beds, so 'on' works well here.",
+    "explanationSteps": [
+      "Think about where a dog sleeps.",
+      "'On' means touching the top surface.",
+      "So we say 'on the bed'."
+    ],
+    "hints": [
+      "Where does the dog sleep?",
+      "Is it on top, under, or inside?",
+      "Use the word for 'on top of' something."
+    ],
+    "tags": [
+      "prepositions-of-place",
+      "on",
+      "animals"
+    ],
+    "estimatedTimeSec": 12,
+    "prompt": "The dog sleeps _______ the bed.",
+    "subSkill": "dependent-prepositions"
+  },
+  {
+    "id": "eg-a1-038",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "context": "school",
+    "choices": [
+      {
+        "key": "A",
+        "text": "in"
+      },
+      {
+        "key": "B",
+        "text": "on"
+      },
+      {
+        "key": "C",
+        "text": "at"
+      },
+      {
+        "key": "D",
+        "text": "by"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'In' is for months, years, seasons, or parts of the day—not days of the week.",
+      "C": "'At' is for exact times, not days.",
+      "D": "'By' means before or near a time, not a specific day."
+    },
+    "explanation": "Great! For days of the week like Monday, we always use 'on'.",
+    "explanationSteps": [
+      "'Monday' is a day of the week.",
+      "We use 'on' for days and dates.",
+      "So we say 'on Monday'."
+    ],
+    "hints": [
+      "What kind of time is Monday?",
+      "Is it a day, a month, or an exact clock time?",
+      "Use 'on' for days of the week."
+    ],
+    "tags": [
+      "prepositions-of-time",
+      "on",
+      "days-of-week"
+    ],
+    "estimatedTimeSec": 14,
+    "prompt": "I go to school _______ Monday.",
+    "subSkill": "prepositions-of-time"
+  },
+  {
+    "id": "eg-a1-039",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "level": "A1",
+    "questionType": "true-false",
+    "difficulty": 0.15,
+    "context": "family",
+    "answerKey": "true",
+    "explanation": "Yes! For months, we use 'in'. 'In July' is perfectly correct.",
+    "explanationSteps": [
+      "'July' is a month.",
+      "We use 'in' for months, years, and seasons.",
+      "So 'in July' is correct."
+    ],
+    "hints": [
+      "What kind of time is July?",
+      "Is it a day, a month, or an exact time?",
+      "We use 'in' for months."
+    ],
+    "tags": [
+      "prepositions-of-time",
+      "in",
+      "months"
+    ],
+    "estimatedTimeSec": 12,
+    "prompt": "'My birthday is in July.' This sentence is correct.",
+    "subSkill": "prepositions-of-place"
+  },
+  {
+    "id": "eg-a1-040",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "context": "family",
+    "choices": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "in"
+      },
+      {
+        "key": "C",
+        "text": "at"
+      },
+      {
+        "key": "D",
+        "text": "to"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'On' means on top of the surface. Toys are usually inside a box, not on it.",
+      "C": "'At' is for places or times, not for being inside a container.",
+      "D": "'To' shows direction. The toys are already there, not moving toward it."
+    },
+    "explanation": "Wonderful! When something is inside a container, we use 'in'. The toys are inside the box.",
+    "explanationSteps": [
+      "A box is a container.",
+      "'In' means inside a container or space.",
+      "So we say 'in the box'."
+    ],
+    "hints": [
+      "Where are the toys?",
+      "Are they outside or inside the box?",
+      "Use the word for 'inside' something."
+    ],
+    "tags": [
+      "prepositions-of-place",
+      "in",
+      "objects"
+    ],
+    "estimatedTimeSec": 14,
+    "prompt": "The toys are _______ the box.",
+    "subSkill": "prepositions-of-movement"
+  },
+  {
+    "id": "eg-a1-041",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.2,
+    "context": "family",
+    "acceptableAnswers": [
+      "at"
+    ],
+    "answerKey": "at",
+    "explanation": "Well done! For exact clock times, we use 'at'.",
+    "explanationSteps": [
+      "'7 o'clock' is an exact time.",
+      "We use 'at' for exact times.",
+      "So we say 'at 7 o'clock'."
+    ],
+    "hints": [
+      "Is 7 o'clock a day, a month, or an exact time?",
+      "What preposition do we use for clock times?",
+      "Use 'at' for specific times like 7 o'clock."
+    ],
+    "tags": [
+      "prepositions-of-time",
+      "at",
+      "daily-routine"
+    ],
+    "estimatedTimeSec": 12,
+    "prompt": "I wake up _______ 7 o'clock.",
+    "subSkill": "phrasal-prepositions"
+  },
+  {
+    "id": "eg-a1-042",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "level": "A1",
+    "questionType": "matching",
+    "difficulty": 0.25,
+    "context": "school",
+    "matchPairs": [
+      {
+        "left": "The cat is ___ the table.",
+        "right": "on",
+        "label": "A"
+      },
+      {
+        "left": "The fish is ___ the bowl.",
+        "right": "in",
+        "label": "B"
+      },
+      {
+        "left": "The dog is ___ the bed.",
+        "right": "under",
+        "label": "C"
+      }
+    ],
+    "answerKey": "A-on, B-in, C-under",
+    "explanation": "Great matching! 'On' is for the top, 'in' is for inside, and 'under' is for below.",
+    "explanationSteps": [
+      "'On' means touching the top surface.",
+      "'In' means inside a container.",
+      "'Under' means below something."
+    ],
+    "hints": [
+      "Think about where each animal sits.",
+      "A table top uses 'on', a bowl uses 'in', and below uses 'under'.",
+      "Match the position word to the place you see."
+    ],
+    "tags": [
+      "prepositions-of-place",
+      "matching",
+      "animals"
+    ],
+    "estimatedTimeSec": 20,
+    "prompt": "Match the preposition to the correct picture description.",
+    "subSkill": "dependent-prepositions"
+  },
+  {
+    "id": "eg-a1-043",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.15,
+    "context": "school",
+    "choices": [
+      {
+        "key": "D",
+        "text": "can"
+      },
+      {
+        "key": "B",
+        "text": "is"
+      },
+      {
+        "key": "C",
+        "text": "are"
+      },
+      {
+        "key": "A",
+        "text": "do"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "'Is' is a form of 'be'. We need a word that shows ability here.",
+      "C": "'Are' is a form of 'be'. Try a word that means 'know how to'.",
+      "A": "'Do' is a helper verb. We need a word that talks about ability."
+    },
+    "explanation": "Excellent! 'Can' shows that you know how to do something or have the ability.",
+    "explanationSteps": [
+      "The sentence talks about ability.",
+      "'Can' is the modal verb for ability.",
+      "So we say 'I can swim'."
+    ],
+    "hints": [
+      "Does the sentence talk about knowing how to do something?",
+      "What word means 'know how to'?",
+      "Use the three-letter word that shows ability."
+    ],
+    "tags": [
+      "modal-verbs",
+      "ability",
+      "can"
+    ],
+    "estimatedTimeSec": 13,
+    "prompt": "I _______ swim very fast.",
+    "subSkill": "ability"
+  },
+  {
+    "id": "eg-a1-044",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.2,
+    "context": "food",
+    "acceptableAnswers": [
+      "Can",
+      "May"
+    ],
+    "answerKey": "Can",
+    "explanation": "Polite and perfect! 'Can' or 'May' both ask for permission nicely. 'Can' is very common and friendly.",
+    "explanationSteps": [
+      "The sentence is asking for something politely.",
+      "'Can I...?' is a friendly way to ask for permission.",
+      "So we say 'Can I have some water, please?'"
+    ],
+    "hints": [
+      "Is the person asking for something politely?",
+      "What word do we use to ask permission nicely?",
+      "Try the word that means 'Am I allowed to?'"
+    ],
+    "tags": [
+      "modal-verbs",
+      "permission",
+      "can",
+      "politeness"
+    ],
+    "estimatedTimeSec": 14,
+    "prompt": "_______ I have some water, please?",
+    "subSkill": "permission"
+  },
+  {
+    "id": "eg-a1-045",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "level": "A1",
+    "questionType": "true-false",
+    "difficulty": 0.15,
+    "context": "food",
+    "answerKey": "false",
+    "explanation": "Good listening! 'You can have a cookie' means you ARE allowed to have one. 'Can' gives permission!",
+    "explanationSteps": [
+      "'Can' is used to give permission.",
+      "'You can' means 'You are allowed to'.",
+      "So the sentence means you may have a cookie."
+    ],
+    "hints": [
+      "What does 'can' mean here?",
+      "Is it about ability or permission?",
+      "'Can' here means 'you are allowed to'."
+    ],
+    "tags": [
+      "modal-verbs",
+      "permission",
+      "can"
+    ],
+    "estimatedTimeSec": 12,
+    "prompt": "'You can have a cookie.' This means you are not allowed to have a cookie.",
+    "subSkill": "obligation"
+  },
+  {
+    "id": "eg-a1-046",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "context": "animals",
+    "choices": [
+      {
+        "key": "D",
+        "text": "can"
+      },
+      {
+        "key": "B",
+        "text": "is"
+      },
+      {
+        "key": "C",
+        "text": "are"
+      },
+      {
+        "key": "A",
+        "text": "do"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "'Is' is for one thing. We need a word about ability, not being.",
+      "C": "'Are' is a form of 'be'. We need a word that shows what birds know how to do.",
+      "A": "'Do' is a helper verb. We need a word that means 'know how to'."
+    },
+    "explanation": "Super! 'Can' tells us about ability—birds have the ability to fly.",
+    "explanationSteps": [
+      "The sentence talks about what birds are able to do.",
+      "'Can' is the modal verb for ability.",
+      "So we say 'Birds can fly'."
+    ],
+    "hints": [
+      "What do birds know how to do?",
+      "What word means 'know how to' or 'able to'?",
+      "Use the three-letter modal verb for ability."
+    ],
+    "tags": [
+      "modal-verbs",
+      "ability",
+      "can",
+      "animals"
+    ],
+    "estimatedTimeSec": 13,
+    "prompt": "Birds _______ fly.",
+    "subSkill": "possibility"
+  },
+  {
+    "id": "eg-a1-047",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.2,
+    "context": "family",
+    "acceptableAnswers": [
+      "Can",
+      "Could",
+      "Will"
+    ],
+    "answerKey": "Can",
+    "explanation": "Nice! 'Can you help me?' is a friendly way to ask for help. 'Could' and 'Will' also work politely.",
+    "explanationSteps": [
+      "The sentence is a polite request.",
+      "'Can you...?' is a common, kind way to ask for help.",
+      "So we say 'Can you help me, please?'"
+    ],
+    "hints": [
+      "Is the person asking for help?",
+      "What word makes a friendly request?",
+      "Use the word that means 'Are you able to help?'"
+    ],
+    "tags": [
+      "modal-verbs",
+      "requests",
+      "can",
+      "politeness"
+    ],
+    "estimatedTimeSec": 13,
+    "prompt": "_______ you help me, please?",
+    "subSkill": "deduction"
+  },
+  {
+    "id": "eg-a1-048",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "context": "food",
+    "choices": [
+      {
+        "key": "D",
+        "text": "and"
+      },
+      {
+        "key": "B",
+        "text": "but"
+      },
+      {
+        "key": "C",
+        "text": "because"
+      },
+      {
+        "key": "A",
+        "text": "or"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "B": "'But' is for opposite ideas. Apples and bananas are both liked, not opposite.",
+      "C": "'Because' gives a reason. We aren't explaining why here.",
+      "A": "'Or' is for choosing one. Here we like both fruits together."
+    },
+    "explanation": "Wonderful! 'And' joins two things we like together. It's like putting them in the same basket!",
+    "explanationSteps": [
+      "The sentence lists two fruits both liked.",
+      "'And' joins similar or added ideas.",
+      "So we say 'apples and bananas'."
+    ],
+    "hints": [
+      "Are apples and bananas both liked?",
+      "Do we need a joining word for similar things?",
+      "Use the word that puts two things together."
+    ],
+    "tags": [
+      "conjunctions",
+      "and",
+      "coordinating"
+    ],
+    "estimatedTimeSec": 13,
+    "prompt": "I like apples _______ bananas.",
+    "subSkill": "coordinating"
+  },
+  {
+    "id": "eg-a1-049",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.25,
+    "context": "food",
+    "acceptableAnswers": [
+      "or"
+    ],
+    "answerKey": "or",
+    "explanation": "Great! 'Or' is used when we choose between two things. Juice or water—which one?",
+    "explanationSteps": [
+      "The sentence offers a choice between two drinks.",
+      "'Or' is used for alternatives or choices.",
+      "So we say 'juice or water'."
+    ],
+    "hints": [
+      "Is the person choosing between two drinks?",
+      "Do we need a word for 'pick one'?",
+      "Use the word that gives a choice between two things."
+    ],
+    "tags": [
+      "conjunctions",
+      "or",
+      "coordinating"
+    ],
+    "estimatedTimeSec": 12,
+    "prompt": "I want juice _______ water.",
+    "subSkill": "subordinating"
+  },
+  {
+    "id": "eg-a1-050",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "context": "food",
+    "choices": [
+      {
+        "key": "A",
+        "text": "and"
+      },
+      {
+        "key": "B",
+        "text": "but"
+      },
+      {
+        "key": "C",
+        "text": "or"
+      },
+      {
+        "key": "D",
+        "text": "because"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "'And' joins similar ideas. Here we have opposite ideas: like vs. don't like.",
+      "C": "'Or' is for choices. We aren't choosing between ice cream and broccoli.",
+      "D": "'Because' gives a reason. We aren't explaining why here."
+    },
+    "explanation": "Excellent! 'But' is the magic word that joins opposite ideas. We like one thing, yet not the other.",
+    "explanationSteps": [
+      "The first part is positive (like ice cream).",
+      "The second part is negative (don't like broccoli).",
+      "'But' joins opposite ideas."
+    ],
+    "hints": [
+      "Do we like both things?",
+      "Is the second idea the opposite of the first?",
+      "Use the word that shows a difference or surprise."
+    ],
+    "tags": [
+      "conjunctions",
+      "but",
+      "coordinating",
+      "contrast"
+    ],
+    "estimatedTimeSec": 15,
+    "prompt": "I like ice cream, _______ I don't like broccoli.",
+    "subSkill": "correlative"
+  },
+  {
+    "id": "eg-a1-051",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "simple-present",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.15,
+    "prompt": "Water _______ at 100 degrees Celsius.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "boil"
+      },
+      {
+        "key": "B",
+        "text": "boils"
+      },
+      {
+        "key": "C",
+        "text": "boiling"
+      },
+      {
+        "key": "D",
+        "text": "boiled"
+      }
+    ],
+    "answerKey": "B",
+    "explanation": "Wonderful! This is a scientific fact that is always true, so we use the simple present. With 'water' (like 'it'), we add 's'.",
+    "explanationSteps": [
+      "This is a general truth, so we use the simple present tense.",
+      "'Water' acts like 'it', a singular subject.",
+      "Add '-s' to 'boil' to make 'boils'."
+    ],
+    "hints": [
+      "Is this a habit, a fact, or happening right now?",
+      "Think of water as 'it'.",
+      "Add one little letter to 'boil'."
+    ],
+    "wrongChoiceReasons": {
+      "A": "That's the base form. For facts about 'it', we need the third-person form!",
+      "C": "That form needs a helper like 'is'. Try the simple present form instead.",
+      "D": "That's the past form. This fact is true every day, not just yesterday."
+    },
+    "tags": [
+      "simple-present",
+      "general-truths",
+      "science"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "eg-a1-052",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "simple-past",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.15,
+    "prompt": "My dad _______ a new car last week.",
+    "acceptableAnswers": [
+      "bought"
+    ],
+    "answerKey": "bought",
+    "explanation": "Great job! 'Last week' is in the past, and 'buy' has a special past form: 'bought'.",
+    "explanationSteps": [
+      "'Last week' tells us the action is finished.",
+      "'Buy' is an irregular verb.",
+      "The past form of 'buy' is 'bought'."
+    ],
+    "hints": [
+      "When did Dad buy the car?",
+      "Think about the past form of 'buy'.",
+      "It rhymes with 'thought'."
+    ],
+    "tags": [
+      "simple-past",
+      "irregular-verbs",
+      "family"
+    ],
+    "estimatedTimeSec": 14
+  },
+  {
+    "id": "eg-a1-053",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "present-continuous",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "Look! The baby _______ right now.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "cry"
+      },
+      {
+        "key": "B",
+        "text": "cries"
+      },
+      {
+        "key": "C",
+        "text": "is crying"
+      },
+      {
+        "key": "D",
+        "text": "cried"
+      }
+    ],
+    "answerKey": "C",
+    "explanation": "Perfect! 'Look!' and 'right now' tell us the action is happening at this very moment, so we use 'is crying'.",
+    "explanationSteps": [
+      "'Look!' and 'right now' mean the action is in progress.",
+      "Use 'be + verb-ing' for actions happening now.",
+      "So we say 'is crying'."
+    ],
+    "hints": [
+      "When is the baby crying?",
+      "Is it a habit or happening this second?",
+      "Use 'is' plus the verb with '-ing'."
+    ],
+    "wrongChoiceReasons": {
+      "A": "That's the base form. 'Look!' means it's happening right now!",
+      "B": "That ending is for habits. 'Right now' means this very moment.",
+      "D": "That's the past form. The baby is crying now, not earlier."
+    },
+    "tags": [
+      "present-continuous",
+      "time-markers",
+      "family"
+    ],
+    "estimatedTimeSec": 16
+  },
+  {
+    "id": "eg-a1-054",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "simple-present",
+    "level": "A1",
+    "questionType": "true-false",
+    "difficulty": 0.1,
+    "prompt": "'They watches TV every evening.' This sentence is correct.",
+    "answerKey": "false",
+    "explanation": "Good catch! 'They' is plural, so we keep the verb simple: 'watch'. No extra 'es' is needed.",
+    "explanationSteps": [
+      "Look at the subject: 'They'.",
+      "'They' is plural, so we use the base form.",
+      "It should be 'They watch TV every evening.'"
+    ],
+    "hints": [
+      "Who is watching TV?",
+      "Is 'they' one person or many people?",
+      "Plural subjects keep the verb simple."
+    ],
+    "tags": [
+      "simple-present",
+      "plural",
+      "daily-routine"
+    ],
+    "estimatedTimeSec": 12
+  },
+  {
+    "id": "eg-a1-055",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "simple-past",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.15,
+    "prompt": "She _______ her homework yesterday.",
+    "acceptableAnswers": [
+      "did"
+    ],
+    "answerKey": "did",
+    "explanation": "Excellent! 'Yesterday' takes us to the past, and 'did' is the past form of 'do'.",
+    "explanationSteps": [
+      "'Yesterday' means the action is finished.",
+      "'Do' is an irregular verb.",
+      "The past form of 'do' is 'did'."
+    ],
+    "hints": [
+      "When did she do her homework?",
+      "Think about the past form of 'do'.",
+      "It's a short three-letter word."
+    ],
+    "tags": [
+      "simple-past",
+      "irregular-verbs",
+      "school"
+    ],
+    "estimatedTimeSec": 13
+  },
+  {
+    "id": "eg-a1-056",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "simple-present",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "My sister _______ the guitar every weekend.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "play"
+      },
+      {
+        "key": "B",
+        "text": "plays"
+      },
+      {
+        "key": "C",
+        "text": "playing"
+      },
+      {
+        "key": "D",
+        "text": "played"
+      }
+    ],
+    "answerKey": "B",
+    "explanation": "Lovely! 'Every weekend' is a habit, and with 'my sister' (like 'she'), we add 's' to 'play'.",
+    "explanationSteps": [
+      "'Every weekend' means it's a regular habit.",
+      "'My sister' acts like 'she', a singular subject.",
+      "Add '-s' to 'play' to make 'plays'."
+    ],
+    "hints": [
+      "When does she play the guitar?",
+      "Does 'my sister' need an ending on the verb?",
+      "One person gets a little 's'."
+    ],
+    "wrongChoiceReasons": {
+      "A": "That's the base form. 'My sister' is one person, so she needs an 's'!",
+      "C": "That form needs a helper like 'is'. Try the simple present form instead.",
+      "D": "That's the past form. 'Every weekend' means it happens again and again."
+    },
+    "tags": [
+      "simple-present",
+      "third-person-singular",
+      "hobbies"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "eg-a1-057",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "present-continuous",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.2,
+    "prompt": "Be quiet! The teacher _______ to us now.",
+    "acceptableAnswers": [
+      "is talking"
+    ],
+    "answerKey": "is talking",
+    "explanation": "Super! 'Be quiet!' and 'now' tell us the teacher is speaking at this very moment.",
+    "explanationSteps": [
+      "'Be quiet!' and 'now' mean the action is in progress.",
+      "Use 'be + verb-ing' for actions happening now.",
+      "So we say 'is talking'."
+    ],
+    "hints": [
+      "When is the teacher talking?",
+      "Is it a habit or happening right now?",
+      "Use 'is' plus the verb with '-ing'."
+    ],
+    "tags": [
+      "present-continuous",
+      "time-markers",
+      "school"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "eg-a1-058",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "simple-past",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "We _______ a great movie last Saturday.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "see"
+      },
+      {
+        "key": "B",
+        "text": "sees"
+      },
+      {
+        "key": "C",
+        "text": "seeing"
+      },
+      {
+        "key": "D",
+        "text": "saw"
+      }
+    ],
+    "answerKey": "D",
+    "explanation": "Great! 'Last Saturday' sends us to the past, and 'see' has a special past form: 'saw'.",
+    "explanationSteps": [
+      "'Last Saturday' tells us the action is finished.",
+      "'See' is an irregular verb.",
+      "The past form of 'see' is 'saw'."
+    ],
+    "hints": [
+      "When did we see the movie?",
+      "Think about the past form of 'see'.",
+      "It's a short three-letter word."
+    ],
+    "wrongChoiceReasons": {
+      "A": "That's the base form. 'Last Saturday' needs the past form!",
+      "B": "That ending is for habits with 'he' or 'she'. This is about last Saturday.",
+      "C": "That form needs a helper like 'are'. Try the simple past form instead."
+    },
+    "tags": [
+      "simple-past",
+      "irregular-verbs",
+      "entertainment"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "eg-a1-059",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "simple-present",
+    "level": "A1",
+    "questionType": "true-false",
+    "difficulty": 0.15,
+    "prompt": "'It rain a lot in spring.' This sentence is correct.",
+    "answerKey": "false",
+    "explanation": "Almost! With 'it' (the weather), we add 's' to 'rain' to make 'rains'.",
+    "explanationSteps": [
+      "The subject is 'it'.",
+      "In simple present, 'he/she/it' verbs need '-s' or '-es'.",
+      "So it should be 'It rains a lot in spring.'"
+    ],
+    "hints": [
+      "What is the subject?",
+      "Does 'it' need an ending on the verb?",
+      "Add one little letter to 'rain'."
+    ],
+    "tags": [
+      "simple-present",
+      "third-person-singular",
+      "weather"
+    ],
+    "estimatedTimeSec": 12
+  },
+  {
+    "id": "eg-a1-060",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "simple-past",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.2,
+    "prompt": "He _______ his leg while playing football.",
+    "acceptableAnswers": [
+      "broke"
+    ],
+    "answerKey": "broke",
+    "explanation": "Good work! 'Break' is an irregular verb, and its past form is 'broke'.",
+    "explanationSteps": [
+      "The action happened while playing football in the past.",
+      "'Break' is an irregular verb.",
+      "The past form of 'break' is 'broke'."
+    ],
+    "hints": [
+      "Did this happen now or in the past?",
+      "Think about the past form of 'break'.",
+      "It rhymes with 'spoke'."
+    ],
+    "tags": [
+      "simple-past",
+      "irregular-verbs",
+      "sports"
+    ],
+    "estimatedTimeSec": 14
+  },
+  {
+    "id": "eg-a1-061",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "present-continuous",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "The students _______ English at the moment.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "study"
+      },
+      {
+        "key": "B",
+        "text": "studies"
+      },
+      {
+        "key": "C",
+        "text": "are studying"
+      },
+      {
+        "key": "D",
+        "text": "studied"
+      }
+    ],
+    "answerKey": "C",
+    "explanation": "Wonderful! 'At the moment' means right now, so we use 'are studying'.",
+    "explanationSteps": [
+      "'At the moment' means right now.",
+      "Use 'be + verb-ing' for actions in progress.",
+      "'Students' is plural, so we use 'are studying'."
+    ],
+    "hints": [
+      "When are the students studying?",
+      "Is it a habit or happening right now?",
+      "Use 'are' plus the verb with '-ing' for plural subjects."
+    ],
+    "wrongChoiceReasons": {
+      "A": "That's the base form. 'At the moment' means it's happening right now!",
+      "B": "That ending is for one student. Also, 'at the moment' means right now.",
+      "D": "That's the past form. 'At the moment' is about today, right now."
+    },
+    "tags": [
+      "present-continuous",
+      "time-markers",
+      "school"
+    ],
+    "estimatedTimeSec": 16
+  },
+  {
+    "id": "eg-a1-062",
+    "moduleId": "english.grammar",
+    "skill": "tense-aspect",
+    "subSkill": "simple-present",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.15,
+    "prompt": "Fish _______ in water.",
+    "acceptableAnswers": [
+      "live",
+      "swim"
+    ],
+    "answerKey": "live",
+    "explanation": "Bright answer! This is a general truth, so we use the simple present. With plural 'fish', we keep the base form.",
+    "explanationSteps": [
+      "This is a general truth about fish.",
+      "'Fish' can be plural without changing form.",
+      "Plural subjects use the base form: 'live'."
+    ],
+    "hints": [
+      "Is this a habit, a fact, or right now?",
+      "How many fish are we talking about?",
+      "Plural subjects keep the verb in its simple form."
+    ],
+    "tags": [
+      "simple-present",
+      "general-truths",
+      "animals"
+    ],
+    "estimatedTimeSec": 13
+  },
+  {
+    "id": "eg-a1-063",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "singular-plural",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.15,
+    "prompt": "The teacher _______ us a story every day.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "tell"
+      },
+      {
+        "key": "B",
+        "text": "tells"
+      },
+      {
+        "key": "C",
+        "text": "telling"
+      },
+      {
+        "key": "D",
+        "text": "told"
+      }
+    ],
+    "answerKey": "B",
+    "explanation": "Excellent! 'The teacher' is one person, so we add 's' to 'tell' to make 'tells'.",
+    "explanationSteps": [
+      "'The teacher' = one person = singular.",
+      "In simple present, singular subjects need '-s' or '-es'.",
+      "'Tell' + 's' = 'tells'."
+    ],
+    "hints": [
+      "How many teachers?",
+      "Is the subject one person or many?",
+      "One person gets a little 's' on the verb."
+    ],
+    "wrongChoiceReasons": {
+      "A": "That's the base form. 'The teacher' is one person, so she needs an 's'!",
+      "C": "That form needs a helper like 'is'. Try the simple present form instead.",
+      "D": "That's the past form. 'Every day' means it happens again and again."
+    },
+    "tags": [
+      "subject-verb-agreement",
+      "singular",
+      "simple-present"
+    ],
+    "estimatedTimeSec": 14
+  },
+  {
+    "id": "eg-a1-064",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "collective-nouns",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.15,
+    "prompt": "The birds _______ in the sky.",
+    "acceptableAnswers": [
+      "fly",
+      "are flying"
+    ],
+    "answerKey": "fly",
+    "explanation": "Great! 'Birds' is plural, so we keep the verb simple: 'fly'.",
+    "explanationSteps": [
+      "'Birds' = more than one bird = plural.",
+      "Plural subjects use the base form of the verb.",
+      "So we say 'fly'."
+    ],
+    "hints": [
+      "How many birds?",
+      "Is it one bird or many?",
+      "Many birds keep the verb in its simple form."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "plural",
+      "simple-present"
+    ],
+    "estimatedTimeSec": 12
+  },
+  {
+    "id": "eg-a1-065",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "compound-subjects",
+    "level": "A1",
+    "questionType": "true-false",
+    "difficulty": 0.1,
+    "prompt": "'The dogs barks loudly.' This sentence is correct.",
+    "answerKey": "false",
+    "explanation": "Good catch! 'Dogs' is plural, so we keep the verb simple: 'bark'. No extra 's' is needed.",
+    "explanationSteps": [
+      "'Dogs' = more than one dog = plural.",
+      "Plural subjects use the base form.",
+      "So it should be 'The dogs bark loudly.'"
+    ],
+    "hints": [
+      "How many dogs?",
+      "Does a group of dogs need an 's' on the verb?",
+      "Plural subjects keep the verb simple."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "plural",
+      "simple-present"
+    ],
+    "estimatedTimeSec": 12
+  },
+  {
+    "id": "eg-a1-066",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "indefinite-pronouns",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "Mary and John _______ good friends.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "is"
+      },
+      {
+        "key": "B",
+        "text": "are"
+      },
+      {
+        "key": "C",
+        "text": "am"
+      },
+      {
+        "key": "D",
+        "text": "be"
+      }
+    ],
+    "answerKey": "B",
+    "explanation": "Wonderful! 'Mary and John' means two people, so we use the plural form 'are'.",
+    "explanationSteps": [
+      "'Mary and John' = two people = plural.",
+      "The verb 'be' changes with the subject.",
+      "For plural subjects, we use 'are'."
+    ],
+    "hints": [
+      "How many people are we talking about?",
+      "Is it one person or more than one?",
+      "Two people need the plural form of 'be'."
+    ],
+    "wrongChoiceReasons": {
+      "A": "'Is' is for one person or thing. Mary and John are two people!",
+      "C": "'Am' is a special word only for 'I'. Try another form of 'be'.",
+      "D": "'Be' is the base form. We need the matching form for two people."
+    },
+    "tags": [
+      "subject-verb-agreement",
+      "plural",
+      "be-verb"
+    ],
+    "estimatedTimeSec": 14
+  },
+  {
+    "id": "eg-a1-067",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "intervening-phrases",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.2,
+    "prompt": "My grandmother _______ in a small village.",
+    "acceptableAnswers": [
+      "lives"
+    ],
+    "answerKey": "lives",
+    "explanation": "Well done! 'My grandmother' is one person, so we add 's' to 'live' to make 'lives'.",
+    "explanationSteps": [
+      "'My grandmother' = one person = singular.",
+      "In simple present, singular subjects need '-s' or '-es'.",
+      "'Live' + 's' = 'lives'."
+    ],
+    "hints": [
+      "Who lives in the village?",
+      "Is it one person or many?",
+      "One person gets a little 's' on the verb."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "singular",
+      "simple-present"
+    ],
+    "estimatedTimeSec": 13
+  },
+  {
+    "id": "eg-a1-068",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "singular-plural",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "There _______ many apples on the tree.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "is"
+      },
+      {
+        "key": "B",
+        "text": "are"
+      },
+      {
+        "key": "C",
+        "text": "am"
+      },
+      {
+        "key": "D",
+        "text": "be"
+      }
+    ],
+    "answerKey": "B",
+    "explanation": "Nice! 'Many apples' is plural, so we use 'are'.",
+    "explanationSteps": [
+      "'Many apples' = more than one apple = plural.",
+      "The verb after the noun must match the noun.",
+      "For plural nouns, we use 'are'."
+    ],
+    "hints": [
+      "How many apples are there?",
+      "Is it one apple or many?",
+      "Many apples need the plural form of 'be'."
+    ],
+    "wrongChoiceReasons": {
+      "A": "'Is' is for one thing. 'Many apples' means more than one!",
+      "C": "'Am' is only for 'I'. Try another form of 'be'.",
+      "D": "'Be' is the base form. We need the matching form for many apples."
+    },
+    "tags": [
+      "subject-verb-agreement",
+      "plural",
+      "be-verb"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "eg-a1-069",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "collective-nouns",
+    "level": "A1",
+    "questionType": "true-false",
+    "difficulty": 0.15,
+    "prompt": "'My parents has a new house.' This sentence is correct.",
+    "answerKey": "false",
+    "explanation": "Good eye! 'Parents' means two people (a mother and a father), so we use 'have', not 'has'.",
+    "explanationSteps": [
+      "'Parents' = two people = plural.",
+      "'Have' is the form for plural subjects.",
+      "So it should be 'My parents have a new house.'"
+    ],
+    "hints": [
+      "How many parents?",
+      "Is it one parent or two?",
+      "Two people use 'have', not 'has'."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "plural",
+      "irregular-verb"
+    ],
+    "estimatedTimeSec": 12
+  },
+  {
+    "id": "eg-a1-070",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "compound-subjects",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.2,
+    "prompt": "Peter and I _______ to the cinema every Friday.",
+    "acceptableAnswers": [
+      "go"
+    ],
+    "answerKey": "go",
+    "explanation": "Perfect! 'Peter and I' means two people, so we keep the verb simple: 'go'.",
+    "explanationSteps": [
+      "'Peter and I' = two people = plural.",
+      "Plural subjects use the base form of the verb.",
+      "So we say 'go'."
+    ],
+    "hints": [
+      "How many people are going?",
+      "Is it one person or more than one?",
+      "Plural subjects keep the verb in its simple form."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "plural",
+      "simple-present"
+    ],
+    "estimatedTimeSec": 13
+  },
+  {
+    "id": "eg-a1-071",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "indefinite-pronouns",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "Everyone _______ happy at the party.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "are"
+      },
+      {
+        "key": "B",
+        "text": "is"
+      },
+      {
+        "key": "C",
+        "text": "am"
+      },
+      {
+        "key": "D",
+        "text": "be"
+      }
+    ],
+    "answerKey": "B",
+    "explanation": "Great! 'Everyone' means every single person, so we treat it as singular and use 'is'.",
+    "explanationSteps": [
+      "'Everyone' means every single person, so it's singular.",
+      "Singular subjects use 'is'.",
+      "So we say 'Everyone is happy'."
+    ],
+    "hints": [
+      "Does 'everyone' mean one group or every single person?",
+      "Even though it means many people, we treat it as singular.",
+      "Use the singular form of 'be'."
+    ],
+    "wrongChoiceReasons": {
+      "A": "'Are' is for plural subjects. 'Everyone' is treated as singular.",
+      "C": "'Am' is only for 'I'. Try another form of 'be'.",
+      "D": "'Be' is the base form. We need the matching form for 'everyone'."
+    },
+    "tags": [
+      "subject-verb-agreement",
+      "singular",
+      "be-verb"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "eg-a1-072",
+    "moduleId": "english.grammar",
+    "skill": "subject-verb-agreement",
+    "subSkill": "intervening-phrases",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.25,
+    "prompt": "The boy with the red hat _______ my cousin.",
+    "acceptableAnswers": [
+      "is"
+    ],
+    "answerKey": "is",
+    "explanation": "Good! The real subject is 'the boy', which is singular. The words 'with the red hat' just describe him.",
+    "explanationSteps": [
+      "Find the real subject: 'the boy'.",
+      "'With the red hat' is just extra description.",
+      "'The boy' is singular, so we use 'is'."
+    ],
+    "hints": [
+      "Who is your cousin?",
+      "Is it the boy or the hat?",
+      "The main subject is singular, so use 'is'."
+    ],
+    "tags": [
+      "subject-verb-agreement",
+      "singular",
+      "be-verb"
+    ],
+    "estimatedTimeSec": 14
+  },
+  {
+    "id": "eg-a1-073",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "indefinite-article",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.15,
+    "prompt": "She is _______ university student.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "a"
+      },
+      {
+        "key": "B",
+        "text": "an"
+      },
+      {
+        "key": "C",
+        "text": "the"
+      },
+      {
+        "key": "A",
+        "text": "no article"
+      }
+    ],
+    "answerKey": "D",
+    "explanation": "Excellent! Even though 'university' starts with 'u', the first sound is 'yoo', a consonant sound. So we use 'a'.",
+    "explanationSteps": [
+      "The first sound in 'university' is 'yoo', a consonant sound.",
+      "Before consonant sounds, we use 'a'.",
+      "So we say 'a university student'."
+    ],
+    "hints": [
+      "What is the first sound you hear in 'university'?",
+      "Is it a vowel sound or a 'yoo' sound?",
+      "Use 'a' before words starting with consonant sounds."
+    ],
+    "wrongChoiceReasons": {
+      "B": "'An' is for vowel sounds. 'University' starts with a 'yoo' sound, not a vowel sound.",
+      "C": "'The' is for a specific student we already know. Here it's any university student.",
+      "A": "We need a small word before 'university student' to show it's one student."
+    },
+    "tags": [
+      "indefinite-article",
+      "consonant-sound",
+      "school"
+    ],
+    "estimatedTimeSec": 16
+  },
+  {
+    "id": "eg-a1-074",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "definite-article",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.2,
+    "prompt": "Please close _______ door.",
+    "acceptableAnswers": [
+      "the"
+    ],
+    "answerKey": "the",
+    "explanation": "Well done! We both know which door we mean, so we use 'the'.",
+    "explanationSteps": [
+      "We mean a specific door that we both see.",
+      "When both people know the thing, we use 'the'.",
+      "So we say 'the door'."
+    ],
+    "hints": [
+      "Which door do we mean?",
+      "Is it any door or the door we both see?",
+      "Use 'the' when we both know the exact thing."
+    ],
+    "tags": [
+      "definite-article",
+      "specific-reference",
+      "daily-routine"
+    ],
+    "estimatedTimeSec": 13
+  },
+  {
+    "id": "eg-a1-075",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "zero-article",
+    "level": "A1",
+    "questionType": "true-false",
+    "difficulty": 0.15,
+    "prompt": "'I like to play the football.' This sentence is correct.",
+    "answerKey": "false",
+    "explanation": "Good catch! We don't use 'the' before sports like football, basketball, or tennis.",
+    "explanationSteps": [
+      "We don't use 'the' before names of sports.",
+      "'Football' is a sport.",
+      "So it should be 'I like to play football.'"
+    ],
+    "hints": [
+      "Is football a sport?",
+      "Do we use 'the' before sports?",
+      "Try the sentence without 'the'."
+    ],
+    "tags": [
+      "zero-article",
+      "sports",
+      "nouns"
+    ],
+    "estimatedTimeSec": 12
+  },
+  {
+    "id": "eg-a1-076",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "demonstratives",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "I want to buy _______ new dress for the party.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "a"
+      },
+      {
+        "key": "B",
+        "text": "an"
+      },
+      {
+        "key": "C",
+        "text": "the"
+      },
+      {
+        "key": "A",
+        "text": "no article"
+      }
+    ],
+    "answerKey": "D",
+    "explanation": "Nice! 'New' starts with the consonant sound 'n', so we use 'a' before it.",
+    "explanationSteps": [
+      "'New' starts with the consonant sound 'n'.",
+      "Before consonant sounds, we use 'a'.",
+      "So we say 'a new dress'."
+    ],
+    "hints": [
+      "What sound does 'new' start with?",
+      "Is it a vowel sound or a consonant sound?",
+      "Use 'a' before words starting with consonant sounds."
+    ],
+    "wrongChoiceReasons": {
+      "B": "'An' is for vowel sounds. 'New' starts with 'n', a consonant sound.",
+      "C": "'The' is for a specific dress we already know. Here it's any new dress.",
+      "A": "We need a small word before 'new dress' to show it's one dress."
+    },
+    "tags": [
+      "indefinite-article",
+      "consonant-sound",
+      "shopping"
+    ],
+    "estimatedTimeSec": 14
+  },
+  {
+    "id": "eg-a1-077",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "quantifiers",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.2,
+    "prompt": "_______ Earth goes around _______ sun.",
+    "acceptableAnswers": [
+      "The"
+    ],
+    "answerKey": "The",
+    "explanation": "Excellent! There is only one Earth and one sun, so we use 'the' for both because they are unique.",
+    "explanationSteps": [
+      "There is only one Earth and one sun.",
+      "We use 'the' for unique things.",
+      "So we say 'The Earth' and 'the sun'."
+    ],
+    "hints": [
+      "How many Earths are there?",
+      "How many suns do we have?",
+      "Use the article for one-of-a-kind things."
+    ],
+    "tags": [
+      "definite-article",
+      "unique-things",
+      "science"
+    ],
+    "estimatedTimeSec": 14
+  },
+  {
+    "id": "eg-a1-078",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "definite-article",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "He is _______ best player on the team.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a"
+      },
+      {
+        "key": "B",
+        "text": "an"
+      },
+      {
+        "key": "C",
+        "text": "the"
+      },
+      {
+        "key": "D",
+        "text": "no article"
+      }
+    ],
+    "answerKey": "C",
+    "explanation": "Great! 'Best' is a superlative—it picks the #1 player—so we use 'the'.",
+    "explanationSteps": [
+      "'Best' is a superlative—it picks the top person.",
+      "We use 'the' with superlatives.",
+      "So we say 'the best player'."
+    ],
+    "hints": [
+      "Is he any good player or the #1 best?",
+      "Superlatives need a special article.",
+      "Use 'the' when there is only one winner."
+    ],
+    "wrongChoiceReasons": {
+      "A": "'A' is for any one player. 'Best' picks out one special player.",
+      "B": "'An' is for vowel sounds, but here we need the special article for superlatives.",
+      "D": "We need an article because 'best' points to a specific person."
+    },
+    "tags": [
+      "definite-article",
+      "superlatives",
+      "sports"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "eg-a1-079",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "indefinite-article",
+    "level": "A1",
+    "questionType": "true-false",
+    "difficulty": 0.15,
+    "prompt": "'I ate an orange.' This sentence is correct.",
+    "answerKey": "true",
+    "explanation": "Yes! 'Orange' starts with the vowel sound 'o', so 'an orange' is perfectly correct.",
+    "explanationSteps": [
+      "'Orange' starts with the vowel sound 'o'.",
+      "Before vowel sounds, we use 'an'.",
+      "So 'an orange' is correct."
+    ],
+    "hints": [
+      "What sound does 'orange' start with?",
+      "Is it a vowel sound or a consonant sound?",
+      "Use 'an' before words starting with vowel sounds."
+    ],
+    "tags": [
+      "indefinite-article",
+      "vowel-sound",
+      "food"
+    ],
+    "estimatedTimeSec": 12
+  },
+  {
+    "id": "eg-a1-080",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "zero-article",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.2,
+    "prompt": "I go to _______ school every day.",
+    "acceptableAnswers": [
+      "no article",
+      "(no article)",
+      "(none)"
+    ],
+    "answerKey": "no article",
+    "explanation": "Good! When we talk about going to school as a student, we don't use an article before 'school'.",
+    "explanationSteps": [
+      "When talking about school as a place of learning, we use no article.",
+      "This is a common rule for institutions like school, church, and hospital.",
+      "So we say 'go to school'."
+    ],
+    "hints": [
+      "Are you a student going to learn?",
+      "When we talk about the activity, do we need 'the'?",
+      "Try the sentence with no article before 'school'."
+    ],
+    "tags": [
+      "zero-article",
+      "institutions",
+      "daily-routine"
+    ],
+    "estimatedTimeSec": 14
+  },
+  {
+    "id": "eg-a1-081",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "demonstratives",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "Can you see _______ stars tonight?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a"
+      },
+      {
+        "key": "B",
+        "text": "an"
+      },
+      {
+        "key": "C",
+        "text": "the"
+      },
+      {
+        "key": "D",
+        "text": "no article"
+      }
+    ],
+    "answerKey": "C",
+    "explanation": "Nice! We mean the specific stars in the sky tonight, so we use 'the'.",
+    "explanationSteps": [
+      "We mean the stars we can both see in the sky tonight.",
+      "When we mean specific things we both know, we use 'the'.",
+      "So we say 'the stars'."
+    ],
+    "hints": [
+      "Which stars do we mean?",
+      "Are they any stars or the ones in tonight's sky?",
+      "Use 'the' for specific things we both know."
+    ],
+    "wrongChoiceReasons": {
+      "A": "'A' is for one countable thing. We are talking about many stars.",
+      "B": "'An' is for one thing starting with a vowel sound. We mean many specific stars.",
+      "D": "We need an article because we mean the specific stars in tonight's sky."
+    },
+    "tags": [
+      "definite-article",
+      "specific-reference",
+      "nature"
+    ],
+    "estimatedTimeSec": 14
+  },
+  {
+    "id": "eg-a1-082",
+    "moduleId": "english.grammar",
+    "skill": "articles-determiners",
+    "subSkill": "quantifiers",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.25,
+    "prompt": "She has _______ European passport.",
+    "acceptableAnswers": [
+      "a"
+    ],
+    "answerKey": "a",
+    "explanation": "Great! Even though 'European' starts with 'E', the first sound is 'yoo', a consonant sound. So we use 'a'.",
+    "explanationSteps": [
+      "The first sound in 'European' is 'yoo', a consonant sound.",
+      "Before consonant sounds, we use 'a'.",
+      "So we say 'a European passport'."
+    ],
+    "hints": [
+      "What is the first sound you hear in 'European'?",
+      "Is it a vowel sound or a 'yoo' sound?",
+      "Use 'a' before words starting with consonant sounds."
+    ],
+    "tags": [
+      "indefinite-article",
+      "consonant-sound",
+      "travel"
+    ],
+    "estimatedTimeSec": 16
+  },
+  {
+    "id": "eg-a1-083",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "prepositions-of-time",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.15,
+    "prompt": "My birthday is _______ December.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "in"
+      },
+      {
+        "key": "C",
+        "text": "at"
+      },
+      {
+        "key": "D",
+        "text": "by"
+      }
+    ],
+    "answerKey": "B",
+    "explanation": "Perfect! For months, we always use 'in'.",
+    "explanationSteps": [
+      "'December' is a month.",
+      "We use 'in' for months, years, and seasons.",
+      "So we say 'in December'."
+    ],
+    "hints": [
+      "What kind of time is December?",
+      "Is it a day, a month, or an exact time?",
+      "Use 'in' for months."
+    ],
+    "wrongChoiceReasons": {
+      "A": "'On' is for days and dates, not months.",
+      "C": "'At' is for exact times, not months.",
+      "D": "'By' means before or near a time, not a specific month."
+    },
+    "tags": [
+      "prepositions-of-time",
+      "in",
+      "months"
+    ],
+    "estimatedTimeSec": 13
+  },
+  {
+    "id": "eg-a1-084",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "prepositions-of-place",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.15,
+    "prompt": "The cat is hiding _______ the sofa.",
+    "acceptableAnswers": [
+      "under",
+      "behind"
+    ],
+    "answerKey": "under",
+    "explanation": "Great! Cats often hide under furniture, so 'under' is a natural choice.",
+    "explanationSteps": [
+      "Think about where a cat hides.",
+      "'Under' means below something.",
+      "So we say 'under the sofa'."
+    ],
+    "hints": [
+      "Where is the cat?",
+      "Is it on top, inside, or below the sofa?",
+      "Use the word for 'below' something."
+    ],
+    "tags": [
+      "prepositions-of-place",
+      "under",
+      "animals"
+    ],
+    "estimatedTimeSec": 12
+  },
+  {
+    "id": "eg-a1-085",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "prepositions-of-movement",
+    "level": "A1",
+    "questionType": "true-false",
+    "difficulty": 0.15,
+    "prompt": "'She walked to the park.' This sentence means she went in the direction of the park.",
+    "answerKey": "true",
+    "explanation": "Yes! 'To' shows direction or movement toward a place. She went toward the park.",
+    "explanationSteps": [
+      "'To' shows direction or movement toward a place.",
+      "'Walked to the park' means she went toward the park.",
+      "So the sentence is correct."
+    ],
+    "hints": [
+      "What does 'to' show?",
+      "Is it about place, time, or direction?",
+      "'To' means moving in the direction of something."
+    ],
+    "tags": [
+      "prepositions-of-movement",
+      "to",
+      "places"
+    ],
+    "estimatedTimeSec": 12
+  },
+  {
+    "id": "eg-a1-086",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "phrasal-prepositions",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "The picture is _______ the wall.",
+    "choices": [
+      {
+        "key": "D",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "in"
+      },
+      {
+        "key": "C",
+        "text": "at"
+      },
+      {
+        "key": "A",
+        "text": "to"
+      }
+    ],
+    "answerKey": "D",
+    "explanation": "Excellent! Pictures hang on the surface of walls, so we use 'on'.",
+    "explanationSteps": [
+      "A picture hangs on the surface of a wall.",
+      "'On' means touching the surface.",
+      "So we say 'on the wall'."
+    ],
+    "hints": [
+      "Where is the picture?",
+      "Is it inside the wall or on its surface?",
+      "Use the word for 'on the surface of' something."
+    ],
+    "wrongChoiceReasons": {
+      "B": "'In' means inside a container. A picture is not inside the wall.",
+      "C": "'At' is for places or times, not for being on a surface.",
+      "A": "'To' shows direction. The picture is already there, not moving."
+    },
+    "tags": [
+      "prepositions-of-place",
+      "on",
+      "objects"
+    ],
+    "estimatedTimeSec": 13
+  },
+  {
+    "id": "eg-a1-087",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "dependent-prepositions",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.2,
+    "prompt": "I will meet you _______ the bus stop.",
+    "acceptableAnswers": [
+      "at"
+    ],
+    "answerKey": "at",
+    "explanation": "Nice! For specific places like bus stops, stations, or airports, we use 'at'.",
+    "explanationSteps": [
+      "'The bus stop' is a specific point or place.",
+      "We use 'at' for specific points or locations.",
+      "So we say 'at the bus stop'."
+    ],
+    "hints": [
+      "What kind of place is a bus stop?",
+      "Is it a large area or a specific point?",
+      "Use 'at' for specific points and stops."
+    ],
+    "tags": [
+      "prepositions-of-place",
+      "at",
+      "transport"
+    ],
+    "estimatedTimeSec": 13
+  },
+  {
+    "id": "eg-a1-088",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "prepositions-of-time",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "She goes jogging _______ the morning.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "in"
+      },
+      {
+        "key": "C",
+        "text": "at"
+      },
+      {
+        "key": "D",
+        "text": "by"
+      }
+    ],
+    "answerKey": "B",
+    "explanation": "Wonderful! For parts of the day like 'the morning', 'the afternoon', and 'the evening', we use 'in'.",
+    "explanationSteps": [
+      "'The morning' is a part of the day.",
+      "We use 'in' for parts of the day.",
+      "So we say 'in the morning'."
+    ],
+    "hints": [
+      "What kind of time is 'the morning'?",
+      "Is it a day, a month, or a part of the day?",
+      "Use 'in' for morning, afternoon, and evening."
+    ],
+    "wrongChoiceReasons": {
+      "A": "'On' is for days and dates, not parts of the day.",
+      "C": "'At' is for exact times, not general parts of the day.",
+      "D": "'By' means before or near a time, not a general part of the day."
+    },
+    "tags": [
+      "prepositions-of-time",
+      "in",
+      "daily-routine"
+    ],
+    "estimatedTimeSec": 14
+  },
+  {
+    "id": "eg-a1-089",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "prepositions-of-place",
+    "level": "A1",
+    "questionType": "true-false",
+    "difficulty": 0.15,
+    "prompt": "'The keys are in my bag.' This sentence means the keys are outside my bag.",
+    "answerKey": "false",
+    "explanation": "Good thinking! 'In' means inside something, not outside. The keys are inside the bag.",
+    "explanationSteps": [
+      "'In' means inside a container or space.",
+      "'Outside' would need a different preposition.",
+      "So 'in my bag' means inside it."
+    ],
+    "hints": [
+      "What does 'in' mean?",
+      "Is it inside or outside?",
+      "'In' means inside a container."
+    ],
+    "tags": [
+      "prepositions-of-place",
+      "in",
+      "objects"
+    ],
+    "estimatedTimeSec": 12
+  },
+  {
+    "id": "eg-a1-090",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "prepositions-of-movement",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.2,
+    "prompt": "The bird flew _______ the window.",
+    "acceptableAnswers": [
+      "through"
+    ],
+    "answerKey": "through",
+    "explanation": "Great! 'Through' means going in one side and out the other side, like a bird flying through a window.",
+    "explanationSteps": [
+      "'Through' means moving from one side to the other side.",
+      "A bird can fly through a window.",
+      "So we say 'through the window'."
+    ],
+    "hints": [
+      "How did the bird move?",
+      "Did it go in one side and out the other?",
+      "Use the word for moving from one side to the other."
+    ],
+    "tags": [
+      "prepositions-of-movement",
+      "through",
+      "animals"
+    ],
+    "estimatedTimeSec": 14
+  },
+  {
+    "id": "eg-a1-091",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "phrasal-prepositions",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "She sits _______ me in class.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "between"
+      },
+      {
+        "key": "B",
+        "text": "next to"
+      },
+      {
+        "key": "C",
+        "text": "under"
+      },
+      {
+        "key": "D",
+        "text": "through"
+      }
+    ],
+    "answerKey": "B",
+    "explanation": "Lovely! 'Next to' means beside or very close to someone, which makes sense for sitting in class.",
+    "explanationSteps": [
+      "'Next to' means beside or close to someone.",
+      "In class, students often sit beside each other.",
+      "So we say 'next to me'."
+    ],
+    "hints": [
+      "Where does she sit?",
+      "Is she beside you, under you, or between two people?",
+      "Use the words that mean 'beside' or 'close to'."
+    ],
+    "wrongChoiceReasons": {
+      "A": "'Between' means in the middle of two things. We only have 'me' here.",
+      "C": "'Under' means below something. She doesn't sit below you!",
+      "D": "'Through' means moving from one side to another. She is sitting, not moving through you."
+    },
+    "tags": [
+      "prepositions-of-place",
+      "next-to",
+      "school"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "eg-a1-092",
+    "moduleId": "english.grammar",
+    "skill": "prepositions",
+    "subSkill": "dependent-prepositions",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.25,
+    "prompt": "We have a holiday _______ Christmas.",
+    "acceptableAnswers": [
+      "at",
+      "during"
+    ],
+    "answerKey": "at",
+    "explanation": "Well done! For holidays and festivals like Christmas, we use 'at'.",
+    "explanationSteps": [
+      "'Christmas' is a holiday or festival.",
+      "We use 'at' for holidays and special occasions.",
+      "So we say 'at Christmas'."
+    ],
+    "hints": [
+      "What kind of time is Christmas?",
+      "Is it a day, a month, or a festival?",
+      "Use 'at' for holidays and festivals."
+    ],
+    "tags": [
+      "prepositions-of-time",
+      "at",
+      "holidays"
+    ],
+    "estimatedTimeSec": 14
+  },
+  {
+    "id": "eg-a1-093",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "ability",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "A fish _______ swim, but it cannot fly.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "can"
+      },
+      {
+        "key": "B",
+        "text": "is"
+      },
+      {
+        "key": "C",
+        "text": "are"
+      },
+      {
+        "key": "D",
+        "text": "do"
+      }
+    ],
+    "answerKey": "A",
+    "explanation": "Excellent! 'Can' shows ability. Fish have the ability to swim.",
+    "explanationSteps": [
+      "The sentence talks about what a fish is able to do.",
+      "'Can' is the modal verb for ability.",
+      "So we say 'A fish can swim'."
+    ],
+    "hints": [
+      "What can a fish do?",
+      "What word means 'know how to' or 'able to'?",
+      "Use the three-letter modal verb for ability."
+    ],
+    "wrongChoiceReasons": {
+      "B": "'Is' is a form of 'be'. We need a word that shows ability here.",
+      "C": "'Are' is a form of 'be'. Try a word that means 'know how to'.",
+      "D": "'Do' is a helper verb. We need a word that talks about ability."
+    },
+    "tags": [
+      "modal-verbs",
+      "ability",
+      "can",
+      "animals"
+    ],
+    "estimatedTimeSec": 13
+  },
+  {
+    "id": "eg-a1-094",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "permission",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.25,
+    "prompt": "_______ I use your phone, please?",
+    "acceptableAnswers": [
+      "Can",
+      "May",
+      "Could"
+    ],
+    "answerKey": "Can",
+    "explanation": "Polite and perfect! 'Can', 'May', or 'Could' all ask for permission nicely. 'Can' is very common and friendly.",
+    "explanationSteps": [
+      "The sentence is asking for something politely.",
+      "'Can I...?' is a friendly way to ask for permission.",
+      "So we say 'Can I use your phone, please?'"
+    ],
+    "hints": [
+      "Is the person asking to use something politely?",
+      "What word do we use to ask permission nicely?",
+      "Try the word that means 'Am I allowed to?'"
+    ],
+    "tags": [
+      "modal-verbs",
+      "permission",
+      "can",
+      "politeness"
+    ],
+    "estimatedTimeSec": 14
+  },
+  {
+    "id": "eg-a1-095",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "obligation",
+    "level": "A1",
+    "questionType": "true-false",
+    "difficulty": 0.2,
+    "prompt": "'You must finish your homework.' This means it is necessary to finish your homework.",
+    "answerKey": "true",
+    "explanation": "Yes! 'Must' means it is necessary or very important to do something. It shows strong obligation.",
+    "explanationSteps": [
+      "'Must' is used to show strong obligation or necessity.",
+      "'You must finish' means it is necessary to finish.",
+      "So the sentence is correct."
+    ],
+    "hints": [
+      "What does 'must' mean?",
+      "Is it about ability, permission, or necessity?",
+      "'Must' means it is very important or necessary."
+    ],
+    "tags": [
+      "modal-verbs",
+      "obligation",
+      "must"
+    ],
+    "estimatedTimeSec": 13
+  },
+  {
+    "id": "eg-a1-096",
+    "moduleId": "english.grammar",
+    "skill": "modal-verbs",
+    "subSkill": "possibility",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.25,
+    "prompt": "It _______ rain tomorrow. The sky is very dark.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "can"
+      },
+      {
+        "key": "B",
+        "text": "may"
+      },
+      {
+        "key": "C",
+        "text": "is"
+      },
+      {
+        "key": "D",
+        "text": "are"
+      }
+    ],
+    "answerKey": "B",
+    "explanation": "Great! 'May' shows possibility. The dark sky means rain is possible tomorrow.",
+    "explanationSteps": [
+      "The sentence talks about something that is possible in the future.",
+      "'May' is used to show possibility.",
+      "So we say 'It may rain tomorrow'."
+    ],
+    "hints": [
+      "Is the rain certain or just possible?",
+      "What word means 'maybe' or 'possibly'?",
+      "Use the three-letter word that shows possibility."
+    ],
+    "wrongChoiceReasons": {
+      "A": "'Can' is about ability. We are talking about possibility, not ability here.",
+      "C": "'Is' is a form of 'be'. We need a modal verb for possibility.",
+      "D": "'Are' is a form of 'be'. Try a word that shows possibility."
+    },
+    "tags": [
+      "modal-verbs",
+      "possibility",
+      "may",
+      "weather"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "eg-a1-097",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "coordinating",
+    "level": "A1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.2,
+    "prompt": "I wanted to go out, _______ it was raining.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "and"
+      },
+      {
+        "key": "B",
+        "text": "but"
+      },
+      {
+        "key": "C",
+        "text": "or"
+      },
+      {
+        "key": "D",
+        "text": "because"
+      }
+    ],
+    "answerKey": "B",
+    "explanation": "Wonderful! 'But' joins opposite ideas. I wanted to go out, yet the rain stopped me.",
+    "explanationSteps": [
+      "The first part is positive (wanted to go out).",
+      "The second part is negative (it was raining).",
+      "'But' joins opposite or contrasting ideas."
+    ],
+    "hints": [
+      "Do both parts agree with each other?",
+      "Is the second idea the opposite of the first?",
+      "Use the word that shows a difference or surprise."
+    ],
+    "wrongChoiceReasons": {
+      "A": "'And' joins similar ideas. Here we have opposite ideas.",
+      "C": "'Or' is for choices. We aren't choosing between two things.",
+      "D": "'Because' gives a reason. We aren't explaining why it was raining."
+    },
+    "tags": [
+      "conjunctions",
+      "but",
+      "coordinating",
+      "contrast"
+    ],
+    "estimatedTimeSec": 15
+  },
+  {
+    "id": "eg-a1-098",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "subordinating",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.25,
+    "prompt": "I stay at home _______ I am sick.",
+    "acceptableAnswers": [
+      "because"
+    ],
+    "answerKey": "because",
+    "explanation": "Perfect! 'Because' gives the reason why I stay at home. It explains the cause.",
+    "explanationSteps": [
+      "The second part gives the reason for the first part.",
+      "'Because' is used to show a reason or cause.",
+      "So we say 'because I am sick'."
+    ],
+    "hints": [
+      "Why do I stay at home?",
+      "Do we need a word that explains the reason?",
+      "Use the word that means 'for the reason that'."
+    ],
+    "tags": [
+      "conjunctions",
+      "because",
+      "subordinating",
+      "reason"
+    ],
+    "estimatedTimeSec": 14
+  },
+  {
+    "id": "eg-a1-099",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "correlative",
+    "level": "A1",
+    "questionType": "true-false",
+    "difficulty": 0.2,
+    "prompt": "'I like tea, and I like coffee.' This sentence joins two similar ideas.",
+    "answerKey": "true",
+    "explanation": "Yes! 'And' joins similar or added ideas. Liking tea and liking coffee are similar ideas.",
+    "explanationSteps": [
+      "'And' is used to join similar or added ideas.",
+      "Liking tea and liking coffee are similar.",
+      "So the sentence is correct."
+    ],
+    "hints": [
+      "What does 'and' do?",
+      "Does it join similar ideas or opposite ideas?",
+      "'And' puts similar ideas together."
+    ],
+    "tags": [
+      "conjunctions",
+      "and",
+      "coordinating"
+    ],
+    "estimatedTimeSec": 12
+  },
+  {
+    "id": "eg-a1-100",
+    "moduleId": "english.grammar",
+    "skill": "conjunctions-connectors",
+    "subSkill": "coordinating",
+    "level": "A1",
+    "questionType": "gap-filling",
+    "difficulty": 0.25,
+    "prompt": "Would you like tea _______ coffee?",
+    "acceptableAnswers": [
+      "or"
+    ],
+    "answerKey": "or",
+    "explanation": "Great! 'Or' is used when we offer a choice between two things. Tea or coffee—which one?",
+    "explanationSteps": [
+      "The sentence offers a choice between two drinks.",
+      "'Or' is used for alternatives or choices.",
+      "So we say 'tea or coffee'."
+    ],
+    "hints": [
+      "Is the person choosing between two drinks?",
+      "Do we need a word for 'pick one'?",
+      "Use the word that gives a choice between two things."
+    ],
+    "tags": [
+      "conjunctions",
+      "or",
+      "coordinating"
+    ],
+    "estimatedTimeSec": 12
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "correct-01",
+    "text": "Brilliant! You really get this!",
+    "context": "general",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "correct-02",
+    "text": "That's exactly right! Your understanding is growing beautifully.",
+    "context": "general",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "correct-03",
+    "text": "You nailed a tough one! That's real progress!",
+    "context": "high-difficulty",
+    "minLevel": "developing"
+  },
+  {
+    "id": "correct-04",
+    "text": "Spot on! I love how carefully you thought this through.",
+    "context": "general",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "correct-05",
+    "text": "Yes! You're building such a strong foundation here.",
+    "context": "general",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "correct-06",
+    "text": "Wonderful! That answer shows real understanding, not just guessing.",
+    "context": "general",
+    "minLevel": "growing"
+  },
+  {
+    "id": "correct-07",
+    "text": "You caught the tricky part — well done!",
+    "context": "high-difficulty",
+    "minLevel": "developing"
+  },
+  {
+    "id": "correct-08",
+    "text": "Exactly! Your grammar instincts are getting sharper every day.",
+    "context": "general",
+    "minLevel": "growing"
+  },
+  {
+    "id": "correct-09",
+    "text": "Perfect! This is the kind of careful thinking that leads to mastery.",
+    "context": "general",
+    "minLevel": "developing"
+  },
+  {
+    "id": "correct-10",
+    "text": "Beautiful work! You're turning grammar rules into natural habits.",
+    "context": "general",
+    "minLevel": "proficient"
+  },
+  {
+    "id": "correct-streak-01",
+    "text": "Three in a row! You're really in the zone!",
+    "context": "streak-3",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "correct-streak-02",
+    "text": "Five correct in a row — your confidence is shining through!",
+    "context": "streak-5",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "correct-streak-03",
+    "text": "What a streak! Your hard work is really paying off!",
+    "context": "streak-5",
+    "minLevel": "growing"
+  },
+  {
+    "id": "correct-streak-04",
+    "text": "You're on fire! Keep this momentum going!",
+    "context": "streak-5",
+    "minLevel": "developing"
+  },
+  {
+    "id": "correct-streak-05",
+    "text": "Amazing streak! You're making this look effortless!",
+    "context": "streak-5",
+    "minLevel": "proficient"
+  },
+  {
+    "id": "correct-hard-01",
+    "text": "That was a challenging question and you handled it with grace!",
+    "context": "high-difficulty",
+    "minLevel": "growing"
+  },
+  {
+    "id": "correct-hard-02",
+    "text": "You just conquered a really tricky grammar point — that's advanced thinking!",
+    "context": "high-difficulty",
+    "minLevel": "developing"
+  },
+  {
+    "id": "correct-hard-03",
+    "text": "Not many students get that one right. You should feel really proud!",
+    "context": "high-difficulty",
+    "minLevel": "proficient"
+  },
+  {
+    "id": "correct-mastered-01",
+    "text": "Flawless! You're operating at mastery level now.",
+    "context": "general",
+    "minLevel": "advanced"
+  },
+  {
+    "id": "correct-mastered-02",
+    "text": "Exceptional work! Your grammar skills are truly impressive.",
+    "context": "general",
+    "minLevel": "mastered"
+  },
+  {
+    "id": "correct-21",
+    "text": "You are absolutely crushing it today! Every answer shows careful thought.",
+    "context": "general",
+    "minLevel": "growing"
+  },
+  {
+    "id": "correct-22",
+    "text": "That was beautifully reasoned! You connected the dots perfectly.",
+    "context": "general",
+    "minLevel": "developing"
+  },
+  {
+    "id": "correct-23",
+    "text": "Yes! Your grammar intuition is getting sharper every single day.",
+    "context": "general",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "correct-24",
+    "text": "Boom! You just leveled up your understanding right there!",
+    "context": "general",
+    "minLevel": "growing"
+  },
+  {
+    "id": "correct-25",
+    "text": "I am so proud of how you worked through that. Real learning in action!",
+    "context": "general",
+    "minLevel": "seedling"
+  },
+  {
+    "id": "correct-26",
+    "text": "Nailed it! That is the kind of careful thinking that leads to mastery.",
+    "context": "general",
+    "minLevel": "proficient"
+  },
+  {
+    "id": "correct-27",
+    "text": "You make this look easy — but I know you are putting in real effort!",
+    "context": "general",
+    "minLevel": "developing"
+  },
+  {
+    "id": "correct-28",
+    "text": "Spot on! Your brain is building some serious grammar pathways right now.",
+    "context": "general",
+    "minLevel": "growing"
+  },
+  {
+    "id": "correct-29",
+    "text": "Wow! You are really starting to own this grammar point. Keep it up!",
+    "context": "general",
+    "minLevel": "developing"
+  },
+  {
+    "id": "correct-30",
+    "text": "Perfection! This is what happens when curiosity meets practice.",
+    "context": "general",
+    "minLevel": "proficient"
+  }
+]

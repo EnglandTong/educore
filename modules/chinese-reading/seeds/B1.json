@@ -1,0 +1,1034 @@
+[
+  {
+    "id": "cr-b1-001",
+    "moduleId": "chinese.reading",
+    "skill": "sentence-structure",
+    "subSkill": "ba-sentences",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "prompt": "下面哪个句子是\"把\"字句？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "我吃饭了。"
+      },
+      {
+        "key": "B",
+        "text": "我把作业写完了。"
+      },
+      {
+        "key": "C",
+        "text": "作业很多。"
+      },
+      {
+        "key": "D",
+        "text": "我写作业。"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "这是一般的主谓宾句，没有\"把\"字。",
+      "B": "没错！\"我把作业写完了\"是\"把\"字句，强调对\"作业\"的处理。",
+      "C": "这是描述性的句子。",
+      "D": "这是一般的主谓宾句。"
+    },
+    "explanation": "\"把\"字句用\"把\"将宾语提到动词前面，强调对宾语的处置。\"我把作业写完了\"= 我写完了作业。",
+    "explanationSteps": [
+      "\"把\"字句的结构：主语 + 把 + 宾语 + 动词 + 其他。",
+      "把宾语提前，强调对宾语的处理。",
+      "例子：我把门打开了。= 我打开了门。"
+    ],
+    "hints": [
+      "哪个句子中有\"把\"字？",
+      "\"把\"字后面通常跟着被处理的事物。"
+    ],
+    "tags": [
+      "语法",
+      "把字句",
+      "句型"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "cr-b1-002",
+    "moduleId": "chinese.reading",
+    "skill": "sentence-structure",
+    "subSkill": "comparison-sentences",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "\"小明比小红高。\"这句话是什么意思？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "小明和小红一样高。"
+      },
+      {
+        "key": "B",
+        "text": "小明比小红矮。"
+      },
+      {
+        "key": "C",
+        "text": "小明的身高超过小红。"
+      },
+      {
+        "key": "D",
+        "text": "小红比小明高。"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "如果是\"一样高\"会用\"和小红一样高\"。",
+      "B": "方向反了，\"小明比小红高\"不是小明矮。",
+      "C": "对了！\"A比B+形容词\"表示A在某个方面超过B。",
+      "D": "反了，句子的主语是小明。"
+    },
+    "explanation": "\"比\"字句是比较句的一种结构，\"A 比 B + 形容词\"表示A在某个方面超过B。",
+    "explanationSteps": [
+      "\"比\"字句是比较两个人或事物。",
+      "结构：A + 比 + B + 形容词。",
+      "表示A比B更怎么样。"
+    ],
+    "hints": [
+      "先看谁在\"比\"的前面？",
+      "\"比\"前面的那个人更高一些。"
+    ],
+    "tags": [
+      "语法",
+      "比较句",
+      "句型"
+    ],
+    "estimatedTimeSec": 20
+  },
+  {
+    "id": "cr-b1-003",
+    "moduleId": "chinese.reading",
+    "skill": "sentence-structure",
+    "subSkill": "conjunctions-zh",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "选择正确的关联词填空：\"___ 下雨了，___ 运动会推迟了。\"",
+    "choices": [
+      {
+        "key": "A",
+        "text": "虽然……但是……"
+      },
+      {
+        "key": "B",
+        "text": "因为……所以……"
+      },
+      {
+        "key": "C",
+        "text": "不但……而且……"
+      },
+      {
+        "key": "D",
+        "text": "如果……就……"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "\"虽然……但是……\"表示转折，下雨和推迟之间是因果关系。",
+      "B": "没错！下雨是原因，推迟是结果，用\"因为……所以……\"。",
+      "C": "\"不但……而且……\"表示递进，这里不是。",
+      "D": "\"如果……就……\"表示假设，这里已经是事实。"
+    },
+    "explanation": "\"因为下雨了，所以运动会推迟了\"中，\"下雨\"是原因，\"推迟\"是结果，用\"因为……所以……\"连接。",
+    "explanationSteps": [
+      "先判断两个分句的关系：是因果、转折还是假设？",
+      "下雨是原因，推迟是结果，所以是因果关系。",
+      "因果关系用\"因为……所以……\"。"
+    ],
+    "hints": [
+      "\"下雨\"和\"推迟\"是什么关系？",
+      "先发生的事情是原因，后面是结果。"
+    ],
+    "tags": [
+      "语法",
+      "关联词",
+      "因果"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "cr-b1-004",
+    "moduleId": "chinese.reading",
+    "skill": "reading-comprehension-zh",
+    "subSkill": "main-idea-zh",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "passage": "春天来了，公园里的花都开了。有红色的桃花，白色的梨花，还有粉色的杏花。小蜜蜂在花丛中飞来飞去，忙着采蜜。小朋友们在草地上放风筝，开心极了。",
+    "prompt": "这段短文主要讲了什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "公园里的花很多"
+      },
+      {
+        "key": "B",
+        "text": "小蜜蜂采蜜"
+      },
+      {
+        "key": "C",
+        "text": "春天来了，公园里生机勃勃的景象"
+      },
+      {
+        "key": "D",
+        "text": "小朋友放风筝"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "花很多只是文中一部分，不是整段的主要内容。",
+      "B": "小蜜蜂采蜜只是其中一个细节。",
+      "C": "对了！短文从花、蜜蜂到小朋友，都在描写春天公园里的景象。",
+      "D": "放风筝只是文中提到的最后一个细节。"
+    },
+    "explanation": "这段话描写了春天公园里的景色：花开、蜜蜂采蜜、小朋友放风筝，全面展现春天的生机。",
+    "explanationSteps": [
+      "先看第一句：\"春天来了，公园里的花都开了。\"",
+      "后面具体描写花、蜜蜂、小朋友的活动。",
+      "整段都在表现春天公园里充满生机。"
+    ],
+    "hints": [
+      "读读第一句话，它告诉了我们什么？",
+      "后面几句话都是围绕什么主题写的？"
+    ],
+    "tags": [
+      "阅读理解",
+      "主旨",
+      "春天"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "cr-b1-005",
+    "moduleId": "chinese.reading",
+    "skill": "reading-comprehension-zh",
+    "subSkill": "detail-finding",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "passage": "春天来了，公园里的花都开了。有红色的桃花，白色的梨花，还有粉色的杏花。小蜜蜂在花丛中飞来飞去，忙着采蜜。小朋友们在草地上放风筝，开心极了。",
+    "prompt": "短文中提到了哪几种花？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "桃花、菊花、杏花"
+      },
+      {
+        "key": "B",
+        "text": "桃花、梨花、杏花"
+      },
+      {
+        "key": "C",
+        "text": "梅花、梨花、杏花"
+      },
+      {
+        "key": "D",
+        "text": "桃花、梨花、荷花"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "短文中没有提到菊花哦。",
+      "B": "没错！短文明确说了\"红色的桃花，白色的梨花，还有粉色的杏花\"。",
+      "C": "短文中没有提到梅花。",
+      "D": "荷花是夏天的花，短文中没有提到。"
+    },
+    "explanation": "短文中明确提到三种花：红色的桃花、白色的梨花、粉色的杏花。",
+    "explanationSteps": [
+      "仔细阅读描写花的句子。",
+      "\"红色的桃花，白色的梨花，还有粉色的杏花\"。",
+      "三种花依次是：桃花、梨花、杏花。"
+    ],
+    "hints": [
+      "在短文中找描写花的句子。",
+      "看看\"有……还有……\"这个句式。"
+    ],
+    "tags": [
+      "阅读理解",
+      "细节",
+      "春天"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "cr-b1-006",
+    "moduleId": "chinese.reading",
+    "skill": "sentence-structure",
+    "subSkill": "comparison-sentences",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "\"我的书包没有你的那么重。\"这句话的意思是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "我的书包比你的重。"
+      },
+      {
+        "key": "B",
+        "text": "我们的书包一样重。"
+      },
+      {
+        "key": "C",
+        "text": "你的书包比我的重。"
+      },
+      {
+        "key": "D",
+        "text": "书包都不重。"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "反了，\"没有……那么……\"表示不如对方。",
+      "B": "\"没有……那么……\"表示不一样，A不如B。",
+      "C": "对了！\"A没有B那么+形容词\"表示A不如B，B更怎么样。",
+      "D": "句子没有说重不重，是比较谁更重。"
+    },
+    "explanation": "\"A没有B那么+形容词\"是比较句式，表示A在某方面不如B。这句话的意思是你的书包比我的重。",
+    "explanationSteps": [
+      "\"A没有B那么……\"表示A比不上B。",
+      "所以\"我的书包没有你的那么重\"=我的书包不如你的重。",
+      "也就是你的书包比我的重。"
+    ],
+    "hints": [
+      "\"没有……那么\"的意思是达不到那个程度。",
+      "谁的书包更重？"
+    ],
+    "tags": [
+      "语法",
+      "比较句",
+      "句型"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "cr-b1-007",
+    "moduleId": "chinese.reading",
+    "skill": "sentence-structure",
+    "subSkill": "ba-sentences",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "请将\"他关上了窗户\"改成\"把\"字句。",
+    "choices": [
+      {
+        "key": "A",
+        "text": "他把窗户关上了。"
+      },
+      {
+        "key": "B",
+        "text": "窗户被关上了。"
+      },
+      {
+        "key": "C",
+        "text": "他把关上了窗户。"
+      },
+      {
+        "key": "D",
+        "text": "他关把窗户上了。"
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "A": "正确！把宾语\"窗户\"提到动词\"关上\"前面，加上\"把\"。",
+      "B": "这是\"被\"字句，不是\"把\"字句。",
+      "C": "语序不对，应该是\"把+宾语+动词\"。",
+      "D": "语序错了，\"把\"要在宾语前面。"
+    },
+    "explanation": "\"把\"字句的结构是：主语 + 把 + 宾语 + 动词 + 其他。\"他关上了窗户\"→\"他把窗户关上了\"。",
+    "explanationSteps": [
+      "找宾语：\"窗户\"是动作的对象。",
+      "将宾语提到动词前面。",
+      "在宾语前加\"把\"：他把窗户关上了。"
+    ],
+    "hints": [
+      "\"把\"字要放在哪个词前面？",
+      "原来的宾语\"窗户\"要放在哪里？"
+    ],
+    "tags": [
+      "语法",
+      "把字句",
+      "改写"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "cr-b1-008",
+    "moduleId": "chinese.reading",
+    "skill": "sentence-structure",
+    "subSkill": "conjunctions-zh",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "选择正确的关联词填空：\"他 ___ 学习好，___ 乐于助人。\"",
+    "choices": [
+      {
+        "key": "A",
+        "text": "因为……所以……"
+      },
+      {
+        "key": "B",
+        "text": "虽然……但是……"
+      },
+      {
+        "key": "C",
+        "text": "不但……而且……"
+      },
+      {
+        "key": "D",
+        "text": "如果……就……"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "学习好和乐于助人之间不是因果关系。",
+      "B": "这两个方面不构成转折关系。",
+      "C": "没错！\"不但……而且……\"表示递进，学习好并且在品格方面也好。",
+      "D": "这不是假设关系，是已经存在的事实。"
+    },
+    "explanation": "\"不但……而且……\"表示递进关系，后一个分句比前一个更进一步。这里说学习好，而且品格也好。",
+    "explanationSteps": [
+      "判断两个分句的关系：并列、递进还是转折？",
+      "学习和品德是两个方面，更进一步。",
+      "递进关系用\"不但……而且……\"。"
+    ],
+    "hints": [
+      "这句话是在说几个好的方面？",
+      "后一个方面是不是比前一个更进一步？"
+    ],
+    "tags": [
+      "语法",
+      "关联词",
+      "递进"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "cr-b1-009",
+    "moduleId": "chinese.reading",
+    "skill": "reading-comprehension-zh",
+    "subSkill": "detail-finding",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "passage": "小猴子下山去玩。它先来到一片玉米地，掰了一个玉米。接着走到一棵桃树下，摘了几个桃子。然后经过一片西瓜地，抱了一个大西瓜。最后看到一只小兔子，就去追兔子。结果兔子跑掉了，小猴子两手空空地回家去了。",
+    "prompt": "小猴子最后带什么回家了？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "一个玉米"
+      },
+      {
+        "key": "B",
+        "text": "几个桃子"
+      },
+      {
+        "key": "C",
+        "text": "一个大西瓜"
+      },
+      {
+        "key": "D",
+        "text": "什么也没带"
+      }
+    ],
+    "answerKey": "D",
+    "wrongChoiceReasons": {
+      "A": "小猴子掰了玉米但后来又扔掉了。",
+      "B": "摘了桃子但后来又扔掉了。",
+      "C": "抱了西瓜但为了追兔子扔掉了。",
+      "D": "对了！小猴子追兔子时扔掉了西瓜，兔子跑掉后两手空空地回家了。"
+    },
+    "explanation": "小猴子每看到新东西就丢掉原来的，最后追兔子时丢掉了西瓜，兔子也没追到，所以什么都没带回家。",
+    "explanationSteps": [
+      "小猴子先掰玉米，看到桃子就丢掉玉米摘桃子。",
+      "看到西瓜就丢掉桃子抱西瓜。",
+      "看到兔子就去追，丢掉了西瓜。",
+      "兔子跑了，所以两手空空回家。"
+    ],
+    "hints": [
+      "小猴子最后手里还有东西吗？",
+      "追兔子的时候西瓜怎么样了？"
+    ],
+    "tags": [
+      "阅读理解",
+      "细节",
+      "寓言"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "cr-b1-010",
+    "moduleId": "chinese.reading",
+    "skill": "reading-comprehension-zh",
+    "subSkill": "sequencing-zh",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "passage": "小猴子下山去玩。它先来到一片玉米地，掰了一个玉米。接着走到一棵桃树下，摘了几个桃子。然后经过一片西瓜地，抱了一个大西瓜。最后看到一只小兔子，就去追兔子。",
+    "prompt": "小猴子先后做了哪些事？顺序是什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "追兔子 → 抱西瓜 → 摘桃子 → 掰玉米"
+      },
+      {
+        "key": "B",
+        "text": "掰玉米 → 摘桃子 → 抱西瓜 → 追兔子"
+      },
+      {
+        "key": "C",
+        "text": "摘桃子 → 掰玉米 → 追兔子 → 抱西瓜"
+      },
+      {
+        "key": "D",
+        "text": "抱西瓜 → 掰玉米 → 摘桃子 → 追兔子"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "顺序反了，小猴子是从头开始的。",
+      "B": "对了！文中用了\"先……接着……然后……最后\"表明了顺序。",
+      "C": "顺序不对，先到的是玉米地。",
+      "D": "顺序不对，玉米地在最前面。"
+    },
+    "explanation": "文中用\"先……接着……然后……最后\"清晰表明了顺序：玉米→桃子→西瓜→追兔子。",
+    "explanationSteps": [
+      "\"先\"来到玉米地，掰玉米。",
+      "\"接着\"走到桃树下，摘桃子。",
+      "\"然后\"经过西瓜地，抱西瓜。",
+      "\"最后\"看到兔子，追兔子。"
+    ],
+    "hints": [
+      "找找文中的顺序词：先、接着、然后、最后。",
+      "按这些词来排序。"
+    ],
+    "tags": [
+      "阅读理解",
+      "顺序",
+      "寓言"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "cr-b1-011",
+    "moduleId": "chinese.reading",
+    "skill": "sentence-structure",
+    "subSkill": "conjunctions-zh",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "prompt": "选择正确的关联词：\"你 ___ 想学好中文，___ 要多练习。\"",
+    "choices": [
+      {
+        "key": "A",
+        "text": "不但……而且……"
+      },
+      {
+        "key": "B",
+        "text": "因为……所以……"
+      },
+      {
+        "key": "C",
+        "text": "如果……就……"
+      },
+      {
+        "key": "D",
+        "text": "虽然……但是……"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "这不是递进关系。",
+      "B": "前一分句不是原因，是一个条件。",
+      "C": "对了！\"如果……就……\"表示假设关系，前一分句是条件，后一分句是结果。",
+      "D": "这里没有转折的意思。"
+    },
+    "explanation": "\"如果……就……\"表示假设条件关系。\"想学好中文\"是条件，\"多练习\"是在这个条件下应该做的事。",
+    "explanationSteps": [
+      "判断两个分句的关系：假设条件关系。",
+      "\"如果\"引导条件。",
+      "\"就\"引导在这个条件下的结果或建议。"
+    ],
+    "hints": [
+      "\"想学好中文\"是已经发生的还是假设的？",
+      "\"如果\"后面跟的是条件。"
+    ],
+    "tags": [
+      "语法",
+      "关联词",
+      "假设"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "cr-b1-012",
+    "moduleId": "chinese.reading",
+    "skill": "reading-comprehension-zh",
+    "subSkill": "main-idea-zh",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "passage": "乌鸦口渴了，想喝水。它看到瓶子里有半瓶水，但瓶口太小，喝不到。乌鸦想了想，衔来小石子，一颗一颗放进瓶子里。水位慢慢升高了，乌鸦终于喝到了水。",
+    "prompt": "这个故事告诉我们什么道理？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "乌鸦很聪明但不能太骄傲"
+      },
+      {
+        "key": "B",
+        "text": "遇到困难要动脑筋想办法"
+      },
+      {
+        "key": "C",
+        "text": "口渴了要找水喝"
+      },
+      {
+        "key": "D",
+        "text": "小石子可以用来喝水"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "故事没有提到乌鸦骄傲。",
+      "B": "对了！乌鸦遇到喝水困难时，动脑筋用石子升高水位，这告诉我们遇到困难要想办法。",
+      "C": "这只是表面现象，不是故事要告诉我们的道理。",
+      "D": "这只是乌鸦用的方法，不是寓意。"
+    },
+    "explanation": "\"乌鸦喝水\"的故事告诉我们面对困难时，要善于观察、开动脑筋，用智慧解决问题。",
+    "explanationSteps": [
+      "乌鸦遇到了困难：喝不到瓶里的水。",
+      "它没有放弃，而是想办法。",
+      "它利用石子升高水位解决了问题。"
+    ],
+    "hints": [
+      "乌鸦是怎么喝到水的？",
+      "如果乌鸦不想办法会怎样？"
+    ],
+    "tags": [
+      "阅读理解",
+      "主旨",
+      "寓言"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "cr-b1-013",
+    "moduleId": "chinese.reading",
+    "skill": "reading-comprehension-zh",
+    "subSkill": "detail-finding",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "passage": "乌鸦口渴了，想喝水。它看到瓶子里有半瓶水，但瓶口太小，喝不到。乌鸦想了想，衔来小石子，一颗一颗放进瓶子里。水位慢慢升高了，乌鸦终于喝到了水。",
+    "prompt": "乌鸦是用什么办法喝到水的？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "把瓶子打破"
+      },
+      {
+        "key": "B",
+        "text": "找一根吸管"
+      },
+      {
+        "key": "C",
+        "text": "衔来石子放进瓶子让水位升高"
+      },
+      {
+        "key": "D",
+        "text": "请别的动物帮忙"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "故事中没有提到打破瓶子。",
+      "B": "故事中乌鸦没有用吸管。",
+      "C": "对了！乌鸦\"衔来小石子，一颗一颗放进瓶子里。水位慢慢升高了\"。",
+      "D": "乌鸦是自己想办法的。"
+    },
+    "explanation": "乌鸦衔来小石子放进瓶子里，石子占据了瓶底的空间，水位逐渐升高，最终乌鸦喝到了水。",
+    "explanationSteps": [
+      "乌鸦衔来小石子。",
+      "一颗一颗把石子放进瓶子里。",
+      "石子让水位升高，乌鸦喝到了水。"
+    ],
+    "hints": [
+      "找找文中描写乌鸦动作的句子。",
+      "小石子起到了什么作用？"
+    ],
+    "tags": [
+      "阅读理解",
+      "细节",
+      "寓言"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "cr-b1-014",
+    "moduleId": "chinese.reading",
+    "skill": "sentence-structure",
+    "subSkill": "comparison-sentences",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "prompt": "下面哪个句子表示\"这本书和那本书一样贵\"？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "这本书比那本书贵。"
+      },
+      {
+        "key": "B",
+        "text": "这本书没有那本书贵。"
+      },
+      {
+        "key": "C",
+        "text": "这本书跟那本书一样贵。"
+      },
+      {
+        "key": "D",
+        "text": "这本书不如那本书贵。"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "这表示这本书更贵，不是一样贵。",
+      "B": "这表示那本书更贵。",
+      "C": "对了！\"A跟B一样+形容词\"表示A和B程度相同。",
+      "D": "这表示那本书更贵。"
+    },
+    "explanation": "\"A跟B一样+形容词\"是表示等同的比较句式，说明两个事物在某个方面程度相同。",
+    "explanationSteps": [
+      "等同比较用\"跟……一样\"。",
+      "\"这本书跟那本书一样贵\"表示价格相同。",
+      "其他等同比较：和、与、同……一样。"
+    ],
+    "hints": [
+      "哪个句式表示两者相同？",
+      "\"一样\"这个词表示什么？"
+    ],
+    "tags": [
+      "语法",
+      "比较句",
+      "等同比较"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "cr-b1-015",
+    "moduleId": "chinese.reading",
+    "skill": "sentence-structure",
+    "subSkill": "ba-sentences",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "prompt": "下面哪个\"把\"字句是正确的？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "我把饭吃。"
+      },
+      {
+        "key": "B",
+        "text": "我把饭吃完了。"
+      },
+      {
+        "key": "C",
+        "text": "我把吃完了饭。"
+      },
+      {
+        "key": "D",
+        "text": "我把饭了吃。"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "\"把\"字句的动词后面需要有其他成分，不能只是一个光杆动词。",
+      "B": "对了！\"我把饭吃完了\"中动词\"吃\"后面有\"完了\"表示结果。",
+      "C": "语序不对，\"把\"后面应该是宾语\"饭\"，而不是动词。",
+      "D": "语序不对，\"了\"应该在动词后面。"
+    },
+    "explanation": "\"把\"字句中动词后面通常需要补语或其他成分，不能是光杆动词。\"吃完\"中\"完\"是结果补语。",
+    "explanationSteps": [
+      "\"把\"字句结构：主语+把+宾语+动词+补语。",
+      "动词后面要有\"完、到、了、好\"等成分。",
+      "例子：我把作业写完了。我把门打开了。"
+    ],
+    "hints": [
+      "\"把\"字句中动词后面不能光秃秃的。",
+      "看看哪个句子的动词后面有补充说明。"
+    ],
+    "tags": [
+      "语法",
+      "把字句",
+      "补语"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "cr-b1-016",
+    "moduleId": "chinese.reading",
+    "skill": "reading-comprehension-zh",
+    "subSkill": "inference-zh",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "passage": "小红今天起晚了，她匆匆忙忙地吃了两口面包，背上书包就往学校跑。到了学校，她发现教室门已经关上了，里面传来朗朗的读书声。",
+    "prompt": "小红可能会有什么感觉？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "很开心，因为今天有好吃的面包"
+      },
+      {
+        "key": "B",
+        "text": "很着急、很紧张，因为迟到了"
+      },
+      {
+        "key": "C",
+        "text": "很平静，觉得没关系"
+      },
+      {
+        "key": "D",
+        "text": "很生气，不想上课"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "从语境看，小红匆匆忙忙地吃面包是在赶时间，不是开心。",
+      "B": "对了！起晚了、匆匆忙忙、教室门关上了、有读书声，这些都说明小红迟到了，她会着急紧张。",
+      "C": "从\"匆匆忙忙\"\"跑\"这些词可以看出小红并不平静。",
+      "D": "文中没有提到小红生气。"
+    },
+    "explanation": "从\"起晚了\"\"匆匆忙忙\"\"跑\"\"教室门已经关上\"\"读书声\"可以推断小红迟到了，她会感到着急和紧张。",
+    "explanationSteps": [
+      "注意到时间线索：起晚了。",
+      "动作描写：匆匆忙忙、跑。",
+      "到校情况：门关了、在读书。",
+      "综合推断：小红迟到了，她会着急紧张。"
+    ],
+    "hints": [
+      "如果你是小红，起晚了赶到学校发现门关了，你会怎么想？",
+      "看看文中哪些词说明小红赶时间？"
+    ],
+    "tags": [
+      "阅读理解",
+      "推断",
+      "生活"
+    ],
+    "estimatedTimeSec": 45
+  },
+  {
+    "id": "cr-b1-017",
+    "moduleId": "chinese.reading",
+    "skill": "sentence-structure",
+    "subSkill": "conjunctions-zh",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "prompt": "选择正确的关联词：\"这道题 ___ 很难，___ 我没有放弃。\"",
+    "choices": [
+      {
+        "key": "A",
+        "text": "因为……所以……"
+      },
+      {
+        "key": "B",
+        "text": "虽然……但是……"
+      },
+      {
+        "key": "C",
+        "text": "不但……而且……"
+      },
+      {
+        "key": "D",
+        "text": "如果……就……"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "\"很难\"和\"没有放弃\"之间不是因果关系。",
+      "B": "对了！\"很难\"和\"没有放弃\"之间是转折关系，用\"虽然……但是……\"。",
+      "C": "这不是递进关系，而是相反的关系。",
+      "D": "这不是假设关系。"
+    },
+    "explanation": "\"虽然……但是……\"表示转折关系。虽然题很难（不利条件），但是我没有放弃（积极行为）。",
+    "explanationSteps": [
+      "第一分句说题很难（不利条件）。",
+      "第二分句说没有放弃（积极应对）。",
+      "前后是相反/转折关系，用\"虽然……但是……\"。"
+    ],
+    "hints": [
+      "\"很难\"和\"没有放弃\"是顺着的还是相反的关系？",
+      "通常大家觉得难就会放弃，这里没有放弃，所以是转折。"
+    ],
+    "tags": [
+      "语法",
+      "关联词",
+      "转折"
+    ],
+    "estimatedTimeSec": 25
+  },
+  {
+    "id": "cr-b1-018",
+    "moduleId": "chinese.reading",
+    "skill": "reading-comprehension-zh",
+    "subSkill": "inference-zh",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "passage": "明明看见路边的老奶奶提着一个很重的袋子，走得气喘吁吁的。明明跑过去说：\"奶奶，我来帮您提吧！\"老奶奶笑着说：\"谢谢你，好孩子！\"",
+    "prompt": "从这段话可以看出明明是一个怎样的孩子？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "很淘气的孩子"
+      },
+      {
+        "key": "B",
+        "text": "爱学习的孩子"
+      },
+      {
+        "key": "C",
+        "text": "乐于助人的好孩子"
+      },
+      {
+        "key": "D",
+        "text": "很害羞的孩子"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "明明主动帮助老奶奶，不是淘气。",
+      "B": "文中没有提到学习方面的事情。",
+      "C": "对了！明明看到老奶奶需要帮助就主动去帮忙，是个乐于助人的好孩子。",
+      "D": "明明主动去帮助陌生人，并不害羞。"
+    },
+    "explanation": "明明看到老奶奶提重物很辛苦，主动提出帮忙，老奶奶夸他是好孩子，这说明明明是一个乐于助人的孩子。",
+    "explanationSteps": [
+      "明明观察到了老奶奶的困难。",
+      "明明主动跑过去提供帮助。",
+      "从行为推断品德：乐于助人。"
+    ],
+    "hints": [
+      "明明做了什么？",
+      "从明明的行为你能看出他是什么样的人？"
+    ],
+    "tags": [
+      "阅读理解",
+      "推断",
+      "品德"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "cr-b1-019",
+    "moduleId": "chinese.reading",
+    "skill": "reading-comprehension-zh",
+    "subSkill": "main-idea-zh",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "passage": "秋天到了，树叶变黄了，一片一片从树上落下来。果园里，苹果红了，梨子黄了，葡萄紫了。农民伯伯在田里忙着收割庄稼，脸上露出了丰收的喜悦。",
+    "prompt": "这段话主要描写了什么？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "树叶落下来了"
+      },
+      {
+        "key": "B",
+        "text": "果园里的水果"
+      },
+      {
+        "key": "C",
+        "text": "秋天丰收的景象"
+      },
+      {
+        "key": "D",
+        "text": "农民伯伯很辛苦"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "树叶落下只是秋天的其中一个表现。",
+      "B": "水果只是秋天丰收的一部分。",
+      "C": "对了！从落叶、水果成熟到农民丰收，整段都在描写秋天丰收的美好景象。",
+      "D": "虽然提到了农民，但重点在丰收的喜悦。"
+    },
+    "explanation": "这段话用\"树叶变黄\"\"水果成熟\"\"农民丰收\"三个层次，全面展现了秋天丰收的景象。",
+    "explanationSteps": [
+      "第一层：树叶变黄落下（秋天来了）。",
+      "第二层：水果成熟（果园丰收）。",
+      "第三层：农民收割（农田丰收）。"
+    ],
+    "hints": [
+      "这段话说的是哪个季节？",
+      "这个季节有什么特点？"
+    ],
+    "tags": [
+      "阅读理解",
+      "主旨",
+      "秋天"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "cr-b1-020",
+    "moduleId": "chinese.reading",
+    "skill": "sentence-structure",
+    "subSkill": "question-sentences",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "prompt": "\"这本书不是你的，是___的？\" 空格里应该填什么疑问词？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "什么"
+      },
+      {
+        "key": "B",
+        "text": "谁"
+      },
+      {
+        "key": "C",
+        "text": "哪"
+      },
+      {
+        "key": "D",
+        "text": "怎么"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "\"什么的\"用来问种类或性质，这里要问人。",
+      "B": "对了！\"谁的\"用来询问物品属于谁。",
+      "C": "\"哪\"用来问选择，后面一般跟量词。",
+      "D": "\"怎么\"用来问方式或原因。"
+    },
+    "explanation": "\"这本书不是你的，是谁的？\"用\"谁\"来询问物品的主人，因为是在问人。",
+    "explanationSteps": [
+      "先看要问什么：这里要问书的归属。",
+      "问归属用\"谁的\"。",
+      "\"谁\"用来问人，\"的\"表示所属关系。"
+    ],
+    "hints": [
+      "要问的是人还是物？",
+      "问书属于哪个人应该用哪个疑问词？"
+    ],
+    "tags": [
+      "语法",
+      "疑问词",
+      "句型"
+    ],
+    "estimatedTimeSec": 20
+  }
+]

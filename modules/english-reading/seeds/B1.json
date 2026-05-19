@@ -1,0 +1,2038 @@
+[
+  {
+    "id": "er-b1-001",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "main-idea",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "passage": "Sea turtles live in the ocean. They come to sandy beaches to lay their eggs. A mother turtle digs a hole, lays her eggs, and covers them with sand. Then she returns to the sea and never sees her babies.",
+    "prompt": "What is the main idea of this passage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Sea turtles are fast swimmers."
+      },
+      {
+        "key": "B",
+        "text": "Sea turtles lay eggs on beaches."
+      },
+      {
+        "key": "C",
+        "text": "Sand is warm and soft."
+      },
+      {
+        "key": "D",
+        "text": "Baby turtles live with their mother."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Swimming speed is not mentioned in the passage at all.",
+      "C": "The passage mentions sand but does not describe it as warm and soft.",
+      "D": "The passage says the mother 'never sees her babies', so they do not live together."
+    },
+    "explanation": "The whole passage is about how sea turtles lay their eggs on beaches — from digging the hole to returning to the sea.",
+    "explanationSteps": [
+      "Read each sentence and find the common topic.",
+      "Every sentence relates to sea turtle egg-laying.",
+      "The main idea is the overall topic: sea turtles lay eggs on beaches."
+    ],
+    "hints": [
+      "What is the one thing all sentences are about?",
+      "Try to summarize the passage in one sentence."
+    ],
+    "tags": [
+      "comprehension",
+      "main-idea",
+      "animals"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b1-002",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "key-details",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "passage": "The ancient Egyptians built pyramids as tombs for their pharaohs. The largest pyramid, the Great Pyramid of Giza, was built for Pharaoh Khufu. It took about 20 years and thousands of workers to complete.",
+    "prompt": "How long did it take to build the Great Pyramid of Giza?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "about 5 years"
+      },
+      {
+        "key": "B",
+        "text": "about 10 years"
+      },
+      {
+        "key": "C",
+        "text": "about 20 years"
+      },
+      {
+        "key": "D",
+        "text": "about 50 years"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "The passage says it took much longer than 5 years.",
+      "B": "The passage specifically says 'about 20 years'.",
+      "D": "50 years is longer than the time stated in the passage."
+    },
+    "explanation": "The last sentence states: 'It took about 20 years and thousands of workers to complete.'",
+    "explanationSteps": [
+      "Scan the passage for details about time.",
+      "Find the phrase 'about 20 years'.",
+      "That is the exact answer to the question."
+    ],
+    "hints": [
+      "Look for numbers in the passage.",
+      "Which number tells you how long the building took?"
+    ],
+    "tags": [
+      "comprehension",
+      "key-details",
+      "history"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "er-b1-003",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "sequencing",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "passage": "First, the caterpillar hatches from a tiny egg. It spends most of its time eating leaves and growing bigger. Next, it forms a hard shell called a chrysalis. Inside the chrysalis, the caterpillar transforms. Finally, a beautiful butterfly emerges.",
+    "prompt": "What happens right after the caterpillar forms a chrysalis?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It hatches from an egg."
+      },
+      {
+        "key": "B",
+        "text": "It eats leaves and grows."
+      },
+      {
+        "key": "C",
+        "text": "It transforms inside the chrysalis."
+      },
+      {
+        "key": "D",
+        "text": "A butterfly emerges."
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Hatching from an egg is the first step, which happens long before the chrysalis.",
+      "B": "Eating leaves happens after hatching but before forming the chrysalis.",
+      "D": "The butterfly emerges after the transformation is complete."
+    },
+    "explanation": "The passage says 'Next, it forms a chrysalis. Inside the chrysalis, the caterpillar transforms.' The transformation happens inside the chrysalis.",
+    "explanationSteps": [
+      "Follow the sequence words: First, Next, Finally.",
+      "'Next' is forming the chrysalis.",
+      "The sentence after that describes what happens inside the chrysalis: transformation."
+    ],
+    "hints": [
+      "Look for the sentence that starts with 'Inside the chrysalis'.",
+      "What happens immediately after the chrysalis forms?"
+    ],
+    "tags": [
+      "comprehension",
+      "sequencing",
+      "life-cycles"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b1-004",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "fact-vs-opinion",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "passage": "Mars is the fourth planet from the sun. It is often called the Red Planet because of its rusty color. Many scientists believe exploring Mars is the most exciting space mission. Mars has two small moons named Phobos and Deimos.",
+    "prompt": "Which sentence from the passage is an opinion?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Mars is the fourth planet from the sun."
+      },
+      {
+        "key": "B",
+        "text": "It is often called the Red Planet because of its rusty color."
+      },
+      {
+        "key": "C",
+        "text": "Many scientists believe exploring Mars is the most exciting space mission."
+      },
+      {
+        "key": "D",
+        "text": "Mars has two small moons named Phobos and Deimos."
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "This is a verifiable fact about Mars's position in the solar system.",
+      "B": "This is a fact about what Mars is called and why.",
+      "D": "This is a factual statement that can be verified."
+    },
+    "explanation": "The phrase 'the most exciting' shows this is an opinion — what one person finds exciting may not be exciting to another.",
+    "explanationSteps": [
+      "A fact can be proven; an opinion is a belief or feeling.",
+      "Sentences A, B, and D state verifiable facts.",
+      "Sentence C includes 'the most exciting', which is a judgment or opinion."
+    ],
+    "hints": [
+      "Look for words that show a personal feeling or judgment.",
+      "Words like 'best', 'most exciting', 'wonderful' often signal opinions."
+    ],
+    "tags": [
+      "comprehension",
+      "fact-vs-opinion",
+      "space"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b1-005",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "who-what-where",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "passage": "Maria and her grandfather visited the natural history museum. They saw dinosaur skeletons, a planetarium show, and a gem collection. Maria's favorite part was the giant T-Rex skeleton in the main hall.",
+    "prompt": "Where did Maria and her grandfather go?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "an art gallery"
+      },
+      {
+        "key": "B",
+        "text": "a natural history museum"
+      },
+      {
+        "key": "C",
+        "text": "a science center"
+      },
+      {
+        "key": "D",
+        "text": "a library"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Art galleries show paintings and sculptures, not dinosaur skeletons.",
+      "C": "Science centers have experiments but the passage specifically says 'natural history museum'.",
+      "D": "Libraries have books, not dinosaur skeletons or planetarium shows."
+    },
+    "explanation": "The first sentence clearly states: 'Maria and her grandfather visited the natural history museum.'",
+    "explanationSteps": [
+      "Read the first sentence of the passage.",
+      "It directly tells you where they went.",
+      "The rest of the passage gives details about what they saw there."
+    ],
+    "hints": [
+      "The answer is in the very first sentence.",
+      "Look for the name of the place they visited."
+    ],
+    "tags": [
+      "comprehension",
+      "who-what-where"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "er-b1-006",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "making-predictions",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "passage": "Leo stayed up late playing video games. The next morning, he could hardly keep his eyes open during math class. His teacher asked him a question, but Leo just stared blankly.",
+    "prompt": "What will most likely happen next?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Leo will answer the question correctly."
+      },
+      {
+        "key": "B",
+        "text": "Leo will not be able to answer because he is too tired."
+      },
+      {
+        "key": "C",
+        "text": "Leo will go home right away."
+      },
+      {
+        "key": "D",
+        "text": "Leo will play more video games."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Leo can hardly keep his eyes open and is staring blankly, so he is unlikely to answer correctly.",
+      "C": "There is no indication Leo will go home — he is still in class.",
+      "D": "Leo is in class and about to be questioned. Playing video games is not happening next."
+    },
+    "explanation": "Because Leo stayed up late and is very tired, he will probably not be able to answer the teacher's question.",
+    "explanationSteps": [
+      "Identify the problem: Leo is tired from staying up late.",
+      "Notice how he is acting: staring blankly.",
+      "Predict the logical outcome: he cannot answer the question."
+    ],
+    "hints": [
+      "How does Leo's tiredness affect what he can do?",
+      "What does 'staring blankly' suggest about his ability to answer?"
+    ],
+    "tags": [
+      "inference",
+      "making-predictions",
+      "cause-effect"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b1-007",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "drawing-conclusions",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "passage": "Sofia opened her lunchbox and frowned. She had asked for a turkey sandwich, but inside was a cheese sandwich. She pushed the sandwich aside and ate only her apple slices.",
+    "prompt": "What can you conclude about Sofia?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Sofia does not like cheese sandwiches."
+      },
+      {
+        "key": "B",
+        "text": "Sofia is not hungry."
+      },
+      {
+        "key": "C",
+        "text": "Sofia loves apples more than anything."
+      },
+      {
+        "key": "D",
+        "text": "Sofia forgot her lunch at home."
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "She ate her apple slices, so she is hungry enough to eat at least part of her lunch.",
+      "C": "While she ate her apple, the passage focuses on her disappointment about the sandwich.",
+      "D": "She has her lunchbox with her, so she did not forget her lunch."
+    },
+    "explanation": "Sofia frowned when she saw the cheese sandwich and only ate her apple. This tells us she was unhappy with the sandwich, probably because she does not like cheese sandwiches.",
+    "explanationSteps": [
+      "Observe Sofia's reaction: she frowned.",
+      "Notice her action: she pushed the sandwich aside.",
+      "Conclude: her behavior shows she does not like cheese sandwiches."
+    ],
+    "hints": [
+      "Why would someone push food aside?",
+      "What does 'frowned' tell you about her feelings?"
+    ],
+    "tags": [
+      "inference",
+      "drawing-conclusions",
+      "character-feelings"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b1-008",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "cause-effect",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "passage": "The beaver dam broke during the heavy rainstorm. Water rushed downstream and flooded the meadow. The animals that lived in the meadow had to find higher ground.",
+    "prompt": "What caused the meadow to flood?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The beavers built a new dam."
+      },
+      {
+        "key": "B",
+        "text": "The beaver dam broke during the storm."
+      },
+      {
+        "key": "C",
+        "text": "The animals moved to higher ground."
+      },
+      {
+        "key": "D",
+        "text": "The rain stopped suddenly."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The dam broke; the beavers did not build a new dam.",
+      "C": "Animals moving to higher ground was the effect of the flood, not the cause.",
+      "D": "The storm was still happening (heavy rainstorm). The rain stopping was not mentioned."
+    },
+    "explanation": "The dam broke during the storm, which caused water to rush downstream and flood the meadow.",
+    "explanationSteps": [
+      "Identify what happened: the meadow flooded.",
+      "Find what came before and triggered it: the dam broke.",
+      "Connect cause (broken dam) to effect (flooded meadow)."
+    ],
+    "hints": [
+      "Look for the event that happened first.",
+      "Ask: 'What made the water rush downstream?'"
+    ],
+    "tags": [
+      "inference",
+      "cause-effect",
+      "nature"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "er-b1-009",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "character-feelings",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "passage": "Ethan practiced his piano piece every day for weeks. On the day of the recital, his hands were shaking as he walked onto the stage. He took a deep breath and began to play.",
+    "prompt": "How was Ethan feeling as he walked onto the stage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "bored and tired"
+      },
+      {
+        "key": "B",
+        "text": "nervous but determined"
+      },
+      {
+        "key": "C",
+        "text": "angry and upset"
+      },
+      {
+        "key": "D",
+        "text": "confident and relaxed"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Ethan practiced hard for weeks, so he is clearly not bored with this.",
+      "C": "There is no indication Ethan is angry. He is preparing to play.",
+      "D": "His shaking hands suggest he is not relaxed or confident."
+    },
+    "explanation": "Ethan's shaking hands show he is nervous. But he took a deep breath and began to play, which shows determination.",
+    "explanationSteps": [
+      "Look for physical clues: 'hands were shaking'.",
+      "Shaking hands often mean nervousness.",
+      "But he 'took a deep breath and began to play' — that shows determination."
+    ],
+    "hints": [
+      "What do shaking hands tell you about how someone feels?",
+      "Notice that he kept going even though he was scared."
+    ],
+    "tags": [
+      "inference",
+      "character-feelings",
+      "emotions"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b1-010",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "author-purpose",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "passage": "Recycling is important for our planet. When you recycle paper, plastic, and glass, fewer materials end up in landfills. Recycling also saves energy because making new products from recycled materials uses less energy than making them from raw materials.",
+    "prompt": "What is the author's main purpose in writing this passage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "to entertain readers with a story about recycling"
+      },
+      {
+        "key": "B",
+        "text": "to persuade readers to recycle"
+      },
+      {
+        "key": "C",
+        "text": "to describe how recycling bins work"
+      },
+      {
+        "key": "D",
+        "text": "to compare different types of trash"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "This is an informational passage, not a story meant to entertain.",
+      "C": "The passage does not describe how recycling bins work.",
+      "D": "The passage talks about recycling in general, not comparing types of trash."
+    },
+    "explanation": "The author gives reasons why recycling is important, which is meant to persuade readers to recycle.",
+    "explanationSteps": [
+      "Identify the topic: recycling.",
+      "Notice the language: 'is important', 'saves energy'.",
+      "These are persuasive reasons, not just facts. The author wants you to recycle."
+    ],
+    "hints": [
+      "Does the author want you to do something?",
+      "Look for words that show the author's opinion about recycling."
+    ],
+    "tags": [
+      "inference",
+      "author-purpose",
+      "environment"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b1-011",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "main-idea",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "passage": "Honeybees communicate with each other through dance. When a worker bee finds a good source of nectar, it returns to the hive and performs a waggle dance. The direction and length of the dance tell other bees exactly where to find the food.",
+    "prompt": "What is the passage mainly about?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "How honeybees make honey"
+      },
+      {
+        "key": "B",
+        "text": "How honeybees communicate"
+      },
+      {
+        "key": "C",
+        "text": "Where honeybees live"
+      },
+      {
+        "key": "D",
+        "text": "What honeybees eat"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The passage does not explain how honey is made.",
+      "C": "The passage mentions the hive but is not about where bees live.",
+      "D": "The passage mentions nectar but does not focus on what bees eat."
+    },
+    "explanation": "Every sentence describes how bees communicate through dance. That is the central topic of the passage.",
+    "explanationSteps": [
+      "The first sentence introduces the topic: communication through dance.",
+      "The next sentences explain how the dance works.",
+      "The main idea is bee communication."
+    ],
+    "hints": [
+      "What is the first sentence about?",
+      "Every sentence connects to one idea — what is it?"
+    ],
+    "tags": [
+      "comprehension",
+      "main-idea",
+      "animals"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "er-b1-012",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "key-details",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "passage": "The Amazon River in South America is the largest river by water volume. It flows through Brazil, Peru, Colombia, and several other countries. The river is home to more than 3,000 species of fish, including the famous piranha.",
+    "prompt": "How many species of fish live in the Amazon River?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "more than 1,000"
+      },
+      {
+        "key": "B",
+        "text": "more than 2,000"
+      },
+      {
+        "key": "C",
+        "text": "more than 3,000"
+      },
+      {
+        "key": "D",
+        "text": "more than 5,000"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "The passage says 'more than 3,000', not 1,000.",
+      "B": "The passage says 'more than 3,000', not 2,000.",
+      "D": "5,000 is higher than what the passage states."
+    },
+    "explanation": "The passage states: 'The river is home to more than 3,000 species of fish.'",
+    "explanationSteps": [
+      "Scan for numbers in the passage.",
+      "Find '3,000' and read what it refers to.",
+      "It refers to the number of fish species."
+    ],
+    "hints": [
+      "Look for the number in the last sentence.",
+      "What does that number describe?"
+    ],
+    "tags": [
+      "comprehension",
+      "key-details",
+      "geography"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "er-b1-013",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "sequencing",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "passage": "To bake bread, start by mixing flour, yeast, water, and salt together. Knead the dough for ten minutes until it is smooth. Let the dough rise for one hour. Then shape it into a loaf and bake at 375 degrees for 30 minutes.",
+    "prompt": "What should you do right after kneading the dough?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Mix the ingredients together."
+      },
+      {
+        "key": "B",
+        "text": "Let the dough rise."
+      },
+      {
+        "key": "C",
+        "text": "Shape it into a loaf."
+      },
+      {
+        "key": "D",
+        "text": "Bake the bread."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Mixing comes before kneading, not after.",
+      "C": "Shaping comes after the dough has risen.",
+      "D": "Baking is the final step, after shaping."
+    },
+    "explanation": "The steps are in order: mix → knead → let rise → shape → bake. After kneading, the next step is letting the dough rise.",
+    "explanationSteps": [
+      "Read the passage and identify the sequence words.",
+      "Find 'knead the dough' in the passage.",
+      "The very next instruction is 'let the dough rise'."
+    ],
+    "hints": [
+      "Read the steps in order and find 'knead'.",
+      "What instruction comes immediately after kneading?"
+    ],
+    "tags": [
+      "comprehension",
+      "sequencing",
+      "cooking"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "er-b1-014",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "drawing-conclusions",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "passage": "Every morning, Mrs. Chen waters her plants and talks to them. Her neighbors think this is strange. But Mrs. Chen's garden is the most beautiful on the street, with the brightest flowers and the tallest tomato plants.",
+    "prompt": "What can you conclude about Mrs. Chen talking to her plants?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It is the only way to grow plants."
+      },
+      {
+        "key": "B",
+        "text": "Her plants seem to thrive despite what others think."
+      },
+      {
+        "key": "C",
+        "text": "Her neighbors also talk to their plants."
+      },
+      {
+        "key": "D",
+        "text": "The plants do not like being talked to."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "There are many ways to grow plants. Talking to them is not the only way.",
+      "C": "The neighbors think it is strange, so they probably do not talk to their own plants.",
+      "D": "The garden is very beautiful, suggesting the plants are doing well."
+    },
+    "explanation": "Although the neighbors think it is strange, Mrs. Chen's garden is the most beautiful on the street. This suggests her plants thrive even if talking to them seems unusual.",
+    "explanationSteps": [
+      "Notice the contrast: neighbors find it strange, but the garden is beautiful.",
+      "The result (beautiful garden) is positive.",
+      "Conclusion: whatever she is doing, including talking to plants, is working well."
+    ],
+    "hints": [
+      "Compare what the neighbors think with the actual result.",
+      "Is the garden doing well or poorly?"
+    ],
+    "tags": [
+      "inference",
+      "drawing-conclusions"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b1-015",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "cause-effect",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "passage": "The village had not received rain for three months. The river was low and the crops were wilting. Farmers worried they would not have enough food for the winter.",
+    "prompt": "What was the main cause of the farmers' worry?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The river was too high."
+      },
+      {
+        "key": "B",
+        "text": "There was too much rain."
+      },
+      {
+        "key": "C",
+        "text": "The drought was hurting their crops."
+      },
+      {
+        "key": "D",
+        "text": "The farmers were tired of working."
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "The passage says the river was 'low', not high.",
+      "B": "There had been no rain for three months, which is a drought, not too much rain.",
+      "D": "The passage does not say the farmers are tired; they worry about food."
+    },
+    "explanation": "The lack of rain caused a drought, which made crops wilt and the river run low. The farmers worried they would not have enough food because the crops were dying.",
+    "explanationSteps": [
+      "Identify the problem: no rain for three months.",
+      "Trace the effects: low river, wilting crops.",
+      "Connect the cause (drought) to the worry (not enough food)."
+    ],
+    "hints": [
+      "What happened because of no rain?",
+      "Why would farmers worry about winter food?"
+    ],
+    "tags": [
+      "inference",
+      "cause-effect",
+      "weather"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b1-016",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "making-predictions",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "passage": "Priya has been saving her allowance for months to buy a new bicycle. She has almost enough money. But this weekend, her best friend's birthday party is coming up, and Priya wants to buy her a nice gift.",
+    "prompt": "What problem does Priya face?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "She does not have a best friend."
+      },
+      {
+        "key": "B",
+        "text": "She has to choose between a gift and her bike savings."
+      },
+      {
+        "key": "C",
+        "text": "Her bicycle is broken and needs repair."
+      },
+      {
+        "key": "D",
+        "text": "She forgot about her friend's birthday."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The passage says she has a best friend whose birthday is coming up.",
+      "C": "The passage does not mention her current bicycle being broken.",
+      "D": "She knows about the birthday party this weekend."
+    },
+    "explanation": "Priya has almost saved enough for a bike but now wants to buy a gift for her friend. She must decide how to use her money.",
+    "explanationSteps": [
+      "Identify Priya's goal: saving for a bicycle.",
+      "Identify the new situation: her friend's birthday.",
+      "Recognize the conflict: she may have to spend savings on a gift instead."
+    ],
+    "hints": [
+      "What two things both need money?",
+      "Why might buying a gift cause a problem for Priya?"
+    ],
+    "tags": [
+      "inference",
+      "making-predictions",
+      "real-life"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b1-017",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "character-feelings",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "passage": "Aisha looked at the clock. Her friends were supposed to arrive ten minutes ago. She paced back and forth, glancing out the window every few seconds. She picked up her phone to check for messages.",
+    "prompt": "How is Aisha most likely feeling?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "angry and furious"
+      },
+      {
+        "key": "B",
+        "text": "worried and impatient"
+      },
+      {
+        "key": "C",
+        "text": "relaxed and calm"
+      },
+      {
+        "key": "D",
+        "text": "sleepy and tired"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "While she might be slightly annoyed, 'angry and furious' is too strong for the clues given.",
+      "C": "Her pacing and checking the clock suggest she is not calm.",
+      "D": "There is no indication she is tired."
+    },
+    "explanation": "Aisha is pacing, checking the clock, and looking out the window. These actions show she is worried about her friends and impatient for them to arrive.",
+    "explanationSteps": [
+      "Notice Aisha's actions: pacing, checking clock, looking out window.",
+      "These are signs of waiting and wondering.",
+      "She is likely worried something happened or impatient that they are late."
+    ],
+    "hints": [
+      "How do you act when you are waiting for someone who is late?",
+      "What do pacing and checking the clock tell you?"
+    ],
+    "tags": [
+      "inference",
+      "character-feelings",
+      "emotions"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b1-018",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "cause-effect",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "passage": "The school playground was always muddy after it rained. The principal decided to install a drainage system. Now, after a rainstorm, the playground is dry and ready for use within an hour.",
+    "prompt": "What was the effect of installing the drainage system?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The playground stayed muddy longer."
+      },
+      {
+        "key": "B",
+        "text": "The playground became dry quickly after rain."
+      },
+      {
+        "key": "C",
+        "text": "It rained more often."
+      },
+      {
+        "key": "D",
+        "text": "The principal closed the playground."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The drainage system made things better, not worse. The playground dries quickly now.",
+      "C": "A drainage system cannot cause more rain.",
+      "D": "The passage says the playground is 'ready for use', not closed."
+    },
+    "explanation": "Before the drainage system, the playground stayed muddy. After installation, it dries within an hour. The drainage system solved the muddy playground problem.",
+    "explanationSteps": [
+      "Identify the change: a drainage system was installed.",
+      "Compare before (muddy) and after (dry within an hour).",
+      "The effect is that the playground dries quickly after rain."
+    ],
+    "hints": [
+      "What changed after the drainage system was put in?",
+      "Compare how the playground was before and after."
+    ],
+    "tags": [
+      "inference",
+      "cause-effect",
+      "problem-solving"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "er-b1-019",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "fact-vs-opinion",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "passage": "Mount Everest is the tallest mountain on Earth. It is 8,849 meters high. Climbing Mount Everest is an incredible achievement that requires months of training. Many climbers consider it the most dangerous mountain in the world.",
+    "prompt": "Which sentence from the passage states an opinion?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Mount Everest is the tallest mountain on Earth."
+      },
+      {
+        "key": "B",
+        "text": "It is 8,849 meters high."
+      },
+      {
+        "key": "C",
+        "text": "Climbing Mount Everest is an incredible achievement."
+      },
+      {
+        "key": "D",
+        "text": "Many climbers consider it the most dangerous mountain in the world."
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "This is a verifiable fact about Mount Everest's height relative to other mountains.",
+      "B": "This is a specific measurement — a fact.",
+      "D": "This states what 'many climbers consider', which attributes the opinion to others."
+    },
+    "explanation": "'Incredible achievement' is a judgment. What one person finds incredible, another might not. This makes it an opinion.",
+    "explanationSteps": [
+      "Look for words that express a judgment: 'incredible'.",
+      "Facts are measurable and verifiable.",
+      "'Incredible' is a subjective judgment — an opinion."
+    ],
+    "hints": [
+      "Which sentence contains a feeling or judgment?",
+      "Words like 'incredible', 'amazing', 'terrible' signal opinions."
+    ],
+    "tags": [
+      "comprehension",
+      "fact-vs-opinion",
+      "geography"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b1-020",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "author-purpose",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "passage": "First, measure two cups of flour into a large bowl. Add one teaspoon of baking powder and a pinch of salt. In a separate bowl, whisk together one egg, one cup of milk, and two tablespoons of melted butter. Pour the wet ingredients into the dry ingredients and stir until just combined.",
+    "prompt": "What is the author's purpose for writing this passage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "to entertain with a funny cooking story"
+      },
+      {
+        "key": "B",
+        "text": "to instruct readers on how to make something"
+      },
+      {
+        "key": "C",
+        "text": "to persuade readers to eat healthy food"
+      },
+      {
+        "key": "D",
+        "text": "to describe the history of pancakes"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "This is a list of instructions, not a funny story.",
+      "C": "Nothing in the passage talks about health or persuades the reader.",
+      "D": "The passage does not discuss history."
+    },
+    "explanation": "The passage gives step-by-step instructions with measurements. This format is used to teach someone how to make something (likely pancakes or a similar batter).",
+    "explanationSteps": [
+      "Notice the format: numbered steps with measurements.",
+      "The language is instructive: 'measure', 'add', 'whisk', 'pour'.",
+      "The purpose is to instruct the reader."
+    ],
+    "hints": [
+      "Does this passage tell you how to do something?",
+      "What kind of writing gives step-by-step directions?"
+    ],
+    "tags": [
+      "inference",
+      "author-purpose",
+      "procedural-text"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "er-b1-001",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "main-idea",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "passage": "Sea turtles live in the ocean. They come to sandy beaches to lay their eggs. A mother turtle digs a hole, lays her eggs, and covers them with sand. Then she returns to the sea and never sees her babies.",
+    "prompt": "What is the main idea of this passage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Sea turtles are fast swimmers."
+      },
+      {
+        "key": "B",
+        "text": "Sea turtles lay eggs on beaches."
+      },
+      {
+        "key": "C",
+        "text": "Sand is warm and soft."
+      },
+      {
+        "key": "D",
+        "text": "Baby turtles live with their mother."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Swimming speed not mentioned.",
+      "C": "Passage does not describe sand.",
+      "D": "Mother never sees her babies."
+    },
+    "explanation": "The whole passage is about how sea turtles lay eggs on beaches.",
+    "explanationSteps": [
+      "Read each sentence.",
+      "Every sentence relates to egg-laying.",
+      "Main idea: turtles lay eggs on beaches."
+    ],
+    "hints": [
+      "What is the common topic?",
+      "Summarize in one sentence."
+    ],
+    "tags": [
+      "comprehension",
+      "main-idea",
+      "animals"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b1-002",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "key-details",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "passage": "The ancient Egyptians built pyramids as tombs for their pharaohs. The largest pyramid, the Great Pyramid of Giza, was built for Pharaoh Khufu. It took about 20 years and thousands of workers to complete.",
+    "prompt": "How long did it take to build the Great Pyramid of Giza?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "about 5 years"
+      },
+      {
+        "key": "B",
+        "text": "about 10 years"
+      },
+      {
+        "key": "C",
+        "text": "about 20 years"
+      },
+      {
+        "key": "D",
+        "text": "about 50 years"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Longer than 5 years.",
+      "B": "Passage says 20 years.",
+      "D": "50 is longer than stated."
+    },
+    "explanation": "The passage states it took about 20 years.",
+    "explanationSteps": [
+      "Scan for numbers.",
+      "Find about 20 years.",
+      "That is the answer."
+    ],
+    "hints": [
+      "Look for numbers in the passage.",
+      "Which number tells the time?"
+    ],
+    "tags": [
+      "comprehension",
+      "key-details",
+      "history"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "er-b1-003",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "sequencing",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "passage": "First, the caterpillar hatches from a tiny egg. It spends most of its time eating leaves and growing bigger. Next, it forms a hard shell called a chrysalis. Inside the chrysalis, the caterpillar transforms. Finally, a beautiful butterfly emerges.",
+    "prompt": "What happens right after the caterpillar forms a chrysalis?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It hatches from an egg."
+      },
+      {
+        "key": "B",
+        "text": "It eats leaves."
+      },
+      {
+        "key": "C",
+        "text": "It transforms inside the chrysalis."
+      },
+      {
+        "key": "D",
+        "text": "A butterfly emerges."
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Hatching is first step.",
+      "B": "Eating happens before chrysalis.",
+      "D": "Butterfly emerges after transformation."
+    },
+    "explanation": "The passage says Next it forms a chrysalis. Inside the chrysalis, the caterpillar transforms.",
+    "explanationSteps": [
+      "Follow the sequence words.",
+      "Next = forming chrysalis.",
+      "Inside = transformation happens."
+    ],
+    "hints": [
+      "Look for the sentence about inside the chrysalis.",
+      "What happens after the chrysalis forms?"
+    ],
+    "tags": [
+      "comprehension",
+      "sequencing",
+      "life-cycles"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b1-004",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "fact-vs-opinion",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "passage": "Mars is the fourth planet from the sun. It is called the Red Planet. Many scientists believe exploring Mars is the most exciting space mission. Mars has two small moons named Phobos and Deimos.",
+    "prompt": "Which sentence from the passage is an opinion?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Mars is the fourth planet from the sun."
+      },
+      {
+        "key": "B",
+        "text": "It is called the Red Planet."
+      },
+      {
+        "key": "C",
+        "text": "Many scientists believe exploring Mars is the most exciting space mission."
+      },
+      {
+        "key": "D",
+        "text": "Mars has two small moons."
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "This is a fact.",
+      "B": "This is a fact.",
+      "D": "This is a fact."
+    },
+    "explanation": "The phrase the most exciting shows this is an opinion.",
+    "explanationSteps": [
+      "A fact can be proven.",
+      "A, B, D are verifiable facts.",
+      "C includes the most exciting which is a judgment."
+    ],
+    "hints": [
+      "Look for words showing personal feeling.",
+      "Words like best, most exciting signal opinions."
+    ],
+    "tags": [
+      "comprehension",
+      "fact-vs-opinion",
+      "space"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b1-005",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "who-what-where",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.3,
+    "passage": "Maria and her grandfather visited the natural history museum. They saw dinosaur skeletons, a planetarium show, and a gem collection.",
+    "prompt": "Where did Maria and her grandfather go?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "an art gallery"
+      },
+      {
+        "key": "B",
+        "text": "a natural history museum"
+      },
+      {
+        "key": "C",
+        "text": "a science center"
+      },
+      {
+        "key": "D",
+        "text": "a library"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "No paintings or sculptures.",
+      "C": "Specially natural history museum.",
+      "D": "No dinosaurs in libraries."
+    },
+    "explanation": "The first sentence clearly states they visited a natural history museum.",
+    "explanationSteps": [
+      "Read the first sentence.",
+      "It directly tells you where.",
+      "A natural history museum."
+    ],
+    "hints": [
+      "The answer is in the first sentence.",
+      "Look for the place name."
+    ],
+    "tags": [
+      "comprehension",
+      "who-what-where"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "er-b1-006",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "making-predictions",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "passage": "Leo stayed up late playing video games. The next morning, he could hardly keep his eyes open during math class. His teacher asked him a question, but Leo just stared blankly.",
+    "prompt": "What will most likely happen next?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Leo will answer correctly."
+      },
+      {
+        "key": "B",
+        "text": "Leo cannot answer because he is too tired."
+      },
+      {
+        "key": "C",
+        "text": "Leo will go home right away."
+      },
+      {
+        "key": "D",
+        "text": "Leo will play more video games."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "He can hardly keep his eyes open.",
+      "C": "No indication he will go home.",
+      "D": "He is in class right now."
+    },
+    "explanation": "Leo is very tired and staring blankly, so he probably cannot answer.",
+    "explanationSteps": [
+      "Identify the problem: Leo is tired.",
+      "Notice his action: staring blankly.",
+      "Predict: cannot answer the question."
+    ],
+    "hints": [
+      "How does tiredness affect thinking?",
+      "What does staring blankly mean?"
+    ],
+    "tags": [
+      "inference",
+      "making-predictions",
+      "cause-effect"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b1-007",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "drawing-conclusions",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "passage": "Sofia opened her lunchbox and frowned. She had asked for a turkey sandwich, but inside was a cheese sandwich. She pushed the sandwich aside and ate only her apple slices.",
+    "prompt": "What can you conclude about Sofia?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Sofia does not like cheese sandwiches."
+      },
+      {
+        "key": "B",
+        "text": "Sofia is not hungry."
+      },
+      {
+        "key": "C",
+        "text": "Sofia loves apples more than anything."
+      },
+      {
+        "key": "D",
+        "text": "Sofia forgot her lunch at home."
+      }
+    ],
+    "answerKey": "A",
+    "wrongChoiceReasons": {
+      "B": "She ate her apple slices.",
+      "C": "She just ate what she liked.",
+      "D": "She has her lunchbox."
+    },
+    "explanation": "Sofia frowned at the cheese sandwich and only ate her apple. This shows she does not like cheese sandwiches.",
+    "explanationSteps": [
+      "Observe her reaction: frowned.",
+      "Notice her action: pushed sandwich aside.",
+      "Conclude: she does not like cheese sandwiches."
+    ],
+    "hints": [
+      "Why would someone push food aside?",
+      "What does a frown tell you?"
+    ],
+    "tags": [
+      "inference",
+      "drawing-conclusions",
+      "character-feelings"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b1-008",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "cause-effect",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "passage": "The beaver dam broke during the heavy rainstorm. Water rushed downstream and flooded the meadow. The animals that lived in the meadow had to find higher ground.",
+    "prompt": "What caused the meadow to flood?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Beavers built a new dam."
+      },
+      {
+        "key": "B",
+        "text": "The beaver dam broke during the storm."
+      },
+      {
+        "key": "C",
+        "text": "Animals moved to higher ground."
+      },
+      {
+        "key": "D",
+        "text": "The rain stopped suddenly."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "The dam broke.",
+      "C": "Animals moving was the effect.",
+      "D": "Storm was still happening."
+    },
+    "explanation": "The dam broke during the storm, causing water to rush downstream and flood the meadow.",
+    "explanationSteps": [
+      "What happened first? The dam broke.",
+      "What happened next? Water rushed.",
+      "What happened then? Meadow flooded."
+    ],
+    "hints": [
+      "What made the water rush?",
+      "The dam breaking caused the flood."
+    ],
+    "tags": [
+      "inference",
+      "cause-effect",
+      "nature"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "er-b1-009",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "character-feelings",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "passage": "Ethan practiced his piano piece every day for weeks. On the day of the recital, his hands were shaking as he walked onto the stage. He took a deep breath and began to play.",
+    "prompt": "How was Ethan feeling as he walked onto the stage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "bored and tired"
+      },
+      {
+        "key": "B",
+        "text": "nervous but determined"
+      },
+      {
+        "key": "C",
+        "text": "angry and upset"
+      },
+      {
+        "key": "D",
+        "text": "confident and relaxed"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "He practiced hard.",
+      "C": "No sign of anger.",
+      "D": "Shaking hands show nervousness."
+    },
+    "explanation": "Shaking hands show nervousness. But he took a deep breath and played, showing determination.",
+    "explanationSteps": [
+      "Look for physical clues: shaking hands.",
+      "Shaking often means nervousness.",
+      "But he continued anyway = determination."
+    ],
+    "hints": [
+      "What do shaking hands tell you?",
+      "Notice that he kept going despite fear."
+    ],
+    "tags": [
+      "inference",
+      "character-feelings",
+      "emotions"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b1-010",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "author-purpose",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "passage": "Recycling is important for our planet. When you recycle paper, plastic, and glass, fewer materials end up in landfills. Recycling also saves energy because making new products from recycled materials uses less energy than making them from raw materials.",
+    "prompt": "What is the author's main purpose?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "to entertain with a story"
+      },
+      {
+        "key": "B",
+        "text": "to persuade readers to recycle"
+      },
+      {
+        "key": "C",
+        "text": "to describe how recycling bins work"
+      },
+      {
+        "key": "D",
+        "text": "to compare different types of trash"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "This is informational, not a story.",
+      "C": "Does not describe bins.",
+      "D": "Not comparing types of trash."
+    },
+    "explanation": "The author gives reasons why recycling is important to persuade readers to recycle.",
+    "explanationSteps": [
+      "Topic: recycling.",
+      "Language: is important, saves energy.",
+      "Purpose: to persuade."
+    ],
+    "hints": [
+      "Does the author want you to do something?",
+      "Look for persuasive language."
+    ],
+    "tags": [
+      "inference",
+      "author-purpose",
+      "environment"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b1-011",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "main-idea",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "passage": "Honeybees communicate with each other through dance. When a worker bee finds a good source of nectar, it returns to the hive and performs a waggle dance. The direction and length of the dance tell other bees exactly where to find the food.",
+    "prompt": "What is the passage mainly about?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "How honeybees make honey"
+      },
+      {
+        "key": "B",
+        "text": "How honeybees communicate"
+      },
+      {
+        "key": "C",
+        "text": "Where honeybees live"
+      },
+      {
+        "key": "D",
+        "text": "What honeybees eat"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Passage does not explain honey-making.",
+      "C": "Hive is mentioned but not the focus.",
+      "D": "Nectar is mentioned but not focus."
+    },
+    "explanation": "Every sentence describes how bees communicate through dance.",
+    "explanationSteps": [
+      "First sentence: communicate through dance.",
+      "Next sentences: explain the dance.",
+      "Main idea: bee communication."
+    ],
+    "hints": [
+      "What is the first sentence about?",
+      "Every sentence connects to one idea."
+    ],
+    "tags": [
+      "comprehension",
+      "main-idea",
+      "animals"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "er-b1-012",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "key-details",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.35,
+    "passage": "The Amazon River in South America is the largest river by water volume. It flows through Brazil, Peru, Colombia, and several other countries. The river is home to more than 3,000 species of fish, including the famous piranha.",
+    "prompt": "How many species of fish live in the Amazon River?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "more than 1,000"
+      },
+      {
+        "key": "B",
+        "text": "more than 2,000"
+      },
+      {
+        "key": "C",
+        "text": "more than 3,000"
+      },
+      {
+        "key": "D",
+        "text": "more than 5,000"
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "Passage says more than 3,000.",
+      "B": "Passage says more than 3,000.",
+      "D": "Higher than stated."
+    },
+    "explanation": "The passage states more than 3,000 species of fish.",
+    "explanationSteps": [
+      "Scan for numbers.",
+      "Find 3,000.",
+      "It refers to fish species."
+    ],
+    "hints": [
+      "Look for the number in the last sentence.",
+      "What does that number describe?"
+    ],
+    "tags": [
+      "comprehension",
+      "key-details",
+      "geography"
+    ],
+    "estimatedTimeSec": 30
+  },
+  {
+    "id": "er-b1-013",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "sequencing",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.4,
+    "passage": "To bake bread, start by mixing flour, yeast, water, and salt. Knead the dough for ten minutes until smooth. Let the dough rise for one hour. Then shape it into a loaf and bake at 375 degrees for 30 minutes.",
+    "prompt": "What should you do right after kneading the dough?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Mix the ingredients."
+      },
+      {
+        "key": "B",
+        "text": "Let the dough rise."
+      },
+      {
+        "key": "C",
+        "text": "Shape it into a loaf."
+      },
+      {
+        "key": "D",
+        "text": "Bake the bread."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Mixing comes before kneading.",
+      "C": "Shaping comes after rising.",
+      "D": "Baking is the final step."
+    },
+    "explanation": "The steps in order are: mix, knead, let rise, shape, bake.",
+    "explanationSteps": [
+      "Find knead in the passage.",
+      "The next instruction is let rise.",
+      "That is the answer."
+    ],
+    "hints": [
+      "Read steps in order and find knead.",
+      "What instruction comes after kneading?"
+    ],
+    "tags": [
+      "comprehension",
+      "sequencing",
+      "cooking"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "er-b1-014",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "drawing-conclusions",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "passage": "Every morning, Mrs. Chen waters her plants and talks to them. Her neighbors think this is strange. But Mrs. Chens garden is the most beautiful on the street, with the brightest flowers and the tallest tomato plants.",
+    "prompt": "What can you conclude about Mrs. Chen talking to her plants?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It is the only way to grow plants."
+      },
+      {
+        "key": "B",
+        "text": "Her plants seem to thrive despite what others think."
+      },
+      {
+        "key": "C",
+        "text": "Her neighbors also talk to plants."
+      },
+      {
+        "key": "D",
+        "text": "The plants do not like being talked to."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "There are many ways.",
+      "C": "Neighbors think it is strange.",
+      "D": "Garden is beautiful, so plants are doing well."
+    },
+    "explanation": "Although neighbors think it is strange, Mrs. Chens garden is beautiful. This suggests her plants thrive.",
+    "explanationSteps": [
+      "Notice the contrast: neighbors find it strange, garden is beautiful.",
+      "Result is positive.",
+      "Conclusion: whatever she does works."
+    ],
+    "hints": [
+      "Compare what neighbors think vs the result.",
+      "Is the garden doing well?"
+    ],
+    "tags": [
+      "inference",
+      "drawing-conclusions"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b1-015",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "cause-effect",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "passage": "The village had not received rain for three months. The river was low and the crops were wilting. Farmers worried they would not have enough food for the winter.",
+    "prompt": "What was the main cause of the farmers worry?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The river was too high."
+      },
+      {
+        "key": "B",
+        "text": "There was too much rain."
+      },
+      {
+        "key": "C",
+        "text": "The drought was hurting their crops."
+      },
+      {
+        "key": "D",
+        "text": "Farmers were tired of working."
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "River was low, not high.",
+      "B": "There was no rain.",
+      "D": "Passage does not say that."
+    },
+    "explanation": "The drought caused crops to wilt, making farmers worry about food.",
+    "explanationSteps": [
+      "Problem: no rain for 3 months.",
+      "Effects: low river, wilting crops.",
+      "Worry: not enough food."
+    ],
+    "hints": [
+      "What happened because of no rain?",
+      "Why would farmers worry about food?"
+    ],
+    "tags": [
+      "inference",
+      "cause-effect",
+      "weather"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b1-016",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "making-predictions",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "passage": "Priya has been saving her allowance for months to buy a new bicycle. She has almost enough money. But this weekend, her best friends birthday party is coming up, and Priya wants to buy her a nice gift.",
+    "prompt": "What problem does Priya face?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "She does not have a best friend."
+      },
+      {
+        "key": "B",
+        "text": "She has to choose between a gift and her bike savings."
+      },
+      {
+        "key": "C",
+        "text": "Her bicycle is broken."
+      },
+      {
+        "key": "D",
+        "text": "She forgot about the birthday."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "She has a best friend.",
+      "C": "Passage does not mention a broken bike.",
+      "D": "She knows about the party."
+    },
+    "explanation": "Priya wants both a bike and a gift, but she may need to choose how to spend her money.",
+    "explanationSteps": [
+      "Goal: saving for a bike.",
+      "New situation: friends birthday.",
+      "Conflict: may spend savings on a gift."
+    ],
+    "hints": [
+      "What two things both need money?",
+      "Why might buying a gift cause a problem?"
+    ],
+    "tags": [
+      "inference",
+      "making-predictions",
+      "real-life"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b1-017",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "character-feelings",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "passage": "Aisha looked at the clock. Her friends were supposed to arrive ten minutes ago. She paced back and forth, glancing out the window every few seconds. She picked up her phone to check for messages.",
+    "prompt": "How is Aisha most likely feeling?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "angry and furious"
+      },
+      {
+        "key": "B",
+        "text": "worried and impatient"
+      },
+      {
+        "key": "C",
+        "text": "relaxed and calm"
+      },
+      {
+        "key": "D",
+        "text": "sleepy and tired"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Angry is too strong for the clues.",
+      "C": "Pacing shows she is not calm.",
+      "D": "No indication of tiredness."
+    },
+    "explanation": "Aisha is pacing, checking the clock, and looking out the window. These actions show worry and impatience.",
+    "explanationSteps": [
+      "Notice Aishas actions: pacing, checking clock.",
+      "These are signs of waiting and wondering.",
+      "She is worried or impatient."
+    ],
+    "hints": [
+      "How do you act when waiting for someone late?",
+      "What do pacing and clock-checking tell you?"
+    ],
+    "tags": [
+      "inference",
+      "character-feelings",
+      "emotions"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b1-018",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "cause-effect",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.5,
+    "passage": "The school playground was always muddy after it rained. The principal decided to install a drainage system. Now, after a rainstorm, the playground is dry and ready for use within an hour.",
+    "prompt": "What was the effect of installing the drainage system?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The playground stayed muddy longer."
+      },
+      {
+        "key": "B",
+        "text": "The playground became dry quickly after rain."
+      },
+      {
+        "key": "C",
+        "text": "It rained more often."
+      },
+      {
+        "key": "D",
+        "text": "The principal closed the playground."
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "Drainage made it better.",
+      "C": "Drainage cannot cause rain.",
+      "D": "Playground is ready for use."
+    },
+    "explanation": "Before drainage: muddy. After drainage: dry within an hour.",
+    "explanationSteps": [
+      "Before: muddy.",
+      "After: dry quickly.",
+      "Effect: playground dries fast."
+    ],
+    "hints": [
+      "What changed after drainage was installed?",
+      "Compare before and after."
+    ],
+    "tags": [
+      "inference",
+      "cause-effect",
+      "problem-solving"
+    ],
+    "estimatedTimeSec": 35
+  },
+  {
+    "id": "er-b1-019",
+    "moduleId": "english.reading",
+    "skill": "literal-comprehension",
+    "subSkill": "fact-vs-opinion",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.45,
+    "passage": "Mount Everest is the tallest mountain on Earth. It is 8,849 meters high. Climbing Mount Everest is an incredible achievement. Many climbers consider it the most dangerous mountain in the world.",
+    "prompt": "Which sentence states an opinion?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Mount Everest is the tallest."
+      },
+      {
+        "key": "B",
+        "text": "It is 8,849 meters high."
+      },
+      {
+        "key": "C",
+        "text": "Climbing Mount Everest is an incredible achievement."
+      },
+      {
+        "key": "D",
+        "text": "Many climbers consider it the most dangerous."
+      }
+    ],
+    "answerKey": "C",
+    "wrongChoiceReasons": {
+      "A": "This is a fact.",
+      "B": "This is a measurement fact.",
+      "D": "This attributes opinion to others."
+    },
+    "explanation": "Incredible achievement is a judgment. What one finds incredible, another might not.",
+    "explanationSteps": [
+      "Look for judgment words: incredible.",
+      "Facts are measurable and verifiable.",
+      "Incredible is subjective = opinion."
+    ],
+    "hints": [
+      "Which sentence contains a feeling or judgment?",
+      "Words like incredible signal opinions."
+    ],
+    "tags": [
+      "comprehension",
+      "fact-vs-opinion",
+      "geography"
+    ],
+    "estimatedTimeSec": 40
+  },
+  {
+    "id": "er-b1-020",
+    "moduleId": "english.reading",
+    "skill": "inferential-comprehension",
+    "subSkill": "author-purpose",
+    "level": "B1",
+    "questionType": "multiple-choice",
+    "difficulty": 0.55,
+    "passage": "First, measure two cups of flour into a large bowl. Add one teaspoon of baking powder and a pinch of salt. In a separate bowl, whisk together one egg, one cup of milk, and two tablespoons of melted butter. Pour the wet ingredients into the dry and stir until combined.",
+    "prompt": "What is the authors purpose?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "to entertain with a funny story"
+      },
+      {
+        "key": "B",
+        "text": "to instruct readers on how to make something"
+      },
+      {
+        "key": "C",
+        "text": "to persuade readers to eat healthy"
+      },
+      {
+        "key": "D",
+        "text": "to describe the history of pancakes"
+      }
+    ],
+    "answerKey": "B",
+    "wrongChoiceReasons": {
+      "A": "This is not a story.",
+      "C": "Nothing about health.",
+      "D": "Does not discuss history."
+    },
+    "explanation": "The passage gives step-by-step instructions with measurements. This format teaches how to make something.",
+    "explanationSteps": [
+      "Notice format: numbered steps.",
+      "Language: measure, add, whisk.",
+      "Purpose: to instruct."
+    ],
+    "hints": [
+      "Does this tell you how to do something?",
+      "What kind of writing gives directions?"
+    ],
+    "tags": [
+      "inference",
+      "author-purpose",
+      "procedural-text"
+    ],
+    "estimatedTimeSec": 35
+  }
+]

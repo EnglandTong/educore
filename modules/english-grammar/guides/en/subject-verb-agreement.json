@@ -1,0 +1,35 @@
+{
+  "skillId": "subject-verb-agreement",
+  "skillName": "Subject-Verb Agreement",
+  "title": "Making Subjects and Verbs Agree: A Parent's Guide",
+  "whatIsIt": "Subject-verb agreement means that the verb in a sentence must match the subject in number. If the subject is singular (one person or thing), the verb usually gets an -s. If the subject is plural (more than one), the verb stays in its base form. This rule seems small, but it's one of the most important patterns in English — it appears in almost every sentence!",
+  "howToHelp": [
+    "Play the 'One or Many?' game — point to objects around the house and say both versions: 'The cat sleeps' versus 'The cats sleep'. Make it silly and fun!",
+    "Use hand signals: hold up one finger for singular subjects (add -s!) and multiple fingers for plural subjects (no -s!). Physical movement helps memory stick.",
+    "When reading together, pause at verbs and ask: 'How many people are doing this action?' This builds the habit of checking agreement automatically.",
+    "Create agreement flashcards with pictures — one dog / two dogs, one child / two children — and practice the matching verb forms.",
+    "Sing songs that emphasize the -s sound: 'She walks, he walks, it walks, but they walk, we walk, you walk!' Rhythm makes grammar memorable.",
+    "Point out that 'you' is special — it works with plural verbs even when talking to one person. English has a few delightful exceptions!"
+  ],
+  "commonMistakes": [
+    "'She go to school' instead of 'She goes' — forgetting the -s for he/she/it is the most common agreement error in early learning.",
+    "'The dogs barks' instead of 'The dogs bark' — adding -s to plural verbs is a natural overcorrection.",
+    "'Everyone are happy' instead of 'Everyone is happy' — words like everyone, someone, and anybody feel plural but are grammatically singular.",
+    "'The group of students are loud' instead of 'The group ... is loud' — when a phrase comes between the subject and verb, children sometimes match the verb to the nearest noun instead of the real subject."
+  ],
+  "signsOfProgress": [
+    "Automatically adds -s for he/she/it in simple present sentences without thinking about it.",
+    "Notices agreement errors in other people's speech or in written text — this shows the rule is becoming automatic.",
+    "Can explain WHY a verb needs -s: 'Because it's just one person, Mom!' — verbalizing rules shows deep understanding.",
+    "Handles tricky subjects like 'everyone' and 'nobody' with increasing confidence.",
+    "Self-corrects agreement mistakes in real-time conversation — the ultimate sign of mastery."
+  ],
+  "ifStruggling": [
+    "Go back to the basics — practice only with pronouns (I, you, he, she, it, we, they) until those feel automatic.",
+    "Use color-coding: highlight singular subjects in one color and plural subjects in another. Visual patterns build intuition.",
+    "Don't worry about collective nouns or intervening phrases yet — those come after the core pattern is solid.",
+    "Read aloud together and exaggerate the -s sound: 'She gooooes!' — silliness reduces anxiety and increases retention.",
+    "Remember that this rule takes months (sometimes years) to fully internalize. Native English-speaking children also struggle with it.",
+    "Praise effort over perfection: 'I love how you thought about whether it was one or many!'"
+  ]
+}

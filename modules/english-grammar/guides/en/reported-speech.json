@@ -1,0 +1,35 @@
+{
+  "skillId": "reported-speech",
+  "skillName": "Reported Speech",
+  "title": "Reported Speech: Telling Stories About What People Said",
+  "whatIsIt": "Reported speech (also called indirect speech) is how we repeat what someone said without using their exact words. Instead of quoting directly — 'She said, \"I am tired\"' — we report it: 'She said that she was tired.' This skill involves shifting pronouns, tenses, and time expressions backward. It's one of the most practical grammar skills because we use reported speech constantly in everyday conversation — every time we tell someone what another person said!",
+  "howToHelp": [
+    "Play 'Telephone Reporter' — whisper a sentence to your child, then ask them to report what you said to another family member. 'Mom said that she wanted pizza for dinner.' This makes reported speech feel like a real communication game.",
+    "Use comic strips or speech bubbles: cover the bubbles and ask your child to report what the characters said. Visual context makes the tense shifts concrete.",
+    "Practice the 'one step back' rule gently: present becomes past, past becomes past perfect. Don't introduce all shifts at once — start with simple present → simple past only.",
+    "Create a family news report: 'Dad said he was tired. My sister said she had finished her homework.' Turning family conversations into reported speech builds natural fluency.",
+    "Point out that 'said' is the most common reporting verb, but others add flavor: 'complained', 'announced', 'whispered', 'admitted.' Rich reporting verbs make stories more vivid.",
+    "Use role-play: one person is a celebrity giving an interview, the other is a reporter sharing what they said. 'The singer announced that she would go on tour.'"
+  ],
+  "commonMistakes": [
+    "Forgetting to shift the tense: 'She said she is tired' instead of 'She said she WAS tired.' The verb usually moves one step back in time.",
+    "Keeping first-person pronouns: 'He said that I was late' instead of 'He said that HE was late.' Pronouns shift to match the reporter's perspective.",
+    "Using quotation marks in reported speech: 'She said that she was tired.' — no quotation marks needed! That's what makes it 'reported' rather than 'direct.'",
+    "Overcomplicating with 'that': while 'that' is common, it's often optional in casual speech: 'She said she was tired' is perfectly fine without 'that.'"
+  ],
+  "signsOfProgress": [
+    "Can convert simple direct speech to reported speech with correct pronoun and tense shifts.",
+    "Understands that time words shift too: 'today' becomes 'that day', 'now' becomes 'then', 'tomorrow' becomes 'the next day.'",
+    "Uses a variety of reporting verbs naturally: said, told, explained, asked, suggested.",
+    "Handles questions in reported speech: 'She asked if I was coming.' This is an advanced skill!",
+    "Recognizes reported speech in news articles and can convert it back to direct speech."
+  ],
+  "ifStruggling": [
+    "Start with ONLY pronoun changes: 'I am happy' → 'She said SHE was happy.' Leave tense shifts for later.",
+    "Use a chart showing the 'one step back' pattern: present → past, past → past perfect, will → would. Visual reference reduces cognitive load.",
+    "Practice with timeless statements that don't need tense shifts: 'She said that the Earth is round.' Universal truths stay in present tense!",
+    "Accept minor errors in word order: 'She asked me where was the station' is close to correct. Gently model 'She asked me where the station WAS.'",
+    "Focus on meaning over perfection: the goal is to communicate what someone said, not to perform a mechanical transformation.",
+    "Praise storytelling: 'I love how you told me what your friend said — that's exactly how reported speech works in real life!'"
+  ]
+}

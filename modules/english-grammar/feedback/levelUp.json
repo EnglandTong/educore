@@ -1,0 +1,62 @@
+[
+  {
+    "id": "levelup-01",
+    "text": "Look how far you've come! You've grown from a seedling into something stronger!",
+    "context": "level-up",
+    "minLevel": "growing"
+  },
+  {
+    "id": "levelup-02",
+    "text": "Amazing progress! You're developing real confidence in your grammar skills!",
+    "context": "level-up",
+    "minLevel": "developing"
+  },
+  {
+    "id": "levelup-03",
+    "text": "You've reached proficient level — your hard work is clearly paying off!",
+    "context": "level-up",
+    "minLevel": "proficient"
+  },
+  {
+    "id": "levelup-04",
+    "text": "Advanced level! You're handling grammar with real sophistication now!",
+    "context": "level-up",
+    "minLevel": "advanced"
+  },
+  {
+    "id": "levelup-05",
+    "text": "Mastered! This is a huge milestone. You should be incredibly proud!",
+    "context": "level-up",
+    "minLevel": "mastered"
+  },
+  {
+    "id": "levelup-06",
+    "text": "Level up! Every step forward is proof of your dedication and curiosity!",
+    "context": "level-up",
+    "minLevel": "growing"
+  },
+  {
+    "id": "levelup-07",
+    "text": "You're blooming! This level shows how much you've absorbed and practiced!",
+    "context": "level-up",
+    "minLevel": "developing"
+  },
+  {
+    "id": "levelup-08",
+    "text": "Proficiency unlocked! You can now handle most grammar situations with ease!",
+    "context": "level-up",
+    "minLevel": "proficient"
+  },
+  {
+    "id": "levelup-09",
+    "text": "Advanced mastery! Your grammar instincts are becoming almost automatic!",
+    "context": "level-up",
+    "minLevel": "advanced"
+  },
+  {
+    "id": "levelup-10",
+    "text": "Complete mastery achieved! You've turned grammar rules into natural intuition!",
+    "context": "level-up",
+    "minLevel": "mastered"
+  }
+]
