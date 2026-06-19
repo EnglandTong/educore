@@ -24,13 +24,34 @@ function getIsOnline(): boolean {
   return typeof navigator !== 'undefined' ? navigator.onLine : true
 }
 
+let cachedStatus: NetworkStatus | null = null
+
 function getSnapshot(): NetworkStatus {
   const effectiveType = getEffectiveType()
-  return {
+  const next = {
     isOnline: getIsOnline(),
     effectiveType,
     isLowBandwidth: !getIsOnline() || effectiveType === 'slow-2g' || effectiveType === '2g',
   }
+
+  if (
+    cachedStatus &&
+    cachedStatus.isOnline === next.isOnline &&
+    cachedStatus.effectiveType === next.effectiveType &&
+    cachedStatus.isLowBandwidth === next.isLowBandwidth
+  ) {
+    return cachedStatus
+  }
+
+  cachedStatus = next
+  return cachedStatus
+}
+
+function getServerSnapshot(): NetworkStatus {
+  if (!cachedStatus) {
+    cachedStatus = { isOnline: true, effectiveType: 'unknown', isLowBandwidth: false }
+  }
+  return cachedStatus
 }
 
 function subscribeToNetwork(callback: () => void): () => void {
@@ -49,15 +70,6 @@ function subscribeToNetwork(callback: () => void): () => void {
       conn.removeEventListener('change', callback)
     }
   }
-}
-
-let cachedStatus: NetworkStatus | null = null
-
-function getServerSnapshot(): NetworkStatus {
-  if (!cachedStatus) {
-    cachedStatus = { isOnline: true, effectiveType: 'unknown', isLowBandwidth: false }
-  }
-  return cachedStatus
 }
 
 export function useNetworkStatus(): NetworkStatus {

@@ -1,9 +1,14 @@
 import { test, expect } from '@playwright/test'
+import { installE2eApiMocks } from './e2e-mocks'
 
 const PARENT_EMAIL = `test-parent-${Date.now()}@example.com`
 const PARENT_PASSWORD = 'TestPass123!'
 
 test.describe('Parent Journey', () => {
+  test.beforeEach(async ({ page }) => {
+    await installE2eApiMocks(page)
+  })
+
   test('register → link child → view progress', async ({ page }) => {
     // Register as parent
     await page.goto('/auth/register')
@@ -23,7 +28,8 @@ test.describe('Parent Journey', () => {
     // View announcements
     await page.goto('/parent/announcements')
     await page.waitForLoadState('networkidle')
-    await expect(page.locator('h1')).toContainText(/bulletin|announcement/i)
+    await expect(page).toHaveURL(/\/parent\/announcements/)
+    await expect(page.getByRole('heading', { level: 1 })).toContainText(/school news|bulletin|announcement/i)
 
     // View conversations (was /parent/messages earlier)
     await page.goto('/parent/conversations')

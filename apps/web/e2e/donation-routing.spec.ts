@@ -1,6 +1,11 @@
 import { test, expect } from '@playwright/test'
+import { installE2eApiMocks } from './e2e-mocks'
 
 test.describe('Donation Page', () => {
+  test.beforeEach(async ({ page }) => {
+    await installE2eApiMocks(page)
+  })
+
   test('public donation page renders and form works', async ({ page }) => {
     await page.goto('/donation')
     await page.waitForLoadState('networkidle')
@@ -33,6 +38,10 @@ test.describe('Donation Page', () => {
 })
 
 test.describe('Page Routing', () => {
+  test.beforeEach(async ({ page }) => {
+    await installE2eApiMocks(page)
+  })
+
   test('home page redirects to login for unauthenticated users', async ({ page }) => {
     await page.goto('/')
     await page.waitForURL(/\/auth\/login/, { timeout: 10000 })

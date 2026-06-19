@@ -21,6 +21,10 @@ export default defineConfig({
       },
     },
   ],
-  // webServer config disabled - start dev servers manually:
-  //   pnpm dev (from root)
+  webServer: {
+    command: 'corepack pnpm --filter @educore/web run dev',
+    url: 'http://127.0.0.1:5173',
+    timeout: 120000,
+    reuseExistingServer: false
+  }
 })

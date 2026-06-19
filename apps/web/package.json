@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "pnpm exec vite --port 5173 --host",
-    "build": "tsc --noEmit && pnpm exec vite build",
-    "preview": "pnpm exec vite preview --port 5173",
+    "dev": "corepack pnpm exec vite --port 5173 --host",
+    "build": "tsc --noEmit && vite build",
+    "preview": "corepack pnpm exec vite preview --port 5173",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:e2e": "playwright test",
