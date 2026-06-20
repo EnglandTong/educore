@@ -177,8 +177,45 @@ function mockForPath(pathname: string, method: string, body: Record<string, unkn
     pathname === '/api/v1/learning/diagnostic/report' ||
     pathname === '/api/v1/learning/training/end'
   ) {
+    if (pathname === '/api/v1/learning/training/next') {
+      return okEnvelope({
+        questionId: 'train-q-1',
+        answered: false,
+        question: {
+          id: 'train-q-1',
+          moduleId: 'english.grammar',
+          skill: 'Grammar',
+          subSkill: 'Present simple',
+          level: 'A1',
+          questionType: 'multiple-choice',
+          difficulty: 1,
+          prompt: 'Choose the sentence that fits: She ____ books every day.',
+          choices: [
+            { key: 'A', text: 'read' },
+            { key: 'B', text: 'reads' },
+            { key: 'C', text: 'reading' },
+          ],
+          answerKey: 'B',
+          explanation: 'Use reads with she in the present simple.',
+          hints: ['Look at the subject first.'],
+        },
+      })
+    }
     if (pathname.endsWith('/next')) {
       return okEnvelope({ message: 'Session has no questions in mock mode.' })
+    }
+    if (pathname === '/api/v1/learning/training/end') {
+      return okEnvelope({
+        sessionId: 'train-session-1',
+        accuracy: 0.5,
+        totalQuestions: 2,
+        correctCount: 1,
+        timeSpent: 45,
+        skillBreakdown: [{ skill: 'Grammar', correct: 1, total: 2 }],
+        strengths: ['Showing up steadily'],
+        growthAreas: ['Present simple'],
+        encouragement: 'You practiced with patience today.',
+      })
     }
     return okEnvelope({
       sessionId: `${pathname.includes('diagnostic') ? 'diag' : 'train'}-session-1`,
@@ -190,6 +227,15 @@ function mockForPath(pathname: string, method: string, body: Record<string, unkn
       correctCount: 0,
       totalQuestions: 0,
       growthAreas: [],
+    })
+  }
+
+  if (pathname === '/api/v1/learning/training/answer' && method === 'POST') {
+    return okEnvelope({
+      isCorrect: body.answer === 'B',
+      feedback: body.answer === 'B' ? 'Nice noticing - that one fits.' : 'Good try - this is a gentle review moment.',
+      explanation: 'Use reads with she in the present simple.',
+      nextReviewAt: new Date(Date.now() + 86400000).toISOString(),
     })
   }
 
@@ -272,7 +318,39 @@ function mockForPath(pathname: string, method: string, body: Record<string, unkn
   }
 
   if (pathname === '/api/v1/wrong-answers' || pathname === '/api/v1/wrong-answers/review-due') {
-    return okEnvelope({ wrongAnswers: [] })
+    return okEnvelope({
+      wrongAnswers: [
+        {
+          id: 'wrong-1',
+          studentId: 'student-1',
+          questionId: 'train-q-1',
+          question: {
+            id: 'train-q-1',
+            moduleId: 'english.grammar',
+            skill: 'Grammar',
+            subSkill: 'Present simple',
+            level: 'A1',
+            questionType: 'multiple-choice',
+            difficulty: 1,
+            prompt: 'Choose the sentence that fits: She ____ books every day.',
+            choices: [
+              { key: 'A', text: 'read' },
+              { key: 'B', text: 'reads' },
+              { key: 'C', text: 'reading' },
+            ],
+            answerKey: 'B',
+            explanation: 'Use reads with she in the present simple.',
+          },
+          studentAnswer: 'A',
+          correctAnswer: 'B',
+          explanation: 'Use reads with she in the present simple.',
+          createdAt: new Date().toISOString(),
+          reviewStatus: 'pending',
+          nextReviewAt: new Date().toISOString(),
+          reviewCount: 0,
+        },
+      ],
+    })
   }
 
   if (pathname === '/api/v1/ai/chat') {

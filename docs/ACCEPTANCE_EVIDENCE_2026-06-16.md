@@ -144,3 +144,71 @@ The strict wrapper reached the final Playwright phase but the Codex shell tool t
   - Build (web bundle): `PASS`
   - E2E (web journey smoke): `PASS`
 - UX rubric reviewed from `docs/RUBRIC.md`: `20/25`, no category below `3/5`.
+
+## M14 P14-01 Evidence Asset Hardening - 2026-06-20
+
+- Work order: `P14-01`
+- Completed: `2026-06-20T09:01:46+08:00`
+- Developer status: `Developer Complete`
+- Scope: strict acceptance script and evidence asset hardening for M14.
+- Command: `powershell -ExecutionPolicy Bypass -File .\agent-loop-check.ps1 -SkipInstall -Strict`
+- Result: exit `0`, output included `Acceptance check passed`.
+
+### Strict E2E Capture Policy
+
+- The strict acceptance script writes transient e2e capture logs under `.tmp/`:
+  - `.tmp/acceptance-e2e.stdout.log`
+  - `.tmp/acceptance-e2e.stderr.log`
+- These files are disposable command-capture artifacts, not durable acceptance evidence.
+- Durable evidence remains in:
+  - `docs/ACCEPTANCE_EVIDENCE_2026-06-16.md`
+  - `docs/LOOP_STATE_Workbuddy.md`
+  - `docs/LOOP_LOG_Workbuddy.jsonl`
+  - `docs/STATUS.md`
+  - `apps/web/e2e-report/index.html`
+- Timeout-based e2e PASS remains valid only when captured stdout contains the required success pattern and stdout/stderr contain no fail/error/timeout markers; stderr must be empty for timeout-based completion.
+
+### P14-01 Verification
+
+- Dependencies install: `SKIP`
+- Typecheck: `PASS`
+- Unit tests: `PASS`
+- Lint: `PASS`
+- Build (non-web packages): `PASS`
+- Build (web typecheck): `PASS`
+- Build (web bundle): `PASS`
+- E2E (web journey smoke): `PASS`
+- Timeout wrapper note: e2e PASS was verified by captured successful output before wrapper timeout after 120s.
+- Captured success marker: `ok 11 [chromium]`.
+
+## M14 P14-02 Student Training Loop E2E Verification - 2026-06-20
+
+- Work order: `P14-02`
+- Completed: `2026-06-20T09:09:31+08:00`
+- Developer status: `Developer Complete`
+- Scope: student training answer feedback, session summary, and wrong-answer review e2e depth.
+
+### Coverage Added
+
+- `apps/web/e2e/e2e-mocks.ts` now returns:
+  - one training multiple-choice question;
+  - training answer feedback;
+  - training session summary;
+  - one wrong-answer review record.
+- `apps/web/e2e/student-journey.spec.ts` now asserts:
+  - training answer selection and submission;
+  - visible answer feedback/explanation;
+  - session summary end-state;
+  - wrong-answer evidence and revisit action.
+
+### P14-02 Verification
+
+- Command: `corepack pnpm --filter @educore/web run test:e2e --reporter=list`
+- Result: `PASS`, 11/11 Playwright tests passed.
+- Covered tests:
+  - `Student Journey - Training answer feedback and session summary flow`
+  - `Student Journey - Review notes show wrong-answer evidence and revisit action`
+- Command: `powershell -ExecutionPolicy Bypass -File .\agent-loop-check.ps1 -SkipInstall -Strict`
+- Result: exit `0`, output included `Acceptance check passed`.
+- Strict completed: `2026-06-20T09:09:31+08:00`
+- Product source code changed: `No`

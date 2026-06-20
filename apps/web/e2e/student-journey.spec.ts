@@ -83,7 +83,7 @@ test.describe('Student Journey', () => {
 
   })
 
-  test('Training route is reachable from dashboard', async ({ page }) => {
+  test('Training answer feedback and session summary flow', async ({ page }) => {
     const pageErrors: string[] = []
     page.on('pageerror', (error) => pageErrors.push(error.message))
     await login(page)
@@ -102,13 +102,27 @@ test.describe('Student Journey', () => {
         ].join('\n'),
       )
     }
+
+    await page.getByRole('button', { name: /start my practice adventure/i }).click()
+    await expect(page.getByRole('heading', { name: /choose the sentence/i })).toBeVisible()
+
+    await page.getByRole('radio', { name: /B\.\s*reads/i }).click()
+    await page.getByRole('button', { name: /share my answer/i }).click()
+    await expect(page.locator('body')).toContainText(/Nice noticing|Use reads with she/i)
+
+    await page.getByRole('button', { name: /end on a proud note/i }).click()
+    await expect(page.getByRole('heading', { name: /What we practiced today/i })).toBeVisible()
+    await expect(page.locator('body')).toContainText(/You practiced with patience today|accuracy/i)
   })
 
-  test('Review notes route is reachable from dashboard', async ({ page }) => {
+  test('Review notes show wrong-answer evidence and revisit action', async ({ page }) => {
     await login(page)
     await openStudentPath(page, '/student/wrong-answers')
     await expect(page.getByRole('heading', { level: 1 })).toContainText(/wrong answers|review/i)
     await expect(page.locator('body')).toContainText(/review|revisit/i)
+    await expect(page.locator('body')).toContainText(/She ____ books every day|Your answer|Reference path/i)
+    await page.getByRole('button', { name: /I revisited this/i }).click()
+    await expect(page.locator('body')).toContainText(/Noted with care|every revisit is courage/i)
   })
 
   test('AI Tutor route smoke', async ({ page }) => {
