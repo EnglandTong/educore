@@ -24,6 +24,7 @@ const parentLinks = [
 const teacherLinks = [
   { to: '/teacher/dashboard', label: 'Home', icon: Home },
   { to: '/teacher/class', label: 'Class insights', icon: LineChart },
+  { to: '/teacher/assignments', label: 'Assignments', icon: BookMarked },
   { to: '/teacher/announcements', label: 'Bulletin', icon: Megaphone },
   { to: '/teacher/conversations', label: 'Conversations', icon: MessageCircle },
   { to: '/teacher/learning-paths', label: 'Learning paths', icon: GitBranch },

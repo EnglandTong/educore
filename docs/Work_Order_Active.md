@@ -1,22 +1,30 @@
-Current active program:
-docs/M16_PROGRAM_2026-06-20.md
+# Work_Order_Active
 
-Dispatch:
-docs/DISPATCH_M16_PROGRAM_TO_DEVELOPER.md
+Status: M29 Program Active
+Last updated: 2026-07-01T17:00:00+08:00
 
-Ordered work orders:
-1. docs/WORK_ORDER_P16-01.md
-2. docs/WORK_ORDER_P16-02.md
-3. docs/WORK_ORDER_P16-03.md
-4. docs/WORK_ORDER_P16-04.md
+## Active Work Order
 
-Role:
-Developer
+- Program: `M29 - Teacher Assignment Overview E2E Smoke Coverage`
+- Work Order: `P29-01`
+- File: `Docs/WORK_ORDER_P29-01.md`
+- Complexity: `Lite`
+- Status: `Pending`
 
-Complexity:
-Program: Standard sequence with Lite closeout
+## Program Queue
 
-Status:
-Pending Developer
+| Order | ID | Complexity | Status |
+|---|---|---|---|
+| 1 | P29-01 | Lite | Active |
+| 2 | P29-02 | Standard | Queued |
+| 3 | P29-03 | Standard | Queued |
+| 4 | P29-04 | Lite | Queued |
 
-Developer is executing listed work orders in order. Final handoff remains `Developer Complete` or `Ready for Controller/QA Review`.
+## Latest Accepted Program
+
+- Program: `M28 - Teacher Assignment Build Verification and UX Hardening`
+- QA acceptance: `Docs/QA_M28_ACCEPTANCE_2026-07-01.md`
+
+## Dispatch
+
+- `Docs/DISPATCH_M29_PROGRAM_TO_DEVELOPER.md`

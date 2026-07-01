@@ -1,12 +1,26 @@
-import type { ApiSuccess } from '@educore/types'
+import type { ApiSuccess, MasteryLevel } from '@educore/types'
 
 import { api } from './client'
 
-export async function fetchClassOverview(): Promise<unknown | null> {
-  const res = await api.get<ApiSuccess<unknown>>('/teacher/class/overview')
+export interface WeakAreaItem {
+  skillId: string
+  skillName: string
+  averageScore: number
+  level: MasteryLevel
+}
+
+export interface ClassOverview {
+  teacherId: string
+  studentCount: number
+  averageScore: number
+  gradeGroups: Record<string, number>
+  topWeakAreas: WeakAreaItem[]
+}
+
+export async function fetchClassOverview(): Promise<ClassOverview | null> {
+  const res = await api.get<ApiSuccess<{ overview: ClassOverview }>>('/teacher/class/overview')
   if (!res.data.success) return null
-  const data = res.data.data as { overview?: unknown }
-  return data.overview ?? null
+  return res.data.data.overview ?? null
 }
 
 export async function fetchClassWeakAreas(): Promise<unknown[]> {

@@ -1,44 +1,33 @@
 # PENDING
 
-Status: Continue
-Last updated: 2026-06-20T10:52:00+08:00
+Status: M29 Dispatched - Developer Executing Program
+Last updated: 2026-07-01T17:00:00+08:00
 
 ## Active Program Pending Work
 
-- `P16-01` - Evidence continuity tracker.
-- `P16-02` - QA runbook for release evidence checks.
-- `P16-03` - Evidence link integrity audit.
-- `P16-04` - Program handoff consolidation.
+- Program: `M29 - Teacher Assignment Overview E2E Smoke Coverage`
+- Dispatch: `Docs/DISPATCH_M29_PROGRAM_TO_DEVELOPER.md`
+- Current work order: `P29-01`
+- Expected final state: `Ready for Controller/QA Review`
 
-## Prior Completed Program
+| Order | ID | Complexity | Status |
+|---|---|---|---|
+| 1 | P29-01 | Lite | Pending |
+| 2 | P29-02 | Standard | Not started |
+| 3 | P29-03 | Standard | Not started |
+| 4 | P29-04 | Lite | Not started |
 
-- `P15-01` - Developer Complete at `2026-06-20T10:12:00+08:00`.
-- `P15-02` - Developer Complete at `2026-06-20T10:14:00+08:00`.
-- `P15-03` - Developer Complete at `2026-06-20T10:25:00+08:00`.
-- `P15-04` - Developer Complete at `2026-06-20T10:28:00+08:00`.
-- `P14-01` - Developer Complete at `2026-06-20T09:01:46+08:00`.
-- `P14-02` - Developer Complete at `2026-06-20T09:09:31+08:00`.
-- `P14-03` - Developer Complete at `2026-06-20T09:14:51+08:00`.
-- `P14-04` - Developer Complete at `2026-06-20T09:16:00+08:00`.
+## Recently Accepted
 
-## Program Dispatch
-
-- `docs/M16_PROGRAM_2026-06-20.md`
-- `docs/DISPATCH_M16_PROGRAM_TO_DEVELOPER.md`
+- `M28 - Teacher Assignment Build Verification and UX Hardening`
+- QA acceptance: `Docs/QA_M28_ACCEPTANCE_2026-07-01.md`
 
 ## Blocked
 
 None.
 
-## QA Decision
+## Not Authorized
 
-- M15 accepted at `2026-06-20T10:40:00+08:00`.
-- Acceptance record: `docs/QA_M15_ACCEPTANCE_2026-06-20.md`
-- M14 accepted at `2026-06-20T09:55:47+08:00`.
-- Acceptance record: `docs/QA_M14_ACCEPTANCE_2026-06-20.md`
-
-## Current Program Handoff
-
-- M15 Developer execution completed at `2026-06-20T10:28:00+08:00`.
-- Handoff: `docs/HANDOFF_M15_PROGRAM_DEVELOPER.md`
-- Next action: M16 execution (Developer complete all P16 and return to Controller/QA).
+- Self-acceptance of M29 by Developer.
+- Backend/API changes within M29.
+- Product page changes in `apps/web/src/` unless blocked and escalated.

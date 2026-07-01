@@ -18,6 +18,7 @@ export const routes = {
   parentAnnouncements: '/parent/announcements',
   teacherDashboard: '/teacher/dashboard',
   teacherClass: '/teacher/class',
+  teacherAssignmentOverview: '/teacher/assignments',
   teacherAnnouncements: '/teacher/announcements',
   teacherConversations: '/teacher/conversations',
   teacherLearningPaths: '/teacher/learning-paths',

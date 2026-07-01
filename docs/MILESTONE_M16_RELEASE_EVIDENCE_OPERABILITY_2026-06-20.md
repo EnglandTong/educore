@@ -1,21 +1,21 @@
 # Milestone M16 - Release Evidence Operability
 
-Status: Program Created
+Status: Accepted
 Owner: MRT-Controller-QA
 Created: 2026-06-20T10:52:00+08:00
 
 ## Controller/QA Decision
 
-`M15 - Release Candidate Evidence Pack` is Accepted.
+`M16 - Release Evidence Operability` is Accepted.
 
 Evidence:
 
-- `docs/QA_M15_ACCEPTANCE_2026-06-20.md`
-- `docs/HANDOFF_M15_PROGRAM_DEVELOPER.md`
+- `docs/QA_M16_ACCEPTANCE_2026-06-20.md`
+- `docs/HANDOFF_M16_PROGRAM_DEVELOPER.md`
 - `docs/LOOP_RUNS.jsonl`
 - `docs/STATUS.md`
 
-M16 starts the next bounded program inside the same documented boundary: improve release evidence operability and handoff readiness without changing product behavior.
+M16 completed inside the same documented boundary: improve release evidence operability and handoff readiness without changing product behavior.
 
 ## Milestone Goal
 
@@ -52,9 +52,14 @@ M16 is complete when all P16 work orders are `Developer Complete`, and all of th
 - Evidence links between `STATUS`, `NEXT_ACTIONS`, `PENDING`, `COMPLETED`, and loop logs are present.
 - No STOP RULES violation or target boundary violation occurred.
 
+## Controller/QA Result
+
+- Signed: `2026-06-20T23:57:01.4936738+08:00`
+- Decision: `Accepted`
+- QA record: `docs/QA_M16_ACCEPTANCE_2026-06-20.md`
+
 ## Risks / Blocking
 
 - If a STOP RULE is triggered.
 - If required evidence requires production credentials, external services, or production data.
 - If a work order discovers a required non-docs code or config fix outside `D:\Development\EduCore`.
-

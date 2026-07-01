@@ -33,3 +33,4 @@ export const LazyTeacherLearningPathsPage = lazy(() =>
 export const LazyTeacherLearningPathEditorPage = lazy(() =>
   import('@/pages/teacher/LearningPathEditorPage').then((m) => ({ default: m.LearningPathEditorPage })),
 )
+export const LazyAssignmentOverviewPage = lazy(() => import('@/pages/teacher/AssignmentOverviewPage'))

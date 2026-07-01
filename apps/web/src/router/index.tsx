@@ -31,6 +31,7 @@ import {
   LazyParentChildProgressPage,
   LazyParentDashboardPage,
   LazyParentSubjectGuidePage,
+  LazyAssignmentOverviewPage,
   LazyTeacherClassPage,
   LazyTeacherDashboardPage,
   LazyTeacherLearningPathEditorPage,
@@ -161,6 +162,14 @@ export function AppRouter() {
               element={
                 <Suspense fallback={<RouteFallback />}>
                   <LazyTeacherClassPage />
+                </Suspense>
+              }
+            />
+            <Route
+              path="/teacher/assignments"
+              element={
+                <Suspense fallback={<RouteFallback />}>
+                  <LazyAssignmentOverviewPage />
                 </Suspense>
               }
             />

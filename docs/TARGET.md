@@ -1,35 +1,43 @@
-# TARGET - EduCore
+﻿# TARGET - EduCore
 
-Status: Active
+Status: M29 Active Developer Assignment
 Owner: MRT-Controller-QA
-Last updated: 2026-06-20
+Last updated: 2026-07-01T17:00:00+08:00
 
 ## Current Milestone
 
-M15 - Release Candidate Evidence Pack.
+`M29 - Teacher Assignment Overview E2E Smoke Coverage`
 
 ## Current Boundary
 
-Improve local acceptance reliability, evidence quality, and MVP readiness documentation for the existing EduCore adaptive learning platform.
+Bounded Playwright smoke coverage for the accepted M27/M28 Teacher Assignment Overview path:
+
+- Audit existing teacher e2e infrastructure.
+- Enhance e2e mocks for `/teacher/class/overview` with realistic payload.
+- Add Playwright test for `/teacher/assignments` navigation and content.
+- Run e2e and produce consolidated M29 handoff.
 
 ## In Scope
 
-- Acceptance script hardening.
-- Evidence artifact documentation.
-- Student learning loop verification depth.
-- Deployment precheck documentation without production credentials.
-- Existing Docs cleanup where it improves readability and traceability.
+- `apps/web/e2e/` files listed in M29 Work Order Allowed Files.
+- Governance/docs updates in P29-04 only.
 
 ## Out of Scope
 
-- New architecture, new shared platform layer, or new subsystem.
-- Production deployment changes.
-- Production secrets, live keys, or private data.
-- Destructive git operations.
+- Backend/API endpoint creation or `apps/api/src/` changes.
+- Product page changes in `apps/web/src/` (use existing selectors).
+- New architecture, shared layers, or subsystems.
+- Production deployment and CI/CD changes.
+- Dependency installation if not already available locally.
 - Changes outside `D:\Development\EduCore`.
 
 ## Current Milestone Status
 
-Previous milestone `M14 - MVP Readiness Hardening` was accepted by Controller/QA at `2026-06-20T09:55:47+08:00`.
+Milestone `M28 - Teacher Assignment Build Verification and UX Hardening` was accepted at `2026-07-01T16:30:00+08:00`.
+Milestone `M29 - Teacher Assignment Overview E2E Smoke Coverage` was dispatched at `2026-07-01T17:00:00+08:00`.
 
-Current M15 work must stay inside the same evidence quality, local acceptance reliability, student learning loop verification, deployment precheck documentation, and Docs traceability boundary.
+## Dispatch References
+
+- Milestone: `Docs/MILESTONE_M29_TEACHER_ASSIGNMENT_OVERVIEW_E2E_SMOKE_COVERAGE_2026-07-01.md`
+- Program: `Docs/M29_PROGRAM_2026-07-01.md`
+- Dispatch: `Docs/DISPATCH_M29_PROGRAM_TO_DEVELOPER.md`

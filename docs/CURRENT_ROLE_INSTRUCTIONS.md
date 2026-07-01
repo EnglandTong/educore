@@ -1,39 +1,48 @@
 # CURRENT ROLE INSTRUCTIONS
 
-Status: Continue
-Last updated: 2026-06-20T10:52:00+08:00
+Status: M29 Dispatched - Developer Executing Program
+Last updated: 2026-07-01T17:00:00+08:00
 
 ## Active Role
 
-Controller/QA
+Developer
 
 ## Current Assignment
 
-- Review and monitor the active M16 program.
-- Developer execution is active and program-scoped.
+Execute the full **M29 Program** sequentially. This is a multi-Work-Order Program, not a single ticket.
 
-Primary files:
+- Program: `M29 - Teacher Assignment Overview E2E Smoke Coverage`
+- Dispatch: `Docs/DISPATCH_M29_PROGRAM_TO_DEVELOPER.md`
+- Start with: `Docs/WORK_ORDER_P29-01.md`
 
-- `docs/MILESTONE_M16_RELEASE_EVIDENCE_OPERABILITY_2026-06-20.md`
-- `docs/M16_PROGRAM_2026-06-20.md`
-- `docs/DISPATCH_M16_PROGRAM_TO_DEVELOPER.md`
-- `docs/WORK_ORDER_P16-01.md`
-- `docs/WORK_ORDER_P16-02.md`
-- `docs/WORK_ORDER_P16-03.md`
-- `docs/WORK_ORDER_P16-04.md`
-- `docs/QA_M15_ACCEPTANCE_2026-06-20.md`
+## Work Order Sequence
 
-## Execution Order
+| Order | ID | Complexity | Task |
+|---|---|---|---|
+| 1 | P29-01 | Lite | Audit teacher e2e mocks and page selectors |
+| 2 | P29-02 | Standard | Add ClassOverview mock payload |
+| 3 | P29-03 | Standard | Add Playwright assignments smoke test |
+| 4 | P29-04 | Lite | Run e2e and consolidated handoff |
 
-1. Confirm M15 remains accepted in `docs/COMPLETED.md`.
-2. Dispatch and monitor `docs/M16_PROGRAM_2026-06-20.md` execution.
-3. Review P16-01 through P16-04 evidence and loop log updates.
-4. Provide Controller/QA approval only after consolidated handoff and consistency checks.
+## Auto-Advance
 
-## Developer Limits
+Continue when prior Work Order verification passed, evidence recorded, no Stop Rule triggered, and changes stayed within Allowed Files.
 
-- Do not perform product code changes.
-- Do not mark M16 as `Accepted` or `Completed`.
-- Developer final state may only be `Developer Complete` or `Ready for Controller/QA Review`.
-- Stay inside each work order allowed files.
-- Stop immediately if `docs/STOP_RULES.md` is triggered.
+Stop if e2e fixes require product page changes or Playwright installation beyond local availability.
+
+## Final State
+
+- Allowed: `Developer Complete`, `Ready for Controller/QA Review`
+- Not allowed: `Accepted`, `Completed`, `Accepted With Risk`
+
+## Reference Files
+
+- Milestone: `Docs/MILESTONE_M29_TEACHER_ASSIGNMENT_OVERVIEW_E2E_SMOKE_COVERAGE_2026-07-01.md`
+- Program: `Docs/M29_PROGRAM_2026-07-01.md`
+- Dispatch: `Docs/DISPATCH_M29_PROGRAM_TO_DEVELOPER.md`
+- Prior acceptance: `Docs/QA_M28_ACCEPTANCE_2026-07-01.md`
+- Stop rules: `Docs/STOP_RULES.md`
+
+## Developer Final State
+
+- `In Progress` on `P29-01`

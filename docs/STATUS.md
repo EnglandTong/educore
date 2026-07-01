@@ -1,56 +1,55 @@
 # STATUS
 
-Status: Active
-Last updated: 2026-06-20T10:52:00+08:00
+Status: M29 Dispatched - Developer Executing Program
+Last updated: 2026-07-01T17:00:00+08:00
 
 ## Milestone
 
-Current milestone: `M16 - Release Evidence Operability`
-Current program: `docs/M16_PROGRAM_2026-06-20.md`
-Dispatch: `docs/DISPATCH_M16_PROGRAM_TO_DEVELOPER.md`
+Current milestone: `M29 - Teacher Assignment Overview E2E Smoke Coverage`
+Latest accepted milestone: `M28 - Teacher Assignment Build Verification and UX Hardening`
+Latest QA acceptance: `Docs/QA_M28_ACCEPTANCE_2026-07-01.md`
 
-## Previous Milestone
+## Current Controller/QA Decision
 
-`M15 - Release Candidate Evidence Pack` is signed complete.
+- Dispatched milestone: `M29 - Teacher Assignment Overview E2E Smoke Coverage`
+- Decision: `Dispatched to Developer`
+- Signed: `2026-07-01T17:00:00+08:00`
+- Program: `Docs/M29_PROGRAM_2026-07-01.md`
+- Dispatch: `Docs/DISPATCH_M29_PROGRAM_TO_DEVELOPER.md`
+- Active work order: `P29-01`
 
-Evidence:
+## Previous Controller/QA Decision
 
-- `docs/QA_M15_ACCEPTANCE_2026-06-20.md`
-- `docs/HANDOFF_M15_PROGRAM_DEVELOPER.md`
-- `docs/LOOP_RUNS.jsonl`
+- Prior milestone: `M28 - Teacher Assignment Build Verification and UX Hardening`
+- Decision: `Accepted`
+- Signed: `2026-07-01T16:30:00+08:00`
+- QA acceptance record: `Docs/QA_M28_ACCEPTANCE_2026-07-01.md`
 
-## Current Active Program
+## Historical Recovery Chain
 
-- `P16-01` - `docs/WORK_ORDER_P16-01.md` - `Standard` - `Pending Developer`
-- `P16-02` - `docs/WORK_ORDER_P16-02.md` - `Standard` - `Pending Developer`
-- `P16-03` - `docs/WORK_ORDER_P16-03.md` - `Standard` - `Pending Developer`
-- `P16-04` - `docs/WORK_ORDER_P16-04.md` - `Lite` - `Pending Developer`
+- `M27 - Teacher Assignment Overview Dashboard`: `Accepted`
+- `M28 - Teacher Assignment Build Verification and UX Hardening`: `Accepted`
 
-## Latest M16 Developer Instructions
+## Current Program Progress
 
-- Developer is to execute `docs/M16_PROGRAM_2026-06-20.md` in order:
-  1. `P16-01` - Evidence continuity tracker.
-  2. `P16-02` - QA runbook for release readiness.
-  3. `P16-03` - Evidence link integrity audit.
-  4. `P16-04` - Program handoff consolidation.
+- `P29-01` - `Docs/WORK_ORDER_P29-01.md` - `Lite` - `Pending`
+- `P29-02` - `Docs/WORK_ORDER_P29-02.md` - `Standard` - `Not started`
+- `P29-03` - `Docs/WORK_ORDER_P29-03.md` - `Standard` - `Not started`
+- `P29-04` - `Docs/WORK_ORDER_P29-04.md` - `Lite` - `Not started`
 
-## Current Developer Handoff
+## Latest Accepted Program Progress
 
-- `P15-04` completed at `2026-06-20T10:28:00+08:00`.
-- Commands:
-  - `Select-String -LiteralPath .\docs\STATUS.md,.\docs\NEXT_ACTIONS.md,.\docs\PENDING.md,.\docs\COMPLETED.md -Pattern "P15-01","P15-02","P15-03","P15-04","Ready for Controller/QA Review"`
-  - Result: `PASS`
-- Evidence:
-  - `docs/HANDOFF_M15_PROGRAM_DEVELOPER.md`
-  - `docs/LOOP_RUNS.jsonl`
-  - `docs/LOOP_LOG_Workbuddy.jsonl`
+- `P28-01` through `P28-04`: `Accepted by Controller/QA` (M28)
 
-## Current M15 State
+## Current Assignment
 
-- Final status: `Accepted`
-- Accepted by Controller/QA at `2026-06-20T10:40:00+08:00`
-- Acceptance record: `docs/QA_M15_ACCEPTANCE_2026-06-20.md`
+- Active role: `Developer`
+- Active program: `M29 - Teacher Assignment Overview E2E Smoke Coverage`
+- Active work order: `P29-01`
+- Developer final state: `In Progress`
 
-## Current M16 Controller/QA Status
+## Evidence
 
-- Decision: In progress, awaiting Developer execution.
+- M29 dispatch: `Docs/DISPATCH_M29_PROGRAM_TO_DEVELOPER.md`
+- M29 program: `Docs/M29_PROGRAM_2026-07-01.md`
+- M28 QA acceptance: `Docs/QA_M28_ACCEPTANCE_2026-07-01.md`

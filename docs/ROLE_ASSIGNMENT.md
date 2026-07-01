@@ -1,7 +1,7 @@
-# ROLE ASSIGNMENT
+# ROLE_ASSIGNMENT
 
-Status: Active
-Last updated: 2026-06-20T10:52:00+08:00
+Status: M29 Developer Assignment Active
+Last updated: 2026-07-01T17:00:00+08:00
 
 ## Roles
 
@@ -11,12 +11,12 @@ Last updated: 2026-06-20T10:52:00+08:00
 ## Current Assignment
 
 - Role assigned for active execution: `Developer`
-- Active program: `docs/M16_PROGRAM_2026-06-20.md`
-- Dispatch: `docs/DISPATCH_M16_PROGRAM_TO_DEVELOPER.md`
-- First work order: `docs/WORK_ORDER_P16-01.md`
+- Active program: `M29 - Teacher Assignment Overview E2E Smoke Coverage`
+- Dispatch: `Docs/DISPATCH_M29_PROGRAM_TO_DEVELOPER.md`
+- Current work order: `P29-01`
+- Latest QA acceptance: `Docs/QA_M28_ACCEPTANCE_2026-07-01.md`
 
 ## Controller Constraints
 
 - Controller/QA must not implement product code for the assigned work.
-- Controller/QA must check `docs/ACCEPTANCE.md` before signing.
-- UI/UX signoff must reference `docs/RUBRIC.md`.
+- Developer must execute the full M29 Program unless a Stop Rule triggers.
