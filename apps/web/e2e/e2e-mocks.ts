@@ -308,7 +308,22 @@ function mockForPath(pathname: string, method: string, body: Record<string, unkn
   }
 
   if (pathname === '/api/v1/teacher/class/overview') {
-    return okEnvelope({ overview: null })
+    return okEnvelope({
+      overview: {
+        teacherId: 'teacher-e2e',
+        studentCount: 8,
+        averageScore: 72,
+        gradeGroups: { '3': 5, '4': 3 },
+        topWeakAreas: [
+          {
+            skillId: 'skill-1',
+            skillName: 'Fractions',
+            averageScore: 42,
+            level: 'developing',
+          },
+        ],
+      },
+    })
   }
   if (pathname === '/api/v1/teacher/class/weak-areas') {
     return okEnvelope({ weakAreas: [] })

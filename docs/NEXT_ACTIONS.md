@@ -1,41 +1,40 @@
 # NEXT ACTIONS
 
-Status: M29 Dispatched - Developer Executing Program
-Last updated: 2026-07-01T17:00:00+08:00
+Status: M30 Dispatched - Developer Executing Program
+Last updated: 2026-07-01T19:00:00+08:00
 
 ## Current Next Action
 
-Developer executes the full M29 Program in order, starting with `P29-01`.
+Developer executes the full M30 Program in order, starting with `P30-01`.
+
+## Milestone Goal (M30)
+
+**Primary goal:** Add read-only `GET /api/v1/teacher/assignments` and show Assigned Students on the Assignment Overview page.
+
+**Closes:** Deferred follow-up from M27–M29 for dedicated assignments list data (not aggregate overview only).
+
+See `Docs/PROJECT_ROADMAP.md` for goals of all milestones M14–M30.
 
 ## Active Program
 
-- `M29 - Teacher Assignment Overview E2E Smoke Coverage`
-- Dispatched: `2026-07-01T17:00:00+08:00`
-- Dispatch: `Docs/DISPATCH_M29_PROGRAM_TO_DEVELOPER.md`
-- Program: `Docs/M29_PROGRAM_2026-07-01.md`
-- Start with: `Docs/WORK_ORDER_P29-01.md`
+- `M30 - Teacher Assignments List API and UI Integration`
+- Dispatched: `2026-07-01T19:00:00+08:00`
+- Dispatch: `Docs/DISPATCH_M30_PROGRAM_TO_DEVELOPER.md`
+- Start with: `Docs/WORK_ORDER_P30-01.md`
 
 ## Work Order Sequence
 
-1. `P29-01` - Lite - Audit teacher e2e mocks and page selectors
-2. `P29-02` - Standard - Add ClassOverview mock payload
-3. `P29-03` - Standard - Add Playwright assignments smoke test
-4. `P29-04` - Lite - Run e2e and consolidated handoff
+1. `P30-01` - Lite - Audit TeacherAssignment model and API patterns
+2. `P30-02` - Standard - Add GET `/assignments` backend endpoint
+3. `P30-03` - Standard - Frontend fetcher, hook, Assigned Students UI
+4. `P30-04` - Lite - E2e mock, verification, consolidated handoff
 
 ## Latest Accepted Program
 
-- `M28 - Teacher Assignment Build Verification and UX Hardening`
-- Accepted: `2026-07-01T16:30:00+08:00`
-- QA acceptance: `Docs/QA_M28_ACCEPTANCE_2026-07-01.md`
+- `M29 - Teacher Assignment Overview E2E Smoke Coverage`
+- Accepted: `2026-07-01T18:30:00+08:00`
 
 ## Developer Rules
 
-- Execute the entire Program sequentially unless a Stop Rule triggers.
-- After each Work Order: verify, record evidence, append loop log, update handoff notes.
-- Auto-advance when prior Work Order passes and no Stop Rule triggers.
-- Final status must be `Ready for Controller/QA Review` only.
-
-## Deferred Follow-Ups (Out of M29 Scope)
-
-- Dedicated `/teacher/assignments` API endpoint for individual assignment management.
-- CI/CD integration of new e2e test.
+- Execute entire Program sequentially unless Stop Rule triggers.
+- Final status: `Ready for Controller/QA Review` only.

@@ -40,4 +40,23 @@ test.describe('Teacher Journey', () => {
     await page.goto('/teacher/conversations')
     await page.waitForLoadState('networkidle')
   })
+
+  test('register → navigate to assignments overview', async ({ page }) => {
+    await page.goto('/auth/register')
+    await page.waitForLoadState('networkidle')
+
+    const email = `test-teacher-assignments-${Date.now()}@example.com`
+    await page.fill('input[name="name"]', 'Test Teacher')
+    await page.fill('input[name="email"]', email)
+    await page.fill('input[name="password"]', TEACHER_PASSWORD)
+    await page.locator('input[type="radio"][value="teacher"]').check()
+    await page.click('button[type="submit"]')
+    await page.waitForURL(/\/teacher\/dashboard/, { timeout: 15000 })
+
+    await page.getByRole('link', { name: 'Assignments' }).click()
+    await page.waitForURL(/\/teacher\/assignments/, { timeout: 15000 })
+    await expect(page.getByRole('heading', { name: /assignment overview/i })).toBeVisible()
+    await expect(page.getByText('Assigned Students')).toBeVisible()
+    await expect(page.getByText('Fractions')).toBeVisible()
+  })
 })

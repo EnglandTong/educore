@@ -1,43 +1,37 @@
 ﻿# TARGET - EduCore
 
-Status: M29 Active Developer Assignment
+Status: M30 Active Developer Assignment
 Owner: MRT-Controller-QA
-Last updated: 2026-07-01T17:00:00+08:00
+Last updated: 2026-07-01T19:00:00+08:00
 
 ## Current Milestone
 
-`M29 - Teacher Assignment Overview E2E Smoke Coverage`
+`M30 - Teacher Assignments List API and UI Integration`
 
 ## Current Boundary
 
-Bounded Playwright smoke coverage for the accepted M27/M28 Teacher Assignment Overview path:
+Read-only teacher assignments list API and UI integration:
 
-- Audit existing teacher e2e infrastructure.
-- Enhance e2e mocks for `/teacher/class/overview` with realistic payload.
-- Add Playwright test for `/teacher/assignments` navigation and content.
-- Run e2e and produce consolidated M29 handoff.
+- Add `GET /api/v1/teacher/assignments` in existing teacher module.
+- Display assigned students on Assignment Overview page.
+- Update e2e mock and verify build/e2e.
 
 ## In Scope
 
-- `apps/web/e2e/` files listed in M29 Work Order Allowed Files.
-- Governance/docs updates in P29-04 only.
+- `apps/api/src/services/teacher.service.ts`
+- `apps/api/src/modules/teacher/teacher.routes.ts`
+- `apps/web/src/api/teacher.ts`, hooks, AssignmentOverviewPage
+- `apps/web/e2e/` in P30-04 only
 
 ## Out of Scope
 
-- Backend/API endpoint creation or `apps/api/src/` changes.
-- Product page changes in `apps/web/src/` (use existing selectors).
-- New architecture, shared layers, or subsystems.
-- Production deployment and CI/CD changes.
-- Dependency installation if not already available locally.
-- Changes outside `D:\Development\EduCore`.
-
-## Current Milestone Status
-
-Milestone `M28 - Teacher Assignment Build Verification and UX Hardening` was accepted at `2026-07-01T16:30:00+08:00`.
-Milestone `M29 - Teacher Assignment Overview E2E Smoke Coverage` was dispatched at `2026-07-01T17:00:00+08:00`.
+- Schema/migration changes.
+- Assignment create/edit/delete.
+- New architecture or subsystems.
+- Production deployment.
 
 ## Dispatch References
 
-- Milestone: `Docs/MILESTONE_M29_TEACHER_ASSIGNMENT_OVERVIEW_E2E_SMOKE_COVERAGE_2026-07-01.md`
-- Program: `Docs/M29_PROGRAM_2026-07-01.md`
-- Dispatch: `Docs/DISPATCH_M29_PROGRAM_TO_DEVELOPER.md`
+- `Docs/MILESTONE_M30_TEACHER_ASSIGNMENTS_LIST_API_AND_UI_INTEGRATION_2026-07-01.md`
+- `Docs/M30_PROGRAM_2026-07-01.md`
+- `Docs/DISPATCH_M30_PROGRAM_TO_DEVELOPER.md`

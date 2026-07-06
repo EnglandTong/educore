@@ -1,8 +1,8 @@
 ﻿# EVALUATION
 
-Status: M29 Dispatched
+Status: M30 Dispatched
 Owner: MRT-Controller-QA
-Last updated: 2026-07-01T17:00:00+08:00
+Last updated: 2026-07-01T19:00:00+08:00
 
 ## Current Evaluation
 
@@ -60,9 +60,9 @@ Milestone `M24 - Post-M23 Evidence Chain Continuity` is accepted as the bounded 
 - Accepted milestone: `M27 - Teacher Assignment Overview Dashboard`
 - Accepted QA record: `Docs/QA_M27_ACCEPTANCE_2026-07-01.md`
 - Accepted program: `Docs/M27_PROGRAM_2026-07-01.md`
-- Accepted milestone: `M28 - Teacher Assignment Build Verification and UX Hardening`
-- Accepted QA record: `Docs/QA_M28_ACCEPTANCE_2026-07-01.md`
-- Accepted program: `Docs/M28_PROGRAM_2026-07-01.md`
+- Accepted milestone: `M29 - Teacher Assignment Overview E2E Smoke Coverage`
+- Accepted QA record: `Docs/QA_M29_ACCEPTANCE_2026-07-01.md`
+- Accepted program: `Docs/M29_PROGRAM_2026-07-01.md`
 - Active milestone: `none`
 - Next action: Controller/QA plans the next bounded milestone/program
 
@@ -122,6 +122,30 @@ Milestone `M24 - Post-M23 Evidence Chain Continuity` is accepted as the bounded 
 ## Blocking Status
 
 No current blocked condition is active.
+
+## M30 Controller/QA Dispatch
+
+- Signed: `2026-07-01T19:00:00+08:00`
+- Decision: `Dispatched to Developer`
+- Milestone: `M30 - Teacher Assignments List API and UI Integration`
+- Program: `Docs/M30_PROGRAM_2026-07-01.md`
+- Work orders: `P30-01` through `P30-04`
+- Rationale: Deliver read-only assignments list API and UI; close M27-M29 deferred follow-up without schema changes or CRUD.
+
+## M29 Controller/QA Acceptance
+
+- Signed: `2026-07-01T18:30:00+08:00`
+- Decision: `Accepted`
+- QA acceptance record: `Docs/QA_M29_ACCEPTANCE_2026-07-01.md`
+- Controller verification:
+  - `Test-Path -LiteralPath .\Docs\HANDOFF_M29_PROGRAM_DEVELOPER.md` -> `PASS`
+  - `Select-String e2e-mocks studentCount topWeakAreas gradeGroups` -> `PASS`
+  - `Select-String teacher-journey assignments overview Fractions` -> `PASS`
+  - `corepack pnpm --filter @educore/web run test:e2e --reporter=list` -> `PASS` (12 passed)
+  - `git diff --name-only -- apps/api/src/ packages/ modules/ apps/web/src/` -> `PASS` (empty)
+  - `Select-String LOOP_RUNS M29 | Measure-Object` -> `PASS` (Count: 5)
+- Known risks: dedicated assignments API deferred (non-blocking)
+- M28 follow-up closed: Playwright smoke test for assignments overview path
 
 ## M29 Controller/QA Dispatch
 

@@ -1,8 +1,8 @@
 ﻿# COMPLETED
 
 Status: Active
-Last updated: 2026-07-01T16:30:00+08:00
-Current planning updated: 2026-07-01T16:30:00+08:00
+Last updated: 2026-07-01T18:30:00+08:00
+Current planning updated: 2026-07-01T18:30:00+08:00
 
 ## Completed Milestones
 
@@ -54,6 +54,10 @@ Current planning updated: 2026-07-01T16:30:00+08:00
   - Signed: `2026-07-01T16:30:00+08:00`
   - Signoff: `Accepted`
   - Evidence: `Docs/QA_M28_ACCEPTANCE_2026-07-01.md`, `Docs/HANDOFF_M28_PROGRAM_DEVELOPER.md`, `Docs/M28_PROGRAM_2026-07-01.md`, `Docs/DISPATCH_M28_PROGRAM_TO_DEVELOPER.md`, `Docs/LOOP_RUNS.jsonl`
+- `M29 - Teacher Assignment Overview E2E Smoke Coverage`
+  - Signed: `2026-07-01T18:30:00+08:00`
+  - Signoff: `Accepted`
+  - Evidence: `Docs/QA_M29_ACCEPTANCE_2026-07-01.md`, `Docs/HANDOFF_M29_PROGRAM_DEVELOPER.md`, `Docs/M29_PROGRAM_2026-07-01.md`, `Docs/DISPATCH_M29_PROGRAM_TO_DEVELOPER.md`, `Docs/LOOP_RUNS.jsonl`
 
 ## Failed Milestones
 
@@ -173,6 +177,16 @@ Current planning updated: 2026-07-01T16:30:00+08:00
   - Result: `PASS`
 
 ## Latest Accepted Program
+
+- `M29 - Teacher Assignment Overview E2E Smoke Coverage`
+- Program: `Docs/M29_PROGRAM_2026-07-01.md`
+- Current state: `Accepted`
+- Completed: `2026-07-01T18:30:00+08:00`
+- Dispatch: `Docs/DISPATCH_M29_PROGRAM_TO_DEVELOPER.md`
+- Work orders: `P29-01`, `P29-02`, `P29-03`, `P29-04`
+- Evidence: `Docs/HANDOFF_M29_PROGRAM_DEVELOPER.md`, `Docs/QA_M29_ACCEPTANCE_2026-07-01.md`, `Docs/LOOP_RUNS.jsonl`
+
+## Previous Accepted Program
 
 - `M28 - Teacher Assignment Build Verification and UX Hardening`
 - Program: `Docs/M28_PROGRAM_2026-07-01.md`
