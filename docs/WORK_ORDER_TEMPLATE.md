@@ -1,48 +1,58 @@
-# WORK ORDER TEMPLATE
+# WORK_ORDER_【编号】.md — 开发计划 / 里程碑 / 相对目标
 
-## Work Order ID
+> Developer 唯一任务来源。由 Codex Plan Mode 生成，任何下游 AI 编码 Agent 据此施工。
+> 编号：里程碑 `M1/M2…`，相对目标 `Mx-Ry`。每 loop 只做有边界的一项。
 
-`PXX-YY`
+Role: Developer
+Complexity: 【Small / Medium / Large / Product】
 
-## Complexity
+## 下游交接说明
+- 本计划由 Codex Plan Mode 生成，结构遵循 agent-loop-engineering `Docs/` 协议。
+- 每个 coding loop 只完成一个 checkbox 任务；完成后在 `Docs/LOOP_STATE.md` 记状态、在 `Docs/ACCEPTANCE.md` 填证据。
+- 完成判定只认 `ACCEPTANCE.md` 证据门禁（自动验证 + 功能验证）。
+- 不确定 / 触发停止规则 → 标 `Blocked` 并写 `Docs/HANDOFF.md`，不要硬撑。
 
-Lite / Standard / Deep
+## 系统架构（摘要）
+- 架构风格：【分层 / 六边形 / 事件驱动】
+- 模块边界：【谁不能依赖谁】
+- 技术选型与理由：
+  - 【组件】：【选型】— 理由：【】
 
-## Task
+## 目录结构与模块职责
+| 路径 | 职责 | 备注 |
+|---|---|---|
+| `【path】` | 【负责什么】 | 【约束】 |
 
-One concise task.
+## 数据模型与接口契约
+- 表 / 实体 `【name】`：字段、关系、错误码
 
-## Scope
+## 开发计划（总览）
+| 阶段 | 范围 | 依赖 |
+|---|---|---|
+| 【P1】 | 【做什么】 | 【前置】 |
 
-What the Developer may change.
+## 里程碑
+### M1 — 【里程碑名】
+- 目标：【】
+- 交付物：【可验证产物】
+- 完成判定：【】
+- 相对目标：
+  - M1-R1：【子目标】
+  - M1-R2：【子目标，依赖 M1-R1】
 
-## Allowed Files
+### M2 — 【里程碑名】
+- 目标：【】
+- 交付物：【】
+- 完成判定：【】
+- 相对目标：
+  - M2-R1：【】
+  - M2-R2：【，依赖 M2-R1】
 
-- Explicit paths only.
+## 分步任务清单
+- [ ] 【任务】 — 目标：【】 | 涉及文件：【】 | 验收：【】 | 依赖：【】 | 推理等级：【low/medium/high】
+- [ ] 【任务】 — 目标：【】 | 涉及文件：【】 | 验收：【】 | 依赖：【】 | 推理等级：【】
 
-## Not Allowed Files
-
-- Explicit exclusions.
-
-## Acceptance Criteria
-
-- Objective pass/fail criteria.
-
-## Design Notes
-
-- Existing patterns and constraints.
-
-## Boundaries
-
-- Stop-rule and scope boundaries.
-
-## Verification Commands
-
-- Commands Developer must run.
-
-## Expected Developer Handoff
-
-- Summary.
-- Tests.
-- Evidence paths.
-- Remaining risks.
+## 风险与"不要做"
+- 已知风险：【】
+- 禁止项（Do NOT）：【如 核心循环加同步 IO / 引入未评审依赖】
+- 回滚策略：【】

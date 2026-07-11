@@ -18,7 +18,7 @@ function toLevel(score: number): MasteryLevel {
 export async function getClassOverview(teacherId: string) {
   const assignments = (await TeacherAssignment.find({ teacherId }).lean()) as Array<{ studentId: unknown }>;
   const studentIds = assignments.map((assignment) => assignment.studentId);
-  const students = (await User.find({ _id: { $in: studentIds }, role: "student" }).lean()) as Array<{ gradeLevel?: string }>;
+  const students = (await User.find({ _id: { $in: studentIds }, role: "student" }).lean()) as Array<{ _id: unknown; name: string; gradeLevel?: string }>;
   const masteries = (await SkillMastery.find({ studentId: { $in: studentIds } }).lean()) as Array<{ moduleId: string; skillId: string; skillName: string; score: number }>;
   const gradeGroups: Record<string, number> = {};
   for (const student of students) {
@@ -59,7 +59,12 @@ export async function getClassOverview(teacherId: string) {
     studentCount: students.length,
     averageScore,
     gradeGroups,
-    topWeakAreas
+    topWeakAreas,
+    students: students.map((student) => ({
+      id: String(student._id),
+      name: student.name,
+      gradeLevel: student.gradeLevel,
+    })),
   };
 }
 
@@ -125,4 +130,34 @@ export async function getClassWeakAreas(teacherId: string) {
   return {
     weakAreas: bySkill
   };
+}
+
+export async function getTeacherAssignments(teacherId: string) {
+  const assignments = (await TeacherAssignment.find({ teacherId }).lean()) as Array<{
+    studentId: unknown
+    createdAt?: Date
+  }>
+  const studentIds = assignments.map((a) => a.studentId)
+  const students = (await User.find({ _id: { $in: studentIds }, role: 'student' }).lean()) as Array<{
+    _id: unknown
+    name: string
+    gradeLevel?: string
+  }>
+  const studentById = new Map(students.map((s) => [String(s._id), s]))
+
+  const items = assignments
+    .map((assignment) => {
+      const student = studentById.get(String(assignment.studentId))
+      if (!student) return null
+      return {
+        studentId: String(student._id),
+        studentName: student.name,
+        gradeLevel: student.gradeLevel,
+        assignedAt: assignment.createdAt?.toISOString() ?? new Date(0).toISOString(),
+      }
+    })
+    .filter((item): item is NonNullable<typeof item> => item !== null)
+    .sort((a, b) => a.studentName.localeCompare(b.studentName))
+
+  return { assignments: items }
 }

@@ -1,0 +1,6 @@
+# M57/M58/M59/M60 export lines to add to packages/types/src/index.ts
+# (orchestrator owns index.ts — do NOT edit index.ts directly from this milestone batch)
+export * from "./growth.js";
+export * from "./insight.js";
+export * from "./parent-view.js";
+export * from "./school-view.js";

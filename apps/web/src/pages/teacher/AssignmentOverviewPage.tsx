@@ -1,12 +1,22 @@
 import { useTeacherClassOverview } from '@/hooks/useTeacherClassOverview'
+import { useTeacherAssignments } from '@/hooks/useTeacherAssignments'
+import { Link } from 'react-router-dom'
+import { teacherStudentPath } from '@/router/routes'
 import { Badge } from '@/components/ui/Badge'
 import { Card } from '@/components/ui/Card'
+import { TeacherStatCard } from '@/components/teacher/TeacherStatCard'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { Skeleton } from '@/components/ui/Skeleton'
 import { WarmQueryError } from '@/components/shared/WarmQueryError'
 
 export default function AssignmentOverviewPage() {
   const { data: overview, isPending, error, refetch } = useTeacherClassOverview()
+  const {
+    data: assignments = [],
+    isPending: assignmentsPending,
+    error: assignmentsError,
+    refetch: refetchAssignments,
+  } = useTeacherAssignments()
 
   if (isPending) {
     return (
@@ -58,41 +68,10 @@ export default function AssignmentOverviewPage() {
 
       {/* Stats Cards */}
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
-        <Card variant="elevated">
-          <div className="text-sm font-medium text-[hsl(var(--color-text-muted))]">
-            Assigned Students
-          </div>
-          <div className="mt-2 text-4xl font-bold text-[hsl(var(--color-primary))]">
-            {overview.studentCount}
-          </div>
-        </Card>
-
-        <Card variant="elevated">
-          <div className="text-sm font-medium text-[hsl(var(--color-text-muted))]">
-            Average Score
-          </div>
-          <div className="mt-2 text-4xl font-bold text-[hsl(var(--color-primary))]">
-            {overview.averageScore}
-          </div>
-        </Card>
-
-        <Card variant="elevated">
-          <div className="text-sm font-medium text-[hsl(var(--color-text-muted))]">
-            Grade Levels
-          </div>
-          <div className="mt-2 text-4xl font-bold text-[hsl(var(--color-primary))]">
-            {gradeEntries.length}
-          </div>
-        </Card>
-
-        <Card variant="elevated">
-          <div className="text-sm font-medium text-[hsl(var(--color-text-muted))]">
-            Weak Areas
-          </div>
-          <div className="mt-2 text-4xl font-bold text-[hsl(var(--color-primary))]">
-            {overview.topWeakAreas.length}
-          </div>
-        </Card>
+        <TeacherStatCard label="Assigned Students" value={overview.studentCount} />
+        <TeacherStatCard label="Average Score" value={overview.averageScore} />
+        <TeacherStatCard label="Grade Levels" value={gradeEntries.length} />
+        <TeacherStatCard label="Weak Areas" value={overview.topWeakAreas.length} />
       </div>
 
       {/* Grade Distribution */}
@@ -165,6 +144,68 @@ export default function AssignmentOverviewPage() {
           </div>
         </Card>
       )}
+
+      {/* Assigned Students List */}
+      {assignmentsError ? (
+        <Card>
+          <WarmQueryError
+            title="Assigned students could not load"
+            description="Something went wrong while fetching the student list."
+            onRetry={() => void refetchAssignments()}
+          />
+        </Card>
+      ) : assignmentsPending ? (
+        <Card>
+          <Skeleton className="h-8 w-48" />
+          <Skeleton className="mt-4 h-32 w-full" />
+        </Card>
+      ) : assignments.length > 0 ? (
+        <Card>
+          <h2 className="mb-4 text-xl font-semibold text-[hsl(var(--color-text-heading))]">
+            Assigned Students
+          </h2>
+          <div className="overflow-x-auto">
+            <table className="w-full text-left text-sm">
+              <thead>
+                <tr className="border-b border-[hsl(var(--color-border))]">
+                  <th className="pb-3 font-medium text-[hsl(var(--color-text-muted))]">
+                    Student
+                  </th>
+                  <th className="pb-3 font-medium text-[hsl(var(--color-text-muted))]">
+                    Grade
+                  </th>
+                  <th className="pb-3 font-medium text-[hsl(var(--color-text-muted))]">
+                    Assigned
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {assignments.map((assignment) => (
+                  <tr
+                    key={assignment.studentId}
+                    className="border-b border-[hsl(var(--color-border-subtle))] last:border-0"
+                  >
+                    <td className="py-3 font-medium">
+                      <Link
+                        to={teacherStudentPath(assignment.studentId)}
+                        className="text-[hsl(var(--color-primary))] hover:underline"
+                      >
+                        {assignment.studentName}
+                      </Link>
+                    </td>
+                    <td className="py-3">
+                      {assignment.gradeLevel ? `Grade ${assignment.gradeLevel}` : '—'}
+                    </td>
+                    <td className="py-3 text-[hsl(var(--color-text-muted))]">
+                      {new Date(assignment.assignedAt).toLocaleDateString()}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </Card>
+      ) : null}
     </div>
   )
 }

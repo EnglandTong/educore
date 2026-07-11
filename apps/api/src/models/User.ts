@@ -29,7 +29,7 @@ const userSchema = new Schema<IUserDocument>(
     name: { type: String, required: true },
     email: { type: String, required: true, unique: true, index: true },
     passwordHash: { type: String, required: true },
-    role: { type: String, enum: ["student", "parent", "teacher", "admin", "volunteer", "school-admin"], required: true },
+    role: { type: String, enum: ["student", "parent", "teacher", "admin", "volunteer", "school-admin", "volunteer-teacher", "volunteer-school", "volunteer-org", "volunteer-enterprise"], required: true },
     avatar: String,
     nickname: String,
     age: Number,

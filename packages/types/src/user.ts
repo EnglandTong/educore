@@ -1,4 +1,14 @@
-export type UserRole = "student" | "parent" | "teacher" | "admin" | "volunteer" | "school-admin";
+export type UserRole =
+  | "student"
+  | "parent"
+  | "teacher"
+  | "admin"
+  | "volunteer"
+  | "school-admin"
+  | "volunteer-teacher"
+  | "volunteer-school"
+  | "volunteer-org"
+  | "volunteer-enterprise";
 
 export interface UserPreferences {
   language: "en" | "zh";

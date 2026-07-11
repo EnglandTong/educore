@@ -9,24 +9,53 @@ import { Skeleton } from '@/components/ui/Skeleton'
 import { WarmQueryError } from '@/components/shared/WarmQueryError'
 import { routes } from '@/router/routes'
 
+interface ParsedStudentSummary {
+  studentName: string | null
+  gradeLevel: string | null
+  masteryCount: number | null
+  activeSkills: number | null
+}
+
+function parseStudentSummary(summary: unknown): ParsedStudentSummary {
+  const empty: ParsedStudentSummary = {
+    studentName: null,
+    gradeLevel: null,
+    masteryCount: null,
+    activeSkills: null,
+  }
+  if (!summary || typeof summary !== 'object' || Array.isArray(summary)) return empty
+  const root = summary as Record<string, unknown>
+  const student = root.student
+  let studentName: string | null = null
+  let gradeLevel: string | null = null
+  if (student && typeof student === 'object' && !Array.isArray(student)) {
+    const s = student as Record<string, unknown>
+    if (typeof s.name === 'string' && s.name.trim()) studentName = s.name.trim()
+    if (typeof s.gradeLevel === 'string' && s.gradeLevel.trim()) gradeLevel = s.gradeLevel.trim()
+  }
+  const masteryCount = typeof root.masteryCount === 'number' ? root.masteryCount : null
+  const activeSkills = typeof root.activeSkills === 'number' ? root.activeSkills : null
+  return { studentName, gradeLevel, masteryCount, activeSkills }
+}
+
 function summaryLines(summary: unknown): { label: string; value: string }[] {
   if (summary == null) return []
-  if (typeof summary !== 'object' || Array.isArray(summary)) {
-    return [{ label: 'Note', value: String(summary) }]
-  }
-  const o = summary as Record<string, unknown>
-  const preferred = ['name', 'displayName', 'email', 'overallScore', 'level', 'streak', 'encouragement', 'focus', 'notes']
+  const parsed = parseStudentSummary(summary)
   const lines: { label: string; value: string }[] = []
-  for (const key of preferred) {
-    if (key in o && o[key] != null && o[key] !== '') {
-      lines.push({ label: key, value: String(o[key]) })
+  if (parsed.studentName) lines.push({ label: 'Student', value: parsed.studentName })
+  if (parsed.gradeLevel) lines.push({ label: 'Grade level', value: parsed.gradeLevel })
+  if (summary && typeof summary === 'object' && !Array.isArray(summary)) {
+    const progress = (summary as Record<string, unknown>).progress
+    if (progress && typeof progress === 'object' && !Array.isArray(progress)) {
+      const p = progress as Record<string, unknown>
+      if (typeof p.completedModules === 'number' && typeof p.totalModules === 'number') {
+        lines.push({ label: 'Modules completed', value: `${p.completedModules} / ${p.totalModules}` })
+      }
     }
   }
-  if (lines.length > 0) return lines
-  return Object.entries(o)
-    .filter(([, v]) => v != null && String(v) !== '')
-    .slice(0, 12)
-    .map(([k, v]) => ({ label: k, value: String(v) }))
+  if (parsed.masteryCount != null) lines.push({ label: 'Skills tracked', value: String(parsed.masteryCount) })
+  if (parsed.activeSkills != null) lines.push({ label: 'Active skills', value: String(parsed.activeSkills) })
+  return lines
 }
 
 export function TeacherStudentPage() {
@@ -55,6 +84,8 @@ export function TeacherStudentPage() {
   }
 
   const lines = summaryLines(summaryQuery.data ?? null)
+  const parsed = parseStudentSummary(summaryQuery.data ?? null)
+  const pageTitle = parsed.studentName ?? 'A calm snapshot for one student'
 
   return (
     <div className="space-y-8">
@@ -62,10 +93,12 @@ export function TeacherStudentPage() {
         <div className="space-y-2">
           <p className="text-sm font-semibold uppercase tracking-wide text-[hsl(var(--color-primary))]">Learner lens</p>
           <h1 className="font-display text-3xl font-semibold text-[hsl(var(--color-text))] md:text-4xl">
-            A calm snapshot for one student
+            {pageTitle}
           </h1>
           <p className="max-w-2xl text-lg text-[hsl(var(--color-text-secondary))]">
-            Lead with what they are doing well — this page is here to help you notice, not to label.
+            {parsed.studentName
+              ? 'Lead with what they are doing well — this page is here to help you notice, not to label.'
+              : 'Lead with what they are doing well — this page is here to help you notice, not to label.'}
           </p>
         </div>
         <Button type="button" variant="secondary" className="min-h-[44px]" onClick={() => navigate(routes.teacherClass)}>
@@ -87,17 +120,47 @@ export function TeacherStudentPage() {
           description="When the roster links to learning data, a warm summary will appear — for now, trust the relationship you already have with them."
         />
       ) : (
-        <Card className="space-y-4">
-          <h2 className="font-display text-xl font-semibold">What we know so far</h2>
-          <dl className="grid gap-3 sm:grid-cols-2">
-            {lines.map(({ label, value }) => (
-              <div key={label} className="rounded-[var(--radius-lg)] border border-[hsl(var(--color-border))] bg-[hsl(var(--color-bg))] p-4">
-                <dt className="text-sm font-semibold uppercase tracking-wide text-[hsl(var(--color-text-muted))]">{label}</dt>
-                <dd className="mt-1 text-sm text-[hsl(var(--color-text))]">{value}</dd>
-              </div>
-            ))}
-          </dl>
-        </Card>
+        <>
+          {(parsed.gradeLevel != null || parsed.masteryCount != null || parsed.activeSkills != null) && (
+            <div className="grid gap-4 sm:grid-cols-3">
+              {parsed.gradeLevel != null && (
+                <Card>
+                  <div className="text-sm font-medium text-[hsl(var(--color-text-muted))]">Grade</div>
+                  <div className="mt-1 text-2xl font-bold text-[hsl(var(--color-primary))]">
+                    {parsed.gradeLevel}
+                  </div>
+                </Card>
+              )}
+              {parsed.masteryCount != null && (
+                <Card>
+                  <div className="text-sm font-medium text-[hsl(var(--color-text-muted))]">Skills tracked</div>
+                  <div className="mt-1 text-2xl font-bold text-[hsl(var(--color-primary))]">
+                    {parsed.masteryCount}
+                  </div>
+                </Card>
+              )}
+              {parsed.activeSkills != null && (
+                <Card>
+                  <div className="text-sm font-medium text-[hsl(var(--color-text-muted))]">Active skills</div>
+                  <div className="mt-1 text-2xl font-bold text-[hsl(var(--color-primary))]">
+                    {parsed.activeSkills}
+                  </div>
+                </Card>
+              )}
+            </div>
+          )}
+          <Card className="space-y-4">
+            <h2 className="font-display text-xl font-semibold">What we know so far</h2>
+            <dl className="grid gap-3 sm:grid-cols-2">
+              {lines.map(({ label, value }) => (
+                <div key={label} className="rounded-[var(--radius-lg)] border border-[hsl(var(--color-border))] bg-[hsl(var(--color-bg))] p-4">
+                  <dt className="text-sm font-semibold uppercase tracking-wide text-[hsl(var(--color-text-muted))]">{label}</dt>
+                  <dd className="mt-1 text-sm text-[hsl(var(--color-text))]">{value}</dd>
+                </div>
+              ))}
+            </dl>
+          </Card>
+        </>
       )}
     </div>
   )

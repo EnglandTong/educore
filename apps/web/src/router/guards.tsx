@@ -39,6 +39,9 @@ export function GuestOnly() {
     if (user.role === 'student') return <Navigate to="/student/dashboard" replace />
     if (user.role === 'parent') return <Navigate to="/parent/dashboard" replace />
     if (user.role === 'teacher') return <Navigate to="/teacher/dashboard" replace />
+    if (user.role === 'volunteer' || user.role === 'volunteer-teacher' || user.role === 'volunteer-school' || user.role === 'volunteer-org' || user.role === 'volunteer-enterprise') return <Navigate to="/volunteer/dashboard" replace />
+    if (user.role === 'school-admin') return <Navigate to="/admin/school" replace />
+    if (user.role === 'admin') return <Navigate to="/admin/school" replace />
     return <Navigate to="/auth/login" replace />
   }
   return <Outlet />

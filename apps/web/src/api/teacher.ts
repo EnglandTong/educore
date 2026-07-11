@@ -9,12 +9,43 @@ export interface WeakAreaItem {
   level: MasteryLevel
 }
 
+export interface ClassOverviewStudent {
+  id: string
+  name: string
+  gradeLevel?: string
+}
+
 export interface ClassOverview {
   teacherId: string
   studentCount: number
   averageScore: number
   gradeGroups: Record<string, number>
   topWeakAreas: WeakAreaItem[]
+  students?: ClassOverviewStudent[]
+}
+
+export interface TeacherStudentSummary {
+  teacherId: string
+  student: {
+    id: string
+    name: string
+    gradeLevel?: string
+    avatar?: string
+    nickname?: string
+  }
+  progress?: {
+    completedModules?: number
+    totalModules?: number
+  }
+  masteryCount: number
+  activeSkills: number
+}
+
+export interface TeacherAssignmentItem {
+  studentId: string
+  studentName: string
+  gradeLevel?: string
+  assignedAt: string
 }
 
 export async function fetchClassOverview(): Promise<ClassOverview | null> {
@@ -30,9 +61,16 @@ export async function fetchClassWeakAreas(): Promise<unknown[]> {
   return Array.isArray(data.weakAreas) ? data.weakAreas : []
 }
 
-export async function fetchStudentSummary(studentId: string): Promise<unknown | null> {
-  const res = await api.get<ApiSuccess<unknown>>(`/teacher/students/${encodeURIComponent(studentId)}/summary`)
+export async function fetchStudentSummary(studentId: string): Promise<TeacherStudentSummary | null> {
+  const res = await api.get<ApiSuccess<{ summary: TeacherStudentSummary }>>(
+    `/teacher/students/${encodeURIComponent(studentId)}/summary`,
+  )
   if (!res.data.success) return null
-  const data = res.data.data as { summary?: unknown }
-  return data.summary ?? null
+  return res.data.data.summary ?? null
+}
+
+export async function fetchTeacherAssignments(): Promise<TeacherAssignmentItem[]> {
+  const res = await api.get<ApiSuccess<{ assignments: TeacherAssignmentItem[] }>>('/teacher/assignments')
+  if (!res.data.success) return []
+  return res.data.data.assignments ?? []
 }

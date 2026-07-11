@@ -322,14 +322,57 @@ function mockForPath(pathname: string, method: string, body: Record<string, unkn
             level: 'developing',
           },
         ],
+        students: [
+          { id: 'student-e2e-1', name: 'Emily Chen', gradeLevel: '3' },
+          { id: 'student-e2e-2', name: 'Alex Rivera', gradeLevel: '4' },
+        ],
       },
     })
   }
   if (pathname === '/api/v1/teacher/class/weak-areas') {
-    return okEnvelope({ weakAreas: [] })
+    return okEnvelope({
+      weakAreas: [
+        {
+          skillId: 'skill-1',
+          skillName: 'Fractions',
+          averageScore: 42,
+          level: 'developing',
+        },
+      ],
+    })
+  }
+  if (pathname === '/api/v1/teacher/assignments') {
+    return okEnvelope({
+      assignments: [
+        {
+          studentId: 'student-e2e-1',
+          studentName: 'Emily Chen',
+          gradeLevel: '3',
+          assignedAt: '2026-06-01T00:00:00.000Z',
+        },
+        {
+          studentId: 'student-e2e-2',
+          studentName: 'Alex Rivera',
+          gradeLevel: '4',
+          assignedAt: '2026-06-15T00:00:00.000Z',
+        },
+      ],
+    })
   }
   if (pathname.startsWith('/api/v1/teacher/students/') && pathname.endsWith('/summary')) {
-    return okEnvelope({ summary: null })
+    return okEnvelope({
+      summary: {
+        teacherId: 'teacher-e2e',
+        student: {
+          id: 'student-e2e-1',
+          name: 'Emily Chen',
+          gradeLevel: '3',
+        },
+        progress: { completedModules: 2, totalModules: 5 },
+        masteryCount: 12,
+        activeSkills: 8,
+      },
+    })
   }
 
   if (pathname === '/api/v1/wrong-answers' || pathname === '/api/v1/wrong-answers/review-due') {

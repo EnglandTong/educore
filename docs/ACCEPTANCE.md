@@ -1,86 +1,78 @@
-# Acceptance Contract - EduCore
+# ACCEPTANCE - EduCore
 
-Status: Controller/QA Signed - Milestone Complete
+Status: M50 Planning Baseline
 Owner: Controller/QA
-Last updated: 2026-06-19
-
-## Milestone Goal
-
-EduCore must be buildable, testable, and reviewable as a local acceptance candidate for the rural adaptive learning MVP. The milestone focuses on core learning flow evidence, adaptive algorithm coverage, and warm non-judgmental learner UX.
+Last updated: 2026-07-06
+Latest accepted baseline: M49 - Teacher Arc M40-M49 Final Regression
 
 ## Must Pass
 
-- [x] Repository integrity is sufficient for local acceptance.
-  - Evidence required: automatic
-  - Required command: `powershell -ExecutionPolicy Bypass -File .\agent-loop-check.ps1 -SkipInstall -Strict`
-  - Pass condition: command exits `0` and prints `Acceptance check passed` with a completion timestamp.
-
-- [x] Adaptive learning algorithms have test coverage.
-  - Evidence required: automatic
-  - Required evidence: `packages/algorithms` tests pass through the root acceptance check.
-  - Pass condition: BKT, IRT, scoring, diagnostic strategy, question selection, spaced repetition, and content simulation tests pass.
-
-- [x] Core learner smoke flow is verifiable.
-  - Evidence required: automatic + functional
-  - Required e2e flow: register/signin -> check-in -> diagnostic -> practice/training -> wrong answers/review notes -> heart journal or proud wall.
-  - Pass condition: Playwright web journey smoke passes and evidence report is generated at `apps/web/e2e-report/index.html`.
-
-- [x] Student UX copy is warm and non-judgmental.
-  - Evidence required: rubric + functional review
-  - Required evidence: `docs/RUBRIC.md` scoring and `docs/UX_REVIEW_NOTES.md`.
-  - Pass condition: no category below 3/5 and total score at least 20/25.
-
-- [x] Agent Loop evidence is current.
+- [ ] Target contract is updated for the equal learning and growth ecosystem goal.
   - Evidence required: documentation
-  - Required files: `docs/LOOP_STATE_Workbuddy.md`, `docs/LOOP_LOG_Workbuddy.jsonl`, `docs/ACCEPTANCE_EVIDENCE_2026-06-16.md`.
-  - Pass condition: latest entry has exact timestamp, commands, status, and evidence paths.
+  - Current evidence: `Docs/TARGET.md` includes User Goal, service ecosystem, Success Criteria, Non-Goals, evidence categories, and failure examples.
+
+- [ ] M50 work order exists and is bounded to docs-only rebaseline work.
+  - Evidence required: documentation
+  - Current evidence: `Docs/WORK_ORDER_M50.md` defines M50-R1 through M50-R4, dependencies, allowed files, forbidden work, and verification commands.
+
+- [ ] Student protection and consent gates are explicit.
+  - Evidence required: documentation + review
+  - Current evidence: `Docs/TARGET.md`, `Docs/STOP_RULES.md`, and `Docs/WORK_ORDER_M50.md` define that student contact, volunteer interaction, enterprise involvement, mentorship, and matching require consent, auditability, and later explicit milestones.
+
+- [ ] Fairness and non-labeling requirements are explicit.
+  - Evidence required: documentation + review
+  - Current evidence: target and acceptance rules prohibit negative labels based on region, poverty, school resources, or background.
+
+- [ ] Volunteer and enterprise resource governance is explicit before implementation.
+  - Evidence required: documentation + review
+  - Current evidence: roadmap and stop rules require audit, approval, ownership, safe boundaries, and no direct implementation in M50.
+
+- [ ] M49 accepted verification baseline is preserved.
+  - Evidence required: documentation
+  - Current evidence: M49 baseline recorded as typecheck PASS, build PASS, e2e 17/17 PASS; no M50 docs-only change may lower this baseline.
+
+- [ ] Agent Loop evidence remains current and objective.
+  - Evidence required: documentation
+  - Current evidence: active work must update loop state/logs and record exact commands, results, evidence paths, and timestamps.
+
+## Should Pass
+
+- [ ] `Docs/PROJECT_ROADMAP.md` includes the M50-M80 roadmap with each milestone's use, goal, and requirements.
+  - Evidence required: documentation
+  - Current evidence: roadmap section exists and references M50 as the next planning baseline.
+
+- [ ] Future product milestones are staged from safety and governance toward implementation.
+  - Evidence required: documentation
+  - Current evidence: M50-M53 cover vision, roles, consent, and fairness before feature expansion.
+
+- [ ] Existing teacher arc evidence remains easy to locate.
+  - Evidence required: documentation
+  - Current evidence: references to `Docs/QA_M49_ACCEPTANCE_2026-07-06.md`, `Docs/M40_M49_BATCH_PLAN_2026-07-06.md`, and `Docs/EVIDENCE_LEDGER_M27_M47_2026-07-06.md`.
+
+## Manual Confirmation Needed
+
+- [ ] Owner approval is needed before any production deployment, real credential use, live student data access, or external service integration.
+  - Reason: these exceed M50 planning scope and trigger stop rules.
+
+- [ ] Owner / Controller approval is needed before implementing volunteer-student contact, enterprise talent programs, mentorship sessions, or matching engines.
+  - Reason: these involve student protection, consent, audit, fairness, and organizational governance.
+
+- [ ] Controller/QA approval is needed to mark any milestone `Accepted` or `Completed`.
+  - Reason: Developer can only hand off as Developer Complete, Ready for Controller/QA Review, Blocked, or Failed / Needs Fix.
 
 ## Known Exclusions
 
-- Production deployment mode is not signed off in this milestone.
-- Production secrets, private keys, and cloud credentials are outside this milestone.
-- Damaged recovery artifacts and `node_modules` fragments are not acceptance evidence.
+- Production deployment and production operations.
+- Production secrets, OAuth, Supabase secrets, private keys, and paid cloud credentials.
+- Real customer data, real student records, and production data.
+- Schema migration and assignment CRUD unless later authorized.
+- Volunteer, mentor, enterprise, matching, and student-contact implementation in M50.
+- New architecture, new subsystem, or shared layer without Owner approval.
+- Work outside `D:\Development\EduCore`.
 
-## Current Blocking Rules
+## Completion Gate
 
-Set status to `Blocked` in `docs/EVALUATION.md` if any of the following occurs:
-
-- `Docs/ACCEPTANCE.md` or `Docs/RUBRIC.md` cannot be maintained.
-- The strict acceptance command fails three consecutive times for the same unresolved reason.
-- A fix requires production credentials, external service configuration, or architecture changes beyond the current work orders.
-- A task requires writing outside `D:\Development\EduCore`.
-
-## Developer Completion - 2026-06-19
-
-- Completed: `2026-06-19T15:22:48+08:00`
-- Status: `PASS - Developer complete, ready for Controller/QA final review`
-- Command: `powershell -ExecutionPolicy Bypass -File .\agent-loop-check.ps1 -SkipInstall -Strict`
-- Result: `Acceptance check passed`
-- Evidence paths:
-  - `docs/ACCEPTANCE_EVIDENCE_2026-06-16.md`
-  - `docs/RUBRIC.md`
-  - `docs/UX_REVIEW_NOTES.md`
-  - `docs/LOOP_STATE_Workbuddy.md`
-  - `apps/web/e2e-report/index.html`
-
-## Developer Rework Completion - 2026-06-19
-
-- Completed: `2026-06-19T16:29:36+08:00`
-- Status: `PASS - returned for Controller/QA re-review`
-- Command: `powershell -ExecutionPolicy Bypass -File .\agent-loop-check.ps1 -SkipInstall -Strict`
-- Result: `Acceptance check passed`
-- Return issue resolved: strict e2e no longer marks timeout as PASS without validating captured success output and absence of fail/error/stderr markers.
-
-## Controller/QA Signoff - 2026-06-19
-
-- Signed: `2026-06-19T17:49:06+08:00`
-- Status: `PASS - Milestone complete`
-- Reviewed must-pass items:
-  - Repository integrity: `PASS`
-  - Adaptive learning algorithm coverage: `PASS`
-  - Core learner smoke flow: `PASS`
-  - Student UX copy and rubric threshold: `PASS`
-  - Agent Loop evidence currency: `PASS`
-- Controller verification command: `powershell -ExecutionPolicy Bypass -File .\agent-loop-check.ps1 -SkipInstall -Strict`
-- Controller verification result: exit `0`, output included `Acceptance check passed`.
-- UX rubric: `20/25`, no category below `3/5`.
+- Done: all Must Pass items have objective evidence, verification commands or documentation checks pass, no stop rule is triggered, and work remains inside `Docs/` scope for M50.
+- Done with Risk: core docs are complete but a non-blocking evidence gap is explicitly recorded with owner and follow-up.
+- Blocked: credentials, production data, student-contact authorization, architecture changes, project-boundary changes, repeated failures, or unresolved scope conflicts are required.
+- Failed / Needs Fix: any Must Pass item lacks evidence, contradicts `Docs/TARGET.md`, or weakens M49 accepted baseline.

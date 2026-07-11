@@ -1,0 +1,5 @@
+# M54/M55/M56 export lines to add to packages/types/src/index.ts
+# (parallel task owns index.ts — do NOT edit index.ts directly from this milestone batch)
+export * from "./taxonomy.js";
+export * from "./adaptive.js";
+export * from "./exam.js";

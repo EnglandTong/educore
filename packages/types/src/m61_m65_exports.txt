@@ -1,0 +1,7 @@
+# M61/M62/M63/M64/M65 export lines to add to packages/types/src/index.ts
+# (parallel task owns index.ts — do NOT edit index.ts directly from this milestone batch)
+export * from "./intervention.js";
+export * from "./communication.js";
+export * from "./volunteer-registry.js";
+export * from "./volunteer-org.js";
+export * from "./volunteer-enterprise.js";

@@ -1,0 +1,7 @@
+# M71/M72/M73/M74/M75 export lines to add to packages/types/src/index.ts
+# (orchestrator owns index.ts — do NOT edit index.ts directly from this milestone batch)
+export * from "./work-exposure.js";
+export * from "./talent.js";
+export * from "./cultivation.js";
+export * from "./governance.js";
+export * from "./ecosystem.js";

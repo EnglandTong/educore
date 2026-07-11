@@ -1,0 +1,7 @@
+# M76/M77/M78/M79/M80 export lines to add to packages/types/src/index.ts
+# (orchestrator owns index.ts — do NOT edit index.ts directly from this milestone batch)
+export * from "./pilot.js";
+export * from "./feedback.js";
+export * from "./impact.js";
+export * from "./privacy.js";
+export * from "./evidence-pack.js";

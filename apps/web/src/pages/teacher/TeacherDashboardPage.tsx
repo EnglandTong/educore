@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import { fetchClassOverview, fetchClassWeakAreas } from '@/api/teacher'
 import { Card } from '@/components/ui/Card'
+import { TeacherStatGrid } from '@/components/teacher/TeacherStatCard'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { Skeleton } from '@/components/ui/Skeleton'
 import { WarmQueryError } from '@/components/shared/WarmQueryError'
@@ -25,6 +26,10 @@ export function TeacherDashboardPage() {
   const weakQuery = useQuery({ queryKey: ['teacher-class-weak-areas'], queryFn: fetchClassWeakAreas })
 
   const weak = weakQuery.data ?? []
+  const overview = overviewQuery.data
+  const gradeLevelCount = overview
+    ? Object.keys(overview.gradeGroups).length
+    : 0
 
   return (
     <div className="space-y-8">
@@ -55,10 +60,14 @@ export function TeacherDashboardPage() {
               description="Overview metrics will appear as soon as your class data connects — your care in the room already counts."
             />
           ) : (
-            <p className="rounded-[var(--radius-lg)] bg-[hsl(var(--color-primary)/0.06)] p-4 text-sm leading-relaxed text-[hsl(var(--color-text-secondary))]">
-              We received a fresh bundle from the server — richer cards will interpret it for you soon. For now, take a
-              breath: the connection is open, and your instincts still matter most.
-            </p>
+            <TeacherStatGrid
+              items={[
+                { label: 'Assigned students', value: overview!.studentCount },
+                { label: 'Average score', value: overview!.averageScore },
+                { label: 'Grade levels', value: gradeLevelCount },
+                { label: 'Weak areas', value: overview!.topWeakAreas.length },
+              ]}
+            />
           )}
         </Card>
 
@@ -94,6 +103,21 @@ export function TeacherDashboardPage() {
           )}
         </Card>
       </div>
+
+      <Card className="flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <h2 className="font-display text-lg font-semibold">Assignment overview</h2>
+          <p className="text-sm text-[hsl(var(--color-text-secondary))]">
+            See every assigned student, grade distribution, and shared weak areas in one place.
+          </p>
+        </div>
+        <Link
+          to={routes.teacherAssignmentOverview}
+          className="inline-flex min-h-[44px] items-center justify-center rounded-[var(--radius-xl)] border border-[hsl(var(--color-primary))] bg-transparent px-5 py-3 text-sm font-semibold text-[hsl(var(--color-primary))] transition-[background-color,transform] duration-[var(--transition-base)] hover:bg-[hsl(var(--color-primary)/0.06)] active:scale-[0.99]"
+        >
+          View assignments
+        </Link>
+      </Card>
 
       <Card className="flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:justify-between">
         <div>

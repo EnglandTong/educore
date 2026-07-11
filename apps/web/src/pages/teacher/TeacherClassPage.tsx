@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query'
 import { Link } from 'react-router-dom'
 
-import { fetchClassOverview, fetchClassWeakAreas } from '@/api/teacher'
+import { fetchClassOverview, fetchClassWeakAreas, fetchTeacherAssignments } from '@/api/teacher'
 import { Card } from '@/components/ui/Card'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { Skeleton } from '@/components/ui/Skeleton'
@@ -43,9 +43,20 @@ function rosterFromOverview(overview: unknown): { id: string; label: string }[] 
 export function TeacherClassPage() {
   const overviewQuery = useQuery({ queryKey: ['teacher-class-overview'], queryFn: fetchClassOverview })
   const weakQuery = useQuery({ queryKey: ['teacher-class-weak-areas'], queryFn: fetchClassWeakAreas })
+  const assignmentsQuery = useQuery({
+    queryKey: ['teacher', 'assignments'],
+    queryFn: fetchTeacherAssignments,
+  })
 
-  const roster = rosterFromOverview(overviewQuery.data ?? null)
+  const rosterFromAssignments = (assignmentsQuery.data ?? []).map((a) => ({
+    id: a.studentId,
+    label: a.studentName,
+  }))
+  const rosterOverview = rosterFromOverview(overviewQuery.data ?? null)
+  const roster = rosterOverview.length > 0 ? rosterOverview : rosterFromAssignments
   const weak = weakQuery.data ?? []
+  const rosterLoading = overviewQuery.isLoading || (rosterOverview.length === 0 && assignmentsQuery.isLoading)
+  const rosterError = overviewQuery.isError && assignmentsQuery.isError
 
   return (
     <div className="space-y-8">
@@ -64,13 +75,16 @@ export function TeacherClassPage() {
         <p className="text-sm text-[hsl(var(--color-text-secondary))]">
           Tap a name to open their gentle snapshot — celebrate strengths before planning supports.
         </p>
-        {overviewQuery.isError ? (
+        {rosterError ? (
           <WarmQueryError
             title="Learner list could not load"
             description="Something went wrong on our end while fetching your class roster — your care in the room is unchanged."
-            onRetry={() => void overviewQuery.refetch()}
+            onRetry={() => {
+              void overviewQuery.refetch()
+              void assignmentsQuery.refetch()
+            }}
           />
-        ) : overviewQuery.isLoading ? (
+        ) : rosterLoading ? (
           <Skeleton className="h-24 w-full" />
         ) : roster.length === 0 ? (
           <EmptyState

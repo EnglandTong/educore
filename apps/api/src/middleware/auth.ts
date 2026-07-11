@@ -6,7 +6,7 @@ import { AppError, warmErrors } from "../utils/errors.js";
 
 export interface AuthUser {
   id: string;
-  role: "student" | "parent" | "teacher" | "admin" | "volunteer" | "school-admin";
+  role: "student" | "parent" | "teacher" | "admin" | "volunteer" | "school-admin" | "volunteer-teacher" | "volunteer-school" | "volunteer-org" | "volunteer-enterprise";
   email: string;
 }
 

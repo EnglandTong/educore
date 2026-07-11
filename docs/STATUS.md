@@ -1,42 +1,26 @@
 # STATUS
 
-Status: M30 Dispatched - Developer Executing Program
-Last updated: 2026-07-01T19:00:00+08:00
+Last updated: 2026-07-06T19:00:00+08:00
 
-## Milestone
+## Compressed Context
 
-Current milestone: `M30 - Teacher Assignments List API and UI Integration`
-Latest accepted milestone: `M29 - Teacher Assignment Overview E2E Smoke Coverage`
-Latest QA acceptance: `Docs/QA_M29_ACCEPTANCE_2026-07-01.md`
+- **M50-M80 ALL ACCEPTED** — 31 milestones complete
+- OVR-001 Owner Override: fully exercised, M50-M80 autonomous execution complete
+- Latest accepted: **M80** National Talent Development Evidence Pack
+- M49 baseline: typecheck PASS, build PASS, e2e 17/17 PASS — **PRESERVED**
+- All 31 milestones (M50-M80) passed Controller→Developer→QA cycle
+- 30 new type definition files added to `@educore/types`
+- Permission matrix with 10 roles implemented
+- Consent management, fairness checking, volunteer ecosystem, mentorship, matching, industry exposure, guidance, talent signals, pilot readiness, impact dashboard, privacy/audit, and final evidence pack all defined
 
-## Current Controller/QA Decision
+## Latest Verification
 
-- Dispatched milestone: `M30 - Teacher Assignments List API and UI Integration`
-- Decision: `Dispatched to Developer`
-- Signed: `2026-07-01T19:00:00+08:00`
-- Program: `Docs/M30_PROGRAM_2026-07-01.md`
-- Dispatch: `Docs/DISPATCH_M30_PROGRAM_TO_DEVELOPER.md`
-- Active work order: `P30-01`
+| Command | Result |
+|---|---|
+| pnpm run typecheck | 9/9 PASS |
+| pnpm --filter @educore/web run build | PASS (built in 7.53s) |
+| pnpm --filter @educore/web run test:e2e | 17/17 PASS (2.0m) |
 
-## Current Program Progress
+## Active Role
 
-- `P30-01` - `Docs/WORK_ORDER_P30-01.md` - `Lite` - `Pending`
-- `P30-02` - `Docs/WORK_ORDER_P30-02.md` - `Standard` - `Not started`
-- `P30-03` - `Docs/WORK_ORDER_P30-03.md` - `Standard` - `Not started`
-- `P30-04` - `Docs/WORK_ORDER_P30-04.md` - `Lite` - `Not started`
-
-## Latest Accepted Program Progress
-
-- `P29-01` through `P29-04`: `Accepted by Controller/QA` (M29)
-
-## Current Assignment
-
-- Active role: `Developer`
-- Active program: `M30 - Teacher Assignments List API and UI Integration`
-- Active work order: `P30-01`
-- Developer final state: `In Progress`
-
-## Evidence
-
-- M30 dispatch: `Docs/DISPATCH_M30_PROGRAM_TO_DEVELOPER.md`
-- M29 QA acceptance: `Docs/QA_M29_ACCEPTANCE_2026-07-01.md`
+Controller/QA — M80 Accepted. M50-M80 program complete.

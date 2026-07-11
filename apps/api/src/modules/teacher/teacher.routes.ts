@@ -4,7 +4,7 @@ import { z } from "zod";
 import { requireAuth } from "../../middleware/auth.js";
 import { validateRequest } from "../../middleware/validate.js";
 import { assertRole } from "../../services/access.service.js";
-import { getClassOverview, getClassWeakAreas, getStudentSummary } from "../../services/teacher.service.js";
+import { getClassOverview, getClassWeakAreas, getStudentSummary, getTeacherAssignments } from "../../services/teacher.service.js";
 import { sendSuccess } from "../../utils/response.js";
 
 const studentParams = z.object({ id: z.string().min(1) });
@@ -27,5 +27,11 @@ export const teacherRoutes: FastifyPluginAsync = async (app) => {
     assertRole(request.user!, ["teacher", "admin"]);
     const weakAreas = await getClassWeakAreas(request.user!.id);
     return sendSuccess(reply, request, { weakAreas });
+  });
+
+  app.get("/assignments", { preHandler: requireAuth }, async (request, reply) => {
+    assertRole(request.user!, ["teacher", "admin"]);
+    const result = await getTeacherAssignments(request.user!.id);
+    return sendSuccess(reply, request, result);
   });
 };

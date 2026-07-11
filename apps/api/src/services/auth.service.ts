@@ -1,5 +1,6 @@
 import { randomBytes, randomUUID, scryptSync } from "node:crypto";
 import { SignJWT, jwtVerify } from "jose";
+import type { UserRole } from "@educore/types";
 
 import { env } from "../config/env.js";
 import { getRedis } from "../config/redis.js";
@@ -27,7 +28,7 @@ export interface UserProfileDTO {
   id: string;
   name: string;
   email: string;
-  role: "student" | "parent" | "teacher" | "admin" | "volunteer" | "school-admin";
+  role: UserRole;
   avatar?: string;
   nickname?: string;
   age?: number;
