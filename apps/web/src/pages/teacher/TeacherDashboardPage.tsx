@@ -8,18 +8,7 @@ import { EmptyState } from '@/components/ui/EmptyState'
 import { Skeleton } from '@/components/ui/Skeleton'
 import { WarmQueryError } from '@/components/shared/WarmQueryError'
 import { routes } from '@/router/routes'
-
-function weakAreaLabel(item: unknown): string {
-  if (typeof item === 'string') return item
-  if (!item || typeof item !== 'object') return 'A shared practice worth extra love'
-  const o = item as Record<string, unknown>
-  return (
-    (typeof o.label === 'string' && o.label) ||
-    (typeof o.skillName === 'string' && o.skillName) ||
-    (typeof o.title === 'string' && o.title) ||
-    'A pattern we can lift together with patience'
-  )
-}
+import { weakAreaLabel } from '@/utils/teacherLabels'
 
 export function TeacherDashboardPage() {
   const overviewQuery = useQuery({ queryKey: ['teacher-class-overview'], queryFn: fetchClassOverview })

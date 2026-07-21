@@ -97,10 +97,10 @@ export const schoolRoutes: FastifyPluginAsync = async (app) => {
     return sendSuccess(reply, request, { teachers });
   });
 
-  // GET /api/v1/school/classes — list classes (placeholder)
+  // GET /api/v1/school/classes — PLACEHOLDER (see Docs/PLACEHOLDER_ENDPOINTS.md)
   app.get("/api/v1/school/classes", { preHandler: requireSchoolAdmin() }, async (request, reply) => {
     const schoolId = await getAdminSchoolId(request.user!.id);
-    // Placeholder — class management is planned for a future sprint
+    // Incomplete: always empty. Not an accepted class-management feature.
     return sendSuccess(reply, request, { classes: [], schoolId });
   });
 };

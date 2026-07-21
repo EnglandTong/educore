@@ -1,4 +1,5 @@
 import type { MasteryLevel, ProgressOverview, SkillMastery as SkillMasteryDTO } from "@educore/types";
+import { scoreToMasteryLevel } from "@educore/constants";
 
 import { getRedis } from "../config/redis.js";
 import { SkillMastery } from "../models/SkillMastery.js";
@@ -7,12 +8,7 @@ import { getLoadedModules } from "./moduleLoader.js";
 const PROGRESS_CACHE_TTL_SECONDS = 30;
 
 function toLevel(score: number): MasteryLevel {
-  if (score < 30) return "seedling";
-  if (score < 50) return "growing";
-  if (score < 70) return "developing";
-  if (score < 85) return "proficient";
-  if (score < 95) return "advanced";
-  return "mastered";
+  return scoreToMasteryLevel(score);
 }
 
 function progressCacheKey(studentId: string): string {

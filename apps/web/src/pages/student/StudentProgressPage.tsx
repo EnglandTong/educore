@@ -22,24 +22,9 @@ import { EmptyState } from '@/components/ui/EmptyState'
 import { ProgressRing } from '@/components/ui/ProgressRing'
 import { Skeleton } from '@/components/ui/Skeleton'
 import { routes } from '@/router/routes'
-import type { MasteryLevel, SkillMastery } from '@/types'
+import type { SkillMastery } from '@/types'
 import { cn } from '@/utils/cn'
-
-const masteryLevels: MasteryLevel[] = [
-  'seedling',
-  'growing',
-  'developing',
-  'proficient',
-  'advanced',
-  'mastered',
-]
-
-function parseMasteryLevel(level: string | undefined): MasteryLevel {
-  if (level && masteryLevels.includes(level as MasteryLevel)) {
-    return level as MasteryLevel
-  }
-  return 'developing'
-}
+import { parseMasteryLevel } from '@/utils/mastery'
 
 function formatShortDate(iso: string): string {
   try {

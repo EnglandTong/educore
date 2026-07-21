@@ -59,6 +59,7 @@ async function processOperation(
 export async function getSyncStatus(
   _userId: string,
 ): Promise<{ pendingOperations: number; lastSyncedAt: string | null }> {
-  // Placeholder — in production, query sync_log collection
+  // PLACEHOLDER — see Docs/PLACEHOLDER_ENDPOINTS.md
+  // Incomplete: does not query sync_log or client queue. Not an accepted sync-status feature.
   return { pendingOperations: 0, lastSyncedAt: null };
 }

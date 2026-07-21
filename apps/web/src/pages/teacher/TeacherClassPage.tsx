@@ -1,62 +1,25 @@
 import { useQuery } from '@tanstack/react-query'
 import { Link } from 'react-router-dom'
 
-import { fetchClassOverview, fetchClassWeakAreas, fetchTeacherAssignments } from '@/api/teacher'
+import { fetchClassOverview, fetchClassWeakAreas } from '@/api/teacher'
 import { Card } from '@/components/ui/Card'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { Skeleton } from '@/components/ui/Skeleton'
 import { WarmQueryError } from '@/components/shared/WarmQueryError'
 import { routes, teacherStudentPath } from '@/router/routes'
-
-function weakAreaLabel(item: unknown): string {
-  if (typeof item === 'string') return item
-  if (!item || typeof item !== 'object') return 'A place we can nurture together'
-  const o = item as Record<string, unknown>
-  return (
-    (typeof o.label === 'string' && o.label) ||
-    (typeof o.skillName === 'string' && o.skillName) ||
-    (typeof o.title === 'string' && o.title) ||
-    (typeof o.topic === 'string' && o.topic) ||
-    'A gentle focus for extra care this week'
-  )
-}
-
-function rosterFromOverview(overview: unknown): { id: string; label: string }[] {
-  if (!overview || typeof overview !== 'object') return []
-  const o = overview as Record<string, unknown>
-  const students = o.students ?? o.learners ?? o.roster
-  if (!Array.isArray(students)) return []
-  return students.flatMap((s) => {
-    if (!s || typeof s !== 'object') return []
-    const r = s as Record<string, unknown>
-    const id = typeof r.id === 'string' ? r.id : typeof r.studentId === 'string' ? r.studentId : ''
-    const label =
-      (typeof r.name === 'string' && r.name) ||
-      (typeof r.displayName === 'string' && r.displayName) ||
-      (typeof r.email === 'string' && r.email) ||
-      'Learner'
-    if (!id) return []
-    return [{ id, label }]
-  })
-}
+import { weakAreaLabel } from '@/utils/teacherLabels'
 
 export function TeacherClassPage() {
   const overviewQuery = useQuery({ queryKey: ['teacher-class-overview'], queryFn: fetchClassOverview })
   const weakQuery = useQuery({ queryKey: ['teacher-class-weak-areas'], queryFn: fetchClassWeakAreas })
-  const assignmentsQuery = useQuery({
-    queryKey: ['teacher', 'assignments'],
-    queryFn: fetchTeacherAssignments,
-  })
 
-  const rosterFromAssignments = (assignmentsQuery.data ?? []).map((a) => ({
-    id: a.studentId,
-    label: a.studentName,
+  const roster = (overviewQuery.data?.students ?? []).map((s) => ({
+    id: s.id,
+    label: s.name,
   }))
-  const rosterOverview = rosterFromOverview(overviewQuery.data ?? null)
-  const roster = rosterOverview.length > 0 ? rosterOverview : rosterFromAssignments
   const weak = weakQuery.data ?? []
-  const rosterLoading = overviewQuery.isLoading || (rosterOverview.length === 0 && assignmentsQuery.isLoading)
-  const rosterError = overviewQuery.isError && assignmentsQuery.isError
+  const rosterLoading = overviewQuery.isLoading
+  const rosterError = overviewQuery.isError
 
   return (
     <div className="space-y-8">
@@ -81,7 +44,6 @@ export function TeacherClassPage() {
             description="Something went wrong on our end while fetching your class roster — your care in the room is unchanged."
             onRetry={() => {
               void overviewQuery.refetch()
-              void assignmentsQuery.refetch()
             }}
           />
         ) : rosterLoading ? (

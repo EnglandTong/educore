@@ -14,8 +14,8 @@ import { ModulePicker } from '@/components/learning/ModulePicker'
 import { routes } from '@/router/routes'
 import { useAuthStore } from '@/stores/authStore'
 import { useSessionStore } from '@/stores/sessionStore'
-import type { MasteryLevel } from '@/types'
 import { formatDisplayName } from '@/utils/formatters'
+import { parseMasteryLevel } from '@/utils/mastery'
 import { cn } from '@/utils/cn'
 
 function greetingKey(): string {
@@ -23,22 +23,6 @@ function greetingKey(): string {
   if (hour < 12) return 'student.greetingMorning'
   if (hour < 18) return 'student.greetingAfternoon'
   return 'student.greetingEvening'
-}
-
-const masteryLevels: MasteryLevel[] = [
-  'seedling',
-  'growing',
-  'developing',
-  'proficient',
-  'advanced',
-  'mastered',
-]
-
-function parseMasteryLevel(level: string | undefined): MasteryLevel {
-  if (level && masteryLevels.includes(level as MasteryLevel)) {
-    return level as MasteryLevel
-  }
-  return 'developing'
 }
 
 export function StudentDashboardPage() {

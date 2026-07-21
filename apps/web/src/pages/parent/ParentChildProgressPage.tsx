@@ -11,24 +11,8 @@ import { ProgressRing } from '@/components/ui/ProgressRing'
 import { Skeleton } from '@/components/ui/Skeleton'
 import { WarmQueryError } from '@/components/shared/WarmQueryError'
 import { parentSubjectGuidePath, routes } from '@/router/routes'
-import type { MasteryLevel } from '@/types'
 import { cn } from '@/utils/cn'
-
-const masteryLevels: MasteryLevel[] = [
-  'seedling',
-  'growing',
-  'developing',
-  'proficient',
-  'advanced',
-  'mastered',
-]
-
-function parseMasteryLevel(level: string | undefined): MasteryLevel {
-  if (level && masteryLevels.includes(level as MasteryLevel)) {
-    return level as MasteryLevel
-  }
-  return 'developing'
-}
+import { parseMasteryLevel } from '@/utils/mastery'
 
 function formatWhen(iso: string): string {
   try {
