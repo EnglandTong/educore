@@ -1,19 +1,21 @@
 # CMS - Controller Milestone State
 
-Status: M30 Dispatched
-Last updated: 2026-07-01T19:00:00+08:00
+Status: M81A Active
+Last updated: 2026-07-23T20:30:00+08:00
 
 ## Current State
 
-- Latest accepted milestone: `M29 - Teacher Assignment Overview E2E Smoke Coverage` - `Accepted`
-- Current milestone: `M30 - Teacher Assignments List API and UI Integration` - `Dispatched`
-- Active work order: `P30-01`
+- Latest accepted milestone: `M80 - National Talent Development Evidence Pack` - `Accepted`
+- Current milestone: `M81A - Verification Baseline & Governance Convergence` - `Active`
+- Active work order: `Docs/WORK_ORDER_M81A.md`
 
 ## Decision
 
-M30 dispatched to deliver read-only teacher assignments list API and UI integration, closing deferred follow-up from M27-M29.
+M81A dispatched as emergency hotfix within M81 to restore broken typecheck/build baseline, fix data integrity bugs, and converge governance state files that drifted during M50-M80 batch execution.
 
 ## Evidence Baseline
 
-- `Docs/DISPATCH_M30_PROGRAM_TO_DEVELOPER.md`
-- `Docs/QA_M29_ACCEPTANCE_2026-07-01.md`
+- `Docs/WORK_ORDER_M81A.md`
+- `Docs/QA_M80_ACCEPTANCE.md`
+- Verification: typecheck 9/9 PASS, test 12/12 PASS, web build PASS (2026-07-23)
+

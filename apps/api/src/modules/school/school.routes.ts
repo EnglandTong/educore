@@ -60,17 +60,17 @@ export const schoolRoutes: FastifyPluginAsync = async (app) => {
 
     const { User } = await import("../../models/User.js");
     const existingUser = await User.findOne({ email: body.email }).exec();
-    if (existingUser) {
-      // Update existing user's school + role
-      existingUser.schoolId = schoolId;
-      existingUser.role = "teacher";
-      await existingUser.save();
+    if (!existingUser) {
+      throw new AppError(404, "NOT_FOUND", "No user found with this email. Invite flow not yet implemented.");
     }
-    // Note: In production, this would create a user with a temporary password
+    // Update existing user's school + role
+    existingUser.schoolId = schoolId;
+    existingUser.role = "teacher";
+    await existingUser.save();
 
     const school = await (await import("../../models/School.js")).School.findById(schoolId).exec();
-    if (school && !school.teacherIds?.includes(new mongoose.Types.ObjectId(schoolId))) {
-      school.teacherIds = [...(school.teacherIds ?? []), new mongoose.Types.ObjectId(schoolId)];
+    if (school && !school.teacherIds?.some((id) => id.equals(existingUser._id))) {
+      school.teacherIds = [...(school.teacherIds ?? []), existingUser._id];
       await school.save();
     }
 
@@ -89,9 +89,20 @@ export const schoolRoutes: FastifyPluginAsync = async (app) => {
       throw new AppError(404, "NOT_FOUND", "Teacher not found in this school.");
     }
 
+    // Only demote role if currently teacher (preserve admin/other roles)
+    if (teacher.role === "teacher") {
+      teacher.role = "student";
+    }
     teacher.schoolId = undefined;
-    teacher.role = "student";
     await teacher.save();
+
+    // Remove from school.teacherIds
+    const { School } = await import("../../models/School.js");
+    const school = await School.findById(schoolId).exec();
+    if (school?.teacherIds) {
+      school.teacherIds = school.teacherIds.filter((id) => !id.equals(teacher._id));
+      await school.save();
+    }
 
     const teachers = await listTeachers(schoolId);
     return sendSuccess(reply, request, { teachers });

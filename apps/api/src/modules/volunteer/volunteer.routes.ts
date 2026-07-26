@@ -12,6 +12,11 @@ export const volunteerRoutes: FastifyPluginAsync = async (app) => {
   // POST /api/v1/volunteer/register — register as a volunteer
   app.post("/api/v1/volunteer/register", async (request, reply) => {
     const user = request.user!;
+    // Only student/teacher/parent can apply as volunteers
+    const allowedRoles = ["student", "teacher", "parent"];
+    if (!allowedRoles.includes(user.role)) {
+      throw new AppError(403, "FORBIDDEN", "Only students, teachers, and parents can register as volunteers.");
+    }
     const body = registerVolunteerSchema.parse(request.body);
     const profile = await registerVolunteer(user.id, body);
     return sendSuccess(reply, request, {

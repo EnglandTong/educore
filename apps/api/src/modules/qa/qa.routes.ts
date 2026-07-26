@@ -77,10 +77,23 @@ export const qaRoutes: FastifyPluginAsync = async (app) => {
     }, 201);
   });
 
-  // POST /api/v1/qa/answers/:id/rate — rate an answer
+  // POST /api/v1/qa/answers/:id/rate — rate an answer (only question author)
   app.post("/api/v1/qa/answers/:id/rate", async (request, reply) => {
+    const user = request.user!;
     const { id } = request.params as { id: string };
     const body = rateAnswerSchema.parse(request.body);
+
+    // Ownership check: only the student who asked the question can rate answers
+    const { QAAnswer } = await import("../../models/QAAnswer.js");
+    const answerDoc = await QAAnswer.findById(id).exec();
+    if (!answerDoc) {
+      throw new AppError(404, "NOT_FOUND", "Answer not found.");
+    }
+    const question = await getQuestionById(String(answerDoc.questionId));
+    if (!question || String(question.studentId) !== user.id) {
+      throw new AppError(403, "FORBIDDEN", "Only the question author can rate answers.");
+    }
+
     const answer = await rateAnswer(id, body);
     if (!answer) {
       throw new AppError(404, "NOT_FOUND", "Answer not found.");
