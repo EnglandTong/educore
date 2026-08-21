@@ -1,5 +1,6 @@
 import { LogOut, Menu } from 'lucide-react'
 import { Link, useNavigate } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 import { Avatar } from '@/components/ui/Avatar'
 import { Button } from '@/components/ui/Button'
@@ -14,6 +15,7 @@ export function Header() {
   const clear = useAuthStore((s) => s.clearSession)
   const toggle = useUiStore((s) => s.toggleSidebar)
   const navigate = useNavigate()
+  const { t } = useTranslation()
 
   return (
     <header className="sticky top-0 z-30 flex items-center justify-between gap-4 border-b border-[hsl(var(--color-border))] bg-[hsl(var(--color-surface)/0.9)] px-4 py-3 backdrop-blur-md md:px-8">
@@ -41,7 +43,7 @@ export function Header() {
               <p className="text-sm font-medium text-[hsl(var(--color-text))]">
                 {formatDisplayName(user.name)}
               </p>
-              <p className="text-sm text-[hsl(var(--color-text-muted))]">Glad you are here today</p>
+              <p className="text-sm text-[hsl(var(--color-text-muted))]">{t('layout.gladYouAreHere')}</p>
             </div>
             <Avatar name={user.name} src={user.avatar} size="sm" />
             <Button
@@ -49,14 +51,14 @@ export function Header() {
               variant="ghost"
               size="sm"
               className="min-h-[44px] gap-2"
-              aria-label="Sign out"
+              aria-label={t('layout.signOut')}
               onClick={() => {
                 clear()
                 navigate('/auth/login')
               }}
             >
               <LogOut className="h-4 w-4" />
-              <span className="hidden sm:inline">Sign out</span>
+              <span className="hidden sm:inline">{t('layout.signOut')}</span>
             </Button>
           </>
         ) : null}

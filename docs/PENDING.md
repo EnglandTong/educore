@@ -1,26 +1,23 @@
 # PENDING
 
-Status: M81A Active - Developer Executing
-Last updated: 2026-07-23T20:30:00+08:00
+Status: M82-M86 final audit / handoff
+Last updated: 2026-08-21T00:00:00+08:00
 
 ## Active Work
 
-- Milestone: `M81A - Verification Baseline & Governance Convergence`
-- Work order: `Docs/WORK_ORDER_M81A.md`
-- Status: Code fixes applied, verification green, Docs rebaselined
+- Milestone: `M85/M86 - Collaboration decision and placeholder disposition`
+- Work order: `Docs/WORK_ORDER_M85.md`, `Docs/WORK_ORDER_M86.md`
+- Status: M84 `Accept-with-notes`; M85 and M86 decisions recorded
 
 ## Recently Accepted
 
 - `M80 - National Talent Development Evidence Pack`
 - QA acceptance: `Docs/QA_M80_ACCEPTANCE.md`
 
-## Blocked
+## Final M82-M86 Gates
 
-None.
+- Final evidence index and handoff must link each milestone decision and remaining deferral.
 
 ## Not Authorized
 
-- Self-acceptance of M81A (requires Controller/QA review).
-- PERMISSION_MATRIX middleware extraction (deferred to M82).
-- Placeholder endpoint 501 conversion (deferred to M82+).
-
+- No additional collaboration or destructive cleanup is authorized beyond the two work orders.

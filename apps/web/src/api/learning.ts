@@ -24,6 +24,7 @@ export async function getDiagnosticNext(): Promise<ApiSuccess<unknown>> {
 export async function postDiagnosticAnswer(payload: {
   sessionId: string
   questionId: string
+  eventId: string
   answer: string | string[]
   timeSpent?: number
   hintsUsed?: number
@@ -52,6 +53,7 @@ export async function getTrainingNext(): Promise<ApiSuccess<unknown>> {
 export async function postTrainingAnswer(payload: {
   sessionId: string
   questionId: string
+  eventId: string
   answer: string | string[]
   timeSpent?: number
   hintsUsed?: number

@@ -9,7 +9,7 @@ These endpoints (or stores) return successful HTTP responses but are **not produ
 | Surface | Path / Asset | Current behavior | Completeness | Suggested follow-up |
 |---|---|---|---|---|
 | School admin | `GET /api/v1/school/classes` | Always `{ classes: [], schoolId }` | **Placeholder** | Class management milestone |
-| Sync | `getSyncStatus` via sync routes | Always `{ pendingOperations: 0, lastSyncedAt: null }` | **Placeholder** | Wire to sync_log / client queue |
+| Sync | `getSyncStatus` via sync routes | Queries server-side `AnswerEvent` processing/completion state | **Partial — M84** | Add end-session receipts and full client queue observability |
 | Auth module stub | `modules/auth/auth.service.ts` | Removed in M81 (was dead code) | **Removed** | N/A |
 | IndexedDB | `apps/web/src/db/progress-store.ts` | No app consumers | **Orphan / incomplete** | Mid-term: wire or delete |
 | IndexedDB | `apps/web/src/db/questions-store.ts` | No app consumers | **Orphan / incomplete** | Mid-term: wire or delete |

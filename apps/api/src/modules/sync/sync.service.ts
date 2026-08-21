@@ -1,4 +1,6 @@
 import type { SyncBatchBody, SyncBatchOperation } from "./sync.schema.js";
+import { AnswerEvent } from "../../models/AnswerEvent.js";
+import { SyncEvent } from "../../models/SyncEvent.js";
 
 export interface SyncResult {
   synced: number;
@@ -15,10 +17,24 @@ export async function processSyncBatch(
 
   for (let i = 0; i < body.operations.length; i++) {
     const op = body.operations[i] as SyncBatchOperation;
+    const eventId = op.eventId ?? (op.payload.eventId as string | undefined);
+    let receipt = eventId ? await SyncEvent.findOne({ studentId: userId, eventId }) : null;
     try {
+      if (receipt?.status === "completed") {
+        synced++;
+        continue;
+      }
+      if (!receipt && eventId) {
+        receipt = await SyncEvent.create({ studentId: userId, eventId, operation: op.type, status: "processing" });
+      }
       await processOperation(userId, op);
+      if (receipt) {
+        receipt.status = "completed";
+        await receipt.save();
+      }
       synced++;
     } catch (err) {
+      if (receipt?.status === "processing") await SyncEvent.deleteOne({ _id: receipt._id });
       errors.push({
         index: i,
         message: err instanceof Error ? err.message : "Unknown error",
@@ -38,6 +54,7 @@ async function processOperation(
       const { submitLearningAnswer } = await import("../../services/learning.service.js");
       await submitLearningAnswer(userId, {
         sessionId: op.sessionId,
+        eventId: op.eventId ?? (op.payload.eventId as string | undefined),
         questionId: op.payload.questionId as string,
         answer: op.payload.answer as string | string[],
         timeSpent: op.payload.timeSpent as number | undefined,
@@ -57,9 +74,20 @@ async function processOperation(
 }
 
 export async function getSyncStatus(
-  _userId: string,
+  userId: string,
 ): Promise<{ pendingOperations: number; lastSyncedAt: string | null }> {
-  // PLACEHOLDER — see Docs/PLACEHOLDER_ENDPOINTS.md
-  // Incomplete: does not query sync_log or client queue. Not an accepted sync-status feature.
-  return { pendingOperations: 0, lastSyncedAt: null };
+  const [pendingAnswer, pendingSync, latestAnswer, latestSync] = await Promise.all([
+    AnswerEvent.countDocuments({ studentId: userId, status: "processing" }),
+    SyncEvent.countDocuments({ studentId: userId, status: "processing" }),
+    AnswerEvent.findOne({ studentId: userId, status: "completed" }).sort({ updatedAt: -1 }).lean(),
+    SyncEvent.findOne({ studentId: userId, status: "completed" }).sort({ updatedAt: -1 }).lean()
+  ]);
+  const latest = [latestAnswer?.updatedAt, latestSync?.updatedAt]
+    .filter((value): value is Date => value instanceof Date)
+    .sort((a, b) => b.getTime() - a.getTime())[0];
+
+  return {
+    pendingOperations: pendingAnswer + pendingSync,
+    lastSyncedAt: latest ? latest.toISOString() : null
+  };
 }

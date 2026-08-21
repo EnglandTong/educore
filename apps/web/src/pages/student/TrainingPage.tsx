@@ -1,6 +1,7 @@
 import { useMutation } from '@tanstack/react-query'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 import {
   getTrainingNext,
@@ -30,6 +31,7 @@ import { addOfflineAnswer } from '@/db/sessions-store'
 import { enqueueOperation, registerSyncListener, processSyncQueue } from '@/db/sync-queue'
 
 export function TrainingPage() {
+  const { t } = useTranslation()
   const setTrainingSessionId = useSessionStore((s) => s.setTrainingSessionId)
   const pushToast = useToastStore((s) => s.pushToast)
   const { isOnline } = useNetworkStatus()
@@ -44,8 +46,16 @@ export function TrainingPage() {
   const offlineSessionStarted = useRef(false)
 
   useEffect(() => {
-    registerSyncListener()
-  }, [])
+    registerSyncListener((result) => {
+      if (result.blocked > 0) {
+        pushToast({ variant: 'error', title: 'Sync needs attention', message: `${result.blocked} offline item(s) reached the retry limit and remain unsynced.` })
+      } else if (result.failed > 0) {
+        pushToast({ variant: 'error', title: 'Sync is still trying', message: `${result.failed} offline item(s) will retry when the connection is ready.` })
+      } else if (result.synced > 0) {
+        pushToast({ variant: 'info', title: 'Offline work restored', message: `${result.synced} saved answer(s) synced successfully.` })
+      }
+    })
+  }, [pushToast])
 
   useEffect(() => {
     if (isOnline && offlineSessionStarted.current) {
@@ -99,8 +109,11 @@ export function TrainingPage() {
         return
       }
       const d = env.data
-      if (isLearningSession(d)) {
-        setTrainingSessionId(d.id)
+      const sessionPayload = isLearningSession(d)
+        ? d
+        : (d && typeof d === 'object' && 'session' in d ? (d as { session: unknown }).session : null)
+      if (isLearningSession(sessionPayload)) {
+        setTrainingSessionId(sessionPayload.id)
       } else if (isPlaceholderMessage(d)) {
         pushToast({ variant: 'info', title: 'Almost ready', message: d.message })
       }
@@ -123,6 +136,7 @@ export function TrainingPage() {
       const answer =
         typeof answerVal === 'boolean' ? (answerVal ? 'true' : 'false') : (answerVal ?? '').trim()
       if (!answer) throw new Error('missing-answer')
+      const eventId = crypto.randomUUID()
 
       if (!isOnline) {
         await addOfflineAnswer(sid, {
@@ -132,13 +146,25 @@ export function TrainingPage() {
         })
         await enqueueOperation({
           type: 'submit_answer',
-          payload: { sessionId: sid, questionId: current.questionId, answer, sessionType: 'training' },
+          payload: { sessionId: sid, questionId: current.questionId, eventId, answer, sessionType: 'training' },
         })
         offlineSessionStarted.current = true
         return { success: true, data: { isCorrect: false, feedback: 'Saved offline — will sync when connected.', explanation: '' } }
       }
 
-      return postTrainingAnswer({ sessionId: sid, questionId: current.questionId, answer })
+      try {
+        return await postTrainingAnswer({ sessionId: sid, questionId: current.questionId, eventId, answer })
+      } catch (error) {
+        const maybeAxios = error as { response?: unknown; message?: string }
+        if (maybeAxios.response || maybeAxios.message !== 'Network Error') throw error
+        await addOfflineAnswer(sid, { sessionId: sid, questionId: current.questionId, answer })
+        await enqueueOperation({
+          type: 'submit_answer',
+          payload: { sessionId: sid, questionId: current.questionId, eventId, answer, sessionType: 'training' },
+        })
+        offlineSessionStarted.current = true
+        return { success: true, data: { isCorrect: false, feedback: 'Saved offline — will sync when connected.', explanation: '' } }
+      }
     },
     onSuccess: (env) => {
       if (!env.success) return
@@ -183,9 +209,10 @@ export function TrainingPage() {
       if (!isOnline) {
         const sid = useSessionStore.getState().trainingSessionId
         if (sid) {
+          const eventId = crypto.randomUUID()
           await enqueueOperation({
             type: 'end_session',
-            payload: { sessionId: sid, sessionType: 'training' },
+            payload: { sessionId: sid, eventId, sessionType: 'training' },
           })
         }
         return { success: true, data: { encouragement: 'Session saved offline!', correctCount: 0, totalQuestions: 0, accuracy: 0, growthAreas: [] } }
@@ -221,10 +248,10 @@ export function TrainingPage() {
     <div className="space-y-8">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div>
-          <p className="text-sm font-semibold text-[hsl(var(--color-primary))]">Training</p>
-          <h1 className="font-display text-3xl font-semibold text-[hsl(var(--color-text))]">Today&apos;s adventure</h1>
+          <p className="text-sm font-semibold text-[hsl(var(--color-primary))]">{t('training.title')}</p>
+          <h1 className="font-display text-3xl font-semibold text-[hsl(var(--color-text))]">{t('training.heading')}</h1>
           <p className="mt-2 max-w-2xl text-[hsl(var(--color-text-secondary))]">
-            Ready for today&apos;s adventure? We will keep things cozy, clear, and focused on growth — never pressure.
+            {t('training.subtitle')}
           </p>
         </div>
         <Link
@@ -233,15 +260,15 @@ export function TrainingPage() {
             'inline-flex items-center justify-center rounded-[var(--radius-lg)] px-4 py-2 text-sm font-semibold text-[hsl(var(--color-primary))] transition hover:bg-[hsl(var(--color-primary)/0.08)]',
           )}
         >
-          Back to home
+          {t('training.backToHome')}
         </Link>
       </div>
 
       {phase === 'welcome' ? (
         <Card className="space-y-6 text-center md:text-left">
-          <h2 className="font-display text-2xl font-semibold text-[hsl(var(--color-text))]">Let&apos;s warm up together</h2>
+          <h2 className="font-display text-2xl font-semibold text-[hsl(var(--color-text))]">{t('training.warmUp')}</h2>
           <p className="text-[hsl(var(--color-text-secondary))]">
-            Each question is a stepping stone — mistakes are simply directions toward understanding.
+            {t('training.warmUpDescription')}
           </p>
           <Button
             type="button"
@@ -253,7 +280,7 @@ export function TrainingPage() {
               start.mutate()
             }}
           >
-            {start.isPending ? 'Setting the stage…' : 'Start my practice adventure'}
+            {start.isPending ? t('training.startPending') : t('training.startButton')}
           </Button>
         </Card>
       ) : null}
@@ -261,7 +288,7 @@ export function TrainingPage() {
       {phase === 'active' ? (
         <div className="space-y-6">
           <SessionProgress
-            label="Practice rhythm"
+            label={t('training.practiceRhythm')}
             current={Math.max(1, questionOrdinal)}
             total={totalQuestions}
           />

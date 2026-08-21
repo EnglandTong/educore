@@ -46,6 +46,27 @@
     "xpCounts": "Every thoughtful try counts.",
     "dedicationProof": "Proof of your dedication.",
     "overallGrowth": "Overall growth snapshot"
+    ,"yourSubjects": "Your subjects"
+    ,"chooseSubject": "Choose a subject to practice"
+    ,"subjects": {
+      "chinese-reading": "Chinese Reading",
+      "english-grammar": "English Grammar",
+      "english-reading": "English Reading",
+      "math-algebra": "Math Algebra",
+      "math-arithmetic": "Math Arithmetic",
+      "science-explorer": "Science Explorer"
+    }
+  },
+  "training": {
+    "title": "Training",
+    "heading": "Today's adventure",
+    "subtitle": "Ready for today's adventure? We will keep things cozy, clear, and focused on growth — never pressure.",
+    "backToHome": "Back to home",
+    "warmUp": "Let's warm up together",
+    "warmUpDescription": "Each question is a stepping stone — mistakes are simply directions toward understanding.",
+    "startPending": "Setting the stage…",
+    "startButton": "Start my practice adventure",
+    "practiceRhythm": "Practice rhythm"
   },
   "diagnostic": {
     "title": "Diagnostic",
@@ -153,6 +174,35 @@
     "search": "Search",
     "noResults": "No results found",
     "friend": "Friend"
+  },
+  "layout": {
+    "cozyCorner": "Your cozy corner",
+    "cozyCornerDescription": "Everything you need, gently organized.",
+    "primaryNavigation": "Primary navigation",
+    "gladYouAreHere": "Glad you are here today",
+    "signOut": "Sign out",
+    "navigation": {
+      "home": "Home",
+      "dailyWeather": "Daily weather",
+      "discovery": "Discovery",
+      "practice": "Practice",
+      "progress": "Progress",
+      "reviewNotes": "Review notes",
+      "heartSpace": "Heart space",
+      "aiTutor": "AI Tutor",
+      "bulletin": "Bulletin",
+      "schoolNotes": "Notes from school",
+      "classInsights": "Class insights",
+      "assignments": "Assignments",
+      "conversations": "Conversations",
+      "learningPaths": "Learning paths",
+      "dashboard": "Dashboard",
+      "qaBoard": "Q&A Board",
+      "myProfile": "My Profile",
+      "school": "School",
+      "students": "Students",
+      "teachers": "Teachers"
+    }
   },
   "heart": {
     "title": "Heart Space",

@@ -504,7 +504,14 @@
     "wrongChoiceReasons": {
       "B": "Check (4, 6): 4 + 6 = 10 ✓, but 6 = 2(4) + 1 = 9 ✗.",
       "C": "Check (6, 4): 6 + 4 = 10 ✓, but 4 = 2(6) + 1 = 13 ✗.",
-      "D": "Check (2, 5): 2 + 5 = 7 ✗ (not 10).[
+      "D": "Check (2, 5): 2 + 5 = 7 ✗ (not 10)."
+    },
+    "explanation": "Substitute y = 2x + 1 into x + y = 10 and solve for x.",
+    "explanationSteps": ["Substitute for y.", "Solve the resulting equation."],
+    "hints": ["Replace y with 2x + 1."],
+    "tags": ["systems", "substitution"],
+    "estimatedTimeSec": 45
+  },
   {
     "id": "ma-alg-b1-001",
     "moduleId": "math.algebra",

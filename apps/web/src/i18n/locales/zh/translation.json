@@ -46,6 +46,27 @@
     "xpCounts": "每一次认真的尝试都有意义。",
     "dedicationProof": "你坚持不懈的证明。",
     "overallGrowth": "总体成长快照"
+    ,"yourSubjects": "你的学习科目"
+    ,"chooseSubject": "选择要练习的科目"
+    ,"subjects": {
+      "chinese-reading": "中文阅读",
+      "english-grammar": "英语语法",
+      "english-reading": "英语阅读",
+      "math-algebra": "数学代数",
+      "math-arithmetic": "数学算术",
+      "science-explorer": "科学探索"
+    }
+  },
+  "training": {
+    "title": "练习",
+    "heading": "今天的学习之旅",
+    "subtitle": "准备好开始今天的学习了吗？我们会让过程轻松、清晰，专注于成长，而不是压力。",
+    "backToHome": "返回首页",
+    "warmUp": "让我们一起热身",
+    "warmUpDescription": "每一道题都是通往理解的垫脚石——错误只是告诉我们下一步该往哪里走。",
+    "startPending": "正在准备学习…",
+    "startButton": "开始我的练习之旅",
+    "practiceRhythm": "练习节奏"
   },
   "diagnostic": {
     "title": "能力诊断",
@@ -153,6 +174,35 @@
     "search": "搜索",
     "noResults": "没有找到结果",
     "friend": "朋友"
+  },
+  "layout": {
+    "cozyCorner": "你的温馨角落",
+    "cozyCornerDescription": "你需要的一切，都被温柔地整理好了。",
+    "primaryNavigation": "主导航",
+    "gladYouAreHere": "很高兴今天见到你",
+    "signOut": "退出登录",
+    "navigation": {
+      "home": "首页",
+      "dailyWeather": "每日心情",
+      "discovery": "发现之旅",
+      "practice": "练习",
+      "progress": "学习进度",
+      "reviewNotes": "复习笔记",
+      "heartSpace": "心灵空间",
+      "aiTutor": "AI 导师",
+      "bulletin": "公告",
+      "schoolNotes": "学校留言",
+      "classInsights": "班级洞察",
+      "assignments": "作业",
+      "conversations": "对话",
+      "learningPaths": "学习路径",
+      "dashboard": "工作台",
+      "qaBoard": "问答板",
+      "myProfile": "我的资料",
+      "school": "学校",
+      "students": "学生",
+      "teachers": "教师"
+    }
   },
   "heart": {
     "title": "心灵角落",

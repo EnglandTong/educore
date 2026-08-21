@@ -4,6 +4,7 @@ export const syncBatchBodySchema = z.object({
   operations: z.array(
     z.object({
       type: z.enum(["submit_answer", "end_session"]),
+      eventId: z.string().min(1).optional(),
       sessionId: z.string().min(1),
       payload: z.record(z.unknown()),
       clientTimestamp: z.number().nonnegative(),

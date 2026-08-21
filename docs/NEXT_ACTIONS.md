@@ -1,11 +1,11 @@
 # NEXT ACTIONS
 
-Status: M81A Active — Verification Baseline & Governance Convergence
-Last updated: 2026-07-23T20:30:00+08:00
+Status: M82-M86 final audit / handoff
+Last updated: 2026-08-21T00:00:00+08:00
 
 ## Current Next Action
 
-Complete M81A acceptance review. After M81A accepted, resume M81 architecture debt repayment (dead code cleanup, unify mastery thresholds, extract shared weakAreaLabel, converge roster to overview.students, split e2e-mocks by domain).
+Complete final requirement-by-requirement audit and write the M82-M86 handoff; no additional feature expansion is authorized.
 
 ## Latest Accepted Milestone
 
@@ -13,15 +13,12 @@ Complete M81A acceptance review. After M81A accepted, resume M81 architecture de
 - Accepted: `2026-07-06T19:00:00+08:00`
 - Evidence: `Docs/QA_M80_ACCEPTANCE.md`
 
-## M81A Deliverables (in progress)
+## M82/M83/M84/M85/M86 Handoff (in progress)
 
-- Constants dist rebuilt (parseMasteryLevel + scoreToMasteryLevel restored)
-- pnpm/turbo version alignment resolved (use `pnpm` without corepack prefix)
-- school.routes.ts data integrity bugs fixed
-- QA/volunteer permission boundaries tightened
-- Docs governance files converged
+- Fresh verification evidence under `docs/evidence/M82/`
+- Capability and permission truth matrix in `docs/REBASELINE_AUDIT.md`
+- M82 QA: `Accept-with-notes`; M84 QA: `Accept-with-notes`; M85/M86 work orders are now active
 
 ## Verification Baseline
 
-Latest: **typecheck 9/9 PASS, test 12/12 PASS, web build PASS** (2026-07-23)
-
+Latest: **M84/M85/M86 decisions recorded; final audit pending** (2026-08-21)

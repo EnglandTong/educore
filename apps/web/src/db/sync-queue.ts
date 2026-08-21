@@ -9,6 +9,13 @@ export interface SyncOperation {
   retries: number
 }
 
+export interface SyncQueueResult {
+  synced: number
+  failed: number
+  blocked: number
+  errors: string[]
+}
+
 export async function enqueueOperation(
   operation: Omit<SyncOperation, 'id' | 'createdAt' | 'retries'>,
 ): Promise<void> {
@@ -51,15 +58,14 @@ export async function incrementRetry(id: string): Promise<void> {
   await db.put('syncQueue', row)
 }
 
-export async function processSyncQueue(): Promise<{
-  synced: number
-  failed: number
-  errors: string[]
-}> {
+export async function processSyncQueue(): Promise<SyncQueueResult> {
+  const db = await getDB()
+  const allRows = await db.getAll('syncQueue')
   const operations = await getPendingOperations()
   let synced = 0
   let failed = 0
   const errors: string[] = []
+  const blocked = allRows.filter((row) => row.retries >= 5).length
 
   for (const op of operations) {
     try {
@@ -77,18 +83,18 @@ export async function processSyncQueue(): Promise<{
     }
   }
 
-  return { synced, failed, errors }
+  return { synced, failed, blocked, errors }
 }
 
 let syncListenerRegistered = false
 
-export function registerSyncListener(): void {
+export function registerSyncListener(onResult?: (result: SyncQueueResult) => void): void {
   if (syncListenerRegistered) return
   syncListenerRegistered = true
 
   window.addEventListener('online', () => {
-    processSyncQueue().catch(() => {
-      // Silently handle sync errors
-    })
+    processSyncQueue()
+      .then((result) => onResult?.(result))
+      .catch((error) => onResult?.({ synced: 0, failed: 1, blocked: 0, errors: [String(error)] }))
   })
 }

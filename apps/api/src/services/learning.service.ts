@@ -1,4 +1,5 @@
 import type { DiagnosticReport, SessionReport, SkillScore } from "@educore/types";
+import type { HydratedDocument } from "mongoose";
 import { ENGLISH_GRAMMAR_MODULE_ID } from "@educore/constants";
 import { calculateMasteryScore, calculateNextReview, estimateAbility, selectDiagnosticQuestion, selectNextQuestion, updateBKT } from "@educore/algorithms";
 
@@ -7,6 +8,8 @@ import type { ILearningSessionDocument } from "../models/LearningSession.js";
 import { Question } from "../models/Question.js";
 import { SkillMastery } from "../models/SkillMastery.js";
 import { WrongAnswer } from "../models/WrongAnswer.js";
+import { AnswerEvent } from "../models/AnswerEvent.js";
+import type { IAnswerEventDocument } from "../models/AnswerEvent.js";
 import type { IWrongAnswerDocument } from "../models/WrongAnswer.js";
 import { AppError } from "../utils/errors.js";
 import { selectWarmFeedback } from "./feedbackSelector.js";
@@ -30,6 +33,7 @@ export interface LearningSessionRecord {
 export interface AnswerInput {
   sessionId: string;
   questionId: string;
+  eventId?: string;
   answer: string | string[];
   timeSpent?: number;
   hintsUsed?: number;
@@ -303,7 +307,7 @@ export async function startLearningSession(studentId: string, type: SessionType,
   return { session: sessionRecord(session) };
 }
 
-export async function getNextLearningQuestion(studentId: string, type: SessionType): Promise<{ session: LearningSessionRecord; question: ServedQuestion }> {
+export async function getNextLearningQuestion(studentId: string, type: SessionType): Promise<{ session: LearningSessionRecord; questionId: string; question: ServedQuestion }> {
   const session = await activeSession(studentId, type);
   if (!session) {
     throw new AppError(404, "NOT_FOUND", "We could not find an active session yet. Start one and we can continue together.");
@@ -315,16 +319,46 @@ export async function getNextLearningQuestion(studentId: string, type: SessionTy
     if (!question) {
       throw new AppError(404, "NOT_FOUND", "We could not find the next question yet. Let's try another one.");
     }
-    return { session: sessionRecord(session), question };
+    return { session: sessionRecord(session), questionId: question.id, question };
   }
 
   const question = await chooseQuestion(session, studentId);
   session.questions.push({ questionId: question.id, answered: false });
   await session.save();
-  return { session: sessionRecord(session), question };
+  return { session: sessionRecord(session), questionId: question.id, question };
 }
 
 export async function submitLearningAnswer(studentId: string, input: AnswerInput): Promise<AnswerResult> {
+  let event: HydratedDocument<IAnswerEventDocument> | null = null;
+  if (input.eventId) {
+    event = await AnswerEvent.findOne({ studentId, eventId: input.eventId });
+    if (event?.status === "completed" && event.result) {
+      return event.result as unknown as AnswerResult;
+    }
+    if (event?.status === "processing") {
+      throw new AppError(409, "CONFLICT", "That answer event is already being processed. Please retry with the same event id.");
+    }
+    if (!event) {
+      try {
+        event = await AnswerEvent.create({
+          studentId,
+          eventId: input.eventId,
+          sessionId: input.sessionId,
+          questionId: input.questionId,
+          status: "processing"
+        });
+      } catch (error) {
+        if (error instanceof Error && "code" in error && (error as { code?: number }).code === 11000) {
+          const existing = await AnswerEvent.findOne({ studentId, eventId: input.eventId });
+          if (existing?.status === "completed" && existing.result) return existing.result as unknown as AnswerResult;
+          throw new AppError(409, "CONFLICT", "That answer event is already being processed. Please retry with the same event id.");
+        }
+        throw error;
+      }
+    }
+  }
+
+  try {
   const session = await LearningSessionModel.findOne({ _id: input.sessionId, studentId, status: "active" });
   if (!session) {
     throw new AppError(404, "NOT_FOUND", "We could not find that session. Please start a new one and we can keep going.");
@@ -372,12 +406,22 @@ export async function submitLearningAnswer(studentId: string, input: AnswerInput
     await saveWrongAnswer(studentId, question, answerText);
   }
 
-  return {
+  const result: AnswerResult = {
     isCorrect,
     feedback: selectWarmFeedback(isCorrect ? "correct" : "notQuite"),
     explanation: question.explanation,
     mastery
   };
+  if (event) {
+    event.status = "completed";
+    event.result = result as unknown as Record<string, unknown>;
+    await event.save();
+  }
+  return result;
+  } catch (error) {
+    if (event?.status === "processing") await AnswerEvent.deleteOne({ _id: event._id });
+    throw error;
+  }
 }
 
 export async function endLearningSession(studentId: string, type: SessionType): Promise<SessionReport> {

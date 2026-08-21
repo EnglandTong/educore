@@ -1,4 +1,5 @@
 import { BookOpen, PlusCircle, type LucideIcon } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import { cn } from '@/utils/cn'
 
 /**
@@ -28,17 +29,18 @@ function resolveIcon(iconName: string): LucideIcon {
 }
 
 export function ModulePicker({ modules, activeId, onChange }: ModulePickerProps) {
+  const { t } = useTranslation()
   if (modules.length <= 1) return null
 
   return (
     <div className="space-y-2">
       <p className="text-xs font-medium uppercase tracking-wider text-[hsl(var(--color-text-muted))]">
-        Your subjects
+        {t('student.yourSubjects')}
       </p>
       <div
         className="flex gap-2 overflow-x-auto pb-1"
         role="tablist"
-        aria-label="Choose a subject to practice"
+        aria-label={t('student.chooseSubject')}
       >
         {modules.map((mod) => {
           const Icon = resolveIcon(mod.icon)
@@ -68,7 +70,7 @@ export function ModulePicker({ modules, activeId, onChange }: ModulePickerProps)
               }
             >
               <Icon className="h-4 w-4" aria-hidden />
-              <span>{mod.name}</span>
+              <span>{t(`student.subjects.${mod.id}`, { defaultValue: mod.name })}</span>
             </button>
           )
         })}

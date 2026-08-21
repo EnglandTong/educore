@@ -23,6 +23,7 @@ const startSchema = z.object({
 const answerSchema = z.object({
   sessionId: z.string().min(1),
   questionId: z.string().min(1),
+  eventId: z.string().min(1).optional(),
   answer: z.union([z.string().min(1), z.array(z.string().min(1))]),
   timeSpent: z.number().nonnegative().optional(),
   hintsUsed: z.number().int().nonnegative().optional()

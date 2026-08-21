@@ -60,6 +60,17 @@ export function buildApp() {
   registerErrorHandler(app);
 
   app.register(corsPlugin);
+  app.addHook("onSend", async (request, reply, payload) => {
+    const requestOrigin = request.headers.origin;
+    const configured = process.env.CORS_ORIGIN?.split(",").map((value) => value.trim()).filter(Boolean) ?? [];
+    const allowed = configured.length === 0 || (typeof requestOrigin === "string" && configured.includes(requestOrigin));
+    if (allowed && requestOrigin) {
+      reply.header("Access-Control-Allow-Origin", requestOrigin);
+      reply.header("Access-Control-Allow-Credentials", "true");
+      reply.header("Vary", "Origin");
+    }
+    return payload;
+  });
   app.register(compressionPlugin);
   app.register(rateLimiterPlugin);
   app.register(swaggerPlugin);

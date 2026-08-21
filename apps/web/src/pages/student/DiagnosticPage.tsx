@@ -84,8 +84,11 @@ export function DiagnosticPage() {
         return
       }
       const d = env.data
-      if (isLearningSession(d)) {
-        setDiagnosticSessionId(d.id)
+      const sessionPayload = isLearningSession(d)
+        ? d
+        : (d && typeof d === 'object' && 'session' in d ? (d as { session: unknown }).session : null)
+      if (isLearningSession(sessionPayload)) {
+        setDiagnosticSessionId(sessionPayload.id)
       } else if (isPlaceholderMessage(d)) {
         pushToast({
           variant: 'info',
@@ -112,7 +115,7 @@ export function DiagnosticPage() {
       const answer =
         typeof answerVal === 'boolean' ? (answerVal ? 'true' : 'false') : (answerVal ?? '').trim()
       if (!answer) throw new Error('missing-answer')
-      return postDiagnosticAnswer({ sessionId: sid, questionId: current.questionId, answer })
+      return postDiagnosticAnswer({ sessionId: sid, questionId: current.questionId, eventId: crypto.randomUUID(), answer })
     },
     onSuccess: (env) => {
       if (!env.success) return
