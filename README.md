@@ -1,10 +1,19 @@
 # EduCore · 光合啟途
 
-> **让每个孩子拥有平等的学习机会 · Equal Learning Opportunities for Every Child**
+**开发中 · 离线优先（弱网）· MIT**  
+**In development · offline-first for weak networks · MIT**
 
-[![GitHub license](https://img.shields.io/badge/license-AGPLv3-blue.svg)](https://github.com/yourname/educore/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/yourname/educore.svg)](https://github.com/yourname/educore/stargazers)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/yourname/educore/pulls)
+> 让偏远地区、网络差或很慢的学生也能继续学习；有条件时，再用 AI 帮忙。  
+> Help students in remote areas with poor or slow internet keep learning offline, with AI assistance when possible.
+
+[![Status: in development](https://img.shields.io/badge/status-in%20development-yellow.svg)](https://github.com/EnglandTong/educore)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/EnglandTong/educore/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/EnglandTong/educore.svg)](https://github.com/EnglandTong/educore/stargazers)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/EnglandTong/educore/pulls)
+
+这不是已经交付的硬件产品，也不是打磨好的商业发布。仓库里有可运行的软件原型，但整体仍在开发，接口和用法都可能变。
+
+This is not finished hardware, and not a polished product launch. There is a software prototype in this repo; it is still in development and may change.
 
 ---
 
@@ -14,185 +23,194 @@
 
 ---
 
-## 🎯 项目是什么？ | What is this project?
+## 现在处在什么阶段 | Current status
 
-### 中文
+| 事实 | Fact |
+|------|------|
+| **还在开发** | The system is still in development. |
+| **硬件先放下** | Raspberry Pi / edge-device work is **paused for now** — time is limited; other things come first, then this returns. |
+| **为谁做** | Students in remote areas with poor or slow internet, so learning can continue **offline**, with AI help **when it actually works**. |
+| **难点（说实话）** | Large models often do **not** run well on small machines. Progress will be step-by-step testing, trying, and optimizing — not overnight. |
+| **开源** | **MIT**（README 以前写过 AGPLv3；GitHub About 可能显示过 Other。现已与 MIT 对齐。） |
 
-EduCore（光合啟途）是一个专为乡村教育设计的 **AI 驱动自适应学习平台**。
-
-我们相信：**教育公平，不是给每个孩子一样的东西，而是给每个孩子最适合他们的东西。**
-
-### English
-
-EduCore is an **AI-powered adaptive learning platform** designed specifically for rural education in China.
-
-We believe: **Educational equity means giving every child what they need, not the same thing for everyone.**
-
----
-
-## 💡 核心理念 | Core Principles
-
-| 🔬 科学自适应 | Science-based Adaptive Learning |
-|--------------|--------------------------------|
-| 基于 BKT / IRT / SM-2 算法，动态调整题目难度和出现频率 | Dynamically adjusts question difficulty based on BKT/IRT/SM-2 algorithms |
-
-| ❤️ 温暖不评判 | Warm & Non-judgmental |
-|--------------|-----------------------|
-| 永远不说"你错了"，只说"让我们一起再想想看" — 零压力学习环境 | Never says "you're wrong," only "let's think together" — zero-pressure learning |
-
-| 📶 离线优先 | Offline-first |
-|-----------|--------------|
-| PWA + 本地大模型，即使没有互联网也能完整使用 | Works fully offline with PWA + on-device LLMs |
-
-| 🏫 全员协同 | Everyone together |
-|-----------|------------------|
-| 学生 ↔ 家长 ↔ 老师 ↔ 志愿者，一个都不能少 | Students ↔ Parents ↔ Teachers ↔ Volunteers, all connected |
+我们相信：**教育公平，不是给每个孩子一样的东西，而是给每个孩子最适合他们的东西。**  
+Educational equity means giving every child what they need, not the same thing for everyone.
 
 ---
 
-## 🚀 我们解决什么问题 | The Problem We're Solving
+## 想解决什么问题 | The problem
 
-### 乡村教育的三大痛点 | Three Pain Points in Rural Education
+很多孩子不是不想学，而是网不稳定、老师顾不过来、身边也没有人把题讲清楚。光合啟途想做的是能在弱网下用的学习基础设施，不是一场产品发布会。
 
-| 痛点 | Pain Point | 我们的解法 | Our Solution |
-|------|-----------|-----------|-------------|
-| 师资匮乏 | One teacher covers 3-5 grades | AI 老师 24 小时在线，个性化辅导每个孩子 | AI teacher 24/7, personalized for every student |
-| 资源贫瘠 | No internet, no textbooks | 树莓派 + 本地大模型，完全离线运行 | Raspberry Pi + local LLM, fully offline |
-| 信息断层 | Migrant parents disconnected | 微信小程序推送每周学习报告 | Weekly reports via WeChat Mini Program |
+Many students are not unwilling to learn — the network is unreliable, teachers are stretched across grades, and there is nobody nearby to explain. EduCore is trying to be learning infrastructure for weak networks, not a product launch.
+
+| 痛点 | Pain | 方向（多为进行中 / 规划） | Direction (in progress or planned) |
+|------|------|--------------------------|-------------------------------------|
+| 师资不够 | Too few teachers | 自适应练习 + 条件允许时的 AI 讲解 | Adaptive practice, plus AI explanation when it is feasible |
+| 没网 / 弱网 | No or slow internet | 离线优先：先保证能学 | Offline-first: keep learning possible first |
+| 家里联系不上 | Parents far from school | 家校同步、学习报告 | Family updates and reports |
+
+**微信小程序每周报告：规划中，尚未实现。** 仓库里没有小程序代码。  
+**WeChat mini program weekly reports: planned, not shipped.** There is no mini-program in this repository.
+
+**树莓派 + 本地大模型「完全离线基站」：不是已完成交付物。** 硬件路径目前暂停。  
+**Raspberry Pi + on-device LLM as a full offline station: not a shipped deliverable.** Hardware work is paused.
 
 ---
 
-## 🛠️ 技术架构 | Architecture
+## 核心理念 | Principles
 
-### 三级 AI 降级链 | Three-level AI Fallback Chain
+这些是设计方向，不是「已经全部做到」的功能清单。
+
+These are design directions, not a claim that everything below is finished.
+
+| 方向 | Direction | 说明 |
+|------|-----------|------|
+| 科学自适应 | Adaptive practice | 仓库里有 BKT / IRT / SM-2 等算法原型，仍在打磨 |
+| 温暖、不评判 | Warm, non-judgmental | 反馈尽量鼓励，避免羞辱 |
+| 离线优先 | Offline-first | 目标是弱网也能学；PWA / 本地同步仍是原型，不能当成已完成的离线产品 |
+| 一起参与 | Students, parents, teachers, volunteers | 长期想连在一起；不少角色能力还在规划或很薄 |
+
+---
+
+## 技术方向 | Architecture (intent)
+
+仓库是 **pnpm + Turborepo** 单体仓库：Fastify API、React 前端、共享算法包。AI 侧有一层模型抽象，**设想中的**降级顺序是：
 
 ```
-本地 Ollama (树莓派) → 云端 Ark API → 规则引擎
-Local Ollama (Pi)    → Cloud Ark API  → Rule Engine
+本地 Ollama（树莓派 / 小机器）→ 云端 Ark API → 规则引擎
+Local Ollama (Pi / small device) → Cloud Ark API → Rule engine
 ```
 
-- **有网时**：云端大模型提供高质量讲解
-- **弱网时**：自动切换到本地小模型（Qwen 2.5 1.8B）
-- **断网时**：规则引擎兜底，保证学习不中断
+这是目标形态，不是已经在真实教室里验证过的硬件方案。小机器跑大模型会很吃力，需要以后一步步试。
 
-### 技术栈 | Tech Stack
+This is the intended shape, not a classroom-proven hardware setup. Small machines will struggle with large models; that work will be gradual.
 
-| 层级 | Layer | 技术 | Technology |
-|------|-------|------|-----------|
+更细的模块划分见 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)（其中部分描述仍偏理想，请以本 README 的阶段说明为准）。
+
+| 层级 | Layer | 当前仓库里大致是 |
+|------|-------|------------------|
 | 后端 | Backend | Fastify + TypeScript + MongoDB + Redis |
-| 前端 | Frontend | React 19 + Vite + TailwindCSS 4 + Zustand |
-| 算法 | Algorithms | TypeScript (BKT, IRT, SM-2) |
-| AI 模型 | AI Models | Qwen 2.5, Ollama, Ark API |
+| 前端 | Frontend | React 19 + Vite + Tailwind CSS + Zustand |
+| 算法 | Algorithms | TypeScript（BKT、IRT、SM-2 等） |
+| AI | AI | 提供者抽象；Ollama / Ark / 规则兜底（能力视环境和配置而定） |
 | 单体仓库 | Monorepo | Turborepo + pnpm workspaces |
 
 ---
 
-## 📊 项目进度 | Project Status
+## 快速开始 | Quick Start（WIP，可能会变）
 
-| 阶段 | Phase | 状态 | Status | 完成度 | Progress |
-|------|-------|------|--------|--------|----------|
-| **Phase 0** · 核心引擎 | Core Engine | ✅ 完成 | Done | 100% |
-| **Phase 1** · PWA + 多语言 | PWA + i18n | ✅ 完成 | Done | 100% |
-| **Phase 2** · 多科目 + 捐赠 | Multi-subject + Donation | ✅ 完成 | Done | 100% |
-| **Phase 3** · 离线终端 | Offline Terminal | 🚧 进行中 | In Progress | ~60% |
-| **Phase 4** · 家校协同 | Family-School Sync | ⏳ 待启动 | Planned | 0% |
+本地软件路径存在真实脚本（`pnpm`、`.env.example`、`docker/`）。下面步骤**可能随时改**，跑不通是预期内的，请对照 [CONTRIBUTING.md](CONTRIBUTING.md)、[AGENTS.md](AGENTS.md) 和 `docs/`。
 
-**当前里程碑：模型抽象层 + 本地大模型集成完成 ✅**
-**Current Milestone: Model abstraction layer + local LLM integration complete ✅**
+The local software path has real scripts (`pnpm`, `.env.example`, `docker/`). Treat this as **WIP** — it may change or fail.
 
----
+**硬件 / 树莓派部署：已暂停，请先不要按「成品基站」去装。**  
+**Pi / edge deploy: paused. Do not treat this as a finished station.**
 
-## 🌱 为什么叫"光合啟途"？ | Why "光合啟途"?
+### 需要 | Requirements
 
-- **光合 (Light Synthesis)** → 像阳光一样，公平地洒在每个孩子身上
-- **啟途 (Path Opening)** → 开启一条通向未来的道路
+- Node.js 20+
+- pnpm 9+（`packageManager` 现为 `pnpm@9.15.0`）
+- 本机或容器里的 MongoDB、Redis（见 `.env.example` 默认 `localhost`）
 
-我们不做"慈善"，我们做"赋能"。
-我们不施舍，我们建设基础设施。
+### 软件开发（本机） | Software (local)
 
-We don't do "charity" — we build infrastructure.
+```bash
+git clone https://github.com/EnglandTong/educore.git
+cd educore
 
----
+cp .env.example .env
+# 前端可选：对照 apps/web/.env.example
 
-## 🤝 如何参与 | How to Contribute
+pnpm install
 
-| 方式 | Way | 你可以做的 | What you can do |
-|------|-----|-----------|----------------|
-| **💻 代码贡献** | Code | 前端 / 后端 / AI 算法 / 科目内容 | Frontend / Backend / AI Algorithms / Content |
-| **📚 内容创作** | Content | 编写练习题、知识点讲解 | Create exercises and explanations |
-| **💰 设备捐赠** | Donation | 赞助一套树莓派基站 | Sponsor a Raspberry Pi station |
-| **🗣️ 传播推广** | Outreach | 告诉更多有需要的乡村学校 | Tell rural schools that need it |
-| **🧪 测试反馈** | Testing | 帮我们找到 Bug，优化体验 | Find bugs, help improve UX |
+# MongoDB :27017 与 Redis :6379 需要已在运行。
+# 若只用 Docker 起数据库（不是整套生产栈）：
+docker run -d --name educore-mongo -p 27017:27017 mongo:7
+docker run -d --name educore-redis -p 6379:6379 redis:7-alpine
 
-详见 [CONTRIBUTING.md](CONTRIBUTING.md)
+pnpm dev
+```
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+常见端口：API `4000`，Web `5173`（以实际终端输出为准）。可选：`pnpm typecheck`、`pnpm test`。
 
----
+### Docker 整栈 | Full compose
 
-## 📖 文档索引 | Documentation Index
+`docker/docker-compose.yml` 带 API、Web、Mongo、Redis，偏生产向。先复制 `docker/.env.example`。这条路径同样是 WIP，**不保证一次就能跑起来**。
 
-| 文档 | Document | 说明 | Description |
-|------|----------|------|------------|
-| [ARCHITECTURE.md](docs/ARCHITECTURE.md) | 架构文档 | 系统设计、技术选型、模块划分 | Architecture, tech stack, modules |
-| [ROADMAP.md](docs/ROADMAP.md) | 开发路线图 | Phase 0-5 完整计划 | Phase 0-5 full plan |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | 贡献指南 | 如何参与项目 | How to contribute |
-| [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | 行为准则 | 社区参与规则 | Community rules |
-| [docs/](docs/) | 全部文档 | All documentation |
+```bash
+cp docker/.env.example docker/.env
+# 填入 MONGO_USER、MONGO_PASSWORD、JWT_SECRET、CORS_ORIGIN
+docker compose -f docker/docker-compose.yml --env-file docker/.env up --build
+```
+
+硬件成本与板子调研（仅记录，不是在售套件）：[docs/HARDWARE-COST-ANALYSIS.md](docs/HARDWARE-COST-ANALYSIS.md)。
 
 ---
 
-## 📞 联系我们 | Contact Us
+## 如何参与 | How to contribute
 
-> **这不是一个商业项目，这是一个关于可能性的实验。**
->
-> **我们想证明：技术和善意结合，真的可以改变一些事情。**
+欢迎修文档、报 bug、写测试、补内容。请先读 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
-> **This is not a commercial project. This is an experiment in possibility.**
->
-> **We want to prove: Technology + Goodwill really can change things.**
+硬件捐赠、树莓派基站等：**等硬件工作恢复以后再谈**；现在不是在募集「已经能装进教室的套件」。
+
+Hardware donations / Pi stations: **later**, when that work resumes. This is not a campaign for classroom-ready kits today.
 
 ---
 
-*🌱 让每个孩子，都能站在同一条起跑线上。*
+## 文档 | Docs
 
-*🌱 May every child stand on the same starting line.*
+| 文档 | 说明 |
+|------|------|
+| [CONTRIBUTING.md](CONTRIBUTING.md) | 贡献与本地开发 |
+| [AGENTS.md](AGENTS.md) | 给协作 agent 的仓库规则（规划 / 验收循环） |
+| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | 架构与模块（设计文档，含尚未落地的部分） |
+| [docs/PROJECT_ROADMAP.md](docs/PROJECT_ROADMAP.md) | 路线图（内部里程碑记录，不等于产品已完成） |
+| [docs/HARDWARE-COST-ANALYSIS.md](docs/HARDWARE-COST-ANALYSIS.md) | 硬件调研（路径已暂停） |
+| [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | 行为准则 |
+| [docs/](docs/) | 其余设计与过程文档 |
+
+公开介绍若和本 README 冲突，**以这里的阶段说明为准**。
+
+If another doc conflicts with this page, **this status section wins**.
 
 ---
 
-## English Section
+## 许可证 | License
+
+**MIT** — 见 [LICENSE](LICENSE)。
+
+以前 README 写的是 AGPLv3；现按维护者意向改为 MIT，不再使用双许可叙述。
+
+Previously the README said AGPLv3. It is MIT now, as a single license.
 
 ---
+
+*让网络不好的地方，学习也可以继续。*  
+*So learning can continue where the network cannot.*
+
+---
+
+## English
 
 # EduCore
 
-Equal Learning Opportunities for Every Child
+**In development. Offline-first for weak networks. MIT.**
 
-## What is EduCore?
+EduCore (光合啟途) is an open-source learning project for students in remote areas with poor or slow internet. The aim is to keep studying possible **offline**, and to use AI **when it actually runs well enough** — not to promise a finished tutor on every small device.
 
-EduCore is an open-source, AI-powered adaptive learning platform designed specifically for rural education in China. It combines cutting-edge edge AI (Raspberry Pi + local LLMs) with proven learning science (BKT/IRT/SM-2 algorithms) to deliver personalized education to students who need it most.
+- **Not a shipped hardware product.** Pi / edge work is paused; the owner is focusing on other things first.
+- **Not a polished commercial launch.** The repo is a prototype (API, web app, algorithm packages). Expect breakage and change.
+- **Honest constraint:** large models may not run well on small machines. Next steps are testing, trying, and optimizing — slowly.
+- **WeChat mini program:** planned, not in this repo.
+- **License:** MIT.
 
-## Key Features
+### Quick Start
 
-- **Offline-first**: Works completely without internet using local LLMs on Raspberry Pi
-- **Adaptive learning**: Dynamically adjusts difficulty based on student performance
-- **Warm, non-judgmental**: Designed to encourage, not criticize
-- **Multi-stakeholder**: Connects students, parents, teachers, and volunteers
-- **Open source**: 100% open source, community-driven
+See [Quick Start](#快速开始--quick-startwip可能会变) above. It is WIP. Hardware instructions are paused.
 
-## Technology
+### Contribute
 
-- **Backend**: Fastify + TypeScript + MongoDB + Redis
-- **Frontend**: React 19 + Vite + TailwindCSS 4 + Zustand
-- **AI**: Qwen 2.5 family + Ollama + Model Provider abstraction layer
-- **Hardware**: Raspberry Pi 5 / RK3566 with local LLM inference
+[CONTRIBUTING.md](CONTRIBUTING.md). Questions and small fixes are welcome.
 
-## License
-
-This project is licensed under the **GNU Affero General Public License v3.0** — see the [LICENSE](LICENSE) file for details.
-
-**Why AGPLv3?** To ensure any improvements to this project remain open and accessible to everyone, even when run as a cloud service.
-
----
-
-*Thank you for your interest in making education more equitable for every child.*
+Thank you for caring about whether learning still works when the network does not.
