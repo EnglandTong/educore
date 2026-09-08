@@ -11,7 +11,7 @@
 ### 🤝 你可以怎么贡献？
 
 #### 1. 🐛 报告 Bug
-- 发现了问题？请开一个 [Issue](https://github.com/yourname/educore/issues)
+- 发现了问题？请开一个 [Issue](https://github.com/EnglandTong/educore/issues)
 - 请包含：复现步骤、预期行为、实际行为、环境信息
 
 #### 2. ✨ 提交功能建议
@@ -34,7 +34,7 @@
 - 网站设计
 
 #### 6. 💰 其他方式
-- 捐赠硬件（树莓派/开发板）
+- 硬件捐赠（树莓派/开发板）：硬件工作目前暂停，暂不按「可装进教室的套件」来募集
 - 把项目介绍给需要的学校
 - 在你的社区分享这个项目
 
@@ -51,14 +51,16 @@
 
 ```bash
 # 克隆代码
-git clone https://github.com/yourname/educore.git
+git clone https://github.com/EnglandTong/educore.git
 cd educore
 
 # 安装依赖
 pnpm install
 
-# 启动数据库（需要 Docker）
-docker-compose up -d
+# MongoDB / Redis：与 README Quick Start 相同（无鉴权，匹配根目录 .env.example）
+docker run -d --name educore-mongo -p 27017:27017 mongo:7
+docker run -d --name educore-redis -p 6379:6379 redis:7-alpine
+# 生产向 compose 在 docker/，WIP，见 README
 
 # 类型检查
 pnpm typecheck
@@ -128,7 +130,7 @@ Welcome to the EduCore project! We welcome contributions from everyone — wheth
 ### 🤝 How Can You Contribute?
 
 #### 1. 🐛 Report Bugs
-- Found a problem? Open an [Issue](https://github.com/yourname/educore/issues)
+- Found a problem? Open an [Issue](https://github.com/EnglandTong/educore/issues)
 - Include: Steps to reproduce, expected behavior, actual behavior, environment info
 
 #### 2. ✨ Suggest Features
@@ -151,7 +153,7 @@ Welcome to the EduCore project! We welcome contributions from everyone — wheth
 - Website design
 
 #### 6. 💰 Other Ways
-- Donate hardware (Raspberry Pi / dev boards)
+- Hardware donations (Raspberry Pi / boards): hardware work is paused; this is not a kit campaign yet
 - Introduce the project to schools that need it
 - Share the project in your community
 
@@ -168,14 +170,16 @@ Welcome to the EduCore project! We welcome contributions from everyone — wheth
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourname/educore.git
+git clone https://github.com/EnglandTong/educore.git
 cd educore
 
 # Install dependencies
 pnpm install
 
-# Start database (requires Docker)
-docker-compose up -d
+# MongoDB / Redis: same as README Quick Start (no auth, matches root .env.example)
+docker run -d --name educore-mongo -p 27017:27017 mongo:7
+docker run -d --name educore-redis -p 6379:6379 redis:7-alpine
+# Production-oriented compose is in docker/; WIP; see README
 
 # Type check
 pnpm typecheck
