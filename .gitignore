@@ -41,3 +41,9 @@ npm-debug.log*
 apps/web/e2e-report/
 apps/web/test-results/
 .codex-tmp-anysearch/
+
+# 防误提交：浏览器档案与运行时残留（2026-09-09 事故，曾误提交 6442 个文件）
+docs/evidence/**/browser-profile*/
+docs/evidence/**/*.pid
+**/Crashpad/
+**/ShaderCache/
