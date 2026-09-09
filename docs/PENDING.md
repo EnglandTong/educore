@@ -7,7 +7,11 @@ Last updated: 2026-09-09T00:00:00+08:00
 
 - Milestone: `M87 - Governance Rebaseline + Hardware Simulation Gate`
 - Work order: `Docs/WORK_ORDER_M87.md`
-- Status: Dispatched
+- Status: Developer Ready for Controller/QA Review
+
+## Awaiting
+
+- Controller/QA decision on `docs/QA_M87_ACCEPTANCE_2026-09-09.md`
 
 ## Recently Closed
 
