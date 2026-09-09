@@ -15,7 +15,7 @@ Last updated: 2026-09-09T00:00:00+08:00
 | Item | Result |
 |---|---|
 | M82-M86 final handoff | Recorded 2026-08-21 |
-| M87 API test | 60/60 PASS (`docs/evidence/M87/api-test.log`) |
+| M87 API test | 60/60 PASS (`docs/evidence/M87/api-test.txt`) |
 | M87 API typecheck | PASS |
 | M87 work order | Ready for Controller/QA Review |
 

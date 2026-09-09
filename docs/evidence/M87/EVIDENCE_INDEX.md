@@ -8,8 +8,8 @@ Work order: `docs/WORK_ORDER_M87.md`
 
 | Command | Exit | Log |
 |---|---|---|
-| `pnpm --filter @educore/api test` | 0 | `api-test.log` |
-| `pnpm --filter @educore/api typecheck` | 0 | `api-typecheck.log` |
+| `pnpm --filter @educore/api test` | 0 | `api-test.txt` |
+| `pnpm --filter @educore/api typecheck` | 0 | `api-typecheck.txt` |
 
 ## Results
 

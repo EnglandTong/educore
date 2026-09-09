@@ -11,7 +11,7 @@
 | MP | Status | Evidence |
 |---|---|---|
 | MP1 Governance → M87 | Met (docs) | `TARGET.md`, `STATUS.md`, `PENDING.md`, `NEXT_ACTIONS.md`, `CMS.md`, `Work_Order_Active.md`, `LOOP_*`, `STOP_RULES.md` |
-| MP2 Four profiles automated | Met | `apps/api/tests/unit/model-manager-fallback.test.ts`; `docs/evidence/M87/api-test.log` (60/60) |
+| MP2 Four profiles automated | Met | `apps/api/tests/unit/model-manager-fallback.test.ts`; `docs/evidence/M87/api-test.txt` (60/60) |
 | MP3 pi-down / offline-core → rule | Met | same suite; `providerId=rule`, non-empty text |
 | MP4 pi-slow no hang | Met | suite asserts elapsed < 2500ms with 3000ms sim delay |
 | MP5 Hardware paused wording | Met | `TARGET.md`, `PLACEHOLDER_ENDPOINTS.md`, `EVIDENCE_INDEX.md` |

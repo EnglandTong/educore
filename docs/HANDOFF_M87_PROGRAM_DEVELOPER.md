@@ -26,8 +26,8 @@ M87-R1–R3 Developer delivery complete. Status: **Ready for Controller/QA Revie
 
 ## Test output
 
-- API: 60/60 passed (`docs/evidence/M87/api-test.log`)
-- Typecheck: PASS (`docs/evidence/M87/api-typecheck.log`)
+- API: 60/60 passed (`docs/evidence/M87/api-test.txt`)
+- Typecheck: PASS (`docs/evidence/M87/api-typecheck.txt`)
 
 ## Known risks
 
