@@ -5,8 +5,9 @@ Last updated: 2026-09-09T00:00:00+08:00
 
 ## Current Next Action
 
-Execute `Docs/WORK_ORDER_M87.md`: finish governance sync evidence, implement SimOllama +
-ModelManager injectable providers, run four edge constraint profiles, write `docs/evidence/M87/`.
+Controller/QA: review `docs/QA_M87_ACCEPTANCE_2026-09-09.md` against M87 Must Pass and
+`docs/evidence/M87/`. Developer delivery is complete; do not start a new feature milestone
+until M87 is signed or explicitly superseded.
 
 ## Latest Closed Program
 

@@ -32,9 +32,14 @@ Work order: `Docs/WORK_ORDER_M87.md`
 
 ### Evidence package
 
-- Work order: `docs/WORK_ORDER_M87.md`
-- Evidence index: `docs/evidence/M87/EVIDENCE_INDEX.md` (created in M87-R3)
-- Automatic: `pnpm --filter @educore/api test` and `typecheck` logs under `docs/evidence/M87/`
+- Work order: `docs/WORK_ORDER_M87.md` (Developer: Ready for Review)
+- Evidence index: `docs/evidence/M87/EVIDENCE_INDEX.md`
+- Automatic logs: `docs/evidence/M87/api-test.log` (60/60), `docs/evidence/M87/api-typecheck.log`
+- QA packet: `docs/QA_M87_ACCEPTANCE_2026-09-09.md`
+- Handoff: `docs/HANDOFF_M87_PROGRAM_DEVELOPER.md`
+- Placeholder/hardware label: `docs/PLACEHOLDER_ENDPOINTS.md`
+
+Current Developer disposition: `Ready for Controller/QA Review`; MP checkboxes remain unchecked until independent review.
 
 ### Not Accepted if
 

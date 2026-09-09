@@ -1,6 +1,6 @@
 # WORK_ORDER_M87 - Governance Rebaseline + Hardware Simulation Gate
 
-状态：`Dispatched`  
+状态：`Ready for Controller/QA Review`  
 前置：M82-M86 final handoff accepted with notes/deferrals（`docs/HANDOFF_M82_M86_FINAL_2026-08-21.md`）  
 类型：Docs + bounded API test harness（无真实硬件）
 
@@ -17,29 +17,29 @@
 依赖：无  
 推理等级：Standard
 
-- [ ] 更新 `TARGET.md` / `ACCEPTANCE.md` / `STATUS.md` / `PENDING.md` / `NEXT_ACTIONS.md`
-- [ ] 更新 `LOOP_STATE.md` / `LOOP_CONFIG.md` / `STOP_RULES.md` / `CMS.md` / `Work_Order_Active.md`
-- [ ] 本工单成为唯一 Active Work Order
+- [x] 更新 `TARGET.md` / `ACCEPTANCE.md` / `STATUS.md` / `PENDING.md` / `NEXT_ACTIONS.md`
+- [x] 更新 `LOOP_STATE.md` / `LOOP_CONFIG.md` / `STOP_RULES.md` / `CMS.md` / `Work_Order_Active.md`
+- [x] 本工单成为唯一 Active Work Order
 
 ### M87-R2 — Simulation harness + tests
 
 依赖：M87-R1  
 推理等级：Deep
 
-- [ ] `ModelManager` 支持注入 `ModelProvider[]`；默认单例行为不变
-- [ ] `apps/api/tests/helpers/sim-ollama.ts`：ephemeral mock HTTP（成功 / 慢 / 宕机）
-- [ ] `apps/api/tests/fixtures/edge-profiles.ts`：`pi-ok` / `pi-slow` / `pi-down` / `offline-core`
-- [ ] `apps/api/tests/unit/model-manager-fallback.test.ts` 覆盖四 profile
-- [ ] 测试**不**依赖 `localhost:11434` 或实体设备
+- [x] `ModelManager` 支持注入 `ModelProvider[]`；默认单例行为不变
+- [x] `apps/api/tests/helpers/sim-ollama.ts`：ephemeral mock HTTP（成功 / 慢 / 宕机）
+- [x] `apps/api/tests/fixtures/edge-profiles.ts`：`pi-ok` / `pi-slow` / `pi-down` / `offline-core`
+- [x] `apps/api/tests/unit/model-manager-fallback.test.ts` 覆盖四 profile
+- [x] 测试**不**依赖 `localhost:11434` 或实体设备
 
 ### M87-R3 — Evidence + handoff
 
 依赖：M87-R2  
 推理等级：Standard
 
-- [ ] `docs/evidence/M87/` 记录命令、exit code、profile 表
-- [ ] 更新 `PLACEHOLDER_ENDPOINTS.md`：硬件路径 = Simulated-testable / Hardware paused
-- [ ] Developer 标记 Ready for Controller/QA Review（不得自签 Accepted）
+- [x] `docs/evidence/M87/` 记录命令、exit code、profile 表
+- [x] 更新 `PLACEHOLDER_ENDPOINTS.md`：硬件路径 = Simulated-testable / Hardware paused
+- [x] Developer 标记 Ready for Controller/QA Review（不得自签 Accepted）
 
 ## Non-Goals
 
@@ -54,7 +54,10 @@ pnpm --filter @educore/api test
 pnpm --filter @educore/api typecheck
 ```
 
+Evidence: `docs/evidence/M87/EVIDENCE_INDEX.md` (60/60 tests, typecheck PASS)
+
 ## Ready for Controller/QA Review
 
-Developer may only mark Ready for Review after M87-R1–R3 checkboxes have evidence links.
-Controller/QA signs acceptance in `docs/QA_M87_ACCEPTANCE_*.md`.
+Developer disposition: **Ready for Controller/QA Review**  
+QA packet: `docs/QA_M87_ACCEPTANCE_2026-09-09.md`  
+Handoff: `docs/HANDOFF_M87_PROGRAM_DEVELOPER.md`
