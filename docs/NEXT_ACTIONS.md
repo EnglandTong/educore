@@ -1,22 +1,35 @@
 # NEXT ACTIONS
 
-Status: M87 Active
-Last updated: 2026-09-09T00:00:00+08:00
+Status: M87 Ready for QA
+Last updated: 2026-09-09T16:00:00+08:00  
+Board: `docs/PROJECT_BOARD.md`
 
-## Current Next Action
+## Current Next Action (only one)
 
-Controller/QA: review `docs/QA_M87_ACCEPTANCE_2026-09-09.md` against M87 Must Pass and
-`docs/evidence/M87/`. Developer delivery is complete; do not start a new feature milestone
-until M87 is signed or explicitly superseded.
+**Controller/QA:** Review and decide `docs/QA_M87_ACCEPTANCE_2026-09-09.md` using `docs/evidence/M87/` and Must Pass in `docs/ACCEPTANCE.md`.
 
-## Latest Closed Program
+Do **not** dispatch M88 or change product scope until that decision is recorded.
 
-- M82-M86 final audit / handoff (2026-08-21)
+## After M87 Accept
 
-## Latest Accepted Runtime Baseline
+1. Merge https://github.com/EnglandTong/educore/pull/4  
+2. Create and dispatch `docs/WORK_ORDER_M88.md` (Runtime Truth)  
+3. Update TARGET/STATUS/PENDING/CMS to M88 Active
 
-- `M84` student learning loop (Accept-with-notes)
+## Latest Baselines
 
-## Verification Baseline
+| Kind | Ref |
+|---|---|
+| Runtime accepted | M84 Accept-with-notes |
+| Collaboration confirmed | M85 teacher read-only |
+| Placeholder disposition | M86 Accepted-with-deferrals |
+| Sim hardware gate | M87 Developer complete / QA pending |
 
-Target: `pnpm --filter @educore/api test` + `typecheck` with sim profiles; no live Ollama required.
+## Verification Commands (M87)
+
+```bash
+pnpm --filter @educore/api test
+pnpm --filter @educore/api typecheck
+```
+
+No live Ollama or physical Pi required.

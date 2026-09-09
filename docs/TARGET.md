@@ -1,64 +1,77 @@
 # TARGET - EduCore
 
-Status: M87 Program Active (Governance Rebaseline + Hardware Simulation Gate)
+Status: M87 Active → Pilot Core Planned (M88–M92)
 Owner: Owner (product decisions) / Controller-QA (acceptance)
 Last updated: 2026-09-09
+Canonical board: `docs/PROJECT_BOARD.md`（功能 / 目标 / 状态 / 进度 / 下一步）
+
 Latest accepted runtime baseline: M84 student learning loop (Accept-with-notes, 2026-08-21)
-Latest collaboration confirmation: M85 teacher read-only assigned-student view (Accepted-with-notes)
+Latest collaboration confirmation: M85 teacher read-only (Accepted-with-notes)
 Latest placeholder disposition: M86 Accepted-with-deferrals
-Prior contract-only acceptances: M50-M80 (type/document contracts, NOT runtime capability)
+M87 status: Developer Ready for Controller/QA Review (not Accepted until signed)
+Prior contract-only acceptances: M50-M80 (NOT runtime capability)
 
 ## Program Goal
 
-Keep EduCore a truthful, safe, runnable learning product core. After M82-M86 closed the
-audit → Owner rebaseline → student loop → teacher read-only → placeholder disposition cycle,
-M87 rebaselines governance and replaces any real-hardware acceptance path with **simulated
-edge/hardware constraint tests** that encode Pi/Ollama limits without requiring physical devices.
+Convert EduCore into a truthful, safe, runnable **pilot learning core**:
+
+1. Student can complete login → train → answer → server grade → BKT mastery → next/wrong.
+2. Teacher can read assigned-student progress only.
+3. Weak-network and local-AI limits are proven via **simulation profiles**, never via required physical Pi.
+4. Capability labels stay honest (Implemented / Partial / Placeholder / Simulated-testable / Deferred).
+
+Methodology: 学习培伴-style evidence honesty (borrowed as method only; `EnglandTong/learning-companion` not readable here).
 
 ## Hard Sequencing Rules
 
-1. No real Raspberry Pi / edge-device deployment or donation-kit claims in this program.
-2. CI and acceptance must not require a live Ollama daemon or physical hardware.
-3. Deferred M86 surfaces (school classes, orphan IndexedDB stores, volunteer shell) stay deferred
-   until Owner opens a new target.
-4. Only one bounded work order is active at a time: `Docs/WORK_ORDER_M87.md`.
+1. No real Raspberry Pi / edge deployment or donation-kit claims in Pilot Core.
+2. CI/QA must not require live Ollama or physical hardware.
+3. Only one active work order at a time.
+4. M88+ must not start until M87 is Controller/QA signed (or Owner explicitly supersedes).
 5. Volunteer / enterprise / matching / talent / payment remain Non-Goals.
+6. M86 deferred surfaces stay deferred until a new Owner target.
+
+## Milestone Roadmap
+
+| ID | Goal | Gate |
+|---|---|---|
+| M87 | Governance rebaseline + hardware→sim gate | QA sign `QA_M87_ACCEPTANCE_2026-09-09.md` |
+| M88 | Runtime Truth — clean start, real green | uncached checks + compose smoke + seed validation |
+| M89 | Identity & Privacy — register/authz/shared-device | Mongo deny matrix + account-switch privacy |
+| M90 | Learning Integrity — DTO/idempotency/reports/content | real API/DB learning journey |
+| M91 | Weak-Net Sim — expand edge profiles + non-mock offline | profile table + replay DB proof |
+| M92 | Minimum Pilot Loop — student+teacher demo pack | Owner readiness checklist (sim, not hardware) |
 
 ## Current Milestone Boundary (M87)
 
-1. Docs governance sync so TARGET / ACCEPTANCE / STATUS / PENDING / NEXT_ACTIONS / LOOP_* /
-   CMS / Work_Order_Active all point at M87 and record M82-M86 as closed.
-2. Injectable `ModelManager` + simulated Ollama HTTP fixture.
-3. Constraint profiles: `pi-ok`, `pi-slow`, `pi-down`, `offline-core` with automated API unit tests.
-4. Evidence under `docs/evidence/M87/`; hardware path labeled Simulated-testable / Hardware paused.
+Active work order: `docs/WORK_ORDER_M87.md`  
+Developer delivery complete; awaiting independent QA. Details: `docs/PROJECT_BOARD.md`.
 
-## In Scope
+## In Scope (Pilot Core overall)
 
-- `docs/` governance and evidence for M87
-- `apps/api/src/modules/ai/providers/manager.ts` (injectable providers; default behavior unchanged)
-- `apps/api/tests/**` simulation helpers and ModelManager fallback tests
+- `apps/api`, `apps/web`, `packages/*`, `modules/*` within each milestone’s work order
+- Simulation harnesses for edge/AI/weak-net
+- Governance + evidence under `docs/`
 
 ## Out of Scope / Non-Goals
 
-- Real Raspberry Pi, RK3566, or classroom edge station bring-up
-- Treating simulation PASS as on-device hardware delivery
-- Parent / school / volunteer collaboration expansion
-- Payment / donation activation; direct student-volunteer contact
-- Destructive deletion of M86-deferred orphans
-- Tech-stack replacement or schema migration
-- Secrets, production data, or production deployment
+- Real Pi / RK3566 classroom station; treating sim PASS as on-device delivery
+- Parent/school/volunteer expansion (unless Owner adds to M92)
+- Payment/donation activation; direct student–volunteer contact
+- Destructive deletion of M86 orphans
+- Tech-stack replacement; production deploy; real student data; secrets
 
-## Success Criteria
+## Success Criteria (program-level)
 
-- [ ] Governance files agree that M87 is active and M82-M86 are closed with notes/deferrals
-- [ ] Four edge constraint profiles pass without live Ollama or physical hardware
-- [ ] `pi-down` / `offline-core` prove honest fallback to rule engine (or next stub) with observable `providerId`
-- [ ] `pi-slow` completes inside test timeout via degrade-on-timeout, not hang
-- [ ] Docs state clearly: Hardware paused; sim gate ≠ classroom hardware ready
+- [ ] M87 Accepted by Controller/QA
+- [ ] M88–M92 each have automatic + run (+ security/sim where required) evidence
+- [ ] PROJECT_BOARD capability labels match evidence
+- [ ] No endpoint claims complete capability while returning pseudo-success
+- [ ] Hardware remains paused; sim gate documented as the substitute
 
 ## Failure Examples
 
-- Blocking acceptance because a physical Pi or host Ollama is missing
-- Claiming Implemented-on-device from simulation alone
-- Expanding deferred collaboration or payment surfaces under M87
-- Developer self-acceptance without evidence links
+- Blocking acceptance for missing physical Pi
+- Claiming classroom hardware ready from simulation alone
+- Starting M88 before M87 signoff
+- Developer self-acceptance; green typecheck as sole proof of runtime capability

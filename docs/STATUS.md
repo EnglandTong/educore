@@ -1,24 +1,36 @@
 # STATUS
 
-Last updated: 2026-09-09T00:00:00+08:00
+Last updated: 2026-09-09T16:00:00+08:00  
+Board: `docs/PROJECT_BOARD.md`
 
 ## Compressed Context
 
-- **M87 Active** — governance rebaseline + hardware-path simulation gate (no real Pi)
-- **M82-M86 CLOSED** — Accept-with-notes / Accepted-with-notes / Accepted-with-deferrals
-- Latest accepted student runtime: **M84** learning loop
-- Latest collaboration confirmation: **M85** teacher read-only assigned-student view
-- Deferred: school classes, orphan IndexedDB stores, volunteer shell (M86)
+- **Current:** M87 Ready for Controller/QA Review (hardware→sim gate delivered)
+- **Closed:** M82–M86 (audit → Owner A → student loop → teacher RO → placeholder deferrals)
+- **Planned:** Pilot Core M88 Runtime Truth → M89 Identity → M90 Learning → M91 Weak-Net Sim → M92 Pilot Loop
+- **Runtime baseline:** M84 Accept-with-notes
+- **Standing rule:** no real Pi / live Ollama as acceptance gate
 
-## Latest Verification (2026-09-09)
+## Progress Snapshot
+
+| Track | State |
+|---|---|
+| Student learning loop | Accepted-with-notes (M84) |
+| Teacher read-only | Accepted-with-notes (M85) |
+| Placeholder honesty | Accepted-with-deferrals (M86) |
+| Hardware/AI edge gate | Sim profiles green; **QA pending** (M87) |
+| Runtime/CI truth | Planned (M88) |
+| Identity/privacy P0 | Planned (M89) |
+| Pilot demo pack | Planned (M92) |
+
+## Latest Verification
 
 | Item | Result |
 |---|---|
-| M82-M86 final handoff | Recorded 2026-08-21 |
-| M87 API test | 60/60 PASS (`docs/evidence/M87/api-test.txt`) |
-| M87 API typecheck | PASS |
-| M87 work order | Ready for Controller/QA Review |
+| API test (incl. M87 sims) | 60/60 PASS — `docs/evidence/M87/api-test.txt` |
+| API typecheck | PASS |
+| PR | https://github.com/EnglandTong/educore/pull/4 |
 
 ## Active Role
 
-Developer Complete → awaiting Controller/QA on `docs/QA_M87_ACCEPTANCE_2026-09-09.md`.
+Developer Complete on M87 → **awaiting Controller/QA** on `docs/QA_M87_ACCEPTANCE_2026-09-09.md`.
