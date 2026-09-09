@@ -1,10 +1,31 @@
 ﻿# COMPLETED
 
 Status: Active
-Last updated: 2026-07-01T18:30:00+08:00
-Current planning updated: 2026-07-01T18:30:00+08:00
+Last updated: 2026-09-09T16:00:00+08:00
+Board: `docs/PROJECT_BOARD.md`
 
-## Completed Milestones
+## Recent Program Closures (2026-08 / 2026-09)
+
+- `M82 - Trusted Baseline & Full System Audit`
+  - Signoff: `Accept-with-notes` (2026-08-21)
+  - Evidence: `docs/QA_M82_ACCEPTANCE_2026-08-21.md`, `docs/REBASELINE_AUDIT.md`
+- `M83 - Owner Product & Architecture Rebaseline`
+  - Signoff: Owner Option A confirmed (2026-08-20)
+  - Evidence: `docs/M83_OWNER_DECISION_BRIEF.md`
+- `M84 - Core Learning Loop`
+  - Signoff: `Accept-with-notes` (2026-08-21)
+  - Evidence: `docs/QA_M84_ACCEPTANCE_2026-08-21.md`, `docs/evidence/M84-R1-EVIDENCE.md`
+- `M85 - Teacher Read-only Collaboration`
+  - Signoff: `Accepted-with-notes` (2026-08-21)
+  - Evidence: `docs/QA_M85_ACCEPTANCE_2026-08-21.md`
+- `M86 - Placeholder Disposition`
+  - Signoff: `Accepted-with-deferrals` (2026-08-21)
+  - Evidence: `docs/QA_M86_DISPOSITION_2026-08-21.md`, `docs/HANDOFF_M82_M86_FINAL_2026-08-21.md`
+- `M87 - Governance Rebaseline + Hardware Simulation Gate`
+  - Signoff: **Developer Complete / Ready for QA** (2026-09-09) — **not Controller Accepted yet**
+  - Evidence: `docs/QA_M87_ACCEPTANCE_2026-09-09.md`, `docs/evidence/M87/`, `docs/HANDOFF_M87_PROGRAM_DEVELOPER.md`
+
+## Historical Completed Milestones
 
 - `Local Acceptance Candidate`
   - Signed: `2026-06-19T17:49:06+08:00`

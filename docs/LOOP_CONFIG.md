@@ -2,8 +2,9 @@
 
 protocol_version: 1
 runner: generic
-status: M87 Active
+status: M87 Ready for QA; Pilot Core planned
 last_updated: 2026-09-09
+board: docs/PROJECT_BOARD.md
 
 ## Loop Budget
 
