@@ -1,20 +1,22 @@
 # CMS - Controller Milestone State
 
-Status: M82 Active
-Last updated: 2026-08-20T00:00:00+08:00
+Status: M87 Active
+Last updated: 2026-09-09T00:00:00+08:00
 
 ## Current State
 
-- Latest accepted milestone: `M80 - National Talent Development Evidence Pack` - `Accepted`
-- Current milestone: `M82 - Trusted Baseline & Full System Audit` - `Active`
-- Active work order: `Docs/WORK_ORDER_M82.md`
+- Latest closed program: `M82-M86` — closed 2026-08-21 with notes/deferrals
+- Latest accepted runtime baseline: `M84 - Student Learning Loop` — `Accept-with-notes`
+- Current milestone: `M87 - Governance Rebaseline + Hardware Simulation Gate` — `Active`
+- Active work order: `Docs/WORK_ORDER_M87.md`
 
 ## Decision
 
-M82 dispatched as an audit-only prerequisite for M83 Owner rebaseline. No product-source changes are authorized during this milestone.
+M87 replaces real-hardware acceptance with simulated edge constraint tests. Physical Pi / live
+Ollama are not required for CI or QA gates.
 
 ## Evidence Baseline
 
-- `Docs/WORK_ORDER_M82.md`
-- `docs/evidence/M82/EVIDENCE_INDEX.md`
-- Verification: M82-R1 fresh evidence (2026-08-17); mock-backed E2E limitation retained
+- `Docs/WORK_ORDER_M87.md`
+- `docs/HANDOFF_M82_M86_FINAL_2026-08-21.md`
+- `docs/evidence/M87/` (populated in M87-R3)

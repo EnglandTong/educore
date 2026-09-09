@@ -1,6 +1,7 @@
 // ==================== 模型管理器 ====================
 // 参考竞品分析结论：AI + 规则引擎混合架构
 // 自动按优先级尝试各个 Provider，直到成功
+// M87: constructor 可注入 providers，便于硬體路徑模擬測（无需真实 Pi / 本机 Ollama）
 
 import { ModelProvider, GenerateOptions, ChatOptions, GenerateResult, ProviderHealth, EmbeddingOptions, EmbeddingResult } from "./types.js";
 import { ollamaProvider } from "./ollama.js";
@@ -11,7 +12,7 @@ import { FALLBACK_RESPONSES } from "../prompt-templates.js";
  * 带规则引擎兜底的 Provider
  * 当所有 AI Provider 都不可用时，使用规则引擎返回预设回复
  */
-class RuleEngineProvider implements ModelProvider {
+export class RuleEngineProvider implements ModelProvider {
   readonly id = "rule";
   readonly name = "规则引擎 (兜底)";
   readonly priority = 999; // 最后兜底
@@ -55,18 +56,22 @@ class RuleEngineProvider implements ModelProvider {
   }
 }
 
-const ruleProvider = new RuleEngineProvider();
+export const ruleProvider = new RuleEngineProvider();
+
+function defaultProviders(): ModelProvider[] {
+  // 按优先级排序：Ollama (本地) → Ark (云端) → 规则引擎 (兜底)
+  return [ollamaProvider, arkProvider, ruleProvider];
+}
 
 /**
  * 模型管理器
  * 按优先级顺序尝试各个 Provider，直到找到可用的
  */
-class ModelManager {
+export class ModelManager {
   private providers: ModelProvider[];
   
-  constructor() {
-    // 按优先级排序：Ollama (本地) → Ark (云端) → 规则引擎 (兜底)
-    this.providers = [ollamaProvider, arkProvider, ruleProvider];
+  constructor(providers?: ModelProvider[]) {
+    this.providers = providers ? [...providers] : defaultProviders();
   }
   
   /**
@@ -93,7 +98,8 @@ class ModelManager {
     
     // 规则引擎总是可用，确保至少有一个
     if (available.length === 0) {
-      available.push(ruleProvider);
+      const rule = this.providers.find((p) => p.id === "rule") ?? ruleProvider;
+      available.push(rule);
     }
     
     return available.sort((a, b) => a.priority - b.priority);
@@ -192,5 +198,5 @@ class ModelManager {
   }
 }
 
-// 单例导出
+// 单例导出（生产默认行为不变）
 export const modelManager = new ModelManager();

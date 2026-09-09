@@ -1,23 +1,21 @@
 # PENDING
 
-Status: M82-M86 final audit / handoff
-Last updated: 2026-08-21T00:00:00+08:00
+Status: M87 Active
+Last updated: 2026-09-09T00:00:00+08:00
 
 ## Active Work
 
-- Milestone: `M85/M86 - Collaboration decision and placeholder disposition`
-- Work order: `Docs/WORK_ORDER_M85.md`, `Docs/WORK_ORDER_M86.md`
-- Status: M84 `Accept-with-notes`; M85 and M86 decisions recorded
+- Milestone: `M87 - Governance Rebaseline + Hardware Simulation Gate`
+- Work order: `Docs/WORK_ORDER_M87.md`
+- Status: Dispatched
 
-## Recently Accepted
+## Recently Closed
 
-- `M80 - National Talent Development Evidence Pack`
-- QA acceptance: `Docs/QA_M80_ACCEPTANCE.md`
-
-## Final M82-M86 Gates
-
-- Final evidence index and handoff must link each milestone decision and remaining deferral.
+- M82-M86 program (`docs/HANDOFF_M82_M86_FINAL_2026-08-21.md`)
 
 ## Not Authorized
 
-- No additional collaboration or destructive cleanup is authorized beyond the two work orders.
+- Real Raspberry Pi / edge deployment as an acceptance gate
+- Parent / school / volunteer expansion
+- Payment / donation activation
+- Destructive deletion of M86 deferred surfaces

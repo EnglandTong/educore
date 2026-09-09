@@ -1,28 +1,26 @@
 # LOOP_STATE.md — 当前循环状态（每 loop 结束更新）
 
 ## Status
-<!-- Continue / Done / Done with Risk / Blocked / Invalid State -->
 Continue
 
 ## Last Action
-<!-- 最新 loop 做了什么 -->
+M87-R1 governance rebaseline: TARGET/ACCEPTANCE/STATUS/PENDING/NEXT_ACTIONS/LOOP_*/STOP_RULES/CMS/Work_Order_Active + WORK_ORDER_M87 written; active milestone set to M87 (hardware simulation gate).
 
 ## Evidence
-Command:
-Result:
-Exit code:
-Functional check:
-Logs / screenshots / files:
+Command: docs write (governance sync)
+Result: files updated to M87 Active
+Exit code: 0
+Functional check: TARGET Status line reads M87 Program Active
+Logs / screenshots / files: `docs/TARGET.md`, `docs/WORK_ORDER_M87.md`, `docs/ACCEPTANCE.md`
 
 ## Failed Checks
 None
 
 ## Root Cause
-<!-- 失败时必填 -->
 None
 
 ## Next Action
-<!-- Status=Continue 时只有一个下一步 -->
+M87-R2: injectable ModelManager + SimOllama helper + edge profile unit tests
 
 ## Stop Rule Triggered
 No

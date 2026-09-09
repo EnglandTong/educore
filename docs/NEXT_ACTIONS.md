@@ -1,24 +1,21 @@
 # NEXT ACTIONS
 
-Status: M82-M86 final audit / handoff
-Last updated: 2026-08-21T00:00:00+08:00
+Status: M87 Active
+Last updated: 2026-09-09T00:00:00+08:00
 
 ## Current Next Action
 
-Complete final requirement-by-requirement audit and write the M82-M86 handoff; no additional feature expansion is authorized.
+Execute `Docs/WORK_ORDER_M87.md`: finish governance sync evidence, implement SimOllama +
+ModelManager injectable providers, run four edge constraint profiles, write `docs/evidence/M87/`.
 
-## Latest Accepted Milestone
+## Latest Closed Program
 
-- `M80 - National Talent Development Evidence Pack`
-- Accepted: `2026-07-06T19:00:00+08:00`
-- Evidence: `Docs/QA_M80_ACCEPTANCE.md`
+- M82-M86 final audit / handoff (2026-08-21)
 
-## M82/M83/M84/M85/M86 Handoff (in progress)
+## Latest Accepted Runtime Baseline
 
-- Fresh verification evidence under `docs/evidence/M82/`
-- Capability and permission truth matrix in `docs/REBASELINE_AUDIT.md`
-- M82 QA: `Accept-with-notes`; M84 QA: `Accept-with-notes`; M85/M86 work orders are now active
+- `M84` student learning loop (Accept-with-notes)
 
 ## Verification Baseline
 
-Latest: **M84/M85/M86 decisions recorded; final audit pending** (2026-08-21)
+Target: `pnpm --filter @educore/api test` + `typecheck` with sim profiles; no live Ollama required.

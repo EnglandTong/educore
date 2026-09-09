@@ -5,6 +5,12 @@
 import { ModelProvider, GenerateOptions, ChatOptions, GenerateResult, ProviderHealth, EmbeddingOptions, EmbeddingResult } from "./types.js";
 import { env } from "../../../config/env.js";
 
+export interface OllamaProviderConfig {
+  baseUrl?: string;
+  model?: string;
+  enabled?: boolean;
+}
+
 export class OllamaProvider implements ModelProvider {
   readonly id = "ollama";
   readonly name = "Ollama (本地模型)";
@@ -14,10 +20,10 @@ export class OllamaProvider implements ModelProvider {
   private baseUrl: string;
   private model: string;
   
-  constructor() {
-    this.baseUrl = env.OLLAMA_BASE_URL || "http://localhost:11434";
-    this.model = env.OLLAMA_MODEL || "qwen2.5:1.8b-instruct-q4_K_M";
-    this.enabled = !!env.OLLAMA_ENABLED;
+  constructor(config?: OllamaProviderConfig) {
+    this.baseUrl = config?.baseUrl ?? env.OLLAMA_BASE_URL ?? "http://localhost:11434";
+    this.model = config?.model ?? env.OLLAMA_MODEL ?? "qwen2.5:1.8b-instruct-q4_K_M";
+    this.enabled = config?.enabled ?? !!env.OLLAMA_ENABLED;
   }
   
   async generate(options: GenerateOptions): Promise<GenerateResult | null> {

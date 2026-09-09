@@ -1,21 +1,22 @@
 # STATUS
 
-Last updated: 2026-08-21T00:00:00+08:00
+Last updated: 2026-09-09T00:00:00+08:00
 
 ## Compressed Context
 
-- **M85/M86 Active** — collaboration decision and placeholder disposition after M84 acceptance
-- **M50-M80 ALL ACCEPTED** — 31 milestones complete
-- OVR-001 Owner Override: fully exercised, M50-M80 autonomous execution complete
-- Latest accepted: **M80** National Talent Development Evidence Pack
-- M82 audit deliverables accepted with notes; M84 accepted with notes; M85 read-only loop and M86 disposition accepted with notes/deferrals
+- **M87 Active** — governance rebaseline + hardware-path simulation gate (no real Pi)
+- **M82-M86 CLOSED** — Accept-with-notes / Accepted-with-notes / Accepted-with-deferrals
+- Latest accepted student runtime: **M84** learning loop
+- Latest collaboration confirmation: **M85** teacher read-only assigned-student view
+- Deferred: school classes, orphan IndexedDB stores, volunteer shell (M86)
 
-## Latest Verification (2026-08-21)
+## Latest Verification
 
-| Command | Result |
+| Item | Result |
 |---|---|
-| M85/M86 final QA | M85 accepted-with-notes; M86 accepted-with-deferrals |
+| M82-M86 final handoff | Recorded 2026-08-21 |
+| M87 work order | `Docs/WORK_ORDER_M87.md` Dispatched |
 
 ## Active Role
 
-Controller/Developer/QA — final M82-M86 audit and handoff.
+Developer executing M87-R1 → R2 → R3; Controller/QA acceptance pending evidence.

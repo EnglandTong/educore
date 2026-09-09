@@ -1,78 +1,64 @@
 # TARGET - EduCore
 
-Status: M82 Program Active (Pre-Refactor Audit & Rebaseline)
+Status: M87 Program Active (Governance Rebaseline + Hardware Simulation Gate)
 Owner: Owner (product decisions) / Controller-QA (acceptance)
-Last updated: 2026-08-16
-Latest accepted runtime baseline: M49 teacher arc (typecheck PASS, build PASS, e2e 17/17 at the time)
-Latest contract-only acceptances: M50-M80 (type/document contracts, NOT runtime capability)
-M81A status: Under Independent Re-Verification (M82-R1); Developer checkboxes are NOT acceptance
+Last updated: 2026-09-09
+Latest accepted runtime baseline: M84 student learning loop (Accept-with-notes, 2026-08-21)
+Latest collaboration confirmation: M85 teacher read-only assigned-student view (Accepted-with-notes)
+Latest placeholder disposition: M86 Accepted-with-deferrals
+Prior contract-only acceptances: M50-M80 (type/document contracts, NOT runtime capability)
 
 ## Program Goal
 
-Convert EduCore from a broad prototype + contract catalog into a truthful, safe, runnable
-learning product core. Phase order (each gated by independent QA acceptance):
-
-- M82 - Trusted Baseline & Full System Audit: produce verifiable current facts. No new features.
-- M83 - Owner Product & Architecture Rebaseline: Owner decides target, Non-Goals, first loop.
-- M84 - Core Learning Loop Refactor: one end-to-end chain only.
-- M85 - Teacher/Parent Collaboration Loop: after M84 is accepted.
-- M86 - Placeholder Disposition: productize / permanent-501 / delete / defer, per item.
+Keep EduCore a truthful, safe, runnable learning product core. After M82-M86 closed the
+audit → Owner rebaseline → student loop → teacher read-only → placeholder disposition cycle,
+M87 rebaselines governance and replaces any real-hardware acceptance path with **simulated
+edge/hardware constraint tests** that encode Pi/Ollama limits without requiring physical devices.
 
 ## Hard Sequencing Rules
 
-1. No large-scale code refactoring before M83 Owner rebaseline is signed.
-2. No expansion of volunteer/enterprise/matching/talent features before M84 is independently QA-accepted.
-3. M82 audit work (read-only verification + Docs outputs) may proceed immediately.
-4. Only one bounded work order is active at a time.
+1. No real Raspberry Pi / edge-device deployment or donation-kit claims in this program.
+2. CI and acceptance must not require a live Ollama daemon or physical hardware.
+3. Deferred M86 surfaces (school classes, orphan IndexedDB stores, volunteer shell) stay deferred
+   until Owner opens a new target.
+4. Only one bounded work order is active at a time: `Docs/WORK_ORDER_M87.md`.
+5. Volunteer / enterprise / matching / talent / payment remain Non-Goals.
 
-## Current Milestone Boundary (M82)
+## Current Milestone Boundary (M87)
 
-Docs-only outputs plus read-only verification runs. Deliverables:
-
-- `Docs/REBASELINE_AUDIT.md` (capability truth matrix + runtime chain audit + security boundary audit)
-- Current run-evidence index (fresh typecheck/test/lint/build/API/browser evidence)
-- P0/P1/P2 defect list (initial seed: `Docs/PROJECT_ROADMAP_REVIEW_2026-08-03.md` §8)
-- M81A Independent QA decision record
-- Placeholder marking confirmed (`Docs/PLACEHOLDER_ENDPOINTS.md` stays authoritative until M86)
-
-## Superseded Plans
-
-- The "M81-M85 short-term refactor slices" in the previous TARGET (dead code cleanup, mastery
-  threshold unification, weakAreaLabel extraction, roster convergence, e2e-mocks split) are
-  superseded by this program: dead-code/placeholder items fold into M82 audit + M86 disposition;
-  mastery/roster convergence folds into M84.
-- Legacy references "PERMISSION_MATRIX extraction deferred to M82" re-scope to the post-M83
-  identity/RBAC program; "placeholder 501 conversion deferred to M82+" re-scopes to M86.
-- `NEXT_STAGE_PLAN_2026-08-03.md` (R0-R7) is the reference map this program instantiates:
-  M82 ~ R0/R1 evidence, M83 ~ R0 decisions, M84-M86 ~ bounded R2/R3 slices.
+1. Docs governance sync so TARGET / ACCEPTANCE / STATUS / PENDING / NEXT_ACTIONS / LOOP_* /
+   CMS / Work_Order_Active all point at M87 and record M82-M86 as closed.
+2. Injectable `ModelManager` + simulated Ollama HTTP fixture.
+3. Constraint profiles: `pi-ok`, `pi-slow`, `pi-down`, `offline-core` with automated API unit tests.
+4. Evidence under `docs/evidence/M87/`; hardware path labeled Simulated-testable / Hardware paused.
 
 ## In Scope
 
-- `apps/api`, `apps/web`, `packages/*`, `modules/*` - READ-ONLY during M82 (verification runs only)
-- `Docs/` governance, audit, acceptance, handoffs, loop logs
+- `docs/` governance and evidence for M87
+- `apps/api/src/modules/ai/providers/manager.ts` (injectable providers; default behavior unchanged)
+- `apps/api/tests/**` simulation helpers and ModelManager fallback tests
 
-## Out of Scope / Non-Goals (until Owner signs M83)
+## Out of Scope / Non-Goals
 
-- No production deployment, secrets, credentials, real student data
-- No schema migration, tech-stack replacement, new subsystem/shared layer
-- No new ecosystem contracts (volunteer/enterprise/matching/talent types or pages)
-- No donation/payment activation; no direct student-volunteer/enterprise contact
-- No treating green typecheck/build as runtime capability
-- No self-acceptance: Developer may only mark `Ready for Controller/QA Review`
+- Real Raspberry Pi, RK3566, or classroom edge station bring-up
+- Treating simulation PASS as on-device hardware delivery
+- Parent / school / volunteer collaboration expansion
+- Payment / donation activation; direct student-volunteer contact
+- Destructive deletion of M86-deferred orphans
+- Tech-stack replacement or schema migration
+- Secrets, production data, or production deployment
 
 ## Success Criteria
 
-- [ ] M82 audit accepted: every major capability labeled Implemented / Partial / Contract Only /
-      Placeholder / Disabled / Future, backed by fresh run evidence
-- [ ] M81A receives explicit Controller/QA decision from independent evidence
-- [ ] M83 Owner decision record signed (target user, first loop, Non-Goals, deferred features)
-- [ ] M84 core learning loop has unit + API/integration + browser evidence, one mastery authority,
-      honest failure semantics, idempotent offline queue
-- [ ] No endpoint returns pseudo-success for incomplete capability (M86 dispositions all items)
+- [ ] Governance files agree that M87 is active and M82-M86 are closed with notes/deferrals
+- [ ] Four edge constraint profiles pass without live Ollama or physical hardware
+- [ ] `pi-down` / `offline-core` prove honest fallback to rule engine (or next stub) with observable `providerId`
+- [ ] `pi-slow` completes inside test timeout via degrade-on-timeout, not hang
+- [ ] Docs state clearly: Hardware paused; sim gate ≠ classroom hardware ready
 
 ## Failure Examples
 
-- Marking a placeholder or contract-only milestone as delivered capability
-- Accepting on type/build green alone; mock-only or screenshot-only evidence
-- Starting M84 refactoring before M83 signoff
-- Developer self-acceptance; stale evidence overriding fresh failures
+- Blocking acceptance because a physical Pi or host Ollama is missing
+- Claiming Implemented-on-device from simulation alone
+- Expanding deferred collaboration or payment surfaces under M87
+- Developer self-acceptance without evidence links

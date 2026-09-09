@@ -1,8 +1,8 @@
-# STOP_RULES - M82-M86 Program
+# STOP_RULES - M87 Program
 
 Status: Active
 Governance: Large + Full
-Last updated: 2026-08-16 (supersedes M50-era rules; OVR-001 loop-budget override expired at M80 acceptance and is not renewed)
+Last updated: 2026-09-09 (supersedes M82-M86 program-specific stops where they conflict with M87)
 
 ## Hard stops (always ask Owner / Controller first)
 
@@ -17,16 +17,17 @@ Last updated: 2026-08-16 (supersedes M50-era rules; OVR-001 loop-budget override
    the active milestone or scope -> stop and reconcile before any task
 9. Outside review scope: security disclosure, data export, media claims
 
-## Program-specific stops (M82-M86)
+## Program-specific stops (M87)
 
-- S1: No large-scale code refactoring before M83 Owner rebaseline is signed
-- S2: No expansion of volunteer/enterprise/matching/talent features before M84 is
-     independently QA-accepted
-- S3: M82 loops must not modify `apps/`, `packages/`, `modules/` source; findings go to Docs only
-- S4: No milestone may be marked Accepted without its evidence class complete (see ACCEPTANCE.md)
-- S5: Historical PASS never overrides fresh failing evidence
-- S6: A failed verification command must not be retried more than twice in one loop; then stop
-- S7: If audit evidence contradicts the current TARGET/ACCEPTANCE text, stop and reconcile first
+- S1: Do **not** block acceptance because a physical Raspberry Pi or host Ollama is missing;
+     simulated edge constraint tests are the authorized gate
+- S2: Do not claim on-device / classroom hardware delivery from simulation PASS alone
+- S3: Do not expand parent / school / volunteer / payment surfaces under M87
+- S4: Do not destructively delete M86-deferred orphans without a separate Owner target
+- S5: No milestone may be marked Accepted without its evidence class complete (see ACCEPTANCE.md)
+- S6: Historical PASS never overrides fresh failing evidence
+- S7: A failed verification command must not be retried more than twice in one loop; then stop
+- S8: If audit evidence contradicts the current TARGET/ACCEPTANCE text, stop and reconcile first
 
 ## Loop budget stops
 
@@ -37,6 +38,5 @@ Last updated: 2026-08-16 (supersedes M50-era rules; OVR-001 loop-budget override
 
 1. Record command, exit code, output tail in LOOP_STATE.md
 2. Classify: environment / flaky / real defect
-3. Real defect -> add to P0/P1/P2 list, do not fix within an audit loop (M82) unless Controller
-   explicitly dispatches a fix loop
+3. Real defect -> fix only inside the active M87 work-order boundary; otherwise stop for Controller
 4. Two consecutive same-signature failures -> stop, write HANDOFF.md, await Controller
