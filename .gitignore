@@ -6,6 +6,9 @@ node_modules/
 dist/
 .next/
 .turbo/
+# TypeScript incremental build cache (must not be committed: dist/ is ignored,
+# so a committed cache makes tsc skip declaration emit on fresh clones).
+*.tsbuildinfo
 
 # Environment
 .env
